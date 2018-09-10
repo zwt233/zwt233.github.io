@@ -40,7 +40,7 @@ Selected Publications
 [Full List on Google Scholar](https://scholar.google.com/citations?hl=en&user=h6gVF8YAAAAJ)
 1. Lele Yu, Ce Zhang, **Yingxia Shao**, Bin Cui. [LDA*: A Robust and Large-scale Topic Modeling System](http://net.pku.edu.cn/~cuibin/Papers/2017VLDB%20LDA.pdf), PVLDB 10(11): 2017
 1. **Yingxia Shao**, Kai Lei, Lei Chen, Zi Huang, Bin Cui, Zhongyi Liu, Yunhai Tong, Jin Xu, [Fast Parallel Path Concatenation for Graph Extraction](http://net.pku.edu.cn/~cuibin/Papers/2017tkde.pdf), TKDE 2017
-1. Zhipeng Zhang, **Yingxia Shao**, Bin Cui, Ce Zhang. [An Experimental Evaluation of SimRankbased Similarity Search Algorithms](http://net.pku.edu.cn/~cuibin/Papers/2017VLDB-simrank.pdf), VLDB 2017
+1. Zhipeng Zhang, **Yingxia Shao**, Bin Cui, Ce Zhang. [An Experimental Evaluation of SimRank based Similarity Search Algorithms](http://net.pku.edu.cn/~cuibin/Papers/2017VLDB-simrank.pdf), VLDB 2017
 1. Xiaogang Shi, Bin Cui, **Yingxia Shao**, Yunhai Tong, [Tornado: A System For Real-Time Iterative Analysis Over Evolving Data](http://net.pku.edu.cn/~cuibin/Papers/2016SIGMOD.pdf), SIGMOD 2016
 1. Hongzhi Yin, Xiaofang Zhou, **Yingxia Shao**, Hao Wang, Shazia Sadiq, [Joint Modeling of User Check-in Behaviors for Point-of-Interest Recommendation](/files/43-yin-yxshao.pdf), CIKM 2015
 1. **Yingxia Shao**, Bin Cui, Lei Chen, Mingming Liu, Xing Xie, [An Efficient Similarity Search Framework for SimRank over Large Dynamic Graphs](http://net.pku.edu.cn/~cuibin/Papers/2015VLDB.pdf). PVLDB 2015
