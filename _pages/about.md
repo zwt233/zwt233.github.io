@@ -21,7 +21,7 @@ Yingxia Shao is an Associate Researcher at School of Computer Science, Beijing U
 He obtained his PhD from Peking University 2016, advised by [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/). 
 He worked with [Prof. Lei Chen](http://www.cs.ust.hk/~leichen/) as a visiting scholar at HKUST in 2013 and 2014.
 He has served in the Technical Program Committee of various international conferences including VLDB, AAAI, IJCAI, APWeb-WAIM and MDM. He is serving as a reviewer of internatinal journals including VLDBJ, WWWJ, DSE. 
-He was awarded Google PhD Fellowship (2014), MSRA Fellowship (2014), PhD National Scholarship of MOE China (2014).
+He was awarded Google PhD Fellowship (2014), MSRA Fellowship (2014), PhD National Scholarship of MOE China (2014), ACM SIGMOD China Doctoral Dissertation Award (2017).
 
 He is a member of ACM and member of CCF.
 
