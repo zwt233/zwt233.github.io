@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,43 +8,72 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Shao Yingxia (邵蓥侠)
+====
+Associate Reseacher, PhD Advisor (with Researcher Title)
 
-A data-driven personal website
+Email: shaoyx [AT] bupt.edu.cn
+<!-- Addr: Room 816, #3 Building, BUPT -->
+
+Bio
+====
+Shao Yingxia is an Associate Researcher at School of Computer Science, Beijing University of Posts and Telecommunications. 
+He obtained his Ph.D from Peking University 2016, advised by [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/). He has served in the Technical Program Committee of various international conferences including VLDB, AAAI, IJCAI, APWeb-WAIM and MDM. He is serving as a reviewer of internatinal journals including VLDBJ, WWWJ, DSE. 
+He was awarded Google PhD. Fellowship (2014), MSRA Fellowship (2014), Phd National Scholarship of MOE China (2014).
+
+He is a member of ACM and member of CCF.
+
+<font color="blue">
+NOTE: I'm always looking for highly self-motivated students to work with me as PhD and/or master students. 
+Candidates who are interested please contact me directly.
+</font>
+
+
+Research Interests
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Knowledge Graph Management, Network/Graph Embedding, Large-scale Graph Processing & Analysis
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
+Selected Publications
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+[Full List on Google Scholar](https://scholar.google.com/citations?hl=en&user=h6gVF8YAAAAJ)
+1. Lele Yu, Ce Zhang, **Yingxia Shao**, Bin Cui. [LDA*: A Robust and Large-scale Topic Modeling System](http://net.pku.edu.cn/~cuibin/Papers/2017VLDB%20LDA.pdf), PVLDB 10(11): 2017
+1. **Yingxia Shao**, Kai Lei, Lei Chen, Zi Huang, Bin Cui, Zhongyi Liu, Yunhai Tong, Jin Xu, [Fast Parallel Path Concatenation for Graph Extraction](http://net.pku.edu.cn/~cuibin/Papers/2017tkde.pdf), TKDE 2017
+1. Zhipeng Zhang, **Yingxia Shao**, Bin Cui, Ce Zhang. [An Experimental Evaluation of SimRankbased Similarity Search Algorithms](http://net.pku.edu.cn/~cuibin/Papers/2017VLDB-simrank.pdf), VLDB 2017
+1. Xiaogang Shi, Bin Cui, **Yingxia Shao**, Yunhai Tong, [Tornado: A System For Real-Time Iterative Analysis Over Evolving Data](http://net.pku.edu.cn/~cuibin/Papers/2016SIGMOD.pdf), SIGMOD 2016
+1. Hongzhi Yin, Xiaofang Zhou, **Yingxia Shao**, Hao Wang, Shazia Sadiq, [Joint Modeling of User Check-in Behaviors for Point-of-Interest Recommendation](/files/43-yin-yxshao.pdf), CIKM 2015
+1. **Yingxia Shao**, Bin Cui, Lei Chen, Mingming Liu, Xing Xie, [An Efficient Similarity Search Framework for SimRank over Large Dynamic Graphs](http://net.pku.edu.cn/~cuibin/Papers/2015VLDB.pdf). PVLDB 2015
+1. Lele Yu, **Yingxia Shao**, Bin Cui, [Exploiting matrix dependency for efficient distributed matrix computation](http://net.pku.edu.cn/~cuibin/Papers/2015-SIGMOD-DMac.pdf). SIGMOD 2015
+1. **Yingxia Shao**, Bin Cui, Lin Ma, [PAGE: A Partition Aware Engine for Parallel Graph Computation](http://net.pku.edu.cn/~cuibin/Papers/2014-TKDE_PAGE.pdf). TKDE 2015
+1. Ning Xu, Bin Cui, Lei Chen, Zi Huang, **Yingxia Shao**, [Heterogeneous Environment Aware Streaming Graph Partitioning](http://net.pku.edu.cn/~cuibin/Papers/2015TKDE.pdf), TKDE, 2015
+1. **Yingxia Shao**, Bin Cui, Lei Chen, Lin Ma, Junjie Yao, Ning Xu, [Parallel Subgraph Listing in a Large Scale Graph](http://net.pku.edu.cn/~cuibin/Papers/2014-SIGMOD_subgraphlisting.pdf). SIGMOD 2014
+1. **Yingxia Shao**, Lei Chen, Bin Cui, [Efficient Cohesive Subgraphs Detection in Parallel](http://net.pku.edu.cn/~cuibin/Papers/2014-SIGMOD_CohensiveSubgraph.pdf). SIGMOD 2014
+1. **Yingxia Shao**, Junjie Yao, Bin Cui, Lin Ma, [PAGE: A Partition Aware Graph Computation Engine](/files/km0677s-shao.pdf). CIKM 2013
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Academic Services
+======
+- Selected Conference PC Membership
+    - VLDB: 2019
+    - AAAI: 2019
+    - IJCAI-ECAI: 2018
+    - MDM: 2018
+    - APWeb-WAIM: 2017
 
-**Markdown generator**
+- Journal Reviewers
+    - VLDBJ, WWWJ, DSE
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+Research Grants
+=====
+- Ad-hoc generation of weighted graph with complex relation on large-scale knowledge graph. China Postdoctoral Science Foundation No. 2017M610020, 2017-2018
+- Querying similar nodes on large-scale knowledge graphs. NSFC No. 61702015, 2018-2020
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<!-- Honors
+====
+Sohu Scholarship of PKU-NET Lab, 2015
+Qualcomm Felloship, 2015
+One of ``Top ten student pivots in research of EECS, PKU, 2015''
+MSRA Fellowship, 2014
+Google PhD Fellowship, 2014
+SIGMOD 2014 Programming Contest, one of the five finalists
+SIGMOD Travel Award, 2014
+2013-2014 Phd National Scholarship -->
