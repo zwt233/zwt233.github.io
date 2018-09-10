@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Shao Yingxia (邵蓥侠)
+Yingxia Shao (邵蓥侠)
 ====
 Associate Reseacher, PhD Advisor (with Researcher Title)
 
@@ -17,14 +17,16 @@ Email: shaoyx [AT] bupt.edu.cn
 
 Bio
 ====
-Shao Yingxia is an Associate Researcher at School of Computer Science, Beijing University of Posts and Telecommunications. 
-He obtained his Ph.D from Peking University 2016, advised by [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/). He has served in the Technical Program Committee of various international conferences including VLDB, AAAI, IJCAI, APWeb-WAIM and MDM. He is serving as a reviewer of internatinal journals including VLDBJ, WWWJ, DSE. 
-He was awarded Google PhD. Fellowship (2014), MSRA Fellowship (2014), Phd National Scholarship of MOE China (2014).
+Yingxia Shao is an Associate Researcher at School of Computer Science, Beijing University of Posts and Telecommunications. 
+He obtained his PhD from Peking University 2016, advised by [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/). 
+He worked with [Prof. Lei Chen](http://www.cs.ust.hk/~leichen/#Research) as a visiting scholar at HKUST in 2013 and 2014.
+He has served in the Technical Program Committee of various international conferences including VLDB, AAAI, IJCAI, APWeb-WAIM and MDM. He is serving as a reviewer of internatinal journals including VLDBJ, WWWJ, DSE. 
+He was awarded Google PhD Fellowship (2014), MSRA Fellowship (2014), PhD National Scholarship of MOE China (2014).
 
 He is a member of ACM and member of CCF.
 
 <font color="blue">
-NOTE: I'm always looking for highly self-motivated students to work with me as PhD and/or master students. 
+NOTE: I'm looking for highly self-motivated students to work with me as PhD and/or master students. 
 Candidates who are interested please contact me directly.
 </font>
 
@@ -55,9 +57,9 @@ Academic Services
 - Selected Conference PC Membership
     - VLDB: 2019
     - AAAI: 2019
-    - IJCAI-ECAI: 2018
+    - IJCAI: 2018
     - MDM: 2018
-    - APWeb-WAIM: 2017
+    - APWeb-WAIM: 2017, 2018
 
 - Journal Reviewers
     - VLDBJ, WWWJ, DSE
