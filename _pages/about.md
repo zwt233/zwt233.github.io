@@ -58,6 +58,7 @@ Academic Services
     - VLDB: 2019
     - AAAI: 2019
     - IJCAI: 2018
+    - BigData: 2018
     - MDM: 2018
     - APWeb-WAIM: 2017, 2018
 
