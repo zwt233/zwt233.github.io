@@ -38,7 +38,7 @@ Knowledge Graph Management, Network/Graph Embedding, Large-scale Graph Processin
 Selected Publications
 ======
 [Full List on Google Scholar](https://scholar.google.com/citations?hl=en&user=h6gVF8YAAAAJ)
-1. Jinyang Gao, Junjie Yao, **Yingxia Shao**. [Can We Obtain Reliable Learning Results for High Stakes Applications?], AAAI 2019
+1. Jinyang Gao, Junjie Yao, **Yingxia Shao**. Can We Obtain Reliable Learning Results for High Stakes Applications?, AAAI 2019
 1. Zichen Wang, Tian Li, **Yingxia Shao**, Bin Cui. CUTE: Querying Knowledge Graphs by Tabular Examples, APWeb-WAIM, 2018
 1. Lele Yu, Lingyu Wang, **Yingxia Shao**, Long Guo, Bin Cui. GLM+: An Efficient System for Generalized Linear Models, BigComp, 2018
 1. Lele Yu, Ce Zhang, **Yingxia Shao**, Bin Cui. [LDA*: A Robust and Large-scale Topic Modeling System](http://net.pku.edu.cn/~cuibin/Papers/2017VLDB%20LDA.pdf), PVLDB 10(11): 2017
