@@ -10,17 +10,17 @@ redirect_from:
 
 Yingxia Shao (邵蓥侠)
 ====
-Associate Reseacher, PhD Advisor (with Researcher Title)
+Associate Professor, PhD Advisor (with Researcher Title)
 
 Email: shaoyx [AT] bupt.edu.cn
 <!-- Addr: Room 816, #3 Building, BUPT -->
 
 Bio
 ====
-Yingxia Shao is an Associate Researcher at School of Computer Science, Beijing University of Posts and Telecommunications. 
+Yingxia Shao is a Research Associate Professor at School of Computer Science, Beijing University of Posts and Telecommunications. 
 He obtained his PhD from Peking University 2016, advised by [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/). 
 He worked with [Prof. Lei Chen](http://www.cs.ust.hk/~leichen/) as a visiting scholar at HKUST in 2013 and 2014.
-He has served in the Technical Program Committee of various international conferences including VLDB, AAAI, IJCAI, APWeb-WAIM and MDM. He is serving as a reviewer of internatinal journals including VLDBJ, WWWJ, DSE. 
+He has served in the Technical Program Committee of various international conferences including VLDB, AAAI, IJCAI, BigData, APWeb-WAIM and MDM. He is serving as a reviewer of internatinal journals including VLDBJ, WWWJ, DSE. 
 He was awarded Google PhD Fellowship (2014), MSRA Fellowship (2014), PhD National Scholarship of MOE China (2014), ACM SIGMOD China Doctoral Dissertation Award (2017).
 
 He is a member of ACM and member of CCF.
@@ -39,7 +39,7 @@ Selected Publications
 ======
 [Full List on Google Scholar](https://scholar.google.com/citations?hl=en&user=h6gVF8YAAAAJ)
 1. Jinyang Gao, Junjie Yao, **Yingxia Shao**. Towards Reliable Learning for High Stakes Applications, AAAI 2019
-1. Zichen Wang, Tian Li, **Yingxia Shao**, Bin Cui. CUTE: Querying Knowledge Graphs by Tabular Examples, APWeb-WAIM, 2018
+1. Zichen Wang, Tian Li, **Yingxia Shao**, Bin Cui. CUTE: Querying Knowledge Graphs by Tabular Examples (Demo), APWeb-WAIM, 2018
 1. Lele Yu, Lingyu Wang, **Yingxia Shao**, Long Guo, Bin Cui. GLM+: An Efficient System for Generalized Linear Models, BigComp, 2018
 1. Lele Yu, Ce Zhang, **Yingxia Shao**, Bin Cui. [LDA*: A Robust and Large-scale Topic Modeling System](http://net.pku.edu.cn/~cuibin/Papers/2017VLDB%20LDA.pdf), PVLDB 10(11): 2017
 1. **Yingxia Shao**, Kai Lei, Lei Chen, Zi Huang, Bin Cui, Zhongyi Liu, Yunhai Tong, Jin Xu, [Fast Parallel Path Concatenation for Graph Extraction](http://net.pku.edu.cn/~cuibin/Papers/2017tkde.pdf), TKDE 2017
@@ -54,13 +54,20 @@ Selected Publications
 1. **Yingxia Shao**, Lei Chen, Bin Cui, [Efficient Cohesive Subgraphs Detection in Parallel](http://net.pku.edu.cn/~cuibin/Papers/2014-SIGMOD_CohensiveSubgraph.pdf). SIGMOD 2014
 1. **Yingxia Shao**, Junjie Yao, Bin Cui, Lin Ma, [PAGE: A Partition Aware Graph Computation Engine](/files/km0677s-shao.pdf). CIKM 2013
 
+<!-- Chinese Journals
+======
+1. Jiang Jiawei, Fu Fangchen, **Shao Yingxia**, Cui Bin. Ruan Jian Xue ao/Journal of Software, 2018,29(3):1−14 (in Chinese)
+1. Shi Shuyang, Zhang Zhipeng, Guo Long, **Shao Yingxia**, Cui Bin. Resume Activeness Prediction in Online Recruitment Scenarios. Journal of Frontiers of Computer Science and Technology, 2018, 12(5): 730-740 (in Chinese)
+1. Jialin Liu, Shuyang Shi, Yuemei Zhang, **Yingxia Shao**, Bin Cui. RoleMatch: An effective and efficient approach of graph deanonymization. Ruan Jian Xue Bao/Journal of Software, 2018,29(3):1−14 (in Chinese)
+1. Quanglong Huang, Yanxiang Huang, **Yingxia Shao**, Jia Meng, Xinqi Ren, Bin Cui, Shicong Feng, HybriG: A Distributed Architecture for Property Graph with Large Set of Multi-edges, Chinese Journal of Computers 2017,40(61) (in Chinese)
+1. **Yingxia Shao**, Bin Cui, Lin Ma, Hongzhi Yin, A Fast Sketch-based Approach of Top-k Closeness Centrality Search on Large Networks, Chinese Journal of Computers, 2016,39(10):1965-1978 (in Chinese) -->
 
 Academic Services
 ======
 - Selected Conference PC Membership
     - VLDB: 2019
     - AAAI: 2019
-    - IJCAI: 2018
+    - IJCAI: 2018, 2019
     - BigData: 2018
     - MDM: 2018, 2019
     - APWeb-WAIM: 2017, 2018
