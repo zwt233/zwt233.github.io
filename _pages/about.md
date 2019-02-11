@@ -38,6 +38,8 @@ Knowledge Graph Management, Network/Graph Embedding, Large-scale Graph Processin
 Selected Publications
 ======
 [Full List on Google Scholar](https://scholar.google.com/citations?hl=en&user=h6gVF8YAAAAJ)
+1. Zhipeng Zhang, Bin Cui, **Yingxia Shao**, Lele Yu, Jiawei Jiang, Xupeng Miao. PS2: Parameter Server on Spark. SIGMOD 2019
+1. Yongqi Zhang, Quanming Yao, **Yingxia Shao**, Lei Chen. NSCaching: Simple and Efficient Negative Sampling for Knowledge Graph Embedding, ICDE 2019
 1. Haobao Sun, **Yingxia Shao**, Jiawei Jiang, Bin Cui, Kai Lei, Yu Xu, Jiang Wang. Sparse Gradient Compression for Distributed SGD, DASFAA 2019
 1. Jinyang Gao, Junjie Yao, **Yingxia Shao**. Towards Reliable Learning for High Stakes Applications, AAAI 2019
 1. Zichen Wang, Tian Li, **Yingxia Shao**, Bin Cui. CUTE: Querying Knowledge Graphs by Tabular Examples (Demo), APWeb-WAIM, 2018
@@ -72,7 +74,7 @@ Academic Services
     - IJCAI: 2018, 2019
     - BigData: 2018
     - MDM: 2018, 2019
-    - APWeb-WAIM: 2017, 2018
+    - APWeb-WAIM: 2017, 2018, 2019
 
 - Journal Reviewers
     - VLDBJ, WWWJ, DSE
