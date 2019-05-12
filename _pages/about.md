@@ -20,10 +20,10 @@ Bio
 Yingxia Shao is a Research Associate Professor at School of Computer Science, Beijing University of Posts and Telecommunications. 
 He obtained his PhD from Peking University 2016, advised by [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/). 
 He worked with [Prof. Lei Chen](http://www.cs.ust.hk/~leichen/) as a visiting scholar at HKUST in 2013 and 2014.
-He has served in the Technical Program Committee of various international conferences including VLDB, AAAI, IJCAI, BigData, APWeb-WAIM and MDM. He is serving as a reviewer of internatinal journals including VLDBJ, WWWJ, DSE. 
+He has served in the Technical Program Committee of various international conferences including VLDB, KDD, AAAI, IJCAI, BigData, APWeb-WAIM and MDM. He is serving as a reviewer of international journals including VLDBJ, WWWJ, DSE. 
 He was awarded Google PhD Fellowship (2014), MSRA Fellowship (2014), PhD National Scholarship of MOE China (2014), ACM SIGMOD China Doctoral Dissertation Award (2017).
 
-He is a member of ACM and member of CCF.
+He is a member of ACM, member of IEEE, member of CCF and member of China Database technical committee.
 
 <font color="blue">
 NOTE: I'm looking for highly self-motivated students to work with me as PhD and/or master students. 
@@ -38,6 +38,7 @@ Knowledge Graph Management, Network/Graph Embedding, Large-scale Graph Processin
 Selected Publications
 ======
 [Full List on Google Scholar](https://scholar.google.com/citations?hl=en&user=h6gVF8YAAAAJ)
+1. **Yingxia Shao**, Jialin Liu, Shuyang Shi, Yuemei Zhang, Bin Cui. Fast De-anonymization of Social Networks with Structural Information, Data Science and Engineering, (2019) 4: 76.
 1. Zhipeng Zhang, Bin Cui, **Yingxia Shao**, Lele Yu, Jiawei Jiang, Xupeng Miao. PS2: Parameter Server on Spark. SIGMOD 2019
 1. Yongqi Zhang, Quanming Yao, **Yingxia Shao**, Lei Chen. NSCaching: Simple and Efficient Negative Sampling for Knowledge Graph Embedding, ICDE 2019
 1. Haobao Sun, **Yingxia Shao**, Jiawei Jiang, Bin Cui, Kai Lei, Yu Xu, Jiang Wang. Sparse Gradient Compression for Distributed SGD, DASFAA 2019
