@@ -38,6 +38,7 @@ Knowledge Graph Management, Network/Graph Embedding, Large-scale Graph Processin
 Selected Publications
 ======
 [Full List on Google Scholar](https://scholar.google.com/citations?hl=en&user=h6gVF8YAAAAJ)
+1. Fangcheng Fu, Jiawei Jiang, **Yingxia Shao**, Bin Cui. An Experimental Evaluation of Large Scale GBDT Systems. VLDB 2019
 1. **Yingxia Shao**, Jialin Liu, Shuyang Shi, Yuemei Zhang, Bin Cui. Fast De-anonymization of Social Networks with Structural Information, Data Science and Engineering, (2019) 4: 76.
 1. Zhipeng Zhang, Bin Cui, **Yingxia Shao**, Lele Yu, Jiawei Jiang, Xupeng Miao. PS2: Parameter Server on Spark. SIGMOD 2019
 1. Yongqi Zhang, Quanming Yao, **Yingxia Shao**, Lei Chen. NSCaching: Simple and Efficient Negative Sampling for Knowledge Graph Embedding, ICDE 2019
