@@ -38,13 +38,17 @@ Knowledge Graph Management, Network/Graph Representation, Large-scale Graph Proc
 Selected Publications
 ======
 [Full List on Google Scholar](https://scholar.google.com/citations?hl=en&user=h6gVF8YAAAAJ)
+1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui, Efficient Diversity-Driven Ensemble for Deep Neural Networks, ICDE 2020
+1. Yushun Dong, **Yingxia Shao**, Xiaotong Li, Sili Li, Lei Quan, Wei Zhang and Junping Du, Forecasting Pavement Performance with a Feature Fusion LSTM-BPNN Model, CIKM 2019
+<!-- CNN Compression-Recovery Framework via Rank Allocation Decomposition with Knowledge Transfer -->
 1. Fangcheng Fu, Jiawei Jiang, **Yingxia Shao**, Bin Cui. An Experimental Evaluation of Large Scale GBDT Systems. VLDB 2019
 1. **Yingxia Shao**, Jialin Liu, Shuyang Shi, Yuemei Zhang, Bin Cui. Fast De-anonymization of Social Networks with Structural Information, Data Science and Engineering, (2019) 4: 76.
 1. Zhipeng Zhang, Bin Cui, **Yingxia Shao**, Lele Yu, Jiawei Jiang, Xupeng Miao. PS2: Parameter Server on Spark. SIGMOD 2019
 1. Yongqi Zhang, Quanming Yao, **Yingxia Shao**, Lei Chen. NSCaching: Simple and Efficient Negative Sampling for Knowledge Graph Embedding, ICDE 2019
 1. Jinyang Gao, Junjie Yao, **Yingxia Shao**. Towards Reliable Learning for High Stakes Applications, AAAI 2019
 1. Haobao Sun, **Yingxia Shao**, Jiawei Jiang, Bin Cui, Kai Lei, Yu Xu, Jiang Wang. Sparse Gradient Compression for Distributed SGD, DASFAA 2019
-1. Huanran Xue, Jiawei Jiang, **Yingxia Shaol, Bin Cui1. FeatureBand: A Feature Selection Method by Combining Early Stopping and Genetic Local Search. APWeb-WAIM 2019
+1. Huanran Xue, Jiawei Jiang, **Yingxia Shao**, Bin Cui. FeatureBand: A Feature Selection Method by Combining Early Stopping and Genetic Local Search. APWeb-WAIM 2019
+1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui. Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks. SCIENCE CHINA, Information Sciences, 2019
 1. Zichen Wang, Tian Li, **Yingxia Shao**, Bin Cui. CUTE: Querying Knowledge Graphs by Tabular Examples (Demo), APWeb-WAIM, 2018
 1. Lele Yu, Lingyu Wang, **Yingxia Shao**, Long Guo, Bin Cui. GLM+: An Efficient System for Generalized Linear Models, BigComp, 2018
 1. Lele Yu, Ce Zhang, **Yingxia Shao**, Bin Cui. [LDA*: A Robust and Large-scale Topic Modeling System](http://net.pku.edu.cn/~cuibin/Papers/2017VLDB%20LDA.pdf), PVLDB 10(11): 2017
