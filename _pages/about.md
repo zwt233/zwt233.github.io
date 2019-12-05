@@ -81,7 +81,7 @@ Academic Services
     - VLDB: 2019
     - KDD: 2019
     - AAAI: 2019, 2020
-    - IJCAI: 2018, 2019
+    - IJCAI: 2018, 2019, 2020
     - DASFAA: 2020 (Publicity Co-Chair)
     - BigData: 2018, 2019
     - MDM: 2018, 2019
