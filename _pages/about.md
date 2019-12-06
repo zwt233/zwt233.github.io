@@ -92,8 +92,9 @@ Academic Services
 
 Research Grants
 =====
-- Ad-hoc generation of weighted graph with complex relation on large-scale knowledge graph. China Postdoctoral Science Foundation No. 2017M610020, 2017-2018
+- Research on Key Techniques of Knowledge Graph-Based Social Media Management and Analysis. NSFC No. U1936104, 2020-2022
 - Querying similar nodes on large-scale knowledge graphs. NSFC No. 61702015, 2018-2020
+- Ad-hoc generation of weighted graph with complex relation on large-scale knowledge graph. China Postdoctoral Science Foundation No. 2017M610020, 2017-2018
 
 <!-- Honors
 ====
