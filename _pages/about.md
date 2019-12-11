@@ -85,7 +85,7 @@ Academic Services
     - DASFAA: 2020 (Publicity Co-Chair)
     - BigData: 2018, 2019
     - MDM: 2018, 2019
-    - APWeb-WAIM: 2017, 2018, 2019
+    - APWeb-WAIM: 2017, 2018, 2019 (SPC)
 
 - Journal Reviewers
     - VLDBJ, WWWJ, DSE
