@@ -51,7 +51,7 @@ Selected Publications
 1. Jinyang Gao, Junjie Yao, **Yingxia Shao**. Towards Reliable Learning for High Stakes Applications, AAAI 2019
 1. Haobao Sun, **Yingxia Shao**, Jiawei Jiang, Bin Cui, Kai Lei, Yu Xu, Jiang Wang. Sparse Gradient Compression for Distributed SGD, DASFAA 2019
 1. Huanran Xue, Jiawei Jiang, **Yingxia Shao**, Bin Cui. FeatureBand: A Feature Selection Method by Combining Early Stopping and Genetic Local Search. APWeb-WAIM 2019
-1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui. Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks. SCIENCE CHINA, Information Sciences, 2019
+<!-- 1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui. Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks. SCIENCE CHINA, Information Sciences, 2019 -->
 1. Zichen Wang, Tian Li, **Yingxia Shao**, Bin Cui. CUTE: Querying Knowledge Graphs by Tabular Examples (Demo), APWeb-WAIM, 2018
 1. Lele Yu, Lingyu Wang, **Yingxia Shao**, Long Guo, Bin Cui. GLM+: An Efficient System for Generalized Linear Models, BigComp, 2018
 1. Lele Yu, Ce Zhang, **Yingxia Shao**, Bin Cui. [LDA*: A Robust and Large-scale Topic Modeling System](http://net.pku.edu.cn/~cuibin/Papers/2017VLDB%20LDA.pdf), PVLDB 10(11): 2017
