@@ -38,10 +38,11 @@ Knowledge Graph Management, Network/Graph Representation, Large-scale Graph Proc
 Selected Publications
 ======
 [Full List on Google Scholar](https://scholar.google.com/citations?hl=en&user=h6gVF8YAAAAJ)
-1. **Yingxia Shao**, Shiyue Huang, Xupeng Miao, Bin Cui, Lei Chen, Memory-Aware Framework for Efficient Second-Order Random Walk on Large Graphs, SIGMOD 2020 [Accepted]
-1. **Yingxia Shao**, Xupeng Li, Yiru Chen, Lele Yu, Bin Cui, Sys-TM: A Fast and General Topic Modeling System, TKDE 2020 [Accepted]
-1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui, Efficient Diversity-Driven Ensemble for Deep Neural Networks, ICDE 2020 [Accepted]
-1. Yang Li, Jiawei Jiang, Jinyang Gao, Yingxia Shao, Ce Zhang, Bin Cui, Efficient Automatic CASH via Rising Bandits, AAAI 2020 [Accepted]
+1. **Yingxia Shao**, Shiyue Huang, Xupeng Miao, Bin Cui, Lei Chen, Memory-Aware Framework for Efficient Second-Order Random Walk on Large Graphs, SIGMOD 2020
+1. **Yingxia Shao**, Xupeng Li, Yiru Chen, Lele Yu, Bin Cui, Sys-TM: A Fast and General Topic Modeling System, TKDE 2020
+1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui, Efficient Diversity-Driven Ensemble for Deep Neural Networks, ICDE 2020 
+1. Yang Li, Jiawei Jiang, Jinyang Gao, Yingxia Shao, Ce Zhang, Bin Cui, Efficient Automatic CASH via Rising Bandits, AAAI 2020 
+1. Jiawei Jiang, Fangcheng Fu, Tong Yang, **Yingxia Shao**, Bin Cui, SKCompress: compressing sparse and nonuniform gradient in distributed machine learning. The VLDB Journal (2020)
 1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui. Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks. Sci China Inf Sci, 2020, 63(1): 112102
 1. Yushun Dong, **Yingxia Shao**, Xiaotong Li, Sili Li, Lei Quan, Wei Zhang, Junping Du, Forecasting Pavement Performance with a Feature Fusion LSTM-BPNN Model, CIKM 2019
 <!-- CNN Compression-Recovery Framework via Rank Allocation Decomposition with Knowledge Transfer -->
@@ -79,14 +80,14 @@ Academic Services
 ======
 - Selected Conference PC Membership
     - VLDB: 2019
-    - KDD: 2019
+    - KDD: 2019, 2020
     - AAAI: 2019, 2020
     - IJCAI: 2018, 2019, 2020
     - DASFAA: 2020 (Publicity Co-Chair)
     - APWeb-WAIM: 2017, 2018, 2019 (SPC), 2020
-    - BigData: 2018, 2019
+<!--    - BigData: 2018, 2019
     - MDM: 2018, 2019, 2020
-    - BigComp: 2020 (Publicity Co-Chair)
+    - BigComp: 2020 (Publicity Co-Chair) -->
 
 - Journal Reviewers
     - VLDBJ, WWWJ, DSE
