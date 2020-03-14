@@ -39,6 +39,7 @@ Selected Publications
 ======
 [Full List on Google Scholar](https://scholar.google.com/citations?hl=en&user=h6gVF8YAAAAJ)
 1. **Yingxia Shao**, Shiyue Huang, Xupeng Miao, Bin Cui, Lei Chen, Memory-Aware Framework for Efficient Second-Order Random Walk on Large Graphs, SIGMOD 2020
+1. Wentao Zhang, Xupeng Miao, **Yingxia Shao**, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui, Reliable Data Distillation on Graph Convolutional Network, SIGMOD 2020
 1. **Yingxia Shao**, Xupeng Li, Yiru Chen, Lele Yu, Bin Cui, Sys-TM: A Fast and General Topic Modeling System, TKDE 2020
 1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui, Efficient Diversity-Driven Ensemble for Deep Neural Networks, ICDE 2020 
 1. Yang Li, Jiawei Jiang, Jinyang Gao, Yingxia Shao, Ce Zhang, Bin Cui, Efficient Automatic CASH via Rising Bandits, AAAI 2020 
