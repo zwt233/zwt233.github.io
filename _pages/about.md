@@ -44,6 +44,7 @@ Selected Publications
 1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui, Efficient Diversity-Driven Ensemble for Deep Neural Networks, ICDE 2020 
 1. Yang Li, Jiawei Jiang, Jinyang Gao, Yingxia Shao, Ce Zhang, Bin Cui, Efficient Automatic CASH via Rising Bandits, AAAI 2020 
 1. Jiawei Jiang, Fangcheng Fu, Tong Yang, **Yingxia Shao**, Bin Cui, SKCompress: compressing sparse and nonuniform gradient in distributed machine learning. The VLDB Journal (2020)
+1. Mubashir Imran, Hongzhi Yin, Tong Chen, **Yingxia Shao**, Xiangliang Zhang and Xiaofang Zhou, Decentralized Embedding Framework for Large-scale Networks, DASFAA 2020
 1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui. Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks. Sci China Inf Sci, 2020, 63(1): 112102
 1. Yushun Dong, **Yingxia Shao**, Xiaotong Li, Sili Li, Lei Quan, Wei Zhang, Junping Du, Forecasting Pavement Performance with a Feature Fusion LSTM-BPNN Model, CIKM 2019
 <!-- CNN Compression-Recovery Framework via Rank Allocation Decomposition with Knowledge Transfer -->
@@ -86,12 +87,13 @@ Academic Services
     - IJCAI: 2018, 2019, 2020
     - DASFAA: 2020 (Publicity Co-Chair)
     - APWeb-WAIM: 2017, 2018, 2019 (SPC), 2020
-<!--    - BigData: 2018, 2019
-    - MDM: 2018, 2019, 2020
-    - BigComp: 2020 (Publicity Co-Chair) -->
+
+<!--BigData: 2018, 2019
+    MDM: 2018, 2019, 2020
+    BigComp: 2020 (Publicity Co-Chair) -->
 
 - Journal Reviewers
-    - VLDBJ, WWWJ, DSE
+    - VLDBJ, TKDE, WWWJ, DSE
 
 Research Grants
 =====
