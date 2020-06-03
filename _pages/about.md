@@ -42,9 +42,12 @@ Selected Publications
 1. Wentao Zhang, Xupeng Miao, **Yingxia Shao**, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui, Reliable Data Distillation on Graph Convolutional Network, SIGMOD 2020
 1. **Yingxia Shao**, Xupeng Li, Yiru Chen, Lele Yu, Bin Cui, Sys-TM: A Fast and General Topic Modeling System, TKDE 2020
 1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui, Efficient Diversity-Driven Ensemble for Deep Neural Networks, ICDE 2020 
+1. Fangcheng Fu, Yuzheng Hu, Yihan He, Jiawei Jiang, **Yingxia Shao**, Ce Zhang, Bin Cui, Don't Waste Your Bits! Squeeze Activations and Gradients for Deep Neural Networks via TinyScript, ICML 2020
 1. Yang Li, Jiawei Jiang, Jinyang Gao, Yingxia Shao, Ce Zhang, Bin Cui, Efficient Automatic CASH via Rising Bandits, AAAI 2020 
 1. Jiawei Jiang, Fangcheng Fu, Tong Yang, **Yingxia Shao**, Bin Cui, SKCompress: compressing sparse and nonuniform gradient in distributed machine learning. The VLDB Journal (2020)
 1. Mubashir Imran, Hongzhi Yin, Tong Chen, **Yingxia Shao**, Xiangliang Zhang and Xiaofang Zhou, Decentralized Embedding Framework for Large-scale Networks, DASFAA 2020
+1. Jiaxu Liu, **Yingxia Shao**, Sen Su, Multiple Local Community Detection via High-Quality Seed Identiﬁcation, APWeb-WAIM 2020
+1. Minxu zhang, **Yingxia Shao**, Kai Lei, Yuesheng Zhu, Bin Cui, Densely-connected Transformer with Co-attentive Information for Matching Text Sequences, APWeb-WAIM 2020
 1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui. Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks. Sci China Inf Sci, 2020, 63(1): 112102
 1. Yushun Dong, **Yingxia Shao**, Xiaotong Li, Sili Li, Lei Quan, Wei Zhang, Junping Du, Forecasting Pavement Performance with a Feature Fusion LSTM-BPNN Model, CIKM 2019
 <!-- CNN Compression-Recovery Framework via Rank Allocation Decomposition with Knowledge Transfer -->
@@ -93,13 +96,19 @@ Academic Services
     BigComp: 2020 (Publicity Co-Chair) -->
 
 - Journal Reviewers
-    - VLDBJ, TKDE, WWWJ, DSE
+    - VLDBJ, TKDE, TPDS, WWWJ, DSE
 
 Research Grants
 =====
 - Research on Key Techniques of Knowledge Graph-Based Social Media Management and Analysis. NSFC No. U1936104, 2020-2022
 - Querying similar nodes on large-scale knowledge graphs. NSFC No. 61702015, 2018-2020
 - Ad-hoc generation of weighted graph with complex relation on large-scale knowledge graph. China Postdoctoral Science Foundation No. 2017M610020, 2017-2018
+
+Alumni
+====
+- Yushun Dong, (2018-2019), UVA
+- Xiaotong Li, (2018-2020), USCD
+- Yushi Lan, (2019-2020), NTU
 
 <!-- Honors
 ====
