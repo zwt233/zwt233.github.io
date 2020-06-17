@@ -12,7 +12,7 @@ I am a first-year Ph.D. student at the [University of Virginia](http://www.virgi
 
 Research Interest
 ---
-I have abundant interest in **Graph Mining**, including **Graph COncolutional Network** and other exciting topics. My previous research experiences mainly lie on feature fusion for forcasting.
+I have abundant interest in **Graph Mining**, including **Graph Convolutional Network** and other exciting topics. My previous research experiences mainly lie on feature fusion for forcasting.
 
 News
 ------
