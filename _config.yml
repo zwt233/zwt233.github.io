@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zhendong Chu's Homepage"
+title                    : "Yushun Dong's Homepage"
 title_separator          : "-"
-name                     : &name "Zhendong Chu"
-description              : &description "Undergraduate@FDU, PhD Student@UVa(2019.8-)"
+name                     : &name "Yushun Dong"
+description              : &description "Undergraduate@BUPT, PhD Student@UVa(2020.1-)"
 url                      : https://Ethan-127.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
