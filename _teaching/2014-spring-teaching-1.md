@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate & graduate course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "University of Virginia"
-date: 2020
+date: 2020-01-10
 location: "Charlottesville, VA"
 ---
 
