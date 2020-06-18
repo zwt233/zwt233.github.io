@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year Ph.D. student at the [University of Virginia](http://www.virginia.edu/), now doing my rotation with [Prof. Jundong Li](http://people.virginia.edu/~jl6qk/). Prior to joining in UVa, I obtained my bachelor degree from the School of School of Information and Communication Engineering at Beijing University of Posts and Telecommunications, where I worked with [Prof. Yingxia Shao](https://shaoyx.github.io/) and [Prof. Wensheng Sun](https://bkso.baidu.com/item/%E5%AD%99%E6%96%87%E7%94%9F/23658543).
+I am a first-year Ph.D. student at the [University of Virginia](http://www.virginia.edu/), now working with [Prof. Jundong Li](http://people.virginia.edu/~jl6qk/). Prior to joining in UVa, I obtained my bachelor degree from the School of Information and Communication Engineering at [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) (BUPT), where I worked with [Prof. Yingxia Shao](https://shaoyx.github.io/) and [Prof. Wensheng Sun](https://bkso.baidu.com/item/%E5%AD%99%E6%96%87%E7%94%9F/23658543).
 
 Research Interests
 ---
