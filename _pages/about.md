@@ -16,7 +16,7 @@ I have abundant interest in **Feature Fusion** and **Graph Mining**, e.g., **Gra
 
 News
 ------
-* Aug-06-2019, Our paper **Forecasting Pavement Performance with a Feature Fusion LSTM-BPNN Model** was accepted by CIKM 2019.
+* Aug-06-2019, Our paper **Forecasting Pavement Performance with a Feature Fusion LSTM-BPNN Model** has been accepted by CIKM 2019.
 
 Awards
 ------
