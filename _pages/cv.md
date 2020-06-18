@@ -25,7 +25,7 @@ Experience
   * Research assistant, 10/2018 - 05/2019
   * *Oral English Club* founder & chief lecturer, 10/2016 - 05/2017
   
-* @ Turing Video
+* @ Turing Video Inc.
   * Internship, 06/2019 - 09/2019
 
 * @ Peking University
