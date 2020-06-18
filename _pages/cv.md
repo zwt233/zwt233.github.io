@@ -11,49 +11,31 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Beijing University of Posts and Telecommunications, 2019
 
-Work experience
+Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* @ University of Virginia
+  * Research assistant, 06/2020 -
+  * Ph.D. student, 01/2020 -
+  * Teaching assistant, 01/2020 - 05/2020
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* @ Beijing University of Posts and Telecommunications
+  * Research assistant, 09/2019 - 10/2019
+  * Research assistant, 10/2018 - 05/2019
+  * *Oral English Club* founder & chief lecturer, 10/2016 - 05/2017
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* @ Turing Video
+  * Internship, 06/2019 - 09/2019
+
+* @ Peking University
+  * Research assistant, 10/2017 - 06/2018
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
+* Dong Y, Shao Y, Li X, et al. Forecasting Pavement Performance with a Feature Fusion LSTM-BPNN Model[C]//Proceedings of the 28th ACM International Conference on Information and Knowledge Management. 2019: 1953-1962.
+
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+Teaching assistant @ UVa: ECE 4502/6502 & CS 6501: Graph Mining - 2020 Spring
+
