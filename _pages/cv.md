@@ -37,5 +37,5 @@ Publications
 
 Teaching
 ======
-Teaching assistant @ UVa: ECE 4502/6502 & CS 6501: Graph Mining - 2020 Spring
+* Teaching assistant @ UVa: ECE 4502/6502 & CS 6501: Graph Mining - 2020 Spring
 
