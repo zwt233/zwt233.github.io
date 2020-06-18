@@ -21,24 +21,34 @@ News
 Experience
 ------
 
-@ University of Virginia
----
+**@ University of Virginia**
+
 Research assistant, 06/2020 -
+
 Ph.D. student, 01/2020 -
+
 Teaching assistant, 01/2020 - 05/2020
 
-@ Beijing University of Posts and Telecommunications
+
+**@ Beijing University of Posts and Telecommunications**
 ---
+
 Research assistant, 09/2019 - 10/2019
+
 Research assistant, 10/2018 - 05/2019
+
 *Oral English Club* founder & chief lecturer, 10/2016 - 05/2017
 
-@ Turing Video
+
+**@ Turing Video**
 ---
+
 Internship, 06/2019 - 09/2019
 
-@ Peking University
+
+**@ Peking University**
 ---
+
 Research assistant, 10/2017 - 06/2018
 
 
