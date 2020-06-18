@@ -1,5 +1,5 @@
 ---
-title: "Teaching assistant"
+title: "Teaching assistant of ECE 4502/6502 & CS 6501: Graph Mining - 2020 Spring"
 collection: teaching
 type: "Undergraduate & graduate course"
 permalink: /teaching/2014-spring-teaching-1
@@ -8,4 +8,4 @@ date: 2020
 location: "Charlottesville, VA"
 ---
 
-* ECE 4502/6502 & CS 6501: Graph Mining - 2020 Spring
+
