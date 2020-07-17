@@ -74,7 +74,6 @@ More articles on [Google Scholar](https://scholar.google.com/citations?hl=en&use
 1. **Yingxia Shao**, Bin Cui, Lei Chen, Lin Ma, Junjie Yao, Ning Xu, [Parallel Subgraph Listing in a Large Scale Graph](http://net.pku.edu.cn/~cuibin/Papers/2014-SIGMOD_subgraphlisting.pdf). SIGMOD 2014
 1. **Yingxia Shao**, Lei Chen, Bin Cui, [Efficient Cohesive Subgraphs Detection in Parallel](http://net.pku.edu.cn/~cuibin/Papers/2014-SIGMOD_CohensiveSubgraph.pdf). SIGMOD 2014
 1. **Yingxia Shao**, Junjie Yao, Bin Cui, Lin Ma, [PAGE: A Partition Aware Graph Computation Engine](/files/km0677s-shao.pdf). CIKM 2013 -->
-1. **Yingxia Shao**, Junjie Yao, Bin Cui, Lin Ma, [PAGE: A Partition Aware Graph Computation Engine](/files/km0677s-shao.pdf). CIKM 2013 
 
 <!-- Chinese Journals
 ======
