@@ -44,7 +44,7 @@ More articles on [Google Scholar](https://scholar.google.com/citations?hl=en&use
 1. **Yingxia Shao**, Xupeng Li, Yiru Chen, Lele Yu, Bin Cui, Sys-TM: A Fast and General Topic Modeling System, TKDE 2020 (Early Access)
 1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui, [Efficient Diversity-Driven Ensemble for Deep Neural Networks](https://ieeexplore.ieee.org/abstract/document/9101773), ICDE 2020 
 1. Fangcheng Fu, Yuzheng Hu, Yihan He, Jiawei Jiang, **Yingxia Shao**, Ce Zhang, Bin Cui, Don't Waste Your Bits! Squeeze Activations and Gradients for Deep Neural Networks via TinyScript, ICML 2020
-1. Yang Li, Jiawei Jiang, Jinyang Gao, Yingxia Shao, Ce Zhang, Bin Cui, [Efficient Automatic CASH via Rising Bandits](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-LiY.546.pdf), AAAI 2020 
+1. Yang Li, Jiawei Jiang, Jinyang Gao, **Yingxia Shao**, Ce Zhang, Bin Cui, [Efficient Automatic CASH via Rising Bandits](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-LiY.546.pdf), AAAI 2020 
 1. Jiawei Jiang, Fangcheng Fu, Tong Yang, **Yingxia Shao**, Bin Cui, [SKCompress: compressing sparse and nonuniform gradient in distributed machine learning](https://link.springer.com/article/10.1007/s00778-019-00596-3). The VLDB Journal (2020)
 1. Mubashir Imran, Hongzhi Yin, Tong Chen, **Yingxia Shao**, Xiangliang Zhang and Xiaofang Zhou, [Decentralized Embedding Framework for Large-scale Networks](/files/DASFAA2020.pdf), DASFAA 2020
 1. Jiaxu Liu, **Yingxia Shao**, Sen Su, Multiple Local Community Detection via High-Quality Seed Identiﬁcation, APWeb-WAIM 2020
