@@ -37,15 +37,16 @@ Knowledge Graph Management, Network/Graph Representation, Large-scale Graph Proc
 
 Selected Publications
 ======
-[Full List on Google Scholar](https://scholar.google.com/citations?hl=en&user=h6gVF8YAAAAJ)
-1. **Yingxia Shao**, Shiyue Huang, Xupeng Miao, Bin Cui, Lei Chen, Memory-Aware Framework for Efficient Second-Order Random Walk on Large Graphs, SIGMOD 2020
+More articles on [Google Scholar](https://scholar.google.com/citations?hl=en&user=h6gVF8YAAAAJ) or [here](publications/).
+1. **Yingxia Shao**, Shiyue Huang, Xupeng Miao, Bin Cui, Lei Chen, [Memory-Aware Framework for Efficient Second-Order Random Walk on Large Graphs](/files/main.pdf), SIGMOD 2020
 1. Wentao Zhang, Xupeng Miao, **Yingxia Shao**, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui, Reliable Data Distillation on Graph Convolutional Network, SIGMOD 2020
-1. **Yingxia Shao**, Xupeng Li, Yiru Chen, Lele Yu, Bin Cui, Sys-TM: A Fast and General Topic Modeling System, TKDE 2020
-1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui, Efficient Diversity-Driven Ensemble for Deep Neural Networks, ICDE 2020 
 1. Fangcheng Fu, Yuzheng Hu, Yihan He, Jiawei Jiang, **Yingxia Shao**, Ce Zhang, Bin Cui, Don't Waste Your Bits! Squeeze Activations and Gradients for Deep Neural Networks via TinyScript, ICML 2020
-1. Yang Li, Jiawei Jiang, Jinyang Gao, Yingxia Shao, Ce Zhang, Bin Cui, Efficient Automatic CASH via Rising Bandits, AAAI 2020 
-1. Jiawei Jiang, Fangcheng Fu, Tong Yang, **Yingxia Shao**, Bin Cui, SKCompress: compressing sparse and nonuniform gradient in distributed machine learning. The VLDB Journal (2020)
-1. Mubashir Imran, Hongzhi Yin, Tong Chen, **Yingxia Shao**, Xiangliang Zhang and Xiaofang Zhou, Decentralized Embedding Framework for Large-scale Networks, DASFAA 2020
+1. **Yingxia Shao**, Xupeng Li, Yiru Chen, Lele Yu, Bin Cui, Sys-TM: A Fast and General Topic Modeling System, TKDE 2020 (Early Access)
+1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui, [Efficient Diversity-Driven Ensemble for Deep Neural Networks](https://ieeexplore.ieee.org/abstract/document/9101773), ICDE 2020 
+1. Fangcheng Fu, Yuzheng Hu, Yihan He, Jiawei Jiang, **Yingxia Shao**, Ce Zhang, Bin Cui, Don't Waste Your Bits! Squeeze Activations and Gradients for Deep Neural Networks via TinyScript, ICML 2020
+1. Yang Li, Jiawei Jiang, Jinyang Gao, Yingxia Shao, Ce Zhang, Bin Cui, [Efficient Automatic CASH via Rising Bandits](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-LiY.546.pdf), AAAI 2020 
+1. Jiawei Jiang, Fangcheng Fu, Tong Yang, **Yingxia Shao**, Bin Cui, [SKCompress: compressing sparse and nonuniform gradient in distributed machine learning](https://link.springer.com/article/10.1007/s00778-019-00596-3). The VLDB Journal (2020)
+1. Mubashir Imran, Hongzhi Yin, Tong Chen, **Yingxia Shao**, Xiangliang Zhang and Xiaofang Zhou, [Decentralized Embedding Framework for Large-scale Networks](/files/DASFAA2020.pdf), DASFAA 2020
 1. Jiaxu Liu, **Yingxia Shao**, Sen Su, Multiple Local Community Detection via High-Quality Seed Identiﬁcation, APWeb-WAIM 2020
 1. Minxu zhang, **Yingxia Shao**, Kai Lei, Yuesheng Zhu, Bin Cui, Densely-connected Transformer with Co-attentive Information for Matching Text Sequences, APWeb-WAIM 2020
 1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui. Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks. Sci China Inf Sci, 2020, 63(1): 112102
@@ -58,7 +59,8 @@ Selected Publications
 1. Jinyang Gao, Junjie Yao, **Yingxia Shao**. Towards Reliable Learning for High Stakes Applications, AAAI 2019
 1. Haobao Sun, **Yingxia Shao**, Jiawei Jiang, Bin Cui, Kai Lei, Yu Xu, Jiang Wang. Sparse Gradient Compression for Distributed SGD, DASFAA 2019
 1. Huanran Xue, Jiawei Jiang, **Yingxia Shao**, Bin Cui. FeatureBand: A Feature Selection Method by Combining Early Stopping and Genetic Local Search. APWeb-WAIM 2019
-1. Zichen Wang, Tian Li, **Yingxia Shao**, Bin Cui. CUTE: Querying Knowledge Graphs by Tabular Examples (Demo), APWeb-WAIM, 2018
+
+<!-- 1. Zichen Wang, Tian Li, **Yingxia Shao**, Bin Cui. CUTE: Querying Knowledge Graphs by Tabular Examples (Demo), APWeb-WAIM, 2018
 1. Lele Yu, Lingyu Wang, **Yingxia Shao**, Long Guo, Bin Cui. GLM+: An Efficient System for Generalized Linear Models, BigComp, 2018
 1. Lele Yu, Ce Zhang, **Yingxia Shao**, Bin Cui. [LDA*: A Robust and Large-scale Topic Modeling System](http://net.pku.edu.cn/~cuibin/Papers/2017VLDB%20LDA.pdf), PVLDB 10(11): 2017
 1. **Yingxia Shao**, Kai Lei, Lei Chen, Zi Huang, Bin Cui, Zhongyi Liu, Yunhai Tong, Jin Xu, [Fast Parallel Path Concatenation for Graph Extraction](http://net.pku.edu.cn/~cuibin/Papers/2017tkde.pdf), TKDE 2017
@@ -71,7 +73,8 @@ Selected Publications
 1. Ning Xu, Bin Cui, Lei Chen, Zi Huang, **Yingxia Shao**, [Heterogeneous Environment Aware Streaming Graph Partitioning](http://net.pku.edu.cn/~cuibin/Papers/2015TKDE.pdf), TKDE, 2015
 1. **Yingxia Shao**, Bin Cui, Lei Chen, Lin Ma, Junjie Yao, Ning Xu, [Parallel Subgraph Listing in a Large Scale Graph](http://net.pku.edu.cn/~cuibin/Papers/2014-SIGMOD_subgraphlisting.pdf). SIGMOD 2014
 1. **Yingxia Shao**, Lei Chen, Bin Cui, [Efficient Cohesive Subgraphs Detection in Parallel](http://net.pku.edu.cn/~cuibin/Papers/2014-SIGMOD_CohensiveSubgraph.pdf). SIGMOD 2014
-1. **Yingxia Shao**, Junjie Yao, Bin Cui, Lin Ma, [PAGE: A Partition Aware Graph Computation Engine](/files/km0677s-shao.pdf). CIKM 2013
+1. **Yingxia Shao**, Junjie Yao, Bin Cui, Lin Ma, [PAGE: A Partition Aware Graph Computation Engine](/files/km0677s-shao.pdf). CIKM 2013 -->
+1. **Yingxia Shao**, Junjie Yao, Bin Cui, Lin Ma, [PAGE: A Partition Aware Graph Computation Engine](/files/km0677s-shao.pdf). CIKM 2013 
 
 <!-- Chinese Journals
 ======
@@ -104,11 +107,11 @@ Research Grants
 - Querying similar nodes on large-scale knowledge graphs. NSFC No. 61702015, 2018-2020
 - Ad-hoc generation of weighted graph with complex relation on large-scale knowledge graph. China Postdoctoral Science Foundation No. 2017M610020, 2017-2018
 
-Alumni
+<!-- Almuni
 ====
-- Yushun Dong, (2018-2019), UVA
-- Xiaotong Li, (2018-2020), USCD
-- Yushi Lan, (2019-2020), NTU
+- Yushun Dong, (2018-2019), PhD, UVA
+- Xiaotong Li, (2018-2020), Master, USCD
+- Yushi Lan, (2019-2020), PhD, NTU -->
 
 <!-- Honors
 ====
