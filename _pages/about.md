@@ -40,7 +40,6 @@ Selected Publications
 More articles on [Google Scholar](https://scholar.google.com/citations?hl=en&user=h6gVF8YAAAAJ) or [here](publications/).
 1. **Yingxia Shao**, Shiyue Huang, Xupeng Miao, Bin Cui, Lei Chen, [Memory-Aware Framework for Efficient Second-Order Random Walk on Large Graphs](/files/main.pdf), SIGMOD 2020
 1. Wentao Zhang, Xupeng Miao, **Yingxia Shao**, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui, Reliable Data Distillation on Graph Convolutional Network, SIGMOD 2020
-1. Fangcheng Fu, Yuzheng Hu, Yihan He, Jiawei Jiang, **Yingxia Shao**, Ce Zhang, Bin Cui, Don't Waste Your Bits! Squeeze Activations and Gradients for Deep Neural Networks via TinyScript, ICML 2020
 1. **Yingxia Shao**, Xupeng Li, Yiru Chen, Lele Yu, Bin Cui, Sys-TM: A Fast and General Topic Modeling System, TKDE 2020 (Early Access)
 1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui, [Efficient Diversity-Driven Ensemble for Deep Neural Networks](https://ieeexplore.ieee.org/abstract/document/9101773), ICDE 2020 
 1. Fangcheng Fu, Yuzheng Hu, Yihan He, Jiawei Jiang, **Yingxia Shao**, Ce Zhang, Bin Cui, Don't Waste Your Bits! Squeeze Activations and Gradients for Deep Neural Networks via TinyScript, ICML 2020
