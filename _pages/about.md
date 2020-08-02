@@ -20,6 +20,7 @@ News
 
 Awards
 ------
+* SIGKDD Student Travel Award 2020
 * Excellent Bachelor Thesis of BUPT **(Top 0.5%)**, 2019
 * First-class Scholarship of BUPT **(Top 5%)**, 2018
 * Nokia Venture Scholarships of BUPT **(Top 3%)**, 2018
