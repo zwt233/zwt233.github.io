@@ -18,7 +18,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 1. Fangcheng Fu, Yuzheng Hu, Yihan He, Jiawei Jiang, **Yingxia Shao**, Ce Zhang, Bin Cui, Don't Waste Your Bits! Squeeze Activations and Gradients for Deep Neural Networks via TinyScript, ICML 2020
 1. Yang Li, Jiawei Jiang, Jinyang Gao, Yingxia Shao, Ce Zhang, Bin Cui, [Efficient Automatic CASH via Rising Bandits](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-LiY.546.pdf), AAAI 2020 
 1. Jiawei Jiang, Fangcheng Fu, Tong Yang, **Yingxia Shao**, Bin Cui, [SKCompress: compressing sparse and nonuniform gradient in distributed machine learning](https://link.springer.com/article/10.1007/s00778-019-00596-3). The VLDB Journal (2020)
-1. Mubashir Imran, Hongzhi Yin, Tong Chen, **Yingxia Shao**, Xiangliang Zhang and Xiaofang Zhou, [Decentralized Embedding Framework for Large-scale Networks](/files/DASFAA2020.pdf), DASFAA 2020
+1. Mubashir Imran, Hongzhi Yin, Tong Chen, **Yingxia Shao**, Xiangliang Zhang and Xiaofang Zhou, [Decentralized Embedding Framework for Large-scale Networks](/files/DASFAA2020.pdf), DASFAA 2020 (**Best Student Paper Award**)
 1. Jiaxu Liu, **Yingxia Shao**, Sen Su, Multiple Local Community Detection via High-Quality Seed Identiﬁcation, APWeb-WAIM 2020
 1. Minxu zhang, **Yingxia Shao**, Kai Lei, Yuesheng Zhu, Bin Cui, Densely-connected Transformer with Co-attentive Information for Matching Text Sequences, APWeb-WAIM 2020
 1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui. Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks. Sci China Inf Sci, 2020, 63(1): 112102
