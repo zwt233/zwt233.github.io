@@ -90,7 +90,7 @@ Academic Services
     - AAAI: 2019, 2020
     - IJCAI: 2018, 2019, 2020
     - DASFAA: 2020 (Publicity Co-Chair)
-    - APWeb-WAIM: 2017, 2018, 2019 (SPC), 2020
+    - APWeb-WAIM: 2017, 2018, 2019, 2020
 
 <!--BigData: 2018, 2019
     MDM: 2018, 2019, 2020
