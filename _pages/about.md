@@ -87,8 +87,8 @@ Academic Services
 - Selected Conference PC Membership
     - VLDB: 2019
     - KDD: 2019, 2020
-    - AAAI: 2019, 2020
-    - IJCAI: 2018, 2019, 2020
+    - AAAI: 2019, 2020, 2021
+    - IJCAI: 2018, 2019, 2020, 2021
     - DASFAA: 2020 (Publicity Co-Chair)
     - APWeb-WAIM: 2017, 2018, 2019, 2020
 
