@@ -40,7 +40,6 @@ Selected Publications
 More articles on [Google Scholar](https://scholar.google.com/citations?hl=en&user=h6gVF8YAAAAJ) or [here](publications/).
 1. **Yingxia Shao**, Shiyue Huang, Xupeng Miao, Bin Cui, Lei Chen, [Memory-Aware Framework for Efficient Second-Order Random Walk on Large Graphs](/files/main.pdf), SIGMOD 2020
 1. Wentao Zhang, Xupeng Miao, **Yingxia Shao**, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui, Reliable Data Distillation on Graph Convolutional Network, SIGMOD 2020
-1. **Yingxia Shao**, Xupeng Li, Yiru Chen, Lele Yu, Bin Cui, Sys-TM: A Fast and General Topic Modeling System, TKDE 2020 (Early Access)
 1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui, [Efficient Diversity-Driven Ensemble for Deep Neural Networks](https://ieeexplore.ieee.org/abstract/document/9101773), ICDE 2020 
 1. Fangcheng Fu, Yuzheng Hu, Yihan He, Jiawei Jiang, **Yingxia Shao**, Ce Zhang, Bin Cui, Don't Waste Your Bits! Squeeze Activations and Gradients for Deep Neural Networks via TinyScript, ICML 2020
 1. Yang Li, Jiawei Jiang, Jinyang Gao, **Yingxia Shao**, Ce Zhang, Bin Cui, [Efficient Automatic CASH via Rising Bandits](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-LiY.546.pdf), AAAI 2020 
@@ -49,6 +48,7 @@ More articles on [Google Scholar](https://scholar.google.com/citations?hl=en&use
 1. Jiaxu Liu, **Yingxia Shao**, Sen Su, Multiple Local Community Detection via High-Quality Seed Identiﬁcation, APWeb-WAIM 2020
 1. Minxu zhang, **Yingxia Shao**, Kai Lei, Yuesheng Zhu, Bin Cui, Densely-connected Transformer with Co-attentive Information for Matching Text Sequences, APWeb-WAIM 2020
 1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui. Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks. Sci China Inf Sci, 2020, 63(1): 112102
+1. **Yingxia Shao**, Xupeng Li, Yiru Chen, Lele Yu, Bin Cui, Sys-TM: A Fast and General Topic Modeling System, TKDE 2019
 1. Yushun Dong, **Yingxia Shao**, Xiaotong Li, Sili Li, Lei Quan, Wei Zhang, Junping Du, Forecasting Pavement Performance with a Feature Fusion LSTM-BPNN Model, CIKM 2019
 <!-- CNN Compression-Recovery Framework via Rank Allocation Decomposition with Knowledge Transfer -->
 1. Fangcheng Fu, Jiawei Jiang, **Yingxia Shao**, Bin Cui. An Experimental Evaluation of Large Scale GBDT Systems. VLDB 2019
