@@ -28,6 +28,14 @@ Awards
 * National Scholarship of BUPT **(Top 0.5%)**, 2017
 * Leader of *Star of the Clubs* of BUPT **(Top 3%)**, 2016
 
+<!--
+Mentored Students
+------
+* Deepaloke Chattopadhyay (M.S. in Data Science @ UVa)
+* Zheng Huang (M.S. in Computer Science @ UVa)
+* Srimanth Tangedipalli (B.S. in Computer Science @ UVa)
+-->
+
 Services
 ------
 * External reviewer of KDD'20, SIGIR'20, NeurIPS'20, TKDE'20, WWW'20, ECML-PKDD'20, CIKM'20, WSDM'21, BigData'20.
