@@ -30,7 +30,6 @@ NOTE: I'm looking for highly self-motivated students to work with me as PhD and/
 Candidates who are interested please contact me directly.
 </font>
 
-
 Research Interests
 ======
 Knowledge Graph Management, Network/Graph Representation, Large-scale Graph Processing & Analysis
@@ -104,12 +103,6 @@ Research Grants
 - Research on Key Techniques of Knowledge Graph-Based Social Media Management and Analysis. NSFC No. U1936104, 2020-2022
 - Querying similar nodes on large-scale knowledge graphs. NSFC No. 61702015, 2018-2020
 - Ad-hoc generation of weighted graph with complex relation on large-scale knowledge graph. China Postdoctoral Science Foundation No. 2017M610020, 2017-2018
-
-<!-- Almuni
-====
-- Yushun Dong, (2018-2019), PhD, UVA
-- Xiaotong Li, (2018-2020), Master, USCD
-- Yushi Lan, (2019-2020), PhD, NTU -->
 
 <!-- Honors
 ====
