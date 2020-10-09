@@ -25,6 +25,6 @@ author_profile: true
 | ---| ---| -----|
 | 1 | Yushun Dong | 2018 | Ph.D, University of Virginia, [homepage](https://yushundong.github.io/) |
 | 2 | Yushi Lan | 2019 | Ph.D, NanYang Tech. [homepage](https://yushi.netlify.app/) |
-| 3 | Xiaotong Li | 2019 | MSc, USCD |
+| 3 | Xiaotong Li | 2019 | MSc, UCSD |
 | 4 | Weiqiang Yu | 2019 | Outstanding Graduate Thesis; MSc, Columbia University |
 | 5 | Qiuyi Jin | 2019 | CitiBank |
