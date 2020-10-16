@@ -37,6 +37,8 @@ Knowledge Graph Management, Network/Graph Representation, Large-scale Graph Proc
 Selected Publications
 ======
 More articles on [Google Scholar](https://scholar.google.com/citations?hl=en&user=h6gVF8YAAAAJ) or [here](publications/).
+1. Xingyu Yao, **Yingxia Shao**, Bin Cui, Lei Chen, UniNet: Scalable Network Representation Learning with Metropolis-Hastings Sampling, ICDE 2021
+1. Xiangguo Sun, Hongzhi Yin, Bo Liu, Hongxu Chen, Jiuxin Cao, **Yingxia Shao**, Nguyen Quoc Viet Hung, Heterogeneous Hypergraph Embedding for Graph Classification, WSDM 2021
 1. **Yingxia Shao**, Shiyue Huang, Xupeng Miao, Bin Cui, Lei Chen, [Memory-Aware Framework for Efficient Second-Order Random Walk on Large Graphs](/files/main.pdf), SIGMOD 2020
 1. Wentao Zhang, Xupeng Miao, **Yingxia Shao**, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui, Reliable Data Distillation on Graph Convolutional Network, SIGMOD 2020
 1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui, [Efficient Diversity-Driven Ensemble for Deep Neural Networks](https://ieeexplore.ieee.org/abstract/document/9101773), ICDE 2020 
