@@ -31,7 +31,7 @@ Awards
 
 Mentored Students
 ------
-* Deepaloke Chattopadhyay (M.S. in Data Science @UVa)
+* Deepaloke Chattopadhyay (M.S. in Data Science @UVa, now Data Scientist @2nd Order Solutions)
 * Zheng Huang (M.S. in Computer Science @UVa)
 * Srimanth Tangedipalli (B.S. in Computer Science @UVa)
 * Nitin Maddi (B.S. in Computer Science @UVa)
