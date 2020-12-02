@@ -9,11 +9,17 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 <!-- {% endif %} -->
 
 {% include base_path %}
+2021
+====
+1. Xingyu Yao, **Yingxia Shao**, Bin Cui, Lei Chen, UniNet: Scalable Network Representation Learning with Metropolis-Hastings Sampling, ICDE 2021
+1. Xiangguo Sun, Hongzhi Yin, Bo Liu, Hongxu Chen, Jiuxin Cao, **Yingxia Shao**, Nguyen Quoc Viet Hung, Heterogeneous Hypergraph Embedding for Graph Classification, WSDM 2021
+1. Xupeng Miao, Linxiao Ma, Zhi Yang, **Yingxia Shao**, Bin Cui, Lele Yu, Jiawei Jiang, CuWide: Towards Efficient Flow-based Training for Sparse Wide Models on GPUs, TKDE (to appear)
+
 2020
 ====
 1. **Yingxia Shao**, Shiyue Huang, Xupeng Miao, Bin Cui, Lei Chen, [Memory-Aware Framework for Efficient Second-Order Random Walk on Large Graphs](/files/main.pdf), SIGMOD 2020
 1. Wentao Zhang, Xupeng Miao, **Yingxia Shao**, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui, Reliable Data Distillation on Graph Convolutional Network, SIGMOD 2020
-1. **Yingxia Shao**, Xupeng Li, Yiru Chen, Lele Yu, Bin Cui, Sys-TM: A Fast and General Topic Modeling System, TKDE 2020
+1. **Yingxia Shao**, Xupeng Li, Yiru Chen, Lele Yu, Bin Cui, Sys-TM: A Fast and General Topic Modeling System, TKDE (to appear)
 1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui, [Efficient Diversity-Driven Ensemble for Deep Neural Networks](https://ieeexplore.ieee.org/abstract/document/9101773), ICDE 2020 
 1. Fangcheng Fu, Yuzheng Hu, Yihan He, Jiawei Jiang, **Yingxia Shao**, Ce Zhang, Bin Cui, Don't Waste Your Bits! Squeeze Activations and Gradients for Deep Neural Networks via TinyScript, ICML 2020
 1. Yang Li, Jiawei Jiang, Jinyang Gao, Yingxia Shao, Ce Zhang, Bin Cui, [Efficient Automatic CASH via Rising Bandits](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-LiY.546.pdf), AAAI 2020 

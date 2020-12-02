@@ -10,18 +10,17 @@ redirect_from:
 
 Yingxia Shao (邵蓥侠)
 ====
-Associate Professor, PhD Advisor (with Researcher Title)
+Associate Professor, PhD Advisor
 
 Email: shaoyx [AT] bupt.edu.cn
-<!-- Addr: Room 816, #3 Building, BUPT -->
 
 Bio
 ====
-Yingxia Shao is a Research Associate Professor at School of Computer Science, Beijing University of Posts and Telecommunications. 
+Yingxia Shao is an Associate Professor at School of Computer Science, Beijing University of Posts and Telecommunications. 
 He obtained his PhD from Peking University 2016, advised by [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/). 
 He worked with [Prof. Lei Chen](http://www.cs.ust.hk/~leichen/) as a visiting scholar at HKUST in 2013 and 2014.
 He has served in the Technical Program Committee of various international conferences including VLDB, KDD, AAAI, IJCAI, BigData, APWeb-WAIM and MDM. He is serving as a reviewer of international journals including VLDBJ, WWWJ, DSE. 
-He was awarded Google PhD Fellowship (2014), MSRA Fellowship (2014), PhD National Scholarship of MOE China (2014), ACM SIGMOD China Doctoral Dissertation Award (2017).
+He was awarded Google PhD Fellowship (2014), MSRA Fellowship (2014), PhD National Scholarship of MOE China (2014), ACM SIGMOD China Doctoral Dissertation Award (2017), MSRA Star-Track Young Scholar Program (2019).
 
 He is a member of ACM, member of IEEE, member of CCF and member of China Database technical committee.
 
@@ -39,6 +38,7 @@ Selected Publications
 More articles on [Google Scholar](https://scholar.google.com/citations?hl=en&user=h6gVF8YAAAAJ) or [here](publications/).
 1. Xingyu Yao, **Yingxia Shao**, Bin Cui, Lei Chen, UniNet: Scalable Network Representation Learning with Metropolis-Hastings Sampling, ICDE 2021
 1. Xiangguo Sun, Hongzhi Yin, Bo Liu, Hongxu Chen, Jiuxin Cao, **Yingxia Shao**, Nguyen Quoc Viet Hung, Heterogeneous Hypergraph Embedding for Graph Classification, WSDM 2021
+1. Xupeng Miao, Linxiao Ma, Zhi Yang, **Yingxia Shao**, Bin Cui, Lele Yu, Jiawei Jiang, CuWide: Towards Efficient Flow-based Training for Sparse Wide Models on GPUs, TKDE (to appear)
 1. **Yingxia Shao**, Shiyue Huang, Xupeng Miao, Bin Cui, Lei Chen, [Memory-Aware Framework for Efficient Second-Order Random Walk on Large Graphs](/files/main.pdf), SIGMOD 2020
 1. Wentao Zhang, Xupeng Miao, **Yingxia Shao**, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui, Reliable Data Distillation on Graph Convolutional Network, SIGMOD 2020
 1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui, [Efficient Diversity-Driven Ensemble for Deep Neural Networks](https://ieeexplore.ieee.org/abstract/document/9101773), ICDE 2020 
@@ -49,7 +49,7 @@ More articles on [Google Scholar](https://scholar.google.com/citations?hl=en&use
 1. Jiaxu Liu, **Yingxia Shao**, Sen Su, Multiple Local Community Detection via High-Quality Seed Identiﬁcation, APWeb-WAIM 2020
 1. Minxu zhang, **Yingxia Shao**, Kai Lei, Yuesheng Zhu, Bin Cui, Densely-connected Transformer with Co-attentive Information for Matching Text Sequences, APWeb-WAIM 2020
 1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui. Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks. Sci China Inf Sci, 2020, 63(1): 112102
-1. **Yingxia Shao**, Xupeng Li, Yiru Chen, Lele Yu, Bin Cui, Sys-TM: A Fast and General Topic Modeling System, TKDE 2019
+1. **Yingxia Shao**, Xupeng Li, Yiru Chen, Lele Yu, Bin Cui, Sys-TM: A Fast and General Topic Modeling System, TKDE (to appear)
 1. Yushun Dong, **Yingxia Shao**, Xiaotong Li, Sili Li, Lei Quan, Wei Zhang, Junping Du, Forecasting Pavement Performance with a Feature Fusion LSTM-BPNN Model, CIKM 2019
 <!-- CNN Compression-Recovery Framework via Rank Allocation Decomposition with Knowledge Transfer -->
 1. Fangcheng Fu, Jiawei Jiang, **Yingxia Shao**, Bin Cui. An Experimental Evaluation of Large Scale GBDT Systems. VLDB 2019
