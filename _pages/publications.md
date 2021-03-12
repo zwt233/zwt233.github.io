@@ -11,7 +11,10 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 {% include base_path %}
 2021
 ====
+1. Fangcheng Fu, **Yingxia Shao**, Lele Yu, Jiawei Jiang, Huanran Xue, Yangyu Tao, Bin Cui, VF^2Boost: Very Fast Vertical Federated Gradient Boosting for Cross-Enterprise Learning, SIGMOD 2021
+1. Xupeng Miao, Xiaonan Nie, **Yingxia Shao**, Zhi Yang, Jiawei Jiang, Lingxiao Ma, Bin Cui, Heterogeneity-Aware Distributed Machine Learning Training via Partial Reduce, SIGMOD 2021
 1. Xingyu Yao, **Yingxia Shao**, Bin Cui, Lei Chen, UniNet: Scalable Network Representation Learning with Metropolis-Hastings Sampling, ICDE 2021
+1. Xupeng Miao, Linxiao Ma, Zhi Yang, **Yingxia Shao**, Bin Cui, Lele Yu, Jiawei Jiang, CuWide: Towards Efficient Flow-based Training for Sparse Wide Models on GPUs, ICDE 2021 (TKDE Poster)
 1. Xiangguo Sun, Hongzhi Yin, Bo Liu, Hongxu Chen, Jiuxin Cao, **Yingxia Shao**, Nguyen Quoc Viet Hung, Heterogeneous Hypergraph Embedding for Graph Classification, WSDM 2021
 1. Xupeng Miao, Linxiao Ma, Zhi Yang, **Yingxia Shao**, Bin Cui, Lele Yu, Jiawei Jiang, CuWide: Towards Efficient Flow-based Training for Sparse Wide Models on GPUs, TKDE (to appear)
 
@@ -44,6 +47,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 2018 and Early
 ====
 1. Zichen Wang, Tian Li, **Yingxia Shao**, Bin Cui. CUTE: Querying Knowledge Graphs by Tabular Examples (Demo), APWeb-WAIM, 2018
+1. **Yingxia Shao**, Kai Lei, Lei Chen, Zi Huang, Bin Cui, Zhongyi Liu, Yunhai Tong, Jin Xu, Fast Parallel Path Concatenation for Graph Extraction, ICDE 2018 (TKDE Poster)
 1. Lele Yu, Lingyu Wang, **Yingxia Shao**, Long Guo, Bin Cui. GLM+: An Efficient System for Generalized Linear Models, BigComp, 2018
 1. Lele Yu, Ce Zhang, **Yingxia Shao**, Bin Cui. [LDA*: A Robust and Large-scale Topic Modeling System](http://net.pku.edu.cn/~cuibin/Papers/2017VLDB%20LDA.pdf), PVLDB 10(11): 2017
 1. **Yingxia Shao**, Kai Lei, Lei Chen, Zi Huang, Bin Cui, Zhongyi Liu, Yunhai Tong, Jin Xu, [Fast Parallel Path Concatenation for Graph Extraction](http://net.pku.edu.cn/~cuibin/Papers/2017tkde.pdf), TKDE 2017

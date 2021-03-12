@@ -36,6 +36,8 @@ Knowledge Graph Management, Network/Graph Representation, Large-scale Graph Proc
 Selected Publications
 ======
 More articles on [Google Scholar](https://scholar.google.com/citations?hl=en&user=h6gVF8YAAAAJ) or [here](publications/).
+1. Fangcheng Fu, **Yingxia Shao**, Lele Yu, Jiawei Jiang, Huanran Xue, Yangyu Tao, Bin Cui, VF^2Boost: Very Fast Vertical Federated Gradient Boosting for Cross-Enterprise Learning, SIGMOD 2021
+1. Xupeng Miao, Xiaonan Nie, **Yingxia Shao**, Zhi Yang, Jiawei Jiang, Lingxiao Ma, Bin Cui, Heterogeneity-Aware Distributed Machine Learning Training via Partial Reduce, SIGMOD 2021
 1. Xingyu Yao, **Yingxia Shao**, Bin Cui, Lei Chen, UniNet: Scalable Network Representation Learning with Metropolis-Hastings Sampling, ICDE 2021, [Code](https://github.com/shaoyx/UniNet)
 1. Xiangguo Sun, Hongzhi Yin, Bo Liu, Hongxu Chen, Jiuxin Cao, **Yingxia Shao**, Nguyen Quoc Viet Hung, Heterogeneous Hypergraph Embedding for Graph Classification, WSDM 2021
 1. Xupeng Miao, Linxiao Ma, Zhi Yang, **Yingxia Shao**, Bin Cui, Lele Yu, Jiawei Jiang, CuWide: Towards Efficient Flow-based Training for Sparse Wide Models on GPUs, TKDE (to appear)
@@ -87,10 +89,10 @@ Academic Services
 ======
 - Selected Conference PC Membership
     - VLDB: 2019
-    - KDD: 2019, 2020
+    - KDD: 2019, 2020, 2021
     - AAAI: 2019, 2020, 2021
-    - IJCAI: 2018, 2019, 2020, 2021
-    - DASFAA: 2020 (Publicity Co-Chair)
+    - IJCAI: 2018, 2019, 2020, 2021 (SPC)
+    - DASFAA: 2020 (Publicity Co-Chair), 2021
     - APWeb-WAIM: 2017, 2018, 2019, 2020
 
 <!--BigData: 2018, 2019
