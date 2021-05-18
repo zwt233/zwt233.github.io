@@ -11,7 +11,7 @@ SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD 2021**).
 
 - *Graph Neural Networks with Adaptive Frequency Response Filter* <br>
 **Yushun Dong**, Kaize Ding, Brian Jalaian, Shuiwang Ji, Jundong Li <br>
-**arXiv**. 
+arXiv:2104.12840 (**arXiv**). 
 
 - *Forecasting Pavement Performance with a Feature Fusion LSTM-BPNN Model* <br>
 **Yushun Dong**, Yingxia Shao, Xiaotong Li, Sili Li, Lei Quan, Wei Zhang, Junping Du <br>
