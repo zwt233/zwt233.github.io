@@ -21,6 +21,7 @@ News
 Awards
 ------
 * The Web Conference scholarship 2021
+* SDM Ph.D. Forum presenter 2021
 * SDM Student Travel Award 2021
 * SIGKDD Student Travel Award 2020
 * Excellent Bachelor Thesis of BUPT **(Top 0.5%)**, 2019
