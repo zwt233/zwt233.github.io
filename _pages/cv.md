@@ -16,9 +16,11 @@ Education
 Experience
 ======
 * @ University of Virginia
-  * Research assistant, 06/2020 -
-  * Ph.D. student, 01/2020 -
+  * Research assistant, 06/2021 - 
+  * Teaching assistant, 01/2021 - 05/2021
+  * Research assistant, 06/2020 - 12/2020
   * Teaching assistant, 01/2020 - 05/2020
+  * Ph.D. student, 01/2020 -
 
 * @ Beijing University of Posts and Telecommunications
   * Research assistant, 09/2019 - 10/2019
@@ -37,5 +39,6 @@ Publications
 
 Teaching
 ======
+* Teaching assistant @ UVa: ECE 4502/6502 & CS 6501: Graph Mining - 2021 Spring
 * Teaching assistant @ UVa: ECE 4502/6502 & CS 6501: Graph Mining - 2020 Spring
 
