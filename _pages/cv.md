@@ -51,7 +51,7 @@ International Conference on Information and Knowledge Management (**CIKM 2019**)
 
 - *Learning Route Planning from Experienced Drivers Using Generalized Value Iteration Network* <br>
 Xiao Wang, Quan Yuan, Zhihan Liu, **Yushun Dong**, Xiaojuan Wei, Jinglin Li <br>
-Internet of Vehicles. Technologies and Services Toward Smart Cities (**IOV 2019**). 
+International Conference on Internet of Vehicles (**IOV 2019**). 
 
 Teaching
 ======
