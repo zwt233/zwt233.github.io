@@ -16,7 +16,7 @@ I have abundant interest in **Feature Fusion** and **Graph Mining**, e.g., **Spe
 
 News
 ------
-* May-17-2020, Our paper *Individual Fairness for Graph Neural Networks* has been accepted by SIGKDD 2021.
+* May-17-2020, Our paper *Individual Fairness for Graph Neural Networks: A Ranking based Approach* has been accepted by SIGKDD 2021.
 
 Awards
 ------
