@@ -12,7 +12,7 @@ I am a second-year Ph.D. student at the [University of Virginia](http://www.virg
 
 Research Interests
 ---
-I have abundant interest in **Feature Fusion** and **Graph Mining**, e.g., **Spectral Graph Theory**, **Graph Convolutional Network** and other exciting topics. My previous research experiences mainly lie in graph mining and feature fusion.
+I have abundant interest in **Feature Fusion** and **Graph Mining**, e.g., **Spectral Graph Theory**, **Graph Neural Network** and other exciting topics. My previous research experiences mainly lie in graph mining and feature fusion.
 
 News
 ------
