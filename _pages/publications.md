@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-- *Individual Fairness for Graph Neural Networks* <br>
+- *Individual Fairness for Graph Neural Networks: A Ranking based Approach* <br>
 **Yushun Dong**, Jian Kang, Hanghang Tong, Jundong Li <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD 2021**). 
 
