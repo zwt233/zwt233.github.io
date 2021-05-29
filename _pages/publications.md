@@ -5,18 +5,46 @@ permalink: /publications/
 author_profile: true
 ---
 
-- *Individual Fairness for Graph Neural Networks: A Ranking based Approach* <br>
-**Yushun Dong**, Jian Kang, Hanghang Tong, Jundong Li <br>
+- *ROD: Reception-aware Online Distillation for Sparse Graphs* <br>
+**Wentao Zhang**, Jiang Yuezihan, Yang Li, Zeang Sheng, Yu Shen, Xupeng Miao, Liang Wang, Zhi Yang, Bin Cui <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD 2021**). 
 
-- *Graph Neural Networks with Adaptive Frequency Response Filter* <br>
-**Yushun Dong**, Kaize Ding, Brian Jalaian, Shuiwang Ji, Jundong Li <br>
-arXiv:2104.12840 (**arXiv**). 
+- *DeGNN: Characterizing and Improving Graph Neural Networks with Graph Decomposition* <br>
+Xupeng Miao, Nezihe Merve Gürel, **Wentao Zhang**, et al. <br>
+SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD 2021**). 
 
-- *Forecasting Pavement Performance with a Feature Fusion LSTM-BPNN Model* <br>
-**Yushun Dong**, Yingxia Shao, Xiaotong Li, Sili Li, Lei Quan, Wei Zhang, Junping Du <br>
-International Conference on Information and Knowledge Management (**CIKM 2019**). 
+- *OpenBox: A Generalized Black-box Optimization Service* <br>
+Yangli, Yu Shen, **Wentao Zhang**, Yikuan Xia, Yangli, Lei Chen, Zhi Yang, Bin Cui <br>
+SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD 2021**). 
 
-- *Learning Route Planning from Experienced Drivers Using Generalized Value Iteration Network* <br>
-Xiao Wang, Quan Yuan, Zhihan Liu, **Yushun Dong**, Xiaojuan Wei, Jinglin Li <br>
-International Conference on Internet of Vehicles (**IOV 2019**). 
+- *ALG: Fast and Accurate Active Learning Framework for GraphConvolutional Networks* <br>
+**Wentao Zhang**, Yu Shen, Yikuan Xia, Yangli, Lei Chen, Zhi Yang, Bin Cui <br>
+ACM SIGMOD International Conference on Management of Data (**SIGMOD 2021**). 
+
+- *Enhanced review-based rating prediction by exploiting aside information and user influence* <br>
+Shiwen Wu, Yuanxing Zhang, **Wentao Zhang**, Kaigui Bian, Bin Cui.  <br>
+Knowledge Based System (**KBS 2021**). 
+
+- *Reliable Data Distillation on Graph Convolutional Network* <br>
+**Wentao Zhang**, Xupeng Miao, Yingxia Shao, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui <br>
+ACM SIGMOD International Conference on Management of Data (**SIGMOD 2020**). 
+
+- *Efficient Diversity-Driven Ensemble for Deep Neural Networks* <br>
+**Wentao Zhang**, Jiawei Jiang, Yingxia Shao, Bin Cui <br>
+IEEE International Conference on Data Engineering (**ICDE 2020**). 
+
+- *Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks* <br>
+**Wentao Zhang**, Jiawei Jiang, Yingxia Shao, Bin Cui <br>
+Sci China Inf Sci (**SCIS 2020**). 
+
+- *Distributed Optimization and Implementation of Graph Embedding Algorithms* <br>
+**Wentao Zhang**, Bin Yuan, ZhiPeng Zhang, Bin Cui <br>
+Journal of Software (**SCIS 2020**). 
+
+- *GMLP: Building Scalable and Flexible Graph Neural Networks with Feature-Message Passing* <br>
+**Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang, Yangyu Tao, Zhi Yang, Bin Cui. <br>
+arXiv:2104.09880, 2021. (**arXiv preprint**). 
+
+- *Graph Neural Networks in Recommender Systems: A Survey* <br>
+Shiwen Wu, **Wentao Zhang**, Fei Sun, Bin Cui. <br>
+arXiv:2011.02260, 2020. (**arXiv preprint**). 
