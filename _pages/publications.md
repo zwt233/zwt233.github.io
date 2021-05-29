@@ -10,11 +10,11 @@ author_profile: true
 SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD 2021**). 
 
 - *DeGNN: Characterizing and Improving Graph Neural Networks with Graph Decomposition* <br>
-Xupeng Miao, Nezihe Merve Gürel, **Wentao Zhang**, et al. <br>
+Xupeng Miao<sup>1</sup>, Nezihe Merve Gürel<sup>1</sup>, **Wentao Zhang<sup>1</sup>**,..., Shuai Zhang, Yujing Wang, Bin Cui, Ce Zhang. <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD 2021**). 
 
 - *OpenBox: A Generalized Black-box Optimization Service* <br>
-Yangli, Yu Shen, **Wentao Zhang**, Yikuan Xia, Yangli, Lei Chen, Zhi Yang, Bin Cui <br>
+Yangli, Yu Shen, **Wentao Zhang**,..., Ce Zhang, Bin Cui. <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining (**KDD 2021**). 
 
 - *ALG: Fast and Accurate Active Learning Framework for GraphConvolutional Networks* <br>
@@ -39,7 +39,7 @@ Sci China Inf Sci (**SCIS 2020**).
 
 - *Distributed Optimization and Implementation of Graph Embedding Algorithms* <br>
 **Wentao Zhang**, Bin Yuan, ZhiPeng Zhang, Bin Cui <br>
-Journal of Software (**SCIS 2020**). 
+Journal of Software (**JOS 2020**). 
 
 - *GMLP: Building Scalable and Flexible Graph Neural Networks with Feature-Message Passing* <br>
 **Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang, Yangyu Tao, Zhi Yang, Bin Cui. <br>
