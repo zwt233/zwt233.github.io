@@ -9,6 +9,8 @@ redirect_from:
 ---
 
 I am a Ph.D. student at the [Peking University](https://www.pku.edu.cn/), now working with [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/).
+**Email**: wentao.zhang@pku.edu.cn
+**Office**: Room 425, Yanyuan Building, Peking University, Beijing, China, 100871.
 
 Research Interests
 ---
