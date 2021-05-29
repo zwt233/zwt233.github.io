@@ -41,7 +41,7 @@ Awards
 * National Scholarship of PKU **(Top 1%)**, 2019
 * Merit Student of PKU **(Top 5%)**, 2019
 * Academic Excellence Award of PKU **(Top 5%)**, 2018
-* Outstanding Winner of the national university big data application innovation competition **(1/575)**, 2018
+* Outstanding Winner of the BDIC big data competition **(1/575)**, 2018
 
 
 
