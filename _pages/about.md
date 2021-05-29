@@ -26,14 +26,15 @@ Graph Machine Learning from the following three perspectives:
 News
 ------
 * May 2021: Two papers as first author was submitted to NeurIPS 2021.
-* May 2021: One pape as first author, related to Graph Sparsity (i.e., feature/label sparsity), has been accepted by KDD 2021.
-* May 2021: One pape as first co-author, related to Deep Graph Neural Network, has been accepted by KDD 2021.
-* May 2021: One pape as third author, related to our blackbox optimization (BBO) system -- [OpenBox](https://open-box.readthedocs.io/en/latest/), has been accepted by KDD 2021.
-* April 2021: One pape as first author, related to Graph-based Active Learning, received major revision from VLDB 2021.
-* April 2021: One pape as first co-author received major revision from TKDE 2021.
+* May 2021: One paper as first author, related to Graph Sparsity (i.e., feature/label sparsity), has been accepted by KDD 2021.
+* May 2021: One paper as co-first author, related to Deep Graph Neural Network, has been accepted by KDD 2021.
+* May 2021: One paper as third author, related to our blackbox optimization (BBO) system -- [OpenBox](https://open-box.readthedocs.io/en/latest/), has been accepted by KDD 2021.
+* April 2021: One paper as first author, related to Graph-based Active Learning, received major revision from VLDB 2021.
+* April 2021: One paper as co-first author received major revision from TKDE 2021.
 * April 2021: As the only person in Chinese mainland, I was supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). Many thanks to Apple!
-* March 2021: One papers as first author has been accepted by SIGMOD 2021. Looking forward to the meeting in Xi'an this summer!
-* February 2021: One pape as third author, related to our AutoML system -- [VocalnoML](https://github.com/PKU-DAIR/soln-ml), received major revision from VLDB 2021.
+* April 2021: One survey paper as corrsponding author, related to GNN-based Recommendation, was submitted to ACM Computing Surveys.
+* March 2021: One paper as first author has been accepted by SIGMOD 2021. Looking forward to the meeting in Xi'an this summer!
+* February 2021: One paper as third author, related to our AutoML system -- [VocalnoML](https://github.com/PKU-DAIR/soln-ml), received major revision from VLDB 2021.
 <!-- * May-17-2020, Our paper *Individual Fairness for Graph Neural Networks: A Ranking based Approach* has been accepted by SIGKDD 2021. -->
 
 Awards
