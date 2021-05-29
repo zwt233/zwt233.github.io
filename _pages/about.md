@@ -19,7 +19,7 @@ News
 * May 2021: Two papers as first author was submitted to NeurIPS 2021.
 * May 2021: One pape as first author, related to Graph-based Knowledge Distillation, has been accepted by KDD 2021.
 * May 2021: One pape as first co-author, related to Deep GNN, has been accepted by KDD 2021.
-* May 2021: One pape as third author, related to our blackbox optimization (BBO) system,, has been accepted by KDD 2021.
+* May 2021: One pape as third author, related to our blackbox optimization (BBO) system -- [OpenBox](https://open-box.readthedocs.io/en/latest/), has been accepted by KDD 2021.
 * April 2021: One pape as first author, related to Graph-based Active Learning, received major revision from VLDB 2021.
 * April 2021: One pape as first co-author received major revision from TKDE 2021.
 * April 2021: I was supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). Many thanks to Apple!
