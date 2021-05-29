@@ -10,7 +10,7 @@ author_profile: true
 SIGKDD Conference on Knowledge Discovery and Data Mining (***SIGKDD 2021, CCF-A*** ). 
 
 - *DeGNN: Characterizing and Improving Graph Neural Networks with Graph Decomposition* <br>
-Xupeng Miao<sup>1</sup>, Nezihe Merve Gürel<sup>1</sup>, **Wentao Zhang<sup>1</sup>**,..., Shuai Zhang, Yujing Wang, Bin Cui, Ce Zhang. <br>
+Xupeng Miao<sup>1</sup>, Nezihe Merve Gürel<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Zhichao Han, Bo Li,...,Bin Cui, Ce Zhang. <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining (***SIGKDD 2021, CCF-A***). 
 
 - *OpenBox: A Generalized Black-box Optimization Service* <br>
