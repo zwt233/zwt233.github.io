@@ -12,7 +12,12 @@ I am a Ph.D. student at the [Peking University](https://www.pku.edu.cn/), now wo
 
 Research Interests
 ---
-Data, Model and System on Graph, AutoML system.
+Graph Machine Learning from the following three perspectives:
++ **Data**: data privacy, data collection, data generation and data correction.
+
++ **Model**: scalable and deep GNN, distillation.
+
++ **System**: large-scale distributed training, AutoML.
 
 News
 ------
@@ -29,7 +34,7 @@ News
 
 Awards
 ------
-* [Apple PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021) (), 2021
+* [Apple PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021), 2021
 * Leo KoGuan Scholarship of PKU **(Top 1%)**, 2020
 * Academic Innovation Award of PKU **(Top 0.5%)**, 2020
 * Pacemaker to Merit Student of PKU **(Top 1%)**, 2020
