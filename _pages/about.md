@@ -24,7 +24,7 @@ News
 * April 2021: One pape as first co-author received major revision from TKDE 2021.
 * April 2021: I was supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). Many thanks to Apple!
 * March 2021: One papers as first author has been accepted by SIGMOD 2021.
-* February 2021: One pape as third author, related to our AutoML system, received major revision from VLDB 2021.
+* February 2021: One pape as third author, related to our AutoML system -- [VocalnoML](https://github.com/PKU-DAIR/soln-ml), received major revision from VLDB 2021.
 <!-- * May-17-2020, Our paper *Individual Fairness for Graph Neural Networks: A Ranking based Approach* has been accepted by SIGKDD 2021. -->
 
 Awards
