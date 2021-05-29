@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Wentao Zhang (张文涛) is a Ph.D. student at the [Peking University](https://www.pku.edu.cn/), now working with [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/).
+Wentao Zhang (张文涛) is a Ph.D. student at [PKU](https://www.pku.edu.cn/), now working with [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/).
 
 **Email**: wentao.zhang@pku.edu.cn
 
