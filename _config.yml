@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Wentao Zhang's Homepage"
+title                    : "Wentao Zhang (张文涛)'s Homepage"
 title_separator          : "-"
 name                     : &name "Wentao Zhang (张文涛)"
 description              : &description "Ph.D. Student @PKU"
