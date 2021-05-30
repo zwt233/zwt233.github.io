@@ -21,7 +21,7 @@ We welcome everyone interested in machine learning or graph computing to contrib
 <img src="/images/angel_logo.png" width="30%">
 </p>
 
-* [Volcano-ML](https://pypi.org/project/soln-ml) is a powerful AutoML system, which automates feature engineering, algorithm selection and hyperparameter tuning. 
+[Volcano-ML](https://pypi.org/project/soln-ml) is a powerful AutoML system, which automates feature engineering, algorithm selection and hyperparameter tuning. 
 It is capable of improving its AutoML power by decomposing the entire large AutoML search space into small ones.
 The system executes like the eruption of a volcano, hence the name 'Volcano-ML'.
 
@@ -31,7 +31,13 @@ The goal of Volcano-ML is to make machine learning easier to apply both in indus
 <img src="/images/Vocano-ML.jpg" width="30%">
 </p>
 
-* [OpenBox](https://open-box.readthedocs.io/en/latest): an efficient open-source system designed for solving generalized black-box optimization (BBO) problems.
+[OpenBox](https://open-box.readthedocs.io/en/latest): an efficient open-source system designed for solving generalized black-box optimization (BBO) problems.
+OpenBox is an efficient and generalized blackbox optimization (BBO) system, which owns the following characteristics:
+1. BBO with multiple objectives and constraints.
+2. BBO with transfer learning.
+3. BBO with distributed parallelization.
+4. BBO with multi-fidelity acceleration.
+5. BBO with early stops.
 <p align="center">
 <img src="/images/Openbox.png" width="30%">
 </p>
