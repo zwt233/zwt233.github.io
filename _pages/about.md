@@ -59,7 +59,7 @@ Contributed Open-source Projects
 <img src="/images/angel_logo.png" width="30%">
 </p>
 
-* [VocanoML](https://pypi.org/project/soln-ml): a powerful AutoML system, which automates feature engineering, algorithm selection and hyperparameter tuning.
+* [Volcano-ML](https://pypi.org/project/soln-ml): a powerful AutoML system, which automates feature engineering, algorithm selection and hyperparameter tuning.
 <p align="center">
 <img src="/images/Vocano-ML.jpg" width="30%">
 </p>
