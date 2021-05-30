@@ -54,14 +54,10 @@ Awards
 
 Open-source Projects
 ------
-<p align="center">
-<img src="https://github.com/zwt233/zwt233.github.io/blob/master/images/angel_logo.png" width="40%">
-</p>
 * [Angel](https://github.com/Angel-ML/angel): a high-performance distributed machine learning and graph computing platform.
-<p align="center">
-<img src="https://github.com/zwt233/zwt233.github.io/blob/master/images/Vocano-ML.jpg" width="40%">
-</p>
+<img src="https://github.com/zwt233/zwt233.github.io/blob/master/images/angel_logo.png" width="40%">
 * [VocanoML](https://pypi.org/project/soln-ml): a powerful AutoML system, which automates feature engineering, algorithm selection and hyperparameter tuning.
+<img src="https://github.com/zwt233/zwt233.github.io/blob/master/images/Vocano-ML.jpg" width="40%">
 <p align="center">
 <img src="https://github.com/zwt233/zwt233.github.io/blob/master/images/Openbox.png" width="40%">
 </p>
