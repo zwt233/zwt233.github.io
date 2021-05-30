@@ -55,6 +55,9 @@ Awards
 Open-source Projects
 ------
 * [Angel](https://github.com/Angel-ML/angel): a high-performance distributed machine learning and graph computing platform.
+* <p align="center">
+<img src="https://github.com/zwt233/zwt233.github.io/blob/master/images/angel_logo.png" width="68%">
+</p>
 * [VocanoML](https://pypi.org/project/soln-ml): a powerful AutoML system, which automates feature engineering, algorithm selection and hyperparameter tuning.
 * [OpenBox](https://open-box.readthedocs.io/en/latest): an efficient open-source system designed for solving generalized black-box optimization (BBO) problems.
 <!-- * Srimanth Tangedipalli (B.S. in Computer Science @UVa) -->
