@@ -15,8 +15,8 @@ Regarding DB, DM and AI conference deadline, you can also [check here](https://c
 
 |Name|Deadline|Page|Location|Format|
 |:-:|:-:|:-:|:-:|:-:|
-|[SIGMOD 2022](https://2022.sigmod.org/calls_papers_important_dates.shtml)                   | 2021-07-02                | 12 +|               | ACM   |
-|[VLDB 2022](https://vldb.org/2021/?call-for-research-track)                            | 2021-07-01                | 12 +  | Seoul         | ACM    |
+|[SIGMOD 2022](https://2022.sigmod.org/calls_papers_important_dates.shtml)                   | 2021-07-02                | 12 +|    Philadelphia, PA, USA           | ACM   |
+|[VLDB 2022](https://vldb.org/2021/?call-for-research-track)                            | 2021-07-01                | 12 +  |          | ACM    |
 
 
 ### Recently Passed
