@@ -24,9 +24,7 @@ Graph Machine Learning from the following three perspectives:
 
 + **System**: large-scale distributed training, AutoML.
 
-```diff
-- What's New
-```
+<font color=red>What's New</font>
 ------
 * May 2021: Two papers as first author was submitted to ***NeurIPS 2021***.
 * May 2021: One paper as first author, related to Graph Sparsity (i.e., feature/label sparsity), has been accepted by ***SIGKDD 2021***.
