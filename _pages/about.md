@@ -55,6 +55,7 @@ Awards
 Open-source Projects
 ------
 * [Angel](https://github.com/Angel-ML/angel): a high-performance distributed machine learning and graph computing platform.
+![Editing a markdown file for a talk](/images/angel_logo.png.png)
 <img src="images/angel_logo.png" width="40%">
 
 * [VocanoML](https://pypi.org/project/soln-ml): a powerful AutoML system, which automates feature engineering, algorithm selection and hyperparameter tuning.
