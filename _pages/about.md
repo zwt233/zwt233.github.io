@@ -52,7 +52,7 @@ Awards
 
 
 
-Open-source Projects
+Contributed Open-source Projects
 ------
 * [Angel](https://github.com/Angel-ML/angel): a high-performance distributed machine learning and graph computing platform.
 <p align="center">
