@@ -25,6 +25,6 @@ Regarding DB, DM and AI conference deadline, you can also [check here](https://c
 
 |Name|Deadline|Page|Location|Format|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|[ICDE 2021](https://icde2021.gr/important-dates/)                            | 2020-06-17                | 12 +  |         | IEEE    |
-|[SIGKDD 2021](https://www.kdd.org/kdd2021/calls/view/call-for-research-track-papers) | 2021-02-08                | 9 +  | SINGAPORE     | ACM |
 |[NeurIPS 2021](https://nips.cc/) | 2021-05-28                | 9 +  |     |   |
+|[SIGKDD 2021](https://www.kdd.org/kdd2021/calls/view/call-for-research-track-papers) | 2021-02-08                | 9 + 2 | SINGAPORE     | ACM |
+|[ICML 2021](https://icml.cc/Conferences/2021/Dates) | 2021-01-28                | 8 +  |     |   |
