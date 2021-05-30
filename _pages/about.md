@@ -29,8 +29,8 @@ Graph Machine Learning from the following three perspectives:
 **<font color=red>What's New</font>**
 ------
 * May 2021: Two papers as first author was submitted to ***NeurIPS 2021***.
-* May 2021: One paper as first author, related to Graph Sparsity (i.e., feature/label sparsity), has been accepted by ***SIGKDD 2021***.
-* May 2021: One paper as co-first author, related to Deep Graph Neural Network, has been accepted by ***SIGKDD 2021***.
+* May 2021: One paper as first author, related to Graph Sparsity (i.e., edge/label sparsity), has been accepted by ***SIGKDD 2021***.
+* May 2021: One paper as co-first author, related to Graph Decomposition and GNN, has been accepted by ***SIGKDD 2021***.
 * May 2021: One paper as third author, related to our blackbox optimization (BBO) system -- [OpenBox](https://open-box.readthedocs.io/en/latest/), has been accepted by ***SIGKDD 2021***.
 * April 2021: One paper as co-first author, related to the data privacy of GNN, was submitted to ***TOIS 2021***.
 * April 2021: One paper as first author, related to Graph-based Active Learning, received major revision from ***VLDB 2021***.
