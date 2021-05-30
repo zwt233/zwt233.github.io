@@ -55,18 +55,7 @@ Awards
 Open-source Projects
 ------
 * [Angel](https://github.com/Angel-ML/angel): a high-performance distributed machine learning and graph computing platform.
-<div align="left">
-        <strong> University of Southern California, Los Angeles, CA (Aug. 2014 - Dec. 2018) </strong>
-          <a href="https://www.usc.edu/" target="_blank" rel="external">
-            <img border="0" src="https://github.com/zwt233/zwt233.github.io/blob/master/images/angel_logo.png" align="right" width="40%">
-          </a> 
-        <ul>
-        <li>
-          Doctor of Philosophy (Ph.D)</li>
-        <li>
-                Advisor: Ram Nevatia </li>
-      </ul>      
-      </div>
+<img src="https://github.com/zwt233/zwt233.github.io/blob/master/images/angel_logo.jpg" width="40%">
 
 * [VocanoML](https://pypi.org/project/soln-ml): a powerful AutoML system, which automates feature engineering, algorithm selection and hyperparameter tuning.
 <img src="https://github.com/zwt233/zwt233.github.io/blob/master/images/Vocano-ML.jpg" width="40%">
