@@ -33,13 +33,13 @@ ACM SIGMOD International Conference on Management of Data (***SIGMOD 2020, CCF-A
 **Wentao Zhang**, Jiawei Jiang, Yingxia Shao, Bin Cui <br>
 IEEE International Conference on Data Engineering (***ICDE 2020, CCF-A***). 
 
-- *Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks* <br>
-**Wentao Zhang**, Jiawei Jiang, Yingxia Shao, Bin Cui <br>
-Sci China Inf Sci (***SCIS 2020, CCF-B***). 
-
 - *Distributed Optimization and Implementation of Graph Embedding Algorithms* <br>
 **Wentao Zhang**, Bin Yuan, ZhiPeng Zhang, Bin Cui <br>
 Journal of Software (***JOS 2020, CCF-A***). 
+
+- *Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks* <br>
+**Wentao Zhang**, Jiawei Jiang, Yingxia Shao, Bin Cui <br>
+Sci China Inf Sci (***SCIS 2020, CCF-B***). 
 
 - *GMLP: Building Scalable and Flexible Graph Neural Networks with Feature-Message Passing* <br>
 **Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang, Yangyu Tao, Zhi Yang, Bin Cui. <br>
