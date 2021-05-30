@@ -59,10 +59,10 @@ Open-source Projects
 
 
 * [VocanoML](https://pypi.org/project/soln-ml): a powerful AutoML system, which automates feature engineering, algorithm selection and hyperparameter tuning.
-<img src="https://github.com/zwt233/zwt233.github.io/blob/master/images/Vocano-ML.jpg" width="40%">
+<img src="/images/Vocano-ML.jpg" width="40%">
 
 * [OpenBox](https://open-box.readthedocs.io/en/latest): an efficient open-source system designed for solving generalized black-box optimization (BBO) problems.
-<img src="https://github.com/zwt233/zwt233.github.io/blob/master/images/Openbox.png" width="40%">
+<img src="/images/Openbox.png" width="40%">
 
 <!-- * Srimanth Tangedipalli (B.S. in Computer Science @UVa) -->
 <!-- * Nitin Maddi (B.S. in Computer Science @UVa) -->
