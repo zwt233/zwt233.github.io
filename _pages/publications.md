@@ -17,8 +17,8 @@ SIGKDD Conference on Knowledge Discovery and Data Mining (***SIGKDD 2021, CCF-A*
 Yangli, Yu Shen, **Wentao Zhang**,..., Ce Zhang, Bin Cui. <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining (***SIGKDD 2021, CCF-A***). 
 
-- *ALG: Fast and Accurate Active Learning Framework for GraphConvolutional Networks* <br>
-**Wentao Zhang**, Yu Shen, Yikuan Xia, Yangli, Lei Chen, Zhi Yang, Bin Cui <br>
+- *ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks* <br>
+**Wentao Zhang**, Yu Shen, Yangli, Lei Chen, Zhi Yang, Bin Cui <br>
 ACM SIGMOD International Conference on Management of Data (***SIGMOD 2021, CCF-A***). 
 
 - *Enhanced review-based rating prediction by exploiting aside information and user influence* <br>
