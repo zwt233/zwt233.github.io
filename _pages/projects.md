@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Projects"
+title: "Contributed Open-source Projects"
 permalink: /projects/
 author_profile: true
 redirect_from:
@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Contributed Open-source Projects
-------
 [Angel](https://github.com/Angel-ML/angel) is a high-performance distributed machine learning and graph computing platform based on the philosophy of Parameter Server. It is tuned for performance with big data from Tencent and has a wide range of applicability and stability, demonstrating increasing advantage in handling higher dimension model. Angel is jointly developed by Tencent and Peking University, taking account of both high availability  in industry and innovation in academia.
 
 With model-centered core design concept, **Angel** partitions parameters of complex models into multiple parameter-server nodes, and implements a variety of machine learning algorithms and graph algorithms using efficient model-updating interfaces and functions, as well as flexible consistency model for synchronization.
@@ -31,7 +29,7 @@ The goal of Volcano-ML is to make machine learning easier to apply both in indus
 <img src="/images/Vocano-ML.jpg" width="30%">
 </p>
 
-[OpenBox](https://open-box.readthedocs.io/en/latest): an efficient open-source system designed for solving generalized black-box optimization (BBO) problems.
+[OpenBox](https://open-box.readthedocs.io/en/latest) is an efficient open-source system designed for solving generalized black-box optimization (BBO) problems.
 OpenBox is an efficient and generalized blackbox optimization (BBO) system, which owns the following characteristics:
 1. BBO with multiple objectives and constraints.
 2. BBO with transfer learning.
