@@ -15,6 +15,8 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 
 **Office**: Room 425, Yanyuan Building, Peking University, Beijing, China, 100871.
 
+**<font color=red>I’m on job market now! If you are interested in me, contact me via wentao.zhang@pku.edu.cn</font>**
+
 Research Interests
 ---
 Graph Machine Learning from the following three perspectives:
