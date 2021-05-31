@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Contributed Open-source Projects"
+title: "Projects"
 permalink: /projects/
 author_profile: true
 redirect_from:
