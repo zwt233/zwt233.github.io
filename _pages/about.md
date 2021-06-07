@@ -36,7 +36,7 @@ Graph Machine Learning from the following three perspectives:
 * May 2021: One paper as third author, related to our blackbox optimization (BBO) system -- [OpenBox](https://open-box.readthedocs.io/en/latest/), has been accepted by the coference ***SIGKDD 2021***.
 * April 2021: One paper as first author, related to graph data selection, received major revision from the coference ***VLDB 2021***.
 * April 2021: As the only person in Chinese mainland, I was supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). Many thanks to Apple!
-* April 2021: One paper as co-first author received major revision from the journal ***TKDE 2021***.
+* April 2021: One paper as co-first author got major revision from the journal ***TKDE 2021***.
 * April 2021: One survey paper as corrsponding author, related to GNN-based Recommendation, was submitted to the journal ***ACM Computing Surveys***.
 * March 2021: One paper as first author has been accepted by the coference ***SIGMOD 2021***. Looking forward to the meeting in Xi'an this summer!
 * February 2021: One paper as third author, related to our AutoML system -- [VocalnoML](https://github.com/PKU-DAIR/soln-ml), received major revision from the coference ***VLDB 2021***.
