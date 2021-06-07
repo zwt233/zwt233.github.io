@@ -37,9 +37,9 @@ Selected Publications
 ======
 More articles on [Google Scholar](https://scholar.google.com/citations?hl=en&user=h6gVF8YAAAAJ) or [here](publications/).
 1. Fangcheng Fu, **Yingxia Shao**, Lele Yu, Jiawei Jiang, Huanran Xue, Yangyu Tao, Bin Cui, VF^2Boost: Very Fast Vertical Federated Gradient Boosting for Cross-Enterprise Learning, SIGMOD 2021
-1. Xupeng Miao, Xiaonan Nie, **Yingxia Shao**, Zhi Yang, Jiawei Jiang, Lingxiao Ma, Bin Cui, Heterogeneity-Aware Distributed Machine Learning Training via Partial Reduce, SIGMOD 2021
 1. Xingyu Yao, **Yingxia Shao**, Bin Cui, Lei Chen, UniNet: Scalable Network Representation Learning with Metropolis-Hastings Sampling, ICDE 2021, [Code](https://github.com/shaoyx/UniNet)
 1. Xiangguo Sun, Hongzhi Yin, Bo Liu, Hongxu Chen, Jiuxin Cao, **Yingxia Shao**, Nguyen Quoc Viet Hung, Heterogeneous Hypergraph Embedding for Graph Classification, WSDM 2021
+1. **Yingxia Shao**, Xupeng Li, Yiru Chen, Lele Yu, Bin Cui, Sys-TM: A Fast and General Topic Modeling System, TKDE 2021
 1. Xupeng Miao, Linxiao Ma, Zhi Yang, **Yingxia Shao**, Bin Cui, Lele Yu, Jiawei Jiang, CuWide: Towards Efficient Flow-based Training for Sparse Wide Models on GPUs, TKDE (to appear)
 1. **Yingxia Shao**, Shiyue Huang, Xupeng Miao, Bin Cui, Lei Chen, [Memory-Aware Framework for Efficient Second-Order Random Walk on Large Graphs](/files/main.pdf), SIGMOD 2020
 1. Wentao Zhang, Xupeng Miao, **Yingxia Shao**, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui, Reliable Data Distillation on Graph Convolutional Network, SIGMOD 2020
@@ -51,7 +51,6 @@ More articles on [Google Scholar](https://scholar.google.com/citations?hl=en&use
 1. Jiaxu Liu, **Yingxia Shao**, Sen Su, Multiple Local Community Detection via High-Quality Seed Identiﬁcation, APWeb-WAIM 2020
 1. Minxu zhang, **Yingxia Shao**, Kai Lei, Yuesheng Zhu, Bin Cui, Densely-connected Transformer with Co-attentive Information for Matching Text Sequences, APWeb-WAIM 2020
 1. Wentao Zhang, Jiawei Jiang, **Yingxia Shao**, Bin Cui. Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks. Sci China Inf Sci, 2020, 63(1): 112102
-1. **Yingxia Shao**, Xupeng Li, Yiru Chen, Lele Yu, Bin Cui, Sys-TM: A Fast and General Topic Modeling System, TKDE (to appear)
 1. Yushun Dong, **Yingxia Shao**, Xiaotong Li, Sili Li, Lei Quan, Wei Zhang, Junping Du, Forecasting Pavement Performance with a Feature Fusion LSTM-BPNN Model, CIKM 2019
 <!-- CNN Compression-Recovery Framework via Rank Allocation Decomposition with Knowledge Transfer -->
 1. Fangcheng Fu, Jiawei Jiang, **Yingxia Shao**, Bin Cui. An Experimental Evaluation of Large Scale GBDT Systems. VLDB 2019
@@ -61,29 +60,6 @@ More articles on [Google Scholar](https://scholar.google.com/citations?hl=en&use
 1. Jinyang Gao, Junjie Yao, **Yingxia Shao**. Towards Reliable Learning for High Stakes Applications, AAAI 2019
 1. Haobao Sun, **Yingxia Shao**, Jiawei Jiang, Bin Cui, Kai Lei, Yu Xu, Jiang Wang. Sparse Gradient Compression for Distributed SGD, DASFAA 2019
 1. Huanran Xue, Jiawei Jiang, **Yingxia Shao**, Bin Cui. FeatureBand: A Feature Selection Method by Combining Early Stopping and Genetic Local Search. APWeb-WAIM 2019
-
-<!-- 1. Zichen Wang, Tian Li, **Yingxia Shao**, Bin Cui. CUTE: Querying Knowledge Graphs by Tabular Examples (Demo), APWeb-WAIM, 2018
-1. Lele Yu, Lingyu Wang, **Yingxia Shao**, Long Guo, Bin Cui. GLM+: An Efficient System for Generalized Linear Models, BigComp, 2018
-1. Lele Yu, Ce Zhang, **Yingxia Shao**, Bin Cui. [LDA*: A Robust and Large-scale Topic Modeling System](http://net.pku.edu.cn/~cuibin/Papers/2017VLDB%20LDA.pdf), PVLDB 10(11): 2017
-1. **Yingxia Shao**, Kai Lei, Lei Chen, Zi Huang, Bin Cui, Zhongyi Liu, Yunhai Tong, Jin Xu, [Fast Parallel Path Concatenation for Graph Extraction](http://net.pku.edu.cn/~cuibin/Papers/2017tkde.pdf), TKDE 2017
-1. Zhipeng Zhang, **Yingxia Shao**, Bin Cui, Ce Zhang. [An Experimental Evaluation of SimRank based Similarity Search Algorithms](http://net.pku.edu.cn/~cuibin/Papers/2017VLDB-simrank.pdf), VLDB 2017
-1. Xiaogang Shi, Bin Cui, **Yingxia Shao**, Yunhai Tong, [Tornado: A System For Real-Time Iterative Analysis Over Evolving Data](http://net.pku.edu.cn/~cuibin/Papers/2016SIGMOD.pdf), SIGMOD 2016
-1. Hongzhi Yin, Xiaofang Zhou, **Yingxia Shao**, Hao Wang, Shazia Sadiq, [Joint Modeling of User Check-in Behaviors for Point-of-Interest Recommendation](/files/43-yin-yxshao.pdf), CIKM 2015
-1. **Yingxia Shao**, Bin Cui, Lei Chen, Mingming Liu, Xing Xie, [An Efficient Similarity Search Framework for SimRank over Large Dynamic Graphs](http://net.pku.edu.cn/~cuibin/Papers/2015VLDB.pdf). PVLDB 2015
-1. Lele Yu, **Yingxia Shao**, Bin Cui, [Exploiting matrix dependency for efficient distributed matrix computation](http://net.pku.edu.cn/~cuibin/Papers/2015-SIGMOD-DMac.pdf). SIGMOD 2015
-1. **Yingxia Shao**, Bin Cui, Lin Ma, [PAGE: A Partition Aware Engine for Parallel Graph Computation](http://net.pku.edu.cn/~cuibin/Papers/2014-TKDE_PAGE.pdf). TKDE 2015
-1. Ning Xu, Bin Cui, Lei Chen, Zi Huang, **Yingxia Shao**, [Heterogeneous Environment Aware Streaming Graph Partitioning](http://net.pku.edu.cn/~cuibin/Papers/2015TKDE.pdf), TKDE, 2015
-1. **Yingxia Shao**, Bin Cui, Lei Chen, Lin Ma, Junjie Yao, Ning Xu, [Parallel Subgraph Listing in a Large Scale Graph](http://net.pku.edu.cn/~cuibin/Papers/2014-SIGMOD_subgraphlisting.pdf). SIGMOD 2014
-1. **Yingxia Shao**, Lei Chen, Bin Cui, [Efficient Cohesive Subgraphs Detection in Parallel](http://net.pku.edu.cn/~cuibin/Papers/2014-SIGMOD_CohensiveSubgraph.pdf). SIGMOD 2014
-1. **Yingxia Shao**, Junjie Yao, Bin Cui, Lin Ma, [PAGE: A Partition Aware Graph Computation Engine](/files/km0677s-shao.pdf). CIKM 2013 -->
-
-<!-- Chinese Journals
-======
-1. Jiang Jiawei, Fu Fangchen, **Shao Yingxia**, Cui Bin. Ruan Jian Xue ao/Journal of Software, 2018,29(3):1−14 (in Chinese)
-1. Shi Shuyang, Zhang Zhipeng, Guo Long, **Shao Yingxia**, Cui Bin. Resume Activeness Prediction in Online Recruitment Scenarios. Journal of Frontiers of Computer Science and Technology, 2018, 12(5): 730-740 (in Chinese)
-1. Jialin Liu, Shuyang Shi, Yuemei Zhang, **Yingxia Shao**, Bin Cui. RoleMatch: An effective and efficient approach of graph deanonymization. Ruan Jian Xue Bao/Journal of Software, 2018,29(3):1−14 (in Chinese)
-1. Quanglong Huang, Yanxiang Huang, **Yingxia Shao**, Jia Meng, Xinqi Ren, Bin Cui, Shicong Feng, HybriG: A Distributed Architecture for Property Graph with Large Set of Multi-edges, Chinese Journal of Computers 2017,40(61) (in Chinese)
-1. **Yingxia Shao**, Bin Cui, Lin Ma, Hongzhi Yin, A Fast Sketch-based Approach of Top-k Closeness Centrality Search on Large Networks, Chinese Journal of Computers, 2016,39(10):1965-1978 (in Chinese) -->
 
 Academic Services
 ======
@@ -95,10 +71,6 @@ Academic Services
     - DASFAA: 2020 (Publicity Co-Chair), 2021
     - APWeb-WAIM: 2017, 2018, 2019, 2020
 
-<!--BigData: 2018, 2019
-    MDM: 2018, 2019, 2020
-    BigComp: 2020 (Publicity Co-Chair) -->
-
 - Journal Reviewers
     - VLDBJ, TKDE, TPDS, WWWJ, DSE
 
@@ -107,14 +79,3 @@ Research Grants
 - Research on Key Techniques of Knowledge Graph-Based Social Media Management and Analysis. NSFC No. U1936104, 2020-2022
 - Querying similar nodes on large-scale knowledge graphs. NSFC No. 61702015, 2018-2020
 - Ad-hoc generation of weighted graph with complex relation on large-scale knowledge graph. China Postdoctoral Science Foundation No. 2017M610020, 2017-2018
-
-<!-- Honors
-====
-Sohu Scholarship of PKU-NET Lab, 2015
-Qualcomm Felloship, 2015
-One of ``Top ten student pivots in research of EECS, PKU, 2015''
-MSRA Fellowship, 2014
-Google PhD Fellowship, 2014
-SIGMOD 2014 Programming Contest, one of the five finalists
-SIGMOD Travel Award, 2014
-2013-2014 Phd National Scholarship -->
