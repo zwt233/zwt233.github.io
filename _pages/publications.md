@@ -21,6 +21,10 @@ SIGKDD Conference on Knowledge Discovery and Data Mining (***SIGKDD 2021, CCF-A*
 **Wentao Zhang**, Yu Shen, Yangli, Lei Chen, Zhi Yang, Bin Cui <br>
 ACM SIGMOD International Conference on Management of Data (***SIGMOD 2021, CCF-A***). 
 
+- *Distributed Optimization and Implementation of Graph Embedding Algorithms* <br>
+**Wentao Zhang**, Bin Yuan, ZhiPeng Zhang, Bin Cui <br>
+Journal of Software (***JOS 2021, CCF-A***). 
+
 - *Enhanced review-based rating prediction by exploiting aside information and user influence* <br>
 Shiwen Wu, Yuanxing Zhang, **Wentao Zhang**, Kaigui Bian, Bin Cui.  <br>
 Knowledge Based System (***KBS 2021, JCR Q1, IF=5.921***). 
@@ -32,10 +36,6 @@ ACM SIGMOD International Conference on Management of Data (***SIGMOD 2020, CCF-A
 - *Efficient Diversity-Driven Ensemble for Deep Neural Networks* <br>
 **Wentao Zhang**, Jiawei Jiang, Yingxia Shao, Bin Cui <br>
 IEEE International Conference on Data Engineering (***ICDE 2020, CCF-A***). 
-
-- *Distributed Optimization and Implementation of Graph Embedding Algorithms* <br>
-**Wentao Zhang**, Bin Yuan, ZhiPeng Zhang, Bin Cui <br>
-Journal of Software (***JOS 2020, CCF-A***). 
 
 - *Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks* <br>
 **Wentao Zhang**, Jiawei Jiang, Yingxia Shao, Bin Cui <br>
