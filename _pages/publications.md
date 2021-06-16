@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 - *VolcanoML: Speeding up End-to-End AutoML via Scalable Search Space Decomposition* <br>
-Yang Li, Yu Shen, **Wentao Zhang**,..., Wentao Wu, Ce Zhang, Bin Cui. <br>
+Yang Li, Yu Shen, **Wentao Zhang**, ..., Wentao Wu, Ce Zhang, Bin Cui. <br>
 International Conference on Very Large Data Bases (***VLDB 2021, CCF-A*** ). 
 
 - *ROD: Reception-aware Online Distillation for Sparse Graphs* <br>
@@ -17,7 +17,7 @@ Xupeng Miao<sup>1</sup>, Nezihe Merve Gürel<sup>1</sup>, **Wentao Zhang<sup>1</
 SIGKDD Conference on Knowledge Discovery and Data Mining (***SIGKDD 2021, CCF-A***). 
 
 - *OpenBox: A Generalized Black-box Optimization Service* <br>
-Yangli, Yu Shen, **Wentao Zhang**,..., Ce Zhang, Bin Cui. <br>
+Yangli, Yu Shen, **Wentao Zhang**, ..., Ce Zhang, Bin Cui. <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining (***SIGKDD 2021, CCF-A***). 
 
 - *ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks* <br>
