@@ -4,6 +4,9 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+- *VolcanoML: Speeding up End-to-End AutoML via Scalable Search Space Decomposition* <br>
+Yang Li, Yu Shen, **Wentao Zhang**,..., Wentao Wu, Ce Zhang, Bin Cui. <br>
+International Conference on Very Large Data Bases (***VLDB 2021, CCF-A*** ). 
 
 - *ROD: Reception-aware Online Distillation for Sparse Graphs* <br>
 **Wentao Zhang**, Jiang Yuezihan, Yang Li, Zeang Sheng, Yu Shen, Xupeng Miao, Liang Wang, Zhi Yang, Bin Cui <br>
