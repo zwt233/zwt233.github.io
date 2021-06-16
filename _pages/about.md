@@ -28,6 +28,7 @@ Graph Machine Learning from the following three perspectives:
 
 **<font color=red>What's New</font>**
 ------
+* June 2021: One paper as third author, related to our AutoML system -- [VocalnoML](https://github.com/PKU-DAIR/soln-ml), has been accepted by the coference ***VLDB 2021***.
 * June 2021: One paper as co-first author, related to the graph data privacy, was submitted to the journal ***VLDBJ 2021***.
 * May 2021: One paper as first author, related to the scalable graph learning, was submitted to the coference ***NeurIPS 2021***.
 * May 2021: One paper as first author, related to the graph data collection, was submitted to the coference ***NeurIPS 2021***.
@@ -39,7 +40,6 @@ Graph Machine Learning from the following three perspectives:
 * April 2021: One paper as co-first author got major revision from the journal ***TKDE 2021***.
 * April 2021: One survey paper as corrsponding author, related to GNN-based Recommendation, was submitted to the journal ***ACM Computing Surveys***.
 * March 2021: One paper as first author has been accepted by the coference ***SIGMOD 2021***. Looking forward to the meeting in Xi'an this summer!
-* February 2021: One paper as third author, related to our AutoML system -- [VocalnoML](https://github.com/PKU-DAIR/soln-ml), got major revision from the coference ***VLDB 2021***.
 <!-- * May-17-2020, Our paper *Individual Fairness for Graph Neural Networks: A Ranking based Approach* has been accepted by SIGKDD 2021. -->
 
 Awards
