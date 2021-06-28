@@ -26,7 +26,7 @@ Research Interests
 Graph Data Mining from the following three perspectives:
 + **Data**: data privacy, data collection, data generation and data correction.
 
-+ **Model**: scalable, flexible, and efficient graph learning.
++ **Model**: scalable, flexible, and efficient graph mining.
 
 + **System**: large-scale distributed training, AutoML.
 
@@ -34,7 +34,7 @@ Graph Data Mining from the following three perspectives:
 ------
 * June 2021: One paper as third author, related to our AutoML system -- [VocalnoML](https://github.com/PKU-DAIR/soln-ml), has been accepted by the coference ***VLDB 2021***.
 * June 2021: One paper as co-first author, related to the graph data privacy, was submitted to the journal ***VLDBJ 2021***.
-* May 2021: One paper as first author, related to the scalable graph learning, was submitted to the coference ***NeurIPS 2021***.
+* May 2021: One paper as first author, related to the scalable graph mining, was submitted to the coference ***NeurIPS 2021***.
 * May 2021: One paper as first author, related to the graph data collection, was submitted to the coference ***NeurIPS 2021***.
 * May 2021: One paper as collaborator, related to the large scale k-core decomposition, was submitted to the coference ***CIKM 2021***.
 * May 2021: One paper as first author, related to sparse graph data, has been accepted by the coference ***SIGKDD 2021***.
