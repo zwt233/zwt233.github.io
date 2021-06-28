@@ -26,7 +26,7 @@ Research Interests
 Graph Data Mining from the following three perspectives:
 + **Data**: data privacy, data collection, data generation and data correction.
 
-+ **Model**: scalable, memory-efficient, and fast graph mining.
++ **Model**: scalable, fast, memory-efficient and powerful graph mining.
 
 + **System**: large-scale distributed training, AutoML.
 
