@@ -23,7 +23,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 
 Research Interests
 ---
-Graph Machine Learning from the following three perspectives:
+Graph Data Mining from the following three perspectives:
 + **Data**: data privacy, data collection, data generation and data correction.
 
 + **Model**: scalable, flexible, and efficient graph learning.
