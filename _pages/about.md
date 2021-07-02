@@ -72,7 +72,7 @@ Academic Services
     - AAAI: 2019, 2020, 2021
     - IJCAI: 2018, 2019, 2020, 2021 (SPC)
     - DASFAA: 2020 (Publicity Co-Chair), 2021
-    - APWeb-WAIM: 2017, 2018, 2019, 2020
+    - APWeb-WAIM: 2017, 2018, 2019, 2020，2021
 
 - Journal Reviewers
     - VLDBJ, TKDE, TPDS, WWWJ, DSE

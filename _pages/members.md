@@ -27,11 +27,11 @@ author_profile: true
 ### Alumni
 | No. | Name| Type | Grad. Year | Notes |
 | --- | --- | ----- | ----- |----- |
-| 1 | Yushun Dong| BSc | 2019 | Ph.D, University of Virginia, [homepage](https://yushundong.github.io/) |
-| 2 | Yushi Lan| BSc  | 2020 | Ph.D, NanYang Tech. [homepage](https://yushi.netlify.app/) |
-| 3 | Xiaotong Li| BSc  | 2020 | MSc, UCSD |
-| 4 | Weiqiang Yu| BSc  | 2020 | Excellent Bachelor Thesis of BUPT; MSc, Columbia University |
-| 5 | Qiuyi Jin| BSc  | 2020 | CitiBank |
+| 1 | Yushun Dong| BSc| 2019 | Ph.D, University of Virginia, [homepage](https://yushundong.github.io/) |
+| 2 | Yushi Lan| BSc| 2020 | Ph.D, NanYang Tech. [homepage](https://yushi.netlify.app/) |
+| 3 | Xiaotong Li| BSc| 2020 | MSc, UCSD |
+| 4 | Weiqiang Yu| BSc| 2020 | Excellent Bachelor Thesis of BUPT; MSc, Columbia University |
+| 5 | Qiuyi Jin| BSc| 2020 | CitiBank |
 | 6 | Jiaxu Liu | MSc (co-supervisor) | 2021 | Alibaba |
-| 7 | Xinyu Yao | BSc | 2021 |Excellent Bachelor Thesis of BUPT; Ali Cloud|
-| 8 | Jianxiang Liao | BSc | 2021 |Msc, CMU|
+| 7 | Xinyu Yao | BSc | 2021 | Excellent Bachelor Thesis of BUPT; Ali Cloud|
+| 8 | Jianxiang Liao | BSc | 2021 | Msc, CMU|
