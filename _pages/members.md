@@ -26,7 +26,7 @@ author_profile: true
 
 ### Alumni
 | No. | Name| Type | Grad. Year | Notes |
-| --- | --- | ----- | ----- |----- |
+| --- | --- | ----- | ----- | ----- |
 | 1 | Yushun Dong| BSc| 2019 | Ph.D, University of Virginia, [homepage](https://yushundong.github.io/) |
 | 2 | Yushi Lan| BSc| 2020 | Ph.D, NanYang Tech. [homepage](https://yushi.netlify.app/) |
 | 3 | Xiaotong Li| BSc| 2020 | MSc, UCSD |
