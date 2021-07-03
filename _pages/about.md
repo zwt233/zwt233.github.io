@@ -24,7 +24,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 Research Interests
 ---
 Graph Data Mining from the following three perspectives:
-+ **Data**: data privacy, data collection, data generation and data correction.
++ **Data**: collection, generation, selection, optimization, and privacy.
 
 + **Model**: scalable, fast, memory-efficient and powerful graph mining.
 
@@ -32,6 +32,7 @@ Graph Data Mining from the following three perspectives:
 
 **<font color=red>What's New</font>**
 ------
+* July 2021: Three papers, related to our scalable graph learning system, graph data optimization, and distributed HPO system, were submitted to the coference ***SIGMOD 2022***.
 * June 2021: One paper as third author, related to our AutoML system -- [VocalnoML](https://github.com/PKU-DAIR/soln-ml), has been accepted by the coference ***VLDB 2021***.
 * June 2021: One paper as co-first author, related to the graph data privacy, was submitted to the journal ***VLDBJ 2021***.
 * May 2021: One paper as first author, related to the scalable graph mining, was submitted to the coference ***NeurIPS 2021***.
