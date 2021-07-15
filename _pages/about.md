@@ -32,6 +32,7 @@ Graph Data Mining from the following three perspectives:
 
 **<font color=red>What's New</font>**
 ------
+* July 2021: One paper as first author, related to graph data selection, has been accepted by the coference ***VLDB 2021***.
 * July 2021: Three papers, related to our scalable graph learning system, graph data optimization, and distributed HPO system, were submitted to the coference ***SIGMOD 2022***.
 * June 2021: One paper as third author, related to our AutoML system -- [VocalnoML](https://github.com/PKU-DAIR/soln-ml), has been accepted by the coference ***VLDB 2021***.
 * June 2021: One paper as co-first author, related to the graph data privacy, was submitted to the journal ***VLDBJ 2021***.
@@ -41,7 +42,6 @@ Graph Data Mining from the following three perspectives:
 * May 2021: One paper as first author, related to sparse graph data, has been accepted by the coference ***SIGKDD 2021***.
 * May 2021: One paper as co-first author, related to Graph Decomposition and GNN, has been accepted by the coference ***SIGKDD 2021***.
 * May 2021: One paper as third author, related to our blackbox optimization (BBO) system -- [OpenBox](https://open-box.readthedocs.io/en/latest/), has been accepted by the coference ***SIGKDD 2021***.
-* April 2021: One paper as first author, related to graph data selection, received major revision from the coference ***VLDB 2021***.
 * April 2021: As the only person in China, I was supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). Many thanks to Apple!
 * April 2021: One paper as co-first author got major revision from the journal ***TKDE 2021***.
 * April 2021: One survey paper as corrsponding author, related to GNN-based Recommendation, was submitted to the journal ***ACM Computing Surveys***.
