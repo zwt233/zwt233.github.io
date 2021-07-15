@@ -4,6 +4,10 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+- *Grain: Improving Data Efficiency of Graph Neural Networks via Diversified Influence Maximization* <br>
+**Wentao Zhang**, Zhi Yang, YeXin Wang, Yu Shen, Yang Li , Liang Wang, Bin Cui.<br>
+International Conference on Very Large Data Bases (***VLDB 2021, CCF-A*** ). 
+
 - *VolcanoML: Speeding up End-to-End AutoML via Scalable Search Space Decomposition* <br>
 Yang Li, Yu Shen, **Wentao Zhang**, ..., Wentao Wu, Ce Zhang, Bin Cui. <br>
 International Conference on Very Large Data Bases (***VLDB 2021, CCF-A*** ). 
