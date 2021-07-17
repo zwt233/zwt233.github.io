@@ -32,7 +32,7 @@ Graph Data Mining from the following three perspectives:
 
 **<font color=red>What's New</font>**
 ------
-* July 2021: One paper as first author, related to graph data selection, has been accepted by the coference ***VLDB 2021***.
+* July 2021: One paper as first author, related to large-scale graph data selection, has been accepted by the coference ***VLDB 2021***.
 * July 2021: Three papers, related to our scalable graph learning system (as first author), graph data optimization (as first author), and distributed HPO system, were submitted to the coference ***SIGMOD 2022***.
 * June 2021: One paper as third author, related to our AutoML system -- [VocalnoML](https://github.com/PKU-DAIR/soln-ml), has been accepted by the coference ***VLDB 2021***.
 * June 2021: One paper as co-first author, related to the graph data privacy, was submitted to the journal ***VLDBJ 2021***.
