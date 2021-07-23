@@ -22,18 +22,16 @@ With model-centered core design concept, **Angel** partitions parameters of comp
 
 We welcome everyone interested in machine learning or graph computing to contribute code, create issues or pull requests. Please refer to  [Angel Contribution Guide](https://github.com/Tencent/angel/blob/master/CONTRIBUTING.md) for more detail.
 
-2.Volcano-ML
+2.MindWare
 ------
-[Volcano-ML](https://pypi.org/project/soln-ml) is a powerful AutoML system, which automates feature engineering, algorithm selection and hyperparameter tuning. 
-It is capable of improving its AutoML power by decomposing the entire large AutoML search space into small ones.
-The system executes like the eruption of a volcano, hence the name 'Volcano-ML'.
+[MindWare](https://github.com/PKU-DAIR/mindware) MindWare is an efficient open-source system to help users to automate the process of 1) data pre-processing, 2) feature engineering, 3) algorithm selection, 4) architecture design, 5) hyper-parameter tuning, and 6) model ensembling. It is capable of improving its AutoML power by decomposing the entire large AutoML search space into small ones, and solve each sub-problems jointly and efficiently.
 
 <p align="center">
-<img src="/images/Vocano-ML.jpg" width="30%">
+<img src="/images/mindware.png" width="30%">
 </p>
 
-Volcano-ML is developed by <a href="http://net.pku.edu.cn/~cuibin/" target="_blank" rel="nofollow">DAIM Lab</a> at Peking University.
-The goal of Volcano-ML is to make machine learning easier to apply both in industry and academia.
+Volcano-ML is developed by <a href="http://net.pku.edu.cn/~cuibin/" target="_blank" rel="nofollow">DAIR Lab</a> at Peking University.
+The goal of MindWare is to make machine learning easier to apply both in industry and academia.
 
 3.OpenBox
 ------
