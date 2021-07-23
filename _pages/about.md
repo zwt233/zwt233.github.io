@@ -70,7 +70,7 @@ Contributed Open-source Projects
 
 * [MindWare](https://github.com/PKU-DAIR/mindware): a powerful AutoML system, which automates feature engineering, algorithm selection and hyperparameter tuning.
 <p align="center">
-<img src="/images/mindware.jpg" width="30%">
+<img src="/images/mindware.png" width="30%">
 </p>
 
 * [OpenBox](https://github.com/PKU-DAIR/open-box): an efficient open-source system designed for solving generalized black-box optimization (BBO) problems.
