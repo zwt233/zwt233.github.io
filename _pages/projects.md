@@ -24,7 +24,7 @@ We welcome everyone interested in machine learning or graph computing to contrib
 
 2.MindWare
 ------
-[MindWare](https://github.com/PKU-DAIR/mindware) MindWare is an efficient open-source system to help users to automate the process of 1) data pre-processing, 2) feature engineering, 3) algorithm selection, 4) architecture design, 5) hyper-parameter tuning, and 6) model ensembling. It is capable of improving its AutoML power by decomposing the entire large AutoML search space into small ones, and solve each sub-problems jointly and efficiently.
+[MindWare](https://github.com/PKU-DAIR/mindware) is an efficient open-source system to help users to automate the process of 1) data pre-processing, 2) feature engineering, 3) algorithm selection, 4) architecture design, 5) hyper-parameter tuning, and 6) model ensembling. It is capable of improving its AutoML power by decomposing the entire large AutoML search space into small ones, and solve each sub-problems jointly and efficiently.
 
 <p align="center">
 <img src="/images/mindware.png" width="30%">
