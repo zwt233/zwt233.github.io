@@ -30,7 +30,7 @@ We welcome everyone interested in machine learning or graph computing to contrib
 <img src="/images/mindware.png" width="30%">
 </p>
 
-Volcano-ML is developed by <a href="http://net.pku.edu.cn/~cuibin/" target="_blank" rel="nofollow">DAIR Lab</a> at Peking University.
+MindWare is developed by <a href="http://net.pku.edu.cn/~cuibin/" target="_blank" rel="nofollow">DAIR Lab</a> at Peking University.
 The goal of MindWare is to make machine learning easier to apply both in industry and academia.
 
 3.OpenBox
