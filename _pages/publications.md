@@ -8,6 +8,10 @@ author_profile: true
 **Wentao Zhang**, Zhi Yang, YeXin Wang, Yu Shen, Yang Li , Liang Wang, Bin Cui.<br>
 International Conference on Very Large Data Bases (***VLDB 2021, CCF-A*** ). 
 
+- *Lasagne: A Multi-Layer Graph Convolutional Network Framework via Node-aware Deep Architecture* <br>
+Xupeng Miao<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Yingxia Shao, Bin Cui, Lei Chen, Ce Zhang, and Jiawei Jiang<br>
+IEEE Transactions on Knowledge and Data Engineering (***TKDE 2021, CCF-A*** ). 
+
 - *VolcanoML: Speeding up End-to-End AutoML via Scalable Search Space Decomposition* <br>
 Yang Li, Yu Shen, **Wentao Zhang**, ..., Wentao Wu, Ce Zhang, Bin Cui. <br>
 International Conference on Very Large Data Bases (***VLDB 2021, CCF-A*** ). 
