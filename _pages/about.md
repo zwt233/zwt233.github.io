@@ -41,9 +41,10 @@ Graph Data Mining from the following three perspectives:
 * May 2021: One paper as first author, related to the scalable graph mining, was submitted to the coference ***NeurIPS 2021***.
 * May 2021: One paper as first author, related to the graph data collection, was submitted to the coference ***NeurIPS 2021***.
 * May 2021: One paper as collaborator, related to the large scale k-core decomposition, was submitted to the coference ***CIKM 2021***.
-* May 2021: One paper as first author, related to sparse graph data, has been accepted by the coference ***SIGKDD 2021***.
-* May 2021: One paper as co-first author, related to Graph Decomposition and GNN, has been accepted by the coference ***SIGKDD 2021***.
-* May 2021: One paper as third author, related to our blackbox optimization (BBO) system -- [OpenBox](https://open-box.readthedocs.io/en/latest/), has been accepted by the coference ***SIGKDD 2021***.
+<!-- * May 2021: One paper as first author, related to sparse graph data, has been accepted by the coference ***SIGKDD 2021***. -->
+<!-- * May 2021: One paper as co-first author, related to Graph Decomposition and GNN, has been accepted by the coference ***SIGKDD 2021***. -->
+* Three papers, related to sparse graph data, graph decomposition and our blackbox optimization (BBO) system -- [OpenBox], are accepted by the coference ***SIGKDD 2021***.
+<!-- * May 2021: One paper as third author, related to our blackbox optimization (BBO) system -- [OpenBox](https://open-box.readthedocs.io/en/latest/), has been accepted by the coference ***SIGKDD 2021***. -->
 * April 2021: As the only person in China, I was supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). Many thanks to Apple!
 * April 2021: One survey paper as corrsponding author, related to GNN-based Recommendation, was submitted to the journal ***ACM Computing Surveys***.
 * March 2021: One paper as first author has been accepted by the coference ***SIGMOD 2021***. Looking forward to the meeting in Xi'an this summer!
