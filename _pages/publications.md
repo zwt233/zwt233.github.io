@@ -38,7 +38,7 @@ Journal of Software (***JOS 2021, CCF-A***).
 
 - *Enhanced review-based rating prediction by exploiting aside information and user influence* <br>
 Shiwen Wu, Yuanxing Zhang, **Wentao Zhang**, Kaigui Bian, Bin Cui.  <br>
-Knowledge Based System (***KBS 2021, JCR Q1, IF=5.921***). 
+Knowledge Based System (***KBS 2021, JCR Q1, IF=8.038***). 
 
 - *Reliable Data Distillation on Graph Convolutional Network* <br>
 **Wentao Zhang**, Xupeng Miao, Yingxia Shao, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui <br>
@@ -50,7 +50,7 @@ IEEE International Conference on Data Engineering (***ICDE 2020, CCF-A***).
 
 - *Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks* <br>
 **Wentao Zhang**, Jiawei Jiang, Yingxia Shao, Bin Cui <br>
-Sci China Inf Sci (***SCIS 2020, CCF-B***). 
+Sci China Inf Sci (***SCIS 2020, CCF-B, IF=4.62***). 
 
 - *GMLP: Building Scalable and Flexible Graph Neural Networks with Feature-Message Passing* <br>
 **Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang, Yangyu Tao, Zhi Yang, Bin Cui. <br>
