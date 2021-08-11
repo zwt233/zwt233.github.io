@@ -86,7 +86,7 @@ author:
   location         : "PKU, Beijing, China"
   employer         :
   pubmed           :
-  googlescholar    :
+  googlescholar    : https://scholar.google.com/citations?user=JE4VON0AAAAJ
   email            : wentao.zhang@pku.edu.cn
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : https://www.linkedin.com/in/wentao-zhang-94b267157
+  linkedin         : wentao-zhang-94b267157
   orcid            :
   pinterest        :
   soundcloud       :
