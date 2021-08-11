@@ -52,9 +52,14 @@ IEEE International Conference on Data Engineering (***ICDE 2020, CCF-A***).
 **Wentao Zhang**, Jiawei Jiang, Yingxia Shao, Bin Cui <br>
 Sci China Inf Sci (***SCIS 2020, CCF-B, IF=4.62***). 
 
+- *Evaluating Deep Graph Neural Networks* <br>
+Shiwen Wu, **Wentao Zhang**, Fei Sun, Bin Cui. <br>
+arXiv:2011.02260, 2020. (***arXiv preprint***). 
+
+
 - *GMLP: Building Scalable and Flexible Graph Neural Networks with Feature-Message Passing* <br>
-**Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang, Yangyu Tao, Zhi Yang, Bin Cui. <br>
-arXiv:2104.09880, 2021. (***arXiv preprint***). 
+**Wentao Zhang**, Zeang Sheng, Yuezihan Jiang, Yikuan Xia, Jun Gao, Zhi Yang, Bin Cui <br>
+arXiv:2108.00955, 2021. (***arXiv preprint***). 
 
 - *Graph Neural Networks in Recommender Systems: A Survey* <br>
 Shiwen Wu, **Wentao Zhang**, Fei Sun, Bin Cui. <br>
