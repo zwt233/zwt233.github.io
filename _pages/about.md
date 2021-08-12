@@ -39,7 +39,7 @@ Graph Data Mining from the following three perspectives:
 * July 2021: We submitted three papers, related to our scalable graph learning system (as first author), large-scale graph data optimization (as first author), and distributed HPO system, to the coference ***SIGMOD 2022***.
 * June 2021: One paper as third author, related to our AutoML system -- [VocalnoML](https://github.com/PKU-DAIR/soln-ml), has been accepted by the coference ***VLDB 2021***.
 * June 2021: One paper as co-first author, related to the graph data privacy, was submitted to the journal ***VLDBJ 2021***.
-* May 2021: Two paper as first author, related to the scalable graph mining and graph data collection, were submitted to the coference ***NeurIPS 2021***.
+* May 2021: Two papers as first author, related to the scalable graph mining and large scale graph data collection, were submitted to the coference ***NeurIPS 2021***.
 <!-- * May 2021: One paper as first author, related to the , was submitted to the coference ***NeurIPS 2021***. -->
 * May 2021: One paper as collaborator, related to the large scale k-core decomposition, was submitted to the coference ***CIKM 2021***.
 <!-- * May 2021: One paper as first author, related to sparse graph data, has been accepted by the coference ***SIGKDD 2021***. -->
