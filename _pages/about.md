@@ -41,7 +41,7 @@ Graph Data Mining from the following three perspectives:
 * June 2021: One paper as co-first author, related to the graph data privacy, was submitted to the journal ***VLDBJ 2021***.
 * May 2021: Two papers as first author, related to the scalable graph mining and large scale graph data collection, were submitted to the coference ***NeurIPS 2021***.
 <!-- * May 2021: One paper as first author, related to the , was submitted to the coference ***NeurIPS 2021***. -->
-* May 2021: One paper as collaborator, related to the large scale k-core decomposition, was submitted to the coference ***CIKM 2021***.
+<!-- * May 2021: One paper as collaborator, related to the large scale k-core decomposition, was submitted to the coference ***CIKM 2021***. -->
 <!-- * May 2021: One paper as first author, related to sparse graph data, has been accepted by the coference ***SIGKDD 2021***. -->
 <!-- * May 2021: One paper as co-first author, related to Graph Decomposition and GNN, has been accepted by the coference ***SIGKDD 2021***. -->
 <!-- * May 2021: One paper as third author, related to our blackbox optimization (BBO) system -- [OpenBox](https://open-box.readthedocs.io/en/latest/), has been accepted by the coference ***SIGKDD 2021***. -->
