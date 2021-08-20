@@ -32,7 +32,7 @@ Graph Data Mining from the following three perspectives:
 
 **<font color=red>What's New</font>**
 ------
-* August 2021: We proposed [GAMLP](https://github.com/PKU-DAIR/GAMLP/blob/main/GAMLP.pdf), a scalable and effiencnt graph model, which achieves the top#1 performance in three public and largest ogbn graphs (i.e., ogbn-papers100M, ogbn-products, and ogbn-mag)! See the leaderboards [here](https://ogb.stanford.edu/docs/leader_nodeprop/).
+* August 2021: We proposed [GAMLP](https://github.com/PKU-DAIR/GAMLP/blob/main/GAMLP.pdf), a scalable and effiencnt graph model, which achieves the **top#1** performance in three public and largest ogbn graphs (i.e., ogbn-papers100M, ogbn-products, and ogbn-mag)! See the **leaderboards** [here](https://ogb.stanford.edu/docs/leader_nodeprop/).
 <!-- * August 2021: We submiteed two papers (with one as first author) to the coference ***VLDB 2022***, one paper to the journal ***VLDBJ 2022***, and one paper to the journal  ***JMLR 2021***. -->
 <!-- * August 2021: We submitted one paper, related to the application of our AutoML system, to the journal ***Bioinformatics 2021*** . -->
 * July 2021: One paper as first author, related to large-scale graph data selection, has been accepted by the coference ***VLDB 2021***.
