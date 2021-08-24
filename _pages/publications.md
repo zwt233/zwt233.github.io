@@ -56,6 +56,9 @@ Sci China Inf Sci (***SCIS 2020, CCF-B, IF=4.62***).
 Shiwen Wu, Zeang Sheng, Yuezihan Jiang, Yikuan Xia, Jun Gao, Zhi Yang, Bin Cui<br>
 arXiv:2011.02260, 2020. (***arXiv preprint***). 
 
+- *Graph Attention Multi-Layer Perceptron* <br>
+**Wentao Zhang**, Ziqi Yin, Zeang Sheng, Wen Ouyang, Xiaosen Li, Yangyu Tao, Zhi Yang, Bin Cui <br>
+arXiv:2108.10097, 2021. (***arXiv preprint***). 
 
 - *GMLP: Building Scalable and Flexible Graph Neural Networks with Feature-Message Passing* <br>
 **Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang, Yangyu Tao, Zhi Yang, Bin Cui <br>
