@@ -53,7 +53,7 @@ IEEE International Conference on Data Engineering (***ICDE 2020, CCF-A***).
 Sci China Inf Sci (***SCIS 2020, CCF-B, IF=4.62***). 
 
 - *Evaluating Deep Graph Neural Networks* <br>
-Shiwen Wu, Zeang Sheng, Yuezihan Jiang, Yikuan Xia, Jun Gao, Zhi Yang, Bin Cui<br>
+**Wentao Zhang**, Zeang Sheng, Yuezihan Jiang, Yikuan Xia, Jun Gao, Zhi Yang, Bin Cui<br>
 arXiv:2011.02260, 2020. (***arXiv preprint***). 
 
 - *Graph Attention Multi-Layer Perceptron* <br>
