@@ -4,6 +4,14 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+- *RIM: Reliable Influence-based Active Learning on Graphs* <br>
+**Wentao Zhang**, Mingyu Yang, Zeang Sheng, Yang Li, Wen Ouyang, Yangyu Tao, Zhi Yang, Bin Cui.<br>
+Thirty-fifth Conference on Neural Information Processing Systems (***NeurIPS 2021, CCF-A, spotlight (< 3%)*** ). 
+
+- *Node Dependent Local Smoothing for Scalable Graph Learning* <br>
+**Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br>
+Thirty-fifth Conference on Neural Information Processing Systems (***NeurIPS 2021, CCF-A, spotlight (< 3%)*** ). 
+
 - *Grain: Improving Data Efficiency of Graph Neural Networks via Diversified Influence Maximization* <br>
 **Wentao Zhang**, Zhi Yang, YeXin Wang, Yu Shen, Yang Li , Liang Wang, Bin Cui.<br>
 International Conference on Very Large Data Bases (***VLDB 2021, CCF-A*** ). 
