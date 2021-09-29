@@ -10,7 +10,7 @@ Thirty-fifth Conference on Neural Information Processing Systems (***NeurIPS 202
 
 - *Node Dependent Local Smoothing for Scalable Graph Learning* <br>
 **Wentao Zhang**, Mingyu Yang, Zeang Sheng, Yang Li, Wen Ouyang, Yangyu Tao, Zhi Yang, Bin Cui.<br>
-Thirty-fifth Conference on Neural Information Processing Systems (***NeurIPS 2021, CCF-A, <font color=orange>Spotlight, Top 3%</font>**** ). 
+Thirty-fifth Conference on Neural Information Processing Systems (***NeurIPS 2021, CCF-A, <font color=orange>Spotlight, Top 3%</font>*** ). 
 
 - *Grain: Improving Data Efficiency of Graph Neural Networks via Diversified Influence Maximization* <br>
 **Wentao Zhang**, Zhi Yang, YeXin Wang, Yu Shen, Yang Li , Liang Wang, Bin Cui.<br>
