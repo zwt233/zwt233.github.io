@@ -57,13 +57,14 @@ Graph Data Mining from the following three perspectives:
 
 Awards
 ------
+* National Scholarship **(Top 1% in PKU)**, 2021
 * [Apple PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021), 2021
-* Leo KoGuan Scholarship of PKU **(Top 1%)**, 2020
-* Academic Innovation Award of PKU **(Top 0.5%)**, 2020
-* Pacemaker to Merit Student of PKU **(Top 1%)**, 2020
-* National Scholarship of PKU **(Top 1%)**, 2019
-* Merit Student of PKU **(Top 5%)**, 2019
-* Academic Excellence Award of PKU **(Top 5%)**, 2018
+* Leo KoGuan Scholarship **(Top 1% in PKU)**, 2020
+* Academic Innovation Award **(Top 0.5% in PKU)**, 2020
+* Pacemaker to Merit Student **(Top 1% in PKU)**, 2020
+* National Scholarship **(Top 1% in PKU)**, 2019
+* Merit Student **(Top 5% in PKU)**, 2019
+* Academic Excellence Award **(Top 5% in PKU)**, 2018
 * Outstanding Winner of the BDIC big data competition **(1/575)**, 2018
 
 
