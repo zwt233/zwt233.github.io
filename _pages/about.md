@@ -32,8 +32,9 @@ Graph Data Mining from the following three perspectives:
 
 **<font color=red>What's New</font>**
 ------
+* September 2021: One paper as first author, related to scalable graph learning, has been accepted by the coference ***NeurIPS 2021*** with ***spotlight (< 3%)***. 
+* September 2021: One paper as first author, related to graph-based active learning, has been accepted by the coference ***NeurIPS 2021*** with ***spotlight (< 3%)***. 
 * August 2021: We propose [GAMLP](https://github.com/PKU-DAIR/GAMLP/blob/main/GAMLP.pdf), a scalable and efficient graph model, which achieves the **top #1** performance in three public and largest ogbn graphs (i.e., ogbn-papers100M, ogbn-products, and ogbn-mag)! See the **leaderboards** [here](https://ogb.stanford.edu/docs/leader_nodeprop/).
-* Augest 2021: Two papers as first author get the score of 7766/7666 in the coference ***NeurIPS 2021*** . Hope good luck!
 * Augest 2021: One paper as corresponding author, related to GNN-based Recommender Systems, gets revision in the journal ***ACM Computing Surveys***.
 <!-- * August 2021: We submiteed two papers (with one as first author) to the coference ***VLDB 2022***, one paper to the journal ***VLDBJ 2022***, and one paper to the journal  ***JMLR 2021***. -->
 <!-- * August 2021: We submitted one paper, related to the application of our AutoML system, to the journal ***Bioinformatics 2021*** . -->
