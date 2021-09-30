@@ -7,12 +7,12 @@ author_profile: true
 - *RIM: Reliable Influence-based Active Learning on Graphs* <br>
 **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br>
 Thirty-fifth Conference on Neural Information Processing Systems.<br>
-***NeurIPS 2021, CCF-A, <font color=orange>Spotlight, Top 3%</font>***. 
+***NeurIPS 2021, CCF-A, <font color=orange>Accepted as spotlight (< 3%)</font>***. 
 
 - *Node Dependent Local Smoothing for Scalable Graph Learning* <br>
 **Wentao Zhang**, Mingyu Yang, Zeang Sheng, Yang Li, Wen Ouyang, Yangyu Tao, Zhi Yang, Bin Cui.<br>
 Thirty-fifth Conference on Neural Information Processing Systems.<br>
-***NeurIPS 2021, CCF-A, <font color=orange>Spotlight, Top 3%</font>***. 
+***NeurIPS 2021, CCF-A, <font color=orange>Accepted as spotlight (< 3%)</font>***. 
 
 - *Grain: Improving Data Efficiency of Graph Neural Networks via Diversified Influence Maximization* <br>
 **Wentao Zhang**, Zhi Yang, YeXin Wang, Yu Shen, Yang Li , Liang Wang, Bin Cui.<br>
