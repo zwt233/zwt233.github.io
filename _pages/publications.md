@@ -9,7 +9,6 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 <!-- {% endif %} -->
 
 {% include base_path %}
-2021
 ====
 1. **Yingxia Shao**, Shiyue Huang, Yawen Li, Xupeng Miao, Bin Cui, Lei Chen, Memory-Aware Framework for Fast and Scalable Second-Order Random Walk over Billion-Edge Natural Graphs, VLDBJ 2021
 1.	Shitao Xiao, **Yingxia Shao**, Yawen Li, Hongzhi Yin, Yanyan Shen, Bin Cui, LECF: Recommendation via Learnable Edge Collaborative Filtering, Sci China Inf Sci (to appear)
