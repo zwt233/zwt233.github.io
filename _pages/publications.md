@@ -5,7 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 {% include base_path %}
-2021
 ====
 1.  *RIM: Reliable Influence-based Active Learning on Graphs* <br>
 **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br>
