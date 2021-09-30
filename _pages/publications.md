@@ -27,17 +27,17 @@ IEEE Transactions on Knowledge and Data Engineering. <br>
 - *DeGNN: Characterizing and Improving Graph Neural Networks with Graph Decomposition* <br>
 Xupeng Miao<sup>1</sup>, Nezihe Merve Gürel<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Zhichao Han, Bo Li,...,Bin Cui, Ce Zhang. <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
-***SIGKDD 2021, CCF-A, <font color=orange>Top 1 conference in Data Mining</font>***. 
+***SIGKDD 2021, CCF-A, <font color=orange>Top #1 conference in Data Mining</font>***. 
 
 - *ROD: Reception-aware Online Distillation for Sparse Graphs* <br>
 **Wentao Zhang**, Jiang Yuezihan, Yang Li, Zeang Sheng, Yu Shen, Xupeng Miao, Liang Wang, Zhi Yang, Bin Cui <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
-***SIGKDD 2021, CCF-A, <font color=orange>Top 1 conference in Data Mining</font>*** . 
+***SIGKDD 2021, CCF-A, <font color=orange>Top #1 conference in Data Mining</font>*** . 
 
 - *ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks* <br>
 **Wentao Zhang**, Yu Shen, Yangli, Lei Chen, Zhi Yang, Bin Cui <br>
 ACM SIGMOD International Conference on Management of Data. <br>
-***SIGMOD 2021, CCF-A, <font color=orange>Top 1 conference in Data Bases</font>***. 
+***SIGMOD 2021, CCF-A, <font color=orange>Top #1 conference in Data Bases</font>***. 
 
 - *Distributed Optimization and Implementation of Graph Embedding Algorithms* <br>
 **Wentao Zhang**, Bin Yuan, ZhiPeng Zhang, Bin Cui <br>
@@ -52,7 +52,7 @@ International Conference on Very Large Data Bases. <br>
 - *OpenBox: A Generalized Black-box Optimization Service* <br>
 Yangli, Yu Shen, **Wentao Zhang**, ..., Ce Zhang, Bin Cui. <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
-***SIGKDD 2021, CCF-A, <font color=orange>Top 1 conference in Data Mining</font>***. 
+***SIGKDD 2021, CCF-A, <font color=orange>Top #1 conference in Data Mining</font>***. 
 
 - *Enhanced review-based rating prediction by exploiting aside information and user influence* <br>
 Shiwen Wu, Yuanxing Zhang, **Wentao Zhang**, Kaigui Bian, Bin Cui. <br>
@@ -62,7 +62,7 @@ Knowledge Based System.<br>
 - *Reliable Data Distillation on Graph Convolutional Network* <br>
 **Wentao Zhang**, Xupeng Miao, Yingxia Shao, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui <br>
 ACM SIGMOD International Conference on Management of Data. <br>
-***SIGMOD 2020, CCF-A, <font color=orange>Top 1 conference in Data Bases</font>***. 
+***SIGMOD 2020, CCF-A, <font color=orange>Top #1 conference in Data Bases</font>***. 
 
 - *Efficient Diversity-Driven Ensemble for Deep Neural Networks* <br>
 **Wentao Zhang**, Jiawei Jiang, Yingxia Shao, Bin Cui <br>
