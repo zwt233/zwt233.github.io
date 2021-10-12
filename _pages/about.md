@@ -56,21 +56,6 @@ Graph Data Mining from the following three perspectives:
 * **2021-03**: One paper as first author has been accepted by the conference ***SIGMOD 2021***. Looking forward to the meeting in Xi'an this summer!
 <!-- * May-17-2020, Our paper *Individual Fairness for Graph Neural Networks: A Ranking based Approach* has been accepted by SIGKDD 2021. -->
 
-Awards
-------
-* National Scholarship **(Top 1% in PKU)**, 2021
-* Pacemaker to Merit Student **(Top 1% in PKU)**, 2021
-* Academic Innovation Award **(Top 1% in PKU)**, 2021
-* [Apple PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021) **(1 people in China, and 15 people in the world)**, 2021
-* Leo KoGuan Scholarship **(Top 1% in PKU)**, 2020
-* Academic Innovation Award **(Top 1% in PKU)**, 2020
-* Pacemaker to Merit Student **(Top 1% in PKU)**, 2020
-* National Scholarship **(Top 1% in PKU)**, 2019
-* Merit Student **(Top 5% in PKU)**, 2019
-* Academic Excellence Award **(Top 5% in PKU)**, 2018
-* Outstanding Winner of the BDIC big data competition **(1/575)**, 2018
-
-
 
 Contributed Open-source Projects
 ------
@@ -88,6 +73,19 @@ Contributed Open-source Projects
 <p align="center">
 <img src="/images/Openbox.png" width="30%">
 </p>
-<!-- * Srimanth Tangedipalli (B.S. in Computer Science @UVa) -->
-<!-- * Nitin Maddi (B.S. in Computer Science @UVa) -->
+
+Awards
+------
+* National Scholarship **(Top 1% in PKU)**, 2021
+* Pacemaker to Merit Student **(Top 1% in PKU)**, 2021
+* Academic Innovation Award **(Top 1% in PKU)**, 2021
+* [Apple PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021) **(1 people in China, and 15 people in the world)**, 2021
+* Leo KoGuan Scholarship **(Top 1% in PKU)**, 2020
+* Academic Innovation Award **(Top 1% in PKU)**, 2020
+* Pacemaker to Merit Student **(Top 1% in PKU)**, 2020
+* National Scholarship **(Top 1% in PKU)**, 2019
+* Merit Student **(Top 5% in PKU)**, 2019
+* Academic Excellence Award **(Top 5% in PKU)**, 2018
+* Outstanding Winner of the BDIC big data competition **(1/575)**, 2018
+
 
