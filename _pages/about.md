@@ -23,7 +23,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 
 Research Interests
 ---
-Graph Data Mining from the following three perspectives:
+Graph Data Mining including the following three perspectives:
 + **Data**: annotation, generation, selection, cleaning, augmentation, imbalance, and privacy.
 <!-- + collection, generation, selection, optimization, and privacy. -->
 
