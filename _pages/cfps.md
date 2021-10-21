@@ -9,7 +9,7 @@ author_profile: true
 
 This is a list of deadlines for conferences that I am interested in.
 
-Regarding DB, DM and AI conference deadline, you can also [check here](https://cddl.lihui.info/?sub=DM,DB,IR,AI,ML).
+Regarding DB, DM and ML conference deadline, you can also [check here](https://cddl.lihui.info/?sub=DM,DB,ML).
 
 ### Upcoming
 
