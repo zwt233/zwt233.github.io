@@ -31,3 +31,4 @@ Regarding DB, DM and ML conference deadline, you can also [check here](https://c
 |[SIGMOD 2022 (1st round)](https://2022.sigmod.org/calls_papers_important_dates.shtml)   | 2021-07-02  | 12/8 +|    Philadelphia, PA, USA           | ACM   |
 |[SIGMOD 2022 (2nd round)](https://2022.sigmod.org/calls_papers_important_dates.shtml)   | 2021-09-15  | 12/8 +|    Philadelphia, PA, USA           | ACM   |
 |[ICLR 2022](https://iclr.cc/Conferences/2022/Dates)   | 2021-10-06  | 9 +|    Virtual         |   |
+|[WWW 2022](https://www2022.thewebconf.org/cfp/research/systems/)   | 2021-10-21  | 8 +|    Virtual         |   |
