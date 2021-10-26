@@ -90,3 +90,10 @@ arXiv:2108.00955, 2021. (***arXiv preprint***).
 1.  *Graph Neural Networks in Recommender Systems: A Survey* <br>
 Shiwen Wu, **Wentao Zhang**, Fei Sun, Bin Cui. <br>
 arXiv:2011.02260, 2020. (***arXiv preprint***). 
+  
+1.  *ProxyBO: Accelerating Neural Architecture Search via Bayesian Optimization with Zero-cost Proxies* <br>
+Yu Shen, Yang Li, Jian Zheng, **Wentao Zhang**, Peng Yao, Jixiang Li, Sen Yang, Ji Liu, Bin Cui. <br>
+arXiv:2110.10423, 2021. (***arXiv preprint***). 
+
+  
+  
