@@ -76,10 +76,10 @@ Contributed Open-source Projects
 
 Awards
 ------
+* [Merit Student of Beijing](https://xgb.pku.edu.cn/sylm/133002.htm) **(2 people in EECS department, and 58 people in PKU)**, 2021
 * National Scholarship **(Top 1% in PKU)**, 2021
 * Pacemaker to Merit Student **(Top 1% in PKU)**, 2021
 * Academic Innovation Award **(Top 1% in PKU)**, 2021
-* Merit Student of Beijing **(Top 0.2% in PKU)**, 2021
 * [Apple PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021) **(1 people in China, and 15 people in the world)**, 2021
 * Leo KoGuan Scholarship **(Top 1% in PKU)**, 2020
 * Academic Innovation Award **(Top 1% in PKU)**, 2020
