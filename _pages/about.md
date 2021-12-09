@@ -79,7 +79,7 @@ Awards
 * Candidate of [People of the Year](https://mp.weixin.qq.com/s/6VH0jX65qKu7LobUTANcrg) **(1 people in EECS, and 42 people in PKU)**, 2021
 * [Merit Student of Beijing](https://xgb.pku.edu.cn/sylm/133002.htm) **(2 people in EECS, and 58 people in PKU)**, 2021
 * [Apple PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021) **(1 people in China, and 15 people in the world)**, 2021
-* Open source Collaborative Innovation Award of Tencent (Angel Graph project), 2021
+* Open Source Collaborative Innovation Award of Tencent (Angel Graph project), 2021
 * National Scholarship **(Top 1% in PKU)**, 2021
 * Pacemaker to Merit Student **(Top 1% in PKU)**, 2021
 * Academic Innovation Award **(Top 1% in PKU)**, 2021
@@ -91,6 +91,6 @@ Awards
 * National Scholarship **(Top 1% in PKU)**, 2019
 * Merit Student **(Top 5% in PKU)**, 2019
 * Academic Excellence Award **(Top 5% in PKU)**, 2018
-* Outstanding Winner of the BDIC big data competition **(1/575)**, 2018
+* Outstanding Winner of the BDIC Big Data Competition **(1/575)**, 2018
 
 
