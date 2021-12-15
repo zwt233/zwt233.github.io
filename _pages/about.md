@@ -93,7 +93,7 @@ Awards
 * Academic Excellence Award **(Top 5% in PKU)**, 2018
 * Outstanding Winner of the BDIC Big Data Competition **(1/575)**, 2018
   
-Talks
+Recent Talks
 ------
 * The Scalability of Large-scale Graph Machine Learning.《大规模图机器学习的可扩展性》<br>
   NeurIPS, Virtual, 2021.12 <br>
