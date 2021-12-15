@@ -79,22 +79,22 @@ Contributed Open-source Projects
 
 Awards
 ------
-* Candidate of [People of the Year](https://mp.weixin.qq.com/s/zEcwHYsjqLhTsCDTnS-fsA) **(1 people in EECS, and 42 people in PKU)**, 2021
-* [Merit Student of Beijing](https://xgb.pku.edu.cn/sylm/133002.htm) **(2 people in EECS, and 58 people in PKU)**, 2021
-* [Apple PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021) **(1 people in China, and 15 people in the world)**, 2021
-* Open Source Collaborative Innovation Award of Tencent (Angel Graph project), 2021
-* National Scholarship **(Top 1% in PKU)**, 2021
-* Pacemaker to Merit Student **(Top 1% in PKU)**, 2021
-* Academic Innovation Award **(Top 1% in PKU)**, 2021
-* Rank \#1 in [Open Graph Benchmark](https://ogb.stanford.edu/docs/leader_nodeprop/\#ogbn-mag), 2021
-* [Baidu Scholarship Nominee](http://scholarship.baidu.com/) **(20 people in the world)**, 2021
-* Leo KoGuan Scholarship **(Top 1% in PKU)**, 2020
-* Academic Innovation Award **(Top 1% in PKU)**, 2020
-* Pacemaker to Merit Student **(Top 1% in PKU)**, 2020
-* National Scholarship **(Top 1% in PKU)**, 2019
-* Merit Student **(Top 5% in PKU)**, 2019
-* Academic Excellence Award **(Top 5% in PKU)**, 2018
-* Outstanding Winner of the BDIC Big Data Competition **(1/575)**, 2018
+1. Candidate of [People of the Year](https://mp.weixin.qq.com/s/zEcwHYsjqLhTsCDTnS-fsA) **(1 people in EECS, and 42 people in PKU)**, 2021
+1. [Merit Student of Beijing](https://xgb.pku.edu.cn/sylm/133002.htm) **(2 people in EECS, and 58 people in PKU)**, 2021
+1. [Apple PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021) **(1 people in China, and 15 people in the world)**, 2021
+1. Open Source Collaborative Innovation Award of Tencent (Angel Graph project), 2021
+1. National Scholarship **(Top 1% in PKU)**, 2021
+1. Pacemaker to Merit Student **(Top 1% in PKU)**, 2021
+1. Academic Innovation Award **(Top 1% in PKU)**, 2021
+1. Rank \#1 in [Open Graph Benchmark](https://ogb.stanford.edu/docs/leader_nodeprop/\#ogbn-mag), 2021
+1. [Baidu Scholarship Nominee](http://scholarship.baidu.com/) **(20 people in the world)**, 2021
+1. Leo KoGuan Scholarship **(Top 1% in PKU)**, 2020
+1. Academic Innovation Award **(Top 1% in PKU)**, 2020
+1. Pacemaker to Merit Student **(Top 1% in PKU)**, 2020
+1. National Scholarship **(Top 1% in PKU)**, 2019
+1. Merit Student **(Top 5% in PKU)**, 2019
+1. Academic Excellence Award **(Top 5% in PKU)**, 2018
+1. Outstanding Winner of the BDIC Big Data Competition **(1/575)**, 2018
   
 Recent Talks
 ------
@@ -102,7 +102,7 @@ Recent Talks
   NeurIPS, Virtual, 2021.12 <br>
   AI Drive [[Video](https://live.bilibili.com/21887724)] [[News](https://mp.weixin.qq.com/s/CVnhxQEFYdI-hsWQma-kLA)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/AI-Drive-NDLS.pdf)]<br>
 1. How to Do Research? 《浅谈科研》<br>
-  Virtual, 2021.12 [[News-1](https://mp.weixin.qq.com/s/vgmymt_tmAjAVxnuPPfFxQ), [News-2](https://cs.pku.edu.cn/info/1020/3199.htm)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/How-to-Do-Research.pdf)]<br>
+  PKU, Virtual, 2021.12 [[News-1](https://mp.weixin.qq.com/s/vgmymt_tmAjAVxnuPPfFxQ), [News-2](https://cs.pku.edu.cn/info/1020/3199.htm)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/How-to-Do-Research.pdf)]<br>
 1. Graph Attention Multi-Layer Perceptron.《图注意力多层感知器》<br>
   DataFun, Virtual, 2021.10 [[News](https://mp.weixin.qq.com/s/G--7PlJ9rsTl3bnSSGmbCQ)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/datafun-GAMLP.pdf)]<br>
 
