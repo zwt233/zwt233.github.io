@@ -98,11 +98,11 @@ Awards
   
 Recent Talks
 ------
-* The Scalability of Large-scale Graph Machine Learning.《大规模图机器学习的可扩展性》<br>
+1. The Scalability of Large-scale Graph Machine Learning.《大规模图机器学习的可扩展性》<br>
   NeurIPS, Virtual, 2021.12 <br>
   AI Drive [[Video](https://live.bilibili.com/21887724)] [[News](https://mp.weixin.qq.com/s/CVnhxQEFYdI-hsWQma-kLA)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/AI-Drive-NDLS.pdf)]<br>
-* How to Do Research? 《浅谈科研》<br>
+1. How to Do Research? 《浅谈科研》<br>
   Virtual, 2021.12 [[News-1](https://mp.weixin.qq.com/s/vgmymt_tmAjAVxnuPPfFxQ), [News-2](https://cs.pku.edu.cn/info/1020/3199.htm)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/How-to-Do-Research.pdf)]<br>
-* Graph Attention Multi-Layer Perceptron.《图注意力多层感知器》<br>
+1. Graph Attention Multi-Layer Perceptron.《图注意力多层感知器》<br>
   DataFun, Virtual, 2021.10 [[News](https://mp.weixin.qq.com/s/G--7PlJ9rsTl3bnSSGmbCQ)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/datafun-GAMLP.pdf)]<br>
 
