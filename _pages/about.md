@@ -99,5 +99,5 @@ Talks
   NeurIPS, Virtual, 2021.12 <br>
   AI Drive [[Video](https://live.bilibili.com/21887724)] [[News](https://mp.weixin.qq.com/s/CVnhxQEFYdI-hsWQma-kLA)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/AI-Drive-NDLS.pdf)]<br>
 * How to Do Research? 《浅谈科研》<br>
-  Virtual, 2021.12 [[News-1](https://mp.weixin.qq.com/s/vgmymt_tmAjAVxnuPPfFxQ)[News-2](https://cs.pku.edu.cn/info/1020/3199.htm)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/How-to-Do-Research.pdf)]<br>
+  Virtual, 2021.12 [[News-1](https://mp.weixin.qq.com/s/vgmymt_tmAjAVxnuPPfFxQ), [News-2](https://cs.pku.edu.cn/info/1020/3199.htm)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/How-to-Do-Research.pdf)]<br>
 
