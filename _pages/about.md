@@ -92,5 +92,12 @@ Awards
 * Merit Student **(Top 5% in PKU)**, 2019
 * Academic Excellence Award **(Top 5% in PKU)**, 2018
 * Outstanding Winner of the BDIC Big Data Competition **(1/575)**, 2018
-
+  
+Talks
+------
+* The Scalability of Large-scale Graph Machine Learning.《大规模图机器学习的可扩展性》
+  NeurIPS, Virtual, 2021.12
+  AI Drive [Video](https://live.bilibili.com/21887724) [News](https://mp.weixin.qq.com/s/CVnhxQEFYdI-hsWQma-kLA) [Slides](https://mp.weixin.qq.com/s/CVnhxQEFYdI-hsWQma-kLA)
+* How to Do Research? 《浅谈科研》
+  Virtual, 2021.12 [News](https://mp.weixin.qq.com/s/vgmymt_tmAjAVxnuPPfFxQ) [Slides](https://mp.weixin.qq.com/s/CVnhxQEFYdI-hsWQma-kLA)
 
