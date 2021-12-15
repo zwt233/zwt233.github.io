@@ -97,7 +97,7 @@ Talks
 ------
 * The Scalability of Large-scale Graph Machine Learning.《大规模图机器学习的可扩展性》<br>
   NeurIPS, Virtual, 2021.12 <br>
-  AI Drive [[Video](https://live.bilibili.com/21887724)] [[News](https://mp.weixin.qq.com/s/CVnhxQEFYdI-hsWQma-kLA)] [[Slides](https://mp.weixin.qq.com/s/CVnhxQEFYdI-hsWQma-kLA)]<br>
+  AI Drive [[Video](https://live.bilibili.com/21887724)] [[News](https://mp.weixin.qq.com/s/CVnhxQEFYdI-hsWQma-kLA)] [[Slides](https://github.com/zwt233/zwt233.github.io/blob/master/files/AI-Drive-NDLS.pdf)]<br>
 * How to Do Research? 《浅谈科研》<br>
-  Virtual, 2021.12 [[News](https://mp.weixin.qq.com/s/vgmymt_tmAjAVxnuPPfFxQ)] [[Slides](https://mp.weixin.qq.com/s/CVnhxQEFYdI-hsWQma-kLA)]<br>
+  Virtual, 2021.12 [[News](https://mp.weixin.qq.com/s/vgmymt_tmAjAVxnuPPfFxQ)] [[Slides](https://github.com/zwt233/zwt233.github.io/blob/master/files/How-to-Do-Research.pdf)]<br>
 
