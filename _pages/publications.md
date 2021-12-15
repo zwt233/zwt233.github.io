@@ -35,12 +35,12 @@ SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2021, CCF-A, <font color=orange>Top #1 conference in Data Mining</font>*** . 
 
-1.  *ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks* [[Paper](https://dl.acm.org/doi/10.1145/3448016.3457325)][[Code](https://github.com/zwt233/ROD)] <br>
+1.  *ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks* [[Paper](https://dl.acm.org/doi/10.1145/3448016.3457325)][[Code](https://zwt233.github.io/publications/)] <br>
 **Wentao Zhang**, Yu Shen, Yangli, Lei Chen, Zhi Yang, Bin Cui <br>
 ACM SIGMOD International Conference on Management of Data. <br>
 ***SIGMOD 2021, CCF-A, <font color=orange>Top #1 conference in Data Bases</font>***. 
 
-1.  *Distributed Optimization and Implementation of Graph Embedding Algorithms* [[Paper](https://dl.acm.org/doi/10.1145/3448016.3457325)][[Code](https://github.com/zwt233/ROD)] <br>
+1.  *Distributed Optimization and Implementation of Graph Embedding Algorithms* [[Paper](http://jos.org.cn/html/2021/3/6186.htm)][[Code](https://zwt233.github.io/publications/)] <br>
 **Wentao Zhang**, Bin Yuan, ZhiPeng Zhang, Bin Cui <br>
 Journal of Software. <br>
 ***JOS 2021, CCF-A***. 
@@ -55,22 +55,22 @@ Yangli, Yu Shen, **Wentao Zhang**, ..., Ce Zhang, Bin Cui. <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2021, CCF-A, <font color=orange>Top #1 conference in Data Mining</font>***. 
 
-1.  *Enhanced review-based rating prediction by exploiting aside information and user influence* [[Paper](https://dl.acm.org/doi/10.1145/3448016.3457325)][[Code](https://github.com/zwt233/ROD)] <br>
+1.  *Enhanced review-based rating prediction by exploiting aside information and user influence* [[Paper](https://www.semanticscholar.org/paper/Enhanced-review-based-rating-prediction-by-aside-Wu-Zhang/b0ddc7f569bcaac97a22bd4a306fc6df09348297)][[Code](https://zwt233.github.io/publications/)] <br>
 Shiwen Wu, Yuanxing Zhang, **Wentao Zhang**, Kaigui Bian, Bin Cui. <br>
 Knowledge Based System.<br>
 ***KBS 2021, JCR Q1, IF=8.038***. 
 
-1.  *Reliable Data Distillation on Graph Convolutional Network* [[Paper](https://dl.acm.org/doi/10.1145/3448016.3457325)][[Code](https://github.com/zwt233/ROD)] <br>
+1.  *Reliable Data Distillation on Graph Convolutional Network* [[Paper](https://dl.acm.org/doi/10.1145/3318464.3389706)][[Code](https://zwt233.github.io/publications/)] <br>
 **Wentao Zhang**, Xupeng Miao, Yingxia Shao, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui <br>
 ACM SIGMOD International Conference on Management of Data. <br>
 ***SIGMOD 2020, CCF-A, <font color=orange>Top #1 conference in Data Bases</font>***. 
 
-1.  *Efficient Diversity-Driven Ensemble for Deep Neural Networks* [[Paper](https://dl.acm.org/doi/10.1145/3448016.3457325)][[Code](https://github.com/zwt233/ROD)] <br>
+1.  *Efficient Diversity-Driven Ensemble for Deep Neural Networks* [[Paper](https://ieeexplore.ieee.org/abstract/document/9101773)][[Code](https://zwt233.github.io/publications/)] <br>
 **Wentao Zhang**, Jiawei Jiang, Yingxia Shao, Bin Cui <br>
 IEEE International Conference on Data Engineering. <br>
 ***ICDE 2020, CCF-A***. 
 
-1.  *Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks* [[Paper](https://dl.acm.org/doi/10.1145/3448016.3457325)][[Code](https://github.com/zwt233/ROD)] <br>
+1.  *Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks* [[Paper](https://link.springer.com/article/10.1007/s11432-018-9944-x)][[Code](https://zwt233.github.io/publications/)] <br>
 **Wentao Zhang**, Jiawei Jiang, Yingxia Shao, Bin Cui <br>
 Sci China Inf Sci. <br>
 ***SCIS 2020, CCF-B, IF=4.62***. 
@@ -83,15 +83,15 @@ arXiv:2011.02260, 2020. (***arXiv preprint***).
 **Wentao Zhang**, Ziqi Yin, Zeang Sheng, Wen Ouyang, Xiaosen Li, Yangyu Tao, Zhi Yang, Bin Cui [[Paper](https://arxiv.org/pdf/2108.10097)][[Code](https://github.com/PKU-DAIR/GAMLP)] <br>
 arXiv:2108.10097, 2021. (***arXiv preprint***). 
 
-1.  *GMLP: Building Scalable and Flexible Graph Neural Networks with Feature-Message Passing* [[Paper](https://dl.acm.org/doi/10.1145/3448016.3457325)][[Code](https://github.com/zwt233/ROD)] <br>
+1.  *GMLP: Building Scalable and Flexible Graph Neural Networks with Feature-Message Passing* [[Paper](https://arxiv.org/pdf/2104.09880)][[Code](https://github.com/zwt233/PASCA)] <br>
 **Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang, Yangyu Tao, Zhi Yang, Bin Cui <br>
 arXiv:2108.00955, 2021. (***arXiv preprint***). 
 
-1.  *Graph Neural Networks in Recommender Systems: A Survey* [[Paper](https://dl.acm.org/doi/10.1145/3448016.3457325)][[Code](https://github.com/zwt233/ROD)] <br>
+1.  *Graph Neural Networks in Recommender Systems: A Survey* [[Paper](https://arxiv.org/pdf/2011.02260)][[Code](https://github.com/zwt233/ROD)] <br>
 Shiwen Wu, **Wentao Zhang**, Fei Sun, Bin Cui. <br>
 arXiv:2011.02260, 2020. (***arXiv preprint***). 
   
-1.  *ProxyBO: Accelerating Neural Architecture Search via Bayesian Optimization with Zero-cost Proxies* [[Paper](https://dl.acm.org/doi/10.1145/3448016.3457325)][[Code](https://github.com/zwt233/ROD)] <br>
+1.  *ProxyBO: Accelerating Neural Architecture Search via Bayesian Optimization with Zero-cost Proxies* [[Paper](https://arxiv.org/pdf/2110.10423)][[Code](https://zwt233.github.io/publications/)] <br>
 Yu Shen, Yang Li, Jian Zheng, **Wentao Zhang**, Peng Yao, Jixiang Li, Sen Yang, Ji Liu, Bin Cui. <br>
 arXiv:2110.10423, 2021. (***arXiv preprint***). 
 
