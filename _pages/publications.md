@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 {% include base_path %}
-1.  *RIM: Reliable Influence-based Active Learning on Graphs*  [[Paper](https://arxiv.org/pdf/2110.14854)] <br>
+1.  *RIM: Reliable Influence-based Active Learning on Graphs*  [[Paper](https://arxiv.org/pdf/2110.14854)][[Code](https://github.com/zwt233/RIM)] <br>
 **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br>
 Thirty-fifth Conference on Neural Information Processing Systems.<br>
 ***NeurIPS 2021, CCF-A, <font color=orange>Spotlight Presentation, Acceptance Rate: < 3%</font>***. 
