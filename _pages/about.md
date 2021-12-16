@@ -101,6 +101,10 @@ Recent Talks
 1. The Scalability of Large-scale Graph Machine Learning.《大规模图机器学习的可扩展性》<br>
   NeurIPS, Virtual, 2021.12 <br>
   AI Drive [[Video](https://www.bilibili.com/video/BV1sR4y1x7qb?p=1&share_medium=android&share_plat=android&share_session_id=67ffcc9e-d9eb-4e93-a465-ddfd81162842&share_source=WEIXIN&share_tag=s_i&timestamp=1639559499&unique_k=quVdvTS)] [[News](https://mp.weixin.qq.com/s/CVnhxQEFYdI-hsWQma-kLA)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/AI-Drive-NDLS.pdf)]<br>
+1. RIM: Reliable Influence-based Active Learning on Graphs.
+  NeurIPS, Virtual, 2021.12 <br>
+  Jiqizhixin [[News](https://mp.weixin.qq.com/s/VhjB8hOqbaS3gQJp6YuKGQ)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/RIM_Poster.pdf)]<br>
+https://github.com/zwt233/Talks/blob/main/Sharing/RIM_Poster.pdf
 1. How to Do Research? 《浅谈科研》<br>
   PKU, Virtual, 2021.12 [[News-1](https://mp.weixin.qq.com/s/vgmymt_tmAjAVxnuPPfFxQ), [News-2](https://cs.pku.edu.cn/info/1020/3199.htm)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/How-to-Do-Research.pdf)]<br>
 1. Graph Attention Multi-Layer Perceptron.《图注意力多层感知器》<br>
