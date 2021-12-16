@@ -103,9 +103,9 @@ Recent Talks
 1. The Scalability of Large-scale Graph Machine Learning.《大规模图机器学习的可扩展性》<br>
   NeurIPS, Virtual, 2021.12 <br>
   AI Drive [[Video](https://www.bilibili.com/video/BV1sR4y1x7qb?p=1&share_medium=android&share_plat=android&share_session_id=67ffcc9e-d9eb-4e93-a465-ddfd81162842&share_source=WEIXIN&share_tag=s_i&timestamp=1639559499&unique_k=quVdvTS)] [[News](https://mp.weixin.qq.com/s/CVnhxQEFYdI-hsWQma-kLA)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/AI-Drive-NDLS.pdf)]<br>
-1. RIM: Reliable Influence-based Active Learning on Graphs.
+1. RIM: Reliable Influence-based Active Learning on Graphs.<br>
   NeurIPS, Virtual, 2021.12 <br>
-  Jiqizhixin [[News](https://mp.weixin.qq.com/s/VhjB8hOqbaS3gQJp6YuKGQ)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/RIM_Poster.pdf)]<br>
+  NeurIPS MeetUp China [[News](https://mp.weixin.qq.com/s/VhjB8hOqbaS3gQJp6YuKGQ)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/RIM_Poster.pdf)]<br>
 1. Graph Attention Multi-Layer Perceptron.《图注意力多层感知器》<br>
   DataFun, Virtual, 2021.10 [[News](https://mp.weixin.qq.com/s/G--7PlJ9rsTl3bnSSGmbCQ)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/datafun-GAMLP.pdf)]<br>
 
