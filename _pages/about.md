@@ -15,7 +15,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 
 Since Sept. 2020, Wentao Zhang is pursuing his Ph.D. degree in Computer Science at [Peking University](https://www.pku.edu.cn/), under the supervision of Prof. [Bin Cui](http://net.pku.edu.cn/~cuibin/) (The director of DAIR lab). 
 Previously, He interned in [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/).
-He is currently leading the Graph Data Mining team and several system projects in DAIR lab. His research is supported by [Apple PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). 
+He is currently leading the Graph Data Mining team and several system projects in DAIR lab. His research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). 
 
 
 
