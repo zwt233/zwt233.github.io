@@ -6,10 +6,10 @@ author_profile: true
 ---
 {% include base_path %}
 1.  *RIM: Reliable Influence-based Active Learning on Graphs*  [[Paper](https://arxiv.org/pdf/2110.14854)][[Code](https://github.com/zwt233/RIM)] <br>
-<!-- **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br> -->
 **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao et al.<br>
 Thirty-fifth Conference on Neural Information Processing Systems.<br>
 ***NeurIPS 2021, CCF-A, <font color=orange>Spotlight Presentation, Acceptance Rate: < 3%</font>***. 
+ <!-- **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br> -->
 
 1.  *Node Dependent Local Smoothing for Scalable Graph Learning* [[Paper](https://arxiv.org/pdf/2110.14377)][[Code](https://github.com/zwt233/NDLS)] <br>
 **Wentao Zhang**, Mingyu Yang, Zeang Sheng, Yang Li, et al.<br>
@@ -32,16 +32,16 @@ SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2021, CCF-A, <font color=orange>Top #1 conference in Data Mining</font>***. 
 
 1.  *ROD: Reception-aware Online Distillation for Sparse Graphs*  [[Paper](https://arxiv.org/pdf/2107.11789)][[Code](https://github.com/zwt233/ROD)] <br>
-<!-- **Wentao Zhang**, Jiang Yuezihan, Yang Li, Zeang Sheng, Yu Shen, Xupeng Miao, Liang Wang, Zhi Yang, Bin Cui <br> -->
-  **Wentao Zhang**, Jiang Yuezihan, Yang Li, Zeang Sheng, et al. <br>
+**Wentao Zhang**, Jiang Yuezihan, Yang Li, Zeang Sheng, et al. <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2021, CCF-A, <font color=orange>Top #1 conference in Data Mining</font>*** . 
-
+<!-- **Wentao Zhang**, Jiang Yuezihan, Yang Li, Zeang Sheng, Yu Shen, Xupeng Miao, Liang Wang, Zhi Yang, Bin Cui <br> -->
+ 
 1.  *ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks* [[Paper](https://dl.acm.org/doi/10.1145/3448016.3457325)][[Code](https://zwt233.github.io/publications/)] <br>
-<!-- **Wentao Zhang**, Yu Shen, Yangli, Lei Chen, Zhi Yang, Bin Cui <br> -->
 **Wentao Zhang**, Yu Shen, Yangli et al.<br>
 ACM SIGMOD International Conference on Management of Data. <br>
 ***SIGMOD 2021, CCF-A, <font color=orange>Top #1 conference in Data Bases</font>***. 
+<!-- **Wentao Zhang**, Yu Shen, Yangli, Lei Chen, Zhi Yang, Bin Cui <br> -->
 
 1.  *Distributed Optimization and Implementation of Graph Embedding Algorithms* [[Paper](http://jos.org.cn/html/2021/3/6186.htm)][[Code](https://zwt233.github.io/publications/)] <br>
 **Wentao Zhang**, Bin Yuan, ZhiPeng Zhang, Bin Cui <br>
@@ -49,16 +49,16 @@ Journal of Software. <br>
 ***JOS 2021, CCF-A***. 
 
 1.  *VolcanoML: Speeding up End-to-End AutoML via Scalable Search Space Decomposition* [[Paper](https://arxiv.org/pdf/2107.08861)][[Code](https://github.com/PKU-DAIR/mindware)] <br>
-<!-- Yang Li, Yu Shen, **Wentao Zhang**, ..., Wentao Wu, Ce Zhang, Bin Cui. <br> -->
 Yang Li, Yu Shen, **Wentao Zhang** et al.<br>
 International Conference on Very Large Data Bases. <br>
 ***VLDB 2021, CCF-A***. 
+<!-- Yang Li, Yu Shen, **Wentao Zhang**, ..., Wentao Wu, Ce Zhang, Bin Cui. <br> -->
 
 1.  *OpenBox: A Generalized Black-box Optimization Service* [[Paper](https://arxiv.org/pdf/2106.00421)][[Code](https://github.com/PKU-DAIR/open-box)] <br>
-<!-- Yangli, Yu Shen, **Wentao Zhang**, ..., Ce Zhang, Bin Cui. <br> -->
 Yangli, Yu Shen, **Wentao Zhang** et al. <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2021, CCF-A, <font color=orange>Top #1 conference in Data Mining</font>***. 
+<!-- Yangli, Yu Shen, **Wentao Zhang**, ..., Ce Zhang, Bin Cui. <br> -->
 
 1.  *Enhanced review-based rating prediction by exploiting aside information and user influence* [[Paper](https://www.semanticscholar.org/paper/Enhanced-review-based-rating-prediction-by-aside-Wu-Zhang/b0ddc7f569bcaac97a22bd4a306fc6df09348297)][[Code](https://zwt233.github.io/publications/)] <br>
 Shiwen Wu, Yuanxing Zhang, **Wentao Zhang**, Kaigui Bian, Bin Cui. <br>
@@ -66,10 +66,10 @@ Knowledge Based System.<br>
 ***KBS 2021, JCR Q1, IF=8.038***. 
 
 1.  *Reliable Data Distillation on Graph Convolutional Network* [[Paper](https://dl.acm.org/doi/10.1145/3318464.3389706)][[Code](https://zwt233.github.io/publications/)] <br>
-**Wentao Zhang**, Xupeng Miao, Yingxia Shao, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui <br>
 **Wentao Zhang**, Xupeng Miao, Yingxia Shao et al. <br>
 ACM SIGMOD International Conference on Management of Data. <br>
 ***SIGMOD 2020, CCF-A, <font color=orange>Top #1 conference in Data Bases</font>***. 
+**Wentao Zhang**, Xupeng Miao, Yingxia Shao, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui <br>
 
 1.  *Efficient Diversity-Driven Ensemble for Deep Neural Networks* [[Paper](https://ieeexplore.ieee.org/abstract/document/9101773)][[Code](https://zwt233.github.io/publications/)] <br>
 **Wentao Zhang**, Jiawei Jiang, Yingxia Shao, Bin Cui <br>
