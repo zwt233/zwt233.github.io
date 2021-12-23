@@ -12,7 +12,7 @@ Thirty-fifth Conference on Neural Information Processing Systems.<br>
 <!-- **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br> -->
 
 1.  *Node Dependent Local Smoothing for Scalable Graph Learning* [[Paper](https://arxiv.org/pdf/2110.14377)][[Code](https://github.com/zwt233/NDLS)] <br>
-**Wentao Zhang**, Mingyu Yang, Zeang Sheng, Yang Li, et al.<br>
+**Wentao Zhang**, Mingyu Yang, Zeang Sheng, Yang Li et al.<br>
 Thirty-fifth Conference on Neural Information Processing Systems.<br>
 ***NeurIPS 2021, CCF-A, <font color=orange>Spotlight Presentation, Acceptance Rate: < 3%</font>***. 
 
@@ -33,7 +33,7 @@ SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2021, CCF-A, <font color=orange>Top #1 conference in Data Mining</font>***. 
 
 1.  *ROD: Reception-aware Online Distillation for Sparse Graphs*  [[Paper](https://arxiv.org/pdf/2107.11789)][[Code](https://github.com/zwt233/ROD)] <br>
-**Wentao Zhang**, Jiang Yuezihan, Yang Li, Zeang Sheng, et al. <br>
+**Wentao Zhang**, Jiang Yuezihan, Yang Li, Zeang Sheng et al. <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2021, CCF-A, <font color=orange>Top #1 conference in Data Mining</font>*** . 
 <!-- **Wentao Zhang**, Jiang Yuezihan, Yang Li, Zeang Sheng, Yu Shen, Xupeng Miao, Liang Wang, Zhi Yang, Bin Cui <br> -->
@@ -45,7 +45,7 @@ ACM SIGMOD International Conference on Management of Data. <br>
 <!-- **Wentao Zhang**, Yu Shen, Yangli, Lei Chen, Zhi Yang, Bin Cui <br> -->
 
 1.  *Distributed Optimization and Implementation of Graph Embedding Algorithms* [[Paper](http://jos.org.cn/html/2021/3/6186.htm)][[Code](https://zwt233.github.io/publications/)] <br>
-**Wentao Zhang**, Bin Yuan, ZhiPeng Zhang, Bin Cui <br>
+**Wentao Zhang**, Bin Yuan, ZhiPeng Zhang, Bin Cui. <br>
 Journal of Software. <br>
 ***JOS 2021, CCF-A***. 
 
@@ -73,25 +73,25 @@ ACM SIGMOD International Conference on Management of Data. <br>
 **Wentao Zhang**, Xupeng Miao, Yingxia Shao, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui <br>
 
 1.  *Efficient Diversity-Driven Ensemble for Deep Neural Networks* [[Paper](https://ieeexplore.ieee.org/abstract/document/9101773)][[Code](https://zwt233.github.io/publications/)] <br>
-**Wentao Zhang**, Jiawei Jiang, Yingxia Shao, Bin Cui <br>
+**Wentao Zhang**, Jiawei Jiang, Yingxia Shao, Bin Cui. <br>
 IEEE International Conference on Data Engineering. <br>
 ***ICDE 2020, CCF-A***. 
 
 1.  *Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks* [[Paper](https://link.springer.com/article/10.1007/s11432-018-9944-x)][[Code](https://zwt233.github.io/publications/)] <br>
-**Wentao Zhang**, Jiawei Jiang, Yingxia Shao, Bin Cui <br>
+**Wentao Zhang**, Jiawei Jiang, Yingxia Shao, Bin Cui. <br>
 Sci China Inf Sci. <br>
 ***SCIS 2020, CCF-B, IF=4.62***. 
 
 1.  *Evaluating Deep Graph Neural Networks* [[Paper](https://arxiv.org/pdf/2108.00955)][[Code](https://github.com/PKU-DAIR/DGMLP)] <br>
-**Wentao Zhang**, Zeang Sheng, Yuezihan Jiang, Yikuan Xia, Jun Gao, Zhi Yang, Bin Cui<br>
+**Wentao Zhang**, Zeang Sheng, Yuezihan Jiang, Yikuan Xia, Jun Gao, Zhi Yang, Bin Cui.<br>
 arXiv:2011.02260, 2020. (***arXiv preprint***). 
 
 1.  *Graph Attention Multi-Layer Perceptron* <br>
-**Wentao Zhang**, Ziqi Yin, Zeang Sheng, Wen Ouyang, Xiaosen Li, Yangyu Tao, Zhi Yang, Bin Cui [[Paper](https://arxiv.org/pdf/2108.10097)][[Code](https://github.com/PKU-DAIR/GAMLP)] <br>
+**Wentao Zhang**, Ziqi Yin, Zeang Sheng, Wen Ouyang, Xiaosen Li, Yangyu Tao, Zhi Yang, Bin Cui. [Paper](https://arxiv.org/pdf/2108.10097)][[Code](https://github.com/PKU-DAIR/GAMLP)] <br>
 arXiv:2108.10097, 2021. (***arXiv preprint***). 
 
 1.  *GMLP: Building Scalable and Flexible Graph Neural Networks with Feature-Message Passing* [[Paper](https://arxiv.org/pdf/2104.09880)][[Code](https://github.com/zwt233/PASCA)] <br>
-**Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang, Yangyu Tao, Zhi Yang, Bin Cui <br>
+**Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang, Yangyu Tao, Zhi Yang, Bin Cui. <br>
 arXiv:2108.00955, 2021. (***arXiv preprint***). 
 
 1.  *Graph Neural Networks in Recommender Systems: A Survey* [[Paper](https://arxiv.org/pdf/2011.02260)][[Code](https://github.com/zwt233/ROD)] <br>
