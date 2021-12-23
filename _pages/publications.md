@@ -9,7 +9,7 @@ author_profile: true
 **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao et al.<br>
 Thirty-fifth Conference on Neural Information Processing Systems.<br>
 ***NeurIPS 2021, CCF-A, <font color=orange>Spotlight Presentation, Acceptance Rate: < 3%</font>***. 
- <!-- **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br> -->
+<!-- **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br> -->
 
 1.  *Node Dependent Local Smoothing for Scalable Graph Learning* [[Paper](https://arxiv.org/pdf/2110.14377)][[Code](https://github.com/zwt233/NDLS)] <br>
 **Wentao Zhang**, Mingyu Yang, Zeang Sheng, Yang Li, et al.<br>
