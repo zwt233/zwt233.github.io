@@ -22,9 +22,10 @@ International Conference on Very Large Data Bases. <br>
 ***VLDB 2021, CCF-A***. 
 
 1.  *Lasagne: A Multi-Layer Graph Convolutional Network Framework via Node-aware Deep Architecture* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9513581)][[Code](https://github.com/PKU-DAIR/Lasagne)] <br>
-Xupeng Miao<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Yingxia Shao, Bin Cui, Lei Chen, Ce Zhang, Jiawei Jiang<br>
+Xupeng Miao<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Yingxia Shao et al.<br>
 IEEE Transactions on Knowledge and Data Engineering. <br>
 ***TKDE 2021, CCF-A***. 
+<!-- Xupeng Miao<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Yingxia Shao, Bin Cui, Lei Chen, Ce Zhang, Jiawei Jiang<br> -->
 
 1.  *DeGNN: Characterizing and Improving Graph Neural Networks with Graph Decomposition* [[Paper](https://arxiv.org/pdf/1910.04499)][[Code](https://zwt233.github.io/publications/)] <br>
 Xupeng Miao<sup>1</sup>, Nezihe Merve Gürel<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Zhichao Han et al. <br>
