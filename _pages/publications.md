@@ -70,7 +70,7 @@ Knowledge Based System.<br>
 **Wentao Zhang**, Xupeng Miao, Yingxia Shao et al. <br>
 ACM SIGMOD International Conference on Management of Data. <br>
 ***SIGMOD 2020, CCF-A, <font color=orange>Top #1 conference in Data Bases</font>***. 
-**Wentao Zhang**, Xupeng Miao, Yingxia Shao, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui <br>
+<!-- **Wentao Zhang**, Xupeng Miao, Yingxia Shao, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui <br> -->
 
 1.  *Efficient Diversity-Driven Ensemble for Deep Neural Networks* [[Paper](https://ieeexplore.ieee.org/abstract/document/9101773)][[Code](https://zwt233.github.io/publications/)] <br>
 **Wentao Zhang**, Jiawei Jiang, Yingxia Shao, Bin Cui. <br>
