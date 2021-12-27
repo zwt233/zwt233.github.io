@@ -96,7 +96,7 @@ Awards
 1. National Scholarship **(Top 1% in PKU)**, 2021
 1. Pacemaker to Merit Student **(Top 1% in PKU)**, 2021
 1. Academic Innovation Award **(Top 1% in PKU)**, 2021
-1. Outstanding Winner of the [openGCC contest](https://mp.weixin.qq.com/s/8JX5ymkUt5MvDcHLOjB3Xw) in CCF ChinaSoft**(1/3811)**, 2021
+1. Outstanding Winner of the [openGCC contest](https://mp.weixin.qq.com/s/8JX5ymkUt5MvDcHLOjB3Xw) in CCF ChinaSoft **(1/3811)**, 2021
 1. Rank \#1 in [Open Graph Benchmark](https://ogb.stanford.edu/docs/leader_nodeprop/\#ogbn-mag), 2021
 1. [Baidu Scholarship Nominee](http://scholarship.baidu.com/) **(20 people in the world)**, 2021
 1. Leo KoGuan Scholarship **(Top 1% in PKU)**, 2020
