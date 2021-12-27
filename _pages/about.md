@@ -14,7 +14,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 <!-- His other collaborators included  Prof. \link{https://ds3lab.inf.ethz.ch/members/ce-zhang.html}{Ce Zhang}~(in ETH), Prof. \link{http://net.pku.edu.cn/~yangzhi/}{Zhi Yang}~(in PKU), Prof. \link{http://net.pku.edu.cn/~yangzhi/}{Yingxia Shao}~(in BUPT), etc. -->
 <!-- Since Sept. 2020,  -->
 
-Wentao Zhang is pursuing his Ph.D. degree in Computer Science at [Peking University](https://www.pku.edu.cn/), under the supervision of Prof. [Bin Cui](http://net.pku.edu.cn/~cuibin/) (The director of DAIR lab). 
+Wentao Zhang is pursuing his Ph.D. degree in Computer Software and Theory at [Peking University](https://www.pku.edu.cn/). He is a member of Data and Intelligence Research (DAIR) Lab, which is directed by Prof. [Bin Cui](http://net.pku.edu.cn/~cuibin/). 
 Previously, he interned for more than 3 years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/).
 He is currently leading the Graph Data Mining team and several system projects in DAIR lab. His research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). 
 
@@ -96,7 +96,7 @@ Awards
 1. National Scholarship **(Top 1% in PKU)**, 2021
 1. Pacemaker to Merit Student **(Top 1% in PKU)**, 2021
 1. Academic Innovation Award **(Top 1% in PKU)**, 2021
-1. Outstanding Winner of the [openGCC contest](https://mp.weixin.qq.com/s/8JX5ymkUt5MvDcHLOjB3Xw) in CCF ChinaSoft(1/3811), 2021
+1. Outstanding Winner of the [openGCC contest](https://mp.weixin.qq.com/s/8JX5ymkUt5MvDcHLOjB3Xw) in CCF ChinaSoft**(1/3811)**, 2021
 1. Rank \#1 in [Open Graph Benchmark](https://ogb.stanford.edu/docs/leader_nodeprop/\#ogbn-mag), 2021
 1. [Baidu Scholarship Nominee](http://scholarship.baidu.com/) **(20 people in the world)**, 2021
 1. Leo KoGuan Scholarship **(Top 1% in PKU)**, 2020
@@ -110,6 +110,7 @@ Awards
 Recent Talks
 ------
 1. How to Do Research? 《浅谈科研》<br>
+  Apple Research, Virtual, 2021.12 <br>
   PKU, Virtual, 2021.12 [[News-1](https://mp.weixin.qq.com/s/vgmymt_tmAjAVxnuPPfFxQ), [News-2](https://cs.pku.edu.cn/info/1020/3199.htm)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/How-to-Do-Research.pdf)]<br>
 1. The Scalability of Large-scale Graph Machine Learning.《大规模图机器学习的可扩展性》<br>
   NeurIPS, Virtual, 2021.12 <br>
