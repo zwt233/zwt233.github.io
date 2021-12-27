@@ -15,7 +15,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 <!-- Since Sept. 2020,  -->
 
 Wentao Zhang is pursuing his Ph.D. degree in Computer Science at [Peking University](https://www.pku.edu.cn/), under the supervision of Prof. [Bin Cui](http://net.pku.edu.cn/~cuibin/) (The director of DAIR lab). 
-Previously, he interned for more than three years in industry, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/).
+Previously, he interned for more than 3 years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/).
 He is currently leading the Graph Data Mining team and several system projects in DAIR lab. His research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). 
 
 
@@ -45,6 +45,7 @@ Graph Data Mining including the following three perspectives:
 
 **<font color=red>What's New</font>**
 ------
+* **2021-12**: Our OpenBox team won the “Outstanding Winner” at the openGCC contest in [CCF ChinaSoft 2021](https://mp.weixin.qq.com/s/8JX5ymkUt5MvDcHLOjB3Xw).
 * **2021-09**: One paper as first author, related to scalable graph learning, has been accepted by the conference ***NeurIPS 2021*** with <font color=orange>Spotlight (< 3%)</font>. 
 * **2021-09**: One paper as first author, related to graph-based active learning, has been accepted by the conference ***NeurIPS 2021*** with <font color=orange>Spotlight (< 3%)</font>. 
 * **2021-08**: We propose [GAMLP](https://github.com/PKU-DAIR/GAMLP/blob/main/GAMLP.pdf), a scalable and efficient graph model, which achieves the **top #1** performance in three public and largest ogbn graphs (i.e., ogbn-papers100M, ogbn-products, and ogbn-mag)! See the **leaderboards** [here](https://ogb.stanford.edu/docs/leader_nodeprop/).
@@ -95,6 +96,7 @@ Awards
 1. National Scholarship **(Top 1% in PKU)**, 2021
 1. Pacemaker to Merit Student **(Top 1% in PKU)**, 2021
 1. Academic Innovation Award **(Top 1% in PKU)**, 2021
+1. Outstanding Winner of the [openGCC contest](https://mp.weixin.qq.com/s/8JX5ymkUt5MvDcHLOjB3Xw) in CCF ChinaSoft(1/3811), 2021
 1. Rank \#1 in [Open Graph Benchmark](https://ogb.stanford.edu/docs/leader_nodeprop/\#ogbn-mag), 2021
 1. [Baidu Scholarship Nominee](http://scholarship.baidu.com/) **(20 people in the world)**, 2021
 1. Leo KoGuan Scholarship **(Top 1% in PKU)**, 2020
