@@ -14,7 +14,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 <!-- His other collaborators included  Prof. \link{https://ds3lab.inf.ethz.ch/members/ce-zhang.html}{Ce Zhang}~(in ETH), Prof. \link{http://net.pku.edu.cn/~yangzhi/}{Zhi Yang}~(in PKU), Prof. \link{http://net.pku.edu.cn/~yangzhi/}{Yingxia Shao}~(in BUPT), etc. -->
 <!-- Since Sept. 2020,  -->
 
-Wentao Zhang is pursuing his Ph.D. degree in Computer Software and Theory at [Peking University](https://www.pku.edu.cn/). He is a member of Data and Intelligence Research (DAIR) Lab, which is directed by Prof. [Bin Cui](http://net.pku.edu.cn/~cuibin/). 
+Wentao Zhang (张文涛) is pursuing his Ph.D. degree in Computer Software and Theory at [Peking University](https://www.pku.edu.cn/). He is a member of Data and Intelligence Research (DAIR) Lab, which is directed by Prof. [Bin Cui](http://net.pku.edu.cn/~cuibin/). 
 Previously, he interned for more than 3 years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/).
 He is currently leading the Graph Data Mining team and several system projects in DAIR lab. His research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). 
 
