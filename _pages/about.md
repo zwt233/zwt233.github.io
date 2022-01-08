@@ -36,12 +36,14 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 Research Interests
 ---
 Graph Data Mining including the following three perspectives:
-+ **Data**: annotation, generation, selection, cleaning, augmentation, imbalance, and privacy.
++ **Data**: Annotation, Generation, Selection, Cleaning, Augmentation, Imbalance, and Privacy.
 <!-- + collection, generation, selection, optimization, and privacy. -->
 
-+ **Model**: scalable, fast, memory-efficient, and powerful graph mining.
++ **Model**: Scalable, Fast, Memory-Efficient, and Powerful Graph Mining.
 
-+ **System**: large-scale distributed training, AutoML.
++ **System**: Large-Scale Distributed Training, AutoML.
+
++ **Application**: Recommendation System, Drug Discovery.
 
 **<font color=red>What's New</font>**
 ------
