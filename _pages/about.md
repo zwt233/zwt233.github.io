@@ -116,6 +116,10 @@ Awards
 1. Academic Excellence Award **(Top 5% in PKU)**, 2018
 1. Outstanding Winner of the BDIC Big Data Competition **(1/575)**, 2018
   
+Program Committee Member and Reviewer
+------
+SIGKDD, ICML, WWW, TNNLS, etc.
+  
 Recent Talks
 ------
 1. How to Do Research? 《浅谈科研》<br>
@@ -132,7 +136,3 @@ Recent Talks
   Tencent, Virtual, 2021.12  [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/datafun-GAMLP.pdf)]<br>
 1. Graph Attention Multi-Layer Perceptron.《图注意力多层感知器》<br>
   DataFun, Virtual, 2021.10 [[News](https://mp.weixin.qq.com/s/G--7PlJ9rsTl3bnSSGmbCQ)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/datafun-GAMLP.pdf)]<br>
-
-Program Committee Member and Reviewer
-------
-SIGKDD, ICML, WWW, TNNLS, etc.
