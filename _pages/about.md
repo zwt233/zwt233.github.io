@@ -54,7 +54,7 @@ Graph Data Mining including the following perspectives:
 * **2022-01**: One paper as first author, related to our scalable graph NAS system, has been accepted by the conference ***WWW 2022*** .
 <!-- * **2022-01**: One paper as co-first author, related to data privacy in graph learning, gets revision in the journal ***VLDBJ 2022***. -->
 * **2021-12**: Our OpenBox team won the “Outstanding Winner” at the openGCC contest in [CCF ChinaSoft 2021](https://mp.weixin.qq.com/s/8JX5ymkUt5MvDcHLOjB3Xw). Congratulations!
-* **2021-09**: Two papers as first author, related to scalable graph learning and graph data annotation, both have been accepted by the conference ***NeurIPS 2021*** with <font color=orange>Spotlight (< 3%)</font>. 
+* **2021-09**: Two papers as first author, related to scalable graph learning and graph data annotation, have been accepted by the conference ***NeurIPS 2021*** with <font color=orange>Spotlight (< 3%)</font>. 
 <!-- * **2021-09**: One paper as first author, related to graph-based active learning, has been accepted by the conference ***NeurIPS 2021*** with <font color=orange>Spotlight (< 3%)</font>.  -->
 * **2021-08**: We propose [GAMLP](https://github.com/PKU-DAIR/GAMLP/blob/main/GAMLP.pdf), a scalable and efficient graph model, which achieves the **top #1** performance in three public and largest ogbn graphs (i.e., ogbn-papers100M, ogbn-products, and ogbn-mag)! See the **leaderboards** [here](https://ogb.stanford.edu/docs/leader_nodeprop/).
 <!-- * **2021-08**: One paper as corresponding author, related to GNN-based Recommender Systems, gets revision in the journal ***ACM Computing Surveys***. -->
