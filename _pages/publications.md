@@ -5,6 +5,34 @@ permalink: /publications/
 author_profile: true
 ---
 {% include base_path %}
+2022
+====
+1.  *Information Gain Propagation: a New Way to Graph Active Learning with Soft Labels .* [To appear] <br>
+**Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao et al.<br>
+International Conference on Learning Representations. <br>
+***ICLR 2022***. 
+
+1.  *PASCA: a New Paradigm and System to Build Scalable Graph Neural Network.* [To appear] <br>
+**Wentao Zhang**, Yu Shen, Zheyu Lin et al.<br>
+The Web Conference. <br>
+***WWW 2022 (System Track), CCF-A***. 
+
+1.  *Hyper-Tune: Towards Efficient Hyper-parameter Tuning at Scale.* [To appear] <br>
+Yang Li, Yu Shen, Huaijun Jiang,**Wentao Zhang**, Jixiang Li, Ji Liu et al.<br>
+International Conference on Very Large Data Bases.. <br>
+***VLDB 2022, CCF-A***. 
+
+1.  *Zoomer: Improving and Accelerating Recommendation on Web-Scale Graphs via Regions of Interests.* [To appear] <br>
+Yuezihan Jiang, Yu Cheng, Hanyu Zhao, **Wentao Zhang**, Xupeng Miao, Jixiang Li, Ji Liu et al.<br>
+IEEE International Conference on Data Engineering. <br>
+***ICDE 2022 (Industry Track), CCF-A***. 
+
+1.  *Lasagne: A Multi-Layer Graph Convolutional Network Framework via Node-aware Deep Architecture* [To appear] <br>
+Xupeng Miao<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Yingxia Shao et al.<br>
+IEEE International Conference on Data Engineering. <br>
+***ICDE (Extended Abstract) 2022, CCF A***. 
+<!-- Xupeng Miao<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Yingxia Shao, Bin Cui, Lei Chen, Ce Zhang, Jiawei Jiang<br> -->
+
 2021
 ====
 1.  *RIM: Reliable Influence-based Active Learning on Graphs*  [[Paper](https://arxiv.org/pdf/2110.14854)][[Code](https://github.com/zwt233/RIM)] <br>
