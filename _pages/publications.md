@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 {% include base_path %}
+2021
+====
 1.  *RIM: Reliable Influence-based Active Learning on Graphs*  [[Paper](https://arxiv.org/pdf/2110.14854)][[Code](https://github.com/zwt233/RIM)] <br>
 **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao et al.<br>
 Thirty-fifth Conference on Neural Information Processing Systems.<br>
@@ -66,6 +68,8 @@ Shiwen Wu, Yuanxing Zhang, **Wentao Zhang**, Kaigui Bian, Bin Cui. <br>
 Knowledge Based System.<br>
 ***KBS 2021, JCR Q1, IF=8.038***. 
 
+ 2020
+====
 1.  *Reliable Data Distillation on Graph Convolutional Network* [[Paper](https://dl.acm.org/doi/10.1145/3318464.3389706)][[Code](https://zwt233.github.io/publications/)] <br>
 **Wentao Zhang**, Xupeng Miao, Yingxia Shao et al. <br>
 ACM SIGMOD International Conference on Management of Data. <br>
