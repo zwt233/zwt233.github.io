@@ -47,6 +47,7 @@ Graph Data Mining including the following perspectives:
 
 **<font color=red>What's New</font>**
 ------
+* **2022-01**: One paper related to graph-based recommendation, has been accepted by the conference ***ICDE 2022*** .
 * **2022-01**: One paper as first author, related to graph data annotation, has been accepted by the conference ***ICLR 2022*** .
 * **2022-01**: One paper related to our large scale Hyper-paramater Tuning system, has been accepted by the conference ***VLDB 2022*** .
 * **2022-01**: I accepted the invitation to serve as Program Committee member of the Research Track of ACM ***SIGKDD 2022***.
@@ -106,6 +107,7 @@ Awards
 1. Outstanding Winner of the [openGCC contest](https://mp.weixin.qq.com/s/8JX5ymkUt5MvDcHLOjB3Xw) in CCF ChinaSoft **(1/3811)**, 2021
 1. Rank \#1 in [Open Graph Benchmark](https://ogb.stanford.edu/docs/leader_nodeprop/\#ogbn-mag), 2021
 1. [Baidu Scholarship Nominee](http://scholarship.baidu.com/) **(20 people in the world)**, 2021
+1. Mininglamp Technology Scholarship, 2021
 1. Leo KoGuan Scholarship **(Top 1% in PKU)**, 2020
 1. Academic Innovation Award **(Top 1% in PKU)**, 2020
 1. Pacemaker to Merit Student **(Top 1% in PKU)**, 2020
@@ -131,4 +133,6 @@ Recent Talks
 1. Graph Attention Multi-Layer Perceptron.《图注意力多层感知器》<br>
   DataFun, Virtual, 2021.10 [[News](https://mp.weixin.qq.com/s/G--7PlJ9rsTl3bnSSGmbCQ)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/datafun-GAMLP.pdf)]<br>
 
-
+Program Committee Member and Reviewer
+------
+SIGKDD, ICML, WWW, TNNLS, etc.
