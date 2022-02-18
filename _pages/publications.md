@@ -8,7 +8,7 @@ author_profile: true
 2022
 ====
 1.  *Information Gain Propagation: a New Way to Graph Active Learning with Soft Labels .* [To appear] <br>
-**Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao et al.<br>
+**Wentao Zhang**, Yexin Wang, Zhenbang You et al.<br>
 International Conference on Learning Representations. <br>
 ***ICLR 2022***. 
 
@@ -36,7 +36,7 @@ IEEE International Conference on Data Engineering. <br>
 2021
 ====
 1.  *RIM: Reliable Influence-based Active Learning on Graphs*  [[Paper](https://arxiv.org/pdf/2110.14854)][[Code](https://github.com/zwt233/RIM)] <br>
-**Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao et al.<br>
+**Wentao Zhang**, Yexin Wang, Zhenbang You et al.<br>
 Thirty-fifth Conference on Neural Information Processing Systems.<br>
 ***NeurIPS 2021, CCF-A, <font color=orange>Spotlight Presentation, Acceptance Rate: < 3%</font>***. 
 <!-- **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br> -->
