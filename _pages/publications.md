@@ -68,7 +68,7 @@ SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2021, CCF-A, <font color=orange>Top #1 conference in Data Mining</font>*** . 
 <!-- **Wentao Zhang**, Jiang Yuezihan, Yang Li, Zeang Sheng, Yu Shen, Xupeng Miao, Liang Wang, Zhi Yang, Bin Cui <br> -->
  
-1.  *ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks* [[Paper](https://dl.acm.org/doi/10.1145/3448016.3457325)][[Code](https://zwt233.github.io/publications/)] <br>
+1.  *ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks* [[Paper](https://dl.acm.org/doi/10.1145/3448016.3457325)][[Code](https://github.com/zwt233/ALG)] <br>
 **Wentao Zhang**, Yu Shen, Yang Li et al.<br>
 ACM SIGMOD International Conference on Management of Data. <br>
 ***SIGMOD 2021, CCF-A, <font color=orange>Top #1 conference in Data Bases</font>***. 
