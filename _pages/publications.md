@@ -35,6 +35,7 @@ IEEE International Conference on Data Engineering. <br>
 1.  *K-Core Decomposition on Super Large Graphs with Limited Resources* [To appear] <br>
 Shicheng Gao, Jie Xu, Xiaosen Li, Fangcheng Fu, **Wentao Zhang**, Wen Ouyang, Yangyu Tao and Bin Cui.<br>
 The 37th ACM/SIGAPP Symposium On Applied Computing.
+***ACM SAC 2022***. 
 
 2021
 ====
