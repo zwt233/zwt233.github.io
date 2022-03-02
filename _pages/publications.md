@@ -19,7 +19,7 @@ The Web Conference. <br>
 
 1.  *Hyper-Tune: Towards Efficient Hyper-parameter Tuning at Scale.* [To appear] <br>
 Yang Li, Yu Shen, Huaijun Jiang,**Wentao Zhang**, Jixiang Li, Ji Liu et al.<br>
-International Conference on Very Large Data Bases.. <br>
+International Conference on Very Large Data Bases. <br>
 ***VLDB 2022, CCF-A***. 
 
 1.  *Zoomer: Improving and Accelerating Recommendation on Web-Scale Graphs via Regions of Interests.* [To appear] <br>
@@ -34,7 +34,7 @@ IEEE International Conference on Data Engineering. <br>
 
 1.  *K-Core Decomposition on Super Large Graphs with Limited Resources* [To appear] <br>
 Shicheng Gao, Jie Xu, Xiaosen Li, Fangcheng Fu, **Wentao Zhang**, Wen Ouyang, Yangyu Tao and Bin Cui.<br>
-The 37th ACM/SIGAPP Symposium On Applied Computing.
+The 37th ACM/SIGAPP Symposium On Applied Computing. <br>
 ***ACM SAC 2022***. 
 
 2021
