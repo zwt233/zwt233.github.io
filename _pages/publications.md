@@ -31,7 +31,10 @@ IEEE International Conference on Data Engineering. <br>
 Xupeng Miao<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Yingxia Shao et al.<br>
 IEEE International Conference on Data Engineering. <br>
 ***ICDE (Extended Abstract) 2022, CCF A***. 
-<!-- Xupeng Miao<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Yingxia Shao, Bin Cui, Lei Chen, Ce Zhang, Jiawei Jiang<br> -->
+
+1.  *K-Core Decomposition on Super Large Graphs with Limited Resources* [To appear] <br>
+Shicheng Gao, Jie Xu, Xiaosen Li, Fangcheng Fu, **Wentao Zhang**, Wen Ouyang, Yangyu Tao and Bin Cui.
+The 37th ACM/SIGAPP Symposium On Applied Computing.
 
 2021
 ====
