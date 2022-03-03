@@ -58,8 +58,8 @@ Large-scale Graph Learning including the following perspectives:
     - Large-scale hyper-parameter tuning [[Hyper-Tune, ***VLDB 22***](https://arxiv.org/pdf/2201.06834)]
 
 - **Application**:  how to use graph learning in large-scale industrial graphs?
-    - GNN-based Recommendation [[Survey of GNN-based RS](https://arxiv.org/pdf/2011.02260)]
-    - Recommendation system deployed at Taobao [[Zoomer, ***ICDE 22***](https://zwt233.github.io/)]
+    - GNN-based recommendation [[Survey of GNN-based RS](https://arxiv.org/pdf/2011.02260)]
+    - Graph-based recommendation system deployed at Taobao [[Zoomer, ***ICDE 22***](https://zwt233.github.io/)]
 
 
 <!-- + **Data**: Annotation, Generation, Selection, Cleaning, Augmentation, Imbalance, and Privacy. -->
