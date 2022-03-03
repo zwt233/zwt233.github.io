@@ -37,29 +37,29 @@ Research Interests
 ---
 Large-scale Graph Learning including the following perspectives:
 - **Data**: how to utilize massive unlabeled nodes in large-scale graph data?
-    1. Efficient annotation [[ALG, ***SIGMOD 21***](https://dl.acm.org/doi/pdf/10.1145/3448016.3457325)]
-    1. Model-free annotation [[Grain, ***VLDB 21***](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
-    1. Annotation with noisy oracle [[RIM, ***NeurIPS 21, Spotlight***](https://openreview.net/forum?id=CEkbBN_-Ja8)]
-    1. Annotation with relaxed queries [[IGP, ***ICLR 21***](https://openreview.net/pdf?id=USC0-nvGPK)]
-    1. Reliable data distillation [[RDD, ***SIGMOD 20***](https://dl.acm.org/doi/10.1145/3318464.3389706)]
-    1. Reception-aware online distillation [[ROD, ***KDD 21***](https://arxiv.org/pdf/2107.11789)]
+    - Efficient annotation [[ALG, ***SIGMOD 21***](https://dl.acm.org/doi/pdf/10.1145/3448016.3457325)]
+    - Model-free annotation [[Grain, ***VLDB 21***](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
+    - Annotation with noisy oracle [[RIM, ***NeurIPS 21, Spotlight***](https://openreview.net/forum?id=CEkbBN_-Ja8)]
+    - Annotation with relaxed queries [[IGP, ***ICLR 21***](https://openreview.net/pdf?id=USC0-nvGPK)]
+    - Reliable data distillation [[RDD, ***SIGMOD 20***](https://dl.acm.org/doi/10.1145/3318464.3389706)]
+    - Reception-aware online distillation [[ROD, ***KDD 21***](https://arxiv.org/pdf/2107.11789)]
     
 - **Model**: how to build scalable and deep graph models for large-scale graph data? 
-    1. Node dependent local smoothing [[NDLS, ***NeurIPS 21, Spotlight***](https://arxiv.org/pdf/2110.14377)]
-    1. Graph decomposition [[DeGNN, ***KDD 21***](https://arxiv.org/pdf/1910.04499)]
-    1. Node-aware layer aggregators [[Lasagne, ***TKDE 21***](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9513581)]
-    1. Graph-based MLP deployed at Tencent [[GAMLP](https://arxiv.org/pdf/2108.10097)]
-    1. Deep GNN evaluation [[GNN EA](https://arxiv.org/pdf/2108.00955)]
+    - Node dependent local smoothing [[NDLS, ***NeurIPS 21, Spotlight***](https://arxiv.org/pdf/2110.14377)]
+    - Graph decomposition [[DeGNN, ***KDD 21***](https://arxiv.org/pdf/1910.04499)]
+    - Node-aware layer aggregators [[Lasagne, ***TKDE 21***](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9513581)]
+    - Graph-based MLP deployed at Tencent [[GAMLP](https://arxiv.org/pdf/2108.10097)]
+    - Deep GNN evaluation [[GNN EA](https://arxiv.org/pdf/2108.00955)]
 
 - **System**:  how to make large-scale graph learning easier from the system design?
-    1. Scalable graph neural architecture search [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638)]
-    1. End-to-End AutoML [[MindWare, ***VLDB 21***](https://arxiv.org/pdf/2107.08861)]
-    1. Black box optimization [[OpenBox, ***KDD 21***](https://arxiv.org/pdf/2106.00421)]
-    1. Large-scale hyper-parameter tuning [[Hyper-Tune, ***VLDB 22***](https://arxiv.org/pdf/2201.06834)]
+    - Scalable graph neural architecture search [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638)]
+    - End-to-End AutoML [[MindWare, ***VLDB 21***](https://arxiv.org/pdf/2107.08861)]
+    - Black box optimization [[OpenBox, ***KDD 21***](https://arxiv.org/pdf/2106.00421)]
+    - Large-scale hyper-parameter tuning [[Hyper-Tune, ***VLDB 22***](https://arxiv.org/pdf/2201.06834)]
 
 - **Application**:  how to use graph learning in large-scale industrial graphs?
-    1. GNN-based recommendation [[Survey of GNN-based RS](https://arxiv.org/pdf/2011.02260)]
-    1. Graph-based recommendation system deployed at Taobao [[Zoomer, ***ICDE 22***](https://zwt233.github.io/)]
+    - GNN-based recommendation [[Survey of GNN-based RS](https://arxiv.org/pdf/2011.02260)]
+    - Graph-based recommendation system deployed at Taobao [[Zoomer, ***ICDE 22***](https://zwt233.github.io/)]
 
 
 <!-- + **Data**: Annotation, Generation, Selection, Cleaning, Augmentation, Imbalance, and Privacy. -->
