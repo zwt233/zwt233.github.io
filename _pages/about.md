@@ -41,21 +41,21 @@ Large-scale Graph Learning including the following perspectives:
     - Model-free annotation [[Grain, VLDB 21](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
     - Annotation with noisy oracle [[RIM, NeurIPS 21, Spotlight](https://openreview.net/forum?id=CEkbBN_-Ja8)]
     - Annotation with relaxed queries [[IGP, ICLR 21](https://openreview.net/pdf?id=USC0-nvGPK)]
-    - Reliable Data Distillation [[RDD, SIGMOD 20](https://dl.acm.org/doi/10.1145/3318464.3389706)]
-    - Reception-aware Online Distillation [[ROD, SIKDD 21](https://arxiv.org/pdf/2107.11789)]
+    - Reliable data distillation [[RDD, SIGMOD 20](https://dl.acm.org/doi/10.1145/3318464.3389706)]
+    - Reception-aware online distillation [[ROD, SIKDD 21](https://arxiv.org/pdf/2107.11789)]
     
 - **Model**: how to build scalable and deep graph models for large-scale graph data? 
-    - Node Dependent Local Smoothing [[NDLS, NeurIPS 21, Spotlight](https://arxiv.org/pdf/2110.14377)]
-    - Graph Decomposition [[DeGNN, SIGKDD 21](https://arxiv.org/pdf/1910.04499)]
-    - Node-aware Layer Aggregators [[Lasagne, TKDE 21](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9513581)]
+    - Node dependent local smoothing [[NDLS, NeurIPS 21, Spotlight](https://arxiv.org/pdf/2110.14377)]
+    - Graph decomposition [[DeGNN, SIGKDD 21](https://arxiv.org/pdf/1910.04499)]
+    - Node-aware layer aggregators [[Lasagne, TKDE 21](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9513581)]
     - Attention-based MLP deployed at Tencent [[GAMLP](https://arxiv.org/pdf/2108.10097)]
-    - Deep GNN Evaluation [[GNN EA](https://arxiv.org/pdf/2108.00955)]
+    - Deep GNN evaluation [[GNN EA](https://arxiv.org/pdf/2108.00955)]
 
 - **System**:  how to make large-scale graph learning easier from the system design?
-    - Scalable Graph Neural Architecture Search [[PasCa, WWW 22](https://arxiv.org/abs/2203.00638)]
+    - Scalable graph neural architecture search [[PasCa, WWW 22](https://arxiv.org/abs/2203.00638)]
     - End-to-End AutoML [[MindWare, VLDB 21](https://arxiv.org/pdf/2107.08861)]
-    - Black Box Optimization [[OpenBox, SIGKDD 21](https://arxiv.org/pdf/2106.00421)]
-    - Large-scale Hyper-parameter Tuning [[Hyper-Tune, VLDB 22](https://arxiv.org/pdf/2201.06834)]
+    - Black box optimization [[OpenBox, SIGKDD 21](https://arxiv.org/pdf/2106.00421)]
+    - Large-scale hyper-parameter tuning [[Hyper-Tune, VLDB 22](https://arxiv.org/pdf/2201.06834)]
 
 - **Application**:  how to use graph learning in large-scale industrial graphs?
     - GNN-based Recommendation [[Survey of GNN-based RS](https://arxiv.org/pdf/2011.02260)]
