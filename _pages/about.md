@@ -51,7 +51,7 @@ Large-scale Graph Learning including the following perspectives:
     - Graph-based MLP deployed at Tencent [[GAMLP](https://arxiv.org/pdf/2108.10097)]
     - Deep GNN evaluation [[GNN EA](https://arxiv.org/pdf/2108.00955)]
 
-- **System**:  how to make large-scale graph learning easier from the system design?
+- **System**:  how to make large-scale graph learning faster and easier from the system design?
     - Scalable graph neural architecture search [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638)]
     - Fast ensemble learning [[EDDE, ***ICDE 20***](https://ieeexplore.ieee.org/abstract/document/9101773)]
     - End-to-End AutoML [[MindWare, ***VLDB 21***](https://arxiv.org/pdf/2107.08861)]
