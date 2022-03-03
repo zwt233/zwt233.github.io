@@ -14,11 +14,11 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 <!-- His other collaborators included  Prof. \link{https://ds3lab.inf.ethz.ch/members/ce-zhang.html}{Ce Zhang}~(in ETH), Prof. \link{http://net.pku.edu.cn/~yangzhi/}{Zhi Yang}~(in PKU), Prof. \link{http://net.pku.edu.cn/~yangzhi/}{Yingxia Shao}~(in BUPT), etc. -->
 <!-- Since Sept. 2020,  -->
 
-Wentao Zhang (张文涛) is pursuing his Ph.D. degree in Computer Software and Theory at [Peking University](https://www.pku.edu.cn/). He is a member of Data and Intelligence Research (DAIR) Lab, which is directed by Prof. [Bin Cui](http://net.pku.edu.cn/~cuibin/). 
+<!-- Wentao Zhang (张文涛) is pursuing his Ph.D. degree in Computer Software and Theory at [Peking University](https://www.pku.edu.cn/). He is a member of Data and Intelligence Research (DAIR) Lab, which is directed by Prof. [Bin Cui](http://net.pku.edu.cn/~cuibin/). 
 Previously, he interned for more than 3 years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/).
-He is currently leading the Graph Learning team and several system projects in DAIR lab. His research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). 
+He is currently leading the Graph Learning team and several system projects in DAIR lab. His research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021).  -->
 
-
+Wentao Zhang is a final-year Ph.D. candidate in Department of Computer Science, Peking University. He is a member of the Data and Intelligence Research (DAIR) Lab, directed by Prof. [Bin Cui](http://net.pku.edu.cn/~cuibin/). Previously, he interned for more than three years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/). Motivated by the industrial demand, his research focuses on improving large-scale graph learning from three perspectives -- data, model, and system. Wentao has published 20 papers, including 11 first author papers in the top venues such as SIGMOD, VLDB, ICDE, NeurIPS, ICLR, KDD, and WWW. Besides, he is the contributor or designer of many system projects, including Angel, MindWare, OpenBox, and SGL. He is currently leading the Graph Learning team and several system projects in the DAIR lab, and his research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021)..
 
 
 <!-- Wentao Zhang (张文涛) is a fourth year Ph.D. candidate at [PKU](https://www.pku.edu.cn/), now working with [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/).
@@ -35,11 +35,11 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 
 Research Interests
 ---
-Graph Learning including the following perspectives:
+Large-scale Graph Learning including the following perspectives:
 + **Data**: Annotation, Generation, Selection, Cleaning, Augmentation, Imbalance, and Privacy.
 <!-- + collection, generation, selection, optimization, and privacy. -->
 
-+ **Model**: Scalable, Fast, Memory-Efficient, and Powerful Graph Mining.
++ **Model**: Scalable, Fast, Memory-Efficient, and Powerful Graph Model.
 
 + **System**: Large-Scale Distributed Training, AutoML.
 
