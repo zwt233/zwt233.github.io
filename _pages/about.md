@@ -48,7 +48,7 @@ Large-scale Graph Learning including the following perspectives:
     - Node Dependent Local Smoothing [[NDLS, NeurIPS 21, Spotlight](https://arxiv.org/pdf/2110.14377)]
     - Graph Decomposition [[DeGNN, SIGKDD 21](https://arxiv.org/pdf/1910.04499)]
     - Node-aware Layer Aggregators [[Lasagne, TKDE 21](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9513581)]
-    - Attention-based MLP [[GAMLP](https://arxiv.org/pdf/2108.10097)]
+    - Attention-based MLP deployed at Tencent [[GAMLP](https://arxiv.org/pdf/2108.10097)]
     - Deep GNN Evaluation [[GNN EA](https://arxiv.org/pdf/2108.00955)]
 
 - **System**:  how to make large-scale graph learning easier from the system design?
@@ -57,7 +57,9 @@ Large-scale Graph Learning including the following perspectives:
     - Black Box Optimization [[OpenBox, SIGKDD 21](https://arxiv.org/pdf/2106.00421)]
     - Large-scale Hyper-parameter Tuning [[Hyper-Tune, VLDB 22](https://arxiv.org/pdf/2201.06834)]
 
-
+- **Application**:  how to use graph learning in large-scale industrial graphs?
+    - GNN-based Recommendation [[Survey of GNN-based RS](https://arxiv.org/pdf/2011.02260)]
+    - Recommendation system deployed at Taobao [[Zoomer, ICDE 22](https://zwt233.github.io/)]
 
 
 <!-- + **Data**: Annotation, Generation, Selection, Cleaning, Augmentation, Imbalance, and Privacy. -->
