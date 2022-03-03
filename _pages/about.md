@@ -45,21 +45,21 @@ Large-scale Graph Learning including the following perspectives:
     1. Reception-aware online distillation [[ROD, ***KDD 21***](https://arxiv.org/pdf/2107.11789)]
     
 - **Model**: how to build scalable and deep graph models for large-scale graph data? 
-    - Node dependent local smoothing [[NDLS, ***NeurIPS 21, Spotlight***](https://arxiv.org/pdf/2110.14377)]
-    - Graph decomposition [[DeGNN, ***KDD 21***](https://arxiv.org/pdf/1910.04499)]
-    - Node-aware layer aggregators [[Lasagne, ***TKDE 21***](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9513581)]
-    - Graph-based MLP deployed at Tencent [[GAMLP](https://arxiv.org/pdf/2108.10097)]
-    - Deep GNN evaluation [[GNN EA](https://arxiv.org/pdf/2108.00955)]
+    1. Node dependent local smoothing [[NDLS, ***NeurIPS 21, Spotlight***](https://arxiv.org/pdf/2110.14377)]
+    1. Graph decomposition [[DeGNN, ***KDD 21***](https://arxiv.org/pdf/1910.04499)]
+    1. Node-aware layer aggregators [[Lasagne, ***TKDE 21***](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9513581)]
+    1. Graph-based MLP deployed at Tencent [[GAMLP](https://arxiv.org/pdf/2108.10097)]
+    1. Deep GNN evaluation [[GNN EA](https://arxiv.org/pdf/2108.00955)]
 
 - **System**:  how to make large-scale graph learning easier from the system design?
-    - Scalable graph neural architecture search [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638)]
-    - End-to-End AutoML [[MindWare, ***VLDB 21***](https://arxiv.org/pdf/2107.08861)]
-    - Black box optimization [[OpenBox, ***KDD 21***](https://arxiv.org/pdf/2106.00421)]
-    - Large-scale hyper-parameter tuning [[Hyper-Tune, ***VLDB 22***](https://arxiv.org/pdf/2201.06834)]
+    1. Scalable graph neural architecture search [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638)]
+    1. End-to-End AutoML [[MindWare, ***VLDB 21***](https://arxiv.org/pdf/2107.08861)]
+    1. Black box optimization [[OpenBox, ***KDD 21***](https://arxiv.org/pdf/2106.00421)]
+    1. Large-scale hyper-parameter tuning [[Hyper-Tune, ***VLDB 22***](https://arxiv.org/pdf/2201.06834)]
 
 - **Application**:  how to use graph learning in large-scale industrial graphs?
-    - GNN-based recommendation [[Survey of GNN-based RS](https://arxiv.org/pdf/2011.02260)]
-    - Graph-based recommendation system deployed at Taobao [[Zoomer, ***ICDE 22***](https://zwt233.github.io/)]
+    1. GNN-based recommendation [[Survey of GNN-based RS](https://arxiv.org/pdf/2011.02260)]
+    1. Graph-based recommendation system deployed at Taobao [[Zoomer, ***ICDE 22***](https://zwt233.github.io/)]
 
 
 <!-- + **Data**: Annotation, Generation, Selection, Cleaning, Augmentation, Imbalance, and Privacy. -->
