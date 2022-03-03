@@ -37,12 +37,12 @@ Research Interests
 ---
 Large-scale Graph Learning including the following perspectives:
 - **Data**: how to utilize massive unlabeled nodes in large-scale graph data?
-    - Efficient annotation [[ALG, ***SIGMOD 21***](https://dl.acm.org/doi/pdf/10.1145/3448016.3457325)]
-    - Model-free annotation [[Grain, ***VLDB 21***](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
-    - Annotation with noisy oracle [[RIM, ***NeurIPS 21, Spotlight***](https://openreview.net/forum?id=CEkbBN_-Ja8)]
-    - Annotation with relaxed queries [[IGP, ***ICLR 21***](https://openreview.net/pdf?id=USC0-nvGPK)]
-    - Reliable data distillation [[RDD, ***SIGMOD 20***](https://dl.acm.org/doi/10.1145/3318464.3389706)]
-    - Reception-aware online distillation [[ROD, ***KDD 21***](https://arxiv.org/pdf/2107.11789)]
+    1. Efficient annotation [[ALG, ***SIGMOD 21***](https://dl.acm.org/doi/pdf/10.1145/3448016.3457325)]
+    1. Model-free annotation [[Grain, ***VLDB 21***](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
+    1. Annotation with noisy oracle [[RIM, ***NeurIPS 21, Spotlight***](https://openreview.net/forum?id=CEkbBN_-Ja8)]
+    1. Annotation with relaxed queries [[IGP, ***ICLR 21***](https://openreview.net/pdf?id=USC0-nvGPK)]
+    1. Reliable data distillation [[RDD, ***SIGMOD 20***](https://dl.acm.org/doi/10.1145/3318464.3389706)]
+    1. Reception-aware online distillation [[ROD, ***KDD 21***](https://arxiv.org/pdf/2107.11789)]
     
 - **Model**: how to build scalable and deep graph models for large-scale graph data? 
     - Node dependent local smoothing [[NDLS, ***NeurIPS 21, Spotlight***](https://arxiv.org/pdf/2110.14377)]
