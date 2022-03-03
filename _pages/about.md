@@ -45,16 +45,20 @@ Large-scale Graph Learning including the following perspectives:
     - Reception-aware Online Distillation [[ROD, SIKDD 21](https://arxiv.org/pdf/2107.11789)]
     
 - **Model**: how to build scalable and deep graph models for large-scale graph data? 
-    - Model Simplification with Node Dependent Local Smoothing [[NDLS, NeurIPS 21](https://arxiv.org/pdf/2110.14377)]
+    - Node Dependent Local Smoothing [[NDLS, NeurIPS 21, Spotlight](https://arxiv.org/pdf/2110.14377)]
     - Graph Decomposition [[DeGNN, SIGKDD 21](https://arxiv.org/pdf/1910.04499)]
     - Node-aware Layer Aggregators [[Lasagne, TKDE 21](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9513581)]
     - Attention-based MLP [[GAMLP](https://arxiv.org/pdf/2108.10097)]
     - Deep GNN Evaluation [[GNN EA](https://arxiv.org/pdf/2108.00955)]
 
+- **System**:  how to make large-scale graph learning easier from the system design?
+    - Scalable Graph Neural Architecture Search [[PasCa, WWW 22](https://arxiv.org/abs/2203.00638)]
+    - End-to-End AutoML [[MindWare, VLDB 21](https://arxiv.org/pdf/2107.08861)]
+    - Black Box Optimization [[OpenBox, SIGKDD 21](https://arxiv.org/pdf/2106.00421)]
+    - Large-scale Hyper-parameter Tuning [[Hyper-Tune, VLDB 22](https://arxiv.org/pdf/2201.06834)]
 
-<!--  how to build scalable and deep graph models for large-scale graph data? 
- 
- how to make large-scale graph learning easier from the system design? -->
+
+
 
 <!-- + **Data**: Annotation, Generation, Selection, Cleaning, Augmentation, Imbalance, and Privacy. -->
 <!-- + collection, generation, selection, optimization, and privacy. -->
