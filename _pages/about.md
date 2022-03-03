@@ -18,7 +18,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 Previously, he interned for more than 3 years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/).
 He is currently leading the Graph Learning team and several system projects in DAIR lab. His research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021).  -->
 
-Wentao Zhang is a final-year Ph.D. candidate in Department of Computer Science, Peking University. He is a member of the Data and Intelligence Research (DAIR) Lab, directed by Prof. [Bin Cui](http://net.pku.edu.cn/~cuibin/). Previously, he interned for more than three years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/). Motivated by the industrial demand, his research focuses on improving large-scale graph learning from three perspectives -- data, model, and system. Wentao has published 20 papers, including 11 first author papers in the top venues such as SIGMOD, VLDB, ICDE, NeurIPS, ICLR, KDD, and WWW. Besides, he is the contributor or designer of many system projects, including Angel, MindWare, OpenBox, and SGL. He is currently leading the Graph Learning team and several system projects in the DAIR lab, and his research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021)..
+Wentao Zhang is a final-year Ph.D. candidate in Department of Computer Science, Peking University. He is a member of the Data and Intelligence Research (DAIR) Lab, directed by [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/). Previously, he interned for more than three years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/). Motivated by the industrial demand, his research focuses on improving large-scale graph learning from three perspectives -- data, model, and system. Wentao has published 20 papers, including 11 first author papers in the top venues such as SIGMOD, VLDB, ICDE, NeurIPS, ICLR, KDD, and WWW. Besides, he is the contributor or designer of many system projects, including Angel, MindWare, OpenBox, and SGL. He is currently leading the Graph Learning team and several system projects in the DAIR lab, and his research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021).
 
 
 <!-- Wentao Zhang (张文涛) is a fourth year Ph.D. candidate at [PKU](https://www.pku.edu.cn/), now working with [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/).
@@ -36,14 +36,25 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 Research Interests
 ---
 Large-scale Graph Learning including the following perspectives:
-+ **Data**: Annotation, Generation, Selection, Cleaning, Augmentation, Imbalance, and Privacy.
+- **Data**: how to utilize massive unlabeled nodes in large-scale graph data?
+    - Efficient annotation [ALG, SIGMOD 21](https://dl.acm.org/doi/pdf/10.1145/3448016.3457325)
+    - Model-free annotation [Grain, VLDB 21](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)
+    - Annotation with noisy oracle [RIM, NeurIPS 21, Spotlight](https://openreview.net/forum?id=CEkbBN_-Ja8)
+    - Annotation with relaxed queries [IGP, ICLR 21](https://openreview.net/pdf?id=USC0-nvGPK)
+
+
+<!--  how to build scalable and deep graph models for large-scale graph data? 
+ 
+ how to make large-scale graph learning easier from the system design? -->
+
+<!-- + **Data**: Annotation, Generation, Selection, Cleaning, Augmentation, Imbalance, and Privacy. -->
 <!-- + collection, generation, selection, optimization, and privacy. -->
 
-+ **Model**: Scalable, Fast, Memory-Efficient, and Powerful Graph Model.
+<!-- + **Model**: Scalable, Fast, Memory-Efficient, and Powerful Graph Model.
 
 + **System**: Large-Scale Distributed Training, AutoML.
 
-+ **Application**: Recommendation System, Drug Discovery.
++ **Application**: Recommendation System, Drug Discovery. -->
 
 **<font color=red>What's New</font>**
 ------
