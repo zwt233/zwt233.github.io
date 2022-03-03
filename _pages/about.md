@@ -18,7 +18,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 Previously, he interned for more than 3 years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/).
 He is currently leading the Graph Learning team and several system projects in DAIR lab. His research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021).  -->
 
-Wentao Zhang is a final-year Ph.D. candidate in Department of Computer Science, Peking University. He is a member of the Data and Intelligence Research (DAIR) Lab, directed by [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/). Previously, he interned for more than three years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/). Motivated by the industrial demand, his research focuses on improving large-scale graph learning from three perspectives -- data, model, and system. Wentao has published 20 papers, including 11 first author papers in the top venues such as SIGMOD, VLDB, ICDE, NeurIPS, ICLR, KDD, and WWW. Besides, he is the contributor or designer of many system projects, including Angel, MindWare, OpenBox, and SGL. He is currently leading the Graph Learning team and several system projects in the DAIR lab, and his research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021).
+Wentao Zhang is a final-year Ph.D. candidate in Department of Computer Science, Peking University. He is a member of the Data and Intelligence Research (DAIR) Lab, directed by [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/). Previously, he interned for more than three years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/). Motivated by the industrial demand, his research focuses on improving large-scale graph learning from three perspectives -- data, model, and system. Wentao has published 20 papers, including 11 first author papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW) and ML (NeurIPS, ICLR) venues. Besides, he is the contributor or designer of many system projects, including Angel, MindWare, OpenBox, and SGL. He is currently leading the Graph Learning team and several system projects in the DAIR lab, and his research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021).
 
 
 <!-- Wentao Zhang (张文涛) is a fourth year Ph.D. candidate at [PKU](https://www.pku.edu.cn/), now working with [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/).
@@ -42,11 +42,11 @@ Large-scale Graph Learning including the following perspectives:
     - Annotation with noisy oracle [[RIM, NeurIPS 21, Spotlight](https://openreview.net/forum?id=CEkbBN_-Ja8)]
     - Annotation with relaxed queries [[IGP, ICLR 21](https://openreview.net/pdf?id=USC0-nvGPK)]
     - Reliable data distillation [[RDD, SIGMOD 20](https://dl.acm.org/doi/10.1145/3318464.3389706)]
-    - Reception-aware online distillation [[ROD, SIKDD 21](https://arxiv.org/pdf/2107.11789)]
+    - Reception-aware online distillation [[ROD, KDD 21](https://arxiv.org/pdf/2107.11789)]
     
 - **Model**: how to build scalable and deep graph models for large-scale graph data? 
     - Node dependent local smoothing [[NDLS, NeurIPS 21, Spotlight](https://arxiv.org/pdf/2110.14377)]
-    - Graph decomposition [[DeGNN, SIGKDD 21](https://arxiv.org/pdf/1910.04499)]
+    - Graph decomposition [[DeGNN, KDD 21](https://arxiv.org/pdf/1910.04499)]
     - Node-aware layer aggregators [[Lasagne, TKDE 21](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9513581)]
     - Attention-based MLP deployed at Tencent [[GAMLP](https://arxiv.org/pdf/2108.10097)]
     - Deep GNN evaluation [[GNN EA](https://arxiv.org/pdf/2108.00955)]
@@ -54,7 +54,7 @@ Large-scale Graph Learning including the following perspectives:
 - **System**:  how to make large-scale graph learning easier from the system design?
     - Scalable graph neural architecture search [[PasCa, WWW 22](https://arxiv.org/abs/2203.00638)]
     - End-to-End AutoML [[MindWare, VLDB 21](https://arxiv.org/pdf/2107.08861)]
-    - Black box optimization [[OpenBox, SIGKDD 21](https://arxiv.org/pdf/2106.00421)]
+    - Black box optimization [[OpenBox, KDD 21](https://arxiv.org/pdf/2106.00421)]
     - Large-scale hyper-parameter tuning [[Hyper-Tune, VLDB 22](https://arxiv.org/pdf/2201.06834)]
 
 - **Application**:  how to use graph learning in large-scale industrial graphs?
