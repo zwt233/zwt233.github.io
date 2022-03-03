@@ -12,12 +12,14 @@ This is a list of deadlines for conferences that I am interested in.
 Regarding DB, DM and ML conference deadline, you can also [check here](https://cddl.lihui.info/?sub=DM,DB,ML).
 
 ### Upcoming
+
 |Name|Deadline|Page|Location|Format|
 |:-:|:-:|:-:|:-:|:-:|
 |[SIGMOD 2023](https://2023.sigmod.org/calls_papers_sigmod_research.shtml)   | 2022-04-15  | 8/12 +|             |   |
 |[NeurIPS 2022](https://neurips.cc/Conferences/2022)   | 2022-05-16  | 9 +|           |   |
 
 ### Recently Passed
+
 |Name|Deadline|Page|Location|Format|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |[SOSP 2021](https://sosp2021.mpi-sws.org/) | 2021-05-07                | 12 +  |     | ACM  |
