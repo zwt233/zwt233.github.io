@@ -7,15 +7,16 @@ author_profile: true
 {% include base_path %}
 2022
 ====
-1.  *Information Gain Propagation: a New Way to Graph Active Learning with Soft Labels .* [To appear] <br>
-**Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br>
-International Conference on Learning Representations. <br>
-***ICLR 2022***. 
-
 1.  *PASCA: a New Paradigm and System to Build Scalable Graph Neural Network.* [To appear] <br>
 **Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang,Yangyu Tao, Zhi Yang, Bin Cui.<br>
 The Web Conference. <br>
 ***WWW 2022 (System Track), CCF-A***. 
+
+1.  *Information Gain Propagation: a New Way to Graph Active Learning with Soft Labels .* [To appear] <br>
+**Wentao Zhang**, Yexin Wang, Zhenbang You, ..., Zhi Yang, Bin Cui.<br>
+International Conference on Learning Representations. <br>
+***ICLR 2022***. 
+<!-- **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br> -->
 
 1.  *Hyper-Tune: Towards Efficient Hyper-parameter Tuning at Scale.* [To appear] <br>
 Yang Li, Yu Shen, Huaijun Jiang,**Wentao Zhang**, Jixiang Li, Ji Liu, Ce Zhang, Bin Cui.<br>
