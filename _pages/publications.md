@@ -7,7 +7,7 @@ author_profile: true
 {% include base_path %}
 2022
 ====
-1.  *PASCA: a New Paradigm and System to Build Scalable Graph Neural Network.* [To appear] <br>
+1.  *PaSca: a Graph Neural Architecture Search System under the Scalable Paradigm.* [To appear] <br>
 **Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang,Yangyu Tao, Zhi Yang, Bin Cui.<br>
 The Web Conference. <br>
 ***WWW 2022 (System Track), CCF-A***. 
