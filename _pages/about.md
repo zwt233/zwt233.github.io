@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<!-- Wentao Zhang (张文涛) is a fourth year Ph.D. candidate at [PKU](https://www.pku.edu.cn/), now working with [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/).
+<!-- Wentao Zhang (张文涛) is a fourth year Ph.D. candidate at [PKU](https://www.pku.edu.cn/), now working with [Prof. Bin Cui](https://cuibinpku.github.io/).
 He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof. Lei Chen, [Tencent](https://github.com/Angel-ML/angel) working with the Angel team, and [Apple Research](https://machinelearning.apple.com/) working with Meng Cao, Ping Huang and Danny Bickson. -->
 <!-- Since Sept. 2020, Wentao Zhang (张文涛) is pursuing his Ph.D. degree in Computer Science at [Peking University](https://www.pku.edu.cn/), under the supervision of [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/). He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof. Lei Chen, [Tencent](https://github.com/Angel-ML/angel) working with the Angel team, and [Apple Research](https://machinelearning.apple.com/) working with Meng Cao, Ping Huang and Danny Bickson. -->
 
