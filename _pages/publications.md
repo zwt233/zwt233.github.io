@@ -18,6 +18,11 @@ International Conference on Learning Representations. <br>
 ***ICLR 2022***. 
 <!-- **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br> -->
 
+1.  *Graph Neural Networks in Recommender Systems: A Survey* [To appear] <br>
+Shiwen Wu, Fei Sun, **Wentao Zhang<sup>*</sup>**, Xu Xie, Bin Cui. <br>
+ACM Computing Survey.
+***CSUR 2022, CCF A***. 
+
 1.  *Hyper-Tune: Towards Efficient Hyper-parameter Tuning at Scale.* [To appear] <br>
 Yang Li, Yu Shen, Huaijun Jiang,**Wentao Zhang**, Jixiang Li, Ji Liu, Ce Zhang, Bin Cui.<br>
 International Conference on Very Large Data Bases. <br>
@@ -133,10 +138,6 @@ arXiv:2108.10097, 2021. (***arXiv preprint***).
 1.  *GMLP: Building Scalable and Flexible Graph Neural Networks with Feature-Message Passing* [[Paper](https://arxiv.org/pdf/2104.09880)][[Code](https://github.com/zwt233/PASCA)] <br>
 **Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang, Yangyu Tao, Zhi Yang, Bin Cui. <br>
 arXiv:2108.00955, 2021. (***arXiv preprint***). 
-
-1.  *Graph Neural Networks in Recommender Systems: A Survey* [[Paper](https://arxiv.org/pdf/2011.02260)][[Code](https://github.com/zwt233/ROD)] <br>
-Shiwen Wu, **Wentao Zhang**, Fei Sun, Bin Cui. <br>
-arXiv:2011.02260, 2020. (***arXiv preprint***). 
   
 1.  *ProxyBO: Accelerating Neural Architecture Search via Bayesian Optimization with Zero-cost Proxies* [[Paper](https://arxiv.org/pdf/2110.10423)][[Code](https://zwt233.github.io/publications/)] <br>
 Yu Shen, Yang Li, Jian Zheng, **Wentao Zhang**, Peng Yao, Jixiang Li, Sen Yang, Ji Liu, Bin Cui. <br>
