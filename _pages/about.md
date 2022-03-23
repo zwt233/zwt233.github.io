@@ -74,7 +74,7 @@ Large-scale Graph Learning including the following perspectives:
 
 **<font color=red>What's New</font>**
 ------
-* **2022-03**: One paper is selected as the ***best-paper-award-nominees*** in ***WWW 2022***. The corresponding PasCa system (integrated into SGL) will be open source soon!
+* **2022-03**: One paper is selected as the ***Best Paper Award Nominees*** in ***WWW 2022***. The corresponding PasCa system (integrated into SGL) will be open source soon!
 * **2022-03**: One paper as corresponding author, related to GNN-based Recommendation, has been accepted by the journal ***ACM Computing Survey 2022*** .
 * **2022-01**: One paper related to graph-based recommendation, has been accepted by the conference ***ICDE 2022*** .
 * **2022-01**: One paper as first author, related to graph data annotation, has been accepted by the conference ***ICLR 2022*** .
@@ -126,7 +126,7 @@ Contributed Open-source Projects
 
 Awards
 ------
-1. Best paper award nominees of ***WWW 2022***
+1. Best Paper Award Nominees of ***WWW 2022***, 2022
 1. Candidate of [May 4th Medal](https://baike.baidu.com/item/%E5%AD%A6%E7%94%9F%E4%BA%94%C2%B7%E5%9B%9B%E5%A5%96%E7%AB%A0/19729600) **(Each School recommends 1 candidate)**, 2022
 1. Candidate of [People of the Year](https://mp.weixin.qq.com/s/zEcwHYsjqLhTsCDTnS-fsA) **(1 people in EECS, and 42 people in PKU)**, 2021
 1. [Merit Student of Beijing](https://xgb.pku.edu.cn/sylm/133002.htm) **(2 people in EECS, and 58 people in PKU)**, 2021
