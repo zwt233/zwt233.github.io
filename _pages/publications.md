@@ -20,7 +20,7 @@ International Conference on Learning Representations. <br>
 
 1.  *Graph Neural Networks in Recommender Systems: A Survey* [To appear] <br>
 Shiwen Wu, Fei Sun, **Wentao Zhang<sup>*</sup>**, Xu Xie, Bin Cui. <br>
-ACM Computing Survey.
+ACM Computing Survey.<br>
 ***CSUR 2022, CCF A***. 
 
 1.  *Hyper-Tune: Towards Efficient Hyper-parameter Tuning at Scale.* [To appear] <br>
