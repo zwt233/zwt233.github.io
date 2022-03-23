@@ -19,7 +19,7 @@ International Conference on Learning Representations. <br>
 <!-- **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br> -->
 
 1.  *Graph Neural Networks in Recommender Systems: A Survey* [To appear] <br>
-Shiwen Wu, Fei Sun, **Wentao Zhang<sup>*</sup>**, Xu Xie, Bin Cui. <br>
+Shiwen Wu, Fei Sun, **Wentao Zhang<sup>+</sup>**, Xu Xie, Bin Cui. <br>
 ACM Computing Survey.<br>
 ***CSUR 2022, CCF A***. 
 
