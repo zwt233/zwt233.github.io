@@ -40,7 +40,7 @@ Large-scale Graph Learning including the following perspectives:
     - Efficient annotation [[ALG, ***SIGMOD 21***](https://dl.acm.org/doi/pdf/10.1145/3448016.3457325)]
     - Model-free annotation [[Grain, ***VLDB 21***](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
     - Annotation with noisy oracle [[RIM, ***NeurIPS 21, Spotlight***](https://openreview.net/forum?id=CEkbBN_-Ja8)]
-    - Annotation with relaxed queries [[IGP, ***ICLR 21***](https://openreview.net/pdf?id=USC0-nvGPK)]
+    - Annotation with relaxed queries [[IGP, ***ICLR 22***](https://openreview.net/pdf?id=USC0-nvGPK)]
     - Reliable data distillation [[RDD, ***SIGMOD 20***](https://dl.acm.org/doi/10.1145/3318464.3389706)]
     - Reception-aware online distillation [[ROD, ***KDD 21***](https://arxiv.org/pdf/2107.11789)]
     
