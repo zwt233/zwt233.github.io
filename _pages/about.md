@@ -74,7 +74,7 @@ Large-scale Graph Learning including the following perspectives:
 
 **<font color=red>What's New</font>**
 ------
-* **2022-03**: One paper is selected as the ***Best Paper Award Nominees*** in ***WWW 2022***. The corresponding PasCa system (integrated into SGL) will be open source soon!
+* **2022-03**: One paper is selected as the ***<font color=orange>Best Paper Award Nominees</font>*** in ***WWW 2022***. The corresponding PasCa system (integrated into SGL) will be open source next month!
 * **2022-03**: One paper as corresponding author, related to GNN-based Recommendation, has been accepted by the journal ***ACM Computing Survey 2022*** .
 * **2022-01**: One paper related to graph-based recommendation, has been accepted by the conference ***ICDE 2022*** .
 * **2022-01**: One paper as first author, related to graph data annotation, has been accepted by the conference ***ICLR 2022*** .
