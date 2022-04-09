@@ -150,7 +150,7 @@ Awards
   
 Program Committee Member and Reviewer
 ------
-SIGKDD, ICML, WWW, TNNLS, etc.
+SIGKDD, ICML, WWW, TKDE, TNNLS, etc.
   
 Recent Talks
 ------
