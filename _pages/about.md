@@ -116,7 +116,7 @@ Contributed Open-source Projects
 <img src="/images/angel_logo.png" width="30%">
 </p>
   
-* [SGL](https://github.com/PKU-DAIR/SGL): a scalable graph learning system for extremely large graph datasets. 
+* [SGL](https://github.com/PKU-DAIR/SGL): a scalable graph learning toolkit for extremely large graph datasets. 
 
 * [MindWare](https://github.com/PKU-DAIR/mindware): a powerful AutoML system, which automates feature engineering, algorithm selection and hyperparameter tuning.
 <p align="center">
