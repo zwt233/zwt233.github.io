@@ -75,6 +75,7 @@ Large-scale Graph Learning including the following perspectives:
 
 **<font color=red>What's New</font>**
 ------
+* **2022-04**: We release our first version of the scalable graph learning toolkit--[SGL](https://github.com/PKU-DAIR/SGL).
 * **2022-03**: One paper is selected as the ***<font color=orange>Best Paper Award Nominees</font>*** in ***WWW 2022***. The corresponding PasCa system (integrated into SGL) will be open source next month!
 * **2022-03**: One paper as corresponding author, related to GNN-based Recommendation, has been accepted by the journal ***ACM Computing Survey 2022*** .
 * **2022-01**: One paper related to graph-based recommendation, has been accepted by the conference ***ICDE 2022*** .
@@ -114,6 +115,8 @@ Contributed Open-source Projects
 <p align="center">
 <img src="/images/angel_logo.png" width="30%">
 </p>
+  
+* [SGL](https://github.com/PKU-DAIR/SGL): a scalable graph learning system for extremely large graph datasets. 
 
 * [MindWare](https://github.com/PKU-DAIR/mindware): a powerful AutoML system, which automates feature engineering, algorithm selection and hyperparameter tuning.
 <p align="center">
