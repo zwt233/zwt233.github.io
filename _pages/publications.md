@@ -18,7 +18,7 @@ International Conference on Learning Representations. <br>
 ***ICLR 2022***. 
 <!-- **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br> -->
 
-1.  *Graph Neural Networks in Recommender Systems: A Survey* [To appear] [[Paper](https://github.com/tsinghua-fib-lab/GNN-Recommender-Systems)][[Code](https://github.com/wusw14/gnn-in-rs)] <br>
+1.  *Graph Neural Networks in Recommender Systems: A Survey* [[Paper](https://github.com/tsinghua-fib-lab/GNN-Recommender-Systems)][[Code](https://github.com/wusw14/gnn-in-rs)] <br>
 Shiwen Wu, Fei Sun, **Wentao Zhang<sup>+</sup>**, Xu Xie, Bin Cui. <br>
 ACM Computing Survey.<br>
 ***CSUR 2022, CCF A***. 
