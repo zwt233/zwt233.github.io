@@ -38,7 +38,7 @@ Xupeng Miao<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Yingxia Shao, Lei Chen, C
 IEEE International Conference on Data Engineering. <br>
 ***ICDE (Extended Abstract) 2022, CCF A***. 
 
-1.  *K-Core Decomposition on Super Large Graphs with Limited Resources* [[Paper][https://arxiv.org/pdf/2112.14840]] <br>
+1.  *K-Core Decomposition on Super Large Graphs with Limited Resources* [[Paper](https://arxiv.org/pdf/2112.14840)] <br>
 Shicheng Gao, Jie Xu, Xiaosen Li, Fangcheng Fu, **Wentao Zhang**, Wen Ouyang, Yangyu Tao and Bin Cui.<br>
 The 37th ACM/SIGAPP Symposium On Applied Computing. <br>
 ***ACM SAC 2022***. 
