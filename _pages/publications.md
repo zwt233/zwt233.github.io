@@ -7,38 +7,38 @@ author_profile: true
 {% include base_path %}
 2022
 ====
-1.  *PaSca: a Graph Neural Architecture Search System under the Scalable Paradigm.* [To appear] <br>
+1.  *PaSca: a Graph Neural Architecture Search System under the Scalable Paradigm.* [[Paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3511986)][[Code](https://github.com/PKU-DAIR/SGL)] [[Doc][https://sgl-doc.readthedocs.io/en/latest/get_started/overview/overview.html]]<br>
 **Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang,Yangyu Tao, Zhi Yang, Bin Cui.<br>
 The Web Conference. <br>
 ***WWW 2022 (System Track), CCF-A, <font color=orange>Best Paper Award Nominees</font>***. 
 
-1.  *Information Gain Propagation: a New Way to Graph Active Learning with Soft Labels .* [To appear] <br>
+1.  *Information Gain Propagation: a New Way to Graph Active Learning with Soft Labels .* [[Paper](https://openreview.net/pdf?id=USC0-nvGPK)][[Code](https://github.com/zwt233/IGP)] <br>
 **Wentao Zhang**, Yexin Wang, Zhenbang You, ..., Zhi Yang, Bin Cui.<br>
 International Conference on Learning Representations. <br>
 ***ICLR 2022***. 
 <!-- **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br> -->
 
-1.  *Graph Neural Networks in Recommender Systems: A Survey* [To appear] <br>
+1.  *Graph Neural Networks in Recommender Systems: A Survey* [To appear] [[Paper](https://github.com/tsinghua-fib-lab/GNN-Recommender-Systems)][[Code](https://github.com/wusw14/gnn-in-rs)] <br>
 Shiwen Wu, Fei Sun, **Wentao Zhang<sup>+</sup>**, Xu Xie, Bin Cui. <br>
 ACM Computing Survey.<br>
 ***CSUR 2022, CCF A***. 
 
-1.  *Hyper-Tune: Towards Efficient Hyper-parameter Tuning at Scale.* [To appear] <br>
+1.  *Hyper-Tune: Towards Efficient Hyper-parameter Tuning at Scale.* [[Paper](https://arxiv.org/pdf/2201.06834)][[Code](https://github.com/PKU-DAIR/HyperTune)] <br>
 Yang Li, Yu Shen, Huaijun Jiang,**Wentao Zhang**, Jixiang Li, Ji Liu, Ce Zhang, Bin Cui.<br>
 International Conference on Very Large Data Bases. <br>
 ***VLDB 2022, CCF-A***. 
 
-1.  *Zoomer: Improving and Accelerating Recommendation on Web-Scale Graphs via Regions of Interests.* [To appear] <br>
+1.  *Zoomer: Improving and Accelerating Recommendation on Web-Scale Graphs via Regions of Interests.* [[Paper](https://arxiv.org/pdf/2201.06834)][[Code](https://github.com/lovelyhan/zoomer)] <br>
 Yuezihan Jiang, Yu Cheng, Hanyu Zhao, **Wentao Zhang**, Xupeng Miao, Yu He, Liang Wang, Zhi Yang, Bin Cui.<br>
 IEEE International Conference on Data Engineering. <br>
 ***ICDE 2022 (Industry Track), CCF-A***. 
 
-1.  *Lasagne: A Multi-Layer Graph Convolutional Network Framework via Node-aware Deep Architecture* [To appear] <br>
+1.  *Lasagne: A Multi-Layer Graph Convolutional Network Framework via Node-aware Deep Architecture* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9513581)][[Code](https://github.com/PKU-DAIR/Lasagne)] <br>
 Xupeng Miao<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Yingxia Shao, Lei Chen, Ce Zhang, Jiawei Jiang, Bin Cui.<br>
 IEEE International Conference on Data Engineering. <br>
 ***ICDE (Extended Abstract) 2022, CCF A***. 
 
-1.  *K-Core Decomposition on Super Large Graphs with Limited Resources* [To appear] <br>
+1.  *K-Core Decomposition on Super Large Graphs with Limited Resources* [[Paper][https://arxiv.org/pdf/2112.14840]] <br>
 Shicheng Gao, Jie Xu, Xiaosen Li, Fangcheng Fu, **Wentao Zhang**, Wen Ouyang, Yangyu Tao and Bin Cui.<br>
 The 37th ACM/SIGAPP Symposium On Applied Computing. <br>
 ***ACM SAC 2022***. 
@@ -89,13 +89,13 @@ ACM SIGMOD International Conference on Management of Data. <br>
 Journal of Software. <br>
 ***JOS 2021, CCF-A***. 
 
-1.  *VolcanoML: Speeding up End-to-End AutoML via Scalable Search Space Decomposition* [[Paper](https://arxiv.org/pdf/2107.08861)][[Code](https://github.com/PKU-DAIR/mindware)] <br>
+1.  *VolcanoML: Speeding up End-to-End AutoML via Scalable Search Space Decomposition* [[Paper](https://arxiv.org/pdf/2107.08861)][[Code](https://github.com/PKU-DAIR/mindware)[[Doc][https://mindware.readthedocs.io/]]] <br>
 <!-- Yang Li, Yu Shen, **Wentao Zhang**, ..., Wentao Wu, Ce Zhang, Bin Cui. <br> -->
 International Conference on Very Large Data Bases. <br>
 ***VLDB 2021, CCF-A***. 
 
 
-1.  *OpenBox: A Generalized Black-box Optimization Service* [[Paper](https://arxiv.org/pdf/2106.00421)][[Code](https://github.com/PKU-DAIR/open-box)] <br>
+1.  *OpenBox: A Generalized Black-box Optimization Service* [[Paper](https://arxiv.org/pdf/2106.00421)][[Code](https://github.com/PKU-DAIR/open-box)][[Doc][https://open-box.readthedocs.io/en/latest/]] <br>
 Yang Li, Yu Shen, **Wentao Zhang**, ..., Ce Zhang, Bin Cui. <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2021, CCF-A, <font color=orange>Top #1 conference in Data Mining</font>***. 
