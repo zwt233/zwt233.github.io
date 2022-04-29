@@ -7,7 +7,7 @@ author_profile: true
 {% include base_path %}
 2022
 ====
-1.  *PaSca: a Graph Neural Architecture Search System under the Scalable Paradigm.* [[Paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3511986)][[Code](https://github.com/PKU-DAIR/SGL)] [[Doc][https://sgl-doc.readthedocs.io/en/latest/get_started/overview/overview.html]]<br>
+1.  *PaSca: a Graph Neural Architecture Search System under the Scalable Paradigm.* [[Paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3511986)][[Code](https://github.com/PKU-DAIR/SGL)] [[Doc](https://sgl-doc.readthedocs.io/en/latest/get_started/overview/overview.html)]<br>
 **Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang,Yangyu Tao, Zhi Yang, Bin Cui.<br>
 The Web Conference. <br>
 ***WWW 2022 (System Track), CCF-A, <font color=orange>Best Paper Award Nominees</font>***. 
@@ -89,13 +89,13 @@ ACM SIGMOD International Conference on Management of Data. <br>
 Journal of Software. <br>
 ***JOS 2021, CCF-A***. 
 
-1.  *VolcanoML: Speeding up End-to-End AutoML via Scalable Search Space Decomposition* [[Paper](https://arxiv.org/pdf/2107.08861)][[Code](https://github.com/PKU-DAIR/mindware)[[Doc][https://mindware.readthedocs.io/]]] <br>
+1.  *VolcanoML: Speeding up End-to-End AutoML via Scalable Search Space Decomposition* [[Paper](https://arxiv.org/pdf/2107.08861)][[Code](https://github.com/PKU-DAIR/mindware)[[Doc](https://mindware.readthedocs.io/)]] <br>
 <!-- Yang Li, Yu Shen, **Wentao Zhang**, ..., Wentao Wu, Ce Zhang, Bin Cui. <br> -->
 International Conference on Very Large Data Bases. <br>
 ***VLDB 2021, CCF-A***. 
 
 
-1.  *OpenBox: A Generalized Black-box Optimization Service* [[Paper](https://arxiv.org/pdf/2106.00421)][[Code](https://github.com/PKU-DAIR/open-box)][[Doc][https://open-box.readthedocs.io/en/latest/]] <br>
+1.  *OpenBox: A Generalized Black-box Optimization Service* [[Paper](https://arxiv.org/pdf/2106.00421)][[Code](https://github.com/PKU-DAIR/open-box)][[Doc](https://open-box.readthedocs.io/en/latest/)] <br>
 Yang Li, Yu Shen, **Wentao Zhang**, ..., Ce Zhang, Bin Cui. <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2021, CCF-A, <font color=orange>Top #1 conference in Data Mining</font>***. 
