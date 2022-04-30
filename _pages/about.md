@@ -52,12 +52,12 @@ Large-scale Graph Learning including the following perspectives:
     - Deep GNN evaluation [[GNN EA](https://arxiv.org/pdf/2108.00955)]
 
 - **System**:  how to make large-scale graph learning faster and easier from the system design?
-    - Scalable graph neural architecture search [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638),  <font color=orange>Best Student Paper Award</font>]
+    - Scalable graph NAS [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638),  <font color=orange>Best Student Paper Award</font>]
     - Fast ensemble learning [[EDDE, ***ICDE 20***](https://ieeexplore.ieee.org/abstract/document/9101773)]
     - End-to-End AutoML [[MindWare, ***VLDB 21***](https://arxiv.org/pdf/2107.08861)]
     - Black box optimization [[OpenBox, ***KDD 21***](https://arxiv.org/pdf/2106.00421)]
     - Large-scale hyper-parameter tuning [[Hyper-Tune, ***VLDB 22***](https://arxiv.org/pdf/2201.06834)]
-    - Scalable and automated graph learning [[Angel](https://github.com/Angel-ML/angel),[SGL](https://github.com/PKU-DAIR/SGL)]
+    - Scalable graph learning [[Angel](https://github.com/Angel-ML/angel),[SGL](https://github.com/PKU-DAIR/SGL)]
 
 - **Application**:  how to use graph learning in large-scale industrial graphs?
     - GNN-based recommendation [[Survey of GNN-based RS, ***CSUR 22***](https://arxiv.org/pdf/2011.02260)]
