@@ -10,7 +10,7 @@ author_profile: true
 1.  *PaSca: a Graph Neural Architecture Search System under the Scalable Paradigm.* [[Paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3511986)][[Code](https://github.com/PKU-DAIR/SGL)] [[Doc](https://sgl-doc.readthedocs.io/en/latest/get_started/overview/overview.html)]<br>
 **Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang,Yangyu Tao, Zhi Yang, Bin Cui.<br>
 The Web Conference. <br>
-***WWW 2022 (System Track), CCF-A, <font color=orange>Best Paper Award Nominees</font>***. 
+***WWW 2022 (System Track), CCF-A, <font color=orange>🏆 Best Student Paper Award (among 1822 submmisions)</font>***. 
 
 1.  *Information Gain Propagation: a New Way to Graph Active Learning with Soft Labels .* [[Paper](https://openreview.net/pdf?id=USC0-nvGPK)][[Code](https://github.com/zwt233/IGP)] <br>
 **Wentao Zhang**, Yexin Wang, Zhenbang You, ..., Zhi Yang, Bin Cui.<br>
