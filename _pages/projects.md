@@ -22,7 +22,23 @@ With model-centered core design concept, **Angel** partitions parameters of comp
 
 We welcome everyone interested in machine learning or graph computing to contribute code, create issues or pull requests. Please refer to  [Angel Contribution Guide](https://github.com/Tencent/angel/blob/master/CONTRIBUTING.md) for more detail.
 
-2.MindWare
+
+2.SGL
+------
+[SGL](https://github.com/PKU-DAIR/SGL) is a Graph Neural Network (GNN) toolkit targeting scalable graph learning, which supports deep graph learning on extremely large datasets. SGL allows users to easily implement scalable graph neural networks and evaluate its performance on various downstream tasks like node classification, node clustering, and link prediction. Further, SGL supports auto neural architecture search functionality based on <a href="https://github.com/PKU-DAIR/open-box" target="_blank" rel="nofollow">OpenBox</a>. SGL is designed and developed by the graph learning team from
+the <a href="https://cuibinpku.github.io/index.html" target="_blank" rel="nofollow">DAIR Lab</a> at Peking University.
+
+The key difference between SGL and existing GNN toolkits, such as PyTorch Geometric (PyG) and Deep Graph Library (DGL), is that, SGL enjoys the characteristics of the follwing three perspectives.
+
++ **High scalability**: Following the scalable design paradigm **SGAP**
+  in <a href="https://arxiv.org/abs/2203.00638" target="_blank" rel="nofollow">PaSca</a>, SGL can scale to graph data with
+  billions of nodes and edges. 
++ **Auto neural architecture search**: SGL can automatically choose decent and scalable graph neural architectures according to specific tasks and
+  pre-defined multiple objectives (e.g., inference time, memory cost, and predictive performance).
++ **Ease of use**: SGL has user-friendly interfaces for implementing existing scalable GNNs and executing various downstream tasks.
+
+
+3.MindWare
 ------
 [MindWare](https://github.com/PKU-DAIR/mindware) is an efficient open-source system to help users to automate the process of 1) data pre-processing, 2) feature engineering, 3) algorithm selection, 4) architecture design, 5) hyper-parameter tuning, and 6) model ensembling. It is capable of improving its AutoML power by decomposing the entire large AutoML search space into small ones, and solve each sub-problems jointly and efficiently.
 
@@ -33,7 +49,7 @@ We welcome everyone interested in machine learning or graph computing to contrib
 MindWare is developed by <a href="http://net.pku.edu.cn/~cuibin/" target="_blank" rel="nofollow">DAIR Lab</a> at Peking University.
 The goal of MindWare is to make machine learning easier to apply both in industry and academia.
 
-3.OpenBox
+4.OpenBox
 ------
 [OpenBox](https://open-box.readthedocs.io/en/latest) is an efficient open-source system designed for solving generalized black-box optimization (BBO) problems.
 <p align="center">
