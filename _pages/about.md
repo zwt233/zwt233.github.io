@@ -54,8 +54,8 @@ Large-scale Graph Learning including the following perspectives:
 - **System**:  how to make large-scale graph learning faster and easier ?
     - Scalable graph NAS [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638),  <font color=orange>Best Student Paper Award</font>]
     - Fast ensemble learning [[EDDE, ***ICDE 20***](https://ieeexplore.ieee.org/abstract/document/9101773)]
-    - Scalable graph learning [SGL](https://github.com/PKU-DAIR/SGL)]
-    - Distributed graph learning [[Angel Graph](https://github.com/Angel-ML/PyTorch-On-Angel)
+    - Scalable graph learning [[SGL](https://github.com/PKU-DAIR/SGL)]
+    - Distributed graph learning [[Angel Graph](https://github.com/Angel-ML/PyTorch-On-Angel)]
     - End-to-End AutoML [[MindWare, ***VLDB 21***](https://arxiv.org/pdf/2107.08861)]
     - Black box optimization [[OpenBox, ***KDD 21***](https://arxiv.org/pdf/2106.00421)]
     - Large-scale hyper-parameter tuning [[Hyper-Tune, ***VLDB 22***](https://arxiv.org/pdf/2201.06834)]
