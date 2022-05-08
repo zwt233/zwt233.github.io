@@ -39,7 +39,7 @@ IEEE International Conference on Data Engineering. <br>
 ***ICDE (Extended Abstract) 2022, CCF A***. 
 
 1.  *AutoDC: an Automatic Machine Learning Framework for Disease Classification* [To appear] <br>
-Yang Bai, Yang Li, Yu Shen, Mingyu Yang, **Wentao Zhang**, and Bin Cui.<br>
+Yang Bai, Yang Li, Yu Shen, Mingyu Yang, **Wentao Zhang**, Bin Cui.<br>
 Bioinformatics. <br>
 ***Bioinformatics 2022, CCF B***. 
 
@@ -137,7 +137,7 @@ Preprints
 arXiv:2011.02260, 2020. (***arXiv preprint***). 
 
 1.  *Graph Attention Multi-Layer Perceptron* <br>
-**Wentao Zhang**, Ziqi Yin, Zeang Sheng, Wen Ouyang, Xiaosen Li, Yangyu Tao, Zhi Yang, Bin Cui. [Paper](https://arxiv.org/pdf/2108.10097)][[Code](https://github.com/PKU-DAIR/GAMLP)] <br>
+**Wentao Zhang**, Ziqi Yin, Zeang Sheng, Wen Ouyang, Xiaosen Li, Yangyu Tao, Zhi Yang, Bin Cui. [[Paper](https://arxiv.org/pdf/2108.10097)][[Code](https://github.com/PKU-DAIR/GAMLP)] <br>
 arXiv:2108.10097, 2021. (***arXiv preprint***). 
 
 1.  *GMLP: Building Scalable and Flexible Graph Neural Networks with Feature-Message Passing* [[Paper](https://arxiv.org/pdf/2104.09880)][[Code](https://github.com/zwt233/PASCA)] <br>
