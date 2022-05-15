@@ -105,7 +105,7 @@ Journal of Software. <br>
 ***JOS 2021, CCF-A***. 
 
 1.  *VolcanoML: Speeding up End-to-End AutoML via Scalable Search Space Decomposition* [[Paper](https://arxiv.org/pdf/2107.08861)][[Code](https://github.com/PKU-DAIR/mindware)[[Doc](https://mindware.readthedocs.io/)]] <br>
-<!-- Yang Li, Yu Shen, **Wentao Zhang**, ..., Wentao Wu, Ce Zhang, Bin Cui. <br> -->
+Yang Li, Yu Shen, **Wentao Zhang**, ..., Wentao Wu, Ce Zhang, Bin Cui. <br>
 International Conference on Very Large Data Bases. <br>
 ***VLDB 2021, CCF-A***. 
 
