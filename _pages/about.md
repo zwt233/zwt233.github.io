@@ -18,7 +18,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 Previously, he interned for more than 3 years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/).
 He is currently leading the Graph Learning team and several system projects in DAIR lab. His research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021).  -->
 
-Wentao Zhang (张文涛) is a final-year Ph.D. candidate in Department of Computer Science, Peking University. He is a member of the Data and Intelligence Research (DAIR) Lab, directed by [Prof. Bin Cui](https://cuibinpku.github.io/). He interned for more than three years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/). Motivated by the industrial demand, his research focuses on large-scale graph learning from three perspectives -- data, model, and system. Wentao has published 20+ papers, including 10+ first author papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW) and ML (NeurIPS, ICLR) venues. Besides, he is the contributor or designer of several system projects, including [Angel](https://github.com/Angel-ML/angel), [SGL](https://github.com/PKU-DAIR/SGL), [MindWare](https://github.com/PKU-DAIR/mindware), and [OpenBox](https://github.com/PKU-DAIR/open-box). He is currently leading the Graph Learning team in the [DAIR lab](https://github.com/PKU-DAIR), and his research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021).
+Wentao Zhang (张文涛) is a final-year Ph.D. candidate in Department of Computer Science, Peking University. He is a member of the Data and Intelligence Research (DAIR) Lab, directed by [Prof. Bin Cui](https://cuibinpku.github.io/). He interned for more than three years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/). Motivated by the industrial demand, his research focuses on large-scale graph learning from three perspectives -- data, model, and system. Wentao has published 20+ papers, including 10+ first author papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW) and ML (ICML, NeurIPS, ICLR) venues. Besides, he is the contributor or designer of several system projects, including [Angel](https://github.com/Angel-ML/angel), [SGL](https://github.com/PKU-DAIR/SGL), [MindWare](https://github.com/PKU-DAIR/mindware), and [OpenBox](https://github.com/PKU-DAIR/open-box). He is currently leading the Graph Learning team in the [DAIR lab](https://github.com/PKU-DAIR), and his research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021).
 
 
 <!-- Wentao Zhang (张文涛) is a fourth year Ph.D. candidate at [PKU](https://www.pku.edu.cn/), now working with [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/).
@@ -46,6 +46,7 @@ Large-scale Graph Learning including the following perspectives:
     
 - **Model**: how to build scalable and deep graph models for large-scale graph data? 
     - Node dependent local smoothing [[NDLS, ***NeurIPS 21***](https://arxiv.org/pdf/2110.14377), <font color=orange>Spotlight</font>]
+    - Model-free graph representation learning [NAFS, ICML 22]
     - Graph decomposition [[DeGNN, ***KDD 21***](https://arxiv.org/pdf/1910.04499)]
     - Node-aware layer aggregators [[Lasagne, ***TKDE 21***](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9513581)]
     - Graph-based MLP deployed at Tencent [[GAMLP](https://arxiv.org/pdf/2108.10097)]
@@ -53,6 +54,7 @@ Large-scale Graph Learning including the following perspectives:
 
 - **System**:  how to make large-scale graph learning faster and easier ?
     - Scalable graph NAS [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638),  <font color=orange>Best Student Paper Award</font>]
+    - Deep and flexible graph NAS [DF-GNAS, ICML 22]
     - Fast ensemble learning [[EDDE, ***ICDE 20***](https://ieeexplore.ieee.org/abstract/document/9101773)]
     - Scalable graph learning [[SGL](https://github.com/PKU-DAIR/SGL)]
     - Distributed graph learning [[Angel Graph](https://github.com/Angel-ML/angel/blob/master/docs/overview/angel_graph_sona.md)]
