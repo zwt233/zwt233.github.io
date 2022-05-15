@@ -78,7 +78,7 @@ Large-scale Graph Learning including the following perspectives:
 **<font color=red>What's New</font>**
 ------
 * **2022-05**: Two papers as first author, have been accepted by ***ICML 2022***.
-* **2022-05**: One paper related to AutoML for disease, has been accepted by ***Bioinformatics 2022***.
+* **2022-05**: One paper related to AutoML, has been accepted by ***Bioinformatics 2022***.
 * **2022-04**: 🏆 We win the ***<font color=orange>Best Student Paper Award </font>***  in ***WWW 2022*** !
 * **2022-04**: We release our first version of the scalable graph learning toolkit--[SGL](https://github.com/PKU-DAIR/SGL).
 * **2022-03**: One paper is selected as the Best Paper Award Nominees in ***WWW 2022***. The corresponding PasCa system (integrated into SGL) will be open source next month!
