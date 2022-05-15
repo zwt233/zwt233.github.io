@@ -7,6 +7,16 @@ author_profile: true
 {% include base_path %}
 2022
 ====
+1.  *NAFS: A Simple yet Tough-to-beat Baseline for Graph Representation Learning.* [To appear]<br>
+**Wentao Zhang**, Zeang Sheng, Mingyu Yang, Yang Li, Yu Shen, Zhi Yang, Bin Cui.<br>
+The 39th International Conference on Machine Learning. <br>
+***ICML 2022, CCF-A***</font>***. 
+
+1.  *Deep and Flexible Graph Neural Architecture Search.* [To appear]<br>
+**Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Zhi Yang, Bin Cui.<br>
+The 39th International Conference on Machine Learning. <br>
+***ICML 2022, CCF-A***</font>***. 
+
 1.  *PaSca: a Graph Neural Architecture Search System under the Scalable Paradigm.* [[Paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3511986)][[Code](https://github.com/PKU-DAIR/SGL)] [[Doc](https://sgl-doc.readthedocs.io/en/latest/get_started/overview/overview.html)]<br>
 **Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang,Yangyu Tao, Zhi Yang, Bin Cui.<br>
 The Web Conference. <br>
