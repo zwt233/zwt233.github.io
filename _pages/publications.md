@@ -31,7 +31,7 @@ International Conference on Learning Representations. <br>
 1.  *Graph Neural Networks in Recommender Systems: A Survey* [[Paper](https://github.com/tsinghua-fib-lab/GNN-Recommender-Systems)][[Code](https://github.com/wusw14/gnn-in-rs)] <br>
 Shiwen Wu, Fei Sun, **Wentao Zhang<sup>+</sup>**, Xu Xie, Bin Cui. <br>
 ACM Computing Survey.<br>
-***CSUR 2022, CCF A***. 
+***CSUR 2022, CCF-A***. 
 
 1.  *Hyper-Tune: Towards Efficient Hyper-parameter Tuning at Scale.* [[Paper](https://arxiv.org/pdf/2201.06834)][[Code](https://github.com/PKU-DAIR/HyperTune)] <br>
 Yang Li, Yu Shen, Huaijun Jiang,**Wentao Zhang**, Jixiang Li, Ji Liu, Ce Zhang, Bin Cui.<br>
@@ -46,7 +46,7 @@ IEEE International Conference on Data Engineering. <br>
 1.  *Lasagne: A Multi-Layer Graph Convolutional Network Framework via Node-aware Deep Architecture* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9513581)][[Code](https://github.com/PKU-DAIR/Lasagne)] <br>
 Xupeng Miao<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Yingxia Shao, Lei Chen, Ce Zhang, Jiawei Jiang, Bin Cui.<br>
 IEEE International Conference on Data Engineering. <br>
-***ICDE (Extended Abstract) 2022, CCF A***. 
+***ICDE (Extended Abstract) 2022, CCF-A***. 
 
 1.  *AutoDC: an Automatic Machine Learning Framework for Disease Classification* [To appear] <br>
 Yang Bai, Yang Li, Yu Shen, Mingyu Yang, **Wentao Zhang**, Bin Cui.<br>
