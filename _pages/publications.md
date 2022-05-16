@@ -51,7 +51,7 @@ IEEE International Conference on Data Engineering. <br>
 1.  *AutoDC: an Automatic Machine Learning Framework for Disease Classification* [To appear] <br>
 Yang Bai, Yang Li, Yu Shen, Mingyu Yang, **Wentao Zhang**, Bin Cui.<br>
 Bioinformatics. <br>
-***Bioinformatics 2022, CCF B***. 
+***Bioinformatics 2022, CCF-B***. 
 
 1.  *K-Core Decomposition on Super Large Graphs with Limited Resources* [[Paper](https://arxiv.org/pdf/2112.14840)] <br>
 Shicheng Gao, Jie Xu, Xiaosen Li, Fangcheng Fu, **Wentao Zhang**, Wen Ouyang, Yangyu Tao and Bin Cui.<br>
