@@ -17,6 +17,18 @@ The 39th International Conference on Machine Learning. <br>
 The 39th International Conference on Machine Learning. <br>
 ***ICML 2022, CCF-A***. 
 
+1.  *An Empirical Study of Deep Graph Neural Networks.* [To appear]<br>
+**Wentao Zhang**, Zeang Sheng, Yuezihan Jiang, Yikuan Xia, Jun Gao, Zhi Yang, Bin Cui.<br>
+SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
+***SIGKDD 2022, CCF-A***. 
+
+
+1.  *Graph Attention Multi-Layer Perceptron.* [To appear]<br>
+**Wentao Zhang**, Ziqi Yin, Zeang Sheng, Wen Ouyang, Xiaosen Li, Yangyu Tao, Zhi Yang, Bin Cui.<br>
+SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
+***SIGKDD 2022, CCF-A***. 
+
+
 1.  *PaSca: a Graph Neural Architecture Search System under the Scalable Paradigm.* [[Paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3511986)][[Code](https://github.com/PKU-DAIR/SGL)] [[Doc](https://sgl-doc.readthedocs.io/en/latest/get_started/overview/overview.html)]<br>
 **Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang,Yangyu Tao, Zhi Yang, Bin Cui.<br>
 The Web Conference. <br>
@@ -32,6 +44,16 @@ International Conference on Learning Representations. <br>
 Shiwen Wu, Fei Sun, **Wentao Zhang<sup>+</sup>**, Xu Xie, Bin Cui. <br>
 ACM Computing Survey.<br>
 ***CSUR 2022, CCF-A***. 
+
+1.  *TransBO: Hyperparameter Optimization via Two-Phase Transfer Learning.* [To appear]<br>
+Yang Li, Yu Shen, Huaijun Jiang, **Wentao Zhang**, Zhi Yang, Ce Zhang, Bin Cui.<br>
+SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
+***SIGKDD 2022, CCF-A***. 
+
+1.  *Transfer Learning based Search Space Design for Hyperparameter Tuning.* [To appear]<br>
+Yang Li, Yu Shen, Huaijun Jiang, Tianyi Bai, **Wentao Zhang**, Ce Zhang, Bin Cui.<br>
+SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
+***SIGKDD 2022, CCF-A***. 
 
 1.  *Hyper-Tune: Towards Efficient Hyper-parameter Tuning at Scale.* [[Paper](https://arxiv.org/pdf/2201.06834)][[Code](https://github.com/PKU-DAIR/HyperTune)] <br>
 Yang Li, Yu Shen, Huaijun Jiang,**Wentao Zhang**, Jixiang Li, Ji Liu, Ce Zhang, Bin Cui.<br>
@@ -142,13 +164,13 @@ Sci China Inf Sci. <br>
 
 Preprints
 ==== 
-1.  *Evaluating Deep Graph Neural Networks* [[Paper](https://arxiv.org/pdf/2108.00955)][[Code](https://github.com/PKU-DAIR/DGMLP)] <br>
+<!-- 1.  *Evaluating Deep Graph Neural Networks* [[Paper](https://arxiv.org/pdf/2108.00955)][[Code](https://github.com/PKU-DAIR/DGMLP)] <br>
 **Wentao Zhang**, Zeang Sheng, Yuezihan Jiang, Yikuan Xia, Jun Gao, Zhi Yang, Bin Cui.<br>
 arXiv:2011.02260, 2020. (***arXiv preprint***). 
 
 1.  *Graph Attention Multi-Layer Perceptron* <br>
 **Wentao Zhang**, Ziqi Yin, Zeang Sheng, Wen Ouyang, Xiaosen Li, Yangyu Tao, Zhi Yang, Bin Cui. [[Paper](https://arxiv.org/pdf/2108.10097)][[Code](https://github.com/PKU-DAIR/GAMLP)] <br>
-arXiv:2108.10097, 2021. (***arXiv preprint***). 
+arXiv:2108.10097, 2021. (***arXiv preprint***).  -->
 
 1.  *GMLP: Building Scalable and Flexible Graph Neural Networks with Feature-Message Passing* [[Paper](https://arxiv.org/pdf/2104.09880)][[Code](https://github.com/zwt233/PASCA)] <br>
 **Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang, Yangyu Tao, Zhi Yang, Bin Cui. <br>
