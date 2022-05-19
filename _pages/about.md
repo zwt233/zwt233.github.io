@@ -79,7 +79,7 @@ Large-scale Graph Learning including the following perspectives:
 
 **<font color=red>What's New</font>**
 ------
-* **2022-05**: Four papers, related to GAMLP, deep GNN evaluation and HPO, are accepted by the conference ***SIGKDD 2022***.
+* **2022-05**: Four papers are accepted by the conference ***SIGKDD 2022***.
 * **2022-05**: Two papers as first author, have been accepted by ***ICML 2022***.
 * **2022-05**: One paper related to AutoML, has been accepted by ***Bioinformatics 2022***.
 * **2022-04**: 🏆 We win the ***<font color=orange>Best Student Paper Award </font>***  in ***WWW 2022*** !
