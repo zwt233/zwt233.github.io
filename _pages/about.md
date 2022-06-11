@@ -137,9 +137,32 @@ Contributed Open-source Projects
 <img src="/images/Openbox.png" width="30%">
 </p>
 
+Program Committee Member and Reviewer
+------
+SIGKDD, ICML, WWW, TKDE, TNNLS, etc.
+  
+Recent Talks
+------
+1. How to Do Research? 《浅谈科研》<br>
+  Apple Research, Virtual, 2021.12 <br>
+  PKU, Virtual, 2021.12 [[News-1](https://mp.weixin.qq.com/s/vgmymt_tmAjAVxnuPPfFxQ), [News-2](https://cs.pku.edu.cn/info/1020/3199.htm)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/How-to-Do-Research.pdf)]<br>
+1. The Scalability of Large-scale Graph Machine Learning.《大规模图机器学习的可扩展性》<br>
+  NeurIPS, Virtual, 2021.12 <br>
+  4Paradigm, Virtual, 2021.12 <br>
+  AI Drive, 2021.12 [[Video](https://www.bilibili.com/video/BV1sR4y1x7qb?p=1&share_medium=android&share_plat=android&share_session_id=67ffcc9e-d9eb-4e93-a465-ddfd81162842&share_source=WEIXIN&share_tag=s_i&timestamp=1639559499&unique_k=quVdvTS)] [[News](https://mp.weixin.qq.com/s/CVnhxQEFYdI-hsWQma-kLA)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/AI-Drive-NDLS.pdf)]<br>
+1. RIM: Reliable Influence-based Active Learning on Graphs.<br>
+  NeurIPS, Virtual, 2021.12 <br>
+  NeurIPS MeetUp China, 2021.12 [[News](https://mp.weixin.qq.com/s/VhjB8hOqbaS3gQJp6YuKGQ)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/RIM_Poster.pdf)]<br>
+1. A survey of GNN system.《GNN系统调研》<br>
+  Tencent, Virtual, 2021.12  [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/datafun-GAMLP.pdf)]<br>
+1. Graph Attention Multi-Layer Perceptron.《图注意力多层感知器》<br>
+  DataFun, Virtual, 2021.10 [[News](https://mp.weixin.qq.com/s/G--7PlJ9rsTl3bnSSGmbCQ)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/datafun-GAMLP.pdf)]<br>
+  
 Awards
 ------
+1. Outstanding Doctoral Dissertation Award, Peking University (Sole winner in Computer Software and Theory), 2022
 1. [Best Student Paper Award](https://www2022.thewebconf.org/awards/) of ***WWW 2022*** (among 1822 submmisions), 2022
+1. The first place in PhD Group of CCF Academic Show, 2022
 1. Outstanding Graduate of Beijing, China, 2022
 1. Outstanding Graduate of Peking University, 2022
 1. Candidate of [May 4th Medal](https://baike.baidu.com/item/%E5%AD%A6%E7%94%9F%E4%BA%94%C2%B7%E5%9B%9B%E5%A5%96%E7%AB%A0/19729600) **(Each School recommends 1 candidate)**, 2022
@@ -161,24 +184,3 @@ Awards
 1. Merit Student **(Top 5% in PKU)**, 2019
 1. Academic Excellence Award **(Top 5% in PKU)**, 2018
 1. Outstanding Winner of the BDIC Big Data Competition **(1/575)**, 2018
-  
-Program Committee Member and Reviewer
-------
-SIGKDD, ICML, WWW, TKDE, TNNLS, etc.
-  
-Recent Talks
-------
-1. How to Do Research? 《浅谈科研》<br>
-  Apple Research, Virtual, 2021.12 <br>
-  PKU, Virtual, 2021.12 [[News-1](https://mp.weixin.qq.com/s/vgmymt_tmAjAVxnuPPfFxQ), [News-2](https://cs.pku.edu.cn/info/1020/3199.htm)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/How-to-Do-Research.pdf)]<br>
-1. The Scalability of Large-scale Graph Machine Learning.《大规模图机器学习的可扩展性》<br>
-  NeurIPS, Virtual, 2021.12 <br>
-  4Paradigm, Virtual, 2021.12 <br>
-  AI Drive, 2021.12 [[Video](https://www.bilibili.com/video/BV1sR4y1x7qb?p=1&share_medium=android&share_plat=android&share_session_id=67ffcc9e-d9eb-4e93-a465-ddfd81162842&share_source=WEIXIN&share_tag=s_i&timestamp=1639559499&unique_k=quVdvTS)] [[News](https://mp.weixin.qq.com/s/CVnhxQEFYdI-hsWQma-kLA)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/AI-Drive-NDLS.pdf)]<br>
-1. RIM: Reliable Influence-based Active Learning on Graphs.<br>
-  NeurIPS, Virtual, 2021.12 <br>
-  NeurIPS MeetUp China, 2021.12 [[News](https://mp.weixin.qq.com/s/VhjB8hOqbaS3gQJp6YuKGQ)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/RIM_Poster.pdf)]<br>
-1. A survey of GNN system.《GNN系统调研》<br>
-  Tencent, Virtual, 2021.12  [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/datafun-GAMLP.pdf)]<br>
-1. Graph Attention Multi-Layer Perceptron.《图注意力多层感知器》<br>
-  DataFun, Virtual, 2021.10 [[News](https://mp.weixin.qq.com/s/G--7PlJ9rsTl3bnSSGmbCQ)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/datafun-GAMLP.pdf)]<br>
