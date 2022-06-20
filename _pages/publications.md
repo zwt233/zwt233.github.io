@@ -23,7 +23,7 @@ SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2022, CCF-A***. 
 
 
-1.  *Graph Attention Multi-Layer Perceptron.* [To appear][[Paper](https://arxiv.org/abs/2206.04355)][[Code](https://github.com/PKU-DAIR/GAMLP)] <br>
+1.  *Graph Attention Multi-Layer Perceptron.* [[Paper](https://arxiv.org/abs/2206.04355)][[Code](https://github.com/PKU-DAIR/GAMLP)] <br>
 **Wentao Zhang**, Ziqi Yin, Zeang Sheng, Wen Ouyang, Xiaosen Li, Yangyu Tao, Zhi Yang, Bin Cui.<br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2022, CCF-A***. 
