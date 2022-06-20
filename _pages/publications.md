@@ -7,23 +7,23 @@ author_profile: true
 {% include base_path %}
 2022
 ====
-1.  *NAFS: A Simple yet Tough-to-beat Baseline for Graph Representation Learning.* [To appear]<br>
+1.  *NAFS: A Simple yet Tough-to-beat Baseline for Graph Representation Learning.* [[Paper](https://arxiv.org/abs/2206.08583)][[Code](https://github.com/zwt233/NAFS)] <br>
 **Wentao Zhang**, Zeang Sheng, Mingyu Yang, Yang Li, Yu Shen, Zhi Yang, Bin Cui.<br>
 The 39th International Conference on Machine Learning. <br>
 ***ICML 2022, CCF-A***. 
 
-1.  *Deep and Flexible Graph Neural Architecture Search.* [To appear]<br>
+1.  *Deep and Flexible Graph Neural Architecture Search.*  [[Paper](https://arxiv.org/abs/2206.08582)][[Code](https://github.com/zwt233/DFG-NAS)] <br>
 **Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Zhi Yang, Bin Cui.<br>
 The 39th International Conference on Machine Learning. <br>
 ***ICML 2022, CCF-A***. 
 
-1.  *An Empirical Study of Deep Graph Neural Networks.* [To appear]<br>
+1.  *Model Degradation Hinders Deep Graph Neural Networks.* [[Paper](https://arxiv.org/abs/2206.04361)][[Code](https://github.com/zwt233/AIR)] <br>
 **Wentao Zhang**, Zeang Sheng, Yuezihan Jiang, Yikuan Xia, Jun Gao, Zhi Yang, Bin Cui.<br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2022, CCF-A***. 
 
 
-1.  *Graph Attention Multi-Layer Perceptron.* [To appear]<br>
+1.  *Graph Attention Multi-Layer Perceptron.* [To appear][[Paper](https://arxiv.org/abs/2206.04355)][[Code](https://github.com/PKU-DAIR/GAMLP)] <br>
 **Wentao Zhang**, Ziqi Yin, Zeang Sheng, Wen Ouyang, Xiaosen Li, Yangyu Tao, Zhi Yang, Bin Cui.<br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2022, CCF-A***. 
