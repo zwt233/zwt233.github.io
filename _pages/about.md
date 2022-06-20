@@ -46,7 +46,7 @@ Large-scale Graph Learning including the following perspectives:
     
 - **Model**: how to build scalable and deep graph models for large-scale graph data? 
     - Node dependent local smoothing [[NDLS, ***NeurIPS 21***](https://arxiv.org/pdf/2110.14377), <font color=orange>Spotlight</font>]
-    - Model-free graph representation learning [NAFS, ***ICML 22***]
+    - Model-free graph representation learning [[NAFS, ***ICML 22***](https://arxiv.org/abs/2206.08583)]
     - Graph decomposition [[DeGNN, ***KDD 21***](https://arxiv.org/pdf/1910.04499)]
     - Node-aware layer aggregators [[Lasagne, ***TKDE 21***](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9513581)]
     - Graph-based MLP deployed at Tencent [[GAMLP, ***KDD 22***](https://arxiv.org/pdf/2108.10097)]
@@ -54,7 +54,7 @@ Large-scale Graph Learning including the following perspectives:
 
 - **System**:  how to make large-scale graph learning faster and easier ?
     - Scalable graph NAS [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638),  <font color=orange>Best Student Paper Award</font>]
-    - Deep and flexible graph NAS [DF-GNAS, ***ICML 22***]
+    - Deep and flexible graph NAS [[DF-GNAS, ***ICML 22***](https://arxiv.org/abs/2206.08582)]
     - Fast ensemble learning [[EDDE, ***ICDE 20***](https://ieeexplore.ieee.org/abstract/document/9101773)]
     - Scalable graph learning [[SGL](https://github.com/PKU-DAIR/SGL)]
     - Distributed graph learning [[Angel Graph](https://github.com/Angel-ML/angel/blob/master/docs/overview/angel_graph_sona.md)]
