@@ -144,16 +144,16 @@ SIGKDD, ICML, WWW, TKDE, TNNLS, etc.
 Recent Talks
 ------
 1. NAFS: A Simple yet Tough-to-beat Baseline for Graph Representation Learning.<br>
-  ICML'22, Virtual, 2022. 07 (In Preparing)
-  Jiqizhixin, Virtual, 2022. 07 (In Preparing)
+  ICML'22, Virtual, 2022. 07 (In Preparing) <br>
+  Jiqizhixin, Virtual, 2022. 07 (In Preparing) <br>
 1. Deep and Flexible Graph Neural Architecture Search.<br>
-  ICML'22, Virtual, 2022. 07 (In Preparing)
-  Jiqizhixin, Virtual, 2022. 07 (In Preparing)
+  ICML'22, Virtual, 2022. 07 (In Preparing) <br>
+  Jiqizhixin, Virtual, 2022. 07 (In Preparing) <br>
 1. Towards Large-scale Machine Learning.<br>
-  Zhejiang University, 2022. 07 (In Preparing)
-  HKUST, Virtual, 2022. 04 
+  Zhejiang University, 2022. 07 (In Preparing) <br>
+  HKUST, Virtual, 2022. 04  <br>
 1. Towards Data-Centric ML.《数据驱动的机器 》<br>
-  Apple research, 2022. 06
+  Apple research, 2022. 06 <br>
 1. PaSca: a graph neural architecture search system under the scalable paradigm. 《可扩展性的图神经结构搜索系统》<br>
   WWW’22, Virtual, 2022.04 [[Slides](https://github.com/zwt233/zwt233.github.io/blob/master/files/WWW22-PaSca.pdf)]<br>
   CCF, Virtual, 2022.06 [[News](https://www.ccf.org.cn/Media_list/xsfh/2022-06-23/764709.shtml)] [[Slides](https://github.com/zwt233/zwt233.github.io/blob/master/files/CCF-PaSca.pdf)]<br>
