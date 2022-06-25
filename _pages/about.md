@@ -143,10 +143,31 @@ SIGKDD, ICML, WWW, TKDE, TNNLS, etc.
   
 Recent Talks
 ------
+1. NAFS: A Simple yet Tough-to-beat Baseline for Graph Representation Learning.<br>
+  ICML'22, Virtual, 2022. 07 (In Preparing)
+  Jiqizhixin, Virtual, 2022. 07 (In Preparing)
+1. Deep and Flexible Graph Neural Architecture Search.<br>
+  ICML'22, Virtual, 2022. 07 (In Preparing)
+  Jiqizhixin, Virtual, 2022. 07 (In Preparing)
+1. Towards Large-scale Machine Learning.<br>
+  Zhejiang University, 2022. 07 (In Preparing)
+  HKUST, Virtual, 2022. 04 
+1. Towards Data-Centric ML.《数据驱动的机器 》<br>
+  Apple research, 2022. 06
+1. PaSca: a graph neural architecture search system under the scalable paradigm. 《可扩展性的图神经结构搜索系统》<br>
+  WWW’22, Virtual, 2022.04 [[Slides](https://github.com/zwt233/zwt233.github.io/blob/master/files/WWW22-PaSca.pdf)]<br>
+  CCF, Virtual, 2022.06 [[News](https://www.ccf.org.cn/Media_list/xsfh/2022-06-23/764709.shtml)] [[Slides](https://github.com/zwt233/zwt233.github.io/blob/master/files/CCF-PaSca.pdf)]<br>
+  DataFun, Virtual, 2022.06 [[Slides](https://github.com/zwt233/zwt233.github.io/blob/master/files/0625-DataFun-PaSca.pdf)]<br>
+  MLNLP, Virtual, 2022.06 [[News](https://mp.weixin.qq.com/s/3ff5BujHTIGl1jhHe7PTNA)][[Slides](https://github.com/zwt233/zwt233.github.io/blob/master/files/0625-MLNLP-PaSca.pdf)]<br>
+  InfoQ, Tencent Cloud, Virtual, 2022.06 [[News](https://mp.weixin.qq.com/s/2gg1jRnd1is9IvmFu0hyNQ)]<br>
+  DGL Team, Amazon, Virtual, 2022.07 (In Preparing)
+
 1. How to Do Research? 《浅谈科研》<br>
   Apple Research, Virtual, 2021.12 <br>
   PKU, Virtual, 2021.12 [[News-1](https://mp.weixin.qq.com/s/vgmymt_tmAjAVxnuPPfFxQ), [News-2](https://cs.pku.edu.cn/info/1020/3199.htm)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/How-to-Do-Research.pdf)]<br>
+  
 1. The Scalability of Large-scale Graph Machine Learning.《大规模图机器学习的可扩展性》<br>
+  Tencent Big Data, Virtual, 2022.04 <br>
   NeurIPS, Virtual, 2021.12 <br>
   4Paradigm, Virtual, 2021.12 <br>
   AI Drive, 2021.12 [[Video](https://www.bilibili.com/video/BV1sR4y1x7qb?p=1&share_medium=android&share_plat=android&share_session_id=67ffcc9e-d9eb-4e93-a465-ddfd81162842&share_source=WEIXIN&share_tag=s_i&timestamp=1639559499&unique_k=quVdvTS)] [[News](https://mp.weixin.qq.com/s/CVnhxQEFYdI-hsWQma-kLA)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/AI-Drive-NDLS.pdf)]<br>
