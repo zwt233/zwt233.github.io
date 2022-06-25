@@ -152,7 +152,10 @@ Recent Talks
 1. Towards Large-scale Machine Learning.<br>
   Zhejiang University, 2022. 07 (In Preparing) <br>
   HKUST, Virtual, 2022. 04  <br>
-1. Towards Data-Centric ML.《数据驱动的机器 》<br>
+1. Information gain propagation a new way to graph active learning with soft labels. 《软标签场景下的图主动学习》<br>
+  ICLR'22, Virtual, 2022. 04 <br>
+  AI Time, Virtual, 2022. 06  [[News](https://mp.weixin.qq.com/s/mbirnZPGpQwn6D5j_okeHw)]<br>
+1. Towards Data-Centric ML.《数据驱动的机器学习》<br>
   Apple research, 2022. 06 <br>
 1. PaSca: a graph neural architecture search system under the scalable paradigm. 《可扩展性的图神经结构搜索系统》<br>
   WWW’22, Virtual, 2022.04 [[Slides](https://github.com/zwt233/zwt233.github.io/blob/master/files/WWW22-PaSca.pdf)]<br>
@@ -161,7 +164,7 @@ Recent Talks
   MLNLP, Virtual, 2022.06 [[News](https://mp.weixin.qq.com/s/3ff5BujHTIGl1jhHe7PTNA)][[Slides](https://github.com/zwt233/zwt233.github.io/blob/master/files/0625-MLNLP-PaSca.pdf)]<br>
   InfoQ, Tencent Cloud, Virtual, 2022.06 [[News](https://mp.weixin.qq.com/s/2gg1jRnd1is9IvmFu0hyNQ)]<br>
   DGL Team, Amazon, Virtual, 2022.07 (In Preparing)
-
+  
 1. How to Do Research? 《浅谈科研》<br>
   Apple Research, Virtual, 2021.12 <br>
   PKU, Virtual, 2021.12 [[News-1](https://mp.weixin.qq.com/s/vgmymt_tmAjAVxnuPPfFxQ), [News-2](https://cs.pku.edu.cn/info/1020/3199.htm)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/How-to-Do-Research.pdf)]<br>
