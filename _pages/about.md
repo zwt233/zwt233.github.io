@@ -143,13 +143,17 @@ SIGKDD, ICML, WWW, TKDE, TNNLS, etc.
   
 Recent Talks
 ------
+1. Model Degradation Hinders Deep Graph Neural Networks.<br>
+  KDD'22, 2022. 08 (In Preparing) <br>
+1. Graph Attention Multi-Layer Perceptron.<br>
+  KDD'22, 2022. 08 (In Preparing) <br>
 1. NAFS: A Simple yet Tough-to-beat Baseline for Graph Representation Learning.<br>
   ICML'22, Virtual, 2022. 07 (In Preparing) <br>
   Jiqizhixin, Virtual, 2022. 07 (In Preparing) <br>
 1. Deep and Flexible Graph Neural Architecture Search.<br>
   ICML'22, Virtual, 2022. 07 (In Preparing) <br>
   Jiqizhixin, Virtual, 2022. 07 (In Preparing) <br>
-1. Towards Large-scale Machine Learning.<br>
+1. Towards Large-scale Graph Machine Learning.<br>
   Zhejiang University, 2022. 07 (In Preparing) <br>
   HKUST, Virtual, 2022. 04  <br>
 1. Information gain propagation a new way to graph active learning with soft labels. 《软标签场景下的图主动学习》<br>
