@@ -144,7 +144,8 @@ SIGKDD, ICML, WWW, TKDE, TNNLS, etc.
   
 Invited Talks
 ------
-Feel free to contact me if you want me to give a talk. 😊  
+I am happy to give a talk if you are interested in my work. 😊  
+  
 1. Model Degradation Hinders Deep Graph Neural Networks.<br>
   KDD'22, 2022. 08 (In Preparing) <br>
 1. Graph Attention Multi-Layer Perceptron.<br>
