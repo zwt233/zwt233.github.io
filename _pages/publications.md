@@ -70,13 +70,12 @@ Xupeng Miao<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Yingxia Shao, Lei Chen, C
 IEEE International Conference on Data Engineering. <br>
 ***ICDE (Extended Abstract) 2022, CCF-A***. 
 
-1.  *VolcanoML : Speeding up End-to-End AutoML via Scalable
-Search Space Decomposition.* [To appear] <br>
+1.  *Efficient End-to-End AutoML via Scalable Search Space Decomposition.* [[Paper](https://arxiv.org/abs/2206.09423)][[Code](https://github.com/PKU-DAIR/mindware)[[Doc](https://mindware.readthedocs.io/)]] <br>
 Yang Li, Yu Shen, **Wentao Zhang**, Ce Zhang, Bin Cui.<br>
 The International Journal on Very Large Data Bases. <br>
 ***VLDBJ 2022, CCF-A***. 
 
-1.  *AutoDC: an Automatic Machine Learning Framework for Disease Classification* [To appear] <br>
+1.  *AutoDC: an Automatic Machine Learning Framework for Disease Classification* [[Paper](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btac334/6588096)] <br>
 Yang Bai, Yang Li, Yu Shen, Mingyu Yang, **Wentao Zhang**, Bin Cui.<br>
 Bioinformatics. <br>
 ***Bioinformatics 2022, CCF-B***. 
