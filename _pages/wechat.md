@@ -9,4 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-![image](https://github.com/zwt233/zwt233.github.io/blob/master/images/Wechat.jpg)
+<p align="center">
+<img src="/images/Wechat.jpg" width="50%">
+</p>
