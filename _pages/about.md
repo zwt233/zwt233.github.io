@@ -164,11 +164,11 @@ Feel free to contact me if you want me to give a talk. 😊
 1. Towards Data-Centric ML.《数据驱动的机器学习》<br>
   Apple research, 2022. 06 <br>
 1. PaSca: a graph neural architecture search system under the scalable paradigm. 《可扩展性的图神经结构搜索系统》<br>
-  WWW’22, Virtual, 2022.04 [[Slides](https://github.com/zwt233/Talks/upload/main/Sharing/WWW22-PaSca.pdf)]<br>
+  WWW’22, Virtual, 2022.04 [[Slides](https://github.com/zwt233/Talks/tree/main/Sharing/WWW22-PaSca.pdf)]<br>
   Data Platform, Tencent, Virtual, 2022.05 <br>
-  CCF, Virtual, 2022.06 [[News](https://www.ccf.org.cn/Media_list/xsfh/2022-06-23/764709.shtml)] [[Slides](https://github.com/zwt233/Talks/upload/main/SharingCCF-PaSca.pdf)]<br>
-  DataFun, Virtual, 2022.06 [[Slides](https://github.com/zwt233/Talks/upload/main/Sharing/0625-DataFun-PaSca.pdf)]<br>
-  MLNLP, Virtual, 2022.06 [[News](https://mp.weixin.qq.com/s/3ff5BujHTIGl1jhHe7PTNA)][[Slides](hhttps://github.com/zwt233/Talks/upload/main/Sharing/0625-MLNLP-PaSca.pdf)]<br>
+  CCF, Virtual, 2022.06 [[News](https://www.ccf.org.cn/Media_list/xsfh/2022-06-23/764709.shtml)] [[Slides](https://github.com/zwt233/Talks/tree/main/Sharing/SharingCCF-PaSca.pdf)]<br>
+  DataFun, Virtual, 2022.06 [[Slides](https://github.com/zwt233/Talks/tree/main/Sharing/0625-DataFun-PaSca.pdf)]<br>
+  MLNLP, Virtual, 2022.06 [[News](https://mp.weixin.qq.com/s/3ff5BujHTIGl1jhHe7PTNA)][[Slides](https://github.com/zwt233/Talks/tree/main/Sharing/0625-MLNLP-PaSca.pdf)]<br>
   InfoQ, Tencent Cloud, Virtual, 2022.06 [[News](https://mp.weixin.qq.com/s/2gg1jRnd1is9IvmFu0hyNQ)]<br>
   DGL Team, Amazon, Virtual, 2022.07 (In Preparing)
   
