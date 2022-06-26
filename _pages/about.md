@@ -26,7 +26,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 
 **Email**: wentao.zhang@pku.edu.cn
 
-**Wechat (微信)**: z1299799152
+**[Wechat (微信)](https://zwt233.github.io/wechat/)**: z1299799152
 
 **Office**: Room 425, Yanyuan Building, Peking University, Beijing, China, 100871.
 
