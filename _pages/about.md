@@ -142,8 +142,9 @@ Program Committee Member and Reviewer
 ------
 SIGKDD, ICML, WWW, TKDE, TNNLS, etc.
   
-Recent Talks
+Invited Talks
 ------
+Feel free to contact me if you want me to give a talk. 😊  
 1. Model Degradation Hinders Deep Graph Neural Networks.<br>
   KDD'22, 2022. 08 (In Preparing) <br>
 1. Graph Attention Multi-Layer Perceptron.<br>
