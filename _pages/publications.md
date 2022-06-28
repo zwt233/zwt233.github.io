@@ -22,12 +22,10 @@ The 39th International Conference on Machine Learning. <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2022, CCF-A***. 
 
-
 1.  *Graph Attention Multi-Layer Perceptron.* [[Paper](https://arxiv.org/abs/2206.04355)][[Code](https://github.com/PKU-DAIR/GAMLP)] <br>
 **Wentao Zhang**, Ziqi Yin, Zeang Sheng, Wen Ouyang, Xiaosen Li, Yangyu Tao, Zhi Yang, Bin Cui.<br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2022, CCF-A***. 
-
 
 1.  *PaSca: a Graph Neural Architecture Search System under the Scalable Paradigm.* [[Paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3511986)][[Code](https://github.com/PKU-DAIR/SGL)] [[Doc](https://sgl-doc.readthedocs.io/en/latest/get_started/overview/overview.html)]<br>
 **Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang,Yangyu Tao, Zhi Yang, Bin Cui.<br>
@@ -41,7 +39,7 @@ International Conference on Learning Representations. <br>
 <!-- **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br> -->
 
 1.  *Graph Neural Networks in Recommender Systems: A Survey* [[Paper](https://github.com/tsinghua-fib-lab/GNN-Recommender-Systems)][[Code](https://github.com/wusw14/gnn-in-rs)] <br>
-Shiwen Wu, Fei Sun, **Wentao Zhang<sup>+</sup>**, Xu Xie, Bin Cui. <br>
+Shiwen Wu, Fei Sun, **Wentao Zhang<sup>+</sup>**(Corresponding Author), Xu Xie, Bin Cui. <br>
 ACM Computing Survey.<br>
 ***CSUR 2022, CCF-A***. 
 
