@@ -23,7 +23,7 @@ Wentao Zhang (张文涛) is a final-year Ph.D. candidate in Department of Comput
 
 Wentao Zhang has received his Ph.D. degree in computer science from [Peking University](https://www.pku.edu.cn/) in June 2022, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/). 
 And he worked with Prof. [Lei Chen](http://home.cse.ust.hk/~leichen/) as a visiting scholar at [HKUST](https://hkust.edu.hk/) in 2019.
-Besides, Wentao has more than 3 years industrial experience in [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/). 
+Besides, Wentao has 3.5 years industrial experience in [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/). 
 
 Motivated by the industrial demand, his research focuses on large-scale graph learning from three perspectives – data, model, and system. Wentao has published 20+ papers, including 10+ first author papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW) and ML (ICML, NeurIPS, ICLR) venues. Besides, he is the contributor or designer of several system projects, including [Angel](https://github.com/Angel-ML/angel), [SGL](https://github.com/PKU-DAIR/SGL), [MindWare](https://github.com/PKU-DAIR/mindware), and [OpenBox](https://github.com/PKU-DAIR/open-box). His research works on large-scale graph learning have been powering several billion-scale applications in Tencent, and some of them have been recognized by multiple prestigious awards, including the [Outstanding Doctoral Dissertation Award](https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm), and the [Best Student Paper Award](https://www2022.thewebconf.org/awards/) at WWW'22.
 
