@@ -18,7 +18,14 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 Previously, he interned for more than 3 years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/).
 He is currently leading the Graph Learning team and several system projects in DAIR lab. His research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021).  -->
 
-Wentao Zhang (张文涛) is a final-year Ph.D. candidate in Department of Computer Science, Peking University. He is a member of the Data and Intelligence Research (DAIR) Lab, directed by [Prof. Bin Cui](https://cuibinpku.github.io/). He interned for more than three years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/). Motivated by the industrial demand, his research focuses on large-scale graph learning from three perspectives -- data, model, and system. Wentao has published 20+ papers, including 10+ first author papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW) and ML (ICML, NeurIPS, ICLR) venues. Besides, he is the contributor or designer of several system projects, including [Angel](https://github.com/Angel-ML/angel), [SGL](https://github.com/PKU-DAIR/SGL), [MindWare](https://github.com/PKU-DAIR/mindware), and [OpenBox](https://github.com/PKU-DAIR/open-box). He is currently leading the Graph Learning team in the [DAIR lab](https://github.com/PKU-DAIR), and his research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021).
+<!-- 
+Wentao Zhang (张文涛) is a final-year Ph.D. candidate in Department of Computer Science, Peking University. He is a member of the Data and Intelligence Research (DAIR) Lab, directed by [Prof. Bin Cui](https://cuibinpku.github.io/). He interned for more than three years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/). Motivated by the industrial demand, his research focuses on large-scale graph learning from three perspectives -- data, model, and system. Wentao has published 20+ papers, including 10+ first author papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW) and ML (ICML, NeurIPS, ICLR) venues. Besides, he is the contributor or designer of several system projects, including [Angel](https://github.com/Angel-ML/angel), [SGL](https://github.com/PKU-DAIR/SGL), [MindWare](https://github.com/PKU-DAIR/mindware), and [OpenBox](https://github.com/PKU-DAIR/open-box). He is currently leading the Graph Learning team in the [DAIR lab](https://github.com/PKU-DAIR), and his research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). -->
+
+Wentao Zhang has received his Ph.D. degree in computer science from [Peking University](https://www.pku.edu.cn/) with the [Outstanding Doctoral Dissertation Award](https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm), supervised by Prof. [Bin Cui](https://cuibinpku.github.io/). 
+And he worked with Prof. [Lei Chen](http://home.cse.ust.hk/~leichen/) as a visiting scholar at [HKUST](https://hkust.edu.hk/) in 2019.
+Besides, Wentao has more than 3 years industrial experience in [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/). 
+
+Motivated by the industrial demand, his research focuses on large-scale graph learning from three perspectives – data, model, and system. Wentao has published 20+ papers, including 10+ first author papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW) and ML (ICML, NeurIPS, ICLR) venues. Besides, he is the contributor or designer of several system projects, including Angel](https://github.com/Angel-ML/angel), [SGL](https://github.com/PKU-DAIR/SGL), [MindWare](https://github.com/PKU-DAIR/mindware), and [OpenBox](https://github.com/PKU-DAIR/open-box). His research works on large-scale graph learning have been powering several billion-scale applications in Tencent, and some of them have been recognized by multiple prestigious awards, including the Splotlight at NeurIPS'21, and the Best Student Paper Award at WWW'22.
 
 
 <!-- Wentao Zhang (张文涛) is a fourth year Ph.D. candidate at [PKU](https://www.pku.edu.cn/), now working with [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/).
@@ -190,7 +197,7 @@ I am happy to give a talk if you are interested in my work. 😊
 1. Graph Attention Multi-Layer Perceptron.《图注意力多层感知器》<br>
   DataFun, Virtual, 2021.10 [[News](https://mp.weixin.qq.com/s/G--7PlJ9rsTl3bnSSGmbCQ)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/datafun-GAMLP.pdf)]<br>
   
-Awards
+Honors and Awards
 ------
 1. Outstanding Doctoral Dissertation Award, Peking University (Sole winner in Computer Software and Theory), 2022
 1. [Best Student Paper Award](https://www2022.thewebconf.org/awards/) of ***WWW 2022*** (among 1822 submmisions), 2022
@@ -206,8 +213,6 @@ Awards
 1. National Scholarship **(Top 1% in PKU)**, 2021
 1. Pacemaker to Merit Student **(Top 1% in PKU)**, 2021
 1. Academic Innovation Award **(Top 1% in PKU)**, 2021
-1. Outstanding Winner of the [openGCC contest](https://mp.weixin.qq.com/s/8JX5ymkUt5MvDcHLOjB3Xw) in CCF ChinaSoft **(1/3811)**, 2021
-1. Rank \#1 in [Open Graph Benchmark](https://ogb.stanford.edu/docs/leader_nodeprop/\#ogbn-mag), 2021
 1. [Baidu Scholarship Nominee](http://scholarship.baidu.com/) **(20 people in the world)**, 2021
 1. Mininglamp Technology Scholarship, 2021
 1. Leo KoGuan Scholarship **(Top 1% in PKU)**, 2020
@@ -216,4 +221,10 @@ Awards
 1. National Scholarship **(Top 1% in PKU)**, 2019
 1. Merit Student **(Top 5% in PKU)**, 2019
 1. Academic Excellence Award **(Top 5% in PKU)**, 2018
+
+  
+Competitions
+------
+1. Outstanding Winner of the [openGCC contest](https://mp.weixin.qq.com/s/8JX5ymkUt5MvDcHLOjB3Xw) in CCF ChinaSoft **(1/3814)**, 2021
+1. Rank \#1 in [Open Graph Benchmark](https://ogb.stanford.edu/docs/leader_nodeprop/\#ogbn-mag), 2021
 1. Outstanding Winner of the BDIC Big Data Competition **(1/575)**, 2018
