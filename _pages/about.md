@@ -25,7 +25,7 @@ Wentao Zhang has received his Ph.D. degree in computer science from [Peking Univ
 And he worked with Prof. [Lei Chen](http://home.cse.ust.hk/~leichen/) as a visiting scholar at [HKUST](https://hkust.edu.hk/) in 2019.
 Besides, Wentao has more than 3 years industrial experience in [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/). 
 
-Motivated by the industrial demand, his research focuses on large-scale graph learning from three perspectives – data, model, and system. Wentao has published 20+ papers, including 10+ first author papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW) and ML (ICML, NeurIPS, ICLR) venues. Besides, he is the contributor or designer of several system projects, including [Angel](https://github.com/Angel-ML/angel), [SGL](https://github.com/PKU-DAIR/SGL), [MindWare](https://github.com/PKU-DAIR/mindware), and [OpenBox](https://github.com/PKU-DAIR/open-box). His research works on large-scale graph learning have been powering several billion-scale applications in Tencent, and some of them have been recognized by multiple prestigious awards, including the [Outstanding Doctoral Dissertation Award](https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm), and the Best Student Paper Award at WWW'22.
+Motivated by the industrial demand, his research focuses on large-scale graph learning from three perspectives – data, model, and system. Wentao has published 20+ papers, including 10+ first author papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW) and ML (ICML, NeurIPS, ICLR) venues. Besides, he is the contributor or designer of several system projects, including [Angel](https://github.com/Angel-ML/angel), [SGL](https://github.com/PKU-DAIR/SGL), [MindWare](https://github.com/PKU-DAIR/mindware), and [OpenBox](https://github.com/PKU-DAIR/open-box). His research works on large-scale graph learning have been powering several billion-scale applications in Tencent, and some of them have been recognized by multiple prestigious awards, including the [Outstanding Doctoral Dissertation Award](https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm), and the [Best Student Paper Award](https://www2022.thewebconf.org/awards/) at WWW'22.
 
 
 <!-- Wentao Zhang (张文涛) is a fourth year Ph.D. candidate at [PKU](https://www.pku.edu.cn/), now working with [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/).
@@ -200,7 +200,7 @@ I am happy to give a talk if you are interested in my work. 😊
 Honors and Awards
 ------
 1. Outstanding Doctoral Dissertation Award, Peking University (Sole winner in Computer Software and Theory), 2022
-1. [Best Student Paper Award](https://www2022.thewebconf.org/awards/) of ***WWW 2022*** (among 1822 submmisions), 2022
+1. [Best Student Paper Award](https://www2022.thewebconf.org/awards/) of ***WWW 2022*** (1/1822, 2nd WWW Best Student Paper from China), 2022
 1. The first place in PhD Group of CCF Academic Show, 2022
 1. [Outstanding Graduate of Beijing](https://xgb.pku.edu.cn/docs/2022-06/20220606163325764115.pdf), China, 2022
 1. Outstanding Graduate of Peking University, 2022
