@@ -147,7 +147,7 @@ Contributed Open-source Projects
 
 Program Committee Member and Reviewer
 ------
-SIGKDD, ICML, WWW, TKDE, TNNLS, etc.
+KDD, ICML, WWW, TKDE, TNNLS, etc.
   
 Invited Talks
 ------
