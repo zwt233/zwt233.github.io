@@ -10,7 +10,10 @@ main:
     url: /projects/    
     
   - title: "Invited Talks"
-    url: /talks/    
+    url: /talks/   
+    
+  - title: "Awards"
+    url: /awards/    
  
   - title: "CFPs"
     url: /cfps/
