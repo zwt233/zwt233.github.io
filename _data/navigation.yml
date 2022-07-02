@@ -8,10 +8,10 @@ main:
     
   - title: "Projects"
     url: /projects/    
- 
-   - title: "Invited Talks"
-    url: /talks/    
     
+  - title: "Invited Talks"
+    url: /talks/    
+ 
   - title: "CFPs"
     url: /cfps/
     
