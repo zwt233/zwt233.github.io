@@ -4,8 +4,11 @@ title: "Invited Talks"
 permalink: /Talks/
 author_profile: true
 ---
-I am happy to give a talk if you are interested in my work. 😊  
 {% include base_path %}
+Invited Talks
+------
+I am happy to give a talk if you are interested in my work. 😊  
+
 2022
 ====
 1. Model Degradation Hinders Deep Graph Neural Networks.<br>
