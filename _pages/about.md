@@ -201,7 +201,7 @@ I am happy to give a talk if you are interested in my work. 😊
 Honors and Awards
 ------
 1. Outstanding Doctoral Dissertation Award, Peking University (Sole winner in Computer Software and Theory), 2022
-1. [Best Student Paper Award](https://www2022.thewebconf.org/awards/) of ***WWW 2022*** (1/1822, the second WWW Best Student Paper from China), 2022
+1. 🏆 [Best Student Paper Award](https://www2022.thewebconf.org/awards/) of ***WWW 2022*** (1/1822, the second WWW Best Student Paper from China), 2022
 1. The first place in PhD Group of CCF Academic Show, 2022
 1. [Outstanding Graduate of Beijing](https://xgb.pku.edu.cn/docs/2022-06/20220606163325764115.pdf), China, 2022
 1. Outstanding Graduate of Peking University, 2022
