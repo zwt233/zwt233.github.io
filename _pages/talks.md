@@ -6,8 +6,6 @@ author_profile: true
 ---
 {% include base_path %}
 
-Invited Talks
-------
 I am happy to give a talk if you are interested in my work. 😊  
 
 2022
