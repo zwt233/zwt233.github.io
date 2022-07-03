@@ -23,7 +23,7 @@ I am happy to give a talk if you are interested in my work. 😊
 1. Towards Large-scale Graph Machine Learning.<br>
   Zhejiang University, 2022. 07 (In Preparing) <br>
   HKUST, Virtual, 2022. 04  <br>
-1. Towards Automated Graph Learning.<br>
+1. Towards Automated Graph Learning. [[Doc](https://github.com/zwt233/Talks/blob/main/Sharing/AutoML-for-Graph-zwt.pdf)]<br>
   CSU, Virtual, 2022. 07 (In Preparing) <br>
   NUDT, Virtual, 2022. 07 (In Preparing) <br>
 1. Information gain propagation a new way to graph active learning with soft labels. 《软标签场景下的图主动学习》<br>
