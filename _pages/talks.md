@@ -22,8 +22,10 @@ I am happy to give a talk if you are interested in my work. 😊
   Jiqizhixin, Virtual, 2022. 07 (In Preparing) <br>
 1. Towards Large-scale Graph Machine Learning.<br>
   Zhejiang University, 2022. 07 (In Preparing) <br>
-  CSU, Virtual, 2022. 07 (In Preparing) <br>
   HKUST, Virtual, 2022. 04  <br>
+1. Towards Automated Graph Learning.<br>
+  CSU, Virtual, 2022. 07 (In Preparing) <br>
+  NUDT, 2022. 07 (In Preparing) <br>
 1. Information gain propagation a new way to graph active learning with soft labels. 《软标签场景下的图主动学习》<br>
   ICLR'22, Virtual, 2022. 04 <br>
   AI Time, Virtual, 2022. 06  [[News](https://mp.weixin.qq.com/s/mbirnZPGpQwn6D5j_okeHw)]<br>
@@ -35,7 +37,7 @@ I am happy to give a talk if you are interested in my work. 😊
   DGL Team, Amazon, Virtual, 2022.07 (In Preparing) <br>
   CCF, Virtual, 2022.06 [[News](https://www.ccf.org.cn/Media_list/xsfh/2022-06-23/764709.shtml)] [[Slides](https://github.com/zwt233/Talks/tree/main/Sharing/CCF-PaSca.pdf)]<br>
   DataFun, Virtual, 2022.06 [[Slides](https://github.com/zwt233/Talks/tree/main/Sharing/0625-DataFun-PaSca.pdf)]<br>
-  MLNLP, Virtual, 2022.06 [[News](https://mp.weixin.qq.com/s/3ff5BujHTIGl1jhHe7PTNA)][[Slides](https://github.com/zwt233/Talks/tree/main/Sharing/0625-MLNLP-PaSca.pdf)]<br>
+  MLNLP, Virtual, 2022.06 [[News](https://mp.weixin.qq.com/s/3ff5BujHTIGl1jhHe7PTNA)][[Slides](https://github.com/zwt233/Talks/tree/main/Sharing/0625-MLNLP-PaSca.pdf)][[Video][https://www.bilibili.com/video/BV1dv4y1M7hq]]<br>
   InfoQ, Tencent Cloud, Virtual, 2022.06 [[News](https://mp.weixin.qq.com/s/2gg1jRnd1is9IvmFu0hyNQ)]<br>
   WWW’22, Virtual, 2022.04 [[Slides](https://github.com/zwt233/Talks/tree/main/Sharing/WWW22-PaSca.pdf)]<br>
   Data Platform, Tencent, Virtual, 2022.05 <br>
