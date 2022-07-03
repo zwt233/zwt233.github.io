@@ -25,7 +25,7 @@ I am happy to give a talk if you are interested in my work. 😊
   HKUST, Virtual, 2022. 04  <br>
 1. Towards Automated Graph Learning.<br>
   CSU, Virtual, 2022. 07 (In Preparing) <br>
-  NUDT, 2022. 07 (In Preparing) <br>
+  NUDT, Virtual, 2022. 07 (In Preparing) <br>
 1. Information gain propagation a new way to graph active learning with soft labels. 《软标签场景下的图主动学习》<br>
   ICLR'22, Virtual, 2022. 04 <br>
   AI Time, Virtual, 2022. 06  [[News](https://mp.weixin.qq.com/s/mbirnZPGpQwn6D5j_okeHw)]<br>
