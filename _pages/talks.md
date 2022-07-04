@@ -20,10 +20,10 @@ I am happy to give a talk if you are interested in my work. 😊
 1. Deep and Flexible Graph Neural Architecture Search.<br>
   ICML'22, Virtual, 2022. 07 (In Preparing) <br>
   Jiqizhixin, Virtual, 2022. 07 (In Preparing) <br>
-1. Towards Large-scale Graph Machine Learning. [[Doc](https://github.com/zwt233/Talks/blob/main/Sharing/Scalable-GNN-zwt.pdf)]<br>
+1. Towards Large-scale Graph Machine Learning. [[Doc](https://github.com/zwt233/Talks/blob/main/Sharing/Scalable-GNN-zwt.pdf)] 《大规模图机器学习》<br>
   Zhejiang University, 2022. 07 (In Preparing) <br>
   HKUST, Virtual, 2022. 04  <br>
-1. Towards Automated Graph Learning. [[Doc](https://github.com/zwt233/Talks/blob/main/Sharing/AutoML-for-Graph-zwt.pdf)]<br>
+1. Towards Automated Graph Learning. [[Doc](https://github.com/zwt233/Talks/blob/main/Sharing/AutoML-for-Graph-zwt.pdf)] 《自动化图机器学习》<br>
   CSU, Virtual, 2022. 07 (In Preparing) <br>
   NUDT, Virtual, 2022. 07 (In Preparing) <br>
 1. Information gain propagation a new way to graph active learning with soft labels. 《软标签场景下的图主动学习》<br>
