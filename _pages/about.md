@@ -201,6 +201,10 @@ I am happy to give a talk if you are interested in my work. 😊
   NeurIPS MeetUp China, 2021.12 [[News](https://mp.weixin.qq.com/s/VhjB8hOqbaS3gQJp6YuKGQ)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/RIM_Poster.pdf)]<br>
 1. A survey of GNN system.《GNN系统调研》<br>
   Tencent, Virtual, 2021.12  [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/datafun-GAMLP.pdf)]<br>
+1. Graph Machine Learning: Data, Model and System.《图机器学习：数据、模型与系统》<br>
+  HKUST (Guang Zhou), Virtual, 2022.04 [[News](https://mp.weixin.qq.com/s/BNUT9Q4UPMi9cGREOARS9w)] <br>
+  Stanford, Virtual, 2021.11  <br>
+  Mila, Virtual, 2021.9  <br>
 1. Graph Attention Multi-Layer Perceptron.《图注意力多层感知器》<br>
   DataFun, Virtual, 2021.10 [[News](https://mp.weixin.qq.com/s/G--7PlJ9rsTl3bnSSGmbCQ)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/datafun-GAMLP.pdf)]<br>
   
