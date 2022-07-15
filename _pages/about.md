@@ -35,7 +35,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 
 **[Wechat (微信)](https://zwt233.github.io/wechat/)**: z1299799152
 
-**Office**: Room 425, Yanyuan Building, Peking University, Beijing, China, 100871.
+<!-- **Office**: Room 425, Yanyuan Building, Peking University, Beijing, China, 100871. -->
 
 Feel free to catch me if interested to discuss ideas or work together. 😜
 
