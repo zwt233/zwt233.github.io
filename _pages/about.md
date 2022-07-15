@@ -21,7 +21,7 @@ He is currently leading the Graph Learning team and several system projects in D
 <!-- 
 Wentao Zhang (张文涛) is a final-year Ph.D. candidate in Department of Computer Science, Peking University. He is a member of the Data and Intelligence Research (DAIR) Lab, directed by [Prof. Bin Cui](https://cuibinpku.github.io/). He interned for more than three years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/). Motivated by the industrial demand, his research focuses on large-scale graph learning from three perspectives -- data, model, and system. Wentao has published 20+ papers, including 10+ first author papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW) and ML (ICML, NeurIPS, ICLR) venues. Besides, he is the contributor or designer of several system projects, including [Angel](https://github.com/Angel-ML/angel), [SGL](https://github.com/PKU-DAIR/SGL), [MindWare](https://github.com/PKU-DAIR/mindware), and [OpenBox](https://github.com/PKU-DAIR/open-box). He is currently leading the Graph Learning team in the [DAIR lab](https://github.com/PKU-DAIR), and his research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). -->
 
-Wentao Zhang received his Ph.D. degree in computer science from [Peking University](https://www.pku.edu.cn/) in June 2022, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/). 
+Wentao Zhang is currently an IVADO postdoc fellow working with [Jian Tang](https://jian-tang.com/) at [Montreal Institute for Learning Alogorithms (Mila)](https://mila.quebec/en/). Prior to that,  he received his Ph.D. degree in computer science from [Peking University](https://www.pku.edu.cn/) in June 2022, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/). 
 And he worked with Prof. [Lei Chen](http://home.cse.ust.hk/~leichen/) as a visiting scholar at [HKUST](https://hkust.edu.hk/) in 2019.
 Besides, Wentao has accumulated for more than 3 years industrial experience in [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/). 
 
@@ -211,6 +211,7 @@ I am happy to give a talk if you are interested in my work. 😊
 Honors and Awards
 ------
 1. [Outstanding Doctoral Dissertation Award](https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm), Peking University (Sole winner in Computer Software and Theory), 2022
+1. [IVADO Postdoctoral Fellowship](https://ivado.ca/en/scholarships-and-grants/postdoctoral-research-funding/), Canada
 1. 🏆 [Best Student Paper Award](https://www2022.thewebconf.org/awards/) of ***WWW 2022*** (1/1822, the second WWW Best Student Paper from China), 2022
 1. The first place in PhD Group of CCF Academic Show, 2022
 1. [Outstanding Graduate of Beijing](https://xgb.pku.edu.cn/docs/2022-06/20220606163325764115.pdf), China, 2022
