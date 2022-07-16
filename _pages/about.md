@@ -25,7 +25,7 @@ Wentao Zhang is currently an IVADO postdoc fellow working with Prof. [Jian Tang]
 And he worked with Prof. [Lei Chen](http://home.cse.ust.hk/~leichen/) as a visiting scholar at [HKUST](https://hkust.edu.hk/) in 2019.
 Besides, Wentao has accumulated for more than 3 years industrial experience in [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/). 
 
-Motivated by the industrial demand, his research focuses on large-scale graph learning from three perspectives – data, model, and system. Wentao has published 20+ papers, including 10+ first author papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW) and ML (ICML, NeurIPS, ICLR) venues. Besides, he is the contributor or designer of several system projects, including [Angel](https://github.com/Angel-ML/angel) ![GitHub Repo stars](https://img.shields.io/github/stars/Angel-ML/Angel?style=social), [SGL](https://github.com/PKU-DAIR/SGL)![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/SGL?style=social), [MindWare](https://github.com/PKU-DAIR/mindware)![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/mindware?style=social), and [OpenBox](https://github.com/PKU-DAIR/open-box)![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/open-box?style=social). His research works on large-scale graph learning have been powering several billion-scale applications in Tencent, and some of them have been recognized by multiple prestigious awards, including the [Outstanding Doctoral Dissertation Award](https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm), and the [Best Student Paper Award](https://www2022.thewebconf.org/awards/) at WWW'22.
+Motivated by the industrial demand, his research focuses on large-scale graph learning from three perspectives – data, model, and system. Wentao has published 20+ papers, including 10+ first author papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW) and ML (ICML, NeurIPS, ICLR) venues. Besides, he is the contributor or designer of several system projects, including [Angel](https://github.com/Angel-ML/angel) ![GitHub Repo stars](https://img.shields.io/github/stars/Angel-ML/Angel?style=social), [SGL](https://github.com/PKU-DAIR/SGL) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/SGL?style=social), [MindWare](https://github.com/PKU-DAIR/mindware) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/mindware?style=social), and [OpenBox](https://github.com/PKU-DAIR/open-box) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/open-box?style=social). His research works on large-scale graph learning have been powering several billion-scale applications in Tencent, and some of them have been recognized by multiple prestigious awards, including the [Outstanding Doctoral Dissertation Award](https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm), and the [Best Student Paper Award](https://www2022.thewebconf.org/awards/) at WWW'22.
 
 
 <!-- Wentao Zhang (张文涛) is a fourth year Ph.D. candidate at [PKU](https://www.pku.edu.cn/), now working with [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/).
@@ -130,19 +130,19 @@ Large-scale Graph Learning including the following perspectives:
 
 Contributed Open-source Projects
 ------
-* [Angel](https://github.com/Angel-ML/angel)![GitHub Repo stars](https://img.shields.io/github/stars/Angel-ML/Angel?style=social): a high-performance distributed machine learning and graph computing platform.
+* [Angel](https://github.com/Angel-ML/angel) ![GitHub Repo stars](https://img.shields.io/github/stars/Angel-ML/Angel?style=social): a high-performance distributed machine learning and graph computing platform.
 <p align="center">
 <img src="/images/angel_logo.png" width="30%">
 </p>
   
-* [SGL](https://github.com/PKU-DAIR/SGL)![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/SGL?style=social): a scalable graph learning toolkit for extremely large graph datasets. 
+* [SGL](https://github.com/PKU-DAIR/SGL) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/SGL?style=social): a scalable graph learning toolkit for extremely large graph datasets. 
 
-* [MindWare](https://github.com/PKU-DAIR/mindware)![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/mindware?style=social): a powerful AutoML system, which automates feature engineering, algorithm selection and hyperparameter tuning.
+* [MindWare](https://github.com/PKU-DAIR/mindware) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/mindware?style=social): a powerful AutoML system, which automates feature engineering, algorithm selection and hyperparameter tuning.
 <p align="center">
 <img src="/images/mindware.png" width="30%">
 </p>
 
-* [OpenBox](https://github.com/PKU-DAIR/open-box)![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/open-box?style=social): an efficient open-source system designed for solving generalized black-box optimization (BBO) problems.
+* [OpenBox](https://github.com/PKU-DAIR/open-box) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/open-box?style=social): an efficient open-source system designed for solving generalized black-box optimization (BBO) problems.
 <p align="center">
 <img src="/images/Openbox.png" width="30%">
 </p>
