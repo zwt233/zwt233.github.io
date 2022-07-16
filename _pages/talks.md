@@ -21,7 +21,7 @@ I am happy to give a talk if you are interested in my work. 😊
   ICML'22, Virtual, 2022. 07 (In Preparing) <br>
   Jiqizhixin, Virtual, 2022. 07 (In Preparing) <br>
 1. Towards Large Scale Graph Learning: Data, Model and System.《大规模图学习：数据、模型与系统》<br>
-  Zhejiang University, 2022. 07 (In Preparing) <br>
+  Zhejiang University, 2022. 08 (In Preparing) <br>
   HKUST (Guang Zhou), Virtual, 2022.04 [[News](https://mp.weixin.qq.com/s/BNUT9Q4UPMi9cGREOARS9w)] <br>
   Stanford, Virtual, 2021.11  <br>
   Mila, Virtual, 2021.9  <br>
