@@ -130,19 +130,19 @@ Large-scale Graph Learning including the following perspectives:
 
 Contributed Open-source Projects
 ------
-* [Angel](https://github.com/Angel-ML/angel): a high-performance distributed machine learning and graph computing platform.
+* [Angel](https://github.com/Angel-ML/angel)![GitHub Repo stars](https://img.shields.io/github/stars/Angel-ML/Angel?style=social): a high-performance distributed machine learning and graph computing platform.
 <p align="center">
 <img src="/images/angel_logo.png" width="30%">
 </p>
   
-* [SGL](https://github.com/PKU-DAIR/SGL): a scalable graph learning toolkit for extremely large graph datasets. 
+* [SGL](https://github.com/PKU-DAIR/SGL)![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/SGL?style=social): a scalable graph learning toolkit for extremely large graph datasets. 
 
-* [MindWare](https://github.com/PKU-DAIR/mindware): a powerful AutoML system, which automates feature engineering, algorithm selection and hyperparameter tuning.
+* [MindWare](https://github.com/PKU-DAIR/mindware)![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/mindware?style=social): a powerful AutoML system, which automates feature engineering, algorithm selection and hyperparameter tuning.
 <p align="center">
 <img src="/images/mindware.png" width="30%">
 </p>
 
-* [OpenBox](https://github.com/PKU-DAIR/open-box): an efficient open-source system designed for solving generalized black-box optimization (BBO) problems.
+* [OpenBox](https://github.com/PKU-DAIR/open-box)![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/open-box?style=social): an efficient open-source system designed for solving generalized black-box optimization (BBO) problems.
 <p align="center">
 <img src="/images/Openbox.png" width="30%">
 </p>
