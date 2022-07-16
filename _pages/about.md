@@ -161,7 +161,7 @@ I am happy to give a talk if you are interested in my work. 😊
   KDD'22, 2022. 08 (In Preparing) <br>
 1. NAFS: A Simple yet Tough-to-beat Baseline for Graph Representation Learning.<br>
   ICML'22, Virtual, 2022. 07 (In Preparing) <br>
-  Jiqizhixin, Virtual, 2022. 07 (In Preparing) <br>
+  Jiqizhixin, Virtual, 2022. 07 [[News](https://mp.weixin.qq.com/s/ymwyJuQvnpYIVjFuNT3fuQ)[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/NAFS-ICML-0716.pdf)] <br>
 1. Deep and Flexible Graph Neural Architecture Search.<br>
   ICML'22, Virtual, 2022. 07 (In Preparing) <br>
   Jiqizhixin, Virtual, 2022. 07 (In Preparing) <br>
@@ -178,8 +178,8 @@ I am happy to give a talk if you are interested in my work. 😊
 1. valedictorian Speech.《北京大学计算机系2022级毕业生代表致辞》<br>
   CS of PKU, 2022. 06 [[News](https://mp.weixin.qq.com/s/05TJIrxMcBeDnXoCvYnXbg)] <br>
 1. PaSca: a graph neural architecture search system under the scalable paradigm. 《可扩展性的图神经结构搜索系统》<br>
-  DGL Team, Amazon, Virtual, 2022.07 (In Preparing) <br>
-  CSU, Virtual, 2022. 07 (In Preparing) <br>
+  DGL Team, Amazon, Virtual, 2022.07 <br>
+  CSU, Virtual, 2022. 07  <br>
   CCF, Virtual, 2022.06 [[News](https://www.ccf.org.cn/Media_list/xsfh/2022-06-23/764709.shtml)] [[Slides](https://github.com/zwt233/Talks/tree/main/Sharing/CCF-PaSca.pdf)]<br>
   DataFun, Virtual, 2022.06 [[Slides](https://github.com/zwt233/Talks/tree/main/Sharing/0625-DataFun-PaSca.pdf)]<br>
   MLNLP, Virtual, 2022.06 [[News](https://mp.weixin.qq.com/s/3ff5BujHTIGl1jhHe7PTNA)][[Slides](https://github.com/zwt233/Talks/tree/main/Sharing/0625-MLNLP-PaSca.pdf)][[Video](https://www.bilibili.com/video/BV1dv4y1M7hq)]<br>
