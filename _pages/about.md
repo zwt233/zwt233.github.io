@@ -130,7 +130,7 @@ Large-scale Graph Learning including the following perspectives:
 
 Contributed Open-source Projects
 ------
-* [Angel](https://github.com/Angel-ML/angel) ![GitHub Repo stars](https://img.shields.io/github/stars/Angel-ML/Angel?style=social): a high-performance distributed machine learning and graph computing platform, jointly designed by Tencent and PKU. ![GitHub stars](https://img.shields.io/github/stars/Angel-ML/Angel?style=social)
+* [Angel](https://github.com/Angel-ML/angel) ![GitHub Repo stars](https://img.shields.io/github/stars/Angel-ML/Angel?style=social): a high-performance distributed machine learning and graph computing platform, jointly designed by Tencent and PKU. ![GitHub stars](https://img.shields.io/github/stars/Angel-ML/Angel.svg)
 <p align="center">
 <img src="/images/angel_logo.png" width="30%"> 
 </p>
