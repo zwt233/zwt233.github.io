@@ -161,7 +161,7 @@ I am happy to give a talk if you are interested in my work. 😊
   KDD'22, 2022. 08 (In Preparing) <br>
 1. NAFS: A Simple yet Tough-to-beat Baseline for Graph Representation Learning.<br>
   ICML'22, Virtual, 2022. 07 (In Preparing) <br>
-  Jiqizhixin, Virtual, 2022. 07 [[News](https://mp.weixin.qq.com/s/ymwyJuQvnpYIVjFuNT3fuQ)[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/NAFS-ICML-0716.pdf)] <br>
+  Jiqizhixin, Virtual, 2022. 07 [[News](https://mp.weixin.qq.com/s/ymwyJuQvnpYIVjFuNT3fuQ)[[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/NAFS-ICML-0716.pdf)]] <br>
 1. Deep and Flexible Graph Neural Architecture Search.<br>
   ICML'22, Virtual, 2022. 07 (In Preparing) <br>
   Jiqizhixin, Virtual, 2022. 07 (In Preparing) <br>
