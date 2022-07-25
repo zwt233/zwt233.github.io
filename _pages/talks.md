@@ -15,18 +15,18 @@ I am happy to give a talk if you are interested in my work. 😊
 1. Graph Attention Multi-Layer Perceptron.<br>
   KDD'22, 2022. 08 (In Preparing) <br>
 1. NAFS: A Simple yet Tough-to-beat Baseline for Graph Representation Learning.<br>
-  ICML'22, Virtual, 2022. 07 (In Preparing) <br>
+  ICML'22, Virtual, 2022. 07 <br>
   Jiqizhixin, Virtual, 2022. 07 [[News](https://mp.weixin.qq.com/s/ymwyJuQvnpYIVjFuNT3fuQ)][[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/NAFS-ICML-0716.pdf)] <br>
 1. Deep and Flexible Graph Neural Architecture Search.<br>
-  ICML'22, Virtual, 2022. 07 (In Preparing) <br>
-  Jiqizhixin, Virtual, 2022. 07 (In Preparing) <br>
+  ICML'22, Virtual, 2022. 07 <br>
+  Jiqizhixin, Virtual, 2022. 07  <br>
 1. Towards Large Scale Graph Learning: Data, Model and System.《大规模图学习：数据、模型与系统》<br>
   Zhejiang University, 2022. 08 (In Preparing) <br>
   HKUST (Guang Zhou), Virtual, 2022.04 [[News](https://mp.weixin.qq.com/s/BNUT9Q4UPMi9cGREOARS9w)] <br>
   Stanford, Virtual, 2021.11  <br>
   Mila, Virtual, 2021.9  <br>
 1. Towards Automated Graph Learning. 《自动化图机器学习》 [[Doc](https://github.com/zwt233/Talks/blob/main/Sharing/AutoML-for-Graph-zwt.pdf)] <br>
-  NUDT, Virtual, 2022. 07 (In Preparing) <br>
+  NUDT, Virtual, 2022. 07  <br>
 1. Information gain propagation a new way to graph active learning with soft labels. 《软标签场景下的图主动学习》<br>
   AI Time, Virtual, 2022. 06  [[News](https://mp.weixin.qq.com/s/mbirnZPGpQwn6D5j_okeHw)]<br>
   ICLR'22, Virtual, 2022. 04 <br>
@@ -44,6 +44,7 @@ I am happy to give a talk if you are interested in my work. 😊
   WWW’22, Virtual, 2022.04 [[Slides](https://github.com/zwt233/Talks/tree/main/Sharing/WWW22-PaSca.pdf)]<br>
   Data Platform, Tencent, Virtual, 2022.05 <br>
 1. Towards Large-scale Graph Machine Learning. 《大规模图机器学习》 [[Doc](https://github.com/zwt233/Talks/blob/main/Sharing/Scalable-GNN-zwt.pdf)] <br>
+  LOGs, Virtual, 2022. 07  <br> 
   HKUST, Virtual, 2022. 04  <br> 
 
 2021
