@@ -14,7 +14,7 @@ Honors and Awards
 4. The first place in PhD Group of CCF Academic Show, 2022
 5. [Outstanding Graduate of Beijing](https://xgb.pku.edu.cn/docs/2022-06/20220606163325764115.pdf), China, 2022
 6. Outstanding Graduate of Peking University, 2022
-7. Candidate of [May 4th Medal](https://baike.baidu.com/item/%E5%AD%A6%E7%94%9F%E4%BA%94%C2%B7%E5%9B%9B%E5%A5%96%E7%AB%A0/19729600) **(Each School recommends 1 candidate)**, 2022
+7. Candidate of [May 4th Medal](https://mp.weixin.qq.com/s/AbqR2yFyduYn2PcZYbhXww) **(Each School recommends 1 candidate)**, 2022
 8. [The Big Data Expo Leading Technology Achievement Award](https://mp.weixin.qq.com/s/TlNywcR4pCl1c84KLTpeNA), China International Big Data Industry Expo (Angel Graph project), 2022
 9. Candidate of [People of the Year](https://mp.weixin.qq.com/s/zEcwHYsjqLhTsCDTnS-fsA) **(1 people in EECS, and 42 people in PKU)**, 2021
 10. [Merit Student of Beijing](https://xgb.pku.edu.cn/sylm/133002.htm) **(2 people in EECS, and 58 people in PKU)**, 2021
