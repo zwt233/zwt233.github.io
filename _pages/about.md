@@ -44,7 +44,7 @@ Feel free to catch me if interested to discuss ideas or work together. 😜
 Research Interests
 ---
 Large-scale Graph Learning including the following perspectives:
-- **Data**: how to utilize massive unlabeled nodes in large-scale graph data?
+- **Data**: how to utilize massive unlabeled nodes in large-scale graph data? -- Data-centric Graph ML
     - Efficient annotation [[ALG, ***SIGMOD 21***](https://dl.acm.org/doi/pdf/10.1145/3448016.3457325)]
     - Model-free annotation [[Grain, ***VLDB 21***](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
     - Annotation with noisy oracle [[RIM, ***NeurIPS 21***](https://openreview.net/forum?id=CEkbBN_-Ja8), <font color=orange>Spotlight</font>]
@@ -52,7 +52,7 @@ Large-scale Graph Learning including the following perspectives:
     - Reliable data distillation [[RDD, ***SIGMOD 20***](https://dl.acm.org/doi/10.1145/3318464.3389706)]
     - Reception-aware online distillation [[ROD, ***KDD 21***](https://arxiv.org/pdf/2107.11789)]
     
-- **Model**: how to build scalable and deep graph models for large-scale graph data? 
+- **Model**: how to build scalable and deep graph models for large-scale graph data? -- Scalable Graph ML
     - Node dependent local smoothing [[NDLS, ***NeurIPS 21***](https://arxiv.org/pdf/2110.14377), <font color=orange>Spotlight</font>]
     - Model-free graph representation learning [[NAFS, ***ICML 22***](https://arxiv.org/abs/2206.08583)]
     - Graph decomposition [[DeGNN, ***KDD 21***](https://arxiv.org/pdf/1910.04499)]
@@ -60,7 +60,7 @@ Large-scale Graph Learning including the following perspectives:
     - Graph-based MLP deployed at Tencent [[GAMLP, ***KDD 22***](https://arxiv.org/pdf/2108.10097)]
     - Deep GNN evaluation [[GNN EA, ***KDD 22***](https://arxiv.org/pdf/2108.00955)]
 
-- **System**:  how to make large-scale graph learning faster and easier ?
+- **System**:  how to make large-scale graph learning faster and easier ? -- AutoML on Graph
     - Scalable graph NAS [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638),  <font color=orange>Best Student Paper Award</font>]
     - Deep and flexible graph NAS [[DF-GNAS, ***ICML 22***](https://arxiv.org/abs/2206.08582)]
     - Fast ensemble learning [[EDDE, ***ICDE 20***](https://ieeexplore.ieee.org/abstract/document/9101773)]
