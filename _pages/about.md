@@ -163,7 +163,7 @@ I am happy to give a talk if you are interested in my work. 😊
 1. Graph Attention Multi-Layer Perceptron.<br>
   KDD'22, 2022. 08 <br>
 1. NAFS: A Simple yet Tough-to-beat Baseline for Graph Representation Learning.<br>
-  AI Time [[News](https://mp.weixin.qq.com/s/L8x-2_D6W5JpmsCy_8ZOKQ)]
+  AI Time [[News](https://mp.weixin.qq.com/s/L8x-2_D6W5JpmsCy_8ZOKQ)]<br>
   ICML'22, Virtual, 2022. 07 <br>
   Jiqizhixin, Virtual, 2022. 07 [[News](https://mp.weixin.qq.com/s/ymwyJuQvnpYIVjFuNT3fuQ)][[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/NAFS-ICML-0716.pdf)] <br>
 1. Deep and Flexible Graph Neural Architecture Search.<br>
