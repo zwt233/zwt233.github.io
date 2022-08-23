@@ -11,9 +11,9 @@ I am happy to give a talk if you are interested in my work. 😊
 2022
 ====
 1. Model Degradation Hinders Deep Graph Neural Networks.<br>
-  KDD'22, 2022. 08 (In Preparing) <br>
+  KDD'22, 2022. 08 <br>
 1. Graph Attention Multi-Layer Perceptron.<br>
-  KDD'22, 2022. 08 (In Preparing) <br>
+  KDD'22, 2022. 08 <br>
 1. NAFS: A Simple yet Tough-to-beat Baseline for Graph Representation Learning.<br>
   AI Time [[News](https://mp.weixin.qq.com/s/L8x-2_D6W5JpmsCy_8ZOKQ)]
   ICML'22, Virtual, 2022. 07 <br>
@@ -28,6 +28,8 @@ I am happy to give a talk if you are interested in my work. 😊
   Mila, Virtual, 2021.9  <br>
 1. Towards Automated Graph Learning. 《自动化图机器学习》 [[Doc](https://github.com/zwt233/Talks/blob/main/Sharing/AutoML-for-Graph-zwt.pdf)] <br>
   NUDT, Virtual, 2022. 07  <br>
+  HUST, 2022. 08 <br>
+  Zhejiang University, 2022. 08 <br>
 1. Information gain propagation a new way to graph active learning with soft labels. 《软标签场景下的图主动学习》<br>
   AI Time, Virtual, 2022. 06  [[News](https://mp.weixin.qq.com/s/mbirnZPGpQwn6D5j_okeHw)]<br>
   ICLR'22, Virtual, 2022. 04 <br>
@@ -45,8 +47,9 @@ I am happy to give a talk if you are interested in my work. 😊
   WWW’22, Virtual, 2022.04 [[Slides](https://github.com/zwt233/Talks/tree/main/Sharing/WWW22-PaSca.pdf)]<br>
   Data Platform, Tencent, Virtual, 2022.05 <br>
 1. Towards Large-scale Graph Machine Learning. 《大规模图机器学习》 [[Doc](https://github.com/zwt233/Talks/blob/main/Sharing/Scalable-GNN-zwt.pdf)] <br>
+  HKUST, Virtual, 2022. 08 (In Preparing)  <br> 
   LOGs, Virtual, 2022. 07 [[Video](https://www.bilibili.com/video/BV1GY4y1w736?spm_id_from=333.999.0.0&vd_source=3b29bfbd33d11edf0e22864d965c6699)]  <br> 
-  HKUST, Virtual, 2022. 04  <br> 
+  
 
 2021
 ====
