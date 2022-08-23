@@ -23,7 +23,7 @@ Wentao Zhang (张文涛) is a final-year Ph.D. candidate in Department of Comput
 
 Wentao Zhang is currently a postdoc research fellow working with Prof. [Jian Tang](https://jian-tang.com/) at [Montreal Institute for Learning Alogorithms (Mila)](https://mila.quebec/en/). Prior to that,  he received his Ph.D. degree in computer science from [Peking University](https://www.pku.edu.cn/) in June 2022, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/). 
 And he worked with Prof. [Lei Chen](http://home.cse.ust.hk/~leichen/) as a visiting scholar at [HKUST](https://hkust.edu.hk/) in 2019.
-Besides, Wentao has accumulated for more than 3 years industrial experience in [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/). 
+Besides, Wentao has accumulated for 4 years industrial experience in [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/). 
 
 Motivated by the industrial demand, Wentao's research focuses on large-scale graph learning from three perspectives – data, model, and system. He has published 20+ papers, including 10+ first author papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW) and ML (ICML, NeurIPS, ICLR) venues. Besides, he is the contributor or designer of several system projects, including [Angel](https://github.com/Angel-ML/angel) ![GitHub Repo stars](https://img.shields.io/github/stars/Angel-ML/Angel?style=social), [SGL](https://github.com/PKU-DAIR/SGL) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/SGL?style=social), [MindWare](https://github.com/PKU-DAIR/mindware) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/mindware?style=social), and [OpenBox](https://github.com/PKU-DAIR/open-box) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/open-box?style=social). His research works have been powering several billion-scale applications in Tencent, and some of them have been recognized by multiple prestigious awards, including the [Outstanding Doctoral Dissertation Award](https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm), and the [Best Student Paper Award](https://www2022.thewebconf.org/awards/) at WWW'22.
 
@@ -159,9 +159,9 @@ Invited Talks
 I am happy to give a talk if you are interested in my work. 😊  
   
 1. Model Degradation Hinders Deep Graph Neural Networks.<br>
-  KDD'22, 2022. 08 (In Preparing) <br>
+  KDD'22, 2022. 08 <br>
 1. Graph Attention Multi-Layer Perceptron.<br>
-  KDD'22, 2022. 08 (In Preparing) <br>
+  KDD'22, 2022. 08 <br>
 1. NAFS: A Simple yet Tough-to-beat Baseline for Graph Representation Learning.<br>
   AI Time [[News](https://mp.weixin.qq.com/s/L8x-2_D6W5JpmsCy_8ZOKQ)]
   ICML'22, Virtual, 2022. 07 <br>
@@ -170,12 +170,13 @@ I am happy to give a talk if you are interested in my work. 😊
   ICML'22, Virtual, 2022. 07 <br>
   Jiqizhixin, Virtual, 2022. 07  <br>
 1. Towards Large Scale Graph Learning: Data, Model and System.《大规模图学习：数据、模型与系统》<br>
-  Zhejiang University, 2022. 08 (In Preparing) <br>
   HKUST (Guang Zhou), Virtual, 2022.04 [[News](https://mp.weixin.qq.com/s/BNUT9Q4UPMi9cGREOARS9w)] <br>
   Stanford, Virtual, 2021.11  <br>
   Mila, Virtual, 2021.9  <br>
 1. Towards Automated Graph Learning. 《自动化图机器学习》 [[Doc](https://github.com/zwt233/Talks/blob/main/Sharing/AutoML-for-Graph-zwt.pdf)] <br>
   NUDT, Virtual, 2022. 07  <br>
+  HUST, 2022. 08 <br>
+  Zhejiang University, 2022. 08 <br>
 1. Information gain propagation a new way to graph active learning with soft labels. 《软标签场景下的图主动学习》<br>
   AI Time, Virtual, 2022. 06  [[News](https://mp.weixin.qq.com/s/mbirnZPGpQwn6D5j_okeHw)]<br>
   ICLR'22, Virtual, 2022. 04 <br>
@@ -193,8 +194,8 @@ I am happy to give a talk if you are interested in my work. 😊
   WWW’22, Virtual, 2022.04 [[Slides](https://github.com/zwt233/Talks/tree/main/Sharing/WWW22-PaSca.pdf)]<br>
   Data Platform, Tencent, Virtual, 2022.05 <br>
 1. Towards Large-scale Graph Machine Learning. 《大规模图机器学习》 [[Doc](https://github.com/zwt233/Talks/blob/main/Sharing/Scalable-GNN-zwt.pdf)] <br>
+  HKUST, Virtual, 2022. 08 (In Preparing)  <br> 
   LOGs, Virtual, 2022. 07 [[Video](https://www.bilibili.com/video/BV1GY4y1w736?spm_id_from=333.999.0.0&vd_source=3b29bfbd33d11edf0e22864d965c6699)]  <br> 
-  HKUST, Virtual, 2022. 04  <br> 
 1. How to Do Research? 《浅谈科研》<br>
   Apple Research, Virtual, 2021.12 <br>
   PKU, Virtual, 2021.12 [[News-1](https://mp.weixin.qq.com/s/vgmymt_tmAjAVxnuPPfFxQ), [News-2](https://cs.pku.edu.cn/info/1020/3199.htm)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/How-to-Do-Research.pdf)]<br>
