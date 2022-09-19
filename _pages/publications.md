@@ -43,7 +43,11 @@ Shiwen Wu, Fei Sun, **Wentao Zhang<sup>+</sup>**(Corresponding Author), Xu Xie, 
 ACM Computing Survey.<br>
 ***CSUR 2022, CCF-A***. 
 
-1.  *TransBO: Hyperparameter Optimization via Two-Phase Transfer Learning.* [To appear]<br>
+1.  *DivBO: Diversity-aware CASH for Ensemble Learning* [To appear]<br>
+Yu Shen, Yupeng Lu, Yang Li, Yaofeng Tu, **Wentao Zhang**, Bin CUI. 
+***NeurIPS 2022, CCF-A***. 
+
+1.  *TransBO: Hyperparameter Optimization via Two-Phase Transfer Learning.* [[Paper](https://arxiv.org/abs/2206.02663)]<br>
 Yang Li, Yu Shen, Huaijun Jiang, **Wentao Zhang**, Zhi Yang, Ce Zhang, Bin Cui.<br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2022, CCF-A***. 
