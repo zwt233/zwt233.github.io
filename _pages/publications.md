@@ -44,7 +44,7 @@ ACM Computing Survey.<br>
 ***CSUR 2022, CCF-A***. 
 
 1.  *DivBO: Diversity-aware CASH for Ensemble Learning* [To appear]<br>
-Yu Shen, Yupeng Lu, Yang Li, Yaofeng Tu, **Wentao Zhang**, Bin CUI. 
+Yu Shen, Yupeng Lu, Yang Li, Yaofeng Tu, **Wentao Zhang**, Bin CUI. <br>
 ***NeurIPS 2022, CCF-A***. 
 
 1.  *TransBO: Hyperparameter Optimization via Two-Phase Transfer Learning.* [[Paper](https://arxiv.org/abs/2206.02663)]<br>
