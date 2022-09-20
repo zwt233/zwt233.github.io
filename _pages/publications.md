@@ -171,6 +171,10 @@ Sci China Inf Sci. <br>
 
 Preprints
 ==== 
+1.  *Diffusion Models: A Comprehensive Survey of Methods* [[Paper](https://arxiv.org/abs/2209.00796)][[Code](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy)] <br>
+Ling Yang, Zhilong Zhang, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Ming-Hsuan Yang, Bin Cui. <br>
+arXiv:2209.00796, 2022. (***arXiv preprint***).   
+ 
 <!-- 1.  *Evaluating Deep Graph Neural Networks* [[Paper](https://arxiv.org/pdf/2108.00955)][[Code](https://github.com/PKU-DAIR/DGMLP)] <br>
 **Wentao Zhang**, Zeang Sheng, Yuezihan Jiang, Yikuan Xia, Jun Gao, Zhi Yang, Bin Cui.<br>
 arXiv:2011.02260, 2020. (***arXiv preprint***). 
@@ -186,6 +190,3 @@ arXiv:2108.00955, 2021. (***arXiv preprint***).
 1.  *ProxyBO: Accelerating Neural Architecture Search via Bayesian Optimization with Zero-cost Proxies* [[Paper](https://arxiv.org/pdf/2110.10423)][[Code](https://zwt233.github.io/publications/)] <br>
 Yu Shen, Yang Li, Jian Zheng, **Wentao Zhang**, Peng Yao, Jixiang Li, Sen Yang, Ji Liu, Bin Cui. <br>
 arXiv:2110.10423, 2021. (***arXiv preprint***). 
-
-  
-  
