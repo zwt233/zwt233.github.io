@@ -91,7 +91,7 @@ Large-scale Graph Learning including the following perspectives:
 **<font color=red>What's New</font>**
 ------
 * **2022-09**: One paper is accepted by ***NeurIPS 2022***.
-* **2022-09**: I am awared Rising Star ((https://mp.weixin.qq.com/s/Lecza9L8zgZYDPdKpkP2XA)) in World AI Conference, 2022. 
+* **2022-09**: I am awared [Rising Star](https://mp.weixin.qq.com/s/Lecza9L8zgZYDPdKpkP2XA) in World AI Conference, 2022. 
 * **2022-06**: I am honor to present the [valedictorian](https://mp.weixin.qq.com/s/05TJIrxMcBeDnXoCvYnXbg) for the class of 2022 in CS of PKU.
 * **2022-06**: I receive my Ph.D. degree in computer science from Peking University with [Outstanding Doctoral Dissertation Award](https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm).
 * **2022-05**: One paper is accepted by the journal ***VLDBJ 2022***.
