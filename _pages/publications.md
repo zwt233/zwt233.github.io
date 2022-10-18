@@ -43,6 +43,11 @@ Shiwen Wu, Fei Sun, **Wentao Zhang<sup>+</sup>**(Corresponding Author), Xu Xie, 
 ACM Computing Survey.<br>
 ***CSUR 2022, CCF-A***. 
 
+1.  *P2CG: A Privacy Preserving Collaborative Graph Neural Network Training Framework.* [To appear] <br>
+Xupeng Miao<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Yuezihan Jiang,  Fangcheng Fu and Yingxia Shao, Lei Chen, Yangyu Tao, Gang Cao, Bin Cui.<br>
+The International Journal on Very Large Data Bases. <br>
+***VLDBJ 2022, CCF-A***. 
+
 1.  *DivBO: Diversity-aware CASH for Ensemble Learning* [To appear]<br>
 Yu Shen, Yupeng Lu, Yang Li, Yaofeng Tu, **Wentao Zhang**, Bin CUI. <br>
 ***NeurIPS 2022, CCF-A***. 
