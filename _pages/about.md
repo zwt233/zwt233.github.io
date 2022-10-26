@@ -135,6 +135,9 @@ Large-scale Graph Learning including the following perspectives:
 
 <details>
 <summary>Past news</summary>
+* **2021-08**: We propose [GAMLP](https://github.com/PKU-DAIR/GAMLP/blob/main/GAMLP.pdf), a scalable and efficient graph model, which achieves the **top #1** performance in three public and largest ogbn graphs (i.e., ogbn-papers100M, ogbn-products, and ogbn-mag)! See the **leaderboards** [here](https://ogb.stanford.edu/docs/leader_nodeprop/).
+* **2021-07**: One paper as first author, related to large-scale graph data selection, has been accepted by the conference ***VLDB 2021***.
+* **2021-07**: One paper as co-first author, related to deep GNN, has been accepted by the journal ***TKDE 2021***.
 * (2020-03-16) Our Cross-City Multi-Modal Recommendation service get online! This service covers over 330 cities in mainland China.<br>
 * (2019-08-02) We organized "The KDD Cup 2019 Regular ML Track", Context-Aware Multi-Modal Transportation Recommendation. We attracted over 1700 teams participates.<br>
 * (2018-9-01) Our Multi-Modal Transportation Recommendation service get online! Download Baidu Maps and try Zhixing!<br>
