@@ -108,12 +108,11 @@ Large-scale Graph Learning including the following perspectives:
 * **2022-01**: One paper related to our large scale Hyper-paramater Tuning system, has been accepted by the conference ***VLDB 2022*** .
 * **2022-01**: I accepted the invitation to serve as Program Committee member of the Research Track of ACM ***SIGKDD 2022***.
 * **2022-01**: One paper as first author, related to our scalable graph NAS system, has been accepted by the conference ***WWW 2022*** .
-
+  
+  
 <details>
 <summary>Past News in 2021</summary>
 
-Past News in 2021
-------
 * **2021-12**: Our OpenBox team won the “Outstanding Winner” at the openGCC contest in [CCF ChinaSoft 2021](https://mp.weixin.qq.com/s/8JX5ymkUt5MvDcHLOjB3Xw). Congratulations!
 * **2021-09**: Two papers as first author, related to scalable graph learning and graph data annotation, have been accepted by the conference ***NeurIPS 2021*** with ***<font color=orange>Spotlight (< 3%)</font>***. 
 * **2021-08**: We propose [GAMLP](https://github.com/PKU-DAIR/GAMLP/blob/main/GAMLP.pdf), a scalable and efficient graph model, which achieves the **top #1** performance in three public and largest ogbn graphs (i.e., ogbn-papers100M, ogbn-products, and ogbn-mag)! See the **leaderboards** [here](https://ogb.stanford.edu/docs/leader_nodeprop/).
@@ -123,8 +122,6 @@ Past News in 2021
 * **2021-05**: Three papers, related to sparse graph, graph decomposition and our blackbox optimization (BBO) system -- [OpenBox](https://open-box.readthedocs.io/en/latest/), are accepted by the conference ***SIGKDD 2021***.
 * **2021-03**: As the only person in China, I was supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). Many thanks to Apple!
 * **2021-03**: One paper as first author has been accepted by the conference ***SIGMOD 2021***. Looking forward to the meeting in Xi'an this summer!
-
-
 </details>
 
 
