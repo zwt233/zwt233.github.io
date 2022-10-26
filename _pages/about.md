@@ -133,7 +133,12 @@ Large-scale Graph Learning including the following perspectives:
 * **2021-03**: One paper as first author has been accepted by the conference ***SIGMOD 2021***. Looking forward to the meeting in Xi'an this summer!
 <!-- * May-17-2020, Our paper *Individual Fairness for Graph Neural Networks: A Ranking based Approach* has been accepted by SIGKDD 2021. -->
 
-
+<details>
+<summary>Past news</summary>
+* (2020-03-16) Our Cross-City Multi-Modal Recommendation service get online! This service covers over 330 cities in mainland China.<br>
+* (2019-08-02) We organized "The KDD Cup 2019 Regular ML Track", Context-Aware Multi-Modal Transportation Recommendation. We attracted over 1700 teams participates.<br>
+* (2018-9-01) Our Multi-Modal Transportation Recommendation service get online! Download Baidu Maps and try Zhixing!<br>
+</details><br>
 
 
 
