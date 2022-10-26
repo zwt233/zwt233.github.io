@@ -111,7 +111,8 @@ Large-scale Graph Learning including the following perspectives:
 
 <details>
 <summary>Past News in 2021</summary>
-  
+
+Past News in 2021
 ------
 * **2021-12**: Our OpenBox team won the “Outstanding Winner” at the openGCC contest in [CCF ChinaSoft 2021](https://mp.weixin.qq.com/s/8JX5ymkUt5MvDcHLOjB3Xw). Congratulations!
 * **2021-09**: Two papers as first author, related to scalable graph learning and graph data annotation, have been accepted by the conference ***NeurIPS 2021*** with ***<font color=orange>Spotlight (< 3%)</font>***. 
