@@ -113,17 +113,17 @@ Large-scale Graph Learning including the following perspectives:
 <details>
 <summary>Past News in 2021</summary>
 
-* **2021-12**: Our OpenBox team won the “Outstanding Winner” at the openGCC contest in [CCF ChinaSoft 2021](https://mp.weixin.qq.com/s/8JX5ymkUt5MvDcHLOjB3Xw). Congratulations!
+1. **2021-12**: Our OpenBox team won the “Outstanding Winner” at the openGCC contest in [CCF ChinaSoft 2021](https://mp.weixin.qq.com/s/8JX5ymkUt5MvDcHLOjB3Xw). Congratulations!
   
-* **2021-09**: Two papers as first author, related to scalable graph learning and graph data annotation, have been accepted by the conference ***NeurIPS 2021*** with ***<font color=orange>Spotlight (< 3%)</font>***. 
+1. **2021-09**: Two papers as first author, related to scalable graph learning and graph data annotation, have been accepted by the conference ***NeurIPS 2021*** with ***<font color=orange>Spotlight (< 3%)</font>***. 
   
-* **2021-08**: We propose [GAMLP](https://github.com/PKU-DAIR/GAMLP/blob/main/GAMLP.pdf), a scalable and efficient graph model, which achieves the **top #1** performance in three public and largest ogbn graphs (i.e., ogbn-papers100M, ogbn-products, and ogbn-mag)! See the **leaderboards** [here](https://ogb.stanford.edu/docs/leader_nodeprop/).
-* **2021-07**: One paper as first author, related to large-scale graph data selection, has been accepted by the conference ***VLDB 2021***.
-* **2021-07**: One paper as co-first author, related to deep GNN, has been accepted by the journal ***TKDE 2021***.
-* **2021-06**: One paper as third author, related to our AutoML system -- [VocalnoML](https://github.com/PKU-DAIR/soln-ml), has been accepted by the conference ***VLDB 2021***.
-* **2021-05**: Three papers, related to sparse graph, graph decomposition and our blackbox optimization (BBO) system -- [OpenBox](https://open-box.readthedocs.io/en/latest/), are accepted by the conference ***SIGKDD 2021***.
-* **2021-03**: As the only person in China, I was supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). Many thanks to Apple!
-* **2021-03**: One paper as first author has been accepted by the conference ***SIGMOD 2021***. Looking forward to the meeting in Xi'an this summer!
+1. **2021-08**: We propose [GAMLP](https://github.com/PKU-DAIR/GAMLP/blob/main/GAMLP.pdf), a scalable and efficient graph model, which achieves the **top #1** performance in three public and largest ogbn graphs (i.e., ogbn-papers100M, ogbn-products, and ogbn-mag)! See the **leaderboards** [here](https://ogb.stanford.edu/docs/leader_nodeprop/).
+1. **2021-07**: One paper as first author, related to large-scale graph data selection, has been accepted by the conference ***VLDB 2021***.
+1. **2021-07**: One paper as co-first author, related to deep GNN, has been accepted by the journal ***TKDE 2021***.
+1. **2021-06**: One paper as third author, related to our AutoML system -- [VocalnoML](https://github.com/PKU-DAIR/soln-ml), has been accepted by the conference ***VLDB 2021***.
+1. **2021-05**: Three papers, related to sparse graph, graph decomposition and our blackbox optimization (BBO) system -- [OpenBox](https://open-box.readthedocs.io/en/latest/), are accepted by the conference ***SIGKDD 2021***.
+1. **2021-03**: As the only person in China, I was supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). Many thanks to Apple!
+1. **2021-03**: One paper as first author has been accepted by the conference ***SIGMOD 2021***. Looking forward to the meeting in Xi'an this summer!
 </details>
 
 
