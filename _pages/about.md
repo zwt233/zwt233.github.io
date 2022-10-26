@@ -27,6 +27,7 @@ Besides, Wentao has accumulated for 4 years industrial experience in [Tencent](h
 
 Motivated by the industrial demand, Wentao's research focuses on large-scale graph learning from three perspectives – data, model, and system. He has published 30+ papers, including 10+ first author papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW) and ML (ICML, NeurIPS, ICLR) venues. Besides, he is the contributor or designer of several system projects, including [Angel](https://github.com/Angel-ML/angel) ![GitHub Repo stars](https://img.shields.io/github/stars/Angel-ML/Angel?style=social), [SGL](https://github.com/PKU-DAIR/SGL) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/SGL?style=social), [MindWare](https://github.com/PKU-DAIR/mindware) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/mindware?style=social), and [OpenBox](https://github.com/PKU-DAIR/open-box) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/open-box?style=social). His research works have been powering several billion-scale applications in Tencent, and some of them have been recognized by multiple prestigious awards, including the [Outstanding Doctoral Dissertation Award](https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm), and the [Best Student Paper Award](https://www2022.thewebconf.org/awards/) at WWW'22.
 
+Feel free to catch me if interested to discuss ideas or work together. 😜
 
 <!-- Wentao Zhang (张文涛) is a fourth year Ph.D. candidate at [PKU](https://www.pku.edu.cn/), now working with [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/).
 He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof. Lei Chen, [Tencent](https://github.com/Angel-ML/angel) working with the Angel team, and [Apple Research](https://machinelearning.apple.com/) working with Meng Cao, Ping Huang and Danny Bickson. -->
@@ -35,9 +36,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 
 **[Wechat (微信)](https://zwt233.github.io/wechat/)**: z1299799152
 
-<!-- **Office**: Room 425, Yanyuan Building, Peking University, Beijing, China, 100871. -->
-
-Feel free to catch me if interested to discuss ideas or work together. 😜
+**Office**: 6666 St-Urbain Street, #200. Montreal, QC.
 
 **<font color=red>I’m on job market now!</font>**
 
