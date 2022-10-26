@@ -44,6 +44,7 @@ Feel free to catch me if interested to discuss ideas or work together. 😜
 I am looking for the following positions:
 - Faculty (Assistant Professor) in Academic
 - Research Scientist in Industry
+
 **<font color=red>If you are interested in me, contact me via Email or Wechat.</font>**
 
 Research Interests
