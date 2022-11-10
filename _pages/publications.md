@@ -5,6 +5,13 @@ permalink: /publications/
 author_profile: true
 ---
 {% include base_path %}
+2023
+====
+1.  *Fairness-aware Maximal Biclique Enumeration on Bipartite Graphs.* [To appear] <br>
+Ziqi Yin, Qi Zhang, **Wentao Zhang**, Ronghua Li, Guoren Wang<br>
+IEEE International Conference on Data Engineering. <br>
+***ICDE 2023, CCF-A***. 
+
 2022
 ====
 1.  *NAFS: A Simple yet Tough-to-beat Baseline for Graph Representation Learning.* [[Paper](https://arxiv.org/abs/2206.08583)][[Code](https://github.com/zwt233/NAFS)] <br>
@@ -176,6 +183,20 @@ Sci China Inf Sci. <br>
 
 Preprints
 ==== 
+
+1.  *Distributed Graph Neural Network Training: A Survey* [[Paper](https://arxiv.org/abs/2211.00216)] <br>
+Yingxia Shao, Hongzheng Li, Xizhi Gu, Hongbo Yin, Yawen Li, Xupeng Miao, Wentao Zhang, Bin Cui, Lei Chen. <br>
+arXiv:2211.00216, 2022. (***arXiv preprint***).   
+ 
+
+1.  *Efficient Graph Neural Network Inference at Large Scale* [[Paper](https://arxiv.org/abs/2211.00495)](https://arxiv.org/abs/2211.00216))]<br>
+Yingxia Shao, Hongzheng Li, Xizhi Gu, Hongbo Yin, Yawen Li, Xupeng Miao, Wentao Zhang, Bin Cui, Lei Chen. <br>
+	arXiv:2211.00495, 2022. (***arXiv preprint***).   
+ 
+1.  *Diffusion Models: A Comprehensive Survey of Methods* [[Paper](https://arxiv.org/abs/2209.00796)][[Code](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy)] <br>
+Ling Yang, Zhilong Zhang, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Ming-Hsuan Yang, Bin Cui. <br>
+arXiv:2209.00796, 2022. (***arXiv preprint***).   
+ 
 1.  *Diffusion Models: A Comprehensive Survey of Methods* [[Paper](https://arxiv.org/abs/2209.00796)][[Code](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy)] <br>
 Ling Yang, Zhilong Zhang, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Ming-Hsuan Yang, Bin Cui. <br>
 arXiv:2209.00796, 2022. (***arXiv preprint***).   
