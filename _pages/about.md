@@ -95,7 +95,7 @@ Large-scale Graph Learning including the following perspectives:
 
 **<font color=red>What's New</font>**
 ------
-* **2022-10**: One paper is accepted by ***ICDE 2023***.
+* **2022-11**: One paper is accepted by ***ICDE 2023***.
 * **2022-10**: One paper is accepted by ***VLDBJ 2022***.
 * **2022-09**: One paper is accepted by ***NeurIPS 2022***.
 * **2022-09**: I am awared [Rising Star](https://mp.weixin.qq.com/s/Lecza9L8zgZYDPdKpkP2XA) (云帆奖-明日之星) in World AI Conference, 2022. 
