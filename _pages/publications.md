@@ -12,7 +12,7 @@ Corresponding author<sup>*</sup>
 2023
 ====
 1.  *ProxyBO: Accelerating Neural Architecture Search via Bayesian Optimization with Zero-cost Proxies.* [To appear] <br>
-Yu Shen, Yang Li, Jian Zheng, Peng Yao, Jixiang Li, Sen Yang, Ji Liu, **Wentao Zhang**, Bin Cui. <br>
+Yu Shen, Yang Li, Jian Zheng, Peng Yao, Jixiang Li, Sen Yang, Ji Liu, **Wentao Zhang<sup>*</sup>**, Bin Cui. <br>
 Thirty-Seventh AAAI Conference on Artificial Intelligence. <br>
 ***AAAI 2023, CCF-A***. 
 
