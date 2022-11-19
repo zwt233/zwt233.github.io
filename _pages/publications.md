@@ -7,12 +7,12 @@ author_profile: true
 {% include base_path %}
 
 Equal contribution<sup>1</sup>, 
-Corresponding author<sup>*</sup>
+Corresponding author<sup>+</sup>
 
 2023
 ====
 1.  *ProxyBO: Accelerating Neural Architecture Search via Bayesian Optimization with Zero-cost Proxies.* [To appear] <br>
-Yu Shen, Yang Li, Jian Zheng, Peng Yao, Jixiang Li, Sen Yang, Ji Liu, **Wentao Zhang<sup>*</sup>**, Bin Cui. <br>
+Yu Shen, Yang Li, Jian Zheng, Peng Yao, Jixiang Li, Sen Yang, Ji Liu, **Wentao Zhang<sup>+</sup>**, Bin Cui. <br>
 Thirty-Seventh AAAI Conference on Artificial Intelligence. <br>
 ***AAAI 2023, CCF-A***. 
 
@@ -55,7 +55,7 @@ International Conference on Learning Representations. <br>
 <!-- **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br> -->
 
 1.  *Graph Neural Networks in Recommender Systems: A Survey* [[Paper](https://arxiv.org/abs/2011.02260)][[Code](https://github.com/wusw14/gnn-in-rs)] <br>
-Shiwen Wu, Fei Sun, **Wentao Zhang<sup>*</sup>**, Xu Xie, Bin Cui. <br>
+Shiwen Wu, Fei Sun, **Wentao Zhang<sup>+</sup>**, Xu Xie, Bin Cui. <br>
 ACM Computing Survey.<br>
 ***CSUR 2022, CCF-A***. 
 
