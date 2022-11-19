@@ -95,6 +95,7 @@ Large-scale Graph Learning including the following perspectives:
 
 **<font color=red>What's New</font>**
 ------
+* **2022-11**: One paper is accepted by ***AAAI 2023***.
 * **2022-11**: One paper is accepted by ***ICDE 2023***.
 * **2022-10**: One paper is accepted by ***VLDBJ 2022***.
 * **2022-09**: One paper is accepted by ***NeurIPS 2022***.
