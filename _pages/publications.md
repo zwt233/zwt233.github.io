@@ -199,7 +199,7 @@ arXiv:2211.00216, 2022. (***arXiv preprint***).
  
 
 1.  *Efficient Graph Neural Network Inference at Large Scale* [[Paper](https://arxiv.org/abs/2211.00495)]<br>
-Yingxia Shao, Hongzheng Li, Xizhi Gu, Hongbo Yin, Yawen Li, Xupeng Miao, Wentao Zhang, Bin Cui, Lei Chen. <br>
+Xinyi Gao, **Wentao Zhang<sup>*</sup>**, Yingxia Shao, Quoc Viet Hung Nguyen, Bin Cui, Hongzhi Yin. <br>
 	arXiv:2211.00495, 2022. (***arXiv preprint***).   
  
 1.  *Diffusion Models: A Comprehensive Survey of Methods* [[Paper](https://arxiv.org/abs/2209.00796)][[Code](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy)] <br>
