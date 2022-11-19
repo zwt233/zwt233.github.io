@@ -13,7 +13,8 @@ Corresponding author<sup>*</sup>
 ====
 1.  *ProxyBO: Accelerating Neural Architecture Search via Bayesian Optimization with Zero-cost Proxies.* [To appear] <br>
 Yu Shen, Yang Li, Jian Zheng, Peng Yao, Jixiang Li, Sen Yang, Ji Liu, **Wentao Zhang**, Bin Cui. <br>
-arXiv:2110.10423, 2021. (***arXiv preprint***). 
+Thirty-Seventh AAAI Conference on Artificial Intelligence. <br>
+***AAAI 2023, CCF-A***. 
 
 1.  *Fairness-aware Maximal Biclique Enumeration on Bipartite Graphs.* [To appear] <br>
 Ziqi Yin, Qi Zhang, **Wentao Zhang**, Ronghua Li, Guoren Wang<br>
