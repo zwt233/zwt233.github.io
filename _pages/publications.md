@@ -6,8 +6,15 @@ author_profile: true
 ---
 {% include base_path %}
 
+Equal contribution<sup>1</sup>, 
+Corresponding author<sup>*</sup>
+
 2023
 ====
+1.  *ProxyBO: Accelerating Neural Architecture Search via Bayesian Optimization with Zero-cost Proxies.* [To appear] <br>
+Yu Shen, Yang Li, Jian Zheng, Peng Yao, Jixiang Li, Sen Yang, Ji Liu, **Wentao Zhang**,Bin Cui. <br>
+arXiv:2110.10423, 2021. (***arXiv preprint***). 
+
 1.  *Fairness-aware Maximal Biclique Enumeration on Bipartite Graphs.* [To appear] <br>
 Ziqi Yin, Qi Zhang, **Wentao Zhang**, Ronghua Li, Guoren Wang<br>
 IEEE International Conference on Data Engineering. <br>
@@ -210,6 +217,4 @@ arXiv:2108.10097, 2021. (***arXiv preprint***).
 **Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang, Yangyu Tao, Zhi Yang, Bin Cui. <br>
 arXiv:2108.00955, 2021. (***arXiv preprint***). 
   
-1.  *ProxyBO: Accelerating Neural Architecture Search via Bayesian Optimization with Zero-cost Proxies* [[Paper](https://arxiv.org/pdf/2110.10423)][[Code](https://zwt233.github.io/publications/)] <br>
-Yu Shen, Yang Li, Jian Zheng, **Wentao Zhang**, Peng Yao, Jixiang Li, Sen Yang, Ji Liu, Bin Cui. <br>
-arXiv:2110.10423, 2021. (***arXiv preprint***). 
+
