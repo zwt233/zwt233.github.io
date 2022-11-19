@@ -55,7 +55,7 @@ International Conference on Learning Representations. <br>
 <!-- **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br> -->
 
 1.  *Graph Neural Networks in Recommender Systems: A Survey* [[Paper](https://arxiv.org/abs/2011.02260)][[Code](https://github.com/wusw14/gnn-in-rs)] <br>
-Shiwen Wu, Fei Sun, **Wentao Zhang<sup>+</sup>**(Corresponding Author), Xu Xie, Bin Cui. <br>
+Shiwen Wu, Fei Sun, **Wentao Zhang<sup>*</sup>**, Xu Xie, Bin Cui. <br>
 ACM Computing Survey.<br>
 ***CSUR 2022, CCF-A***. 
 
@@ -174,7 +174,7 @@ Knowledge Based System.<br>
  2020
 ====
 1.  *Reliable Data Distillation on Graph Convolutional Network* [[Paper](https://dl.acm.org/doi/10.1145/3318464.3389706)][[Code](https://zwt233.github.io/publications/)] <br>
-**Wentao Zhang**, Xupeng Miao, Yingxia Shao, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui <br>
+**Wentao Zhang<sup>1</sup>**, Xupeng Miao<sup>1</sup>, Yingxia Shao, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui <br>
 ACM SIGMOD International Conference on Management of Data. <br>
 ***SIGMOD 2020, CCF-A, <font color=orange>Top #1 conference in Data Bases</font>***. 
 
