@@ -9,7 +9,7 @@ redirect_from:
 ---
 <!-- Wentao Zhang (张文涛) is a fourth year Ph.D. candidate at [PKU](https://www.pku.edu.cn/), now working with [Prof. Bin Cui](https://cuibinpku.github.io/).
 He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof. Lei Chen, [Tencent](https://github.com/Angel-ML/angel) working with the Angel team, and [Apple Research](https://machinelearning.apple.com/) working with Meng Cao, Ping Huang and Danny Bickson. -->
-<!-- Since Sept. 2020, Wentao Zhang (张文涛) is pursuing his Ph.D. degree in Computer Science at [Peking University](https://www.pku.edu.cn/), under the supervision of [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/). He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof. Lei Chen, [Tencent](https://github.com/Angel-ML/angel) working with the Angel team, and [Apple Research](https://machinelearning.apple.com/) working with Meng Cao, Ping Huang and Danny Bickson. -->
+<!-- Since Sept. 2020, Wentao Zhang (张文涛) is pursuing his Ph.D. degree in Computer Science at [Peking University](https://www.pku.edu.cn/), under the supervision of [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/). He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof. Lei Chen, [Tencent](https://github.com/Angel-ML/angel) working with the Angel team, and [Apple AIML](https://machinelearning.apple.com/) working with Meng Cao, Ping Huang and Danny Bickson. -->
 
 <!-- His other collaborators included  Prof. \link{https://ds3lab.inf.ethz.ch/members/ce-zhang.html}{Ce Zhang}~(in ETH), Prof. \link{http://net.pku.edu.cn/~yangzhi/}{Zhi Yang}~(in PKU), Prof. \link{http://net.pku.edu.cn/~yangzhi/}{Yingxia Shao}~(in BUPT), etc. -->
 <!-- Since Sept. 2020,  -->
@@ -148,7 +148,7 @@ Selected Awards
 ------
 24. [Rising Star](https://mp.weixin.qq.com/s/Lecza9L8zgZYDPdKpkP2XA) (云帆奖-明日之星), World AI Conference, 2022.
 23. 🏆 [Best Student Paper Award](https://www2022.thewebconf.org/awards/) of ***WWW 2022*** (1/1822, the second WWW Best Student Paper from China), 2022
-22. [IVADO Postdoctoral Fellowship](https://ivado.ca/en/scholarships-and-grants/postdoctoral-research-funding/), Canada
+22. [IVADO Postdoctoral Fellowship](https://ivado.ca/en/research-community/), Canada
 21. [Outstanding Doctoral Dissertation Award](https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm), Peking University (Sole winner in Computer Software and Theory), 2022
 19. [Outstanding Graduate of Beijing](https://xgb.pku.edu.cn/docs/2022-06/20220606163325764115.pdf), China, 2022
 17. Candidate of [May 4th Medal](https://mp.weixin.qq.com/s/AbqR2yFyduYn2PcZYbhXww) **(Each School recommends 1 candidate, highest honor in PKU)**, 2022
