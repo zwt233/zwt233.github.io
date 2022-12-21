@@ -189,6 +189,7 @@ I am happy to give a talk if you are interested in my work. 😊
   Stanford, Virtual, 2021.11  <br>
   Mila, Virtual, 2021.9  <br>
 1. Towards Automated Graph Learning. 《自动化图机器学习》 [[Doc](https://github.com/zwt233/Talks/blob/main/Sharing/AutoML-for-Graph-zwt.pdf)] <br>
+  HKUST, Virtual, 2022.11[[News](https://mp.weixin.qq.com/s/ro2BUTP0SNPwTOz1pbcdyw)]
   NUDT, Virtual, 2022. 07  <br>
   HUST, 2022. 08 <br>
   Zhejiang University, 2022. 08 <br>
