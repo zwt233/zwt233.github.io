@@ -40,9 +40,9 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 
 **<font color=red>I’m on job market now!</font>**
 
-I am looking for the following positions:
+<!-- I am looking for the following positions:
 - Faculty (Assistant Professor) in Academic
-- Research Scientist in Industry
+- Research Scientist in Industry -->
 
 **<font color=red>If you are interested in me, contact me via Email or Wechat.</font>**
 
@@ -185,6 +185,7 @@ I am happy to give a talk if you are interested in my work. 😊
   ICML'22, Virtual, 2022. 07 <br>
   Jiqizhixin, Virtual, 2022. 07  <br>
 1. Towards Large Scale Graph Learning: Data, Model and System.《大规模图学习：数据、模型与系统》<br>
+  SUSTech, 2023.01  <br>
   HKUST (Guang Zhou), Virtual, 2022.04 [[News](https://mp.weixin.qq.com/s/BNUT9Q4UPMi9cGREOARS9w)] <br>
   Stanford, Virtual, 2021.11  <br>
   Mila, Virtual, 2021.9  <br>
