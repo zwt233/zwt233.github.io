@@ -59,7 +59,7 @@ Large-scale Graph Learning including the following perspectives:
     - Reception-aware online distillation [[ROD, ***KDD 21***](https://arxiv.org/pdf/2107.11789)]
     
 - **Model**: how to build scalable and deep graph models for large-scale graph data? <br>
--- Scalable Graph Learning
+-- Scalable and Deep Graph Learning
     - Node dependent local smoothing [[NDLS, ***NeurIPS 21***](https://arxiv.org/pdf/2110.14377), <font color=orange>Spotlight</font>]
     - Model-free graph representation learning [[NAFS, ***ICML 22***](https://arxiv.org/abs/2206.08583)]
     - Graph decomposition [[DeGNN, ***KDD 21***](https://arxiv.org/pdf/1910.04499)]
@@ -68,7 +68,7 @@ Large-scale Graph Learning including the following perspectives:
     - Deep GNN evaluation [[GNN EA, ***KDD 22***](https://arxiv.org/pdf/2108.00955)]
 
 - **System**:  how to make large-scale graph learning faster and easier? <br>
--- Automated Graph Learning
+-- Automated and Distributed Graph Learning
     - Scalable graph NAS [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638),  <font color=orange>Best Student Paper Award</font>]
     - Deep and flexible graph NAS [[DF-GNAS, ***ICML 22***](https://arxiv.org/abs/2206.08582)]
     - Fast ensemble learning [[EDDE, ***ICDE 20***](https://ieeexplore.ieee.org/abstract/document/9101773)]
