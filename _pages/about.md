@@ -49,7 +49,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 Research Interests
 ---
 Large-scale Graph Learning including the following perspectives:
-- **Data**: how to utilize massive unlabeled nodes in large-scale graph data? <br>
+- **Data**: how to improve the quality and quantity of large-scale graph data? <br>
 -- Data-centric Graph Learning
     - Efficient annotation [[ALG, ***SIGMOD 21***](https://dl.acm.org/doi/pdf/10.1145/3448016.3457325)]
     - Model-free annotation [[Grain, ***VLDB 21***](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
