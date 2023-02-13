@@ -56,7 +56,7 @@ Research Interests
 
 + **Application**: AI4Science (e.g., drug and protein), AI4Industry (e.g.,recommender system and anomaly detection).
 
-A Summary of My Research on Large-scale Graph Learning:
+A Summary of My Research on **Large-scale Graph Learning**:
 - **Data**: how to improve the quality and quantity of large-scale graph data? <br>
 -- Data-centric Graph Learning 
     - Model-free annotation [[Grain, ***VLDB 21***](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
