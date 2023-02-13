@@ -54,7 +54,7 @@ Research Interests
 
 + **System**: large-scale distributed training, AutoML, and data-centric AI platform.
 
-+ **Application**: AI4Science (e.g., drug and protein), AI4Industry (e.g.,recommender system and anomaly detection).
++ **Application**: AI4Science (e.g., drug and protein), and AI4Industry (e.g.,recommender system and anomaly detection).
 
 A Summary of My Research on **Large-scale Graph Learning**:
 - **Data**: how to improve the quality and quantity of large-scale graph data? <br>
