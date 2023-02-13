@@ -58,8 +58,7 @@ Research Interests
 
 A Summary of My Research on Large-scale Graph Learning:
 - **Data**: how to improve the quality and quantity of large-scale graph data? <br>
--- Data-centric Graph Learning (annotation, generation, augmentation, imbalance,noise, out-of-distribution, heterogeneity, and privacy)
-    - Efficient annotation [[ALG, ***SIGMOD 21***](https://dl.acm.org/doi/pdf/10.1145/3448016.3457325)]
+-- Data-centric Graph Learning 
     - Model-free annotation [[Grain, ***VLDB 21***](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
     - Annotation with noisy oracle [[RIM, ***NeurIPS 21***](https://openreview.net/forum?id=CEkbBN_-Ja8), <font color=orange>Spotlight</font>]
     - Annotation with relaxed queries [[IGP, ***ICLR 22***](https://openreview.net/pdf?id=USC0-nvGPK)]
@@ -67,7 +66,7 @@ A Summary of My Research on Large-scale Graph Learning:
     - Reception-aware online distillation [[ROD, ***KDD 21***](https://arxiv.org/pdf/2107.11789)]
     
 - **Model**: how to build scalable and deep graph models for large-scale graph data? <br>
--- Scalable and Deep Graph Learning (scalable, fast, memory-efficient, and powerful)
+-- Scalable and Deep Graph Learning 
     - Node dependent local smoothing [[NDLS, ***NeurIPS 21***](https://arxiv.org/pdf/2110.14377), <font color=orange>Spotlight</font>]
     - Model-free graph representation learning [[NAFS, ***ICML 22***](https://arxiv.org/abs/2206.08583)]
     - Graph decomposition [[DeGNN, ***KDD 21***](https://arxiv.org/pdf/1910.04499)]
@@ -76,7 +75,7 @@ A Summary of My Research on Large-scale Graph Learning:
     - Deep GNN evaluation [[GNN EA, ***KDD 22***](https://arxiv.org/pdf/2108.00955)]
 
 - **System**:  how to make large-scale graph learning faster and easier? <br>
--- Automated and Distributed Graph Learning (large-scale distributed training, AutoML, and data-centric AI platform)
+-- Automated and Distributed Graph Learning
     - Scalable graph NAS [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638),  <font color=orange>Best Student Paper Award</font>]
     - Deep and flexible graph NAS [[DF-GNAS, ***ICML 22***](https://arxiv.org/abs/2206.08582)]
     - Fast ensemble learning [[EDDE, ***ICDE 20***](https://ieeexplore.ieee.org/abstract/document/9101773)]
