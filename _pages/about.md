@@ -38,7 +38,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 
 **Office**: 6666 St-Urbain Street, #200. Montreal, QC.
 
-**<font color=red, size="5">I’m on job market now!</font>**
+**<font color=red>I’m on job market now!</font>**
 
 <!-- I am looking for the following positions:
 - Faculty (Assistant Professor) in Academic
