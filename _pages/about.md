@@ -48,7 +48,15 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 
 Research Interests
 ---
-Large-scale Graph Learning including the following perspectives:
++ **Data**: annotation, augmentation, imbalance, noise, generation, out-of-distribution, heterogeneity, and privacy.
+
++ **Model**: scalable, fast, memory-efficient, and powerful graph learning.
+
++ **System**: large-scale distributed training, AutoML, and data-centric AI platform.
+
++ **Application**: AI4Science (e.g., drug and protein), AI4Industry (e.g.,recommender system and anomaly detection).
+
+A Summary of My Research on Large-scale Graph Learning:
 - **Data**: how to improve the quality and quantity of large-scale graph data? <br>
 -- Data-centric Graph Learning (annotation, generation, augmentation, imbalance,noise, out-of-distribution, heterogeneity, and privacy)
     - Efficient annotation [[ALG, ***SIGMOD 21***](https://dl.acm.org/doi/pdf/10.1145/3448016.3457325)]
