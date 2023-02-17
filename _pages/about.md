@@ -87,8 +87,8 @@ A Summary of My Research on **Large-scale Graph Learning**:
 
 
 - **Application**:  how to use graph learning in large-scale industrial graphs?
-    - GNN-based recommendation [[Survey of GNN-based RS, ***CSUR 22***](https://arxiv.org/pdf/2011.02260)]
-    - Graph-based recommendation system deployed at Taobao [[Zoomer, ***ICDE 22***](https://arxiv.org/abs/2203.12596)]
+    - GNN-based recommendation [[The First Survey of GNN-based RS, ***CSUR 22***](https://arxiv.org/pdf/2011.02260)]
+    - GNN-based recommendation system deployed at Taobao [[Zoomer, ***ICDE 22***](https://arxiv.org/abs/2203.12596)]
 
 
 <!-- + **Data**: Annotation, Generation, Selection, Cleaning, Augmentation, Imbalance, and Privacy. -->
