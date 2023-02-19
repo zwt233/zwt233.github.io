@@ -34,7 +34,7 @@ Research Interests
 Some representative works:
 - **Data**: how to improve the quality and quantity of data? (on graph) <br>
    - Data annotation 
-	    - Better efficiency [[Grain, ***VLDB 21***](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
+	    - Better efficiency [[ALG, ***VLDB 21***](https://dl.acm.org/doi/10.1145/3448016.3457325)]
 		- Model free [[Grain, ***VLDB 21***](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
 	    - Noise handling[[RIM, ***NeurIPS 21***](https://openreview.net/forum?id=CEkbBN_-Ja8), <font color=orange>Spotlight</font>]
 	    - Simplifying the labeling task [[IGP, ***ICLR 22***](https://openreview.net/pdf?id=USC0-nvGPK)]
