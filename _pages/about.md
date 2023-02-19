@@ -34,7 +34,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 
 Research Interests
 ---
-+ **Data**: annotation, augmentation, imbalance, noise, generation, out-of-distribution, heterogeneity, and privacy.
++ **Data**: annotation, augmentation, imbalance, noise, distillation, out-of-distribution, heterogeneity, and privacy.
 
 + **System**: large-scale distributed training, AutoML, and data-centric AI platform.
 
