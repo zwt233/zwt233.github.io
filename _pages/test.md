@@ -32,7 +32,7 @@ Research Interests
 + **Application**: AI4Science (e.g., drug and protein), and AI4Industry (e.g.,recommender system and anomaly detection).
 
 Some representative works:
-- **Data**: how to improve the quality and quantity of data? <br>
+- **Data**: how to improve the quality and quantity of data? (on graph) <br>
    - Data annotation 
 	    - Better efficiency [[Grain, ***VLDB 21***](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
 		- Model free [[Grain, ***VLDB 21***](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
