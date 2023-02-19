@@ -1,8 +1,22 @@
+<!-- Wentao Zhang (张文涛) is a fourth year Ph.D. candidate at [PKU](https://www.pku.edu.cn/), now working with [Prof. Bin Cui](https://cuibinpku.github.io/).
+He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof. Lei Chen, [Tencent](https://github.com/Angel-ML/angel) working with the Angel team, and [Apple Research](https://machinelearning.apple.com/) working with Meng Cao, Ping Huang and Danny Bickson. -->
+<!-- Since Sept. 2020, Wentao Zhang (张文涛) is pursuing his Ph.D. degree in Computer Science at [Peking University](https://www.pku.edu.cn/), under the supervision of [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/). He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof. Lei Chen, [Tencent](https://github.com/Angel-ML/angel) working with the Angel team, and [Apple AIML](https://machinelearning.apple.com/) working with Meng Cao, Ping Huang and Danny Bickson. -->
+
+<!-- His other collaborators included  Prof. \link{https://ds3lab.inf.ethz.ch/members/ce-zhang.html}{Ce Zhang}~(in ETH), Prof. \link{http://net.pku.edu.cn/~yangzhi/}{Zhi Yang}~(in PKU), Prof. \link{http://net.pku.edu.cn/~yangzhi/}{Yingxia Shao}~(in BUPT), etc. -->
+<!-- Since Sept. 2020,  -->
+
+<!-- Wentao Zhang (张文涛) is pursuing his Ph.D. degree in Computer Software and Theory at [Peking University](https://www.pku.edu.cn/). He is a member of Data and Intelligence Research (DAIR) Lab, which is directed by Prof. [Bin Cui](http://net.pku.edu.cn/~cuibin/). 
+Previously, he interned for more than 3 years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/).
+He is currently leading the Graph Learning team and several system projects in DAIR lab. His research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021).  -->
+
+<!-- 
+Wentao Zhang (张文涛) is a final-year Ph.D. candidate in Department of Computer Science, Peking University. He is a member of the Data and Intelligence Research (DAIR) Lab, directed by [Prof. Bin Cui](https://cuibinpku.github.io/). He interned for more than three years in industrial companies, such as [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/). Motivated by the industrial demand, his research focuses on large-scale graph learning from three perspectives -- data, model, and system. Wentao has published 30+ papers, including 10+ first author papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW) and ML (ICML, NeurIPS, ICLR) venues. Besides, he is the contributor or designer of several system projects, including [Angel](https://github.com/Angel-ML/angel), [SGL](https://github.com/PKU-DAIR/SGL), [MindWare](https://github.com/PKU-DAIR/mindware), and [OpenBox](https://github.com/PKU-DAIR/open-box). He is currently leading the Graph Learning team in the [DAIR lab](https://github.com/PKU-DAIR), and his research is supported by [Apple Scholar](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). -->
+
 Wentao Zhang is currently a postdoc research fellow working with Prof. [Jian Tang](https://jian-tang.com/) at [Montreal Institute for Learning Algorithms (Mila)](https://mila.quebec/en/). Prior to that,  he received his Ph.D. degree in computer science from [Peking University](https://www.pku.edu.cn/) in June 2022, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/). 
 And he worked with Prof. [Lei Chen](http://home.cse.ust.hk/~leichen/) as a visiting scholar at [HKUST](https://hkust.edu.hk/) in 2019.
 Besides, Wentao has accumulated for 4 years industrial experience in [Tencent](https://www.tencent.com/) and [Apple Research](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). 
 
-Motivated by the industrial demand, Wentao's research focuses on data-centric machine learning, and machine learning systems, especially on graph data. He has published 30+ papers, including 10+ first author papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW) and ML (ICML, NeurIPS, ICLR) conferences. Besides, he is the contributor or designer of several system projects, including [Angel](https://github.com/Angel-ML/angel) ![GitHub Repo stars](https://img.shields.io/github/stars/Angel-ML/Angel?style=social), [SGL](https://github.com/PKU-DAIR/SGL) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/SGL?style=social), [MindWare](https://github.com/PKU-DAIR/mindware) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/mindware?style=social), and [OpenBox](https://github.com/PKU-DAIR/open-box) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/open-box?style=social). His research works have been powering several billion-scale applications in Tencent, and some of them have been recognized by multiple prestigious awards, including the [Outstanding Doctoral Dissertation Award](https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm), and the [Best Student Paper Award](https://www2022.thewebconf.org/awards/) at WWW'22.
+Motivated by the industrial demand, Wentao's research focuses on large-scale graph learning from three perspectives – data, model, and system. He has published 30+ papers, including 10+ first author papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW) and ML (ICML, NeurIPS, ICLR) conferences. Besides, he is the contributor or designer of several system projects, including [Angel](https://github.com/Angel-ML/angel) ![GitHub Repo stars](https://img.shields.io/github/stars/Angel-ML/Angel?style=social), [SGL](https://github.com/PKU-DAIR/SGL) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/SGL?style=social), [MindWare](https://github.com/PKU-DAIR/mindware) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/mindware?style=social), and [OpenBox](https://github.com/PKU-DAIR/open-box) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/open-box?style=social). His research works have been powering several billion-scale applications in Tencent, and some of them have been recognized by multiple prestigious awards, including the [Outstanding Doctoral Dissertation Award](https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm), and the [Best Student Paper Award](https://www2022.thewebconf.org/awards/) at WWW'22.
 
 Feel free to catch me if interested to discuss ideas or work together. 😜
 
@@ -27,46 +41,45 @@ Research Interests
 ---
 + **Data**: annotation, augmentation, imbalance, noise, generation, out-of-distribution, heterogeneity, and privacy.
 
++ **Model**: scalable, fast, memory-efficient, and powerful graph learning.
+
 + **System**: large-scale distributed training, AutoML, and data-centric AI platform.
 
 + **Application**: AI4Science (e.g., drug and protein), and AI4Industry (e.g.,recommender system and anomaly detection).
 
-Some representative works:
-- **Data**: how to improve the quality and quantity of data? (on graph) <br>
-   - Data annotation 
-	    - Better efficiency [[ALG, ***VLDB 21***](https://dl.acm.org/doi/10.1145/3448016.3457325)]
-		- Model free [[Grain, ***VLDB 21***](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
-	    - Noise handling[[RIM, ***NeurIPS 21***](https://openreview.net/forum?id=CEkbBN_-Ja8), <font color=orange>Spotlight</font>]
-	    - Simplifying the labeling task [[IGP, ***ICLR 22***](https://openreview.net/pdf?id=USC0-nvGPK)]
-   
-	- Feature engineering (Complex model --> better features + simple model)
-	    - Feature smoothing + simple model + label smoothing [[NDLS, ***NeurIPS 21***](https://arxiv.org/pdf/2110.14377), <font color=orange>Spotlight</font>]
-	    - Unsupervised and non-parametric feature smoothing [[NAFS, ***ICML 22***](https://arxiv.org/abs/2206.08583)]
-	    - Graph-based MLP deployed at Tencent [[GAMLP, ***KDD 22***](https://arxiv.org/pdf/2108.10097)]
-	    - Inference at large scale [NAI, ***Arxiv 22***](https://arxiv.org/abs/2211.00495)]
-	    - Experimental evaluation [[AIR, ***KDD 22***](https://arxiv.org/pdf/2108.00955)]
-	- Data distillation 
-	    - Offline distillation [[RDD, ***SIGMOD 20***](https://dl.acm.org/doi/10.1145/3318464.3389706)]
-	    - Online distillation [[ROD, ***KDD 21***](https://arxiv.org/pdf/2107.11789)]
+A Summary of My Research on **Large-scale Graph Learning**:
+- **Data**: how to improve the quality and quantity of large-scale graph data? <br>
+-- Data-centric Graph Learning 
+    - Model-free annotation [[Grain, ***VLDB 21***](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
+    - Annotation with noisy oracle [[RIM, ***NeurIPS 21***](https://openreview.net/forum?id=CEkbBN_-Ja8), <font color=orange>Spotlight</font>]
+    - Annotation with relaxed queries [[IGP, ***ICLR 22***](https://openreview.net/pdf?id=USC0-nvGPK)]
+    - Reliable data distillation [[RDD, ***SIGMOD 20***](https://dl.acm.org/doi/10.1145/3318464.3389706)]
+    - Reception-aware online distillation [[ROD, ***KDD 21***](https://arxiv.org/pdf/2107.11789)]
     
+- **Model**: how to build scalable and deep graph models for large-scale graph data? <br>
+-- Scalable and Deep Graph Learning 
+    - Node dependent local smoothing [[NDLS, ***NeurIPS 21***](https://arxiv.org/pdf/2110.14377), <font color=orange>Spotlight</font>]
+    - Model-free graph representation learning [[NAFS, ***ICML 22***](https://arxiv.org/abs/2206.08583)]
+    - Graph decomposition [[DeGNN, ***KDD 21***](https://arxiv.org/pdf/1910.04499)]
+    - Node-aware layer aggregators [[Lasagne, ***TKDE 21***](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9513581)]
+    - Graph-based MLP deployed at Tencent [[GAMLP, ***KDD 22***](https://arxiv.org/pdf/2108.10097)]
+    - Deep GNN evaluation [[GNN EA, ***KDD 22***](https://arxiv.org/pdf/2108.00955)]
 
-- **System**:  how to make machine learning faster and easier? <br>
-   -  Distributed ML & AutoML
-	    - Large-scale and distributed NAS on graph [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638),  <font color=orange>Best Student Paper Award</font>]
-	    - Deep and flexible NAS on graph [[DF-GNAS, ***ICML 22***](https://arxiv.org/abs/2206.08582)]
-	    - Scalable graph learning [[SGL](https://github.com/PKU-DAIR/SGL)]![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/SGL?style=social)
-	    - Distributed graph learning [[Angel Graph](https://github.com/Angel-ML/angel/blob/master/docs/overview/angel_graph_sona.md)]![GitHub Repo stars](https://img.shields.io/github/stars/Angel-ML/Angel?style=social)
-	    - End-to-End AutoML [[MindWare, ***VLDB 21***](https://arxiv.org/pdf/2107.08861)]![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/mindware?style=social)
-	    - Black box optimization [[OpenBox, ***KDD 21***](https://arxiv.org/pdf/2106.00421)]![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/open-box?style=social)
-	    - Large-scale hyper-parameter tuning [[Hyper-Tune, ***VLDB 22***](https://arxiv.org/pdf/2201.06834)]
+- **System**:  how to make large-scale graph learning faster and easier? <br>
+-- Automated and Distributed Graph Learning
+    - Scalable graph NAS [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638),  <font color=orange>Best Student Paper Award</font>]
+    - Deep and flexible graph NAS [[DF-GNAS, ***ICML 22***](https://arxiv.org/abs/2206.08582)]
+    - Fast ensemble learning [[EDDE, ***ICDE 20***](https://ieeexplore.ieee.org/abstract/document/9101773)]
+    - Scalable graph learning [[SGL](https://github.com/PKU-DAIR/SGL)]
+    - Distributed graph learning [[Angel Graph](https://github.com/Angel-ML/angel/blob/master/docs/overview/angel_graph_sona.md)]
+    - End-to-End AutoML [[MindWare, ***VLDB 21***](https://arxiv.org/pdf/2107.08861)]
+    - Black box optimization [[OpenBox, ***KDD 21***](https://arxiv.org/pdf/2106.00421)]
+    - Large-scale hyper-parameter tuning [[Hyper-Tune, ***VLDB 22***](https://arxiv.org/pdf/2201.06834)]
 
 
-- **Application**:  how to use machine learning in real applications?
-   - AI4Industry 
-	    - GNN-based recommendation [[The First Survey of GNN-based RS, ***CSUR 22***](https://arxiv.org/pdf/2011.02260)]
-	    - GNN-based recommendation system deployed at Taobao [[Zoomer, ***ICDE 22***](https://arxiv.org/abs/2203.12596)]
-	- AI4Science
-	    - AutoML for biology [[AutoDC, ***Bioinformatics 22***](https://academic.oup.com/bioinformatics/article/38/13/3415/6588096)]
+- **Application**:  how to use graph learning in large-scale industrial graphs?
+    - GNN-based recommendation [[The First Survey of GNN-based RS, ***CSUR 22***](https://arxiv.org/pdf/2011.02260)]
+    - GNN-based recommendation system deployed at Taobao [[Zoomer, ***ICDE 22***](https://arxiv.org/abs/2203.12596)]
 
 
 <!-- + **Data**: Annotation, Generation, Selection, Cleaning, Augmentation, Imbalance, and Privacy. -->
@@ -136,7 +149,7 @@ Selected Awards
 22. [IVADO Postdoctoral Fellowship](https://ivado.ca/en/research-community/), Canada
 21. [Outstanding Doctoral Dissertation Award](https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm), Peking University  **(Sole winner in Computer Software and Theory)**, 2022
 19. [Outstanding Graduate of Beijing](https://xgb.pku.edu.cn/docs/2022-06/20220606163325764115.pdf), China, 2022
-17. Candidate of [May 4th Medal](https://mp.weixin.qq.com/s/AbqR2yFyduYn2PcZYbhXww) **(Each School recommends 1 candidate, highest honor in PKU)**, 2022
+17. Candidate of [May 4th Medal](https://mp.weixin.qq.com/s/AbqR2yFyduYn2PcZYbhXww) **(Each School recommends 1 candidate, highest honor in PKU)**, 2022
 16. [The Big Data Expo Leading Technology Achievement Award](https://mp.weixin.qq.com/s/TlNywcR4pCl1c84KLTpeNA), China International Big Data Industry Expo (Angel Graph project), 2022
 15. Candidate of [People of the Year](https://mp.weixin.qq.com/s/zEcwHYsjqLhTsCDTnS-fsA) **(1 people in EECS, and 42 people in PKU)**, 2021
 14. [Merit Student of Beijing](https://xgb.pku.edu.cn/sylm/133002.htm) **(2 people in EECS, and 58 people in PKU)**, 2021
@@ -213,5 +226,5 @@ I am happy to give a talk if you are interested in my work. 😊
 1. A survey of GNN system.《GNN系统调研》<br>
   Tencent, Virtual, 2021.12  [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/datafun-GAMLP.pdf)]<br>
 
-1. Graph Attention Multi-Layer Perceptron.《图注意力多层感知器》<br>
+1. Graph Attention Multi-Layer Perceptron.《图注意力多层感知器》<br> 
   DataFun, Virtual, 2021.10 [[News](https://mp.weixin.qq.com/s/G--7PlJ9rsTl3bnSSGmbCQ)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/datafun-GAMLP.pdf)]<br>
