@@ -34,7 +34,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 
 Research Interests
 ---
-+ **Data-centric ML (especially on graph)**: annotation, augmentation, imbalance, noise, distillation, out-of-distribution, heterogeneity, and privacy.
++ **Data-centric ML**: annotation, augmentation, imbalance, noise, distillation, out-of-distribution, heterogeneity, and privacy.
 
 + **Graph ML**: graph neural network, graph representation learning.
 
@@ -43,7 +43,7 @@ Research Interests
 + **Interdisciplinary Application**: AI4Science (e.g., drug and protein), and AI4Industry (e.g.,recommender system and anomaly detection).
 
 A summary of my recent works:
-- **Data**: how to improve the quality and quantity of data? (especially on graph) <br>
+- **Data-centric ML on graph**: how to prepare high quality and quantity data for graph ML? <br>
    - Data annotation 
 	    - Better efficiency [[ALG, ***SIGMOD 21***](https://dl.acm.org/doi/10.1145/3448016.3457325)]
 		- Model free [[Grain, ***VLDB 21***](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
@@ -61,7 +61,7 @@ A summary of my recent works:
 	    - Online distillation [[ROD, ***KDD 21***](https://arxiv.org/pdf/2107.11789)]
     
 
-- **System**:  how to make machine learning faster and easier? <br>
+- **ML Systems**:  how to make machine learning faster and easier? <br>
    -  Distributed ML & AutoML
 	    - Distributed NAS on graph [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638),  <font color=orange>Best Student Paper Award</font>]
 	    - Deep and flexible NAS on graph [[DF-GNAS, ***ICML 22***](https://arxiv.org/abs/2206.08582)]
