@@ -34,14 +34,14 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 
 Research Interests
 ---
-+ **Data-centric ML**: annotation, augmentation, imbalance, noise, distillation, out-of-distribution, heterogeneity, and privacy.
++ **Data-centric ML (especially on graph)**: annotation, augmentation, imbalance, noise, distillation, out-of-distribution, heterogeneity, and privacy.
 
 + **ML Systems**: large-scale distributed training, AutoML, and data-centric ML platform.
 
 + **Interdisciplinary Application**: AI4Science (e.g., drug and protein), and AI4Industry (e.g.,recommender system and anomaly detection).
 
 A summary of my recent works:
-- **Data**: how to improve the quality and quantity of data? (on graph) <br>
+- **Data**: how to improve the quality and quantity of data? (especially on graph) <br>
    - Data annotation 
 	    - Better efficiency [[ALG, ***SIGMOD 21***](https://dl.acm.org/doi/10.1145/3448016.3457325)]
 		- Model free [[Grain, ***VLDB 21***](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
