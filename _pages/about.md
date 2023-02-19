@@ -40,7 +40,7 @@ Research Interests
 
 + **Application**: AI4Science (e.g., drug and protein), and AI4Industry (e.g.,recommender system and anomaly detection).
 
-Some representative works:
+A summary of my recent works:
 - **Data**: how to improve the quality and quantity of data? (on graph) <br>
    - Data annotation 
 	    - Better efficiency [[ALG, ***SIGMOD 21***](https://dl.acm.org/doi/10.1145/3448016.3457325)]
@@ -49,7 +49,7 @@ Some representative works:
 	    - Simplifying the labeling task [[IGP, ***ICLR 22***](https://openreview.net/pdf?id=USC0-nvGPK)]
    
 	- Feature engineering (Complex model --> better features + simple model)
-	    - Feature smoothing + simple model + label smoothing [[NDLS, ***NeurIPS 21***](https://arxiv.org/pdf/2110.14377), <font color=orange>Spotlight</font>]
+	    - Feature/label smoothing + simple model [[NDLS, ***NeurIPS 21***](https://arxiv.org/pdf/2110.14377), <font color=orange>Spotlight</font>]
 	    - Unsupervised and non-parametric feature smoothing [[NAFS, ***ICML 22***](https://arxiv.org/abs/2206.08583)]
 	    - Graph-based MLP deployed at Tencent [[GAMLP, ***KDD 22***](https://arxiv.org/pdf/2108.10097)]
 	    - Inference at large scale [NAI, ***Arxiv 22***](https://arxiv.org/abs/2211.00495)]
@@ -61,7 +61,7 @@ Some representative works:
 
 - **System**:  how to make machine learning faster and easier? <br>
    -  Distributed ML & AutoML
-	    - Large-scale and distributed NAS on graph [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638),  <font color=orange>Best Student Paper Award</font>]
+	    - Distributed NAS on graph [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638),  <font color=orange>Best Student Paper Award</font>]
 	    - Deep and flexible NAS on graph [[DF-GNAS, ***ICML 22***](https://arxiv.org/abs/2206.08582)]
 	    - Scalable graph learning [[SGL](https://github.com/PKU-DAIR/SGL)]![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/SGL?style=social)
 	    - Distributed graph learning [[Angel Graph](https://github.com/Angel-ML/angel/blob/master/docs/overview/angel_graph_sona.md)]![GitHub Repo stars](https://img.shields.io/github/stars/Angel-ML/Angel?style=social)
