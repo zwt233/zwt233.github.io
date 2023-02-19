@@ -36,7 +36,7 @@ Research Interests
 ---
 + **Data-centric ML (especially on graph)**: annotation, augmentation, imbalance, noise, distillation, out-of-distribution, heterogeneity, and privacy.
 
-+ **Graph ML**: Graph Neural Network, Graph Representation Learning.
++ **Graph ML**: graph neural network, graph representation learning.
 
 + **ML Systems**: large-scale distributed training, AutoML, and data-centric ML platform.
 
