@@ -60,7 +60,7 @@ ACM Computing Survey.<br>
 ***CSUR 2022, CCF-A***. 
 
 1.  P2CG: A Privacy Preserving Collaborative Graph Neural Network Training Framework.* [To appear] <br>
-Xupeng Miao<sup>\*</sup>, **Wentao Zhang**<sup>\*</sup>, Yuezihan Jiang,  Fangcheng Fu, Yingxia Shao, Lei Chen, Yangyu Tao, Gang Cao, Bin Cui.<br>
+Xupeng Miao<sup>\*</sup>, **Wentao Zhang<sup>\*</sup>,** Yuezihan Jiang,  Fangcheng Fu, Yingxia Shao, Lei Chen, Yangyu Tao, Gang Cao, Bin Cui.<br>
 The International Journal on Very Large Data Bases. <br>
 ***VLDBJ 2022, CCF-A***. 
 
@@ -89,7 +89,7 @@ IEEE International Conference on Data Engineering. <br>
 ***ICDE 2022 (Industry Track), CCF-A***. 
 
 1.  *Lasagne: A Multi-Layer Graph Convolutional Network Framework via Node-aware Deep Architecture* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9513581)][[Code](https://github.com/PKU-DAIR/Lasagne)] <br>
-Xupeng Miao<sup>*</sup>, **Wentao Zhang<sup>*</sup>**, Yingxia Shao, Lei Chen, Ce Zhang, Jiawei Jiang, Bin Cui.<br>
+Xupeng Miao<sup>\*</sup>, **Wentao Zhang<sup>\*</sup>**, Yingxia Shao, Lei Chen, Ce Zhang, Jiawei Jiang, Bin Cui.<br>
 IEEE International Conference on Data Engineering. <br>
 ***ICDE (Extended Abstract) 2022, CCF-A***. 
 
@@ -127,13 +127,13 @@ International Conference on Very Large Data Bases. <br>
 ***VLDB 2021, CCF-A***. 
 
 1.  *Lasagne: A Multi-Layer Graph Convolutional Network Framework via Node-aware Deep Architecture* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9513581)][[Code](https://github.com/PKU-DAIR/Lasagne)] <br>
-Xupeng Miao<sup>*</sup>, **Wentao Zhang**<sup>*</sup>, Yingxia Shao, Lei Chen, Ce Zhang, Jiawei Jiang, Bin Cui.<br>
+Xupeng Miao<sup>\*</sup>, **Wentao Zhang<sup>\*</sup>**, Yingxia Shao, Lei Chen, Ce Zhang, Jiawei Jiang, Bin Cui.<br>
 IEEE Transactions on Knowledge and Data Engineering. <br>
 ***TKDE 2021, CCF-A***. 
-<!-- Xupeng Miao<sup>*</sup>, **Wentao Zhang**<sup>*</sup>, Yingxia Shao, Bin Cui, Lei Chen, Ce Zhang, Jiawei Jiang<br> -->
+<!-- Xupeng Miao<sup>\*</sup>, **Wentao Zhang<sup>\*</sup>**, Yingxia Shao, Bin Cui, Lei Chen, Ce Zhang, Jiawei Jiang<br> -->
 
 1.  *DeGNN: Characterizing and Improving Graph Neural Networks with Graph Decomposition* [[Paper](https://arxiv.org/pdf/1910.04499)][[Code](https://zwt233.github.io/publications/)] <br>
-Xupeng Miao<sup>*</sup>, Nezihe Merve Gürel<sup>*</sup>, **Wentao Zhang**<sup>*</sup>, ..., Shuai Zhang, Yujing Wang, Bin Cui, Ce Zhang. <br>
+Xupeng Miao<sup>\*</sup>, Nezihe Merve Gürel<sup>\*</sup>, **Wentao Zhang<sup>\*</sup>**, ..., Shuai Zhang, Yujing Wang, Bin Cui, Ce Zhang. <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2021, CCF-A, <font color=orange>Top #1 conference in Data Mining</font>***. 
 
@@ -174,7 +174,7 @@ Knowledge Based System.<br>
  2020
 ====
 1.  *Reliable Data Distillation on Graph Convolutional Network* [[Paper](https://dl.acm.org/doi/10.1145/3318464.3389706)][[Code](https://zwt233.github.io/publications/)] <br>
-**Wentao Zhang**<sup>*</sup>, Xupeng Miao<sup>*</sup>, Yingxia Shao, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui <br>
+**Wentao Zhang**<sup>\*</sup>, Xupeng Miao<sup>\*</sup>, Yingxia Shao, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui <br>
 ACM SIGMOD International Conference on Management of Data. <br>
 ***SIGMOD 2020, CCF-A, <font color=orange>Top #1 conference in Data Bases</font>***. 
 
