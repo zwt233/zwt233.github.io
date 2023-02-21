@@ -59,7 +59,7 @@ Shiwen Wu, Fei Sun, **Wentao Zhang<sup>#</sup>**, Xu Xie, Bin Cui. <br>
 ACM Computing Survey.<br>
 ***CSUR 2022, CCF-A***. 
 
-1.  *P2CG: A Privacy Preserving Collaborative Graph Neural Network Training Framework.* [To appear] <br>
+1.  P2CG: A Privacy Preserving Collaborative Graph Neural Network Training Framework.* [To appear] <br>
 Xupeng Miao<sup>*</sup>, **Wentao Zhang**<sup>*</sup>, Yuezihan Jiang,  Fangcheng Fu, Yingxia Shao, Lei Chen, Yangyu Tao, Gang Cao, Bin Cui.<br>
 The International Journal on Very Large Data Bases. <br>
 ***VLDBJ 2022, CCF-A***. 
