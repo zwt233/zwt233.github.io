@@ -6,13 +6,13 @@ author_profile: true
 ---
 {% include base_path %}
 
-Equal contribution<sup>1</sup>, 
-Corresponding author<sup>+</sup>
+<sup>*</sup> indicates equal contribution, 
+<sup>#</sup> indicates corresponding author
 
 2023
 ====
 1.  *ProxyBO: Accelerating Neural Architecture Search via Bayesian Optimization with Zero-cost Proxies.* [To appear] <br>
-Yu Shen, Yang Li, Jian Zheng, Peng Yao, Jixiang Li, Sen Yang, Ji Liu, **Wentao Zhang<sup>+</sup>**, Bin Cui. <br>
+Yu Shen, Yang Li, Jian Zheng, Peng Yao, Jixiang Li, Sen Yang, Ji Liu, **Wentao Zhang<sup>#</sup>**, Bin Cui. <br>
 Thirty-Seventh AAAI Conference on Artificial Intelligence. <br>
 ***AAAI 2023, CCF-A***. 
 
@@ -55,12 +55,12 @@ International Conference on Learning Representations. <br>
 <!-- **Wentao Zhang**, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui.<br> -->
 
 1.  *Graph Neural Networks in Recommender Systems: A Survey* [[Paper](https://arxiv.org/abs/2011.02260)][[Code](https://github.com/wusw14/gnn-in-rs)] <br>
-Shiwen Wu, Fei Sun, **Wentao Zhang<sup>+</sup>**, Xu Xie, Bin Cui. <br>
+Shiwen Wu, Fei Sun, **Wentao Zhang<sup>#</sup>**, Xu Xie, Bin Cui. <br>
 ACM Computing Survey.<br>
 ***CSUR 2022, CCF-A***. 
 
 1.  *P2CG: A Privacy Preserving Collaborative Graph Neural Network Training Framework.* [To appear] <br>
-Xupeng Miao<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Yuezihan Jiang,  Fangcheng Fu, Yingxia Shao, Lei Chen, Yangyu Tao, Gang Cao, Bin Cui.<br>
+Xupeng Miao<sup>*</sup>, **Wentao Zhang<sup>*</sup>**, Yuezihan Jiang,  Fangcheng Fu, Yingxia Shao, Lei Chen, Yangyu Tao, Gang Cao, Bin Cui.<br>
 The International Journal on Very Large Data Bases. <br>
 ***VLDBJ 2022, CCF-A***. 
 
@@ -89,7 +89,7 @@ IEEE International Conference on Data Engineering. <br>
 ***ICDE 2022 (Industry Track), CCF-A***. 
 
 1.  *Lasagne: A Multi-Layer Graph Convolutional Network Framework via Node-aware Deep Architecture* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9513581)][[Code](https://github.com/PKU-DAIR/Lasagne)] <br>
-Xupeng Miao<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Yingxia Shao, Lei Chen, Ce Zhang, Jiawei Jiang, Bin Cui.<br>
+Xupeng Miao<sup>*</sup>, **Wentao Zhang<sup>*</sup>**, Yingxia Shao, Lei Chen, Ce Zhang, Jiawei Jiang, Bin Cui.<br>
 IEEE International Conference on Data Engineering. <br>
 ***ICDE (Extended Abstract) 2022, CCF-A***. 
 
@@ -127,13 +127,13 @@ International Conference on Very Large Data Bases. <br>
 ***VLDB 2021, CCF-A***. 
 
 1.  *Lasagne: A Multi-Layer Graph Convolutional Network Framework via Node-aware Deep Architecture* [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9513581)][[Code](https://github.com/PKU-DAIR/Lasagne)] <br>
-Xupeng Miao<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Yingxia Shao, Lei Chen, Ce Zhang, Jiawei Jiang, Bin Cui.<br>
+Xupeng Miao<sup>*</sup>, **Wentao Zhang<sup>*</sup>**, Yingxia Shao, Lei Chen, Ce Zhang, Jiawei Jiang, Bin Cui.<br>
 IEEE Transactions on Knowledge and Data Engineering. <br>
 ***TKDE 2021, CCF-A***. 
-<!-- Xupeng Miao<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, Yingxia Shao, Bin Cui, Lei Chen, Ce Zhang, Jiawei Jiang<br> -->
+<!-- Xupeng Miao<sup>*</sup>, **Wentao Zhang<sup>*</sup>**, Yingxia Shao, Bin Cui, Lei Chen, Ce Zhang, Jiawei Jiang<br> -->
 
 1.  *DeGNN: Characterizing and Improving Graph Neural Networks with Graph Decomposition* [[Paper](https://arxiv.org/pdf/1910.04499)][[Code](https://zwt233.github.io/publications/)] <br>
-Xupeng Miao<sup>1</sup>, Nezihe Merve Gürel<sup>1</sup>, **Wentao Zhang<sup>1</sup>**, ..., Shuai Zhang, Yujing Wang, Bin Cui, Ce Zhang. <br>
+Xupeng Miao<sup>*</sup>, Nezihe Merve Gürel<sup>*</sup>, **Wentao Zhang<sup>1</sup>**, ..., Shuai Zhang, Yujing Wang, Bin Cui, Ce Zhang. <br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2021, CCF-A, <font color=orange>Top #1 conference in Data Mining</font>***. 
 
@@ -174,7 +174,7 @@ Knowledge Based System.<br>
  2020
 ====
 1.  *Reliable Data Distillation on Graph Convolutional Network* [[Paper](https://dl.acm.org/doi/10.1145/3318464.3389706)][[Code](https://zwt233.github.io/publications/)] <br>
-**Wentao Zhang<sup>1</sup>**, Xupeng Miao<sup>1</sup>, Yingxia Shao, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui <br>
+**Wentao Zhang<sup>*</sup>**, Xupeng Miao<sup>*</sup>, Yingxia Shao, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui <br>
 ACM SIGMOD International Conference on Management of Data. <br>
 ***SIGMOD 2020, CCF-A, <font color=orange>Top #1 conference in Data Bases</font>***. 
 
@@ -199,11 +199,11 @@ arXiv:2211.00216, 2022. (***arXiv preprint***).
  
 
 1.  *Efficient Graph Neural Network Inference at Large Scale* [[Paper](https://arxiv.org/abs/2211.00495)]<br>
-Xinyi Gao, **Wentao Zhang<sup>*</sup>**, Yingxia Shao, Quoc Viet Hung Nguyen, Bin Cui, Hongzhi Yin. <br>
+Xinyi Gao, **Wentao Zhang<sup>#</sup>**, Yingxia Shao, Quoc Viet Hung Nguyen, Bin Cui, Hongzhi Yin. <br>
 	arXiv:2211.00495, 2022. (***arXiv preprint***).   
  
 1.  *Diffusion Models: A Comprehensive Survey of Methods* [[Paper](https://arxiv.org/abs/2209.00796)][[Code](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy)] <br>
-Ling Yang, Zhilong Zhang, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Ming-Hsuan Yang, Bin Cui. <br>
+Ling Yang, Zhilong Zhang, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, **Wentao Zhang<sup>#</sup>**, Ming-Hsuan Yang, Bin Cui. <br>
 arXiv:2209.00796, 2022. (***arXiv preprint***).   
  
 1.  *Evaluating Deep Graph Neural Networks* [[Paper](https://arxiv.org/pdf/2108.00955)][[Code](https://github.com/PKU-DAIR/DGMLP)] <br>
