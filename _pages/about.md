@@ -72,7 +72,7 @@ A summary of my recent works:
 	    - Large-scale hyper-parameter tuning [[Hyper-Tune, ***VLDB 22***](https://arxiv.org/pdf/2201.06834)]
 
 
-- **Application**:  how to use machine learning in real applications?
+- **Interdisciplinary Application**:  how to use machine learning in real applications?
    - AI4Industry 
 	    - GNN-based recommendation [[The First Survey of GNN-based RS, ***CSUR 22***](https://arxiv.org/pdf/2011.02260)]
 	    - GNN-based recommendation system deployed at Taobao [[Zoomer, ***ICDE 22***](https://arxiv.org/abs/2203.12596)]
