@@ -187,7 +187,7 @@ IEEE International Conference on Data Engineering. <br>
 1.  *Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks* [[Paper](https://link.springer.com/article/10.1007/s11432-018-9944-x)][[Code](https://zwt233.github.io/publications/)] <br>
 **Wentao Zhang**, Jiawei Jiang, Yingxia Shao, Bin Cui. <br>
 Sci China Inf Sci. <br>
-***SCIS 2020, CCF-B, IF=4.62***. 
+***SCIS 2020, CCF-A***. 
  
 
 Preprints
