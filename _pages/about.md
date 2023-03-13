@@ -156,7 +156,7 @@ Selected Competitions
 
 Program Committee Member and Reviewer
 ------
-KDD, ICML, CVPR, WWW, DASFFA, TKDE, TNNLS, PAKDD, Machine Learning etc.
+KDD, ICML, NeurIPS, WWW, CVPR, ICCV, DASFFA, TKDE, TNNLS, PAKDD, Machine Learning etc.
   
 Invited Talks
 ------
