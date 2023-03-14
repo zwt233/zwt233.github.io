@@ -64,12 +64,12 @@ Shiwen Wu, Fei Sun, **Wentao Zhang<sup>#</sup>**, Xu Xie, Bin Cui. <br>
 ACM Computing Survey.<br>
 ***CSUR 2022, CCF-A***. 
 
-1.  P2CG: A Privacy Preserving Collaborative Graph Neural Network Training Framework.* [To appear] <br>
+1.  P2CG: A Privacy Preserving Collaborative Graph Neural Network Training Framework.* [[Paper](https://link.springer.com/article/10.1007/s00778-022-00768-8)] <br>
 Xupeng Miao<sup>\*</sup>, **Wentao Zhang<sup>\*</sup>**, ..., Lei Chen, Yangyu Tao, Gang Cao, Bin Cui.<br>
 The International Journal on Very Large Data Bases. <br>
 ***VLDBJ 2022, CCF-A***. 
 
-1.  *DivBO: Diversity-aware CASH for Ensemble Learning* [To appear]<br>
+1.  *DivBO: Diversity-aware CASH for Ensemble Learning* [[Paper](https://arxiv.org/abs/2302.03255)]<br>
 Yu Shen, Yupeng Lu, Yang Li, Yaofeng Tu, **Wentao Zhang**, Bin CUI. <br>
 ***NeurIPS 2022, CCF-A***. 
 
@@ -78,7 +78,7 @@ Yang Li, Yu Shen, Huaijun Jiang, **Wentao Zhang**, Zhi Yang, Ce Zhang, Bin Cui.<
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2022, CCF-A***. 
 
-1.  *Transfer Learning based Search Space Design for Hyperparameter Tuning.* [To appear]<br>
+1.  *Transfer Learning based Search Space Design for Hyperparameter Tuning.* [[Paper](https://arxiv.org/abs/2206.02511)]<br>
 Yang Li, Yu Shen, Huaijun Jiang, Tianyi Bai, **Wentao Zhang**, Ce Zhang, Bin Cui.<br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2022, CCF-A***. 
