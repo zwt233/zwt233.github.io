@@ -16,12 +16,12 @@ Yexin Wang, Zhi Yang, Junqi Liu, **Wentao Zhang**, Bin Cui. <br>
 ACM SIGMOD International Conference on Management of Data. <br>
 ***SIGMOD 2023, CCF-A***. 
 
-1.  *ProxyBO: Accelerating Neural Architecture Search via Bayesian Optimization with Zero-cost Proxies.* [To appear] <br>
+1.  *ProxyBO: Accelerating Neural Architecture Search via Bayesian Optimization with Zero-cost Proxies.* [[Paper](https://arxiv.org/abs/2110.10423)] <br>
 Yu Shen, Yang Li, Jian Zheng, Peng Yao, Jixiang Li, Sen Yang, Ji Liu, **Wentao Zhang<sup>#</sup>**, Bin Cui. <br>
 Thirty-Seventh AAAI Conference on Artificial Intelligence. <br>
 ***AAAI 2023, CCF-A***. 
 
-1.  *Fairness-aware Maximal Biclique Enumeration on Bipartite Graphs.* [To appear] <br>
+1.  *Fairness-aware Maximal Biclique Enumeration on Bipartite Graphs.* [[Paper](https://arxiv.org/pdf/2303.03705v1.pdf)] <br>
 Ziqi Yin, Qi Zhang, **Wentao Zhang**, Ronghua Li, Guoren Wang<br>
 IEEE International Conference on Data Engineering. <br>
 ***ICDE 2023, CCF-A***. 
