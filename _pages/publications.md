@@ -11,6 +11,11 @@ author_profile: true
 
 2023
 ====
+1.  *Scapin : Scalable Graph Perturbation by Augmented Influence Maximization.* [To appear] <br>
+Yexin Wang, Zhi Yang, Junqi Liu, **Wentao Zhang**, Bin Cui. <br>
+ACM SIGMOD International Conference on Management of Data. <br>
+***SIGMOD 2023, CCF-A***. 
+
 1.  *ProxyBO: Accelerating Neural Architecture Search via Bayesian Optimization with Zero-cost Proxies.* [To appear] <br>
 Yu Shen, Yang Li, Jian Zheng, Peng Yao, Jixiang Li, Sen Yang, Ji Liu, **Wentao Zhang<sup>#</sup>**, Bin Cui. <br>
 Thirty-Seventh AAAI Conference on Artificial Intelligence. <br>
