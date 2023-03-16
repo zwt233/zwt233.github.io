@@ -192,7 +192,7 @@ I am happy to give a talk if you are interested in my work. 😊
 1. Towards Data-Centric ML.《数据驱动的机器学习》<br>
   Apple research, 2022. 06 <br> 
 1. Data-centric ML on Graph.<br>
-  UnV, 2023. 03 <br> 
+  UvA, 2023. 03 <br> 
 1. valedictorian Speech.《北京大学计算机系2022级毕业生代表致辞》<br>
   CS of PKU, 2022. 06 [[News](https://mp.weixin.qq.com/s/05TJIrxMcBeDnXoCvYnXbg)] <br>
 1. PaSca: a graph neural architecture search system under the scalable paradigm. 《可扩展性的图神经结构搜索系统》<br>
