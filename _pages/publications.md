@@ -11,6 +11,11 @@ author_profile: true
 
 2023
 ====
+1.  *TowardsGeneralandEfficient Online Tuning for Spark.* [To appear] <br>
+YangLi, HuanjunJiang, ..., **Wentao Zhang**, CeZhang, PengChen, BinCui.
+International Conference on Very Large Data Bases. <br>
+***VLDB 2023, CCF-A***. 
+
 1.  *Scapin : Scalable Graph Perturbation by Augmented Influence Maximization.* [To appear] <br>
 Yexin Wang, Zhi Yang, Junqi Liu, **Wentao Zhang**, Bin Cui. <br>
 ACM SIGMOD International Conference on Management of Data. <br>
