@@ -11,7 +11,7 @@ author_profile: true
 
 2023
 ====
-1.  *TowardsGeneralandEfficient Online Tuning for Spark.* [To appear] <br>
+1.  *Towards General and Efficient Online Tuning for Spark.* [To appear] <br>
 YangLi, HuanjunJiang, ..., **Wentao Zhang**, CeZhang, PengChen, Bin Cui. <br>
 International Conference on Very Large Data Bases. <br>
 ***VLDB 2023, CCF-A***. 
