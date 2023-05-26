@@ -11,8 +11,13 @@ author_profile: true
 
 2023
 ====
+1.  *Rover: An online Spark SQL tuning service via generalized transfer learning.* [To appear] <br>
+Yu Shen, Xinyuyang Ren, Yupeng Lu, Huaijun Jiang, Di Peng, Huanyong Xu, Yang Li, **Wentao Zhang<sup>#</sup>**, Bin Cui.<br>
+SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
+***SIGKDD 2023, CCF-A***. 
+
 1.  *Towards General and Efficient Online Tuning for Spark.* [To appear] <br>
-YangLi, HuanjunJiang, ..., **Wentao Zhang**, CeZhang, PengChen, Bin Cui. <br>
+Yang Li, Huanjun Jiang, ..., **Wentao Zhang**, Ce Zhang, Peng Chen, Bin Cui. <br>
 International Conference on Very Large Data Bases. <br>
 ***VLDB 2023, CCF-A***. 
 
