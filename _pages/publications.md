@@ -24,7 +24,12 @@ International Conference on Very Large Data Bases. <br>
 1.  *Scapin : Scalable Graph Perturbation by Augmented Influence Maximization.* [To appear] <br>
 Yexin Wang, Zhi Yang, Junqi Liu, **Wentao Zhang**, Bin Cui. <br>
 ACM SIGMOD International Conference on Management of Data. <br>
-***SIGMOD 2023, CCF-A***. 
+***SIGMOD 2023, CCF-A***.
+
+1.  *Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization.* [To appear] <br>
+Ling Yang, Jiayi Zheng, Heyuan Wang, Zhongyi Liu, Zhilin Huang, Shenda Hong, **Wentao Zhang<sup>#</sup>**, Bin Cui. <br>
+IEEE Transactions on Knowledge and Data Engineering. <br>
+***TKDE 2023, CCF-A***. 
 
 1.  *ProxyBO: Accelerating Neural Architecture Search via Bayesian Optimization with Zero-cost Proxies.* [[Paper](https://arxiv.org/abs/2110.10423)] <br>
 Yu Shen, Yang Li, Jian Zheng, Peng Yao, Jixiang Li, Sen Yang, Ji Liu, **Wentao Zhang<sup>#</sup>**, Bin Cui. <br>
