@@ -11,6 +11,11 @@ author_profile: true
 
 2023
 ====
+1.  *Semantic-aware Node Synthesis for Imbalanced Heterogeneous Information Networks.* [To appear] <br>
+Xinyi Gao, **Wentao Zhang**, Tong Chen, Junliang Yu, Quoc Viet Hung Nguyen and Hongzhi Yin<br>
+ACM International Conference on Information and Knowledge Management. <br>
+***CIKM 2023, CCF-B***. 
+
 1.  *Rover: An online Spark SQL tuning service via generalized transfer learning.* [To appear] <br>
 Yu Shen, Xinyuyang Ren, Yupeng Lu, Huaijun Jiang, Di Peng, Huanyong Xu, Yang Li, **Wentao Zhang<sup>#</sup>**, Bin Cui.<br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
