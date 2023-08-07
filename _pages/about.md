@@ -161,9 +161,29 @@ Selected Competitions
 1. Rank \#1 in [Open Graph Benchmark](https://ogb.stanford.edu/docs/leader_nodeprop/\#ogbn-mag), 2021
 1. Outstanding Winner of the BDIC Big Data Competition **(1/575)**, 2018
 
-Program Committee Member and Reviewer
+Selected Program Committee Member and Reviewer
 ------
-SIGKDD, ICML, NeurIPS, WWW, CVPR, ICCV, DASFFA, VLDBJ, TKDE, TNNLS, PAKDD, SCIS, Machine Learning etc.
+- **Database and Data Management**: 
+   - ICDE 2023
+   - DASFFA 2022
+   - VLDBJ 2022
+- **Machine Learning**: 
+   - ICML 2021, 2022, 2023
+   - NeurIPS 2022, 2023
+   - JMLR, 2023
+   - Machine Learning, 2023
+- **Data Mining**: 
+   - SIGKDD 2021, 2022, 2023
+   - WWW 2022
+   - DASFFA 2022
+   - IEEE TKDE 2022
+   - IEEE TNNLS 2022
+   - PAKDD 2022
+- **Others**: 
+   - ICCV 2023
+   - CVPR 2023
+   - SCIS 2023
+
   
 Invited Talks
 ------
