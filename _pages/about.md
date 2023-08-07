@@ -170,8 +170,8 @@ Selected Program Committee Member and Reviewer
 - **Machine Learning**: 
    - ICML 2021, 2022, 2023
    - NeurIPS 2022, 2023
-   - JMLR, 2023
-   - Machine Learning, 2023
+   - JMLR 2023
+   - Machine Learning 2023
 - **Data Mining**: 
    - SIGKDD 2021, 2022, 2023
    - WWW 2022
