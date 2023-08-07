@@ -11,11 +11,6 @@ author_profile: true
 
 2023
 ====
-1.  *Semantic-aware Node Synthesis for Imbalanced Heterogeneous Information Networks.* [To appear] <br>
-Xinyi Gao, **Wentao Zhang**, Tong Chen, Junliang Yu, Quoc Viet Hung Nguyen and Hongzhi Yin<br>
-ACM International Conference on Information and Knowledge Management. <br>
-***CIKM 2023, CCF-B***. 
-
 1.  *Rover: An online Spark SQL tuning service via generalized transfer learning.* [To appear] <br>
 Yu Shen, Xinyuyang Ren, Yupeng Lu, Huaijun Jiang, Di Peng, Huanyong Xu, Yang Li, **Wentao Zhang<sup>#</sup>**, Bin Cui.<br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
@@ -44,7 +39,19 @@ Thirty-Seventh AAAI Conference on Artificial Intelligence. <br>
 1.  *Fairness-aware Maximal Biclique Enumeration on Bipartite Graphs.* [[Paper](https://arxiv.org/pdf/2303.03705v1.pdf)] <br>
 Ziqi Yin, Qi Zhang, **Wentao Zhang**, Ronghua Li, Guoren Wang<br>
 IEEE International Conference on Data Engineering. <br>
-***ICDE 2023, CCF-A***. 
+***ICDE 2023, CCF-A***.
+
+1.  *Semantic-aware Node Synthesis for Imbalanced Heterogeneous Information Networks.* [To appear] <br>
+Xinyi Gao, **Wentao Zhang**, Tong Chen, Junliang Yu, Quoc Viet Hung Nguyen and Hongzhi Yin<br>
+ACM International Conference on Information and Knowledge Management. <br>
+***CIKM 2023, CCF-B***.
+
+1.  *Graph-Enforced Neural Network for Attributed Graph Clustering.* [To appear] <br>
+Zeang Sheng, **Wentao Zhang<sup>#</sup>**, Yang Li, Wen Ouyang, Yangyu Tao, Zhi Yang and Bin Cui<br>
+The 7th APWeb-WAIM International Joint Conference on Web and Big Data. <br>
+***APWeb-WAIM2023, CCF-C***. 
+
+
 
 2022
 ====
