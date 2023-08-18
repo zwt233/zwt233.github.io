@@ -84,6 +84,7 @@ A summary of my recent works:
 
 **<font color=red>What's New</font>**
 ------
+* **2023-08**: One paper is accepted by ***VLDB 2024***.
 * **2023-08**: One paper is accepted by ***APWEB-WAIM 2023***.
 * **2023-08**: One paper is accepted by ***CIKM 2023***.
 * **2023-08**: Our book about [Diffusion Model](https://item.jd.com/10081252433153.html) is now avaliable. 
