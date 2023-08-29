@@ -217,8 +217,15 @@ I am happy to give a talk if you are interested in my work. 😊
 1. Information gain propagation a new way to graph active learning with soft labels. 《软标签场景下的图主动学习》<br>
   AI Time, Virtual, 2022. 06  [[News](https://mp.weixin.qq.com/s/mbirnZPGpQwn6D5j_okeHw)]<br>
   ICLR'22, Virtual, 2022. 04 <br>
+1. Data-centric ML on Graph. <br>
+  UvA, 2022. 04 <br>
+  PKU, 2023.05 <br>
+  HKUST, 2023.04 <br>
 1. Towards Data-Centric ML.《数据驱动的机器学习》<br>
-  Apple research, 2022. 06 <br> 
+  Apple research, 2022. 06 <br>
+  RUC, 2023.06 <br>
+  SEU, 2023.07 <br>
+  PKU, 2023.08 <br>
 1. Data-centric ML on Graph.<br>
   UvA, 2023. 03 <br> 
 1. valedictorian Speech.《北京大学计算机系2022级毕业生代表致辞》<br>
