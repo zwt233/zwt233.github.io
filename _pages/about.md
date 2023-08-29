@@ -226,8 +226,6 @@ I am happy to give a talk if you are interested in my work. 😊
   RUC, 2023.06 <br>
   SEU, 2023.07 <br>
   PKU, 2023.08 <br>
-1. Data-centric ML on Graph.<br>
-  UvA, 2023. 03 <br> 
 1. valedictorian Speech.《北京大学计算机系2022级毕业生代表致辞》<br>
   CS of PKU, 2022. 06 [[News](https://mp.weixin.qq.com/s/05TJIrxMcBeDnXoCvYnXbg)] <br>
 1. PaSca: a graph neural architecture search system under the scalable paradigm. 《可扩展性的图神经结构搜索系统》<br>
