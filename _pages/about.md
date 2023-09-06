@@ -177,10 +177,10 @@ Selected Program Committee Member and Reviewer
 - **Data Mining**: 
    - SIGKDD 2021, 2022, 2023
    - WWW 2022
-   - DASFFA 2022
+   - DASFFA 2022, 2023, 2024
    - IEEE TKDE 2022
    - IEEE TNNLS 2022
-   - PAKDD 2022
+   - PAKDD 2022, 2023, 2024
 - **Others**: 
    - ICCV 2023
    - CVPR 2023
