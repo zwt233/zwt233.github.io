@@ -180,7 +180,7 @@ Selected Program Committee Member and Reviewer
    - DASFFA 2022, 2023, 2024
    - IEEE TKDE 2022
    - IEEE TNNLS 2022
-   - PAKDD 2022, 2023, 2024
+   - PAKDD 2023, 2024
 - **Others**: 
    - ICCV 2023
    - CVPR 2023
