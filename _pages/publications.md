@@ -11,6 +11,11 @@ author_profile: true
 
 2023
 ====
+1.  *FedGTA: Topology-aware Averaging for Federated Graph Learning.* [To appear] <br>
+Xunkai Li, Zhenyu Wu, **Wentao Zhang**, Yinlin Zhu, Ronghua Li, Guoren Wang.<br>
+International Conference on Very Large Data Bases. <br>
+***VLDB 2024, CCF-A***.
+
 1.  *Rover: An online Spark SQL tuning service via generalized transfer learning.* [To appear] <br>
 Yu Shen, Xinyuyang Ren, Yupeng Lu, Huaijun Jiang, Di Peng, Huanyong Xu, Yang Li, **Wentao Zhang<sup>#</sup>**, Bin Cui.<br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
