@@ -176,6 +176,7 @@ Selected Program Committee Member and Reviewer
    - Machine Learning 2023
 - **Data Mining**: 
    - SIGKDD 2021, 2022, 2023
+   - SDM 2024
    - WWW 2022
    - DASFFA 2022, 2023, 2024
    - IEEE TKDE 2022
