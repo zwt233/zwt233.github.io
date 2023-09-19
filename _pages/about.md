@@ -174,6 +174,7 @@ Selected Program Committee Member and Reviewer
    - ICLR 2024
    - JMLR 2023
    - Machine Learning 2023
+   - LoG 2024
 - **Data Mining**: 
    - SIGKDD 2021, 2022, 2023
    - SDM 2024
