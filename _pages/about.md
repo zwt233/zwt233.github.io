@@ -84,6 +84,7 @@ A summary of my recent works:
 
 **<font color=red>What's New</font>**
 ------
+* **2023-09**: One paper is accepted by ***ACM Computing Survey 2023***.
 * **2023-09**: One paper is accepted by ***NeurIPS 2023***.
 * **2023-08**: One paper is accepted by ***VLDB 2024***.
 * **2023-08**: One paper is accepted by ***APWEB-WAIM 2023***.
