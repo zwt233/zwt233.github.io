@@ -11,14 +11,14 @@ author_profile: true
 
 2023
 ====
-1.  *Diffusion Models: A Comprehensive Survey of Methods.* [To appear] <br>
-Ling Yang, Zhilong Zhang, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, **Wentao Zhang<sup>#</sup>**, Ming-Hsuan Yang<sup>#</sup>, Bin Cui<sup>#</sup>. <br>
-ACM Computing Survey.<br> 
-***CSUR 2023, CCF-A***.
-
 1.  *Improving Diffusion-Based Image Synthesis with Context Prediction.* [To appear] <br>
 Ling Yang, Jingwei Liu, Shenda Hong, Zhilong Zhang, Zhilin Huang, Zheming Cai, **Wentao Zhang<sup>#</sup>**, Bin CUI. <br>
-***NeurIPS 2023, CCF-A***. 
+***NeurIPS 2023, CCF-A***.
+
+1.  *Diffusion Models: A Comprehensive Survey of Methods.* [To appear] <br>
+Ling Yang, Zhilong Zhang, ..., **Wentao Zhang<sup>#</sup>**, Bin Cui<sup>#</sup>, Ming-Hsuan Yang<sup>#</sup>. <br>
+ACM Computing Survey.<br> 
+***CSUR 2023, CCF-A***.
 
 1.  *FedGTA: Topology-aware Averaging for Federated Graph Learning.* [To appear] <br>
 Xunkai Li, Zhenyu Wu, **Wentao Zhang**, Yinlin Zhu, Ronghua Li, Guoren Wang.<br>
