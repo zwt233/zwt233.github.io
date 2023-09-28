@@ -13,7 +13,7 @@ author_profile: true
 ====
 1.  *Diffusion Models: A Comprehensive Survey of Methods.* [To appear] <br>
 Ling Yang, Zhilong Zhang, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, **Wentao Zhang<sup>#</sup>**, Ming-Hsuan Yang<sup>#</sup>, Bin Cui<sup>#</sup>. <br>
-ACM Computing Survey.<br> <br>
+ACM Computing Survey.<br> 
 ***CSUR 2023, CCF-A***.
 
 1.  *Improving Diffusion-Based Image Synthesis with Context Prediction.* [To appear] <br>
