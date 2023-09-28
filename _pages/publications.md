@@ -11,6 +11,15 @@ author_profile: true
 
 2023
 ====
+1.  *Diffusion Models: A Comprehensive Survey of Methods.* [To appear] <br>
+Ling Yang, Zhilong Zhang, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, **Wentao Zhang<sup>#</sup>**, Ming-Hsuan Yang<sup>#</sup>, Bin Cui<sup>#</sup>. <br>
+ACM Computing Survey.<br> <br>
+***CSUR 2023, CCF-A***.
+
+1.  *Improving Diffusion-Based Image Synthesis with Context Prediction.* [To appear] <br>
+Ling Yang, Jingwei Liu, Shenda Hong, Zhilong Zhang, Zhilin Huang, Zheming Cai, **Wentao Zhang<sup>#</sup>**, Bin CUI
+***NeurIPS 2023, CCF-A***. 
+
 1.  *FedGTA: Topology-aware Averaging for Federated Graph Learning.* [To appear] <br>
 Xunkai Li, Zhenyu Wu, **Wentao Zhang**, Yinlin Zhu, Ronghua Li, Guoren Wang.<br>
 International Conference on Very Large Data Bases. <br>
@@ -93,7 +102,7 @@ International Conference on Learning Representations. <br>
 
 1.  *Graph Neural Networks in Recommender Systems: A Survey* [[Paper](https://arxiv.org/abs/2011.02260)][[Code](https://github.com/wusw14/gnn-in-rs)] <br>
 Shiwen Wu, Fei Sun, **Wentao Zhang<sup>#</sup>**, Xu Xie, Bin Cui. <br>
-ACM Computing Survey.<br>
+ACM Computing Surveys.<br>
 ***CSUR 2022, CCF-A***. 
 
 1.  P2CG: A Privacy Preserving Collaborative Graph Neural Network Training Framework.* [[Paper](https://link.springer.com/article/10.1007/s00778-022-00768-8)] <br>
