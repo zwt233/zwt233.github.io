@@ -12,7 +12,7 @@ author_profile: true
 2023
 ====
 1.  *Improving Diffusion-Based Image Synthesis with Context Prediction.* [To appear] <br>
-Ling Yang, Jingwei Liu, Shenda Hong, Zhilong Zhang, Zhilin Huang, Zheming Cai, **Wentao Zhang<sup>#</sup>**, Bin CUI#</sup>. <br>
+Ling Yang, Jingwei Liu, Shenda Hong, Zhilong Zhang, Zhilin Huang, Zheming Cai, **Wentao Zhang<sup>#</sup>**, Bin CUI<sup>#</sup>. <br>
 ***NeurIPS 2023, CCF-A***.
 
 1.  *Diffusion Models: A Comprehensive Survey of Methods.* [To appear] <br>
