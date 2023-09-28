@@ -17,7 +17,7 @@ ACM Computing Survey.<br>
 ***CSUR 2023, CCF-A***.
 
 1.  *Improving Diffusion-Based Image Synthesis with Context Prediction.* [To appear] <br>
-Ling Yang, Jingwei Liu, Shenda Hong, Zhilong Zhang, Zhilin Huang, Zheming Cai, **Wentao Zhang<sup>#</sup>**, Bin CUI
+Ling Yang, Jingwei Liu, Shenda Hong, Zhilong Zhang, Zhilin Huang, Zheming Cai, **Wentao Zhang<sup>#</sup>**, Bin CUI. <br>
 ***NeurIPS 2023, CCF-A***. 
 
 1.  *FedGTA: Topology-aware Averaging for Federated Graph Learning.* [To appear] <br>
