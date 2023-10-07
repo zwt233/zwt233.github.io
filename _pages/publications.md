@@ -63,7 +63,7 @@ ACM International Conference on Information and Knowledge Management. <br>
 1.  *Graph-Enforced Neural Network for Attributed Graph Clustering.* [To appear] <br>
 Zeang Sheng, **Wentao Zhang<sup>#</sup>**, Yang Li, Wen Ouyang, Yangyu Tao, Zhi Yang and Bin Cui<br>
 The 7th APWeb-WAIM International Joint Conference on Web and Big Data. <br>
-***APWeb-WAIM2023, CCF-C, 🏆 ***<font color=orange>Best Paper Runner Up Award (among 260 submmisions)</font>***.
+***APWeb-WAIM2023, CCF-C, 🏆 <font color=orange>Best Paper Runner Up Award (among 260 submmisions)</font>***.
 
 
 
