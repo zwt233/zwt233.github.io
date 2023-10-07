@@ -78,7 +78,7 @@ A summary of my recent works:
 	    - GNN-based recommendation [[The First Survey of GNN-based RS, ***CSUR 22***](https://arxiv.org/pdf/2011.02260)]
 	    - GNN-based recommendation system deployed at Taobao [[Zoomer, ***ICDE 22***](https://arxiv.org/abs/2203.12596)]
 	- AI4Science
-	    - Diffusion models [[The First Survey of Diffusion Models, ***Arxiv 22***](https://arxiv.org/abs/2209.00796)]
+	    - Diffusion models [[The First Survey of Diffusion Models, ***CSUR 23***](https://arxiv.org/abs/2209.00796)]
 	    - AutoML for biology [[AutoDC, ***Bioinformatics 22***](https://academic.oup.com/bioinformatics/article/38/13/3415/6588096)]
 
 
