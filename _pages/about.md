@@ -146,7 +146,7 @@ Contributed Open-source Projects
   
 Selected Awards
 ------
-24. 🏆 [Best Paper Runner Up Award](http://www.apweb-waim2023.com/), APWeb-WAIM, 2023.
+24. 🏆 [Best Paper Runner Up Award](http://www.apweb-waim2023.com/), ***APWeb-WAIM 2023***.
 24. [Rising Star](https://mp.weixin.qq.com/s/Lecza9L8zgZYDPdKpkP2XA) (云帆奖-明日之星), World AI Conference, 2022.
 23. 🏆 [Best Student Paper Award](https://www2022.thewebconf.org/awards/) of ***WWW 2022*** **(1/1822,  the second WWW Best Student Paper from China)**, 2022
 22. [IVADO Postdoctoral Fellowship](https://ivado.ca/en/research-community/), Canada
