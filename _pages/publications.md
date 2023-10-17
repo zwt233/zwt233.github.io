@@ -11,6 +11,11 @@ author_profile: true
 
 2023
 ====
+
+1.  *Accelerating Scalable Graph Neural Network Inference with Node-Adaptive Propagation.* [To appear] <br>
+Xinyi Gao, **Wentao Zhang<sup>#</sup>**, Junliang Yu, Yingxia Shao, Quoc Viet Hung Nguyen, Bin Cui, Hongzhi Yin <sup>#</sup>. <br>
+***ICDE 2024, CCF-A***.
+
 1.  *Improving Diffusion-Based Image Synthesis with Context Prediction.* [To appear] <br>
 Ling Yang, Jingwei Liu, Shenda Hong, Zhilong Zhang, Zhilin Huang, Zheming Cai, **Wentao Zhang<sup>#</sup>**, Bin Cui<sup>#</sup>. <br>
 ***NeurIPS 2023, CCF-A***.
