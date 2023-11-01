@@ -16,6 +16,7 @@ author_profile: true
 **办公地点**: 北京大学静园6号院
 
 
+**<font color=red>2024年秋季入学的申请考核制博士、硕士（北大数院大数据硕士项目）和实习生（可远程校外实习）名额还有空缺，如感兴趣请直接联系我！</font>**
 
 <!-- I am looking for the following positions:
 - Faculty (Assistant Professor) in Academic
