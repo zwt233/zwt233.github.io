@@ -7,8 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-[中文简介]
-(https://zwt233.github.io/about-cn/)
+[中文简介](https://zwt233.github.io/about-cn/)
+
 Wentao Zhang is an assistant professor (Principal Investigator/PhD Advisor) in [Center of Machine Learning Research](https://cmlr.pku.edu.cn/) at [Peking University (PKU)](https://www.pku.edu.cn/).
 He previously worked as a postdoc research fellow with Prof. [Jian Tang](https://jian-tang.com/) at [Montreal Institute for Learning Algorithms (Mila)](https://mila.quebec/en/), and he received his Ph.D. degree in computer science from \link{https://www.pku.edu.cn/}{\textit{PKU}}, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/). 
 He worked with Prof. [Lei Chen](http://home.cse.ust.hk/~leichen/) as a visiting scholar at [HKUST](https://hkust.edu.hk/) in 2019.
