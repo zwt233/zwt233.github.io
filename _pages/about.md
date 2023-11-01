@@ -42,8 +42,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 - Faculty (Assistant Professor) in Academic
 - Research Scientist in Industry -->
 
-<!-- **<font color=red>I’m on job market now!</font>**
-**<font color=red>If you are interested in me, contact me via Email or Wechat.</font>** -->
+**<font color=red>We have opening positions for PhDs, Masters and Research Interns (not limited to PKU, work online). Interested persons please contact me directly!</font>**
 
 Research Interests
 ---
