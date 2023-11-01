@@ -1,11 +1,8 @@
 ---
-permalink: /
+layout: archive
 title: "About-CN"
-excerpt: "About me-CN"
+permalink: /about-cn/
 author_profile: true
-redirect_from:
-  - /about-CN/
-  - /about-CN.html
 ---
 中文Bio:
 xxx
