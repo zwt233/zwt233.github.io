@@ -66,7 +66,7 @@ A summary of my recent works:
 	    - Feature/label smoothing + simple model [[NDLS, ***NeurIPS 21***](https://arxiv.org/pdf/2110.14377), <font color=orange>Spotlight</font>]
 	    - Unsupervised and non-parametric feature smoothing [[NAFS, ***ICML 22***](https://arxiv.org/abs/2206.08583)]
 	    - Graph-based MLP deployed at Tencent [[GAMLP, ***KDD 22***](https://arxiv.org/pdf/2108.10097)]
-	    - Inference at large scale [[NAI, ***Arxiv 22***](https://arxiv.org/abs/2211.00495)]
+	    - Inference at large scale [[NAI, ***ICDE 22***](https://arxiv.org/abs/2211.00495)]
 	    - Experimental evaluation [[AIR, ***KDD 22***](https://arxiv.org/pdf/2108.00955)]
 	- Data distillation 
 	    - Offline distillation [[RDD, ***SIGMOD 20***](https://dl.acm.org/doi/10.1145/3318464.3389706)]
