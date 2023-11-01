@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Wentao Zhang's Homepage"
 title_separator          : "-"
 name                     : &name "Wentao Zhang"
-description              : &description "北京大学 助理教授/研究员/博士生导师"
+description              : &description "北京大学 助理教授/研究员/博导"
 url                      : https://zwt233.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zwt233.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Wentao Zhang"
   avatar           : "wentao-smile3.jpg"
-  bio              : "北京大学 助理教授/研究员/博士生导师"
+  bio              : "北京大学 助理教授/研究员/博导"
   location         : "北京大学，北京，中国"
   employer         :
   pubmed           :
