@@ -4,14 +4,15 @@ title: "About-CN"
 permalink: /about-cn/
 author_profile: true
 ---
-中文Bio:
-xxx
+**中文Bio:**
+张文涛，北京大学国际机器学习研究中心助理教授、研究员、博士生导师，研究兴趣为数据驱动的机器学习、图机器学习、机器学习系统和AI4Science。
+他近5年在机器学习（ICML, NeurIPS, ICLR）、数据挖掘（KDD, WWW）和数据库（SIGMOD, VLDB, ICDE）等领域发表论文40余篇，并获得多个最佳论文奖（如第一作者获WWW’22 Best Student Paper Award 和 通讯作者获APWeb-WAIM’23 Best Paper Runner Up Award）。他领导或参与开源了多个机器学习系统，如大规模图学习系统SGL、分布式机器学习系统Angel、和黑盒优化系统OpenBox。他曾获2021年度亚太地区唯一的Apple Scholar、2022世界人工智能大会云帆奖等多项荣誉。
 
-**Email**: wentao.zhang@mila.quebec
+**Email**: wentao.zhang@pku.edu.cn
 
 **[Wechat (微信)](https://zwt233.github.io/wechat/)**: z1299799152
 
-**Office**: 6666 St-Urbain Street, #200. Montreal, QC.
+**Office**: Jingyuan Courtyard 6, PKU, Beijing
 
 
 
