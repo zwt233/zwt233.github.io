@@ -13,7 +13,7 @@ author_profile: true
 
 **[Wechat (微信)](https://zwt233.github.io/wechat/)**: z1299799152
 
-**办公地点**: 北京大学静园6号院
+**办公地点**: 北京大学静园6号院217
 
 **<font color=red>2023年秋季入学国际机器学习研究中心的博士轮转名额还有空缺！</font>**
 
