@@ -34,7 +34,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 
 **[Wechat (微信)](https://zwt233.github.io/wechat/)**: z1299799152
 
-**Office**: Jingyuan Courtyard 6, PKU, Beijing
+**Office**: 217, Jingyuan Courtyard 6, PKU, Beijing
 
 
 
