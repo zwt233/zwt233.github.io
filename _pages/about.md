@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-[中文简介](https://zwt233.github.io/about-cn/)
+<!--[中文简介](https://zwt233.github.io/about-cn/)--> 
 
 Wentao Zhang is an assistant professor at [Peking University (PKU)](https://www.pku.edu.cn/), where he leads the Data-centric Machine Learning (DCML) group. Wentao’s research focuses on DCML, Graph ML, ML systems and AI4Science. Wentao has published 40+ papers, including 10+ first author papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW), and ML (ICML, NeurIPS, ICLR) venues. 
 
@@ -16,6 +16,7 @@ Wentao is the contributor or designer of several system projects,  including [An
 Before joining PKU, wentao worked as a postdoc research fellow at [Montreal Institute for Learning Algorithms](https://mila.quebec/en/) (Mila, led by Prof.[Yoshua Bengio](https://yoshuabengio.org/)), and he received his Ph.D. degree in computer science from PKU, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/). 
 He also worked with Prof. [Lei Chen](http://home.cse.ust.hk/~leichen/) as a visiting scholar at [HKUST](https://hkust.edu.hk/) in 2019. Besides, Wentao has accumulated for 4 years industrial experience in the ML & Data Platform Department of [Tencent](https://www.tencent.com/) and the AIML Department of [Apple](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). 
 
+张文涛，北京大学国际机器学习研究中心助理教授、研究员、博士生导师，研究兴趣为数据驱动的机器学习、图机器学习、机器学习系统和AI4Science。 他近5年在机器学习（ICML, NeurIPS, ICLR）、数据挖掘（KDD, WWW）和数据库（SIGMOD, VLDB, ICDE）等领域发表论文40余篇，并获得多个最佳论文奖（如第一作者获WWW’22 Best Student Paper Award 和 通讯作者获APWeb-WAIM’23 Best Paper Runner Up Award）。他领导或参与开源了多个机器学习系统，如大规模图学习系统SGL、分布式机器学习系统Angel、和黑盒优化系统OpenBox。他曾获2021年度亚太地区唯一的Apple Scholar、2022世界人工智能大会云帆奖等多项荣誉。
 
 
 <!--Wentao Zhang is currently a postdoc research fellow working with Prof. [Jian Tang](https://jian-tang.com/) at [Montreal Institute for Learning Algorithms (Mila)](https://mila.quebec/en/). Prior to that,  he received his Ph.D. degree in computer science from [Peking University (PKU)](https://www.pku.edu.cn/) in June 2022, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/). 
@@ -36,12 +37,16 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 **Office**: 217, Jingyuan Courtyard 6, PKU, Beijing
 
 
-
 <!-- I am looking for the following positions:
 - Faculty (Assistant Professor) in Academic
 - Research Scientist in Industry -->
 
 **<font color=red>We have opening positions for PhDs (2 students/year), Masters and Research Interns (not limited to PKU, work online). Interested persons please contact me directly!</font>**
+
+**<font color=red>2023年秋季入学国际机器学习研究中心的博士轮转名额还有2个空缺！</font>**
+
+**<font color=red>2024年秋季入学的申请考核制博士、硕士（北大数院大数据硕士项目）名额还有空缺，长期招收实习生（可远程校外实习），如感兴趣请直接联系我！</font>**
+
 
 Research Interests
 ---
