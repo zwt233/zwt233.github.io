@@ -47,13 +47,14 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 **<font color=red>2024年秋季入学的申请考核制博士、硕士（北大数院大数据硕士项目）名额还有空缺，长期招收实习生（可远程校外实习），如感兴趣请直接联系我！</font>**
 
 进入本课题组后你可以获得：
-- 每周组会分享（论文和project）了解学术界最新动态
-- Github开源项目参与经验
-- 推荐信和优先保送本课题组研究生的机会
+- 每周组会分享（线下：北大静园6号院，线上：腾讯会议）了解学术界最新动态
+- Github开源项目（如SGL 和 DCML System）参与经验
+- 推荐信和优先保送本课题组硕博的机会
 - 导师的一对一指导，合作发表CCF A类顶会论文
 - 丰富的计算资源和助研津贴
 - 工业界合作伙伴 (如Apple、腾讯、华为和上海AI Lab等) 实习和工作推荐
 - 学术界合作伙伴（如Mila、Stanford、HKUST、NUS和UQ等）PhD推荐
+- 有热心的学长学姐和愉快的氛围，定期组织团建 (自愿参加) 😊 
   
 Research Interests
 ---
