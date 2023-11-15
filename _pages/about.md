@@ -52,7 +52,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 - 推荐信和优先保送本课题组研究生的机会
 - 导师的一对一指导，合作发表CCF A类顶会论文
 - 丰富的计算资源和助研津贴
-- 工业界合作伙伴 (如Apple、腾讯、华为和上海AI Lab等) 实习推荐
+- 工业界合作伙伴 (如Apple、腾讯、华为和上海AI Lab等) 实习和工作推荐
 - 学术界合作伙伴（如Mila、Stanford、HKUST、NUS和UQ等）PhD推荐
   
 Research Interests
