@@ -51,7 +51,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 进入本课题组后你可以获得：
 - 每周组会分享（线下：北大静园6号院，线上：腾讯会议）了解学术界最新动态
 - Github开源项目（如SGL 和 DCML System）参与经验
-- 推荐信和优先保送本课题组硕博（叉院PhD住宿在校本部燕园校区）的机会
+- 推荐信和优先保送本课题组硕博（叉院PhD住宿和工位在校本部燕园校区）的机会
 - 导师的一对一指导（每周至少meeting一次），合作发表CCF A类顶会论文
 - 丰富的计算资源（如Tesla A100）和助研津贴
 - 工业界合作伙伴 (如Apple、腾讯、华为和上海AI Lab等) 实习和工作推荐
