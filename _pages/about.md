@@ -199,9 +199,9 @@ Selected Competitions
 Selected Program Committee Member and Reviewer
 ------
 - **Database and Data Management**: 
-   - ICDE 2023
+   - ICDE 2023,2024
    - DASFFA 2022
-   - VLDBJ 2022
+   - VLDBJ 2022,2023
 - **Machine Learning**: 
    - ICML 2021, 2022, 2023
    - NeurIPS 2022, 2023
