@@ -15,7 +15,7 @@ Wentao is the contributor or designer of several system projects,  including [An
 Before joining PKU, wentao worked as a research fellow with Prof.[Jian Tang](https://jian-tang.com/) at [Montreal Institute for Learning Algorithms](https://mila.quebec/en/) (Mila, led by Prof.[Yoshua Bengio](https://yoshuabengio.org/)), and he received his Ph.D. degree in CS at PKU, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/). 
 He worked with Prof. [Lei Chen](http://home.cse.ust.hk/~leichen/) as a visiting scholar at [HKUST](https://hkust.edu.hk/) in 2019. Besides, Wentao has accumulated for 4 years industrial experience in the ML & Data Platform Department of [Tencent](https://www.tencent.com/) and the AIML Department of [Apple](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). 
 
-张文涛，北京大学国际机器学习研究中心助理教授、研究员、博士生导师，研究兴趣为数据驱动的机器学习、图机器学习、机器学习系统和AI4Science。 他近5年在机器学习（ICML, NeurIPS, ICLR）、数据挖掘（KDD, WWW）和数据管理（SIGMOD, VLDB, ICDE）等领域发表论文40余篇，并获得多个最佳论文奖（如第一作者获WWW’22 Best Student Paper Award 和 通讯作者获APWeb-WAIM’23 Best Paper Runner Up Award）。他领导或参与开源了多个机器学习系统，如大规模图学习系统SGL、分布式机器学习系统Angel、和黑盒优化系统OpenBox。他曾获2021年度亚太地区唯一的Apple Scholar、2022世界人工智能大会云帆奖等多项荣誉。
+张文涛，北京大学国际机器学习研究中心助理教授、研究员、博士生导师，研究兴趣为数据驱动的机器学习、图机器学习、机器学习系统和交叉学科应用（如Diffusion、多模态和AI4Science）。 他近5年在机器学习（ICML, NeurIPS, ICLR）、数据挖掘（KDD, WWW）和数据管理（SIGMOD, VLDB, ICDE）等领域发表论文40余篇，并获得多个最佳论文奖（如第一作者获WWW’22 Best Student Paper Award 和 通讯作者获APWeb-WAIM’23 Best Paper Runner Up Award）。他领导或参与开源了多个机器学习系统，如大规模图学习系统SGL、分布式机器学习系统Angel、和黑盒优化系统OpenBox。他曾获2021年度亚太地区唯一的Apple Scholar、2022世界人工智能大会云帆奖等多项荣誉。
 
 
 <!--Wentao Zhang is currently a postdoc research fellow working with Prof. [Jian Tang](https://jian-tang.com/) at [Montreal Institute for Learning Algorithms (Mila)](https://mila.quebec/en/). Prior to that,  he received his Ph.D. degree in computer science from [Peking University (PKU)](https://www.pku.edu.cn/) in June 2022, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/). 
@@ -82,7 +82,7 @@ A summary of my recent works:
 	    - Feature/label smoothing + simple model [[NDLS, ***NeurIPS 21***](https://arxiv.org/pdf/2110.14377), <font color=orange>Spotlight</font>]
 	    - Unsupervised and non-parametric feature smoothing [[NAFS, ***ICML 22***](https://arxiv.org/abs/2206.08583)]
 	    - Graph-based MLP deployed at Tencent [[GAMLP, ***KDD 22***](https://arxiv.org/pdf/2108.10097)]
-	    - Inference at large scale [[NAI, ***ICDE 22***](https://arxiv.org/abs/2211.00495)]
+	    - Inference at large scale [[NAI, ***ICDE 24***](https://arxiv.org/abs/2211.00495)]
 	    - Experimental evaluation [[AIR, ***KDD 22***](https://arxiv.org/pdf/2108.00955)]
 	- Data distillation 
 	    - Offline distillation [[RDD, ***SIGMOD 20***](https://dl.acm.org/doi/10.1145/3318464.3389706)]
@@ -99,14 +99,15 @@ A summary of my recent works:
 	    - Black box optimization [[OpenBox, ***KDD 21***](https://arxiv.org/pdf/2106.00421)]![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/open-box?style=social)
 	    - Large-scale hyper-parameter tuning [[Hyper-Tune, ***VLDB 22***](https://arxiv.org/pdf/2201.06834)]
 	    - Distributed GNN training[[The First Survey of Distributed GNN Training, ***Arxiv 22***](https://arxiv.org/abs/2211.00216)]
+	    - Online Spark SQL tuning service[[Rover, ***KDD 23***](https://arxiv.org/pdf/2302.04046.pdf)]
 
 
 - **Interdisciplinary Application**:  how to use machine learning in real applications?
    - AI4Industry 
 	    - GNN-based recommendation [[The First Survey of GNN-based RS, ***CSUR 22***](https://arxiv.org/pdf/2011.02260)]
 	    - GNN-based recommendation system deployed at Taobao [[Zoomer, ***ICDE 22***](https://arxiv.org/abs/2203.12596)]
-	- AI4Science
-	    - Diffusion models [[The First Survey of Diffusion Models, ***CSUR 23***](https://arxiv.org/abs/2209.00796)]
+   - AI4Science
+	    - Diffusion models [[The First Survey of Diffusion Models, ***CSUR 23***](https://arxiv.org/abs/2209.00796)][[CONPREDIFF, ***NeurIPS 23***](https://openreview.net/pdf?id=wRhLd65bDt)]
 	    - AutoML for biology [[AutoDC, ***Bioinformatics 22***](https://academic.oup.com/bioinformatics/article/38/13/3415/6588096)]
 
 
