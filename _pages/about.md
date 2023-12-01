@@ -113,6 +113,7 @@ A summary of my recent works:
 
 **<font color=red>What's New</font>**
 ------
+* **2023-12**: Three paper are accepted by ***ICDE 2024***.
 * **2023-10**: One paper is accepted by ***ICDE 2024***.
 * **2023-10**: 🏆 We win the ***<font color=orange>Best Paper Runner Up Award </font>***  in ***APWeb-WAIM 2023***.
 * **2023-09**: One paper is accepted by ***ACM Computing Survey 2023***.
