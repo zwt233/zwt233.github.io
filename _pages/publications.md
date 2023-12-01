@@ -11,9 +11,20 @@ author_profile: true
 
 2023
 ====
+1.  *NC-ALG: Graph-based Active Learning under Noisy Crowd.* [To appear] <br>
+**Wentao Zhang**, Yexin Wang, Zhenbang You, Yang Li, Gang Cao, Zhi Yang, Bin Cui. <br>
+***ICDE 2024, CCF-A***.
 
 1.  *Accelerating Scalable Graph Neural Network Inference with Node-Adaptive Propagation.* [To appear] <br>
 Xinyi Gao, **Wentao Zhang<sup>#</sup>**, Junliang Yu, Yingxia Shao, Quoc Viet Hung Nguyen, Bin Cui, Hongzhi Yin <sup>#</sup>. <br>
+***ICDE 2024, CCF-A***.
+
+1.  *Graph Condensation for Inductive Node Representation Learning.* [To appear] <br>
+Xinyi Gao, Tong Chen, Yiling Zang,  **Wentao Zhang**, Quoc Viet Hung Nguyen, Kai Zheng, Hongzhi Yin. <br>
+***ICDE 2024, CCF-A***.
+
+1.  *AdaFGL: A New Paradigm for Federated Node Classification with Topology Heterogeneity.* [To appear] <br>
+Xunkai Li, Zhenyu Wu,  **Wentao Zhang**, Henan Sun, Ronghua Li, Gouren Wang. <br>
 ***ICDE 2024, CCF-A***.
 
 1.  *Improving Diffusion-Based Image Synthesis with Context Prediction.* [To appear] <br>
