@@ -64,13 +64,13 @@ Research Interests
 ---
 + **Data-centric ML**: 近些年来AI模型发展遇到了瓶颈，大部分SOTA模型（如ChatGPT和SAM）都是沿用2017年提出的Transformer结构，性能收益来源由模型转变为数据。我主要考虑优化Data quality (e.g., imbalance, noise and OOD), quantity (e.g., annotation and augmentation), efficiency (e.g., distillation, compression, and selection) 和 privacy (e.g., attack and FL)，以较低成本和较短时间来获得大量高质量数据。以大模型为例，在考虑数据获取成本和效率的前提下，研究科学和系统的数据质量评估策略，设计高效的数据选择方法，构建有效的数据配比方式，并探索使用大模型来辅助数据优化（如自动数据标注）。
 
-+ **Graph ML**: 图数据广泛存在于现实生活中，如微信里的社交网络，知识图谱以及淘宝推荐场景里的用户商品二部图。图机器学习也即“将机器学习应用于图数据”，有望解决传统深度学习无法处理的关系推理、可解释性等一系列问题。我主要考虑以图神经网络（GNN）为切入点，研究GNN的可扩展性，以及用DCML的思想来优化图数据（如图结构优化、图数据增强和图异常处理等）。
++ **DCML on Graph**: 图数据广泛存在于现实生活中，如微信里的社交网络，知识图谱以及淘宝推荐场景里的用户商品二部图。图机器学习也即“将机器学习应用于图数据”，有望解决传统深度学习无法处理的关系推理、可解释性等一系列问题。我主要考虑以图神经网络（GNN）为切入点，研究如何训练超大规模图数据，以及用DCML的思想来优化图数据（如图结构优化、图数据增强和图异常处理等）。
 
-+ **ML Systems**: ML System是人工智能和计算机系统的交叉领域，也是目前计算机系统研究前沿的热点方向。我主要考虑从系统层面来支持DCML任务，如支持多种类型（如Graph和Text）的数据格式，支持大规模数据的处理（如Distributed ML），以及降低系统的使用门槛（如AutoML）等。
++ **DCML Systems**: ML System是人工智能和计算机系统的交叉领域，也是目前计算机系统研究前沿的热点方向。我主要考虑从系统层面来支持DCML任务，如支持多种类型（如Graph和Text）的数据格式，支持大规模数据的处理（如Distributed ML），以及降低系统的使用门槛（如AutoML）等。
 
-+ **AI4Science**: AI4Science是人工智能和Science交叉领域，也是目前学术界和工业界前沿的热点方向。我主要研究和设计高效的Science数据（如蛋白质和分子）构建和预处理方式，以及分子建模与生物制药等交叉应用。
++ **DCML for Science**: AI4Science是人工智能和Science交叉领域，也是目前学术界和工业界前沿的热点方向。我主要以数据为中心，研究和设计高效的Science数据（如蛋白质和分子）构建和预处理方式，以及分子建模与生物制药等交叉应用。
 
-+ **Diffusion Model&AIGC**: 扩散模型是当前最热门的生成模型，其应用领域包含了CV、NLP以及交叉学科等，我主要探究扩散模型如何更好地应用于各种复杂生成场景，如文生图、文生视频、可控3D生成、多模态学习等。
++ **DCML for Diffusion Model&AIGC**: 扩散模型是当前最热门的生成模型，其应用领域包含了CV、NLP以及交叉学科等，我主要探究以数据为中心，将扩散模型如何更好地应用于各种复杂数据生成场景，如文生图、文生视频、可控3D生成、多模态学习等。
 
 A summary of my recent works:
 - **Data-centric ML on graph**: how to prepare high quality and quantity data for graph ML? <br>
