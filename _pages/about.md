@@ -260,7 +260,7 @@ I am happy to give a talk if you are interested in my work. 😊
   UvA, 2022. 04 <br>
   PKU, 2023.05 <br>
   HKUST, 2023.04 <br>
-1. Towards Data-Centric ML.《数据驱动的机器学习》<br>
+1. Towards Data-Centric ML.《以数据为中心的机器学习》<br>
   Apple research, 2022. 06 <br>
   RUC, 2023.06 <br>
   SEU, 2023.07 <br>
