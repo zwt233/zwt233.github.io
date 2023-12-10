@@ -181,7 +181,6 @@ Contributed Open-source Projects
 Selected Awards
 ------
 24. 🏆 [Best Paper Runner Up Award](http://www.apweb-waim2023.com/), ***APWeb-WAIM 2023***.
-<!-- 21. [Outstanding Doctoral Dissertation Award](https://jw.beijing.gov.cn/kyc/tzgg_15522/202311/t20231124_3309126.html), Beijing **(Sole winner in PKU CS, and 104 people in Beijing)**, 2023-->
 24. [Rising Star](https://mp.weixin.qq.com/s/Lecza9L8zgZYDPdKpkP2XA) (云帆奖-明日之星), World AI Conference, 2022.
 23. 🏆 [Best Student Paper Award](https://www2022.thewebconf.org/awards/) of ***WWW 2022*** **(1/1822,  the second WWW Best Student Paper from China)**, 2022
 22. [IVADO Postdoctoral Fellowship](https://ivado.ca/en/research-community/), Canada
@@ -195,6 +194,7 @@ Selected Awards
 11. National Scholarship **(Top 1% in PKU)**, 2019, 2021
 8. [Baidu Scholarship Nominee](http://scholarship.baidu.com/) **(20 people in the world)**, 2021
   
+<!-- 21. [Outstanding Doctoral Dissertation Award](https://jw.beijing.gov.cn/kyc/tzgg_15522/202311/t20231124_3309126.html), Beijing **(Sole winner in PKU CS, and 104 people in Beijing)**, 2023-->
 Selected Competitions
 ------
 1. Outstanding Winner of the [openGCC contest](https://mp.weixin.qq.com/s/8JX5ymkUt5MvDcHLOjB3Xw) in CCF ChinaSoft **(1/3814)**, 2021
