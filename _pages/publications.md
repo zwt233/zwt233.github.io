@@ -27,6 +27,11 @@ Xinyi Gao, Tong Chen, Yiling Zang,  **Wentao Zhang**, Quoc Viet Hung Nguyen, Kai
 Xunkai Li, Zhenyu Wu,  **Wentao Zhang**, Henan Sun, Ronghua Li, Gouren Wang. <br>
 ***ICDE 2024, CCF-A***.
 
+1.  *Towards Effective and General Graph Unlearning via Mutual Evolution.* [To appear] <br>
+Xunkai Li, Yulin Zhao, Zhengyu Wu, **Wentao Zhang**, Ronghua Li, Gouren Wang. <br>
+***AAAI 2024, CCF-A***.
+
+
 1.  *Improving Diffusion-Based Image Synthesis with Context Prediction.* [To appear] <br>
 Ling Yang, Jingwei Liu, Shenda Hong, Zhilong Zhang, Zhilin Huang, Zheming Cai, **Wentao Zhang<sup>#</sup>**, Bin Cui<sup>#</sup>. <br>
 ***NeurIPS 2023, CCF-A***.
