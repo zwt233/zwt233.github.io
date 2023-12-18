@@ -9,7 +9,7 @@ author_profile: true
 <sup>*</sup> indicates equal contribution, 
 <sup>#</sup> indicates corresponding author
 
-2023
+2024
 ====
 1.  *NC-ALG: Graph-based Active Learning under Noisy Crowd.* [To appear] <br>
 **Wentao Zhang**, Yexin Wang, Zhenbang You, Yang Li, Gang Cao, Zhi Yang, Bin Cui. <br>
@@ -31,7 +31,8 @@ Xunkai Li, Zhenyu Wu,  **Wentao Zhang**, Henan Sun, Ronghua Li, Gouren Wang. <br
 Xunkai Li, Yulin Zhao, Zhengyu Wu, **Wentao Zhang**, Ronghua Li, Gouren Wang. <br>
 ***AAAI 2024, CCF-A***.
 
-
+2023
+====
 1.  *Improving Diffusion-Based Image Synthesis with Context Prediction.* [To appear] <br>
 Ling Yang, Jingwei Liu, Shenda Hong, Zhilong Zhang, Zhilin Huang, Zheming Cai, **Wentao Zhang<sup>#</sup>**, Bin Cui<sup>#</sup>. <br>
 ***NeurIPS 2023, CCF-A***.
@@ -44,7 +45,7 @@ ACM Computing Survey.<br>
 1.  *FedGTA: Topology-aware Averaging for Federated Graph Learning.* [To appear] <br>
 Xunkai Li, Zhenyu Wu, **Wentao Zhang**, Yinlin Zhu, Ronghua Li, Guoren Wang.<br>
 International Conference on Very Large Data Bases. <br>
-***VLDB 2024, CCF-A***.
+***VLDB 2023, CCF-A***.
 
 1.  *Rover: An online Spark SQL tuning service via generalized transfer learning.* [To appear] <br>
 Yu Shen, Xinyuyang Ren, Yupeng Lu, Huaijun Jiang, Di Peng, Huanyong Xu, Yang Li, **Wentao Zhang<sup>#</sup>**, Bin Cui.<br>
