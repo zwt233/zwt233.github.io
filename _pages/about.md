@@ -58,9 +58,9 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
   - 根据每位学生的基础、兴趣和未来规划针对性制定培养方案，一对一指导（至少meeting 1次/周）
   - 作为同龄人:)讨论学习、生活、工作和职业规划，尊重学生想法成为朋友😊
 - **3. 合作资源**
-  - 算力：丰富的计算资源（如80GB Tesla A100集群）
-  - 业界合作：工业界合作伙伴 (如Apple、腾讯、华为、上海AI Lab、百川智能等) 实习和工作推荐
-  - 学术合作：学术界合作伙伴（如Mila、Stanford、ETH、HKUST、NUS和UQ等）交流机会
+  - 丰富的计算资源（如80GB Tesla A100集群）
+  - 工业界合作伙伴 (如Apple、腾讯、华为、上海AI Lab、百川智能等) 实习和工作推荐
+  - 学术界合作伙伴（如Mila、Stanford、ETH、HKUST、NUS和UQ等）交流机会
   - 助研津贴（视参与程度）
 - **4. 其他**
   - 推荐信和优先保送本课题组硕博（叉院PhD住宿和工位在校本部燕园校区）的机会
@@ -231,7 +231,7 @@ Selected Program Committee Member and Reviewer
    - PAKDD 2023, 2024
 - **Others**: 
    - ICCV 2023
-   - CVPR 2023
+   - CVPR 2023, 2024
    - SCIS 2023
 
   
