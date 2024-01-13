@@ -61,7 +61,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
   - 丰富的计算资源（如80GB Tesla A100集群）
   - 工业界合作伙伴 (如Apple、腾讯、华为、上海AI Lab、百川智能等) 实习和工作推荐
   - 学术界合作伙伴（如Mila、Stanford、ETH、HKUST、NUS和UQ等）交流机会
-  - 助研津贴（视参与程度）
+  - 助研津贴（实习生视参与程度）
 - **4. 其他**
   - 推荐信和优先保送本课题组硕博（叉院PhD住宿和工位在校本部燕园校区）的机会
   - 组内氛围融洽，定期组织团建（如徒步、羽毛球和聚餐等），自愿参加
