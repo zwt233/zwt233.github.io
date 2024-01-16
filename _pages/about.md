@@ -42,9 +42,9 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 
 **<font color=red>We have opening positions for PhDs (2 students/year), Masters and Research Interns (not limited to PKU, work online). Interested persons please contact me directly!</font>**
 
-**<font color=red>2023年秋季入学国际机器学习研究中心的博士轮转名额还有2个空缺！</font>**
+**<font color=red>2023年秋季入学国际机器学习研究中心的博士轮转名额还有1个空缺！</font>**
 
-**<font color=red>2024年秋季入学的申请考核制博士、硕士（北大数院大数据硕士项目）名额还有空缺！</font>**
+<!-- **<font color=red>2024年秋季入学的申请考核制博士（已截止），硕士（北大数院大数据硕士项目）名额还有空缺！</font>**-->
 
 **<font color=red>长期招收实习生（可远程校外实习, 申请2025年秋季入学博士/硕士的学生，建议先联系实习），如感兴趣请直接联系我！</font>**
 
