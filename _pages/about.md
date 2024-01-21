@@ -232,6 +232,7 @@ Selected Program Committee Member and Reviewer
    - PAKDD 2023, 2024
 - **Others**: 
    - ICCV 2023
+   - ECCV 2024
    - CVPR 2023, 2024
    - SCIS 2023
 
