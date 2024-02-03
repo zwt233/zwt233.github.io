@@ -122,6 +122,7 @@ A summary of my recent works:
 **<font color=red>What's New</font>**
 ------
 * **2024-01**: One paper is accepted by ***WWW 2024***.
+* **2024-01**: One paper is accepted by ***ACM Computing Survey 2024***.
 * **2024-01**: Two papers are accepted by ***ICLR 2024***.
 * **2023-12**: One paper is accepted by ***AAAI 2024***.
 * **2023-12**: Three papers are accepted by ***ICDE 2024***.
