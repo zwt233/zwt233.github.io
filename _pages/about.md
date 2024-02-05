@@ -122,10 +122,12 @@ A summary of my recent works:
 **<font color=red>What's New</font>**
 ------
 * **2024-02**: One paper is accepted by ***SIGMOD 2024***.
+* **2023-02**: I was grateful to be awared ***[2023 CAAI Doctoral Dissertation Award](https://caai.cn/index.php?s=/home/article/detail/id/3463.html).***.
 * **2024-01**: One paper is accepted by ***WWW 2024***.
 * **2024-01**: One paper is accepted by ***ACM Computing Survey 2024***.
 * **2024-01**: Two papers are accepted by ***ICLR 2024***.
 * **2023-12**: One paper is accepted by ***AAAI 2024***.
+* **2023-12**: I was grateful to be awared ***[2023 Beijing Doctoral Dissertation Award](https://dse.pku.edu.cn/news/xwdt/ed076d531905491f9968910088d2150a.htm)***.
 * **2023-12**: Three papers are accepted by ***ICDE 2024***.
 * **2023-10**: One paper is accepted by ***ICDE 2024***.
 * **2023-10**: 🏆 We win the ***<font color=orange>Best Paper Runner Up Award </font>***  in ***APWeb-WAIM 2023***.
