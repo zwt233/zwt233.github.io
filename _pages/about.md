@@ -127,7 +127,7 @@ A summary of my recent works:
 * **2024-01**: One paper is accepted by ***ACM Computing Survey 2024***.
 * **2024-01**: Two papers are accepted by ***ICLR 2024***.
 * **2023-12**: One paper is accepted by ***AAAI 2024***.
-* **2023-12**: I am awared ***[2023 Beijing Doctoral Dissertation Award](https://dse.pku.edu.cn/news/xwdt/ed076d531905491f9968910088d2150a.htm)***.
+* **2023-12**: I am awared ***[2023 Beijing Doctoral Dissertation Award](https://mp.weixin.qq.com/s/nCAuWHX3AlTkMIJL83DVzw)***.
 * **2023-12**: Three papers are accepted by ***ICDE 2024***.
 * **2023-10**: One paper is accepted by ***ICDE 2024***.
 * **2023-10**: 🏆 We win the ***<font color=orange>Best Paper Runner Up Award </font>***  in ***APWeb-WAIM 2023***.
@@ -193,7 +193,7 @@ Contributed Open-source Projects
 Selected Awards
 ------
 21. [Outstanding Doctoral Dissertation Award](https://caai.cn/index.php?s=/home/article/detail/id/3463.html), CAAI（中国人工智能学会）  **(10 people in China)**, 2023
-21. [Outstanding Doctoral Dissertation Award](https://dse.pku.edu.cn/news/xwdt/ed076d531905491f9968910088d2150a.htm), Beijing  **(14 people in PKU, and 104 people in Beijing)**, 2023
+21. [Outstanding Doctoral Dissertation Award](https://mp.weixin.qq.com/s/nCAuWHX3AlTkMIJL83DVzw), Beijing  **(14 people in PKU, and 104 people in Beijing)**, 2023
 24. 🏆 [Best Paper Runner Up Award](http://www.apweb-waim2023.com/), ***APWeb-WAIM 2023***.
 24. [Rising Star](https://mp.weixin.qq.com/s/Lecza9L8zgZYDPdKpkP2XA) (云帆奖-明日之星), World AI Conference, 2022.
 23. 🏆 [Best Student Paper Award](https://www2022.thewebconf.org/awards/) of ***WWW 2022*** **(1/1822,  the 2nd WWW Best Student Paper from China)**, 2022
