@@ -121,6 +121,7 @@ A summary of my recent works:
 
 **<font color=red>What's New</font>**
 ------
+* **2024-02**: One paper is accepted by ***VLDB 2024***.
 * **2024-02**: One paper is accepted by ***SIGMOD 2024***.
 * **2024-02**: I am awared ***[2023 CAAI Doctoral Dissertation Award](https://caai.cn/index.php?s=/home/article/detail/id/3463.html)***.
 * **2024-01**: One paper is accepted by ***WWW 2024***.
