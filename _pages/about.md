@@ -121,6 +121,7 @@ A summary of my recent works:
 
 **<font color=red>What's New</font>**
 ------
+* **2024-02**: I am awared ***[First Prize of Scientific and Technological Progress Award ](https://www.cie.org.cn/list_43/12031.html)*** of CIE due to the [Angel](https://github.com/Angel-ML/angel) Project.
 * **2024-02**: One paper is accepted by ***VLDB 2024***.
 * **2024-02**: One paper is accepted by ***SIGMOD 2024***.
 * **2024-02**: I am awared ***[2023 CAAI Doctoral Dissertation Award](https://caai.cn/index.php?s=/home/article/detail/id/3463.html)***.
@@ -193,7 +194,7 @@ Contributed Open-source Projects
   
 Selected Awards
 ------
-21. [Outstanding Doctoral Dissertation Award](https://caai.cn/index.php?s=/home/article/detail/id/3463.html), CAAI（中国人工智能学会）  **(10 people in China)**, 2023
+21. [First Prize of Scientific and Technological Progress Award](https://www.cie.org.cn/list_43/12031.html)（科技进步一等奖）, CIE（中国电子学会）, 2023
 21. [Outstanding Doctoral Dissertation Award](https://mp.weixin.qq.com/s/nCAuWHX3AlTkMIJL83DVzw), Beijing  **(14 people in PKU, and 104 people in Beijing)**, 2023
 24. 🏆 [Best Paper Runner Up Award](http://www.apweb-waim2023.com/), ***APWeb-WAIM 2023***.
 24. [Rising Star](https://mp.weixin.qq.com/s/Lecza9L8zgZYDPdKpkP2XA) (云帆奖-明日之星), World AI Conference, 2022.
