@@ -195,16 +195,17 @@ Contributed Open-source Projects
 Selected Awards
 ------
 21. [First Prize of Scientific and Technological Progress Award](https://www.cie.org.cn/list_43/12031.html)（科技进步一等奖）, CIE（中国电子学会）, 2023
-21. [Outstanding Doctoral Dissertation Award](https://mp.weixin.qq.com/s/nCAuWHX3AlTkMIJL83DVzw), Beijing  **(14 people in PKU, and 104 people in Beijing)**, 2023
+21. [Outstanding Doctoral Dissertation Award](https://caai.cn/index.php?s=/home/article/detail/id/3463.html)（优秀博士学会论文奖）, CAAI（中国人工智能学会）  **(10 people in China)**, 2023
+21. [Outstanding Doctoral Dissertation Award](https://mp.weixin.qq.com/s/nCAuWHX3AlTkMIJL83DVzw)（优秀博士学会论文奖）, Beijing  **(14 people in PKU, and 104 people in Beijing)**, 2023
 24. 🏆 [Best Paper Runner Up Award](http://www.apweb-waim2023.com/), ***APWeb-WAIM 2023***.
 24. [Rising Star](https://mp.weixin.qq.com/s/Lecza9L8zgZYDPdKpkP2XA) (云帆奖-明日之星), World AI Conference, 2022.
 23. 🏆 [Best Student Paper Award](https://www2022.thewebconf.org/awards/) of ***WWW 2022*** **(1/1822,  the 2nd WWW Best Student Paper from China)**, 2022
 22. [IVADO Postdoctoral Fellowship](https://ivado.ca/en/research-community/), Canada
-21. [Outstanding Doctoral Dissertation Award](https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm), Peking University  **(Sole winner in Computer Software and Theory)**, 2022
+21. [Outstanding Doctoral Dissertation Award](https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm)（优秀博士学会论文奖）, Peking University  **(Sole winner in Computer Software and Theory)**, 2022
 19. [Outstanding Graduate of Beijing](https://xgb.pku.edu.cn/docs/2022-06/20220606163325764115.pdf), China, 2022
-17. Candidate of [May 4th Medal](https://mp.weixin.qq.com/s/AbqR2yFyduYn2PcZYbhXww) **(Each School recommends 1 candidate, highest honor in PKU)**, 2022
+17. Candidate of [May 4th Medal](https://mp.weixin.qq.com/s/AbqR2yFyduYn2PcZYbhXww)（五四奖章） **(Each School recommends 1 candidate, highest honor in PKU)**, 2022
 16. [The Big Data Expo Leading Technology Achievement Award](https://mp.weixin.qq.com/s/TlNywcR4pCl1c84KLTpeNA), China International Big Data Industry Expo (Angel Graph project), 2022
-15. Candidate of [People of the Year](https://mp.weixin.qq.com/s/zEcwHYsjqLhTsCDTnS-fsA) **(1 people in EECS, and 42 people in PKU)**, 2021
+15. Candidate of [People of the Year](https://mp.weixin.qq.com/s/zEcwHYsjqLhTsCDTnS-fsA)（年度人物） **(1 people in EECS, and 42 people in PKU)**, 2021
 14. [Merit Student of Beijing](https://xgb.pku.edu.cn/sylm/133002.htm) **(2 people in EECS, and 58 people in PKU)**, 2021
 13. [Apple PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021) **(1 people in China, and 15 people in the world)**, 2021
 11. National Scholarship **(Top 1% in PKU)**, 2019, 2021
