@@ -68,7 +68,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
     
 Research Interests
 ---
-+ **General DCML**: 近些年来AI模型发展遇到了瓶颈，大部分SOTA模型（如ChatGPT和SAM）都是沿用2017年提出的Transformer结构，性能收益来源由模型转变为数据。我主要考虑优化Data quality (e.g., imbalance, noise and OOD), quantity (e.g., annotation and augmentation), efficiency (e.g., distillation, compression, and selection) 和 privacy (e.g., attack and FL)，以较低成本和较短时间来获得大量高质量数据。以大模型为例，在考虑数据获取成本和效率的前提下，研究科学和系统的数据质量评估策略，设计高效的数据选择方法，构建有效的数据配比方式，并探索使用大模型来辅助数据优化（如自动数据标注）。
++ **General DCML**: 近些年来AI模型发展遇到了瓶颈，大部分SOTA模型（如ChatGPT和SAM）都是沿用2017年提出的Transformer结构，性能收益来源由模型转变为数据。我主要考虑优化Data quality (e.g., imbalance, noise and OOD), quantity (e.g., annotation and augmentation), efficiency (e.g., distillation, compression, and selection) 和 privacy (e.g., attack and FL)，以较低成本和较短时间来获得大量高质量数据。 以大语言模型为例，在考虑数据获取成本和效率的前提下，研究科学和系统的数据质量评估策略，设计高效的数据选择（如过滤、去重和降噪）方法，构建有效的数据配比方式，并探索使用大模型来辅助数据优化（如自动数据标注和数据生成）。
 
 + **DCML on Graph**: 图数据广泛存在于现实生活中，如微信里的社交网络，知识图谱以及淘宝推荐场景里的用户商品二部图。图机器学习也即“将机器学习应用于图数据”，有望解决传统深度学习无法处理的关系推理、可解释性等一系列问题。我主要考虑 1) 以图神经网络（GNN）为切入点，用DCML的思想来优化图数据（如图特征工程、图结构优化、图数据增强和图异常处理等)；2) LLM+GNN，探索更好的图数据表达形式，用于支持通用图大模型。
   
