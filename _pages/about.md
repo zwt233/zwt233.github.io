@@ -228,6 +228,7 @@ Selected Program Committee Member and Reviewer
    - ICDE 2023,2024
    - DASFFA 2022
    - VLDBJ 2022,2023
+   - VLDB 2024
 - **Machine Learning**: 
    - ICML 2021, 2022, 2023, 2024
    - NeurIPS 2022, 2023
