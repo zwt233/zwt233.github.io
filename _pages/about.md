@@ -121,8 +121,8 @@ A summary of my recent works:
 
 **<font color=red>What's New</font>**
 ------
-* **2024-04**: One papers is accepted by ***JMLR 2024***.
-* **2024-04**: One papers is accepted by ***TKDE 2024***.
+* **2024-04**: One paper is accepted by ***JMLR 2024***.
+* **2024-04**: One paper is accepted by ***TKDE 2024***.
 * **2024-03**: Four papers are accepted by ***ICDE 2024***.
 * **2024-02**: I am awared ***[First Prize of Scientific and Technological Progress Award](https://www.cie.org.cn/list_43/12031.html)*** of CIE due to the [Angel](https://github.com/Angel-ML/angel) Project.
 * **2024-02**: One paper is accepted by ***VLDB 2024***.
