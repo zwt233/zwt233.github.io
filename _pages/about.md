@@ -121,6 +121,7 @@ A summary of my recent works:
 
 **<font color=red>What's New</font>**
 ------
+* **2024-05**: One paper is accepted by the main track of ***ACL 2024***.
 * **2024-04**: One paper is accepted by ***ICML 2024***.
 * **2024-04**: One paper is accepted by ***JMLR 2024***.
 * **2024-04**: One paper is accepted by ***TKDE 2024***.
