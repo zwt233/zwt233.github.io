@@ -11,10 +11,6 @@ author_profile: true
 
 2024
 ====
-1.  *HGAMLP: Heterogeneous Graph Attention MLP with De-redundancy Mechanism.*  <br>
-Yuxuan Liang, **Wentao Zhang<sup>#</sup>**, Zeang Sheng, Ling Yang, Jiawei Jiang, Yunhai Tong, Bin Cui.<br>
-***ICDE 2024, CCF-A***.
-
 1.  *ProtLLM: An Interleaved Protein-Language LLM with Protein-as-Word Pre-Training.*  <br>
 Le Zhuo, Zewen Chi, Minghao Xu, Heyan Huang, Jianan Zhao, Heqi Zheng, Conghui He, Xian-Ling Mao, **Wentao Zhang<sup>#</sup>**.<br>
 ***ACL (main) 2024, CCF-A***.
@@ -22,6 +18,10 @@ Le Zhuo, Zewen Chi, Minghao Xu, Heyan Huang, Jianan Zhao, Heqi Zheng, Conghui He
 1.  *Diffusion Models: A Comprehensive Survey of Methods* [[Paper](https://arxiv.org/abs/2209.00796)][[Code](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy)] <br>
 Ling Yang, Zhilong Zhang, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, **Wentao Zhang<sup>#</sup>**, Ming-Hsuan Yang<sup>#</sup>, Bin Cui<sup>#</sup>. <br>
 ***CSUR 2024, CCF-A***.
+
+1.  *HGAMLP: Heterogeneous Graph Attention MLP with De-redundancy Mechanism.*  <br>
+Yuxuan Liang, **Wentao Zhang<sup>#</sup>**, Zeang Sheng, Ling Yang, Jiawei Jiang, Yunhai Tong, Bin Cui.<br>
+***ICDE 2024, CCF-A***.
 
 1.  *NPA: Improving Large-scale Graph Neural Networks with Non-parametric Attention.*  <br>
  **Wentao Zhang**, Guochen Yan , Yu Shen , Yang Ling , Yangyu Tao , Bin Cui , Jian Tang <br>
