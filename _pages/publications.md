@@ -11,118 +11,118 @@ author_profile: true
 
 2024
 ====
-1.  *BIM: Improving Graph Neural Networks with Balanced Influence Maximization.* [To appear] <br>
-**Wentao Zhang**, Xinyi Gao, Ling Yang, Meng Cao, Jiulong Shan, Hongzhi Yin, Bin Cui.<br>
-***ICDE 2024, CCF-A***.
-
-1.  *NC-ALG: Graph-based Active Learning under Noisy Crowd.* [To appear] <br>
-**Wentao Zhang**, Yexin Wang, Zhenbang You, Yang Li, Gang Cao, Zhi Yang, Bin Cui. <br>
-***ICDE 2024, CCF-A***.
-
-1.  *HGAMLP: Heterogeneous Graph Attention MLP with De-redundancy Mechanism.* [To appear] <br>
+1.  *HGAMLP: Heterogeneous Graph Attention MLP with De-redundancy Mechanism.*  <br>
 Yuxuan Liang, **Wentao Zhang<sup>#</sup>**, Zeang Sheng, Ling Yang, Jiawei Jiang, Yunhai Tong, Bin Cui.<br>
 ***ICDE 2024, CCF-A***.
 
-1.  *ProtLLM: An Interleaved Protein-Language LLM with Protein-as-Word Pre-Training.* [To appear] <br>
+1.  *ProtLLM: An Interleaved Protein-Language LLM with Protein-as-Word Pre-Training.*  <br>
 Le Zhuo, Zewen Chi, Minghao Xu, Heyan Huang, Jianan Zhao, Heqi Zheng, Conghui He, Xian-Ling Mao, **Wentao Zhang<sup>#</sup>**.<br>
-***ACL 2024, CCF-A***.
+***ACL (main) 2024, CCF-A***.
 
 1.  *Diffusion Models: A Comprehensive Survey of Methods* [[Paper](https://arxiv.org/abs/2209.00796)][[Code](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy)] <br>
 Ling Yang, Zhilong Zhang, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, **Wentao Zhang<sup>#</sup>**, Ming-Hsuan Yang<sup>#</sup>, Bin Cui<sup>#</sup>. <br>
-***CSUR 2024, CCF-A***. 
+***CSUR 2024, CCF-A***.
 
-1.  *Graphusion: Latent Diffusion for Graph Generation.* [To appear] <br>
-Ling Yang, Zhilin Huang, Zhilong Zhang, Zhongyi Liu, Shenda Hong, **Wentao Zhang**, Wenming Yang, Bin Cui, Luxia Zhang.<br>
-***TKDE 2024, CCF-A***.
-
-1.  *OpenBox: A Python Toolkit for Generalized Black-box Optimization.* [To appear] <br>
-Huaijun Jiang, Yu Shen, Yang Li, Beicheng Xu, Sixian Du, **Wentao Zhang**, Ce Zhang, Bin Cui.<br>
-***JMLR 2024, CCF-A***.
-
-1.  *Interaction-based Retrieval-augmented Diffusion Models for Protein-specific 3D Molecule Generation.* [To appear] <br>
-Zhilin Huang*, Ling Yang*, Xiangxin Zhou, Chujun Qin, Yijie Yu, Xiawu Zheng, Zikun Zhou, **Wentao Zhang**, Yu Wang, Wenming Yang.<br>
-***ICML 2024, CCF-A***.
-
-1.  *Graph Condensation for Open-World Graph Learning.* [To appear] <br>
-Xinyi Gao, Tong Chen,  **Wentao Zhang**, Yayong Li, Xiangguo Sun, Hongzhi Yin.<br>
-***SIGKDD 2024, CCF-A***.
-
-1.  *Generative and Contrastive Paradigms Are Complementary for Graph Self-Supervised Learning.* [To appear] <br>
-Yuxiang Wang, Xiao Yan, Chuang Hu, Quanqing Xu, Chuanhui Yang,  Fangcheng Fu,  **Wentao Zhang**, Hao Wang , Bo Du, Jiawei Jiang.<br>
-***ICDE 2024, CCF-A***.
-
-1.  *Multi-View Teacher with Curriculum Data Fusion for Robust Unsupervised Domain Adaptation.* [To appear] <br>
-Yuhao Tang, Junyu Luo, Ling Yang, Xiao Luo, **Wentao Zhang**, Bin Cui.<br>
-***ICDE 2024, CCF-A***.
-
-1.  *FedGTA: Topology-aware Averaging for Federated Graph Learning.* [To appear] <br>
-Xunkai Li, Zhengyu Wu, **Wentao Zhang**, Yinlin Zhu, Rong-Hua Li, Guoren Wang <br>
-***VLDB 2024, CCF-A***.
-
-1.  *NPA: Improving Large-scale Graph Neural Networks with Non-parametric Attention.* [To appear] <br>
+1.  *NPA: Improving Large-scale Graph Neural Networks with Non-parametric Attention.*  <br>
  **Wentao Zhang**, Guochen Yan , Yu Shen , Yang Ling , Yangyu Tao , Bin Cui , Jian Tang <br>
 ***SIGMOD 2024, CCF-A***.
 
-1.  *Rethinking Node-wise Propagation for Large-scale Graph Learning.* [To appear] <br>
+1.  *BIM: Improving Graph Neural Networks with Balanced Influence Maximization.*  <br>
+**Wentao Zhang**, Xinyi Gao, Ling Yang, Meng Cao, Jiulong Shan, Hongzhi Yin, Bin Cui.<br>
+***ICDE 2024, CCF-A***.
+
+1.  *NC-ALG: Graph-based Active Learning under Noisy Crowd.*<br>
+**Wentao Zhang**, Yexin Wang, Zhenbang You, Yang Li, Gang Cao, Zhi Yang, Bin Cui. <br>
+***ICDE 2024, CCF-A***.
+
+1.  *Graph Condensation for Open-World Graph Learning.*  <br>
+Xinyi Gao, Tong Chen,  **Wentao Zhang**, Yayong Li, Xiangguo Sun, Hongzhi Yin.<br>
+***SIGKDD 2024, CCF-A***.
+
+1.  *Rethinking Node-wise Propagation for Large-scale Graph Learning.* <br>
 Xunkai Li, Jingyuan Ma, Zhengyu Wu, Daohan Su, **Wentao Zhang**, Rong-Hua Li, Guoren Wang <br>
 ***WWW 2024, CCF-A***.
 
-1.  *Protein-Ligand Interaction Prior for Binding-aware 3D Molecule Diffusion Models.* [To appear] <br>
-Zhilin Huang*, Ling Yang*, Xiangxin Zhou, Zhilong Zhang, **Wentao Zhang**, Xiawu Zheng, Jie Chen, Yu Wang, Bin Cui, Wenming Yang<br>
-***ICLR 2024, CCF-A***.
+1.  *FedGTA: Topology-aware Averaging for Federated Graph Learning.*  <br>
+Xunkai Li, Zhengyu Wu, **Wentao Zhang**, Yinlin Zhu, Rong-Hua Li, Guoren Wang <br>
+***VLDB 2024, CCF-A***.
 
-1.  *VQGraph: Rethinking Graph Representation Space for Bridging GNNs and MLPs.* [To appear] <br>
-Ling Yang, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu,  **Wentao Zhang**, Bin Cui, Muhan Zhang, Jure Leskovec<br>
-***ICLR 2024, CCF-A***.
-
-1.  *Accelerating Scalable Graph Neural Network Inference with Node-Adaptive Propagation.* [To appear] <br>
+1.  *Accelerating Scalable Graph Neural Network Inference with Node-Adaptive Propagation.*  <br>
 Xinyi Gao, **Wentao Zhang<sup>#</sup>**, Junliang Yu, Yingxia Shao, Quoc Viet Hung Nguyen, Bin Cui, Hongzhi Yin <sup>#</sup>. <br>
 ***ICDE 2024, CCF-A***.
 
-1.  *Graph Condensation for Inductive Node Representation Learning.* [To appear] <br>
+1.  *Graph Condensation for Inductive Node Representation Learning.*  <br>
 Xinyi Gao, Tong Chen, Yiling Zang,  **Wentao Zhang**, Quoc Viet Hung Nguyen, Kai Zheng, Hongzhi Yin. <br>
 ***ICDE 2024, CCF-A***.
 
-1.  *AdaFGL: A New Paradigm for Federated Node Classification with Topology Heterogeneity.* [To appear] <br>
+1.  *AdaFGL: A New Paradigm for Federated Node Classification with Topology Heterogeneity.*  <br>
 Xunkai Li, Zhenyu Wu,  **Wentao Zhang**, Henan Sun, Ronghua Li, Gouren Wang. <br>
 ***ICDE 2024, CCF-A***.
 
-1.  *Towards Effective and General Graph Unlearning via Mutual Evolution.* [To appear] <br>
+1.  *Generative and Contrastive Paradigms Are Complementary for Graph Self-Supervised Learning.* <br>
+Yuxiang Wang, Xiao Yan, Chuang Hu, Quanqing Xu, Chuanhui Yang,  Fangcheng Fu,  **Wentao Zhang**, Hao Wang , Bo Du, Jiawei Jiang.<br>
+***ICDE 2024, CCF-A***.
+
+1.  *Multi-View Teacher with Curriculum Data Fusion for Robust Unsupervised Domain Adaptation.*  <br>
+Yuhao Tang, Junyu Luo, Ling Yang, Xiao Luo, **Wentao Zhang**, Bin Cui.<br>
+***ICDE 2024, CCF-A***.
+
+1.  *Graphusion: Latent Diffusion for Graph Generation.*  <br>
+Ling Yang, Zhilin Huang, Zhilong Zhang, Zhongyi Liu, Shenda Hong, **Wentao Zhang**, Wenming Yang, Bin Cui, Luxia Zhang.<br>
+***TKDE 2024, CCF-A***.
+
+1.  *OpenBox: A Python Toolkit for Generalized Black-box Optimization.*  <br>
+Huaijun Jiang, Yu Shen, Yang Li, Beicheng Xu, Sixian Du, **Wentao Zhang**, Ce Zhang, Bin Cui.<br>
+***JMLR 2024, CCF-A***.
+
+1.  *Interaction-based Retrieval-augmented Diffusion Models for Protein-specific 3D Molecule Generation.*  <br>
+Zhilin Huang*, Ling Yang*, Xiangxin Zhou, Chujun Qin, Yijie Yu, Xiawu Zheng, Zikun Zhou, **Wentao Zhang**, Yu Wang, Wenming Yang.<br>
+***ICML 2024, CCF-A***.
+
+1.  *Protein-Ligand Interaction Prior for Binding-aware 3D Molecule Diffusion Models.* [To appear] <br>
+Zhilin Huang*, Ling Yang*, Xiangxin Zhou, Zhilong Zhang, **Wentao Zhang**, Xiawu Zheng, Jie Chen, Yu Wang, Bin Cui, Wenming Yang<br>
+***ICLR 2024***.
+
+1.  *VQGraph: Rethinking Graph Representation Space for Bridging GNNs and MLPs.*  <br>
+Ling Yang, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu,  **Wentao Zhang**, Bin Cui, Muhan Zhang, Jure Leskovec<br>
+***ICLR 2024***.
+
+1.  *Towards Effective and General Graph Unlearning via Mutual Evolution.*  <br>
 Xunkai Li, Yulin Zhao, Zhengyu Wu, **Wentao Zhang**, Ronghua Li, Gouren Wang. <br>
 ***AAAI 2024, CCF-A***.
 
 2023
 ====
-1.  *Improving Diffusion-Based Image Synthesis with Context Prediction.* [To appear] <br>
+1.  *Improving Diffusion-Based Image Synthesis with Context Prediction.*  <br>
 Ling Yang, Jingwei Liu, Shenda Hong, Zhilong Zhang, Zhilin Huang, Zheming Cai, **Wentao Zhang<sup>#</sup>**, Bin Cui<sup>#</sup>. <br>
 ***NeurIPS 2023, CCF-A***.
 
-1.  *Diffusion Models: A Comprehensive Survey of Methods.* [To appear] <br>
+1.  *Diffusion Models: A Comprehensive Survey of Methods.*  <br>
 Ling Yang, Zhilong Zhang, ..., **Wentao Zhang<sup>#</sup>**, Bin Cui<sup>#</sup>, Ming-Hsuan Yang<sup>#</sup>. <br>
 ACM Computing Survey.<br> 
 ***CSUR 2023, CCF-A***.
 
-1.  *FedGTA: Topology-aware Averaging for Federated Graph Learning.* [To appear] <br>
+1.  *FedGTA: Topology-aware Averaging for Federated Graph Learning.*  <br>
 Xunkai Li, Zhenyu Wu, **Wentao Zhang**, Yinlin Zhu, Ronghua Li, Guoren Wang.<br>
 International Conference on Very Large Data Bases. <br>
 ***VLDB 2023, CCF-A***.
 
-1.  *Rover: An online Spark SQL tuning service via generalized transfer learning.* [To appear] <br>
+1.  *Rover: An online Spark SQL tuning service via generalized transfer learning.* <br>
 Yu Shen, Xinyuyang Ren, Yupeng Lu, Huaijun Jiang, Di Peng, Huanyong Xu, Yang Li, **Wentao Zhang<sup>#</sup>**, Bin Cui.<br>
 SIGKDD Conference on Knowledge Discovery and Data Mining. <br>
 ***SIGKDD 2023, CCF-A***. 
 
-1.  *Towards General and Efficient Online Tuning for Spark.* [To appear] <br>
+1.  *Towards General and Efficient Online Tuning for Spark.*  <br>
 Yang Li, Huanjun Jiang, ..., **Wentao Zhang**, Ce Zhang, Peng Chen, Bin Cui. <br>
 International Conference on Very Large Data Bases. <br>
 ***VLDB 2023, CCF-A***. 
 
-1.  *Scapin : Scalable Graph Perturbation by Augmented Influence Maximization.* [To appear] <br>
+1.  *Scapin : Scalable Graph Perturbation by Augmented Influence Maximization.*  <br>
 Yexin Wang, Zhi Yang, Junqi Liu, **Wentao Zhang**, Bin Cui. <br>
 ACM SIGMOD International Conference on Management of Data. <br>
 ***SIGMOD 2023, CCF-A***.
 
-1.  *Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization.* [To appear] <br>
+1.  *Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization.*  <br>
 Ling Yang, Jiayi Zheng, Heyuan Wang, Zhongyi Liu, Zhilin Huang, Shenda Hong, **Wentao Zhang<sup>#</sup>**, Bin Cui. <br>
 IEEE Transactions on Knowledge and Data Engineering. <br>
 ***TKDE 2023, CCF-A***. 
