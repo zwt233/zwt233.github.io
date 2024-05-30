@@ -11,9 +11,69 @@ author_profile: true
 
 2024
 ====
+1.  *BIM: Improving Graph Neural Networks with Balanced Influence Maximization.* [To appear] <br>
+**Wentao Zhang**, Xinyi Gao, Ling Yang, Meng Cao, Jiulong Shan, Hongzhi Yin, Bin Cui.<br>
+***ICDE 2024, CCF-A***.
+
 1.  *NC-ALG: Graph-based Active Learning under Noisy Crowd.* [To appear] <br>
 **Wentao Zhang**, Yexin Wang, Zhenbang You, Yang Li, Gang Cao, Zhi Yang, Bin Cui. <br>
 ***ICDE 2024, CCF-A***.
+
+1.  *HGAMLP: Heterogeneous Graph Attention MLP with De-redundancy Mechanism.* [To appear] <br>
+Yuxuan Liang, **Wentao Zhang<sup>#</sup>**, Zeang Sheng, Ling Yang, Jiawei Jiang, Yunhai Tong, Bin Cui.<br>
+***ICDE 2024, CCF-A***.
+
+1.  *ProtLLM: An Interleaved Protein-Language LLM with Protein-as-Word Pre-Training.* [To appear] <br>
+Le Zhuo, Zewen Chi, Minghao Xu, Heyan Huang, Jianan Zhao, Heqi Zheng, Conghui He, Xian-Ling Mao, **Wentao Zhang<sup>#</sup>**.<br>
+***ACL 2024, CCF-A***.
+
+1.  *Diffusion Models: A Comprehensive Survey of Methods* [[Paper](https://arxiv.org/abs/2209.00796)][[Code](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy)] <br>
+Ling Yang, Zhilong Zhang, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, **Wentao Zhang<sup>#</sup>**, Ming-Hsuan Yang<sup>#</sup>, Bin Cui<sup>#</sup>. <br>
+***CSUR 2024, CCF-A***. 
+
+1.  *Graphusion: Latent Diffusion for Graph Generation.* [To appear] <br>
+Ling Yang, Zhilin Huang, Zhilong Zhang, Zhongyi Liu, Shenda Hong, **Wentao Zhang**, Wenming Yang, Bin Cui, Luxia Zhang.<br>
+***TKDE 2024, CCF-A***.
+
+1.  *OpenBox: A Python Toolkit for Generalized Black-box Optimization.* [To appear] <br>
+Huaijun Jiang, Yu Shen, Yang Li, Beicheng Xu, Sixian Du, **Wentao Zhang**, Ce Zhang, Bin Cui.<br>
+***JMLR 2024, CCF-A***.
+
+1.  *Interaction-based Retrieval-augmented Diffusion Models for Protein-specific 3D Molecule Generation.* [To appear] <br>
+Zhilin Huang*, Ling Yang*, Xiangxin Zhou, Chujun Qin, Yijie Yu, Xiawu Zheng, Zikun Zhou, **Wentao Zhang**, Yu Wang, Wenming Yang.<br>
+***ICML 2024, CCF-A***.
+
+1.  *Graph Condensation for Open-World Graph Learning.* [To appear] <br>
+Xinyi Gao, Tong Chen,  **Wentao Zhang**, Yayong Li, Xiangguo Sun, Hongzhi Yin.<br>
+***SIGKDD 2024, CCF-A***.
+
+1.  *Generative and Contrastive Paradigms Are Complementary for Graph Self-Supervised Learning.* [To appear] <br>
+Yuxiang Wang, Xiao Yan, Chuang Hu, Quanqing Xu, Chuanhui Yang,  Fangcheng Fu,  **Wentao Zhang**, Hao Wang , Bo Du, Jiawei Jiang.<br>
+***ICDE 2024, CCF-A***.
+
+1.  *Multi-View Teacher with Curriculum Data Fusion for Robust Unsupervised Domain Adaptation.* [To appear] <br>
+Yuhao Tang, Junyu Luo, Ling Yang, Xiao Luo, **Wentao Zhang**, Bin Cui.<br>
+***ICDE 2024, CCF-A***.
+
+1.  *FedGTA: Topology-aware Averaging for Federated Graph Learning.* [To appear] <br>
+Xunkai Li, Zhengyu Wu, **Wentao Zhang**, Yinlin Zhu, Rong-Hua Li, Guoren Wang <br>
+***VLDB 2024, CCF-A***.
+
+1.  *NPA: Improving Large-scale Graph Neural Networks with Non-parametric Attention.* [To appear] <br>
+ **Wentao Zhang**, Guochen Yan , Yu Shen , Yang Ling , Yangyu Tao , Bin Cui , Jian Tang <br>
+***SIGMOD 2024, CCF-A***.
+
+1.  *Rethinking Node-wise Propagation for Large-scale Graph Learning.* [To appear] <br>
+Xunkai Li, Jingyuan Ma, Zhengyu Wu, Daohan Su, **Wentao Zhang**, Rong-Hua Li, Guoren Wang <br>
+***WWW 2024, CCF-A***.
+
+1.  *Protein-Ligand Interaction Prior for Binding-aware 3D Molecule Diffusion Models.* [To appear] <br>
+Zhilin Huang*, Ling Yang*, Xiangxin Zhou, Zhilong Zhang, **Wentao Zhang**, Xiawu Zheng, Jie Chen, Yu Wang, Bin Cui, Wenming Yang<br>
+***ICLR 2024, CCF-A***.
+
+1.  *VQGraph: Rethinking Graph Representation Space for Bridging GNNs and MLPs.* [To appear] <br>
+Ling Yang, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu,  **Wentao Zhang**, Bin Cui, Muhan Zhang, Jure Leskovec<br>
+***ICLR 2024, CCF-A***.
 
 1.  *Accelerating Scalable Graph Neural Network Inference with Node-Adaptive Propagation.* [To appear] <br>
 Xinyi Gao, **Wentao Zhang<sup>#</sup>**, Junliang Yu, Yingxia Shao, Quoc Viet Hung Nguyen, Bin Cui, Hongzhi Yin <sup>#</sup>. <br>
