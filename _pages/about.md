@@ -46,7 +46,9 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 
 <!-- **<font color=red>2024年秋季入学的申请考核制博士（已截止），硕士（北大数院大数据硕士项目）名额还有空缺！</font>**-->
 
-**<font color=red>长期招收实习生（可远程校外实习, 申请2025年秋季入学博士/硕士的学生，建议先联系实习），如感兴趣请直接联系我！</font>**
+<!-- **<font color=red>长期招收实习生（可远程校外实习, 申请2025年秋季入学博士/硕士的学生，建议先联系实习），如感兴趣请直接联系我！</font>**-->
+
+ **<font color=red>长期招收工程师和博士后，如感兴趣请直接联系 wentao.zhang@pku.edu.cn (微信：z1299799152)！</font>**
 
 **课题组优势：**
 - **1. 研究方向**
@@ -121,6 +123,7 @@ A summary of my recent works:
 
 **<font color=red>What's New</font>**
 ------
+* **2024-06**: One paper is accepted by ***VLDB 2024***.
 * **2024-05**: One paper is accepted by ***SIGKDD 2024***.
 * **2024-05**: One paper is accepted by the main track of ***ACL 2024***.
 * **2024-04**: One paper is accepted by ***ICML 2024***.
