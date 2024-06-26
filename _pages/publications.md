@@ -19,6 +19,10 @@ Le Zhuo, Zewen Chi, Minghao Xu, Heyan Huang, Jianan Zhao, Heqi Zheng, Conghui He
 Ling Yang, Zhilong Zhang, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, **Wentao Zhang<sup>#</sup>**, Ming-Hsuan Yang<sup>#</sup>, Bin Cui<sup>#</sup>. <br>
 ***CSUR 2024, CCF-A***.
 
+1.  *OUTRE: An OUT-of-core De-REdundancy GNN Training Framework for Massive Graphs within A Single Machine.*  <br>
+Zeang Sheng, **Wentao Zhang<sup>#</sup>**, Yangyu Tao, Bin Cui.<br>
+***VLDB 2024, CCF-A***.
+
 1.  *HGAMLP: Heterogeneous Graph Attention MLP with De-redundancy Mechanism.*  <br>
 Yuxuan Liang, **Wentao Zhang<sup>#</sup>**, Zeang Sheng, Ling Yang, Jiawei Jiang, Yunhai Tong, Bin Cui.<br>
 ***ICDE 2024, CCF-A***.
