@@ -20,7 +20,7 @@ Ling Yang, Zhilong Zhang, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, **We
 ***CSUR 2024, CCF-A***.
 
 1.  *OUTRE: An OUT-of-core De-REdundancy GNN Training Framework for Massive Graphs within A Single Machine.*  <br>
-Zeang Sheng, **Wentao Zhang<sup>#</sup>**, Yangyu Tao, Bin Cui.<br>
+Zeang Sheng, **Wentao Zhang<sup>#</sup>**, Yangyu Tao, Bin Cui<sup>#</sup>.<br>
 ***VLDB 2024, CCF-A***.
 
 1.  *HGAMLP: Heterogeneous Graph Attention MLP with De-redundancy Mechanism.*  <br>
