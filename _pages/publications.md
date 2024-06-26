@@ -60,7 +60,7 @@ Xinyi Gao, Tong Chen, Yiling Zang,  **Wentao Zhang**, Quoc Viet Hung Nguyen, Kai
 ***ICDE 2024, CCF-A***.
 
 1.  *AdaFGL: A New Paradigm for Federated Node Classification with Topology Heterogeneity.*  <br>
-Xunkai Li, Zhenyu Wu,  **Wentao Zhang**, Henan Sun, Ronghua Li, Gouren Wang. <br>
+Xunkai Li, Zhenyu Wu,  **Wentao Zhang**, Henan Sun, Ronghua Li, Guoren Wang. <br>
 ***ICDE 2024, CCF-A***.
 
 1.  *Generative and Contrastive Paradigms Are Complementary for Graph Self-Supervised Learning.* <br>
@@ -92,7 +92,7 @@ Ling Yang, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu,  **Wentao Zhang
 ***ICLR 2024***.
 
 1.  *Towards Effective and General Graph Unlearning via Mutual Evolution.*  <br>
-Xunkai Li, Yulin Zhao, Zhengyu Wu, **Wentao Zhang**, Ronghua Li, Gouren Wang. <br>
+Xunkai Li, Yulin Zhao, Zhengyu Wu, **Wentao Zhang**, Ronghua Li, Guoren Wang. <br>
 ***AAAI 2024, CCF-A***.
 
 2023
