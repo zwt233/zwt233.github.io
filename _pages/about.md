@@ -85,11 +85,11 @@ A summary of my recent works:
   - Prompt Engineering for LLMs 
 	    - Prompt Augmentation System [[PAS, ***Arxiv 24***](https://arxiv.org/abs/2407.06027)]
    
- - Data Selection for LLMs
+     - Data Selection for LLMs
 	    - Large-scale Video Keyframe Selection [[KeyVideoLLM, ***Arxiv 24***](https://arxiv.org/abs/2407.03104)]
 	    - Efficient Selection of Empathy Data [[Efficient-Empathy, ***Arxiv 24***](https://arxiv.org/abs/2407.01937)]
  
- - Survey for Data-centric Multimodal LLMs [[Survry, ***Arxiv 24***](https://arxiv.org/abs/2405.16640)]
+     - Survey for Data-centric Multimodal LLMs [[Survry, ***Arxiv 24***](https://arxiv.org/abs/2405.16640)]
 	   
 
 - **DCML on graph**: how to improve graph data and support large graph foundation model? <br>
