@@ -81,7 +81,18 @@ Research Interests
 + **DCML Systems**: ML System是人工智能和计算机系统的交叉领域，也是目前计算机系统研究前沿的热点方向。我主要考虑从系统层面来支持DCML任务，如支持多种类型（如Graph和Text）的数据格式，支持大规模数据的处理（如Distributed ML），以及降低系统的使用门槛（如AutoML）等。
 
 A summary of my recent works:
-- **Data-centric ML on graph**: how to prepare high quality and quantity data for graph ML? <br>
+- **General DCML**: how to improve the data quality, quantity and efficiency for ML? <br>
+        - Prompt Engineering for LLMs 
+	    - Prompt Augmentation System [[PAS, ***Arxiv 24***](https://arxiv.org/abs/2407.06027)]
+   
+	- Data Selection for LLMs
+	    - Large-scale Video Keyframe Selection [[KeyVideoLLM, ***Arxiv 24***](https://arxiv.org/abs/2407.03104)]
+	    - Efficient Selection of Empathy Data [[Efficient-Empathy, ***Arxiv 24***](https://arxiv.org/abs/2407.01937)]
+ 
+       - Survey for Data-centric Multimodal LLMs [[Survry, ***Arxiv 24***](https://arxiv.org/abs/2405.16640)]
+	   
+
+- **DCML on graph**: how to improve graph data and support large graph foundation model? <br>
    - Data annotation 
 	    - Better efficiency [[ALG, ***SIGMOD 21***](https://dl.acm.org/doi/10.1145/3448016.3457325)]
 		- Model free [[Grain, ***VLDB 21***](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
@@ -93,32 +104,36 @@ A summary of my recent works:
 	    - Unsupervised and non-parametric feature smoothing [[NAFS, ***ICML 22***](https://arxiv.org/abs/2206.08583)]
 	    - Graph-based MLP deployed at Tencent [[GAMLP, ***KDD 22***](https://arxiv.org/pdf/2108.10097)]
 	    - Inference at large scale [[NAI, ***ICDE 24***](https://arxiv.org/abs/2211.00495)]
+            - Non-parametric optimization [[NPA, ***SIGMOD 24***](https://dl.acm.org/doi/abs/10.1145/3626246.3653399)]
 	    - Experimental evaluation [[AIR, ***KDD 22***](https://arxiv.org/pdf/2108.00955)]
 	- Data distillation 
 	    - Offline distillation [[RDD, ***SIGMOD 20***](https://dl.acm.org/doi/10.1145/3318464.3389706)]
 	    - Online distillation [[ROD, ***KDD 21***](https://arxiv.org/pdf/2107.11789)]
     
 
-- **ML Systems**:  how to make machine learning faster and easier? <br>
+- **DCML Systems**:  how to make DCML faster and easier? <br>
    -  Distributed ML & AutoML
 	    - Distributed NAS on graph [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638),  <font color=orange>Best Student Paper Award</font>]
 	    - Deep and flexible NAS on graph [[DF-GNAS, ***ICML 22***](https://arxiv.org/abs/2206.08582)]
+            - Deep and flexible NAS on graph [[DF-GNAS, ***ICML 22***](https://arxiv.org/abs/2206.08582)]
 	    - Scalable graph learning [[SGL](https://github.com/PKU-DAIR/SGL)]![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/SGL?style=social)
 	    - Distributed graph learning [[Angel Graph](https://github.com/Angel-ML/angel/blob/master/docs/overview/angel_graph_sona.md)]![GitHub Repo stars](https://img.shields.io/github/stars/Angel-ML/Angel?style=social)
 	    - End-to-End AutoML [[MindWare, ***VLDB 21***](https://arxiv.org/pdf/2107.08861)]![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/mindware?style=social)
-	    - Black box optimization [[OpenBox, ***KDD 21***](https://arxiv.org/pdf/2106.00421)]![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/open-box?style=social)
+	    - Black box optimization [[OpenBox, ***KDD 21 JMLR 24,***](https://arxiv.org/pdf/2106.00421)]![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/open-box?style=social)
 	    - Large-scale hyper-parameter tuning [[Hyper-Tune, ***VLDB 22***](https://arxiv.org/pdf/2201.06834)]
 	    - Distributed GNN training[[The First Survey of Distributed GNN Training, ***Arxiv 22***](https://arxiv.org/abs/2211.00216)]
 	    - Online Spark SQL tuning service[[Rover, ***KDD 23***](https://arxiv.org/pdf/2302.04046.pdf)]
 
 
-- **Interdisciplinary Application**:  how to use machine learning in real applications?
-   - AI4Industry 
+- **DCML Application**:  how to use machine learning in real applications?
+   - For Industry 
 	    - GNN-based recommendation [[The First Survey of GNN-based RS, ***CSUR 22***](https://arxiv.org/pdf/2011.02260)]
 	    - GNN-based recommendation system deployed at Taobao [[Zoomer, ***ICDE 22***](https://arxiv.org/abs/2203.12596)]
-   - AI4Science
+   - For Science
 	    - Diffusion models [[The First Survey of Diffusion Models, ***CSUR 23***](https://arxiv.org/abs/2209.00796)][[CONPREDIFF, ***NeurIPS 23***](https://openreview.net/pdf?id=wRhLd65bDt)]
 	    - AutoML for biology [[AutoDC, ***Bioinformatics 22***](https://academic.oup.com/bioinformatics/article/38/13/3415/6588096)]
+            - Protein-Language LLM [[ProtLLM, ***ACL 2024***](https://arxiv.org/abs/2403.07920)]
+            - Benchmark for Glycan Machine Learning [[GlycanML, ***Arxiv 2024***](https://arxiv.org/abs/2405.16206)]
 
 
 **<font color=red>What's New</font>**
