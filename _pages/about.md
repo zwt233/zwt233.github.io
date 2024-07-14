@@ -132,8 +132,8 @@ A summary of my recent works:
    - For Science
 	    - Diffusion models [[The First Survey of Diffusion Models, ***CSUR 23***](https://arxiv.org/abs/2209.00796)][[CONPREDIFF, ***NeurIPS 23***](https://openreview.net/pdf?id=wRhLd65bDt)]
 	    - AutoML for biology [[AutoDC, ***Bioinformatics 22***](https://academic.oup.com/bioinformatics/article/38/13/3415/6588096)]
-            - Protein-Language LLM [[ProtLLM, ***ACL 2024***](https://arxiv.org/abs/2403.07920)]
-            - Benchmark for Glycan Machine Learning [[GlycanML, ***Arxiv 2024***](https://arxiv.org/abs/2405.16206)]
+        - Protein-Language LLM [[ProtLLM, ***ACL 2024***](https://arxiv.org/abs/2403.07920)]
+    - Benchmark for Glycan Machine Learning [[GlycanML, ***Arxiv 2024***](https://arxiv.org/abs/2405.16206)]
 
 
 **<font color=red>What's New</font>**
