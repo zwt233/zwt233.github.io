@@ -113,7 +113,6 @@ A summary of my recent works:
    -  Distributed ML & AutoML
 	    - Distributed NAS on graph [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638),  <font color=orange>Best Student Paper Award</font>]
 	    - Deep and flexible NAS on graph [[DF-GNAS, ***ICML 22***](https://arxiv.org/abs/2206.08582)]
-            - Deep and flexible NAS on graph [[DF-GNAS, ***ICML 22***](https://arxiv.org/abs/2206.08582)]
 	    - Scalable graph learning [[SGL](https://github.com/PKU-DAIR/SGL)]![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/SGL?style=social)
 	    - Distributed graph learning [[Angel Graph](https://github.com/Angel-ML/angel/blob/master/docs/overview/angel_graph_sona.md)]![GitHub Repo stars](https://img.shields.io/github/stars/Angel-ML/Angel?style=social)
 	    - End-to-End AutoML [[MindWare, ***VLDB 21***](https://arxiv.org/pdf/2107.08861)]![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/mindware?style=social)
