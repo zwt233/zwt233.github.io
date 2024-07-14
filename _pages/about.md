@@ -222,11 +222,14 @@ Selected Awards
   
 <!-- 21. [Outstanding Doctoral Dissertation Award](https://jw.beijing.gov.cn/kyc/tzgg_15522/202311/t20231124_3309126.html), Beijing **(Sole winner in PKU CS, and 104 people in Beijing)**, 2023-->
 
+<!-- 
 Selected Competitions
 ------
 1. Outstanding Winner of the [openGCC contest](https://mp.weixin.qq.com/s/8JX5ymkUt5MvDcHLOjB3Xw) in CCF ChinaSoft **(1/3814)**, 2021
 1. Rank \#1 in [Open Graph Benchmark](https://ogb.stanford.edu/docs/leader_nodeprop/\#ogbn-mag), 2021
 1. Outstanding Winner of the BDIC Big Data Competition **(1/575)**, 2018
+-->
+
 
 Selected Program Committee Member and Reviewer
 ------
@@ -237,13 +240,13 @@ Selected Program Committee Member and Reviewer
    - VLDB 2024
 - **Machine Learning**: 
    - ICML 2021, 2022, 2023, 2024
-   - NeurIPS 2022, 2023
+   - NeurIPS 2022, 2023, 2024
    - ICLR 2024
    - JMLR 2023
    - Machine Learning 2023
    - LoG 2024
 - **Data Mining**: 
-   - SIGKDD 2021, 2022, 2023, 2024
+   - SIGKDD 2021, 2022, 2023, 2024, 2025
    - SDM 2024
    - WWW 2022
    - DASFFA 2022, 2023, 2024
@@ -256,7 +259,8 @@ Selected Program Committee Member and Reviewer
    - CVPR 2023, 2024
    - SCIS 2023
 
-  
+
+<!--
 Invited Talks
 ------
 I am happy to give a talk if you are interested in my work. 😊  
@@ -327,3 +331,4 @@ I am happy to give a talk if you are interested in my work. 😊
 
 1. Graph Attention Multi-Layer Perceptron.《图注意力多层感知器》<br>
   DataFun, Virtual, 2021.10 [[News](https://mp.weixin.qq.com/s/G--7PlJ9rsTl3bnSSGmbCQ)] [[Slides](https://github.com/zwt233/Talks/blob/main/Sharing/datafun-GAMLP.pdf)]<br>
+-->
