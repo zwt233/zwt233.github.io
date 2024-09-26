@@ -135,6 +135,7 @@ A summary of my recent works:
 
 **<font color=red>What's New</font>**
 ------
+* **2024-09**: Three papers are accepted by ***NeurIPS 2024***.
 * **2024-06**: One paper is accepted by ***CIKM 2023***.
 * **2024-06**: One paper is accepted by ***VLDB 2024***.
 * **2024-05**: One paper is accepted by ***SIGKDD 2024***.
