@@ -15,7 +15,7 @@ Wentao is the contributor or designer of several system projects,  including [An
 Before joining PKU, wentao worked as a research fellow with Prof.[Jian Tang](https://jian-tang.com/) at [Montreal Institute for Learning Algorithms](https://mila.quebec/en/) (Mila, led by Prof.[Yoshua Bengio](https://yoshuabengio.org/)), and he received his Ph.D. degree in CS at PKU, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/). 
 He worked with Prof. [Lei Chen](http://home.cse.ust.hk/~leichen/) as a visiting scholar at [HKUST](https://hkust.edu.hk/) in 2019. Besides, Wentao has accumulated for 4 years industrial experience in the ML & Data Platform Department of [Tencent](https://www.tencent.com/) and the AIML Department of [Apple](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). 
 
-张文涛，北京大学国际机器学习研究中心助理教授、研究员、博士生导师，曾任职于腾讯机器学习平台部、Apple AIML以及Mila人工智能实验室。研究兴趣为以数据为中心的机器学习、图机器学习、机器学习系统和交叉学科应用（如Diffusion、多模态和AI4Science）。 他近5年在机器学习（ICML/NeurIPS/ICLR）、数据挖掘（KDD/WWW）和数据管理（SIGMOD/VLDB/ICDE）等领域发表CCF-A类论文50余篇，并获得多个最佳论文奖（如第一作者获WWW’22 Best Student Paper Award 和 通讯作者获APWeb-WAIM’23 Best Paper Runner Up Award）。他领导或参与开源了多个机器学习系统，如大规模图学习系统SGL、分布式机器学习系统Angel、和黑盒优化系统OpenBox。他曾获Apple Scholar (2021年度亚太地区唯一)、世界人工智能大会云帆奖、北京大学/北京市/中国人工智能学会优秀博士学位论文奖、中国电子学会科技进步一等奖等多项荣誉。
+张文涛，北京大学国际机器学习研究中心助理教授、研究员、博士生导师，曾任职于腾讯机器学习平台部、Apple AIML和加拿大 Mila 人工智能实验室。研究兴趣为以数据为中心的机器学习（Data-centric ML, DCML） 、图机器学习、机器学习系统和交叉学科应用（如 Diffusion、多模态和 AI4Science）。 他近 5 年在机器学习（ICML/NeurIPS/ ICLR）、数据挖掘（SIGKDD/WWW）和数据管理（SIGMOD/VLDB/ICDE）等领域发表 CCF-A 类论文 50 余篇，也担任多个国际顶会（VLDB/NeurIPS/WWW 等）的 PC Member/Area Chair。他获得多个最佳论文奖（如第一作者获 WWW’22 Best Student Paper Award 和 通讯作者获 APWeb-WAIM’23 Best Paper Runner Up Award），领导或参与开源了多个机器学习系统，如大规模图学习系统 SGL、分布式机器学习系统 Angel (GitHub 6.7k star)、和黑盒优化系统 OpenBox。他曾获 2021 年度亚太地区唯一的 Apple Scholar、世界人工智能大会云帆奖、北京大学/北京市/中国人工智能学会优秀博士学位论文奖、2023 中国电子学会科技进步一等奖等等多项荣誉。
 
 
 <!--Wentao Zhang is currently a postdoc research fellow working with Prof. [Jian Tang](https://jian-tang.com/) at [Montreal Institute for Learning Algorithms (Mila)](https://mila.quebec/en/). Prior to that,  he received his Ph.D. degree in computer science from [Peking University (PKU)](https://www.pku.edu.cn/) in June 2022, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/). 
@@ -61,7 +61,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
   - 作为同龄人:)讨论学习、生活、工作和职业规划，尊重学生想法成为朋友😊
 - **3. 合作资源**
   - 丰富的计算资源（如80GB Tesla A100集群）
-  - 工业界合作伙伴 (如Apple、腾讯、华为、上海AI Lab、百川智能等) 实习和工作推荐
+  - 工业界合作伙伴 (如Apple、腾讯、华为、上海AI Lab、百川智能、字节、快手和蚂蚁等) Research实习和工作推荐。可以使用工业界算力、数据和好的研究问题，积累实习经历。
   - 学术界合作伙伴（如Mila、Stanford、ETH、HKUST、NUS和UQ等）交流机会
   - 助研津贴（实习生视参与程度）
 - **4. 其他**
@@ -70,7 +70,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
     
 Research Interests
 ---
-+ **General DCML**: 近些年来AI模型发展遇到了瓶颈，大部分SOTA模型（如ChatGPT和SAM）都是沿用2017年提出的Transformer结构，性能收益来源由模型转变为数据。我主要考虑优化Data quality (e.g., imbalance, noise and OOD), quantity (e.g., annotation and augmentation), efficiency (e.g., distillation, compression, and selection) 和 privacy (e.g., attack and FL)，以较低成本和较短时间来获得大量高质量数据。 以大语言模型为例，在考虑数据获取成本和效率的前提下，研究科学和系统的数据质量评估策略，设计高效的数据选择（如过滤、去重和降噪）方法，构建有效的数据配比方式，并探索使用大模型来辅助数据优化（如自动数据标注和数据生成）。
++ **General DCML**: 近些年来 AI 模型发展遇到了瓶颈，大部分 SOTA 模型（如ChatGPT 和SAM）都是沿用2017年提出的Transformer 结构，性能收益来源由模型 --> 数据。课题组主要考虑优 Data quality, quantity 和 efficiency，以较低成本和较短时间来获得大量高质量数据。以大模型(如ChatGPT)为例，在考虑数据获取成本和效率的前提下，设计高效的数据处理方法（如过滤、去重和降噪），研究科学和系统的数据质量评估体系和策略，探索更有效的数据合成（如合成和增强）方式，构建有效的数据抽取（如RAG、分布匹配和数据配比）方式。
 
 + **DCML on Graph**: 图数据广泛存在于现实生活中，如微信里的社交网络，知识图谱以及淘宝推荐场景里的用户商品二部图。图机器学习也即“将机器学习应用于图数据”，有望解决传统深度学习无法处理的关系推理、可解释性等一系列问题。我主要考虑 1) 以图神经网络（GNN）为切入点，用DCML的思想来优化图数据（如图特征工程、图结构优化、图数据增强和图异常处理等)；2) LLM+GNN，探索更好的图数据表达形式，用于支持通用图大模型。
   
@@ -78,7 +78,7 @@ Research Interests
    + **For Science**: AI4Science是人工智能和Science交叉领域，也是目前学术界和工业界前沿的热点方向。我主要以数据为中心，研究和设计高效的Science数据（如蛋白质和分子）构建和预处理方式，以及分子建模与生物制药等交叉应用。
    + **For AIGC&Diffusion Model**: 扩散模型是当前最热门的生成模型，其应用领域包含了CV、NLP以及交叉学科等，我主要探究以数据为中心，将扩散模型如何更好地应用于各种复杂数据生成场景，如文生图、文生视频、可控3D生成、多模态学习等。
 
-+ **DCML Systems**: ML System是人工智能和计算机系统的交叉领域，也是目前计算机系统研究前沿的热点方向。我主要考虑从系统层面来支持DCML任务，如支持多种类型（如Graph和Text）的数据格式，支持大规模数据的处理（如Distributed ML），以及降低系统的使用门槛（如AutoML）等。
++ **DCML Systems**: ML System 是人工智能和计算机系统的交叉领域，也是目前计算机系统研究前沿的热点方向。我们课题组主要考虑从系统层面来支持DCML任务，如支持多种类型（如Graph和Text）的数据格式，支持大规模数据的处理（如Distributed ML），以及降低系统的使用门槛（如AutoML）等。针对大模型数据侧，课题组也在开发能支持多种数据类型、大规模数据的 DCML 系统，涵盖大模型数据处理、合成、质量评估、以及数据抽取等多个方面。
 
 A summary of my recent works:
 - **General DCML**: how to improve the data quality, quantity and efficiency for ML? <br>
