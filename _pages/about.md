@@ -135,8 +135,10 @@ A summary of my recent works:
 
 **<font color=red>What's New</font>**
 ------
+* **2024-10**: 🏆 We win the ***<font color=orange>Best Student Full Paper Award </font>***  in ***CIKM 2024***!
+* **2024-10**: One paper is accepted by ***IEEE BIBM 2024***.
 * **2024-09**: Three papers are accepted by ***NeurIPS 2024***.
-* **2024-06**: One paper is accepted by ***CIKM 2023***.
+* **2024-06**: One paper is accepted by ***CIKM 2024***.
 * **2024-06**: One paper is accepted by ***VLDB 2024***.
 * **2024-05**: One paper is accepted by ***SIGKDD 2024***.
 * **2024-05**: One paper is accepted by the main track of ***ACL 2024***.
@@ -217,6 +219,8 @@ Contributed Open-source Projects
   
 Selected Awards
 ------
+24. 🏆 [Best Student Full Paper Award](https://cikm2024.org/), ***CIKM 2024***.
+25. Weiming Young Scholar, Peking University, 2024
 21. [First Prize of Scientific and Technological Progress Award](https://www.cie.org.cn/list_43/12031.html)（科技进步一等奖）, CIE（中国电子学会）, 2023
 21. [Outstanding Doctoral Dissertation Award](https://caai.cn/index.php?s=/home/article/detail/id/3463.html)（优秀博士学会论文奖）, CAAI（中国人工智能学会）  **(10 people in China)**, 2023
 21. [Outstanding Doctoral Dissertation Award](https://mp.weixin.qq.com/s/nCAuWHX3AlTkMIJL83DVzw)（优秀博士学会论文奖）, Beijing  **(14 people in PKU, and 104 people in Beijing)**, 2023
@@ -245,7 +249,7 @@ Selected Competitions
 -->
 
 
-Selected Program Committee Member and Reviewer
+Selected Program Committee Member and Area Chair
 ------
 - **Database and Data Management**: 
    - ICDE 2023,2024
@@ -262,9 +266,9 @@ Selected Program Committee Member and Reviewer
 - **Data Mining**: 
    - SIGKDD 2021, 2022, 2023, 2024, 2025
    - SDM 2024
-   - WWW 2022
+   - WWW 2022, 2023, 2024
    - DASFFA 2022, 2023, 2024
-   - IEEE TKDE 2022
+   - IEEE TKDE 2022,2023, 2024
    - IEEE TNNLS 2022
    - PAKDD 2023, 2024
 - **Others**: 
