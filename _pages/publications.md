@@ -12,7 +12,7 @@ author_profile: true
 2024
 ====
 1.  *Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models.*  <br>
-haoweiz, Ling Yang, Jun-Hai Yong, Hongzhi Yin, Jiawei Jiang, Meng Xiao, **Wentao Zhang<sup>#</sup>**, Bin Wang<br>
+Ling Yang, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, **Wentao Zhang<sup>#</sup>**, Joseph E. Gonzalez, Bin CUI<br>
 ***NeurIPS 2024, CCF-A</font>***.
 
 1.  *Efficient Multi-task LLM Quantization and Serving for Multiple LoRA Adapters.*  <br>
@@ -20,7 +20,7 @@ Yifei Xia, Fangcheng Fu, **Wentao Zhang<sup>#</sup>**, Jiawei Jiang, Bin CUI.<br
 ***NeurIPS 2024, CCF-A</font>***.
 
 1.  *Distribution-Aware Data Expansion with Diffusion Models.*  <br>
-Ling Yang, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, **Wentao Zhang<sup>#</sup>**, Joseph E. Gonzalez, Bin CUI<br>
+haoweiz, Ling Yang, Jun-Hai Yong, Hongzhi Yin, Jiawei Jiang, Meng Xiao, **Wentao Zhang<sup>#</sup>**, Bin Wang<br>
 ***NeurIPS 2024, CCF-A</font>***.
 
 1.  *MetaGXplore: Integrating Multi-Omics Data with Graph Convolutional Networks for Pan-cancer Patient Metastasis Identification.*  <br>
