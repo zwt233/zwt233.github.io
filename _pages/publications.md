@@ -12,11 +12,11 @@ author_profile: true
 2024
 ====
 1.  *Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models.*  <br>
-Ling Yang, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, **Wentao Zhang<sup>#</sup>**, Joseph E. Gonzalez, Bin CUI<br>
+Ling Yang, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, **Wentao Zhang**, Joseph E. Gonzalez, Bin CUI<br>
 ***NeurIPS 2024, CCF-A</font>***.
 
 1.  *Efficient Multi-task LLM Quantization and Serving for Multiple LoRA Adapters.*  <br>
-Yifei Xia, Fangcheng Fu, **Wentao Zhang<sup>#</sup>**, Jiawei Jiang, Bin CUI.<br>
+Yifei Xia, Fangcheng Fu, **Wentao Zhang**, Jiawei Jiang, Bin CUI.<br>
 ***NeurIPS 2024, CCF-A</font>***.
 
 1.  *Distribution-Aware Data Expansion with Diffusion Models.*  <br>
@@ -28,7 +28,7 @@ Tao Jiang, Haiyang Jiang, Xinyi Ma, Minghao Xu, Yan Liang, and **Wentao Zhang<su
 ***IEEE BIBM 2024, CCF-B</font>***.
 
 1.  *Physics-guided Active Sample Reweighting for Urban Flow Prediction.*  <br>
-Wei Jiang, Tong Chen, Guanhua Ye, **Wentao Zhang<sup>#</sup>**, Lizhen Cui, Zi Huang and Hongzhi Yin.<br>
+Wei Jiang, Tong Chen, Guanhua Ye, **Wentao Zhang**, Lizhen Cui, Zi Huang and Hongzhi Yin.<br>
 ***CIKM 2024, CCF-B, 🏆 <font color=orange>Best Student Paper Award (among 1496 submmisions)</font>***.
 
 1.  *ProtLLM: An Interleaved Protein-Language LLM with Protein-as-Word Pre-Training.*  <br>
@@ -40,7 +40,7 @@ Ling Yang, Zhilong Zhang, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, **We
 ***CSUR 2024, CCF-A***.
 
 1.  *OUTRE: An OUT-of-core De-REdundancy GNN Training Framework for Massive Graphs within A Single Machine.*  <br>
-Zeang Sheng, **Wentao Zhang<sup>#</sup>**, Yangyu Tao, Bin Cui<sup>#</sup>.<br>
+Zeang Sheng, **Wentao Zhang**, Yangyu Tao, Bin Cui<sup>#</sup>.<br>
 ***VLDB 2024, CCF-A***.
 
 1.  *HGAMLP: Heterogeneous Graph Attention MLP with De-redundancy Mechanism.*  <br>
