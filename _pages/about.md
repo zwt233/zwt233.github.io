@@ -135,6 +135,7 @@ A summary of my recent works:
 
 **<font color=red>What's New</font>**
 ------
+* **2024-11**: Two papers are accepted by ***ICDE 2025***!
 * **2024-10**: 🏆 We win the ***<font color=orange>Best Student Full Paper Award </font>***  in ***CIKM 2024***!
 * **2024-10**: One paper is accepted by ***IEEE BIBM 2024***.
 * **2024-09**: Three papers are accepted by ***NeurIPS 2024***.
