@@ -8,6 +8,25 @@ author_profile: true
 
 <sup>*</sup> indicates equal contribution, 
 <sup>#</sup> indicates corresponding author
+2025
+====
+
+
+1.  *Training-free Heterogeneous Graph Condensation via Data Selection.*  <br>
+Yuxuan Liang, **Wentao Zhang<sup>#</sup>**, Xinyi Gao, Ling Yang, Chong Chen, Hongzhi Yin, Yunhai Tong, Bin Cui<br>
+***ICDE 2025, CCF-A</font>***.
+
+1.  *Towards Scalable and Efficient Graph Structure Learning.*  <br>
+Siqi Shen, **Wentao Zhang<sup>#</sup>**, Chengshuo Du, Chong Chen, Fangcheng Fu, Yingxia Shao, Bin Cui<br>
+***ICDE 2025, CCF-A</font>***.
+
+1.  *Towards Scalable and Deep Graph Neural Networks via Noise Masking.*  <br>
+Yuxuan Liang, **Wentao Zhang<sup>#</sup>**, Zeang Sheng, Ling Yang, Quanqing Xu, Jiawei Jiang, Yunhai Tong, Bin CUI <br>
+***AAAI 2025, CCF-A</font>***.
+
+1.  *FedVCK: Non-IID Robust and Communication-Efficient Federated Learning via Valuable Condensed Knowledge for Medical Image Analysis.*  <br>
+Guochen Yan, Luyuan Xie, Xinyi Gao, Wentao Zhang, Qingni Shen, Yuejian Fang, Zhonghai Wu<br>
+***AAAI 2025, CCF-A</font>***.
 
 2024
 ====
@@ -17,19 +36,19 @@ Ling Yang, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, **Wentao Zhang**, J
 
 1.  *Efficient Multi-task LLM Quantization and Serving for Multiple LoRA Adapters.*  <br>
 Yifei Xia, Fangcheng Fu, **Wentao Zhang**, Jiawei Jiang, Bin CUI.<br>
-***NeurIPS 2024, CCF-A</font>***.
+***NeurIPS 2024, CCF-A***.
 
 1.  *Distribution-Aware Data Expansion with Diffusion Models.*  <br>
 haoweiz, Ling Yang, Jun-Hai Yong, Hongzhi Yin, Jiawei Jiang, Meng Xiao, **Wentao Zhang<sup>#</sup>**, Bin Wang<br>
-***NeurIPS 2024, CCF-A</font>***.
+***NeurIPS 2024, CCF-A***.
 
 1.  *MetaGXplore: Integrating Multi-Omics Data with Graph Convolutional Networks for Pan-cancer Patient Metastasis Identification.*  <br>
 Tao Jiang, Haiyang Jiang, Xinyi Ma, Minghao Xu, Yan Liang, and **Wentao Zhang<sup>#</sup>**.<br>
-***IEEE BIBM 2024, CCF-B</font>***.
+***IEEE BIBM 2024, CCF-B***.
 
 1.  *Physics-guided Active Sample Reweighting for Urban Flow Prediction.*  <br>
 Wei Jiang, Tong Chen, Guanhua Ye, **Wentao Zhang**, Lizhen Cui, Zi Huang and Hongzhi Yin.<br>
-***CIKM 2024, CCF-B, 🏆 <font color=orange>Best Student Paper Award (among 1496 submmisions)</font>***.
+***CIKM 2024, CCF-B, 🏆 <font color=orange>Best Student Paper Award (among 1496 submmisions)***.
 
 1.  *ProtLLM: An Interleaved Protein-Language LLM with Protein-as-Word Pre-Training.*  <br>
 Le Zhuo, Zewen Chi, Minghao Xu, Heyan Huang, Jianan Zhao, Heqi Zheng, Conghui He, Xian-Ling Mao, **Wentao Zhang<sup>#</sup>**.<br>
