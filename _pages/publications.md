@@ -14,25 +14,25 @@ author_profile: true
 
 1.  *Training-free Heterogeneous Graph Condensation via Data Selection.*  <br>
 Yuxuan Liang, **Wentao Zhang<sup>#</sup>**, Xinyi Gao, Ling Yang, Chong Chen, Hongzhi Yin, Yunhai Tong, Bin Cui<br>
-***ICDE 2025, CCF-A</font>***.
+***ICDE 2025, CCF-A<***.
 
 1.  *Towards Scalable and Efficient Graph Structure Learning.*  <br>
 Siqi Shen, **Wentao Zhang<sup>#</sup>**, Chengshuo Du, Chong Chen, Fangcheng Fu, Yingxia Shao, Bin Cui<br>
-***ICDE 2025, CCF-A</font>***.
+***ICDE 2025, CCF-A***.
 
 1.  *Towards Scalable and Deep Graph Neural Networks via Noise Masking.*  <br>
 Yuxuan Liang, **Wentao Zhang<sup>#</sup>**, Zeang Sheng, Ling Yang, Quanqing Xu, Jiawei Jiang, Yunhai Tong, Bin CUI <br>
-***AAAI 2025, CCF-A</font>***.
+***AAAI 2025, CCF-A***.
 
 1.  *FedVCK: Non-IID Robust and Communication-Efficient Federated Learning via Valuable Condensed Knowledge for Medical Image Analysis.*  <br>
 Guochen Yan, Luyuan Xie, Xinyi Gao, Wentao Zhang, Qingni Shen, Yuejian Fang, Zhonghai Wu<br>
-***AAAI 2025, CCF-A</font>***.
+***AAAI 2025, CCF-A***.
 
 2024
 ====
 1.  *Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models.*  <br>
 Ling Yang, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, **Wentao Zhang**, Joseph E. Gonzalez, Bin CUI<br>
-***NeurIPS 2024, CCF-A</font>***.
+***NeurIPS 2024, CCF-A***.
 
 1.  *Efficient Multi-task LLM Quantization and Serving for Multiple LoRA Adapters.*  <br>
 Yifei Xia, Fangcheng Fu, **Wentao Zhang**, Jiawei Jiang, Bin CUI.<br>
