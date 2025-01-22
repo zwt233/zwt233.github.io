@@ -135,6 +135,8 @@ A summary of my recent works:
 
 **<font color=red>What's New</font>**
 ------
+* **2025-01**: Two papers are accepted by ***WWW 2025***.
+* **2025-01**: One papers is accepted by ***VLDB 2025***.
 * **2024-12**: Two papers are accepted by ***AAAI 2025***.
 * **2024-11**: Two papers are accepted by ***ICDE 2025***.
 * **2024-10**: 🏆 We win the ***<font color=orange>Best Student Full Paper Award </font>***  in ***CIKM 2024***!
