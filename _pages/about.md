@@ -134,6 +134,7 @@ A summary of my recent works:
 
 **<font color=red>What's New</font>**
 ------
+* **2025-02**: One paper is accepted by ***ICDE 2025***.
 * **2025-01**: Two papers are accepted by ***IEEE TKDE 2025***.
 * **2025-01**: Four papers are accepted by ***ICLR 2025***.
 * **2025-01**: Two papers are accepted by ***ICDE 2025***.
