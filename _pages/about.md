@@ -81,13 +81,22 @@ Research Interests
 + **DCML Systems**: ML System 是人工智能和计算机系统的交叉领域，也是目前计算机系统研究前沿的热点方向。我们课题组主要考虑从系统层面来支持DCML任务，如支持多种类型（如Graph和Text）的数据格式，支持大规模数据的处理（如Distributed ML），以及降低系统的使用门槛（如AutoML）等。针对大模型数据侧，课题组也在开发能支持多种数据类型、大规模数据的 DCML 系统，涵盖大模型数据处理、合成、质量评估、以及数据抽取等多个方面。
 
 A summary of my recent works:
-- **General DCML**: how to improve the data quality, quantity and efficiency for ML? <br>
+- **DCML for LLMs**: <br>
   - Prompt Engineering for LLMs 
-    - Prompt Augmentation System [[PAS, ***Arxiv 24***](https://arxiv.org/abs/2407.06027)] 
+    - Prompt Augmentation System [[PAS, ***ICDE 25***](https://arxiv.org/abs/2407.06027)] 
   - Data Selection for LLMs
     - Large-scale Video Keyframe Selection [[KeyVideoLLM, ***Arxiv 24***](https://arxiv.org/abs/2407.03104)]
     - Efficient Selection of Empathy Data [[Efficient-Empathy, ***Arxiv 24***](https://arxiv.org/abs/2407.01937)]
-  - Survey for Data-centric Multimodal LLMs [[Survry, ***Arxiv 24***](https://arxiv.org/abs/2405.16640)]
+  - Data Management for LLMs
+    - Data Organization and Management  [[DataSculpt, ***ICDE 25***](https://arxiv.org/abs/2409.00997)]
+    - Data Proportion Detection [[DataDetect, ***ICDE 25***](https://arxiv.org/pdf/2409.17527)]
+  - Benchmarks for LLMs
+    - System Message  [[SysBench, ***ICLR 25***](https://arxiv.org/abs/2408.10943)]
+  - Retrieval-augmented Generation with LLMs
+    - Retrieval-Augmented Reasoning  [[RARE, ***Arxiv 25***](https://arxiv.org/pdf/2503.23513)]
+  - Function Calling with LLMs
+    - Multi-turn Function Calling   [[Button, ***ICLR 25***](https://arxiv.org/abs/2410.12952)]
+  - Survey for Data-centric Multimodal LLMs [[Survey, ***Arxiv 24***](https://arxiv.org/abs/2405.16640)]
 	   
 
 - **DCML on graph**: how to improve graph data and support large graph foundation model? <br>
@@ -130,7 +139,7 @@ A summary of my recent works:
 	    - Diffusion models [[The First Survey of Diffusion Models, ***CSUR 23***](https://arxiv.org/abs/2209.00796)][[CONPREDIFF, ***NeurIPS 23***](https://openreview.net/pdf?id=wRhLd65bDt)]
 	    - AutoML for biology [[AutoDC, ***Bioinformatics 22***](https://academic.oup.com/bioinformatics/article/38/13/3415/6588096)]
         - Protein-Language LLM [[ProtLLM, ***ACL 2024***](https://arxiv.org/abs/2403.07920)]
-        - Benchmark for Glycan Machine Learning [[GlycanML, ***Arxiv 2024***](https://arxiv.org/abs/2405.16206)]
+        - Benchmark for Glycan Machine Learning [[GlycanML, ***ICLR 2025***](https://arxiv.org/abs/2405.16206)]
 
 
 **<font color=red>What's New</font>**
