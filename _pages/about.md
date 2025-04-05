@@ -84,9 +84,6 @@ A summary of my recent works:
 - **DCML for LLMs**: <br>
   - Prompt Engineering for LLMs 
     - Prompt Augmentation System [[PAS, ***ICDE 25***](https://arxiv.org/abs/2407.06027)] 
-  - Data Selection for LLMs
-    - Large-scale Video Keyframe Selection [[KeyVideoLLM, ***Arxiv 24***](https://arxiv.org/abs/2407.03104)]
-    - Efficient Selection of Empathy Data [[Efficient-Empathy, ***Arxiv 24***](https://arxiv.org/abs/2407.01937)]
   - Data Management for LLMs
     - Data Organization and Management  [[DataSculpt, ***ICDE 25***](https://arxiv.org/abs/2409.00997)]
     - Data Proportion Detection [[DataDetect, ***ICDE 25***](https://arxiv.org/pdf/2409.17527)]
@@ -94,9 +91,12 @@ A summary of my recent works:
     - System Message  [[SysBench, ***ICLR 25***](https://arxiv.org/abs/2408.10943)]
   - Retrieval-augmented Generation with LLMs
     - Retrieval-Augmented Reasoning  [[RARE, ***Arxiv 25***](https://arxiv.org/pdf/2503.23513)]
+    - Multimodal Retrieval-Augmented Multimodal Generation  [[MRAMG-Bench, ***SIGIR 25***](https://arxiv.org/abs/2502.04176)]
   - Function Calling with LLMs
     - Multi-turn Function Calling   [[Button, ***ICLR 25***](https://arxiv.org/abs/2410.12952)]
-  - Survey for Data-centric Multimodal LLMs [[Survey, ***Arxiv 24***](https://arxiv.org/abs/2405.16640)]
+  - Multimodal LLMs
+    - Data-centric MLLM [[Survey, ***Arxiv 24***](https://arxiv.org/abs/2405.16640)]
+    - Scaling Laws for Video Diffusion Transformers [[Paper, ***CVPR 25***](https://arxiv.org/pdf/2411.17470)]
 	   
 
 - **DCML on graph**: how to improve graph data and support large graph foundation model? <br>
