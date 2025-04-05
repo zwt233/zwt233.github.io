@@ -10,11 +10,53 @@ author_profile: true
 <sup>#</sup> indicates corresponding author
 2025
 ====
+1.  *MRAMG-Bench: A Beyond Text Benchmark for Multimodal Retrieval-Augmented Multimodal Generation.*  <br>
+Qinhan Yu, Zhiyou Xiao, Binghui Li, Zhengren Wang, Chong Chen, **Wentao Zhang<sup>#</sup>**<br>
+***SIGIR 2025, CCF-A***.
 
+1.  *Beyond Sight: Towards Cognitive Alignment in LVLM via Enriched Visual Knowledge.*  <br>
+Yaqi Zhao, Yuanyang Yin, Lin Li, Mingan Lin, Victor Shea-Jay Huang, Siwei Chen, Weipeng Chen, Baoqun Yin, Zenan Zhou, **Wentao Zhang<sup>#</sup>**<br>
+***CVPR 2025, CCF-A***.
+
+1.  *Towards Precise Scaling Laws for Video Diffusion Transformers.*  <br>
+Yuanyang Yin, Yaqi Zhao, Mingwu Zheng, Ke Lin, Jiarong Ou, Rui Chen, Victor Shea-Jay Huang, Jiahao Wang, Xin Tao, Pengfei Wan, Di Zhang, Baoqun Yin, **Wentao Zhang<sup>#</sup>**, Kun Gai<br>
+***CVPR 2025, CCF-A***.
+
+1.  *SysBench: Can LLMs Follow System Message?*  <br>
+Yanzhao Qin, Tao Zhang, Tao Zhang, Yanjun Shen, Wenjing Luo, sunhaoze, Yan Zhang, Yujing Qiao, weipeng chen, Zenan Zhou, **Wentao Zhang<sup>#</sup>**, Bin CUI<br>
+***ICLR 2025**.
+
+1.  *GlycanML: A Multi-Task and Multi-Structure Benchmark for Glycan Machine Learning*  <br>
+Minghao Xu, Yunteng Geng, Yihang Zhang, Ling Yang, Jian Tang, **Wentao Zhang<sup>#</sup>**<br>
+***ICLR 2025**.
+
+1.  *Facilitating Multi-turn Function Calling for LLMs via Compositional Instruction Tuning*  <br>
+Mingyang Chen, sunhaoze, Tianpeng Li, Fan Yang, Hao Liang, KeerLu, Bin CUI, **Wentao Zhang<sup>#</sup>**, Zenan Zhou<sup>#</sup>, weipeng chen<br>
+***ICLR 2025**.
+
+1.  *Training Data Distribution Estimation for Optimized Pre-training Data Management.*  <br>
+Hao Liang, Keshi Zhao, Yajie Yang, Bin Cui, Zenan Zhou, **Wentao Zhang<sup>#</sup>**<br>
+***ICDE 2025, CCF-A***.
+
+1.  *PAS: Plug-and-Play Prompt Augmentation System.*  <br>
+Miao Zheng, Hao Liang, Fan Yang, Haoze Sun, Tianpeng Li, Lingchu Xiong, Yan Zhang, Youzhen Wu, Kun Li, Yanjun Shen, Mingan Lin, Tao Zhang, Guosheng Dong, Yujing Qiao, Kun Fang, Weipeng Chen, Bin Cui,  **Wentao Zhang<sup>#</sup>**, Zenan Zhou<sup>#</sup><br>
+***ICDE 2025, CCF-A***.
+
+1.  *DataSculpt: A Holistic Data Management Framework for Long-Context LLMs Training.*  <br>
+Keer Lu, Xiaonan Nie, Zheng Liang, Da Pan, Shusen Zhang, Keshi Zhao, Weipeng Chen, Zenan Zhou, Guosheng Dong, Bin Cui, **Wentao Zhang<sup>#</sup>**<br>
+***ICDE 2025, CCF-A***.
+
+1.  *Acceleration Algorithms in GNNs: A Survey.*  <br>
+Lu Ma, Zeang Sheng, Xunkai Li, Xinyi Gao, Zhezheng Hao, Ling Yang, **Wentao Zhang<sup>#</sup>**, Bin Cui<br>
+***IEEE TKDE 2025, CCF-A***.
+
+1.  *Graph Condensation: A Survey.*  <br>
+Xinyi Gao, Junliang Yu, Tong Chen, Guanhua Ye, **Wentao Zhang<sup>#</sup>**, Hongzhi Yin<br>
+***IEEE TKDE 2025, CCF-A***.
 
 1.  *Training-free Heterogeneous Graph Condensation via Data Selection.*  <br>
 Yuxuan Liang, **Wentao Zhang<sup>#</sup>**, Xinyi Gao, Ling Yang, Chong Chen, Hongzhi Yin, Yunhai Tong, Bin Cui<br>
-***ICDE 2025, CCF-A<***.
+***ICDE 2025, CCF-A***.
 
 1.  *Towards Scalable and Efficient Graph Structure Learning.*  <br>
 Siqi Shen, **Wentao Zhang<sup>#</sup>**, Chengshuo Du, Chong Chen, Fangcheng Fu, Yingxia Shao, Bin Cui<br>
@@ -27,6 +69,26 @@ Yuxuan Liang, **Wentao Zhang<sup>#</sup>**, Zeang Sheng, Ling Yang, Quanqing Xu,
 1.  *FedVCK: Non-IID Robust and Communication-Efficient Federated Learning via Valuable Condensed Knowledge for Medical Image Analysis.*  <br>
 Guochen Yan, Luyuan Xie, Xinyi Gao, Wentao Zhang, Qingni Shen, Yuejian Fang, Zhonghai Wu<br>
 ***AAAI 2025, CCF-A***.
+
+1.  *First Prompt Counts the Most! An Evaluation of Large Language Models on Iterative Example-based Code Generation.*  <br>
+Yingjie Fu, Bozhou Li, Linyi Li, Wentao Zhang, Tao Xie<br>
+***ISSTA 2025, CCF-A***.
+
+1.  *OpenFGL: A Comprehensive Benchmark for Federated Graph Learning.*  <br>
+Xunkai Li, Yinlin Zhu, Boyang Pang, Guochen Yan, Yeyu Yan, Zening Li, Zhengyu Wu, Wentao Zhang, Rong-Hua Li, Guoren Wang<br>
+***VLDB 2025, CCF-A**.
+
+1.  *Rethinking and Accelerating Graph Condensation: A Training-Free Approach with Class Partition*  <br>
+Xinyi Gao, Guanhua Ye, Tong Chen, Wentao Zhang, Junliang Yu, Hongzhi Yin<br>
+***WWW 2025, CCF-A**.
+
+1.  *Epidemiology-informed Network for Robust Rumor Detection*  <br>
+Wei Jiang, Tong Chen, Xinyi Gao, Wentao Zhang, Lizhen Cui, Hongzhi Yin<br>
+***WWW 2025, CCF-A**.
+
+1.  *IPDreamer: Appearance-Controllable 3D Object Generation with Complex Image Prompts.*  <br>
+Bohan Zeng, Shanglin Li, Yutang Feng, Ling Yang, Juan Zhang, Hong Li, Jiaming Liu, Conghui He, Wentao Zhang, Jianzhuang Liu, Baochang Zhang, Shuicheng YAN<br>
+***ICLR 2025**.
 
 2024
 ====
