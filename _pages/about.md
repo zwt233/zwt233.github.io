@@ -144,6 +144,8 @@ A summary of my recent works:
 
 **<font color=red>What's New</font>**
 ------
+* **2025-04**: One Paper is accepted by ***SIGIR 2025***.
+* **2025-04**: One Paper is accepted by ***ISSTA 2025***.
 * **2025-02**: Two papers are accepted by ***CVPR 2025***.
 * **2025-02**: One paper is accepted by ***ICDE 2025***.
 * **2025-01**: Two papers are accepted by ***IEEE TKDE 2025***.
