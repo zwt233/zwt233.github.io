@@ -24,15 +24,15 @@ Yuanyang Yin, Yaqi Zhao, Mingwu Zheng, Ke Lin, Jiarong Ou, Rui Chen, Victor Shea
 
 1.  *SysBench: Can LLMs Follow System Message?*  <br>
 Yanzhao Qin, Tao Zhang, Tao Zhang, Yanjun Shen, Wenjing Luo, sunhaoze, Yan Zhang, Yujing Qiao, weipeng chen, Zenan Zhou, **Wentao Zhang<sup>#</sup>**, Bin CUI<br>
-***ICLR 2025**.
+***ICLR 2025***.
 
 1.  *GlycanML: A Multi-Task and Multi-Structure Benchmark for Glycan Machine Learning*  <br>
 Minghao Xu, Yunteng Geng, Yihang Zhang, Ling Yang, Jian Tang, **Wentao Zhang<sup>#</sup>**<br>
-***ICLR 2025**.
+***ICLR 2025***.
 
 1.  *Facilitating Multi-turn Function Calling for LLMs via Compositional Instruction Tuning*  <br>
 Mingyang Chen, sunhaoze, Tianpeng Li, Fan Yang, Hao Liang, KeerLu, Bin CUI, **Wentao Zhang<sup>#</sup>**, Zenan Zhou<sup>#</sup>, weipeng chen<br>
-***ICLR 2025**.
+***ICLR 2025***.
 
 1.  *Training Data Distribution Estimation for Optimized Pre-training Data Management.*  <br>
 Hao Liang, Keshi Zhao, Yajie Yang, Bin Cui, Zenan Zhou, **Wentao Zhang<sup>#</sup>**<br>
@@ -76,19 +76,19 @@ Yingjie Fu, Bozhou Li, Linyi Li, Wentao Zhang, Tao Xie<br>
 
 1.  *OpenFGL: A Comprehensive Benchmark for Federated Graph Learning.*  <br>
 Xunkai Li, Yinlin Zhu, Boyang Pang, Guochen Yan, Yeyu Yan, Zening Li, Zhengyu Wu, Wentao Zhang, Rong-Hua Li, Guoren Wang<br>
-***VLDB 2025, CCF-A**.
+***VLDB 2025, CCF-A***.
 
 1.  *Rethinking and Accelerating Graph Condensation: A Training-Free Approach with Class Partition*  <br>
 Xinyi Gao, Guanhua Ye, Tong Chen, Wentao Zhang, Junliang Yu, Hongzhi Yin<br>
-***WWW 2025, CCF-A**.
+***WWW 2025, CCF-A***.
 
 1.  *Epidemiology-informed Network for Robust Rumor Detection*  <br>
 Wei Jiang, Tong Chen, Xinyi Gao, Wentao Zhang, Lizhen Cui, Hongzhi Yin<br>
-***WWW 2025, CCF-A**.
+***WWW 2025, CCF-A***.
 
 1.  *IPDreamer: Appearance-Controllable 3D Object Generation with Complex Image Prompts.*  <br>
 Bohan Zeng, Shanglin Li, Yutang Feng, Ling Yang, Juan Zhang, Hong Li, Jiaming Liu, Conghui He, Wentao Zhang, Jianzhuang Liu, Baochang Zhang, Shuicheng YAN<br>
-***ICLR 2025**.
+***ICLR 2025***.
 
 2024
 ====
