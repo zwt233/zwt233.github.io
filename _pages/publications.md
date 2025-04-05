@@ -8,6 +8,7 @@ author_profile: true
 
 <sup>*</sup> indicates equal contribution, 
 <sup>#</sup> indicates corresponding author
+
 2025
 ====
 1.  *MRAMG-Bench: A Beyond Text Benchmark for Multimodal Retrieval-Augmented Multimodal Generation.*  <br>
