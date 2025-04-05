@@ -51,10 +51,6 @@ Keer Lu, Xiaonan Nie, Zheng Liang, Da Pan, Shusen Zhang, Keshi Zhao, Weipeng Che
 Lu Ma, Zeang Sheng, Xunkai Li, Xinyi Gao, Zhezheng Hao, Ling Yang, **Wentao Zhang<sup>#</sup>**, Bin Cui<br>
 ***IEEE TKDE 2025, CCF-A***.
 
-1.  *Graph Condensation: A Survey.*  <br>
-Xinyi Gao, Junliang Yu, Tong Chen, Guanhua Ye, **Wentao Zhang<sup>#</sup>**, Hongzhi Yin<br>
-***IEEE TKDE 2025, CCF-A***.
-
 1.  *Training-free Heterogeneous Graph Condensation via Data Selection.*  <br>
 Yuxuan Liang, **Wentao Zhang<sup>#</sup>**, Xinyi Gao, Ling Yang, Chong Chen, Hongzhi Yin, Yunhai Tong, Bin Cui<br>
 ***ICDE 2025, CCF-A***.
@@ -70,6 +66,10 @@ Yuxuan Liang, **Wentao Zhang<sup>#</sup>**, Zeang Sheng, Ling Yang, Quanqing Xu,
 1.  *FedVCK: Non-IID Robust and Communication-Efficient Federated Learning via Valuable Condensed Knowledge for Medical Image Analysis.*  <br>
 Guochen Yan, Luyuan Xie, Xinyi Gao, Wentao Zhang, Qingni Shen, Yuejian Fang, Zhonghai Wu<br>
 ***AAAI 2025, CCF-A***.
+
+1.  *Graph Condensation: A Survey.*  <br>
+Xinyi Gao, Junliang Yu, Tong Chen, Guanhua Ye, **Wentao Zhang**, Hongzhi Yin<br>
+***IEEE TKDE 2025, CCF-A***.
 
 1.  *First Prompt Counts the Most! An Evaluation of Large Language Models on Iterative Example-based Code Generation.*  <br>
 Yingjie Fu, Bozhou Li, Linyi Li, Wentao Zhang, Tao Xie<br>
