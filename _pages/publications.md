@@ -23,6 +23,10 @@ Yaqi Zhao, Yuanyang Yin, Lin Li, Mingan Lin, Victor Shea-Jay Huang, Siwei Chen, 
 Yuanyang Yin, Yaqi Zhao, Mingwu Zheng, Ke Lin, Jiarong Ou, Rui Chen, Victor Shea-Jay Huang, Jiahao Wang, Xin Tao, Pengfei Wan, Di Zhang, Baoqun Yin, **Wentao Zhang<sup>#</sup>**, Kun Gai<br>
 ***CVPR 2025, CCF-A***.
 
+1.  *Modeling All-Atom Glycan Structures via Hierarchical Message Passing and Multi-Scale Pre-training.*  <br>
+Minghao Xu, Jiaze Song, Keming Wu, Xiangxin Zhou, Bin CUI, **Wentao Zhang<sup>#</sup>**<br>
+***ICML 2025, CCF-A***.
+
 1.  *SysBench: Can LLMs Follow System Message?*  <br>
 Yanzhao Qin, Tao Zhang, Tao Zhang, Yanjun Shen, Wenjing Luo, sunhaoze, Yan Zhang, Yujing Qiao, weipeng chen, Zenan Zhou, **Wentao Zhang<sup>#</sup>**, Bin CUI<br>
 ***ICLR 2025***.
@@ -63,8 +67,16 @@ Siqi Shen, **Wentao Zhang<sup>#</sup>**, Chengshuo Du, Chong Chen, Fangcheng Fu,
 Yuxuan Liang, **Wentao Zhang<sup>#</sup>**, Zeang Sheng, Ling Yang, Quanqing Xu, Jiawei Jiang, Yunhai Tong, Bin CUI <br>
 ***AAAI 2025, CCF-A***.
 
+1.  *Sparse Causal Discovery with Generative Intervention for Unsupervised Graph Domain Adaptation.*  <br>
+Junyu Luo, Yuhao Tang, yiwei Fu, Xiao Luo, Zhizhuo KOU, Zhiping Xiao, Wei Ju, **Wentao Zhang**, Ming Zhang<br>
+***ICML 2025, CCF-A***.
+
+1.  *AdaMixT: Adaptive Weighted Mixture of Multi-Scale Expert Transformers for Time Series Forecasting.*  <br>
+Huanyao Zhang, Jiaye Lin, Haitao Yuan, **Wentao Zhang**, Guoliang Li<br>
+***IJCAI 2025, CCF-A***.
+
 1.  *FedVCK: Non-IID Robust and Communication-Efficient Federated Learning via Valuable Condensed Knowledge for Medical Image Analysis.*  <br>
-Guochen Yan, Luyuan Xie, Xinyi Gao, Wentao Zhang, Qingni Shen, Yuejian Fang, Zhonghai Wu<br>
+Guochen Yan, Luyuan Xie, Xinyi Gao, **Wentao Zhang**, Qingni Shen, Yuejian Fang, Zhonghai Wu<br>
 ***AAAI 2025, CCF-A***.
 
 1.  *Graph Condensation: A Survey.*  <br>
