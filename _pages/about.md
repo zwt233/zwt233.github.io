@@ -91,7 +91,7 @@ A summary of my recent works:
     - System Message  [[SysBench, ***ICLR 25***](https://arxiv.org/abs/2408.10943)]
     - Constraints Following [[CFBench, ***ACL 25***](https://arxiv.org/abs/2408.01122)]
   - Retrieval-augmented Generation with LLMs
-    - Retrieval-Augmented Reasoning  [[RARE, ***Arxiv 25***](https://arxiv.org/pdf/2503.23513)[HopRAG, ***ACL 25***](https://arxiv.org/pdf/2502.12442)]
+    - Retrieval-Augmented Reasoning  [[RARE, ***Arxiv 25***](https://arxiv.org/pdf/2503.23513)][[HopRAG, ***ACL 25***](https://arxiv.org/pdf/2502.12442)]
     - Question Answer Alignment [[QAEncoder, ***ACL 25***](https://arxiv.org/pdf/2409.20434)]
     - Multimodal Retrieval-Augmented Multimodal Generation  [[MRAMG-Bench, ***SIGIR 25***](https://arxiv.org/abs/2502.04176)]
   - LLM Reasoning
