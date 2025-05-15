@@ -82,21 +82,24 @@ Research Interests
 
 A summary of my recent works:
 - **DCML for LLMs**: <br>
-  - Prompt Engineering for LLMs 
-    - Prompt Augmentation System [[PAS, ***ICDE 25***](https://arxiv.org/abs/2407.06027)] 
   - Data Management for LLMs
     - Data Organization and Management  [[DataSculpt, ***ICDE 25***](https://arxiv.org/abs/2409.00997)]
     - Data Proportion Detection [[DataDetect, ***ICDE 25***](https://arxiv.org/pdf/2409.17527)]
-  - Benchmarks for LLMs
+    - Prompt Augmentation System [[PAS, ***ICDE 25***](https://arxiv.org/abs/2407.06027)]
+    - Data Selection [[***ACL 25***](https://arxiv.org/pdf/2410.08102)] 
+  - LLM Benchmarks
     - System Message  [[SysBench, ***ICLR 25***](https://arxiv.org/abs/2408.10943)]
+    - Constraints Following [[CFBench, ***ACL 25***](https://arxiv.org/abs/2408.01122)]
   - Retrieval-augmented Generation with LLMs
-    - Retrieval-Augmented Reasoning  [[RARE, ***Arxiv 25***](https://arxiv.org/pdf/2503.23513)]
+    - Retrieval-Augmented Reasoning  [[RARE, ***Arxiv 25***](https://arxiv.org/pdf/2503.23513)[HopRAG, ***ACL 25***](https://arxiv.org/pdf/2502.12442)]
+    - Question Answer Alignment [[QAEncoder, ***ACL 25***](https://arxiv.org/pdf/2409.20434)]
     - Multimodal Retrieval-Augmented Multimodal Generation  [[MRAMG-Bench, ***SIGIR 25***](https://arxiv.org/abs/2502.04176)]
-  - Function Calling with LLMs
+  - LLM Reasoning
     - Multi-turn Function Calling   [[Button, ***ICLR 25***](https://arxiv.org/abs/2410.12952)]
+    - Multimodal Reasoning   [[MM-Verify, ***ACL 25***](https://arxiv.org/abs/2502.13383)]
   - Multimodal LLMs
     - Data-centric MLLM [[Survey, ***Arxiv 24***](https://arxiv.org/abs/2405.16640)]
-    - Scaling Laws for Video Diffusion Transformers [[Paper, ***CVPR 25***](https://arxiv.org/pdf/2411.17470)]
+    - Scaling Laws for Video Diffusion Transformers [[***CVPR 25***](https://arxiv.org/pdf/2411.17470)]
 	   
 
 - **DCML on graph**: how to improve graph data and support large graph foundation model? <br>
@@ -111,6 +114,7 @@ A summary of my recent works:
 	    - Unsupervised and non-parametric feature smoothing [[NAFS, ***ICML 22***](https://arxiv.org/abs/2206.08583)]
 	    - Graph-based MLP deployed at Tencent [[GAMLP, ***KDD 22***](https://arxiv.org/pdf/2108.10097)]
 	    - Inference at large scale [[NAI, ***ICDE 24***](https://arxiv.org/abs/2211.00495)]
+    	    - GNN Acceleration [[Survey, ***TKDE 25***](https://arxiv.org/abs/2405.04114)]
         - Non-parametric optimization [[NPA, ***SIGMOD 24***](https://dl.acm.org/doi/abs/10.1145/3626246.3653399)]
 	    - Experimental evaluation [[AIR, ***KDD 22***](https://arxiv.org/pdf/2108.00955)]
 	- Data distillation 
