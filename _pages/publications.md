@@ -16,11 +16,11 @@ Qinhan Yu, Zhiyou Xiao, Binghui Li, Zhengren Wang, Chong Chen, **Wentao Zhang<su
 ***SIGIR 2025, CCF-A***.
 
 1.  *Beyond Sight: Towards Cognitive Alignment in LVLM via Enriched Visual Knowledge.*  <br>
-Yaqi Zhao, Yuanyang Yin, Lin Li, Mingan Lin, Victor Shea-Jay Huang, Siwei Chen, Weipeng Chen, Baoqun Yin, Zenan Zhou, **Wentao Zhang<sup>#</sup>**<br>
+Yaqi Zhao, Yuanyang Yin, Lin Li, Mingan Lin, Victor Shea-Jay Huang, Siwei Chen, Weipeng Chen, Baoqun Yin, Zenan Zhou, **Wentao Zhang<sup>#</sup>**.<br>
 ***CVPR 2025, CCF-A***.
 
 1.  *Towards Precise Scaling Laws for Video Diffusion Transformers.*  <br>
-Yuanyang Yin, Yaqi Zhao, Mingwu Zheng, Ke Lin, Jiarong Ou, Rui Chen, Victor Shea-Jay Huang, Jiahao Wang, Xin Tao, Pengfei Wan, Di Zhang, Baoqun Yin, **Wentao Zhang<sup>#</sup>**, Kun Gai<br>
+Yuanyang Yin, Yaqi Zhao, Mingwu Zheng, Ke Lin, Jiarong Ou, Rui Chen, Victor Shea-Jay Huang, Jiahao Wang, Xin Tao, Pengfei Wan, Di Zhang, Baoqun Yin, **Wentao Zhang<sup>#</sup>**, Kun Gai.<br>
 ***CVPR 2025, CCF-A***.
 
 1.  *Modeling All-Atom Glycan Structures via Hierarchical Message Passing and Multi-Scale Pre-training.*  <br>
@@ -28,19 +28,19 @@ Minghao Xu, Jiaze Song, Keming Wu, Xiangxin Zhou, Bin CUI, **Wentao Zhang<sup>#<
 ***ICML 2025, CCF-A***.
 
 1.  *SysBench: Can LLMs Follow System Message?*  <br>
-Yanzhao Qin, Tao Zhang, Tao Zhang, Yanjun Shen, Wenjing Luo, sunhaoze, Yan Zhang, Yujing Qiao, weipeng chen, Zenan Zhou, **Wentao Zhang<sup>#</sup>**, Bin CUI<br>
+Yanzhao Qin, Tao Zhang, Tao Zhang, Yanjun Shen, Wenjing Luo, sunhaoze, Yan Zhang, Yujing Qiao, weipeng chen, Zenan Zhou, **Wentao Zhang<sup>#</sup>**, Bin CUI.<br>
 ***ICLR 2025***.
 
 1.  *GlycanML: A Multi-Task and Multi-Structure Benchmark for Glycan Machine Learning*  <br>
-Minghao Xu, Yunteng Geng, Yihang Zhang, Ling Yang, Jian Tang, **Wentao Zhang<sup>#</sup>**<br>
+Minghao Xu, Yunteng Geng, Yihang Zhang, Ling Yang, Jian Tang, **Wentao Zhang<sup>#</sup>**.<br>
 ***ICLR 2025***.
 
 1.  *Facilitating Multi-turn Function Calling for LLMs via Compositional Instruction Tuning*  <br>
-Mingyang Chen, sunhaoze, Tianpeng Li, Fan Yang, Hao Liang, KeerLu, Bin CUI, **Wentao Zhang<sup>#</sup>**, Zenan Zhou<sup>#</sup>, weipeng chen<br>
+Mingyang Chen, sunhaoze, Tianpeng Li, Fan Yang, Hao Liang, KeerLu, Bin CUI, **Wentao Zhang<sup>#</sup>**, Zenan Zhou<sup>#</sup>, weipeng Chen.<br>
 ***ICLR 2025***.
 
 1.  *Training Data Distribution Estimation for Optimized Pre-training Data Management.*  <br>
-Hao Liang, Keshi Zhao, Yajie Yang, Bin Cui, Zenan Zhou, **Wentao Zhang<sup>#</sup>**<br>
+Hao Liang, Keshi Zhao, Yajie Yang, Bin Cui, Zenan Zhou, **Wentao Zhang<sup>#</sup>**.<br>
 ***ICDE 2025, CCF-A***.
 
 1.  *PAS: Plug-and-Play Prompt Augmentation System.*  <br>
@@ -52,20 +52,24 @@ Keer Lu, Xiaonan Nie, Zheng Liang, Da Pan, Shusen Zhang, Keshi Zhao, Weipeng Che
 ***ICDE 2025, CCF-A***.
 
 1.  *Acceleration Algorithms in GNNs: A Survey.*  <br>
-Lu Ma, Zeang Sheng, Xunkai Li, Xinyi Gao, Zhezheng Hao, Ling Yang, **Wentao Zhang<sup>#</sup>**, Bin Cui<br>
+Lu Ma, Zeang Sheng, Xunkai Li, Xinyi Gao, Zhezheng Hao, Ling Yang, **Wentao Zhang<sup>#</sup>**, Bin Cui.<br>
 ***IEEE TKDE 2025, CCF-A***.
 
 1.  *Training-free Heterogeneous Graph Condensation via Data Selection.*  <br>
-Yuxuan Liang, **Wentao Zhang<sup>#</sup>**, Xinyi Gao, Ling Yang, Chong Chen, Hongzhi Yin, Yunhai Tong, Bin Cui<br>
+Yuxuan Liang, **Wentao Zhang<sup>#</sup>**, Xinyi Gao, Ling Yang, Chong Chen, Hongzhi Yin, Yunhai Tong, Bin Cui.<br>
 ***ICDE 2025, CCF-A***.
 
 1.  *Towards Scalable and Efficient Graph Structure Learning.*  <br>
-Siqi Shen, **Wentao Zhang<sup>#</sup>**, Chengshuo Du, Chong Chen, Fangcheng Fu, Yingxia Shao, Bin Cui<br>
+Siqi Shen, **Wentao Zhang<sup>#</sup>**, Chengshuo Du, Chong Chen, Fangcheng Fu, Yingxia Shao, Bin Cui.<br>
 ***ICDE 2025, CCF-A***.
 
 1.  *Towards Scalable and Deep Graph Neural Networks via Noise Masking.*  <br>
-Yuxuan Liang, **Wentao Zhang<sup>#</sup>**, Zeang Sheng, Ling Yang, Quanqing Xu, Jiawei Jiang, Yunhai Tong, Bin CUI <br>
+Yuxuan Liang, **Wentao Zhang<sup>#</sup>**, Zeang Sheng, Ling Yang, Quanqing Xu, Jiawei Jiang, Yunhai Tong, Bin CUI.<br>
 ***AAAI 2025, CCF-A***.
+
+1.  *LLMs are Noisy Oracles! LLM-based Noise-aware Graph Active Learning for Node Classification.*  <br>
+Zeang Sheng, WeiYang Guo, Yingxia Shao, **Wentao Zhang<sup>#</sup>**, Bin CUI<sup>#</sup>.<br>
+***SIGKDD 2025, CCF-A***.
 
 1.  *MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification.*  <br>
 Linzhuang Sun, Hao Liang, Jingxuan Wei, Bihui Yu, Tianpeng Li, Fan Yang, Zenan Zhou, **Wentao Zhang<sup>#</sup>**<br>
