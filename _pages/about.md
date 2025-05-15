@@ -144,6 +144,7 @@ A summary of my recent works:
 
 **<font color=red>What's New</font>**
 ------
+* **2025-05**: Three Paper are accepted by ***SIGKDD 2025***.
 * **2025-05**: One Paper is accepted by ***IEEE TKDE 2025***.
 * **2025-05**: Two Papers are accepted by ***ICML 2025***.
 * **2025-04**: One Paper is accepted by ***IJCAI 2025***.
