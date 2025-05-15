@@ -67,6 +67,34 @@ Siqi Shen, **Wentao Zhang<sup>#</sup>**, Chengshuo Du, Chong Chen, Fangcheng Fu,
 Yuxuan Liang, **Wentao Zhang<sup>#</sup>**, Zeang Sheng, Ling Yang, Quanqing Xu, Jiawei Jiang, Yunhai Tong, Bin CUI <br>
 ***AAAI 2025, CCF-A***.
 
+1.  *MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification.*  <br>
+Linzhuang Sun, Hao Liang, Jingxuan Wei, Bihui Yu, Tianpeng Li, Fan Yang, Zenan Zhou, **Wentao Zhang<sup>#</sup>**<br>
+***ACL 2025 Main, CCF-A***.
+
+1.  *QAEncoder: Towards Aligned Representation Learning in Question Answering Systems.*  <br>
+Zhengren Wang, Qinhan Yu, Shida Wei, Zhiyu li, Feiyu Xiong, Xiaoxing Wang, Simin Niu, Hao Liang, **Wentao Zhang<sup>#</sup>**.<br>
+***ACL 2025 Main, CCF-A***.
+
+1.  *Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration.*  <br>
+Tianyi Bai, Ling Yang, Zhen Hao Wong, Fupeng Sun, Xinlin Zhuang, Jiahui Peng, Chi Zhang, Lijun Wu, Qiu Jiantao, **Wentao Zhang<sup>#</sup>**, Binhang Yuan<sup>#</sup>, Conghui He<sup>#</sup>.<br>
+***ACL 2025 Main, CCF-A***.
+
+1.  *CFBench: A Comprehensive Constraints-Following Benchmark for LLMs.*  <br>
+Tao Zhang, ChengLIn Zhu, Yanjun Shen, Wenjing Luo, Yan Zhang, Hao Liang, Tao Zhang, Fan Yang, Mingan Lin, Yujing Qiao, Weipeng Chen, Bin CUI, **Wentao Zhang<sup>#</sup>**, Zenan Zhou<sup>#</sup>.<br>
+***ACL 2025 Main, CCF-A***.
+
+1.  *HopRAG: Multi-Hop Reasoning for Logic-Aware Retrieval Augmented Generation.*  <br>
+Hao Liu, Zhengren Wang, Xi Chen, Zhiyu li, Feiyu Xiong, Qinhan Yu, **Wentao Zhang<sup>#</sup>**.<br>
+***ACL 2025 Findings, CCF-A***.
+
+1.  *Taming LLMs with Gradient Grouping.*  <br>
+Siyuan Li, Juanxi Tian, Zedong Wang, Xin Jin, Zicheng Liu, **Wentao Zhang**, Dan Xu.<br>
+***ACL 2025 Main, CCF-A***.
+
+1.  *Enhancing Unsupervised Sentence Embeddings via Knowledge-Driven Data Augmentation and Gaussian-Decayed Contrastive Learning.*  <br>
+Peichao Lai, Zhengfeng Zhang, **Wentao Zhang**, Fangcheng Fu, Bin CUI.<br>
+***ACL 2025 Main, CCF-A***.
+
 1.  *Sparse Causal Discovery with Generative Intervention for Unsupervised Graph Domain Adaptation.*  <br>
 Junyu Luo, Yuhao Tang, yiwei Fu, Xiao Luo, Zhizhuo KOU, Zhiping Xiao, Wei Ju, **Wentao Zhang**, Ming Zhang<br>
 ***ICML 2025, CCF-A***.
@@ -79,9 +107,21 @@ Huanyao Zhang, Jiaye Lin, Haitao Yuan, **Wentao Zhang**, Guoliang Li<br>
 Guochen Yan, Luyuan Xie, Xinyi Gao, **Wentao Zhang**, Qingni Shen, Yuejian Fang, Zhonghai Wu<br>
 ***AAAI 2025, CCF-A***.
 
+1.  *RobGC: Towards Robust Graph Condensation.*  <br>
+Xinyi Gao, Hongzhi Yin, Tong Chen, Guanhua Ye, **Wentao Zhang**, Bin Cui<br>
+***IEEE TKDE 2025, CCF-A***.
+
 1.  *Graph Condensation: A Survey.*  <br>
 Xinyi Gao, Junliang Yu, Tong Chen, Guanhua Ye, **Wentao Zhang**, Hongzhi Yin<br>
 ***IEEE TKDE 2025, CCF-A***.
+
+1.  *Contrastive Graph Condensation: Advancing Data Versatility through Self-Supervised Learning.*  <br>
+Xinyi Gao, Yayong Li, Tong Chen, Guanhua Ye, **Wentao Zhang**, Hongzhi Yin.<br>
+***SIGKDD 2025, CCF-A***.
+
+1.  *CompressGNN: Accelerating Graph Neural Network Training via Hierarchical Compression.*  <br>
+Zheng Chen, Feng Zhang, Yifei Xia, **Wentao Zhang**, Xiaowei Zhu, Wenguang Chen, Xiaoyong Du.<br>
+***SIGKDD 2025, CCF-A***.
 
 1.  *First Prompt Counts the Most! An Evaluation of Large Language Models on Iterative Example-based Code Generation.*  <br>
 Yingjie Fu, Bozhou Li, Linyi Li, Wentao Zhang, Tao Xie<br>
