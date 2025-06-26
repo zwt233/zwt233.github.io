@@ -148,6 +148,9 @@ A summary of my recent works:
 
 **<font color=red>What's New</font>**
 ------
+* **2025-06**: Two Papers are accepted by ***ICCV 2025***.
+* **2025-06**: One Paper is accepted by ***VLDB 2025***.
+* **2025-05**: One Paper is accepted by ***ECML 2025***.
 * **2025-05**: Six Papers are accepted by ***ACL 2025 Main***.
 * **2025-05**: One Paper is accepted by ***ACL 2025 Findings***.
 * **2025-05**: Three Papers are accepted by ***SIGKDD 2025***.
