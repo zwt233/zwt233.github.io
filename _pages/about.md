@@ -239,7 +239,7 @@ Contributed Open-source Projects
 </p>
 
 * [MinerU](https://github.com/opendatalab/MinerU): a high-quality tool for convert PDF to Markdown and JSON. ![GitHub stars](https://img.shields.io/github/stars/opendatalab/MinerU.svg)
-* <p align="center">
+<p align="center">
 <img src="/images/MinerU-logo.png" width="30%">
 </p>
 
