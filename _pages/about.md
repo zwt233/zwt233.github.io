@@ -233,6 +233,16 @@ A summary of my recent works:
 
 Contributed Open-source Projects
 ------
+* [DataFlow](https://github.com/OpenDCAI/DataFlow): a data preparation and training system designed to parse, generate, process and evaluate high-quality data from noisy sources, thereby improving the performance of LLMs in specific domains through targeted training. ![GitHub stars](https://img.shields.io/github/stars/OpenDCAI/DataFlow.svg)
+<p align="center">
+<img src="/images/DataFlow-logo.jpg" width="30%"> 
+</p>
+
+* [MinerU](https://github.com/opendatalab/MinerU): a high-quality tool for convert PDF to Markdown and JSON. ![GitHub stars](https://img.shields.io/github/stars/opendatalab/MinerU.svg)
+* <p align="center">
+<img src="/images/MinerU-logo.png" width="30%">
+</p>
+
 * [Angel](https://github.com/Angel-ML/angel): a high-performance distributed machine learning and graph computing platform, jointly designed by Tencent and PKU. ![GitHub stars](https://img.shields.io/github/stars/Angel-ML/Angel.svg)
 <p align="center">
 <img src="/images/angel_logo.png" width="30%"> 
