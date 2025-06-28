@@ -59,7 +59,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
   - 根据每位学生的基础、兴趣和未来规划针对性制定培养方案，一对一指导
   - 作为同龄人:)讨论学习、生活、工作和职业规划，尊重学生想法成为朋友😊
 - **3. 合作资源**
-  - 丰富的计算资源（如80GB Tesla A100集群）
+  - 丰富的计算资源（如千卡规模H20/H100/H200算力集群）
   - 工业界合作伙伴 (如Apple AIML、腾讯混元、华为、上海AI Lab、字节Seed、快手可灵、阿里Qwen、MSRA和蚂蚁等) Research实习和工作推荐。可以使用工业界算力、数据和好的研究问题，积累实习经历。
   - 学术界合作伙伴（如Mila、Stanford、ETH、HKUST、NUS和UQ等）交流机会
   - 助研津贴（实习生视参与程度）
