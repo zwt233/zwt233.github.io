@@ -69,7 +69,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
     
 Research Interests
 ---
-**[鄂维南、汤林鹏、张文涛：Data-centric AI](https://mp.weixin.qq.com/s/B8dnPvR1bjJEJFRDSufCiA)**:
+**[鄂维南、汤林鹏、张文涛：Data-centric AI](https://mp.weixin.qq.com/s/B8dnPvR1bjJEJFRDSufCiA)**
 
 + **Data-centric AI**: 近些年来 AI 模型发展遇到了瓶颈，大部分SOTA模型都是沿用2017年提出的Transformer 结构，性能收益来源由模型 --> 数据。课题组主要考虑优 Data quality, quantity 和 efficiency，以较低成本和较短时间来获得大量高质量数据。以大模型(如ChatGPT)为例，在考虑数据获取成本和效率的前提下，设计高效的数据处理方法（如过滤、去重和降噪），研究科学和系统的数据质量评估体系和策略，探索更有效的数据合成（如合成和增强）方式，构建有效的数据抽取（如RAG、分布匹配和数据配比）方式。
 
