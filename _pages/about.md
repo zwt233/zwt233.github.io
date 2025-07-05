@@ -15,7 +15,7 @@ Wentao is the contributor or designer of several system projects,  including [Da
 Before joining PKU, wentao worked as a research fellow with Prof.[Jian Tang](https://jian-tang.com/) at [Montreal Institute for Learning Algorithms](https://mila.quebec/en/) (Mila, led by Prof.[Yoshua Bengio](https://yoshuabengio.org/)), and he received his Ph.D. degree in CS at PKU, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/). 
 He worked with Prof. [Lei Chen](http://home.cse.ust.hk/~leichen/) as a visiting scholar at [HKUST](https://hkust.edu.hk/) in 2019. Besides, Wentao has accumulated for 4 years industrial experience in the ML & Data Platform Department of [Tencent](https://www.tencent.com/) and the AIML Department of [Apple](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). 
 
-张文涛，北京大学国际机器学习研究中心助理教授、研究员、博士生导师，曾任职于腾讯机器学习平台部、Apple AIML和加拿大 Mila 人工智能实验室。研究兴趣为以数据为中心的机器学习（Data-centric ML, DCML）、机器学习系统和AI4Science。 主持国家自然科学基金青年项目、重大研究计划项目、科技部重点研发计划项目课题，近 5 年在机器学习（ICML/NeurIPS/ ICLR）、数据挖掘（SIGKDD/WWW）和数据管理（SIGMOD/VLDB/ICDE）等领域发表 CCF-A 类论文 80 （一作/通讯40+）余篇，也担任多个国际顶会的 PC Member/Area Chair。他获得多个最佳论文奖（如WWW’22-第一作者，APWeb’23-通讯作者，CIKM’24），领导或参与开源了多个机器学习系统。他曾获Apple Scholar、世界人工智能大会云帆奖、北京大学/北京市/中国人工智能学会优秀博士学位论文奖、未名青年学者、世界互联网大会领先科技成果奖、华为火花奖、中国电子学会科技进步一等奖等多项荣誉。
+张文涛，北京大学国际机器学习研究中心助理教授、研究员、博士生导师，曾任职于腾讯机器学习平台部、Apple AIML和加拿大 Mila 人工智能实验室。研究兴趣为以数据为中心的人工智能（Data-centric AI, DCAI）、机器学习系统和AI4Science。 主持国家自然科学基金青年项目、重大研究计划项目、科技部重点研发计划项目课题，近 5 年在机器学习（ICML/NeurIPS/ ICLR）、数据挖掘（SIGKDD/WWW）和数据管理（SIGMOD/VLDB/ICDE）等领域发表 CCF-A 类论文 80 （一作/通讯40+）余篇，也担任多个国际顶会的 PC Member/Area Chair。他获得多个最佳论文奖（如WWW’22-第一作者，APWeb’23-通讯作者，CIKM’24），领导或参与开源了多个机器学习系统。他曾获Apple Scholar、世界人工智能大会云帆奖、北京大学/北京市/中国人工智能学会优秀博士学位论文奖、未名青年学者、世界互联网大会领先科技成果奖、华为火花奖、中国电子学会科技进步一等奖等多项荣誉。
 
 <!--Wentao Zhang is currently a postdoc research fellow working with Prof. [Jian Tang](https://jian-tang.com/) at [Montreal Institute for Learning Algorithms (Mila)](https://mila.quebec/en/). Prior to that,  he received his Ph.D. degree in computer science from [Peking University (PKU)](https://www.pku.edu.cn/) in June 2022, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/). [Open-DataFlow-Eval](https://github.com/Open-DataFlow/Open-DataFlow-Eval) ![GitHub Repo stars](https://img.shields.io/github/stars/Open-DataFlow/Open-DataFlow-Eval?style=social)
 And he worked with Prof. [Lei Chen](http://home.cse.ust.hk/~leichen/) as a visiting scholar at [HKUST](https://hkust.edu.hk/) in 2019.
@@ -51,7 +51,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 
 **课题组优势：**
 - **1. 研究方向**
-  - DCML、大模型、生成式AI和AI4Science等都是学术界/工业界前沿
+  - DCAI、大模型、生成式AI和AI4Science等都是学术界/工业界前沿
   - 作为一线青椒，我善于发现和提炼好的研究问题 （有影响力和现实意义，但under-explored的新问题，避免内卷）
 - **2. 学生指导**
   - 每周按小方向组会分享（线下：静园六院208，线上：腾讯会议）和讨论
@@ -69,19 +69,21 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
     
 Research Interests
 ---
-+ **Data-centric ML**: 近些年来 AI 模型发展遇到了瓶颈，大部分SOTA模型都是沿用2017年提出的Transformer 结构，性能收益来源由模型 --> 数据。课题组主要考虑优 Data quality, quantity 和 efficiency，以较低成本和较短时间来获得大量高质量数据。以大模型(如ChatGPT)为例，在考虑数据获取成本和效率的前提下，设计高效的数据处理方法（如过滤、去重和降噪），研究科学和系统的数据质量评估体系和策略，探索更有效的数据合成（如合成和增强）方式，构建有效的数据抽取（如RAG、分布匹配和数据配比）方式。
+**[鄂维南、汤林鹏、张文涛：Data-centric AI](https://mp.weixin.qq.com/s/B8dnPvR1bjJEJFRDSufCiA)**:
+
++ **Data-centric AI**: 近些年来 AI 模型发展遇到了瓶颈，大部分SOTA模型都是沿用2017年提出的Transformer 结构，性能收益来源由模型 --> 数据。课题组主要考虑优 Data quality, quantity 和 efficiency，以较低成本和较短时间来获得大量高质量数据。以大模型(如ChatGPT)为例，在考虑数据获取成本和效率的前提下，设计高效的数据处理方法（如过滤、去重和降噪），研究科学和系统的数据质量评估体系和策略，探索更有效的数据合成（如合成和增强）方式，构建有效的数据抽取（如RAG、分布匹配和数据配比）方式。
 
 
-+ **DCML Algorithms and Applications**:
++ **DCAI Algorithms and Applications**:
    + **For LLMs**: 丛数据层面优化强逻辑推理大模型（Math和Code）、大规模预训练数据合成、后训练（SFT和RL）、Agent智能体和RAG知识库等。
    + **For Science**: AI4Science是人工智能和Science交叉领域，也是目前学术界和工业界前沿的热点方向。我主要以数据为中心，研究和设计高效的Science数据（如蛋白质和分子）构建和预处理方式，以及分子建模与生物制药等交叉应用。
-   + **For Graph**: 图数据广泛存在于现实生活中，我主要以图神经网络（GNN）为切入点，用DCML的思想来优化图数据（如图特征工程、图结构优化、图数据增强和图异常处理等)，并探索更好的图数据表达形式，用于支持通用图大模型。
+   + **For Graph**: 图数据广泛存在于现实生活中，我主要以图神经网络（GNN）为切入点，用DCAI的思想来优化图数据（如图特征工程、图结构优化、图数据增强和图异常处理等)，并探索更好的图数据表达形式，用于支持通用图大模型。
    + **For AIGC&Diffusion Model**: 扩散模型是当前最热门的生成模型，其应用领域包含了CV、NLP以及交叉学科等，我主要探究以数据为中心，将扩散模型如何更好地应用于各种复杂数据生成场景，如文生图、文生视频、可控3D生成、多模态学习等。
 
-+ **DCML Systems**: ML System 是人工智能和计算机系统的交叉领域，也是目前计算机系统研究前沿的热点方向。我们课题组主要考虑从系统层面来支持DCML任务，如支持多种类型（如Graph和Text）的数据格式，支持大规模数据的处理（如Distributed ML），以及降低系统的使用门槛（如AutoML）等。针对大模型数据侧，课题组也在开发能支持多种数据类型、大规模数据的 DCML 系统，涵盖大模型数据处理、合成、质量评估、以及数据抽取等多个方面。
++ **DCAI Systems**: ML System 是人工智能和计算机系统的交叉领域，也是目前计算机系统研究前沿的热点方向。我们课题组主要考虑从系统层面来支持DCAI任务，如支持多种类型（如Graph和Text）的数据格式，支持大规模数据的处理（如Distributed ML），以及降低系统的使用门槛（如AutoML）等。针对大模型数据侧，课题组也在开发能支持多种数据类型、大规模数据的 DCAI 系统，涵盖大模型数据处理、合成、质量评估、以及数据抽取等多个方面。
 
 A summary of my recent works:
-- **DCML for LLMs**: <br>
+- **DCAI for LLMs**: <br>
   - Data Management for LLMs
     - Data Organization and Management  [[DataSculpt, ***ICDE 25***](https://arxiv.org/abs/2409.00997)]
     - Data Proportion Detection [[DataDetect, ***ICDE 25***](https://arxiv.org/pdf/2409.17527)]
@@ -102,7 +104,7 @@ A summary of my recent works:
     - Scaling Laws for Video Diffusion Transformers [[***CVPR 25***](https://arxiv.org/pdf/2411.17470)]
 	   
 
-- **DCML on graph**: how to improve graph data and support large graph foundation model? <br>
+- **DCAI on graph**: how to improve graph data and support large graph foundation model? <br>
    - Data annotation 
 	    - Better efficiency [[ALG, ***SIGMOD 21***](https://dl.acm.org/doi/10.1145/3448016.3457325)]
 		- Model free [[Grain, ***VLDB 21***](http://vldb.org/pvldb/vol14/p2473-zhang.pdf)]
@@ -122,7 +124,7 @@ A summary of my recent works:
 	    - Online distillation [[ROD, ***KDD 21***](https://arxiv.org/pdf/2107.11789)]
     
 
-- **DCML Systems**:  how to make DCML faster and easier? <br>
+- **DCAI Systems**:  how to make DCAI faster and easier? <br>
    -  Distributed ML & AutoML
 	    - Distributed NAS on graph [[PasCa, ***WWW 22***](https://arxiv.org/abs/2203.00638),  <font color=orange>Best Student Paper Award</font>]
 	    - Deep and flexible NAS on graph [[DF-GNAS, ***ICML 22***](https://arxiv.org/abs/2206.08582)]
@@ -135,7 +137,7 @@ A summary of my recent works:
 	    - Online Spark SQL tuning service[[Rover, ***KDD 23***](https://arxiv.org/pdf/2302.04046.pdf)]
 
 
-- **DCML Application**:  how to use machine learning in real applications?
+- **DCAI Application**:  how to use machine learning in real applications?
    - For Industry 
 	    - GNN-based recommendation [[The First Survey of GNN-based RS, ***CSUR 22***](https://arxiv.org/pdf/2011.02260)]
 	    - GNN-based recommendation system deployed at Taobao [[Zoomer, ***ICDE 22***](https://arxiv.org/abs/2203.12596)]
