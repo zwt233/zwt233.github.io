@@ -47,7 +47,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 
 <!-- **<font color=red>长期招收实习生（可远程校外实习, 申请2025年秋季入学博士/硕士的学生，建议先联系实习），如感兴趣请直接联系我！</font>**-->
 
- **<font color=red>长期招收博士后，与北京大学[鄂维南](https://bda.pku.edu.cn/info/1161/2022.htm)院士和[崔斌](https://cuibinpku.github.io/index.html)教授联合培养，如感兴趣请直接联系 wentao.zhang@pku.edu.cn (微信：z1299799152)！</font>**
+ **<font color=red>长期招收博士后</font>**，与北京大学[鄂维南](https://bda.pku.edu.cn/info/1161/2022.htm)院士和[崔斌](https://cuibinpku.github.io/index.html)教授联合培养， **<font color=red>如感兴趣请直接联系 wentao.zhang@pku.edu.cn (微信：z1299799152)！</font>**
 
 **课题组优势：**
 - **1. 研究方向**
