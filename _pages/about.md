@@ -55,7 +55,7 @@ Research Interests
 
 **[DataFlow:张文涛和鄂维南院士团队推出Data-centric AI系统](https://mp.weixin.qq.com/s/ns96fMzDluAmPLnl8GY8ww)** 
 
-**[鄂维南、汤林鹏、张文涛：Data-centric AI](https://mp.weixin.qq.com/s/B8dnPvR1bjJEJFRDSufCiA)**
+**[鄂维南、汤林鹏、张文涛：Data-centric AI](https://mp.weixin.qq.com/s/399HCjsbEFGgcsNq-ziDqw)**
 
 **Data-centric AI**: 近些年来 AI 模型发展遇到了瓶颈，大部分SOTA模型都是沿用2017年提出的Transformer 结构。模型创新空间有限，数据的数量、质量与多样性成为AI能力突破的核心，我们致力于推动Data-centric AI开源生态。
 
