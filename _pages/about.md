@@ -74,7 +74,7 @@ Research Interests
 
 **[鄂维南、汤林鹏、张文涛：Data-centric AI](https://mp.weixin.qq.com/s/B8dnPvR1bjJEJFRDSufCiA)**
 
-**Data-centric AI**: 近些年来 AI 模型发展遇到了瓶颈，大部分SOTA模型都是沿用2017年提出的Transformer 结构。模型创新空间有限，数据的数量、质量与多样性成为AI能力突破的核心，我们致力于推动Data-centric AI开源生态
+**Data-centric AI**: 近些年来 AI 模型发展遇到了瓶颈，大部分SOTA模型都是沿用2017年提出的Transformer 结构。模型创新空间有限，数据的数量、质量与多样性成为AI能力突破的核心，我们致力于推动Data-centric AI开源生态。
 
 + **Data-centric LLM**：深入研究并设计LLM数据侧关键技术，如数据解析、合成、处理和质量评估等，为LLM准备高质量数据；
 + **Data Agent**：构建高效的数据分析Agent工具集与推理框架：开发模块化的基础工具集和扩展工具集，支持复杂数据分析任务的全流程自动化；
