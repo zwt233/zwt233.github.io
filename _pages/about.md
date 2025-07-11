@@ -74,9 +74,18 @@ Research Interests
 
 **[鄂维南、汤林鹏、张文涛：Data-centric AI](https://mp.weixin.qq.com/s/B8dnPvR1bjJEJFRDSufCiA)**
 
-+ **Data-centric AI**: 近些年来 AI 模型发展遇到了瓶颈，大部分SOTA模型都是沿用2017年提出的Transformer 结构，性能收益来源由模型 --> 数据。课题组主要考虑优 Data quality, quantity 和 efficiency，以较低成本和较短时间来获得大量高质量数据。以大模型(如ChatGPT)为例，在考虑数据获取成本和效率的前提下，设计高效的数据处理方法（如过滤、去重和降噪），研究科学和系统的数据质量评估体系和策略，探索更有效的数据合成（如合成和增强）方式，构建有效的数据抽取（如RAG、分布匹配和数据配比）方式。
+**Data-centric AI**: 近些年来 AI 模型发展遇到了瓶颈，大部分SOTA模型都是沿用2017年提出的Transformer 结构。模型创新空间有限，数据的数量、质量与多样性成为AI能力突破的核心，我们致力于推动Data-centric AI开源生态
+
++ **Data-centric LLM**：深入研究并设计LLM数据侧关键技术，如数据解析、合成、处理和质量评估等，为LLM准备高质量数据；
++ **Data Agent**：构建高效的数据分析Agent工具集与推理框架：开发模块化的基础工具集和扩展工具集，支持复杂数据分析任务的全流程自动化；
++ **Agentic RAG**：研究更高效性能更好的Agentic RAG算法，自动知识库的构建和清洗，以及针对此场景的更高效的RL训练框架；
++ **LLM Reasoning**：提升LLM在推理任务中的表现。在多模态场景，通过结合视觉与文本信息，解决复杂数学和物理问题，拓展AI在视觉与文本结合场景中的应用能力；
++ **LLM+DB**：研究数据管理for大模型或者大模型在数据管理的应用，如NL2SQL和表格大模型等；
 
 
+
+
+<!-- 
 + **DCAI Algorithms and Applications**:
    + **For LLMs**: 丛数据层面优化强逻辑推理大模型（Math和Code）、大规模预训练数据合成、后训练（SFT和RL）、Agent智能体和RAG知识库等。
    + **For Science**: AI4Science是人工智能和Science交叉领域，也是目前学术界和工业界前沿的热点方向。我主要以数据为中心，研究和设计高效的Science数据（如蛋白质和分子）构建和预处理方式，以及分子建模与生物制药等交叉应用。
@@ -84,7 +93,9 @@ Research Interests
    + **For AIGC&Diffusion Model**: 扩散模型是当前最热门的生成模型，其应用领域包含了CV、NLP以及交叉学科等，我主要探究以数据为中心，将扩散模型如何更好地应用于各种复杂数据生成场景，如文生图、文生视频、可控3D生成、多模态学习等。
 
 + **DCAI Systems**: ML System 是人工智能和计算机系统的交叉领域，也是目前计算机系统研究前沿的热点方向。我们课题组主要考虑从系统层面来支持DCAI任务，如支持多种类型（如Graph和Text）的数据格式，支持大规模数据的处理（如Distributed ML），以及降低系统的使用门槛（如AutoML）等。针对大模型数据侧，课题组也在开发能支持多种数据类型、大规模数据的 DCAI 系统，涵盖大模型数据处理、合成、质量评估、以及数据抽取等多个方面。
+-->
 
+<!-- 
 A summary of my recent works:
 - **DCAI for LLMs**: <br>
   - Data Management for LLMs
@@ -149,7 +160,7 @@ A summary of my recent works:
 	    - AutoML for biology [[AutoDC, ***Bioinformatics 22***](https://academic.oup.com/bioinformatics/article/38/13/3415/6588096)]
         - Protein-Language LLM [[ProtLLM, ***ACL 2024***](https://arxiv.org/abs/2403.07920)]
         - Benchmark for Glycan Machine Learning [[GlycanML, ***ICLR 2025***](https://arxiv.org/abs/2405.16206)]
-
+-->
 
 **<font color=red>What's New</font>**
 ------
