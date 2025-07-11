@@ -45,24 +45,7 @@ Besides, Wentao has accumulated for 4 years industrial experience in the ML & Da
  **<font color=red>长期招收博士后</font>**，与北京大学[鄂维南](https://bda.pku.edu.cn/info/1161/2022.htm)院士和[崔斌](https://cuibinpku.github.io/index.html)教授联合培养， **<font color=red>如感兴趣请直接联系 wentao.zhang@pku.edu.cn (微信：z1299799152)！</font>**
 博士后招聘链接：[北京大学崔斌教授招聘大模型方向博士后](http://xhslink.com/m/3o8FLuplLKt)、[北大鄂维南院士、张文涛招聘大模型方向博士后](http://xhslink.com/m/AkBmneoF011)
 
-**课题组优势：**
-- **1. 研究方向**
-  - DCAI、大模型、生成式AI和AI4Science等都是学术界/工业界前沿
-  - 作为一线青椒，我善于发现和提炼好的研究问题 （有影响力和现实意义，但under-explored的新问题，避免内卷）
-- **2. 学生指导**
-  - 每周按小方向组会分享（线下：静园六院208，线上：腾讯会议）和讨论
-  - 安排经验丰富的师兄/师姐带领入门，遇到问题随时讨论 （也可以随时找我）
-  - 根据每位学生的基础、兴趣和未来规划针对性制定培养方案，一对一指导
-  - 作为同龄人:)讨论学习、生活、工作和职业规划，尊重学生想法成为朋友😊
-- **3. 合作资源**
-  - 丰富的计算资源（如千卡规模H20/H100/H200算力集群）
-  - 工业界合作伙伴 (如Apple AIML、腾讯混元、华为、上海AI Lab、字节Seed、快手可灵、阿里Qwen、MSRA和蚂蚁等) Research实习和工作推荐。可以使用工业界算力、数据和好的研究问题，积累实习经历。
-  - 学术界合作伙伴（如Mila、Stanford、ETH、HKUST、NUS和UQ等）交流机会
-  - 助研津贴（实习生视参与程度）
-- **4. 其他**
-  - 推荐信和优先保送本课题组硕博（叉院PhD住宿和工位在校本部燕园校区）的机会
-  - 组内氛围融洽，定期组织团建（如徒步、羽毛球和聚餐等），自愿参加
-    
+
 Research Interests
 ---
 [DataFlow](https://github.com/OpenDCAI/DataFlow): LLM数据解析、合成、处理、评估、数据智能体、数据动态调度工具. ![GitHub stars](https://img.shields.io/github/stars/OpenDCAI/DataFlow.svg)
@@ -161,6 +144,25 @@ A summary of my recent works:
         - Protein-Language LLM [[ProtLLM, ***ACL 2024***](https://arxiv.org/abs/2403.07920)]
         - Benchmark for Glycan Machine Learning [[GlycanML, ***ICLR 2025***](https://arxiv.org/abs/2405.16206)]
 -->
+
+**课题组优势：**
+- **1. 研究方向**
+  - DCAI、大模型、生成式AI和AI4Science等都是学术界/工业界前沿
+  - 作为一线青椒，我善于发现和提炼好的研究问题 （有影响力和现实意义，但under-explored的新问题，避免内卷）
+- **2. 学生指导**
+  - 每周按小方向组会分享（线下：静园六院208，线上：腾讯会议）和讨论
+  - 安排经验丰富的师兄/师姐带领入门，遇到问题随时讨论 （也可以随时找我）
+  - 根据每位学生的基础、兴趣和未来规划针对性制定培养方案，一对一指导
+  - 作为同龄人:)讨论学习、生活、工作和职业规划，尊重学生想法成为朋友😊
+- **3. 合作资源**
+  - 丰富的计算资源（如千卡规模H20/H100/H200算力集群）
+  - 工业界合作伙伴 (如Apple AIML、腾讯混元、华为、上海AI Lab、字节Seed、快手可灵、阿里Qwen、MSRA和蚂蚁等) Research实习和工作推荐。可以使用工业界算力、数据和好的研究问题，积累实习经历。
+  - 学术界合作伙伴（如Mila、Stanford、ETH、HKUST、NUS和UQ等）交流机会
+  - 助研津贴（实习生视参与程度）
+- **4. 其他**
+  - 推荐信和优先保送本课题组硕博（叉院PhD住宿和工位在校本部燕园校区）的机会
+  - 组内氛围融洽，定期组织团建（如徒步、羽毛球和聚餐等），自愿参加
+    
 
 **<font color=red>What's New</font>**
 ------
