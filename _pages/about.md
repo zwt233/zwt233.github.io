@@ -23,11 +23,6 @@ Besides, Wentao has accumulated for 4 years industrial experience in the ML & Da
 
 <!--Motivated by the industrial demand, Wentao's research focuses on data-centric machine learning, graph machine learning, and machine learning systems. He has published 40+ papers, including 10+ first author papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW) and ML (ICML, NeurIPS, ICLR) conferences. Besides, he is the contributor or designer of several system projects, including [Angel](https://github.com/Angel-ML/angel) ![GitHub Repo stars](https://img.shields.io/github/stars/Angel-ML/Angel?style=social), [SGL](https://github.com/PKU-DAIR/SGL) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/SGL?style=social), [MindWare](https://github.com/PKU-DAIR/mindware) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/mindware?style=social), and [OpenBox](https://github.com/PKU-DAIR/open-box) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-DAIR/open-box?style=social). His research works have been powering several billion-scale applications in Tencent, and some of them have been recognized by multiple prestigious awards, including the [Outstanding Doctoral Dissertation Award](https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm), and the [Best Student Paper Award](https://www2022.thewebconf.org/awards/) at WWW'22.-->
 
-<!-- I will be joining the [Center of Machine Learning Research](https://cmlr.pku.edu.cn/) at [PKU](https://www.pku.edu.cn/) as a Tenure-Track Assistant Professor in Fall 2023. Feel free to catch me if interested to discuss ideas or work together!-->
-
-<!-- Wentao Zhang (张文涛) is a fourth year Ph.D. candidate at [PKU](https://www.pku.edu.cn/), now working with [Prof. Bin Cui](http://net.pku.edu.cn/~cuibin/).
-He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof. Lei Chen, [Tencent](https://github.com/Angel-ML/angel) working with the Angel team, and [Apple Research](https://machinelearning.apple.com/) working with Meng Cao, Ping Huang and Danny Bickson. -->
-
 **Email**: wentao.zhang@pku.edu.cn
 
 **[Wechat (微信)](https://zwt233.github.io/wechat/)**: z1299799152
@@ -48,6 +43,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
 <!-- **<font color=red>长期招收实习生（可远程校外实习, 申请2025年秋季入学博士/硕士的学生，建议先联系实习），如感兴趣请直接联系我！</font>**-->
 
  **<font color=red>长期招收博士后</font>**，与北京大学[鄂维南](https://bda.pku.edu.cn/info/1161/2022.htm)院士和[崔斌](https://cuibinpku.github.io/index.html)教授联合培养， **<font color=red>如感兴趣请直接联系 wentao.zhang@pku.edu.cn (微信：z1299799152)！</font>**
+博士后招聘链接：[北京大学崔斌教授招聘大模型方向博士后](http://xhslink.com/m/3o8FLuplLKt)、[北大鄂维南院士、张文涛招聘大模型方向博士后](http://xhslink.com/m/AkBmneoF011)
 
 **课题组优势：**
 - **1. 研究方向**
@@ -69,6 +65,7 @@ He previously interned in [HKUST](https://hkust.edu.hk/?cn=1) working with Prof.
     
 Research Interests
 ---
+**[DataFlow:张文涛和鄂维南院士团队推出Data-centric AI系统](https://mp.weixin.qq.com/s/ns96fMzDluAmPLnl8GY8ww)** [DataFlow](https://github.com/OpenDCAI/DataFlow) ![GitHub Repo stars](https://img.shields.io/github/stars/OpenDCAI/DataFlow?style=social)
 **[鄂维南、汤林鹏、张文涛：Data-centric AI](https://mp.weixin.qq.com/s/B8dnPvR1bjJEJFRDSufCiA)**
 
 + **Data-centric AI**: 近些年来 AI 模型发展遇到了瓶颈，大部分SOTA模型都是沿用2017年提出的Transformer 结构，性能收益来源由模型 --> 数据。课题组主要考虑优 Data quality, quantity 和 efficiency，以较低成本和较短时间来获得大量高质量数据。以大模型(如ChatGPT)为例，在考虑数据获取成本和效率的前提下，设计高效的数据处理方法（如过滤、去重和降噪），研究科学和系统的数据质量评估体系和策略，探索更有效的数据合成（如合成和增强）方式，构建有效的数据抽取（如RAG、分布匹配和数据配比）方式。
