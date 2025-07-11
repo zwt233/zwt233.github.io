@@ -65,7 +65,13 @@ Besides, Wentao has accumulated for 4 years industrial experience in the ML & Da
     
 Research Interests
 ---
-**[DataFlow:张文涛和鄂维南院士团队推出Data-centric AI系统](https://mp.weixin.qq.com/s/ns96fMzDluAmPLnl8GY8ww)** [DataFlow](https://github.com/OpenDCAI/DataFlow) ![GitHub Repo stars](https://img.shields.io/github/stars/OpenDCAI/DataFlow?style=social)
+* [DataFlow](https://github.com/OpenDCAI/DataFlow): LLM数据解析、合成、处理、评估、数据智能体、数据动态调度工具. ![GitHub stars](https://img.shields.io/github/stars/OpenDCAI/DataFlow.svg)
+<p align="center">
+<img src="/images/Face.jpg" width="50%"> 
+</p>
+
+**[DataFlow:张文涛和鄂维南院士团队推出Data-centric AI系统](https://mp.weixin.qq.com/s/ns96fMzDluAmPLnl8GY8ww)** 
+
 **[鄂维南、汤林鹏、张文涛：Data-centric AI](https://mp.weixin.qq.com/s/B8dnPvR1bjJEJFRDSufCiA)**
 
 + **Data-centric AI**: 近些年来 AI 模型发展遇到了瓶颈，大部分SOTA模型都是沿用2017年提出的Transformer 结构，性能收益来源由模型 --> 数据。课题组主要考虑优 Data quality, quantity 和 efficiency，以较低成本和较短时间来获得大量高质量数据。以大模型(如ChatGPT)为例，在考虑数据获取成本和效率的前提下，设计高效的数据处理方法（如过滤、去重和降噪），研究科学和系统的数据质量评估体系和策略，探索更有效的数据合成（如合成和增强）方式，构建有效的数据抽取（如RAG、分布匹配和数据配比）方式。
@@ -235,7 +241,7 @@ Contributed Open-source Projects
 ------
 * [DataFlow](https://github.com/OpenDCAI/DataFlow): a data preparation and training system designed to parse, generate, process and evaluate high-quality data from noisy sources, thereby improving the performance of LLMs in specific domains through targeted training. ![GitHub stars](https://img.shields.io/github/stars/OpenDCAI/DataFlow.svg)
 <p align="center">
-<img src="/images/DataFlow-logo.jpg" width="30%"> 
+<img src="/images/Face.jpg" width="30%"> 
 </p>
 
 * [MinerU](https://github.com/opendatalab/MinerU): a high-quality tool for convert PDF to Markdown and JSON. ![GitHub stars](https://img.shields.io/github/stars/opendatalab/MinerU.svg)
