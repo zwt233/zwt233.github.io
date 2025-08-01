@@ -88,7 +88,7 @@ Research Interests
 
 **<font color=red>What's New</font>**
 ------
-* **2025-07**: Two Papers are accepted by ***ACM MM 2025***.
+* **2025-07**: Five Papers are accepted by ***ACM MM 2025***.
 * **2025-06**: Two Papers are accepted by ***ICCV 2025***.
 * **2025-06**: One Paper is accepted by ***VLDB 2025***.
 * **2025-05**: One Paper is accepted by ***ECML 2025***.
