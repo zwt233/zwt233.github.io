@@ -89,6 +89,7 @@ Research Interests
 **<font color=red>What's New</font>**
 ------
 * **2025-08**: Six Papers are accepted by ***EMNLP 2025***.
+* **2025-08**: 🏆 We win the ***<font color=orange>First Place Winner</font>***  in ***ICML 2025 Challenges on Automated Math Reasoning and Extensions***!
 * **2025-07**: Five Papers are accepted by ***ACM MM 2025***.
 * **2025-06**: Two Papers are accepted by ***ICCV 2025***.
 * **2025-06**: One Paper is accepted by ***VLDB 2025***.
@@ -204,6 +205,7 @@ Contributed Open-source Projects
   
 Selected Awards
 ------
+24. ["High-Tech Innovation Program" Young Talent Support Project]（“高创计划”青年人才托举工程）(https://www.sme-gov.cn/beijing-news-64898.html), 2025.
 24. 🏆 [Best Student Full Paper Award](https://cikm2024.org/), ***CIKM 2024***.
 25. Weiming Young Scholar, Peking University, 2024
 21. [First Prize of Scientific and Technological Progress Award](https://www.cie.org.cn/list_43/12031.html)（科技进步一等奖）, CIE（中国电子学会）, 2023
