@@ -205,7 +205,7 @@ Contributed Open-source Projects
   
 Selected Awards
 ------
-24. ["High-Tech Innovation Program" Young Talent Support Project]（“高创计划”青年人才托举工程）(https://www.sme-gov.cn/beijing-news-64898.html), 2025.
+24. ["High-Tech Innovation Program" Young Talent Support Project](https://www.sme-gov.cn/beijing-news-64898.html)（“高创计划”青年人才托举工程）, 2025.
 24. 🏆 [Best Student Full Paper Award](https://cikm2024.org/), ***CIKM 2024***.
 25. Weiming Young Scholar, Peking University, 2024
 21. [First Prize of Scientific and Technological Progress Award](https://www.cie.org.cn/list_43/12031.html)（科技进步一等奖）, CIE（中国电子学会）, 2023
