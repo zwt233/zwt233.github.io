@@ -101,6 +101,7 @@ Research Interests
 
 **<font color=red>What's New</font>**
 ------
+* **2025-09**: Seven Papers are accepted by ***NeurIPS 2025***.
 * **2025-08**: Six Papers are accepted by ***EMNLP 2025***.
 * **2025-08**: 🏆 We win the ***<font color=orange>First Place Winner</font>***  in ***[ICML 2025 Challenges on Automated Math Reasoning and Extensions](https://www.codabench.org/competitions/7925/)***!
 * **2025-07**: Five Papers are accepted by ***ACM MM 2025***.
