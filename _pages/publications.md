@@ -7,7 +7,7 @@ author_profile: true
 {% include base_path %}
 
 <sup>*</sup> indicates equal contribution, 
-<sup>#</sup> indicates corresponding author
+<sup>#</sup> indicates (co)corresponding author
 
 2025
 ====
