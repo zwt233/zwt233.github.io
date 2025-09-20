@@ -11,7 +11,47 @@ author_profile: true
 
 2025
 ====
-1.  *MRAMG-Bench: A Beyond Text Benchmark for Multimodal Retrieval-Augmented Multimodal Generation.*  <br>
+1.  *MaintainCoder: Maintainable Code Generation Under Dynamic Requirements.*  <br>
+Zhengren Wang, Rui ling, Chufan Wang, Yongan Yu, Sizhe Wang, Zhiyu li, Feiyu Xiong, **Wentao Zhang<sup>#</sup>**<br>
+***NeurIPS 2025, CCF-A***.
+
+1.  *UniCTokens: Boosting Personalized Understanding and Generation via Unified Concept Tokens.*  <br>
+Ruichuan An, Sihan Yang, Renrui Zhang, zijun shen, Ming Lu, Gaole Dai, Hao Liang, Ziyu Guo, Shilin Yan, Yulin Luo, Bocheng Zou, Chaoqun Yang, **Wentao Zhang<sup>#</sup>**<br>
+***NeurIPS 2025, CCF-A***.
+
+1.  *Multi-step Visual Reasoning with Visual Tokens Scaling and Verification.*  <br>
+Tianyi Bai, Zengjie Hu, Fupeng Sun, Qiu Jiantao, Yizhen Jiang, Guangxin He, Bohan Zeng, Conghui He, Binhang Yuan, **Wentao Zhang<sup>#</sup>**<br>
+***NeurIPS 2025, CCF-A***.
+
+1.  *Hallucination at a Glance: Controlled Visual Edits and Fine-Grained Multimodal Learning.*  <br>
+Tianyi Bai, Yuxuan Fan, Qiu Jiantao, Fupeng Sun, Jiayi Song, Junlin Han, Zichen Liu, Conghui He, **Wentao Zhang<sup>#</sup>**, Binhang Yuan<br>
+***NeurIPS 2025, CCF-A***.
+
+1.  *HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation.*  <br>
+Ling Yang, Xinchen Zhang, Ye Tian, Shiyi Zhang, Chenming Shang, Minghao Xu, **Wentao Zhang<sup>#</sup>**, Bin CUI<br>
+***NeurIPS 2025, CCF-A***.
+
+1.  *BRACE: A Benchmark for Robust Audio Caption Quality Evaluation.*  <br>
+Tianyu Guo, Hongyu Chen, Hao Liang, Meiyi Qiang, Bohan Zeng, Linzhuang Sun, Bin CUI, **Wentao Zhang<sup>#</sup>**<br>
+***NeurIPS 2025, CCF-A***.
+
+1.  *HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation.*  <br>
+Yuanyang Yin, Yaqi Zhao, Yajie Zhang, Yuanxing Zhang, Ke Lin, Jiahao Wang, Xin Tao, Pengfei Wan, **Wentao Zhang<sup>#</sup>**, Feng Zhao<br>
+***EMNLP 2025 main, CCF-B***.
+
+1.  *VersaTune: An Efficient Data Composition Framework for Training Multi-Capability LLMs.*  <br>
+Keer Lu, Keshi Zhao, Zhuoran Zhang, Zheng Liang, Bin CUI, Tengjiao Wang, **Wentao Zhang<sup>#</sup>**<br>
+***EMNLP 2025 main, CCF-B***.
+
+1.  *FB-Bench: A Fine-Grained Multi-Task Benchmark for Evaluating LLMs' Responsiveness to Human Feedback.*  <br>
+Youquan Li, Miao Zheng, Fan Yang, Guosheng Dong, Bin CUI, Weipeng Chen, Zenan Zhou, **Wentao Zhang<sup>#</sup>**<br>
+***EMNLP 2025 main, CCF-B***.
+
+1.  *Can LLMs be Good Graph Judge for Knowledge Graph Construction?*  <br>
+Haoyu Huang, Chong Chen, Zeang Sheng, Yang Li, **Wentao Zhang<sup>#</sup>**<br>
+***EMNLP 2025 main, CCF-B***.
+
+1.  *SEA: Supervised Embedding Alignment for Token-Level Visual-Textual Integration in MLLMs*  <br>
 Qinhan Yu, Zhiyou Xiao, Binghui Li, Zhengren Wang, Chong Chen, **Wentao Zhang<sup>#</sup>**<br>
 ***SIGIR 2025, CCF-A***.
 
@@ -22,6 +62,21 @@ Yaqi Zhao, Yuanyang Yin, Lin Li, Mingan Lin, Victor Shea-Jay Huang, Siwei Chen, 
 1.  *Towards Precise Scaling Laws for Video Diffusion Transformers.*  <br>
 Yuanyang Yin, Yaqi Zhao, Mingwu Zheng, Ke Lin, Jiarong Ou, Rui Chen, Victor Shea-Jay Huang, Jiahao Wang, Xin Tao, Pengfei Wan, Di Zhang, Baoqun Yin, **Wentao Zhang<sup>#</sup>**, Kun Gai.<br>
 ***CVPR 2025, CCF-A***.
+
+1.  *EditWorld: Simulating World Dynamics for Instruction-Following Image Editing.*  <br>
+Bohan Zeng, Ling Yang, Jiaming Liu, Minghao Xu, Yuanxing Zhang, Pengfei Wan, **Wentao Zhang<sup>#</sup>**, Shuicheng YAN.<br>
+***ACM MM 2025, CCF-A***.
+
+1.  *SynthVLM: Towards High-Quality and Efficient Synthesis of Image-Caption Datasets for Vision-Language Models.*  <br>
+Zheng Liu, Hao Liang, Bozhou Li, Wentao Xiong, Chong Chen, Conghui He, **Wentao Zhang<sup>#</sup>**, Bin CUI.<br>
+***ACM MM 2025, CCF-A***.
+
+1.  *MathScape: Benchmarking Multimodal Large Language Models in Real-World Mathematical Contexts.*  <br>
+Hao Liang, Linzhuang Sun, zhouminxuan, Zirong Chen, Meiyi Qiang, Mingan Lin, Tianpeng Li, Fan Yang, Zenan Zhou, **Wentao Zhang<sup>#</sup>**.<br>
+***ACM MM 2025, CCF-A***.
+
+
+
 
 1.  *Modeling All-Atom Glycan Structures via Hierarchical Message Passing and Multi-Scale Pre-training.*  <br>
 Minghao Xu, Jiaze Song, Keming Wu, Xiangxin Zhou, Bin CUI, **Wentao Zhang<sup>#</sup>**<br>
@@ -77,7 +132,7 @@ Linzhuang Sun, Hao Liang, Jingxuan Wei, Bihui Yu, Tianpeng Li, Fan Yang, Zenan Z
 
 1.  *QAEncoder: Towards Aligned Representation Learning in Question Answering Systems.*  <br>
 Zhengren Wang, Qinhan Yu, Shida Wei, Zhiyu li, Feiyu Xiong, Xiaoxing Wang, Simin Niu, Hao Liang, **Wentao Zhang<sup>#</sup>**.<br>
-***ACL 2025 Main, CCF-A***.
+***ACL 2025 Main (Oral), CCF-A***.
 
 1.  *Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration.*  <br>
 Tianyi Bai, Ling Yang, Zhen Hao Wong, Fupeng Sun, Xinlin Zhuang, Jiahui Peng, Chi Zhang, Lijun Wu, Qiu Jiantao, **Wentao Zhang<sup>#</sup>**, Binhang Yuan<sup>#</sup>, Conghui He<sup>#</sup>.<br>
@@ -102,6 +157,10 @@ Peichao Lai, Zhengfeng Zhang, **Wentao Zhang**, Fangcheng Fu, Bin CUI.<br>
 1.  *Sparse Causal Discovery with Generative Intervention for Unsupervised Graph Domain Adaptation.*  <br>
 Junyu Luo, Yuhao Tang, yiwei Fu, Xiao Luo, Zhizhuo KOU, Zhiping Xiao, Wei Ju, **Wentao Zhang**, Ming Zhang<br>
 ***ICML 2025, CCF-A***.
+
+1.  *Perceive Anything: Recognize, Explain, Caption, and Segment Anything in Images and Videos.*  <br>
+Weifeng Lin, Xinyu Wei, Ruichuan An, Tianhe Ren, Tingwei Chen, Renrui Zhang, Ziyu Guo, Wentao Zhang, Lei Zhang, Hongsheng Li<br>
+***NeurIPS 2025, CCF-A***.
 
 1.  *AdaMixT: Adaptive Weighted Mixture of Multi-Scale Expert Transformers for Time Series Forecasting.*  <br>
 Huanyao Zhang, Jiaye Lin, Haitao Yuan, **Wentao Zhang**, Guoliang Li<br>
@@ -146,6 +205,32 @@ Wei Jiang, Tong Chen, Xinyi Gao, Wentao Zhang, Lizhen Cui, Hongzhi Yin<br>
 1.  *IPDreamer: Appearance-Controllable 3D Object Generation with Complex Image Prompts.*  <br>
 Bohan Zeng, Shanglin Li, Yutang Feng, Ling Yang, Juan Zhang, Hong Li, Jiaming Liu, Conghui He, Wentao Zhang, Jianzhuang Liu, Baochang Zhang, Shuicheng YAN<br>
 ***ICLR 2025***.
+
+1.  *OCR Hinders RAG: Evaluating the Cascading Impact of OCR on Retrieval-Augmented Generation.*  <br>
+Junyuan Zhang, Qintong Zhang, Bin Wang, Linke Ouyang, Zichen Wen, Ying Li, Ka-Ho Chow, Conghui He, **Wentao Zhang**.<br>
+***ICCV 2025, CCF-A***.
+
+1.  *Any2AnyTryon: Leveraging Adaptive Position Embeddings for Versatile Virtual Clothing Tasks.*  <br>
+Hailong Guo, Bohan Zeng, Yiren Song,  **Wentao Zhang**, Jiaming Liu, Chuang Zhang.<br>
+***ICCV 2025, CCF-A***.
+
+
+1.  *Human Motion Generation in 3D Scenes from Open-Ended Textual Instructions with MLLM Planning.*  <br>
+Siyi Qian, Jian Fang, Yuzhou Mao, Yayun Zou, **Wentao Zhang**, Haiwei Xue.<br>
+***ACM MM 2025, CCF-A***.
+
+1.  *Mavors: Multi-granularity Video Representation for Multimodal Large Language Model.*  <br>
+Yang Shi, Jiaheng Liu, Yushuo Guan, zhenhua wu, Yuanxing Zhang, Wang Zihao, Weihong Lin, Jingyun Hua, Zekun Moore Wang, Xinlong Chen, Bohan Zeng, **Wentao Zhang**, Fuzheng Zhang, Wenjing Yang, Di ZHANG.<br>
+***ACM MM 2025, CCF-A***.
+
+
+1.  *Improving Low-Resource Sequence Labeling with Knowledge Fusion and Contextual Label Explanations.*  <br>
+Peichao Lai, Jiaxin Gan, Feiyang Ye, **Wentao Zhang**, Fangcheng Fu, Yilei Wang, Bin CUI<br>
+***EMNLP 2025 main, CCF-B***.
+
+1.  *Knowledge Graph-Driven Memory Editing with Directional Interventionss.*  <br>
+Jinhu Fu, Kun Wang, chongye guo, Junfeng Fang, Wentao Zhang, **Wentao Zhang<sup>#</sup>**, Sen Su<br>
+***EMNLP 2025 Findings, CCF-B***.
 
 2024
 ====
