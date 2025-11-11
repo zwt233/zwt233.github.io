@@ -94,6 +94,10 @@ Minghao Xu, Yunteng Geng, Yihang Zhang, Ling Yang, Jian Tang, **Wentao Zhang<sup
 Mingyang Chen, sunhaoze, Tianpeng Li, Fan Yang, Hao Liang, KeerLu, Bin CUI, **Wentao Zhang<sup>#</sup>**, Zenan Zhou<sup>#</sup>, weipeng Chen.<br>
 ***ICLR 2025***.
 
+1.  *SiriusBI: A Comprehensive LLM-Powered Solution for Data Analytics in Business Intelligence*  <br>
+Jie Jiang, Haining Xie, Siqi Shen, Yu Shen, Zihan Zhang, Meng Lei, Yifeng Zheng, Yang Li<sup>#</sup>, Chunyou Li, Danqing Huang, Yinjun Wu, **Wentao Zhang<sup>#</sup>**, Xiaofeng Yang, Bin Cui, Peng Chen.<br>
+***VLDB 2025***.
+
 1.  *Training Data Distribution Estimation for Optimized Pre-training Data Management.*  <br>
 Hao Liang, Keshi Zhao, Yajie Yang, Bin Cui, Zenan Zhou, **Wentao Zhang<sup>#</sup>**.<br>
 ***ICDE 2025, CCF-A***.
