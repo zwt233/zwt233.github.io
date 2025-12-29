@@ -101,6 +101,7 @@ Research Interests
 
 **<font color=red>What's New</font>**
 ------
+* **2025-11**: One Paper is accepted by ***SIGKDD 2026***.
 * **2025-11**: Two Papers are accepted by ***AAAI 2026***.
 * **2025-09**: Seven Papers are accepted by ***NeurIPS 2025***.
 * **2025-08**: Six Papers are accepted by ***EMNLP 2025***.
