@@ -50,24 +50,31 @@ Research Interests
 ---
 [DataFlow](https://github.com/OpenDCAI/DataFlow): LLM数据解析、合成、处理、评估、数据智能体、数据动态调度工具. ![GitHub stars](https://img.shields.io/github/stars/OpenDCAI/DataFlow.svg)
 <p align="center">
-<img src="/images/Face.jpg" width="80%"> 
+<img src="/images/DataFlow-Logo.jpg" width="80%"> 
 </p>
 
 **[DataFlow:张文涛和鄂维南院士团队推出Data-centric AI系统](https://mp.weixin.qq.com/s/ns96fMzDluAmPLnl8GY8ww)** 
 
 **[鄂维南、汤林鹏、张文涛：Data-centric AI](https://mp.weixin.qq.com/s/399HCjsbEFGgcsNq-ziDqw)**
 
-**Data-centric AI**: 近些年来 AI 模型发展遇到了瓶颈，大部分SOTA模型都是沿用2017年提出的Transformer 结构。模型创新空间有限，数据的数量、质量与多样性成为AI能力突破的核心，我们致力于推动Data-centric AI开源生态。
-
+**Data-centric AI**: 近些年来 AI 模型发展遇到了瓶颈，大部分SOTA模型都是沿用2017年提出的Transformer 结构。模型创新空间有限，数据的数量、质量与多样性成为AI能力突破的核心，我们研究以下技术：
 + **Data-centric LLM**：深入研究并设计LLM数据侧关键技术，如数据解析、合成、处理和质量评估等，为LLM准备高质量数据；
 + **Data Agent**：构建高效的数据分析Agent工具集与推理框架，开发模块化的基础工具集和扩展工具集，支持复杂数据分析任务的全流程自动化；
-+ **Agentic RAG**：研究更高效性能更好的Agentic RAG算法，自动知识库的构建和清洗，以及针对此场景的更高效的RL训练框架；
++ **RAG**：研究更高效性能更好的RAG算法，自动知识库的构建和清洗，以及针对此场景的更高效的RL训练框架；
 + **LLM Reasoning**：提升LLM在推理任务中的表现。如结合视觉与文本信息，解决复杂数学和物理问题，拓展AI在视觉与文本结合场景中的应用能力；
 + **LLM+DB**：研究数据管理+数据管理，如NL2SQL和表格大模型等；
+并致力于推动Data-centric AI开源生态：
++ **[DataFlow](https://github.com/OpenDCAI/DataFlow)**：大模型数据准备系统，包含数据获取、处理和评估等；[视频教程](https://space.bilibili.com/3546929239689711/lists/6761326?type=season) [图文教程](https://wcny4qa9krto.feishu.cn/wiki/I9tbw2qnBi0lEakmmAGclTysnFd)
++ **[DataFlow-MM](https://github.com/OpenDCAI/DataFlow-MM)**：扩展DataFlow能力到语音、图片和视频等多模态场合；[图文教程](https://opendcai.github.io/DataFlow-MM-Doc/zh/mm_guide/intro/basicinfo/intro/)
++ **DataFlow-Table**：扩展DataFlow能力到结构化表格数据，包含智能取数、处理和分析（尽快开源）；
++ **DataFlow-KG**：扩展DataFlow能力到图结构数据，如KG抽取和基于KG的SFT数据合成（尽快开源）；
++ **[DataFlow Agent](https://github.com/OpenDCAI/DataFlow-Agent)**：降低DataFlow使用门槛，自动化算子和Pipeline的生成和优化；
++ **[SceneFlow](https://github.com/OpenDCAI/SceneFlow?tab=readme-ov-file)**：扩展DataFlow能力到World Model场景（尽快开源）；
++ **[AgentFlow](https://github.com/OpenDCAI/AgentFlow)**：首个包含RAG、MM-RAG、DeepResearch、Code和GUI等多种环境的Agent数据合成框架（尽快开源）；
++ **[Paper2Any](https://github.com/OpenDCAI/Paper2Any)**：基于DataFlow-Agent搭建的应用，包含科研绘图和PPT生成等；[在线体验](https://dcai-paper2any.nas.cpolar.cn/)
 
 
-
-**课题组优势：**
+**课题组优势：[B站视频介绍](bilibili.com/video/BV1kcqZBtErx/?spm_id_from=333.1387.upload.video_card.click)**
 - **1. 研究方向**
   - DCAI和大模型都是学术界/工业界前沿
   - 作为一线青椒，我善于发现和提炼好的研究问题 （有影响力和现实意义，但under-explored的新问题，避免内卷）
@@ -206,17 +213,6 @@ Contributed Open-source Projects
 <p align="center">
 <img src="/images/angel_logo.png" width="30%"> 
 </p>
-  
-* [SGL](https://github.com/PKU-DAIR/SGL): a scalable graph learning toolkit for extremely large graph datasets. ![GitHub stars](https://img.shields.io/github/stars/PKU-DAIR/SGL.svg)
-
-* [MindWare](https://github.com/PKU-DAIR/mindware): a powerful AutoML system, which automates feature engineering, algorithm selection and hyperparameter tuning. ![GitHub stars](https://img.shields.io/github/stars/PKU-DAIR/mindware.svg)
-<p align="center">
-<img src="/images/mindware.png" width="30%">
-</p>
-
-* [OpenBox](https://github.com/PKU-DAIR/open-box): an efficient open-source system designed for solving generalized black-box optimization (BBO) problems. ![GitHub stars](https://img.shields.io/github/stars/PKU-DAIR/open-box.svg)
-<p align="center">
-<img src="/images/Openbox.png" width="30%">
 </p>
   
 Selected Awards
