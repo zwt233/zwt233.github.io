@@ -81,7 +81,7 @@ Research Interests
 + **[DataFlow-LoopAI](https://github.com/OpenDCAI/Dataflow-LoopAI)**：自动检测LLM缺陷并发现数据质量、多样性和数量问题，基于DataFlow自动获取、处理和评估数据并优化LLM效果；
 
 
-**课题组优势：[B站视频介绍](bilibili.com/video/BV1kcqZBtErx/?spm_id_from=333.1387.upload.video_card.click)**
+**课题组优势：[B站视频介绍](https://www.bilibili.com/video/BV1kcqZBtErx/?spm_id_from=333.1387)**
 - **1. 研究方向**
   - DCAI和大模型都是学术界/工业界前沿
   - 作为一线青椒，我善于发现和提炼好的研究问题 （有影响力和现实意义，但under-explored的新问题，避免内卷）
