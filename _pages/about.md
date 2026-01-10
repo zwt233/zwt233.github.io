@@ -220,7 +220,6 @@ Contributed Open-source Projects
 <p align="center">
 <img src="/images/angel_logo.png" width="30%"> 
 </p>
-</p>
   
 Selected Awards
 ------
