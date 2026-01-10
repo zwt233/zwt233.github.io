@@ -68,7 +68,7 @@ Research Interests
 + **LLM+DB**：研究数据管理+数据管理，如NL2SQL和表格大模型等；
 
 我们致力于推动Data-centric AI开源生态：
-+ **[DataFlow](https://github.com/OpenDCAI/DataFlow)**：大模型数据准备系统，包含数据获取、处理和评估等；[技术报告](https://huggingface.co/papers/2512.16676)[视频教程](https://space.bilibili.com/3546929239689711/lists/6761326?type=season) [图文教程](https://wcny4qa9krto.feishu.cn/wiki/I9tbw2qnBi0lEakmmAGclTysnFd)
++ **[DataFlow](https://github.com/OpenDCAI/DataFlow)**：大模型数据准备系统，包含数据获取、处理和评估等；[技术报告](https://huggingface.co/papers/2512.16676);[视频教程](https://space.bilibili.com/3546929239689711/lists/6761326?type=season);[图文教程](https://wcny4qa9krto.feishu.cn/wiki/I9tbw2qnBi0lEakmmAGclTysnFd)
 + **[DataFlow-MM](https://github.com/OpenDCAI/DataFlow-MM)**：扩展DataFlow能力到语音、图片和视频等多模态场合；[图文教程](https://opendcai.github.io/DataFlow-MM-Doc/zh/mm_guide/intro/basicinfo/intro/)
 + **DataFlow-Table**：扩展DataFlow能力到结构化表格数据，包含智能取数、处理和分析（尽快开源）；
 + **DataFlow-KG**：扩展DataFlow能力到图结构数据，如KG抽取和基于KG的SFT数据合成（尽快开源）；
