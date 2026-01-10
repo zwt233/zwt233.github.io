@@ -45,6 +45,9 @@ Besides, Wentao has accumulated for 4 years industrial experience in the ML & Da
  **<font color=red>长期招收博士后</font>**，与北京大学[鄂维南](https://bda.pku.edu.cn/info/1161/2022.htm)院士和[崔斌](https://cuibinpku.github.io/index.html)教授联合培养， **<font color=red>如感兴趣请直接联系 wentao.zhang@pku.edu.cn (微信：z1299799152)！</font>**
 博士后招聘链接：[北京大学崔斌教授招聘大模型方向博士后](http://xhslink.com/m/3o8FLuplLKt)、[北大鄂维南院士、张文涛招聘大模型方向博士后](http://xhslink.com/m/AkBmneoF011)
 
+ **<font color=red>长期招收实习生</font>**，依托[北京大学](https://cmlr.pku.edu.cn/)招收博士生，[上海AI Lab](https://www.shlab.org.cn/)、[北京中关村学院](https://bjzgca.edu.cn/)招收联培博士生，依托北大软微、大数据等招收硕士生。可远程校外实习, 申请2027年秋季入学博士/硕士的学生，建议先联系实习。**
+
+
 
 Research Interests
 ---
@@ -63,12 +66,14 @@ Research Interests
 + **RAG**：研究更高效性能更好的RAG算法，自动知识库的构建和清洗，以及针对此场景的更高效的RL训练框架；
 + **LLM Reasoning**：提升LLM在推理任务中的表现。如结合视觉与文本信息，解决复杂数学和物理问题，拓展AI在视觉与文本结合场景中的应用能力；
 + **LLM+DB**：研究数据管理+数据管理，如NL2SQL和表格大模型等；
-并致力于推动Data-centric AI开源生态：
-+ **[DataFlow](https://github.com/OpenDCAI/DataFlow)**：大模型数据准备系统，包含数据获取、处理和评估等；[视频教程](https://space.bilibili.com/3546929239689711/lists/6761326?type=season) [图文教程](https://wcny4qa9krto.feishu.cn/wiki/I9tbw2qnBi0lEakmmAGclTysnFd)
+
+我们致力于推动Data-centric AI开源生态：
++ **[DataFlow](https://github.com/OpenDCAI/DataFlow)**：大模型数据准备系统，包含数据获取、处理和评估等；[技术报告]（https://huggingface.co/papers/2512.16676）[视频教程](https://space.bilibili.com/3546929239689711/lists/6761326?type=season) [图文教程](https://wcny4qa9krto.feishu.cn/wiki/I9tbw2qnBi0lEakmmAGclTysnFd)
 + **[DataFlow-MM](https://github.com/OpenDCAI/DataFlow-MM)**：扩展DataFlow能力到语音、图片和视频等多模态场合；[图文教程](https://opendcai.github.io/DataFlow-MM-Doc/zh/mm_guide/intro/basicinfo/intro/)
 + **DataFlow-Table**：扩展DataFlow能力到结构化表格数据，包含智能取数、处理和分析（尽快开源）；
 + **DataFlow-KG**：扩展DataFlow能力到图结构数据，如KG抽取和基于KG的SFT数据合成（尽快开源）；
 + **[DataFlow Agent](https://github.com/OpenDCAI/DataFlow-Agent)**：降低DataFlow使用门槛，自动化算子和Pipeline的生成和优化；
++ **[MinerU](https://github.com/opendatalab/MinerU)**：解析PDF为大模型可以使用的Markdown/Json格式数据；
 + **[SceneFlow](https://github.com/OpenDCAI/SceneFlow?tab=readme-ov-file)**：扩展DataFlow能力到World Model场景（尽快开源）；
 + **[AgentFlow](https://github.com/OpenDCAI/AgentFlow)**：首个包含RAG、MM-RAG、DeepResearch、Code和GUI等多种环境的Agent数据合成框架（尽快开源）；
 + **[Paper2Any](https://github.com/OpenDCAI/Paper2Any)**：基于DataFlow-Agent搭建的应用，包含科研绘图和PPT生成等；[在线体验](https://dcai-paper2any.nas.cpolar.cn/)
