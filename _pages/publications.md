@@ -35,6 +35,18 @@ Ling Yang, Xinchen Zhang, Ye Tian, Shiyi Zhang, Chenming Shang, Minghao Xu, **We
 Tianyu Guo, Hongyu Chen, Hao Liang, Meiyi Qiang, Bohan Zeng, Linzhuang Sun, Bin CUI, **Wentao Zhang<sup>#</sup>**<br>
 ***NeurIPS 2025, CCF-A***.
 
+1.  *Med-R2: Crafting Trustworthy LLM Physicians through Retrieval and Reasoning of Evidence-Based Medicine.*  <br>
+Keer Lu, Zheng Liang, Da Pan, Shusen Zhang, Xin Wu, Weipeng Chen, Zenan Zhou, Guosheng Dong, Bin Cui, **Wentao Zhang<sup>#</sup>**<br>
+***WWW 2026, CCF-A***.
+
+1.  *LoVR: A Benchmark for Long Video Retrieval in Multimodal Contexts.*  <br>
+Qifeng Cai, Hao Liang, Hejun Dong, Meiyi Qiang, Ruichuan An, Zhaoyang Han, Zhengzhou Zhu, Bin Cui, **Wentao Zhang<sup>#</sup>**<br>
+***WWW 2026, CCF-A***.
+
+1.  *Let's Verify Math Questions Step by Step.*  <br>
+Chengyu Shen, Zhen Hao Wong, Runming He, Hao Liang, Meiyi Qiang, Zimo Meng, Zhengyang Zhao, Bohan Zeng, Zhengzhou Zhu, Bin CUI, Wentao Zhang<br>
+***SIGKDD 2026, CCF-A***.
+
 1.  *HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation.*  <br>
 Yuanyang Yin, Yaqi Zhao, Yajie Zhang, Yuanxing Zhang, Ke Lin, Jiahao Wang, Xin Tao, Pengfei Wan, **Wentao Zhang<sup>#</sup>**, Feng Zhao<br>
 ***EMNLP 2025 main, CCF-B***.
@@ -207,8 +219,12 @@ Wei Jiang, Tong Chen, Xinyi Gao, Wentao Zhang, Lizhen Cui, Hongzhi Yin<br>
 ***WWW 2025, CCF-A***.
 
 1.  *IPDreamer: Appearance-Controllable 3D Object Generation with Complex Image Prompts.*  <br>
-Bohan Zeng, Shanglin Li, Yutang Feng, Ling Yang, Juan Zhang, Hong Li, Jiaming Liu, Conghui He, Wentao Zhang, Jianzhuang Liu, Baochang Zhang, Shuicheng YAN<br>
+Bohan Zeng, Shanglin Li, Yutang Feng, Ling Yang, Juan Zhang, Hong Li, Jiaming Liu, Conghui He, **Wentao Zhang**, Jianzhuang Liu, Baochang Zhang, Shuicheng YAN<br>
 ***ICLR 2025***.
+
+1.  *The First Prompt Counts the Most! An Evaluation of Large Language Models on Iterative Example-Based Code Generation.*  <br>
+Yingjie Fu, Bozhou Li, Linyi Li, **Wentao Zhang**, Tao Xie<br>
+***ISSTA 2025, CCF-A***.
 
 1.  *OCR Hinders RAG: Evaluating the Cascading Impact of OCR on Retrieval-Augmented Generation.*  <br>
 Junyuan Zhang, Qintong Zhang, Bin Wang, Linke Ouyang, Zichen Wen, Ying Li, Ka-Ho Chow, Conghui He, **Wentao Zhang**.<br>
@@ -223,9 +239,15 @@ Hailong Guo, Bohan Zeng, Yiren Song,  **Wentao Zhang**, Jiaming Liu, Chuang Zhan
 Siyi Qian, Jian Fang, Yuzhou Mao, Yayun Zou, **Wentao Zhang**, Haiwei Xue.<br>
 ***ACM MM 2025, CCF-A***.
 
+
+
 1.  *Mavors: Multi-granularity Video Representation for Multimodal Large Language Model.*  <br>
 Yang Shi, Jiaheng Liu, Yushuo Guan, zhenhua wu, Yuanxing Zhang, Wang Zihao, Weihong Lin, Jingyun Hua, Zekun Moore Wang, Xinlong Chen, Bohan Zeng, **Wentao Zhang**, Fuzheng Zhang, Wenjing Yang, Di ZHANG.<br>
 ***ACM MM 2025, CCF-A***.
+
+1.  *Memory-Enhanced Invariant Prompt Learning for Urban Flow Prediction Under Distribution Shifts.*  <br>
+Haiyang Jiang, Tong Chen, **Wentao Zhang**, Quoc Viet Hung Nguyen, Yuan Yuan, Yong Li, Hongzhi Yin.<br>
+***ECML 2025, CCF-B***.
 
 
 1.  *Improving Low-Resource Sequence Labeling with Knowledge Fusion and Contextual Label Explanations.*  <br>
