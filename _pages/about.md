@@ -45,7 +45,7 @@ Besides, Wentao has accumulated for 4 years industrial experience in the ML & Da
  **<font color=red>长期招收博士后</font>**，与北京大学[鄂维南](https://bda.pku.edu.cn/info/1161/2022.htm)院士和[崔斌](https://cuibinpku.github.io/index.html)教授联合培养， **<font color=red>如感兴趣请直接联系 wentao.zhang@pku.edu.cn (微信：z1299799152)！</font>**
 博士后招聘链接：[北京大学崔斌教授招聘大模型方向博士后](http://xhslink.com/o/5lwmHswnPvJ)、[北大鄂维南院士、张文涛招聘大模型方向博士后](http://xhslink.com/o/5tigrus9ovF)
 
- **<font color=red>长期招收实习生</font>**，依托[北京大学](https://cmlr.pku.edu.cn/)招收博士生，[上海AI Lab](https://www.shlab.org.cn/)、[北京中关村学院](https://bjzgca.edu.cn/)招收联培博士生，依托北大软微、大数据等招收硕士生。可远程校外实习, 申请2027年秋季入学博士/硕士的学生，建议先联系实习。
+ **<font color=red>长期招收实习生</font>**，依托[北京大学](https://cmlr.pku.edu.cn/)招收博士生，[上海AI Lab](https://www.shlab.org.cn/)、[北京中关村学院](https://bjzgca.edu.cn/)招收联培博士生。可远程校外实习, 申请2027年秋季入学博士/硕士的学生，建议先联系实习。
 
 
 
