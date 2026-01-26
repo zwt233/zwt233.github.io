@@ -66,10 +66,12 @@ Research Interests
 + **RAG**：研究更高效性能更好的RAG算法，自动知识库的构建和清洗，以及针对此场景的更高效的RL训练框架；
 + **LLM Reasoning**：提升LLM在推理任务中的表现。如结合视觉与文本信息，解决复杂数学和物理问题，拓展AI在视觉与文本结合场景中的应用能力；
 + **LLM+DB**：研究数据管理+数据管理，如NL2SQL和表格大模型等；
++ **LLM+Science**：为科学大模型准备数学（如形式化证明）、化学（新材料）、生命科学（如蛋白质结构和药物发现）等AI-Ready语料。
 
 我们致力于推动Data-centric AI开源生态：
 + **[DataFlow](https://github.com/OpenDCAI/DataFlow)**：大模型数据准备系统，包含数据获取、处理和质量评估等；[技术报告](https://huggingface.co/papers/2512.16676);[视频教程](https://space.bilibili.com/3546929239689711/lists/6761326?type=season);[图文教程](https://wcny4qa9krto.feishu.cn/wiki/I9tbw2qnBi0lEakmmAGclTysnFd)
 + **[DataFlow-MM](https://github.com/OpenDCAI/DataFlow-MM)**：扩展DataFlow能力到语音、图片和视频等多模态场合；[图文教程](https://opendcai.github.io/DataFlow-MM-Doc/zh/mm_guide/intro/basicinfo/intro/)
++ **[DataFlow-AI4S](https://github.com/OpenDCAI/Dataflow-AI4S)**：扩展DataFlow能力到数学、化学和生命科学等AI4S场景，为Science大模型准备AI-Ready语料（尽快开源）；
 + **DataFlow-Table**：扩展DataFlow能力到结构化表格数据，包含智能取数、处理和分析（尽快开源）；
 + **DataFlow-KG**：扩展DataFlow能力到图结构数据，如KG抽取和基于KG的SFT数据合成（尽快开源）；
 + **[DataFlow Agent](https://github.com/OpenDCAI/DataFlow-Agent)**：降低DataFlow使用门槛，自动化算子和Pipeline的生成和优化；
