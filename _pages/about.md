@@ -115,6 +115,7 @@ Research Interests
 
 **<font color=red>What's New</font>**
 ------
+* **2026-01**: Six Papers are accepted by ***ICLR 2026***.
 * **2026-01**: Two Papers are accepted by ***WWW 2026***.
 * **2025-11**: One Paper is accepted by ***SIGKDD 2026***.
 * **2025-11**: Two Papers are accepted by ***AAAI 2026***.
