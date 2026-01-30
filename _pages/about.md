@@ -117,6 +117,7 @@ Research Interests
 
 **<font color=red>What's New</font>**
 ------
+* **2026-01**: PhD student Xu Minghao has been awarded the **[Tencent Qingyun Scholarship](https://mp.weixin.qq.com/s/3hHWkPc75njWA-R5GNAQyg)(腾讯青云奖学金)**
 * **2026-01**: Six Papers are accepted by ***ICLR 2026***.
 * **2026-01**: Two Papers are accepted by ***WWW 2026***.
 * **2025-11**: One Paper is accepted by ***SIGKDD 2026***.
