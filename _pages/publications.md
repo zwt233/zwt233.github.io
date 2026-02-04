@@ -9,6 +9,52 @@ author_profile: true
 <sup>*</sup> indicates equal contribution, 
 <sup>#</sup> indicates (co)corresponding author
 
+2026
+====
+1.  *Learning What Reinforcement Learning Can't: Interleaved Online Fine-Tuning for Hardest Questions.*  <br>
+Lu Ma, Hao Liang, Meiyi Qiang, Lexiang Tang, Xiaochen Ma, Zhen Hao Wong, Junbo Niu, Chengyu Shen, Runming He, Yanhao Li,  **Wentao Zhang<sup>#</sup>**, Bin CUI<br>
+***ICLR 2026***.
+
+1.  *Rethinking Driving World Model as Synthetic Data Generator for Perception Tasks.*  <br>
+Kai Zeng, Zhanqian Wu, Kaixin Xiong, Xiaobao Wei, Xiangyu Guo, Zhenxin Zhu, Kalok Ho, Lijun Zhou, Bohan Zeng, Ming Lu, Haiyang Sun, BING WANG, Guang Chen, Hangjun Ye, **Wentao Zhang<sup>#</sup>**<br>
+***ICLR 2026***.
+
+1.  *FLARE: Fully Integration of Vision-Language Representations for Deep Cross-Modal Understanding.*  <br>
+Zheng Liu, Mengjie Liu, Jingzhou Chen, Jingwei Xu, Bin CUI, Conghui He, **Wentao Zhang<sup>#</sup>**<br>
+***ICLR 2026***.
+
+1.  *Empowering Efficiency and Efficacy in WebAgent via Enabling Info-Rich Seeking.*  <br>
+Zhengwei Tao, Haiyang SHEN, Baixuan Li, Wenbiao Yin, Jialong Wu, Kuan Li, Zhongwang Zhang, Huifeng Yin, Rui Ye, Yun Ma, Zhiqiang Gao, Wentao Zhang, Yong Jiang, Pengjun Xie, Fei Huang, Jingren Zhou<br>
+***ICLR 2026***.
+
+1.  *WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization.*  <br>
+Zhengwei Tao, Jialong Wu, Wenbiao Yin, Pu Wu, Junkai Zhang, Baixuan Li, Haiyang SHEN, Kuan Li, Liwen Zhang, Xinyu Wang, Wentao Zhang, Yong Jiang, Pengjun Xie, Fei Huang, Jingren Zhou<br>
+***ICLR 2026***.
+
+1.  *The Unseen Bias: How Norm Discrepancy in Pre-Norm MLLMs Leads to Visual Information Loss*  <br>
+Bozhou Li, Xinda Xue, Sihan Yang, Yang Shi, Xinlong Chen, Yushuo Guan, Yuanxing Zhang, **Wentao Zhang<sup>#</sup>**<br>
+***ICLR 2026***.
+
+1.  *Med-R2: Crafting Trustworthy LLM Physicians through Retrieval and Reasoning of Evidence-Based Medicine.*  <br>
+Keer Lu, Zheng Liang, Da Pan, Shusen Zhang, Xin Wu, Weipeng Chen, Zenan Zhou, Guosheng Dong, Bin Cui, **Wentao Zhang<sup>#</sup>**<br>
+***WWW 2026, CCF-A***.
+
+1.  *LoVR: A Benchmark for Long Video Retrieval in Multimodal Contexts.*  <br>
+Qifeng Cai, Hao Liang, Hejun Dong, Meiyi Qiang, Ruichuan An, Zhaoyang Han, Zhengzhou Zhu, Bin Cui, **Wentao Zhang<sup>#</sup>**<br>
+***WWW 2026, CCF-A***.
+
+1.  *Let's Verify Math Questions Step by Step.*  <br>
+Chengyu Shen, Zhen Hao Wong, Runming He, Hao Liang, Meiyi Qiang, Zimo Meng, Zhengyang Zhao, Bohan Zeng, Zhengzhou Zhu, Bin CUI, Wentao Zhang<br>
+***SIGKDD 2026, CCF-A***.
+
+1.  *VerifyBench: A Systematic Benchmark for Evaluating Reasoning Verifiers Across Domains.*  <br>
+Xuzhao Li, Xuzhao_Li1, Xuchen Li, Shiyu Hu, Yongzhen Guo, **Wentao Zhang<sup>#</sup>**<br>
+***AAAI 2026 (Oral), CCF-A***.
+
+1.  *CausalStep: A Benchmark for Explicit Stepwise Causal Reasoning in Videos.*  <br>
+Xuchen Li, Xuzhao Li, Shiyu Hu, Kaiqi Huang, **Wentao Zhang<sup>#</sup>**<br>
+***AAAI 2026 (Oral),, CCF-A***.
+
 2025
 ====
 1.  *MaintainCoder: Maintainable Code Generation Under Dynamic Requirements.*  <br>
@@ -34,18 +80,6 @@ Ling Yang, Xinchen Zhang, Ye Tian, Shiyi Zhang, Chenming Shang, Minghao Xu, **We
 1.  *BRACE: A Benchmark for Robust Audio Caption Quality Evaluation.*  <br>
 Tianyu Guo, Hongyu Chen, Hao Liang, Meiyi Qiang, Bohan Zeng, Linzhuang Sun, Bin CUI, **Wentao Zhang<sup>#</sup>**<br>
 ***NeurIPS 2025, CCF-A***.
-
-1.  *Med-R2: Crafting Trustworthy LLM Physicians through Retrieval and Reasoning of Evidence-Based Medicine.*  <br>
-Keer Lu, Zheng Liang, Da Pan, Shusen Zhang, Xin Wu, Weipeng Chen, Zenan Zhou, Guosheng Dong, Bin Cui, **Wentao Zhang<sup>#</sup>**<br>
-***WWW 2026, CCF-A***.
-
-1.  *LoVR: A Benchmark for Long Video Retrieval in Multimodal Contexts.*  <br>
-Qifeng Cai, Hao Liang, Hejun Dong, Meiyi Qiang, Ruichuan An, Zhaoyang Han, Zhengzhou Zhu, Bin Cui, **Wentao Zhang<sup>#</sup>**<br>
-***WWW 2026, CCF-A***.
-
-1.  *Let's Verify Math Questions Step by Step.*  <br>
-Chengyu Shen, Zhen Hao Wong, Runming He, Hao Liang, Meiyi Qiang, Zimo Meng, Zhengyang Zhao, Bohan Zeng, Zhengzhou Zhu, Bin CUI, Wentao Zhang<br>
-***SIGKDD 2026, CCF-A***.
 
 1.  *HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation.*  <br>
 Yuanyang Yin, Yaqi Zhao, Yajie Zhang, Yuanxing Zhang, Ke Lin, Jiahao Wang, Xin Tao, Pengfei Wan, **Wentao Zhang<sup>#</sup>**, Feng Zhao<br>
