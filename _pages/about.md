@@ -77,6 +77,7 @@ Research Interests
 + **[DataFlow Agent](https://github.com/OpenDCAI/DataFlow-Agent)**：降低DataFlow使用门槛，自动化算子和Pipeline的生成和优化；
 + **[DataFlex](https://github.com/OpenDCAI/DataFlex)**：Data-centric LLM训练框架，训练过程中动态选择和配比数据；[图文教程](https://opendcai.github.io/DataFlex-Doc/zh/)
 + **[MinerU](https://github.com/opendatalab/MinerU)**：解析PDF为大模型可以使用的Markdown/Json格式数据；
++ **[MinerU-HTML](https://github.com/opendatalab/MinerU-HTML)**：抽取HTML为大模型可以使用的AI-Ready数据；
 + **[SceneFlow](https://github.com/OpenDCAI/SceneFlow?tab=readme-ov-file)**：扩展DataFlow能力到World Model场景（尽快开源）；
 + **[AgentFlow](https://github.com/OpenDCAI/AgentFlow)**：首个包含RAG、MM-RAG、DeepResearch、Code和GUI等多种环境的Agent数据合成框架（尽快开源）；
 + **[Paper2Any](https://github.com/OpenDCAI/Paper2Any)**：基于DataFlow-Agent搭建的应用，包含科研绘图和PPT生成等；[在线体验](https://dcai-paper2any.nas.cpolar.cn/)
