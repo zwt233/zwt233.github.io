@@ -24,11 +24,11 @@ Zheng Liu, Mengjie Liu, Jingzhou Chen, Jingwei Xu, Bin CUI, Conghui He, **Wentao
 ***ICLR 2026***.
 
 1.  *Empowering Efficiency and Efficacy in WebAgent via Enabling Info-Rich Seeking.*  <br>
-Zhengwei Tao, Haiyang SHEN, Baixuan Li, Wenbiao Yin, Jialong Wu, Kuan Li, Zhongwang Zhang, Huifeng Yin, Rui Ye, Yun Ma, Zhiqiang Gao, Wentao Zhang, Yong Jiang, Pengjun Xie, Fei Huang, Jingren Zhou<br>
+Zhengwei Tao, Haiyang SHEN, Baixuan Li, Wenbiao Yin, Jialong Wu, Kuan Li, Zhongwang Zhang, Huifeng Yin, Rui Ye, Yun Ma, Yong Jiang, Pengjun Xie, Fei Huang, Jingren Zhou, **Wentao Zhang<sup>#</sup>**, Yun Ma<sup>#</sup><, Zhiqiang Gao<sup>#</sup><br>
 ***ICLR 2026***.
 
 1.  *WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization.*  <br>
-Zhengwei Tao, Jialong Wu, Wenbiao Yin, Pu Wu, Junkai Zhang, Baixuan Li, Haiyang SHEN, Kuan Li, Liwen Zhang, Xinyu Wang, Wentao Zhang, Yong Jiang, Pengjun Xie, Fei Huang, Jingren Zhou<br>
+Zhengwei Tao, Jialong Wu, Wenbiao Yin, Pu Wu, Junkai Zhang, Baixuan Li, Haiyang SHEN, Kuan Li, Liwen Zhang, Xinyu Wang, Yong Jiang, Pengjun Xie, Fei Huang, Jingren Zhou, **Wentao Zhang<sup>#</sup>**<br>
 ***ICLR 2026***.
 
 1.  *The Unseen Bias: How Norm Discrepancy in Pre-Norm MLLMs Leads to Visual Information Loss*  <br>
