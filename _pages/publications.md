@@ -11,29 +11,57 @@ author_profile: true
 
 2026
 ====
+1.  *Text2VectorSQL: Towards a Unified Interface for Vector Search and SQL Queries.*  <br>
+Zhengren Wang, Dongwen Yao, Bozhou Li, Dongsheng Ma, Bo Li, Zhiyu Li, Feiyu Xiong, Bin Cui, Linpeng Tang, **Wentao Zhang<sup>#</sup>***<br>
+***ICDE 2026, CCF-A***.
+
+1.  *Text2SQL-Flow: A Robust SQL-Aware Data Augmentation Framework for Text-to-SQL.*  <br>
+Qifeng Cai, Hao Liang, Chang Xu, Tao Xie, **Wentao Zhang<sup>#</sup>**, Bin Cui*<br>
+***ICDE 2026, CCF-A***.
+
+1.  *VABench: A Comprehensive Benchmark for Audio-Video Generation.*  <br>
+Daili Hua, Xizhi Wang, Bohan Zeng, Xinyi Huang, Hao Liang, Junbo Niu, Xinlong Chen, Quanqing Xu, **Wentao Zhang<sup>#</sup>**<br>
+***CVPR 2026, CCF-A***.
+
+1.  *Scone: Bridging Composition and Distinction in Subject-Driven Image Generation via Unified Understanding-Generation Modeling.*  <br>
+Yuran Wang, Bohan Zeng, Chengzhuo Tong, Wenxuan Liu, Yang Shi, Xiaochen Ma, Hao Liang, Yuanxing Zhang, **Wentao Zhang<sup>#</sup>**<br>
+***CVPR 2026, CCF-A***.
+
+1.  *Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation.*  <br>
+Yiwen Tang, Ziyu Guo, Kaixin Zhu, Renrui Zhang, Qizhi Chen, Dongzhi Jiang, Junli Liu, Bohan Zeng, Haoming Song, Delin Qu, Tianyi Bai, Dan Xu, Wentao Zhang, Bin Zhao<br>
+***CVPR 2026, CCF-A***.
+
+1.  *UniMERNet: A Universal Network for Real-World Mathematical Expression Recognition.*  <br>
+Zhuangcheng Gu, Guang Liang, Bin Wang, Zhiyuan Zhao, Qintong Zhang, Weijia Li, Chao Xu, Bo Zhang, Botian Shi, Jiang Wu, Wentao Zhang, Conghui He<br>
+***CVPR 2026, CCF-A***.
+
+1.  *VCU-Bridge: Hierarchical Visual Connotation Understanding via Semantic Bridging.*  <br>
+Ming Zhong, Yuanlei Wang, Liuzhou Zhang, Ruichuan An, Renrui Zhang, Hao Liang, Ming Lu, Ying Shen, **Wentao Zhang<sup>#</sup>**<br>
+***CVPR 2026, CCF-A***.
+
 1.  *Learning What Reinforcement Learning Can't: Interleaved Online Fine-Tuning for Hardest Questions.*  <br>
 Lu Ma, Hao Liang, Meiyi Qiang, Lexiang Tang, Xiaochen Ma, Zhen Hao Wong, Junbo Niu, Chengyu Shen, Runming He, Yanhao Li,  **Wentao Zhang<sup>#</sup>**, Bin CUI<br>
-***ICLR 2026***.
+***ICLR 2026, CCF-A***.
 
 1.  *Rethinking Driving World Model as Synthetic Data Generator for Perception Tasks.*  <br>
 Kai Zeng, Zhanqian Wu, Kaixin Xiong, Xiaobao Wei, Xiangyu Guo, Zhenxin Zhu, Kalok Ho, Lijun Zhou, Bohan Zeng, Ming Lu, Haiyang Sun, BING WANG, Guang Chen, Hangjun Ye, **Wentao Zhang<sup>#</sup>**<br>
-***ICLR 2026***.
+***ICLR 2026, CCF-A***.
 
 1.  *FLARE: Fully Integration of Vision-Language Representations for Deep Cross-Modal Understanding.*  <br>
 Zheng Liu, Mengjie Liu, Jingzhou Chen, Jingwei Xu, Bin CUI, Conghui He, **Wentao Zhang<sup>#</sup>**<br>
-***ICLR 2026***.
+***ICLR 2026, CCF-A***.
 
 1.  *Empowering Efficiency and Efficacy in WebAgent via Enabling Info-Rich Seeking.*  <br>
 Zhengwei Tao, Haiyang SHEN, Baixuan Li, Wenbiao Yin, Jialong Wu, Kuan Li, Zhongwang Zhang, Huifeng Yin, Rui Ye, Yun Ma, Yong Jiang, Pengjun Xie, Fei Huang, Jingren Zhou, **Wentao Zhang<sup>#</sup>**, Yun Ma<sup>#</sup><, Zhiqiang Gao<sup>#</sup><br>
-***ICLR 2026***.
+***ICLR 2026, CCF-A***.
 
 1.  *WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization.*  <br>
 Zhengwei Tao, Jialong Wu, Wenbiao Yin, Pu Wu, Junkai Zhang, Baixuan Li, Haiyang SHEN, Kuan Li, Liwen Zhang, Xinyu Wang, Yong Jiang, Pengjun Xie, Fei Huang, Jingren Zhou, **Wentao Zhang<sup>#</sup>**<br>
-***ICLR 2026***.
+***ICLR 2026, CCF-A***.
 
 1.  *The Unseen Bias: How Norm Discrepancy in Pre-Norm MLLMs Leads to Visual Information Loss*  <br>
 Bozhou Li, Xinda Xue, Sihan Yang, Yang Shi, Xinlong Chen, Yushuo Guan, Yuanxing Zhang, **Wentao Zhang<sup>#</sup>**<br>
-***ICLR 2026***.
+***ICLR 2026, CCF-A***.
 
 1.  *Med-R2: Crafting Trustworthy LLM Physicians through Retrieval and Reasoning of Evidence-Based Medicine.*  <br>
 Keer Lu, Zheng Liang, Da Pan, Shusen Zhang, Xin Wu, Weipeng Chen, Zenan Zhou, Guosheng Dong, Bin Cui, **Wentao Zhang<sup>#</sup>**<br>
@@ -53,7 +81,7 @@ Xuzhao Li, Xuzhao_Li1, Xuchen Li, Shiyu Hu, Yongzhen Guo, **Wentao Zhang<sup>#</
 
 1.  *CausalStep: A Benchmark for Explicit Stepwise Causal Reasoning in Videos.*  <br>
 Xuchen Li, Xuzhao Li, Shiyu Hu, Kaiqi Huang, **Wentao Zhang<sup>#</sup>**<br>
-***AAAI 2026 (Oral),, CCF-A***.
+***AAAI 2026 (Oral), CCF-A***.
 
 2025
 ====
