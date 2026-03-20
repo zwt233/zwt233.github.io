@@ -84,6 +84,7 @@ Research Interests
 + **[MinerU-HTML](https://github.com/opendatalab/MinerU-HTML)**：抽取HTML为大模型可以使用的AI-Ready数据；
 + **[Paper2Any](https://github.com/OpenDCAI/Paper2Any)**：基于DataFlow-Agent搭建的应用，包含科研绘图和PPT生成等；[在线体验](https://dcai-paper2any.nas.cpolar.cn/)
 + **[OpenNotebookLM](https://github.com/OpenDCAI/Open-NotebookLM)**：覆盖Google NotebookLM功能，并增加对Table和Graph数据的处理；[在线体验](https://opennotebook.nas.cpolar.cn/)
++ **PaperAgent**：人机协同 + 多Agent + 可追溯 的研究辅助系统，加速生成高质量CCF-A类顶会和顶刊论文
 
 
 
