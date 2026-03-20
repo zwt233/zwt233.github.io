@@ -53,7 +53,7 @@ Research Interests
 ---
 [DataFlow](https://github.com/OpenDCAI/DataFlow): LLM数据解析、合成、处理、评估、数据智能体、数据动态调度工具. ![GitHub stars](https://img.shields.io/github/stars/OpenDCAI/DataFlow.svg)
 <p align="center">
-<img src="/images/DataFlow-Logo.jpg" width="80%"> 
+<img src="/images/DataFlow-Logo.png" width="70%"> 
 </p>
 
 **[DataFlow:张文涛和鄂维南院士团队推出Data-centric AI系统](https://mp.weixin.qq.com/s/ns96fMzDluAmPLnl8GY8ww)** 
