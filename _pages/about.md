@@ -221,7 +221,7 @@ Contributed Open-source Projects
 ------
 * [DataFlow](https://github.com/OpenDCAI/DataFlow): a data preparation and training system designed to parse, generate, process and evaluate high-quality data from noisy sources, thereby improving the performance of LLMs in specific domains through targeted training. ![GitHub stars](https://img.shields.io/github/stars/OpenDCAI/DataFlow.svg)
 <p align="center">
-<img src="/images/Face.jpg" width="30%"> 
+<img src="/images/DataFlow-Logo.png" width="30%"> 
 </p>
 
 * [MinerU](https://github.com/opendatalab/MinerU): a high-quality tool for convert PDF to Markdown and JSON. ![GitHub stars](https://img.shields.io/github/stars/opendatalab/MinerU.svg)
