@@ -652,33 +652,3 @@ IEEE International Conference on Data Engineering. <br>
 Sci China Inf Sci. <br>
 ***SCIS 2020, CCF-A***. 
  
-
-Preprints
-==== 
-
-1.  *Distributed Graph Neural Network Training: A Survey* [[Paper](https://arxiv.org/abs/2211.00216)] <br>
-Yingxia Shao, Hongzheng Li, Xizhi Gu, Hongbo Yin, Yawen Li, Xupeng Miao, Wentao Zhang, Bin Cui, Lei Chen. <br>
-arXiv:2211.00216, 2022. (***arXiv preprint***).   
- 
-
-1.  *Efficient Graph Neural Network Inference at Large Scale* [[Paper](https://arxiv.org/abs/2211.00495)]<br>
-Xinyi Gao, **Wentao Zhang<sup>#</sup>**, Yingxia Shao, Quoc Viet Hung Nguyen, Bin Cui, Hongzhi Yin. <br>
-	arXiv:2211.00495, 2022. (***arXiv preprint***).   
- 
-1.  *Diffusion Models: A Comprehensive Survey of Methods* [[Paper](https://arxiv.org/abs/2209.00796)][[Code](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy)] <br>
-Ling Yang, Zhilong Zhang, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, **Wentao Zhang<sup>#</sup>**, Ming-Hsuan Yang, Bin Cui. <br>
-arXiv:2209.00796, 2022. (***arXiv preprint***).   
- 
-1.  *Evaluating Deep Graph Neural Networks* [[Paper](https://arxiv.org/pdf/2108.00955)][[Code](https://github.com/PKU-DAIR/DGMLP)] <br>
-**Wentao Zhang**, Zeang Sheng, Yuezihan Jiang, Yikuan Xia, Jun Gao, Zhi Yang, Bin Cui.<br>
-arXiv:2011.02260, 2020. (***arXiv preprint***). 
-
-1.  *Graph Attention Multi-Layer Perceptron* [[Paper](https://arxiv.org/pdf/2108.10097)][[Code](https://github.com/PKU-DAIR/GAMLP)] <br>
-**Wentao Zhang**, Ziqi Yin, Zeang Sheng, Wen Ouyang, Xiaosen Li, Yangyu Tao, Zhi Yang, Bin Cui. <br>
-arXiv:2108.10097, 2021. (***arXiv preprint***).  
-
-1.  *GMLP: Building Scalable and Flexible Graph Neural Networks with Feature-Message Passing* [[Paper](https://arxiv.org/pdf/2104.09880)][[Code](https://github.com/zwt233/PASCA)] <br>
-**Wentao Zhang**, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang, Yangyu Tao, Zhi Yang, Bin Cui. <br>
-arXiv:2108.00955, 2021. (***arXiv preprint***). 
-  
-
