@@ -60,13 +60,23 @@ Research Interests
 
 **[鄂维南、汤林鹏、张文涛：Data-centric AI](https://mp.weixin.qq.com/s/399HCjsbEFGgcsNq-ziDqw)**
 
-**Data-centric AI**: 近些年来 AI 模型发展遇到了瓶颈，大部分SOTA模型都是沿用2017年提出的Transformer 结构。模型创新空间有限，数据的数量、质量与多样性成为AI能力突破的核心，我们研究以下技术：
-+ **Data-centric LLM**：深入研究并设计LLM数据侧关键技术，如数据解析、合成、处理和质量评估等，为LLM准备高质量数据；
-+ **Data Agent**：构建高效的数据分析Agent工具集与推理框架，开发模块化的基础工具集和扩展工具集，支持复杂数据分析任务的全流程自动化；
-+ **RAG**：研究更高效性能更好的RAG算法，自动知识库的构建和清洗，以及针对此场景的更高效的RL训练框架；
-+ **LLM Reasoning**：提升LLM在推理任务中的表现。如结合视觉与文本信息，解决复杂数学和物理问题，拓展AI在视觉与文本结合场景中的应用能力；
-+ **LLM+DB**：研究数据管理+数据管理，如NL2SQL和表格大模型等；
-+ **LLM+Science**：为科学大模型准备数学（如形式化证明）、化学（新材料）、生命科学（如蛋白质结构和药物发现）等AI-Ready语料。
+**Data-centric AI**: 近些年来 AI 模型发展遇到了瓶颈，大部分SOTA模型都是沿用2017年提出的Transformer 结构。模型创新空间有限，数据的数量、质量与多样性成为AI能力突破的核心，我们致力于探索以数据为中心的 AI（Data-Centric AI）前沿，围绕大模型全生命周期的数据准备与训练展开研究，涵盖以下四个核心方向：
+
+### 1. 训练数据准备
+
+我们构建了面向大模型训练的数据准备系统，对数据算子、Prompt 和工作流进行统一抽象，形成了包括 [DataFlow](https://github.com/OpenDCAI/DataFlow)（[Technical Report](https://arxiv.org/abs/2512.16676)）、[DataFlow-MM](https://github.com/OpenDCAI/DataFlow-MM) 和 [AgentFlow](https://github.com/OpenDCAI/Agentflow) 在内的工具矩阵。系统集成 [MinerU](https://github.com/opendatalab/mineru) 作为文档解析引擎，并提出了 **DataFlow-EcoSystem** 生态概念——支持多个遵循 DataFlow 协议的仓库并行开发与协作，[DataFlow-WorldModel](https://github.com/OpenDCAI/OpenWorldLib) 即为一个World Model的生态示例。
+
+### 2. 数据–模型交互训练
+
+训练数据就绪后，还需要对数据进行动态选择、配比与权重调整。为此，我们在 [LLaMA-Factory](https://github.com/hiyouga/LlamaFactory) 基础上扩展了数据管理模块，提出了统一的数据感知训练框架 [DataFlex](https://github.com/OpenDCAI/DataFlex)（[Technical Report](https://github.com/OpenDCAI/DataFlex)）。
+
+### 3. 推理数据准备
+
+为使企业知识有效辅助模型推理，我们开发了 [DataMind](https://github.com/haolpku/DataMind)，支持 Agent 与知识库、图数据库、关系数据库的多源交互。同时，针对不同数据模态提供专项处理能力：文本与多模态数据由 [DataFlow](https://github.com/OpenDCAI/DataFlow) 处理，知识图谱由 [DataFlow-KG](https://github.com/OpenDCAI/DataFlow-KG) 处理，表格数据由 [DataFlow-Table](https://github.com/OpenDCAI/DataFlow-Table) 处理。
+
+### 4. 数据智能体
+
+我们的愿景是**用自然语言驱动数据治理**。围绕 [DataFlow](https://github.com/OpenDCAI/DataFlow) 体系，我们最初基于 LangGraph 构建了 [DataFlow-Agent](https://github.com/OpenDCAI/DataFlow-Agent)，实现 DataFlow 算子与工作流的自动生成。随着 Coding Agent 生态的兴起，我们进一步打造了 [DataFlow-Skills](https://github.com/haolpku/DataFlow-Skills)，相比 DataFlow-Agent 在任务成功率与生成质量上取得了大幅提升，验证了 Coding Agent + Skills 这一新范式的有效性。未来，我们将持续深耕这一路线，将智能体能力拓展至文本、多模态及表格等多种数据治理场景。
 
 我们致力于推动Data-centric AI开源生态：
 + **[DataFlow](https://github.com/OpenDCAI/DataFlow)**：大模型数据准备系统，包含数据获取、处理和质量评估等；[技术报告](https://huggingface.co/papers/2512.16676);[视频教程](https://space.bilibili.com/3546929239689711/lists/6761326?type=season);[图文教程](https://wcny4qa9krto.feishu.cn/wiki/I9tbw2qnBi0lEakmmAGclTysnFd)
