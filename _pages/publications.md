@@ -11,12 +11,87 @@ author_profile: true
 
 2026
 ====
+1.  *LEASH: Adaptive Length Penalty and Reward Shaping for Efficient Large Reasoning Model.* <br>
+    Yanhao Li, Lu Ma, Jiaran Zhang, Lexiang Tang, **Wentao Zhang<sup>#</sup>**, Guibo Luo<br>
+    ***ACL 2026, CCF-A***.
+
+2.  *CodeFlowBench: A Multi-turn, Iterative Benchmark for Complex Code Generation.* <br>
+    Sizhe Wang, Zhengren Wang, Dongsheng Ma, Yongan Yu, Rui ling, Zhiyu li, Feiyu Xiong, **Wentao Zhang<sup>#</sup>**<br>
+    ***ACL 2026, CCF-A***.
+
+3.  *Look Less, Reason More: Rollout-Guided Adaptive Pixel-Space Reasoning.* <br>
+    Xuchen Li, Xuzhao Li, Jiahui Gao, Renjie Pi, Shiyu Hu, **Wentao Zhang<sup>#</sup>**<br>
+    ***ACL 2026, CCF-A***.
+
+4.  *Heterogeneous Adaptive Policy Optimization: Tailoring Optimization to Every Token's Nature.* <br>
+    Zheng Liu, Mengjie Liu, Siwei Wen, Mengzhang Cai, Bin CUI, Conghui He, **Wentao Zhang<sup>#</sup>**<br>
+    ***ACL 2026, CCF-A***.
+
+5.  *ChartVerse: Scaling Chart Reasoning via Reliable Programmatic Synthesis from Scratch.* <br>
+    Zheng Liu, Honglin Lin, Xiaoyang Wang, Xin Gao, Yu Li, Mengzhang Cai, Yun Zhu, Zhanping Zhong, Qizhi Pei, Zhuoshi Pan, Xiaoran Shang, Conghui He, Bin CUI, **Wentao Zhang<sup>#</sup>**, Lijun Wu<br>
+    ***ACL 2026, CCF-A***.
+
+6.  *SciFlow-Bench: Evaluating Structure-Aware Scientific Diagram Generation via Inverse Parsing.* <br>
+    Tong Zhang, Honglin Lin, Zhou Liu, Chong Chen, **Wentao Zhang<sup>#</sup>**<br>
+    ***ACL 2026, CCF-A***.
+
+7.  *Nested Browser-Use Learning for Agentic Information Seeking.* <br>
+    Baixuan Li, Jialong Wu, Wenbiao Yin, Kuan Li, Zhongwang Zhang, Huifeng Yin, Zhengwei Tao, Liwen Zhang, Pengjun Xie, Jingren Zhou, **Wentao Zhang<sup>#</sup>**, Zhiqiang Gao<sup>#</sup>, Yong Jiang<sup>#</sup><br>
+    ***ACL 2026, CCF-A***.
+
+8.  *UniDataBench: Evaluating Data Analytics Agents Across Structured and Unstructured Data.* <br>
+    Han Weng, Zhou Liu, Yuanfeng SONG, Xiaoming Yin, Xing Chen, **Wentao Zhang<sup>#</sup>**<br>
+    ***ACL 2026, CCF-A***.
+
+1.  *AgenticRAGTracer: A Clear and Stepwise-Process Benchmark for Agentic RAG.* <br>
+    Qijie You, Wenkai Yu, Hao Liang, Zhen Hao Wong, **Wentao Zhang<sup>#</sup>**<br>
+    ***Findings of ACL 2026***.
+
+2.  *Data-Centric Perspectives on Agentic Retrieval-Augmented Generation: A Survey.* <br>
+    Jingwen Deng, Jihao Huang, Zhen Hao Wong, Hao Liang, Quanqing Xu, Bin CUI, **Wentao Zhang<sup>#</sup>**<br>
+    ***Findings of ACL 2026***.
+
+3.  *MathMixup: Boosting LLM Mathematical Reasoning with Difficulty-Controllable Data Synthesis and Curriculum Learning.* <br>
+    Xuchen Li, Jing Chen, Xuzhao Li, Hao Liang, Xiaohuan Zhou, Taifeng Wang, **Wentao Zhang<sup>#</sup>**<br>
+    ***Findings of ACL 2026***.
+
+4.  *InsightBenchMaker: Towards Generating Evolving and High-Fidelity Benchmarks for Data-Analysis Agents.* <br>
+    Zhou Liu, ZhaoYang Han, Zeli Su, Xing Chen, Yuanfeng SONG, **Wentao Zhang<sup>#</sup>**<br>
+    ***Findings of ACL 2026***.
+
+5.  *Generative Giants, Retrieval Weaklings: Why do Multimodal Large Language Models Fail at Multimodal Retrieval?* <br>
+    Hengyi Feng, Zeang Sheng, Meiyi Qiang, Yang Li, **Wentao Zhang<sup>#</sup>**<br>
+    ***Findings of ACL 2026***.
+
+6.  *Towards General Agentic Intelligence via Environment Scaling.* <br>
+    Runnan Fang, Shihao Cai, Baixuan Li, Jialong Wu, Guangyu Li, Wenbiao Yin, Xinyu Wang, Xiaobin Wang, Liangcai Su, Zhen Zhang, Shibin Wu, Zhengwei Tao, Yong Jiang, Pengjun Xie, Ningyu Zhang, **Wentao Zhang<sup>#</sup>**, et al.<br>
+    ***Findings of ACL 2026***.
+
+7.  *Reinforcement Learning with Semantic Rewards Enables Low-Resource Language Expansion without Alignment Tax.* <br>
+    Zeli Su, Ziyin Zhang, Zhou Liu, Xuexian Song, Zhankai Xu, Longfei Zheng, Xiaolu Zhang, Rong Fu, Guixian Xu, **Wentao Zhang<sup>#</sup>**<br>
+    ***Findings of ACL 2026***.
+
+8.  *LongInsightBench: A Comprehensive Benchmark for Evaluating Omni-Modal Models on Human-Centric Long-Video Understanding.* <br>
+    ZhaoYang Han, Qihan Lin, Hao Liang, Bowen Chen, Zhou Liu, **Wentao Zhang<sup>#</sup>**<br>
+    ***Findings of ACL 2026***.
+
+9.  *MorphoBench: A Benchmark with Difficulty Adaptive to Model Reasoning.* <br>
+    Xukai Wang, Xuanbo Liu, Mingrui Chen, Haitian Zhong, Xuanlin Yang, Bohan Zeng, Jinbo Hu, Hao Liang, Junbo Niu, Xuchen Li, Ruitao Wu, Ruichuan An, Yang Shi, Liu Liu, Qiang Liu, **Wentao Zhang<sup>#</sup>**, et al.<br>
+    ***Findings of ACL 2026***.
+
+10. *Training Verifier to Assessing Complex Real-World Tool-Use Trajectories.* <br>
+    Linzhuang Sun, Mingyang Chen, Hao Liang, Tianpeng Li, ZhouYijie, Chenzheng Zhu, Tianyu Guo, Huanyao Zhang, Jingxuan Wei, Bihui Yu, Fan Yang, **Wentao Zhang<sup>#</sup>**<br>
+    ***Findings of ACL 2026***.
+
+11. *Rethinking Text-to-SQL: Dynamic Multi-turn SQL Interaction for Real-world Database Exploration.* <br>
+    Linzhuang Sun, Tianyu Guo, Hao Liang, Ruitong Liu, Yuying Li, Qifeng Cai, Jingxuan Wei, Yuchen Wu, Bihui Yu, Xiangxiang Zhang, **Wentao Zhang<sup>#</sup>**, Bin CUI<br>
+    ***Findings of ACL 2026***.
 1.  *Text2VectorSQL: Towards a Unified Interface for Vector Search and SQL Queries.*  <br>
 Zhengren Wang, Dongwen Yao, Bozhou Li, Dongsheng Ma, Bo Li, Zhiyu Li, Feiyu Xiong, Bin Cui, Linpeng Tang, **Wentao Zhang<sup>#</sup>***<br>
 ***ICDE 2026, CCF-A***.
 
 1.  *Text2SQL-Flow: A Robust SQL-Aware Data Augmentation Framework for Text-to-SQL.*  <br>
-Qifeng Cai, Hao Liang, Chang Xu, Tao Xie, **Wentao Zhang<sup>#</sup>**, Bin Cui*<br>
+Qifeng Cai, Hao Liang, Chang Xu, Tao Xie, **Wentao Zhang<sup>#</sup>**, Bin Cui<br>
 ***ICDE 2026, CCF-A***.
 
 1.  *VABench: A Comprehensive Benchmark for Audio-Video Generation.*  <br>
