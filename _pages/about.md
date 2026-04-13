@@ -63,9 +63,9 @@ Research Interests
 **Data-centric AI**: 近些年来 AI 模型发展遇到了瓶颈，大部分SOTA模型都是沿用2017年提出的Transformer 结构。模型创新空间有限，数据的数量、质量与多样性成为AI能力突破的核心，我们致力于探索以数据为中心的 AI（Data-Centric AI）前沿，围绕大模型全生命周期的数据准备与训练展开研究，涵盖以下四个核心方向：
 
 ### 1. 训练数据准备
-我们构建了面向大模型训练的数据准备系统，对数据算子、Prompt 和工作流进行统一抽象，形成了包括 [DataFlow](https://github.com/OpenDCAI/DataFlow)（[Technical Report](https://arxiv.org/abs/2512.16676)）、[DataFlow-MM](https://github.com/OpenDCAI/DataFlow-MM) 和 [AgentFlow](https://github.com/OpenDCAI/Agentflow) 在内的工具矩阵。系统集成 [MinerU](https://github.com/opendatalab/mineru) 作为文档解析引擎，并提出了 **DataFlow-EcoSystem** 生态概念——支持多个遵循 DataFlow 协议的仓库并行开发与协作，[DataFlow-WorldModel](https://github.com/OpenDCAI/OpenWorldLib) 即为一个World Model的生态示例。
+我们构建了面向大模型训练的数据准备系统，对数据算子、Prompt 和工作流进行统一抽象，形成了包括 [DataFlow](https://github.com/OpenDCAI/DataFlow)（[Technical Report](https://arxiv.org/abs/2512.16676)）、[DataFlow-MM](https://github.com/OpenDCAI/DataFlow-MM) 和 [AgentFlow](https://github.com/OpenDCAI/Agentflow) 在内的工具矩阵。系统集成 [MinerU](https://github.com/opendatalab/mineru)([Technical Report](https://arxiv.org/abs/2509.22186)) 作为文档解析引擎和MinerU-HMTL（[Technical Report](https://arxiv.org/abs/2511.23119)）作为网页解析引擎，并提出了 **DataFlow-EcoSystem** 生态概念——支持多个遵循 DataFlow 协议的仓库并行开发与协作，[DataFlow-WorldModel](https://github.com/OpenDCAI/OpenWorldLib) （[Technical Report](https://huggingface.co/papers/2604.04707)）即为一个World Model的生态示例。
 ### 2. 数据–模型交互训练
-训练数据就绪后，还需要对数据进行动态选择、配比与权重调整。为此，我们在 [LLaMA-Factory](https://github.com/hiyouga/LlamaFactory) 基础上扩展了数据管理模块，提出了统一的数据感知训练框架 [DataFlex](https://github.com/OpenDCAI/DataFlex)（[Technical Report](https://github.com/OpenDCAI/DataFlex)）。
+训练数据就绪后，还需要对数据进行动态选择、配比与权重调整。为此，我们在 [LLaMA-Factory](https://github.com/hiyouga/LlamaFactory) 基础上扩展了数据管理模块，提出了统一的数据感知训练框架 [DataFlex](https://github.com/OpenDCAI/DataFlex)（[Technical Report](https://github.com/OpenDCAI/DataFlex)）。为了更低门槛和公平地评测训练后的模型性能，我们还提出了One-Eval（[Technical Report](https://arxiv.org/abs/2603.09821)）评估框架。
 ### 3. 推理数据准备
 为使企业知识有效辅助模型推理，我们开发了 [DataMind](https://github.com/haolpku/DataMind)，支持 Agent 与知识库、图数据库、关系数据库的多源交互。同时，针对不同数据模态提供专项处理能力：文本与多模态数据由 [DataFlow](https://github.com/OpenDCAI/DataFlow) 处理，知识图谱由 [DataFlow-KG](https://github.com/OpenDCAI/DataFlow-KG) 处理，表格数据由 [DataFlow-Table](https://github.com/OpenDCAI/DataFlow-Table) 处理。
 ### 4. 数据智能体
