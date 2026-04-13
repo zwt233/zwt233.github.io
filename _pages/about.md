@@ -72,10 +72,10 @@ Research Interests
 我们的愿景是**用自然语言驱动数据治理**。围绕 [DataFlow](https://github.com/OpenDCAI/DataFlow) 体系，我们最初基于 LangGraph 构建了 [DataFlow-Agent](https://github.com/OpenDCAI/DataFlow-Agent)，实现 DataFlow 算子与工作流的自动生成。随着 Coding Agent 生态的兴起，我们进一步打造了 [DataFlow-Skills](https://github.com/haolpku/DataFlow-Skills)，相比 DataFlow-Agent 在任务成功率与生成质量上取得了大幅提升，验证了 Coding Agent + Skills 这一新范式的有效性。未来，我们将持续深耕这一路线，将智能体能力拓展至文本、多模态及表格等多种数据治理场景。
 
 我们致力于推动Data-centric AI开源生态：
-+ **[DataFlow](https://github.com/OpenDCAI/DataFlow)**：大模型数据准备系统，包含数据获取、处理和质量评估等；[Technical Report](https://huggingface.co/papers/2512.16676);[视频教程](https://space.bilibili.com/3546929239689711/lists/6761326?type=season);[图文教程](https://wcny4qa9krto.feishu.cn/wiki/I9tbw2qnBi0lEakmmAGclTysnFd)
++ **[DataFlow](https://github.com/OpenDCAI/DataFlow)**：大模型数据准备系统，包含数据获取、处理和质量评估等；[Technical Report](https://huggingface.co/papers/2512.16676);[视频教程](https://space.bilibili.com/3546929239689711/lists/6761326?type=season)；[图文教程](https://wcny4qa9krto.feishu.cn/wiki/I9tbw2qnBi0lEakmmAGclTysnFd)
 + **[DataFlow-MM](https://github.com/OpenDCAI/DataFlow-MM)**：扩展DataFlow能力到语音、图片和视频等多模态场合；[图文教程](https://opendcai.github.io/DataFlow-MM-Doc/zh/mm_guide/intro/basicinfo/intro/)
 + **[DataFlow-AI4S](https://github.com/OpenDCAI/Dataflow-AI4S)**：扩展DataFlow能力到数学、化学和生命科学等AI4S场景，为Science大模型准备AI-Ready语料（尽快开源）；
-+ **[DataFlow-WorldModel](https://github.com/OpenDCAI/OpenWorldLib)**：扩展DataFlow能力到World Model场景[Technical Report](https://huggingface.co/papers/2604.04707)；
++ **[DataFlow-WorldModel](https://github.com/OpenDCAI/OpenWorldLib)**：扩展DataFlow能力到World Model场景；[Technical Report](https://huggingface.co/papers/2604.04707)；
 + **[DataFlow-OneEval](https://github.com/OpenDCAI/One-Eval)**：面向大模型的自动化评测框架，核心目标是实现 NL2Eval：一句话从用户需求到优雅的模型评测报告；[Technical Report](https://arxiv.org/abs/2603.09821)；
 + **DataFlow-Table**：扩展DataFlow能力到结构化表格数据，包含智能取数、处理和分析（尽快开源）；
 + **DataFlow-KG**：扩展DataFlow能力到图结构数据，如KG抽取和基于KG的SFT数据合成（尽快开源）；
