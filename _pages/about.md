@@ -64,30 +64,27 @@ Research Interests
 
 ### 1. 训练数据准备
 我们构建了面向大模型训练的数据准备系统，对数据算子、Prompt 和工作流进行统一抽象，形成了包括 [DataFlow](https://github.com/OpenDCAI/DataFlow)（[Technical Report](https://arxiv.org/abs/2512.16676)）、[DataFlow-MM](https://github.com/OpenDCAI/DataFlow-MM) 和 [AgentFlow](https://github.com/OpenDCAI/Agentflow) 在内的工具矩阵。系统集成 [MinerU](https://github.com/opendatalab/mineru) 作为文档解析引擎，并提出了 **DataFlow-EcoSystem** 生态概念——支持多个遵循 DataFlow 协议的仓库并行开发与协作，[DataFlow-WorldModel](https://github.com/OpenDCAI/OpenWorldLib) 即为一个World Model的生态示例。
-
 ### 2. 数据–模型交互训练
 训练数据就绪后，还需要对数据进行动态选择、配比与权重调整。为此，我们在 [LLaMA-Factory](https://github.com/hiyouga/LlamaFactory) 基础上扩展了数据管理模块，提出了统一的数据感知训练框架 [DataFlex](https://github.com/OpenDCAI/DataFlex)（[Technical Report](https://github.com/OpenDCAI/DataFlex)）。
-
 ### 3. 推理数据准备
 为使企业知识有效辅助模型推理，我们开发了 [DataMind](https://github.com/haolpku/DataMind)，支持 Agent 与知识库、图数据库、关系数据库的多源交互。同时，针对不同数据模态提供专项处理能力：文本与多模态数据由 [DataFlow](https://github.com/OpenDCAI/DataFlow) 处理，知识图谱由 [DataFlow-KG](https://github.com/OpenDCAI/DataFlow-KG) 处理，表格数据由 [DataFlow-Table](https://github.com/OpenDCAI/DataFlow-Table) 处理。
-
 ### 4. 数据智能体
 我们的愿景是**用自然语言驱动数据治理**。围绕 [DataFlow](https://github.com/OpenDCAI/DataFlow) 体系，我们最初基于 LangGraph 构建了 [DataFlow-Agent](https://github.com/OpenDCAI/DataFlow-Agent)，实现 DataFlow 算子与工作流的自动生成。随着 Coding Agent 生态的兴起，我们进一步打造了 [DataFlow-Skills](https://github.com/haolpku/DataFlow-Skills)，相比 DataFlow-Agent 在任务成功率与生成质量上取得了大幅提升，验证了 Coding Agent + Skills 这一新范式的有效性。未来，我们将持续深耕这一路线，将智能体能力拓展至文本、多模态及表格等多种数据治理场景。
 
 我们致力于推动Data-centric AI开源生态：
-+ **[DataFlow](https://github.com/OpenDCAI/DataFlow)**：大模型数据准备系统，包含数据获取、处理和质量评估等；[技术报告](https://huggingface.co/papers/2512.16676);[视频教程](https://space.bilibili.com/3546929239689711/lists/6761326?type=season);[图文教程](https://wcny4qa9krto.feishu.cn/wiki/I9tbw2qnBi0lEakmmAGclTysnFd)
++ **[DataFlow](https://github.com/OpenDCAI/DataFlow)**：大模型数据准备系统，包含数据获取、处理和质量评估等；[Technical Report](https://huggingface.co/papers/2512.16676);[视频教程](https://space.bilibili.com/3546929239689711/lists/6761326?type=season);[图文教程](https://wcny4qa9krto.feishu.cn/wiki/I9tbw2qnBi0lEakmmAGclTysnFd)
 + **[DataFlow-MM](https://github.com/OpenDCAI/DataFlow-MM)**：扩展DataFlow能力到语音、图片和视频等多模态场合；[图文教程](https://opendcai.github.io/DataFlow-MM-Doc/zh/mm_guide/intro/basicinfo/intro/)
 + **[DataFlow-AI4S](https://github.com/OpenDCAI/Dataflow-AI4S)**：扩展DataFlow能力到数学、化学和生命科学等AI4S场景，为Science大模型准备AI-Ready语料（尽快开源）；
-+ **[DataFlow-WorldModel](https://github.com/OpenDCAI/OpenWorldLib)**：扩展DataFlow能力到World Model场景（尽快开源）；
-+ **[DataFlow-OneEval](https://github.com/OpenDCAI/One-Eval)**：面向大模型的自动化评测框架，核心目标是实现 NL2Eval：一句话从用户需求到优雅的模型评测报告；
++ **[DataFlow-WorldModel](https://github.com/OpenDCAI/OpenWorldLib)**：扩展DataFlow能力到World Model场景[Technical Report](https://huggingface.co/papers/2604.04707)；
++ **[DataFlow-OneEval](https://github.com/OpenDCAI/One-Eval)**：面向大模型的自动化评测框架，核心目标是实现 NL2Eval：一句话从用户需求到优雅的模型评测报告；[Technical Report](https://arxiv.org/abs/2603.09821)；
 + **DataFlow-Table**：扩展DataFlow能力到结构化表格数据，包含智能取数、处理和分析（尽快开源）；
 + **DataFlow-KG**：扩展DataFlow能力到图结构数据，如KG抽取和基于KG的SFT数据合成（尽快开源）；
 + **[DataFlow Agent](https://github.com/OpenDCAI/DataFlow-Agent)**：降低DataFlow使用门槛，自动化算子和Pipeline的生成和优化；
 + **[DataFlow-LoopAI](https://github.com/OpenDCAI/Dataflow-LoopAI)**：自动检测LLM缺陷并发现数据质量、多样性和数量问题，基于DataFlow自动获取、处理和评估数据并优化LLM效果；
 + **[AgentFlow](https://github.com/OpenDCAI/AgentFlow)**：首个包含RAG、MM-RAG、DeepResearch、Code和GUI等多种环境的Agent数据合成框架；
-+ **[DataFlex](https://github.com/OpenDCAI/DataFlex)**：Data-centric LLM训练框架，训练过程中动态选择和配比数据；[图文教程](https://opendcai.github.io/DataFlex-Doc/zh/)
-+ **[MinerU](https://github.com/opendatalab/MinerU)**：解析PDF为大模型可以使用的Markdown/Json格式数据；
-+ **[MinerU-HTML](https://github.com/opendatalab/MinerU-HTML)**：抽取HTML为大模型可以使用的AI-Ready数据；
++ **[DataFlex](https://github.com/OpenDCAI/DataFlex)**：Data-centric LLM训练框架，训练过程中动态选择和配比数据；[图文教程](https://opendcai.github.io/DataFlex-Doc/zh/)；[Technical Report](https://huggingface.co/papers/2603.26164)；
++ **[MinerU](https://github.com/opendatalab/MinerU)**：解析PDF为大模型可以使用的Markdown/Json格式数据；[Technical Report](https://arxiv.org/abs/2509.22186)；
++ **[MinerU-HTML](https://github.com/opendatalab/MinerU-HTML)**：抽取HTML为大模型可以使用的AI-Ready数据；[Technical Report](https://arxiv.org/abs/2511.23119)；
 + **[Paper2Any](https://github.com/OpenDCAI/Paper2Any)**：基于DataFlow-Agent搭建的应用，包含科研绘图和PPT生成等；[在线体验](https://dcai-paper2any.nas.cpolar.cn/)
 + **[OpenNotebookLM](https://github.com/OpenDCAI/Open-NotebookLM)**：覆盖Google NotebookLM功能，并增加对Table和Graph数据的处理；[在线体验](https://opennotebook.nas.cpolar.cn/)
 + **PaperAgent**：人机协同 + 多Agent + 可追溯 的研究辅助系统，加速生成高质量CCF-A类顶会和顶刊论文（尽快开源）；
