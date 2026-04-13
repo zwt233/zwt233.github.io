@@ -127,8 +127,10 @@ Research Interests
 ------
 * **2026-04**: 11 Papers are accepted by ***ACL 2026 Findings***.
 * **2026-04**: 8 Papers are accepted by ***ACL 2026 MainConference***.
+* **2026-02**: I am awared ***[Pujiang Young Scholar](https://www.shlab.org.cn/news/5444242)（浦江青年学者）***.
 * **2026-02**: Two Papers are accepted by ***ICDE 2026***.
 * **2026-02**: Five Papers are accepted by ***CVPR 2026***.
+* **2026-02**: I am awared ***[Zhiyuan Scholar](https://kw.beijing.gov.cn/xwdt/kcyx/xwdtshgg/202602/t20260212_4510418.html)（智源学者）***.
 * **2026-01**: PhD student Xu Minghao has been awarded the **[Tencent Qingyun Scholarship](https://mp.weixin.qq.com/s/3hHWkPc75njWA-R5GNAQyg)(腾讯青云奖学金).**
 * **2026-01**: Six Papers are accepted by ***ICLR 2026***.
 * **2026-01**: Two Papers are accepted by ***WWW 2026***.
@@ -241,7 +243,7 @@ Contributed Open-source Projects
   
 Selected Awards
 ------
-24. [Pujiang Scholar](https://www.shlab.org.cn/news/5444242)（浦江青年学者）, 2026.
+24. [Pujiang Young Scholar](https://www.shlab.org.cn/news/5444242)（浦江青年学者）, 2026.
 24. [Zhiyuan Scholar](https://kw.beijing.gov.cn/xwdt/kcyx/xwdtshgg/202602/t20260212_4510418.html)（智源学者）, 2026.
 24. [ACM SIGMOD China Rising Star Award](https://china.acm.org/awards.html)（ACM SIGMOD中国新星奖）, 2025.
 24. ["High-Tech Innovation Program" Young Talent Support Project](https://www.sme-gov.cn/beijing-news-64898.html)（“高创计划”青年人才托举工程）, 2025.
