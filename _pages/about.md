@@ -241,6 +241,8 @@ Contributed Open-source Projects
   
 Selected Awards
 ------
+24. [Pujiang Scholar](https://www.shlab.org.cn/news/5444242)（浦江青年学者）, 2026.
+24. [Zhiyuan Scholar](https://kw.beijing.gov.cn/xwdt/kcyx/xwdtshgg/202602/t20260212_4510418.html)（智源学者）, 2026.
 24. [ACM SIGMOD China Rising Star Award](https://china.acm.org/awards.html)（ACM SIGMOD中国新星奖）, 2025.
 24. ["High-Tech Innovation Program" Young Talent Support Project](https://www.sme-gov.cn/beijing-news-64898.html)（“高创计划”青年人才托举工程）, 2025.
 24. 🏆 [Best Student Full Paper Award](https://cikm2024.org/), ***CIKM 2024***.
@@ -254,15 +256,17 @@ Selected Awards
 22. [IVADO Postdoctoral Fellowship](https://ivado.ca/en/research-community/), Canada
 21. [Outstanding Doctoral Dissertation Award](https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm)（优秀博士学会论文奖）, Peking University  **(Sole winner in Computer Software and Theory)**, 2022
 19. [Outstanding Graduate of Beijing](https://xgb.pku.edu.cn/docs/2022-06/20220606163325764115.pdf), China, 2022
-17. Candidate of [May 4th Medal](https://mp.weixin.qq.com/s/AbqR2yFyduYn2PcZYbhXww)（五四奖章） **(Each School recommends 1 candidate, highest honor in PKU)**, 2022
 16. [The Big Data Expo Leading Technology Achievement Award](https://mp.weixin.qq.com/s/TlNywcR4pCl1c84KLTpeNA), China International Big Data Industry Expo (Angel Graph project), 2022
-15. Candidate of [People of the Year](https://mp.weixin.qq.com/s/zEcwHYsjqLhTsCDTnS-fsA)（年度人物） **(1 people in EECS, and 42 people in PKU)**, 2021
 14. [Merit Student of Beijing](https://xgb.pku.edu.cn/sylm/133002.htm) **(2 people in EECS, and 58 people in PKU)**, 2021
 13. [Apple PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021) **(1 people in China, and 15 people in the world)**, 2021
+
+  
+<!-- 21. [Outstanding Doctoral Dissertation Award](https://jw.beijing.gov.cn/kyc/tzgg_15522/202311/t20231124_3309126.html), Beijing **(Sole winner in PKU CS, and 104 people in Beijing)**, 2023
+17. Candidate of [May 4th Medal](https://mp.weixin.qq.com/s/AbqR2yFyduYn2PcZYbhXww)（五四奖章） **(Each School recommends 1 candidate, highest honor in PKU)**, 2022
 11. National Scholarship **(Top 1% in PKU)**, 2019, 2021
 8. [Baidu Scholarship Nominee](http://scholarship.baidu.com/) **(20 people in the world)**, 2021
-  
-<!-- 21. [Outstanding Doctoral Dissertation Award](https://jw.beijing.gov.cn/kyc/tzgg_15522/202311/t20231124_3309126.html), Beijing **(Sole winner in PKU CS, and 104 people in Beijing)**, 2023-->
+15. Candidate of [People of the Year](https://mp.weixin.qq.com/s/zEcwHYsjqLhTsCDTnS-fsA)（年度人物） **(1 people in EECS, and 42 people in PKU)**, 2021
+-->
 
 <!-- 
 Selected Competitions
