@@ -125,6 +125,7 @@ Research Interests
 
 **<font color=red>What's New</font>**
 ------
+* **2026-04**: 1 Papers is accepted by ***ACL 2026 Industry Track***.
 * **2026-04**: 11 Papers are accepted by ***ACL 2026 Findings***.
 * **2026-04**: 8 Papers are accepted by ***ACL 2026 MainConference***.
 * **2026-02**: I am awared ***[Pujiang Young Scholar](https://www.shlab.org.cn/news/5444242)（浦江青年学者）***.
