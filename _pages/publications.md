@@ -11,6 +11,10 @@ author_profile: true
 
 2026
 ====
+1.  *MinerU2.5: A Decoupled Vision-Language Model for Efficient High-Resolution Document Parsing.* <br>
+    Junbo Niu, Zheng Liu, Zhuangcheng Gu,..., Dahua Lin, **Wentao Zhang<sup>#</sup>**, **Conghui He<sup>#</sup>**<br>
+    ***ACL 2026, Industry Track, CCF-A***.
+    
 1.  *LEASH: Adaptive Length Penalty and Reward Shaping for Efficient Large Reasoning Model.* <br>
     Yanhao Li, Lu Ma, Jiaran Zhang, Lexiang Tang, **Wentao Zhang<sup>#</sup>**, Guibo Luo<br>
     ***ACL 2026, CCF-A***.
