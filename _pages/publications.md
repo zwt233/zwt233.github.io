@@ -9,6 +9,21 @@ author_profile: true
 <sup>*</sup> indicates equal contribution, 
 <sup>#</sup> indicates (co)corresponding author
 
+<link rel="stylesheet" href="/assets/css/publications-interactive.css">
+
+<div class="pub-explorer" data-publication-explorer>
+  <p class="pub-explorer__summary" data-publication-summary>Loading publication filters...</p>
+  <div class="pub-word-cloud" data-publication-cloud aria-label="Publication topic word cloud"></div>
+  <div class="pub-filter-bar" data-publication-filters aria-label="Publication category filters"></div>
+  <div class="pub-search-row">
+    <span class="pub-search-label">Filter by keyword:</span>
+    <input class="pub-search-input" data-publication-search type="search" placeholder="title, venue, topic, author, project">
+    <button class="pub-clear-filter" data-publication-clear type="button" aria-label="Clear filters">×</button>
+  </div>
+</div>
+
+<script defer src="/assets/js/publications-interactive.js"></script>
+
 2026
 ====
 1.  *CoF-T2I: Video Models as Pure Visual Reasoners for Text-to-Image Generation.* <br>

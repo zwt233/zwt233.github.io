@@ -1,0 +1,224 @@
+.pub-explorer {
+  background: #fbf8f0;
+  border: 1px solid #ddd5c8;
+  margin: 1.25rem 0 1.75rem;
+  padding: 1rem;
+}
+
+.pub-explorer__summary {
+  color: #5a5f66;
+  font-size: 0.9em;
+  margin: 0 0 0.9rem;
+}
+
+.pub-word-cloud {
+  background:
+    radial-gradient(circle, rgba(0, 0, 0, 0.035) 1px, transparent 1px) 0 0 / 18px 18px,
+    #f8f4ea;
+  border: 1px solid #d8cfbf;
+  height: 310px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.pub-word-cloud__word {
+  background: transparent;
+  border: 0;
+  color: var(--pub-word-color, #314f2d);
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: var(--pub-word-size, 1.1rem);
+  font-weight: var(--pub-word-weight, 700);
+  left: var(--pub-word-left, 50%);
+  line-height: 1;
+  padding: 0.15rem 0.25rem;
+  position: absolute;
+  top: var(--pub-word-top, 50%);
+  transform: translate(-50%, -50%);
+  transition: color 120ms ease, transform 120ms ease;
+  white-space: nowrap;
+}
+
+.pub-word-cloud__word:hover,
+.pub-word-cloud__word:focus {
+  color: #9d1f1f;
+  outline: none;
+  transform: translate(-50%, -50%) scale(1.06);
+}
+
+.pub-filter-bar {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-bottom: 0.9rem;
+}
+
+.pub-filter-button {
+  background: #f5efe4;
+  border: 1px solid #d8cfbf;
+  color: #252525;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 0.65rem 0.8rem;
+}
+
+.pub-filter-button:hover,
+.pub-filter-button:focus {
+  border-color: #111;
+  outline: none;
+}
+
+.pub-filter-button.is-active {
+  background: #111;
+  border-color: #111;
+  color: #fff;
+}
+
+.pub-filter-count {
+  color: #777;
+  font-family: monospace;
+  font-weight: 600;
+  margin-left: 0.25rem;
+}
+
+.pub-search-row {
+  align-items: center;
+  background: #f7e2e2;
+  border: 1px solid #e7b6b6;
+  border-radius: 6px;
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.55rem 0.7rem;
+}
+
+.pub-search-label {
+  color: #6c7178;
+  flex: 1 0 auto;
+  font-weight: 700;
+}
+
+.pub-search-input {
+  background: transparent;
+  border: 0;
+  color: #24292f;
+  flex: 1 1 18rem;
+  font: inherit;
+  min-width: 8rem;
+  outline: none;
+}
+
+.pub-search-input::placeholder {
+  color: #858b94;
+}
+
+.pub-clear-filter {
+  background: transparent;
+  border: 1px solid #d0b9b9;
+  border-radius: 6px;
+  color: #6f7378;
+  cursor: pointer;
+  font-size: 1rem;
+  height: 1.6rem;
+  line-height: 1;
+  width: 1.9rem;
+}
+
+.publication-list {
+  counter-reset: publications;
+  list-style: none;
+  padding-left: 0;
+}
+
+.publication-item {
+  border-top: 1px solid #e7e0d5;
+  counter-increment: publications;
+  margin: 0;
+  min-height: 5.5rem;
+  padding: 1.05rem 0 1.1rem 5.2rem;
+  position: relative;
+}
+
+.publication-item::before {
+  align-items: center;
+  background: var(--pub-code-bg, #e9ddca);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  color: var(--pub-code-color, #5d3c1f);
+  content: attr(data-pub-code);
+  display: flex;
+  font-family: monospace;
+  font-size: 0.85rem;
+  font-weight: 700;
+  height: 3.5rem;
+  justify-content: center;
+  left: 0;
+  letter-spacing: 0.02em;
+  position: absolute;
+  text-transform: uppercase;
+  top: 1.1rem;
+  width: 3.7rem;
+}
+
+.publication-item[hidden] {
+  display: none;
+}
+
+.publication-item p {
+  margin-bottom: 0.35rem;
+}
+
+.pub-item-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.45rem;
+}
+
+.pub-item-tag {
+  border: 1px solid #ded6ca;
+  border-radius: 999px;
+  color: #6d7178;
+  font-family: monospace;
+  font-size: 0.72rem;
+  padding: 0.1rem 0.45rem;
+}
+
+.pub-year-count {
+  color: #777;
+  float: right;
+  font-family: monospace;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 0.75rem;
+}
+
+@media (max-width: 760px) {
+  .pub-word-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .pub-word-cloud__word {
+    position: static;
+    transform: none;
+  }
+
+  .pub-word-cloud__word:hover,
+  .pub-word-cloud__word:focus {
+    transform: none;
+  }
+
+  .publication-item {
+    padding-left: 0;
+    padding-top: 4.8rem;
+  }
+
+  .publication-item::before {
+    top: 1rem;
+  }
+}
