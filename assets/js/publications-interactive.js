@@ -91,26 +91,26 @@
   ];
 
   var cloudTerms = [
-    { label: "Data-Centric AI", topic: "data-centric", x: 50, y: 48, size: 3.5, color: "#2f5a29" },
-    { label: "LLM", topic: "llm-agent", x: 52, y: 67, size: 2.2, color: "#9d1f1f" },
-    { label: "Multimodal", topic: "multimodal", x: 66, y: 42, size: 2.0, color: "#9d1f1f" },
-    { label: "Graph Learning", topic: "db-graph", x: 36, y: 36, size: 2.0, color: "#1d4671" },
-    { label: "Document Parsing", topic: "document-ai", x: 32, y: 64, size: 1.6, color: "#2f5a29" },
-    { label: "Text-to-SQL", topic: "db-graph", x: 64, y: 24, size: 1.45, color: "#2f5a29" },
-    { label: "RAG", topic: "llm-agent", x: 24, y: 47, size: 1.55, color: "#9d1f1f" },
-    { label: "Agents", topic: "llm-agent", x: 75, y: 58, size: 1.6, color: "#1d4671" },
-    { label: "Benchmark", topic: "data-centric", x: 26, y: 30, size: 1.45, color: "#1d4671" },
-    { label: "Vision-Language", topic: "multimodal", x: 55, y: 30, size: 1.35, color: "#2f5a29" },
-    { label: "AI4Science", topic: "ai4science", x: 42, y: 77, size: 1.5, color: "#1d4671" },
-    { label: "Data Analytics", topic: "data-centric", x: 72, y: 73, size: 1.25, color: "#9d1f1f" },
-    { label: "World Models", topic: "multimodal", x: 81, y: 34, size: 1.1, color: "#6c4a2b" },
-    { label: "Reasoning", topic: "llm-agent", x: 45, y: 20, size: 1.25, color: "#9d1f1f" },
-    { label: "Retrieval", topic: "db-graph", x: 20, y: 72, size: 1.1, color: "#2f5a29" },
-    { label: "Video", topic: "multimodal", x: 79, y: 47, size: 1.15, color: "#1d4671" },
-    { label: "AutoML", topic: "systems", x: 34, y: 84, size: 1.05, color: "#4a3376" },
-    { label: "Distributed Systems", topic: "systems", x: 58, y: 84, size: 1.05, color: "#2f5a29" },
-    { label: "Recommendation", topic: "db-graph", x: 17, y: 56, size: 1.0, color: "#6c4a2b" },
-    { label: "Medical AI", topic: "ai4science", x: 75, y: 16, size: 1.0, color: "#2f5a29" }
+    { label: "Data-Centric AI", topic: "data-centric", x: 50, y: 50, size: 3.0, color: "#0f4c81" },
+    { label: "LLM", topic: "llm-agent", x: 54, y: 67, size: 2.0, color: "#1e6091" },
+    { label: "Multimodal", topic: "multimodal", x: 78, y: 39, size: 1.8, color: "#2b6cb0" },
+    { label: "Graph Learning", topic: "db-graph", x: 27, y: 42, size: 1.8, color: "#174c75" },
+    { label: "Document Parsing", topic: "document-ai", x: 27, y: 63, size: 1.45, color: "#256f9f" },
+    { label: "Text-to-SQL", topic: "db-graph", x: 63, y: 24, size: 1.35, color: "#0f6b9c" },
+    { label: "RAG", topic: "llm-agent", x: 16, y: 55, size: 1.35, color: "#176aa6" },
+    { label: "Agents", topic: "llm-agent", x: 80, y: 61, size: 1.35, color: "#174c75" },
+    { label: "Benchmark", topic: "data-centric", x: 22, y: 25, size: 1.28, color: "#2b6cb0" },
+    { label: "Vision-Language", topic: "multimodal", x: 47, y: 33, size: 1.22, color: "#3978a8" },
+    { label: "AI4Science", topic: "ai4science", x: 36, y: 79, size: 1.22, color: "#0f4c81" },
+    { label: "Data Analytics", topic: "data-centric", x: 70, y: 76, size: 1.15, color: "#2b6cb0" },
+    { label: "World Models", topic: "multimodal", x: 84, y: 25, size: 1.0, color: "#487ea8" },
+    { label: "Reasoning", topic: "llm-agent", x: 43, y: 16, size: 1.08, color: "#0b4f8a" },
+    { label: "Retrieval", topic: "db-graph", x: 15, y: 76, size: 1.0, color: "#3978a8" },
+    { label: "Video", topic: "multimodal", x: 88, y: 50, size: 1.0, color: "#176aa6" },
+    { label: "AutoML", topic: "systems", x: 33, y: 90, size: 0.92, color: "#5b7fa6" },
+    { label: "Distributed Systems", topic: "systems", x: 61, y: 90, size: 0.92, color: "#2f6f9f" },
+    { label: "Recommendation", topic: "db-graph", x: 17, y: 36, size: 0.88, color: "#5b7fa6" },
+    { label: "Medical AI", topic: "ai4science", x: 73, y: 15, size: 0.88, color: "#3978a8" }
   ];
 
   function normalize(text) {
@@ -266,7 +266,7 @@
         word.style.setProperty("--pub-word-top", term.y + "%");
         word.style.setProperty("--pub-word-color", term.color);
         word.style.setProperty("--pub-word-weight", term.size > 2 ? "800" : "700");
-        word.style.setProperty("--pub-word-size", (0.82 + term.size * 0.44 + Math.min(count, 30) * 0.012) + "rem");
+        word.style.setProperty("--pub-word-size", (0.7 + term.size * 0.28 + Math.min(count, 30) * 0.005) + "rem");
         word.addEventListener("click", function () {
           state.category = term.topic || "all";
           state.query = "";
