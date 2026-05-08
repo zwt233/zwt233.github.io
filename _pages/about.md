@@ -196,6 +196,10 @@ Research Interests
 * **2023-05**: One paper is accepted by ***SIGKDD 2023***.
 * **2023-05**: One paper is accepted by ***VLDB 2023***.
 * **2023-03**: One paper is accepted by ***SIGMOD 2023***.
+
+<details markdown="1">
+<summary><strong>Earlier News (before 2023)</strong></summary>
+
 * **2022-11**: One paper is accepted by ***AAAI 2023***.
 * **2022-11**: One paper is accepted by ***ICDE 2023***.
 * **2022-10**: One paper is accepted by ***VLDBJ 2022***.
@@ -225,6 +229,8 @@ Research Interests
 * **2021-05**: Three papers, related to sparse graph, graph decomposition and our blackbox optimization (BBO) system -- [OpenBox](https://open-box.readthedocs.io/en/latest/), are accepted by the conference ***SIGKDD 2021***.
 * **2021-03**: As the only person in China, I was supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). Many thanks to Apple!
 * **2021-03**: One paper as first author has been accepted by the conference ***SIGMOD 2021***. Looking forward to the meeting in Xi'an this summer!  
+
+</details>
 
 Contributed Open-source Projects
 ------
