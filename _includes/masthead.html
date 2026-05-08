@@ -6,7 +6,12 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg">
+            <a class="site-title-link" href="{{ base_path }}/">
+              <img class="site-title-logo" src="{{ base_path }}/images/brand/pku-logo.svg" alt="Peking University logo">
+              <span>{{ site.title }}</span>
+            </a>
+          </li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
@@ -15,6 +20,15 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          {% if page.url == "/" %}
+            <li class="masthead__menu-item masthead__language-switch">
+              <button class="language-toggle language-toggle--nav" type="button" data-language-toggle aria-label="Switch language">
+                <span data-lang-label="en">EN</span>
+                <span class="language-toggle__sep">/</span>
+                <span data-lang-label="zh">中文</span>
+              </button>
+            </li>
+          {% endif %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

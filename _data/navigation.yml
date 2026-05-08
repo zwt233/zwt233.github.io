@@ -9,15 +9,6 @@ main:
   - title: "Projects"
     url: /projects/    
     
-  - title: "Invited Talks"
-    url: /talks/   
-    
-  - title: "Awards"
-    url: /awards/    
- 
-  - title: "CFPs"
-    url: /cfps/
-    
 #   - title: "CV"
 #     url: /cv/
 
