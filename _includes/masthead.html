@@ -20,15 +20,6 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
-          {% if page.url == "/" %}
-            <li class="masthead__menu-item masthead__language-switch">
-              <button class="language-toggle language-toggle--nav" type="button" data-language-toggle aria-label="Switch language">
-                <span data-lang-label="en">EN</span>
-                <span class="language-toggle__sep">/</span>
-                <span data-lang-label="zh">中文</span>
-              </button>
-            </li>
-          {% endif %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

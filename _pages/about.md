@@ -7,51 +7,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<section class="home-profile" data-language-root>
-  <div class="home-profile__bar">
-    <span class="home-profile__eyebrow" data-lang-block="en">Peking University · Data-centric AI</span>
-    <span class="home-profile__eyebrow" data-lang-block="zh">北京大学 · 以数据为中心的人工智能</span>
-    <button class="language-toggle language-toggle--profile" type="button" data-language-toggle aria-label="Switch language">
-      <span data-lang-label="en">EN</span>
-      <span class="language-toggle__sep">/</span>
-      <span data-lang-label="zh">中文</span>
-    </button>
-  </div>
+<!--[中文简介](https://zwt233.github.io/about-cn/)-->
 
-  <div data-lang-block="en">
-    <h1 class="home-profile__name">Wentao Zhang</h1>
-    <p class="home-profile__subtitle">Assistant Professor / Principal Investigator / PhD Advisor</p>
-    <p class="home-profile__affiliation">Center of Machine Learning Research, Peking University</p>
+Wentao Zhang is an assistant professor (Principal Investigator/PhD Advisor) in the [Center of Machine Learning Research](https://cmlr.pku.edu.cn/People/Faculty/5ce37bd8e3244030ae3f34e01d23e761.htm) at [Peking University (PKU)](https://www.pku.edu.cn/), and he leads the Data-centric Artificial Intelligence (DCAI) group. Wentao’s research focuses on DCAI, LLM, AI systems and AI4Science. Wentao has published 100+ papers in the top DB (SIGMOD, VLDB, ICDE), DM (KDD, WWW), and ML (ICML, NeurIPS, ICLR) venues.
+Wentao is the contributor or designer of several system projects,  including [DataFlow](https://github.com/OpenDCAI/DataFlow) ![GitHub Repo stars](https://img.shields.io/github/stars/OpenDCAI/DataFlow?style=social), [MinerU](https://github.com/opendatalab/MinerU) ![GitHub Repo stars](https://img.shields.io/github/stars/opendatalab/MinerU?style=social), and [Angel](https://github.com/Angel-ML/angel) ![GitHub Repo stars](https://img.shields.io/github/stars/Angel-ML/Angel?style=social). His research works have been powering several billion-scale applications in Tencent, and some of them have been recognized by multiple best paper awards (e.g., WWW'22, APWeb'23 and CIKM'24).
 
-    <div class="home-profile__grid">
-      <div>
-        <p>Wentao Zhang is an assistant professor in the <a href="https://cmlr.pku.edu.cn/People/Faculty/5ce37bd8e3244030ae3f34e01d23e761.htm">Center of Machine Learning Research</a> at <a href="https://www.pku.edu.cn/">Peking University</a>, where he leads the Data-centric Artificial Intelligence (DCAI) group. His research focuses on Data-centric AI, LLMs, AI systems, and AI4Science.</p>
-        <p>Wentao has published 100+ papers in top venues across database, data mining, machine learning, and AI. He is also a contributor or designer of open-source systems including <a href="https://github.com/OpenDCAI/DataFlow">DataFlow</a>, <a href="https://github.com/opendatalab/MinerU">MinerU</a>, and <a href="https://github.com/Angel-ML/angel">Angel</a>. These systems have powered billion-scale applications and received broad community adoption.</p>
-      </div>
-      <div>
-        <p>Before joining PKU, Wentao worked as a research fellow with Prof. <a href="https://jian-tang.com/">Jian Tang</a> at <a href="https://mila.quebec/en/">Mila</a>. He received his Ph.D. in Computer Science from PKU, supervised by Prof. <a href="https://cuibinpku.github.io/">Bin Cui</a>, and visited Prof. <a href="http://home.cse.ust.hk/~leichen/">Lei Chen</a>'s group at <a href="https://hkust.edu.hk/">HKUST</a>.</p>
-        <p>His work has been recognized by multiple awards, including WWW 2022 Best Student Paper, APWeb 2023 Best Paper Runner-up, CIKM 2024 Best Student Full Paper, Apple Scholar, ACM SIGMOD China Rising Star Award, and national or society-level science and technology awards.</p>
-      </div>
-    </div>
-  </div>
+Before joining PKU, wentao worked as a research fellow with Prof.[Jian Tang](https://jian-tang.com/) at [Montreal Institute for Learning Algorithms](https://mila.quebec/en/) (Mila, led by Prof.[Yoshua Bengio](https://yoshuabengio.org/)), and he received his Ph.D. degree in CS at PKU, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/).
+He worked with Prof. [Lei Chen](http://home.cse.ust.hk/~leichen/) as a visiting scholar at [HKUST](https://hkust.edu.hk/) in 2019. Besides, Wentao has accumulated for 4 years industrial experience in the ML & Data Platform Department of [Tencent](https://www.tencent.com/) and the AIML Department of [Apple](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021).
 
-  <div data-lang-block="zh">
-    <h1 class="home-profile__name">张文涛</h1>
-    <p class="home-profile__subtitle">北京大学助理教授 / 研究员 / 博士生导师</p>
-    <p class="home-profile__affiliation">北京大学国际机器学习研究中心</p>
-
-    <div class="home-profile__grid">
-      <div>
-        <p>张文涛，北京大学国际机器学习研究中心助理教授、研究员、博士生导师，领导 Data-centric Artificial Intelligence (DCAI) 课题组。研究兴趣包括以数据为中心的人工智能、大语言模型、机器学习系统和 AI4Science。</p>
-        <p>近五年在机器学习、数据挖掘和数据管理等领域发表 CCF-A 类论文 100 余篇，并领导或参与开源了 <a href="https://github.com/OpenDCAI/DataFlow">DataFlow</a>、<a href="https://github.com/opendatalab/MinerU">MinerU</a>、<a href="https://github.com/Angel-ML/angel">Angel</a> 等系统项目，相关成果支撑了多项大规模工业应用。</p>
-      </div>
-      <div>
-        <p>加入北大前，曾在加拿大 Mila 人工智能实验室与 <a href="https://jian-tang.com/">Jian Tang</a> 教授合作从事博士后研究；博士毕业于北京大学计算机学院，导师为 <a href="https://cuibinpku.github.io/">崔斌</a> 教授；2019 年曾访问香港科技大学 <a href="http://home.cse.ust.hk/~leichen/">陈雷</a> 教授团队。</p>
-        <p>曾获 WWW 2022 最佳学生论文奖、APWeb 2023 最佳论文 Runner-up、CIKM 2024 最佳学生长文奖、Apple Scholar、ACM SIGMOD 中国新星奖、中国电子学会科技进步一等奖等多项荣誉。</p>
-      </div>
-    </div>
-  </div>
-</section>
+张文涛，北京大学国际机器学习研究中心助理教授、研究员、博士生导师。北京大学未名青年学者，图灵班科研导师，智源学者。曾任职于腾讯机器学习平台部、Apple AIML和加拿大 Mila 人工智能实验室。研究兴趣为以数据为中心的人工智能（Data-centric AI, DCAI）、机器学习系统和AI4Science。 主持国家自然科学基金重大研究计划项目、科技部重点研发计划项目（课题）、教育部学科突破先导项目（Co-PI），近 5 年在机器学习（ICML/NeurIPS/ ICLR）、数据挖掘（SIGKDD/WWW）和数据管理（SIGMOD/VLDB/ICDE）等领域以第一/通讯作者发表 CCF-A 类论文 100余篇，2026年[CSRankings AI](https://csrankings.org/#/fromyear/2025/toyear/2026/index?ai&vision&mlmining&nlp&inforet&world)领域北京大学在职教师排名第一，也担任多个国际顶会的 PC Member/Area Chair。他获得多个最佳论文奖（如WWW’22-第一作者，APWeb’23-通讯作者，CIKM’24），领导或参与开源了多个机器学习系统，如大模型数据准备系统[DataFlow](https://github.com/OpenDCAI/DataFlow)、数据解析工具[MinerU](https://github.com/opendatalab/MinerU)和分布式机器学习系统[Angel](https://github.com/Angel-ML/angel),累计获Github Star超7万。他曾获Apple Scholar、世界人工智能大会云帆奖、ACM SIGMOD 中国新星奖、世界互联网大会领先科技成果奖、华为火花奖、中国电子学会科技进步一等奖等多项荣誉。
 
 <!--Wentao Zhang is currently a postdoc research fellow working with Prof. [Jian Tang](https://jian-tang.com/) at [Montreal Institute for Learning Algorithms (Mila)](https://mila.quebec/en/). Prior to that,  he received his Ph.D. degree in computer science from [Peking University (PKU)](https://www.pku.edu.cn/) in June 2022, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/). [Open-DataFlow-Eval](https://github.com/Open-DataFlow/Open-DataFlow-Eval) ![GitHub Repo stars](https://img.shields.io/github/stars/Open-DataFlow/Open-DataFlow-Eval?style=social)
 And he worked with Prof. [Lei Chen](http://home.cse.ust.hk/~leichen/) as a visiting scholar at [HKUST](https://hkust.edu.hk/) in 2019.
