@@ -11,6 +11,22 @@ author_profile: true
 
 2026
 ====
+1.  *CoF-T2I: Video Models as Pure Visual Reasoners for Text-to-Image Generation.* <br>
+    Chengzhuo Tong, Mingkun Chang, ..., Yuanxing Zhang, **Wentao Zhang<sup>#</sup>**<br>
+    ***ICML 2026, regular, CCF-A***.
+
+2.  *Synthesizing Multimodal Geometry Datasets from Scratch and Enabling Visual Alignment via Plotting Code.* <br>
+    Haobo Lin, Tianyi Bai, Chen Chen, Jiajun Zhang, Bohan Zeng, **Wentao Zhang<sup>#</sup>**, **Binhang Yuan<sup>#</sup>**<br>
+    ***ICML 2026, regular, CCF-A***.
+
+3.  *AD-MIR: Bridging the Gap from Perception to Persuasion in Advertising Video Understanding via Structured Reasoning.* <br>
+    Binxiao Xu, Junyu Feng, Xiaopeng Lin, Haodong Li, ZhiYuan Feng, Bohan Zeng, Ruichuan An, Ming Lu, Qi She, **Wentao Zhang<sup>#</sup>**<br>
+    ***ICML 2026, regular, CCF-A***.
+
+4.  *Position: Reasoning After Perception Means Reasoning Without Vision.* <br>
+    Hongcheng Gao, Zihao Huang, ..., Zhiqi Huang, **Wentao Zhang<sup>#</sup>**<br>
+    ***ICML 2026, Position Paper Track regular, CCF-A***.
+
 1.  *MinerU2.5: A Decoupled Vision-Language Model for Efficient High-Resolution Document Parsing.* <br>
     Junbo Niu, Zheng Liu, Zhuangcheng Gu,..., Dahua Lin, **Wentao Zhang<sup>#</sup>**, **Conghui He<sup>#</sup>**<br>
     ***ACL 2026, Industry Track, CCF-A***.
