@@ -16,8 +16,19 @@
       text: "#17406f",
       keywords: [
         "data-centric", "dataflow", "data synthesis", "data analytics", "data analysis",
-        "dataset", "benchmark", "data augmentation", "data distillation", "data composition",
-        "data selection", "data preparation", "quality evaluation", "verifier", "verifybench"
+        "dataset", "datasets", "benchmark", "benchmarking", "evaluating", "evaluation",
+        "assessing", "quality", "quality evaluation", "verifier", "verifybench", "verify",
+        "verification", "judge", "data augmentation", "data distillation", "data composition",
+        "data selection", "data preparation", "data management", "data distribution",
+        "training data", "pre-training data", "pretraining data", "data synthesizing",
+        "synthetic data", "data generator", "data expansion", "data fusion",
+        "sample reweighting", "sample selection", "curriculum learning", "datasculpt",
+        "data sculpt", "data management framework", "data efficiency", "data-efficient",
+        "mineru", "document parsing", "parsing", "ocr", "table extraction", "chart",
+        "diagram", "rag", "retrieval-augmented", "retrieval augmented", "text-to-sql",
+        "text2sql", "sql", "database exploration", "structured data", "unstructured data",
+        "active learning", "condensation", "distillation", "decomposition", "datamind",
+        "dataflex", "one-eval", "agentflow"
       ]
     },
     {
@@ -113,13 +124,53 @@
     { label: "Medical AI", topic: "ai4science", x: 73, y: 15, size: 0.88, color: "#3978a8" }
   ];
 
+  var acronymKeywords = {
+    rag: true,
+    sql: true,
+    ocr: true,
+    pdf: true,
+    html: true,
+    llm: true,
+    vlm: true,
+    mllm: true,
+    gnn: true,
+    kdd: true,
+    www: true,
+    mm: true,
+    ai: true
+  };
+
   function normalize(text) {
-    return (text || "").toLowerCase().replace(/\s+/g, " ").trim();
+    return (text || "")
+      .toLowerCase()
+      .replace(/<[^>]+>/g, " ")
+      .replace(/&[a-z0-9#]+;/g, " ")
+      .replace(/[^a-z0-9#+]+/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function escapeRegExp(text) {
+    return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+
+  function keywordMatches(text, keyword) {
+    var term = normalize(keyword);
+    if (!term) {
+      return false;
+    }
+    if (acronymKeywords[term] || term.length <= 3) {
+      return new RegExp("(^|\\s)" + escapeRegExp(term) + "(\\s|$)").test(text);
+    }
+    return text.indexOf(term) !== -1;
   }
 
   function categoryMatches(category, text) {
     return category.id === "all" || category.keywords.some(function (keyword) {
-      return text.indexOf(keyword) !== -1;
+      if (category.id === "data-centric") {
+        return keywordMatches(text, keyword);
+      }
+      return text.indexOf(keyword) !== -1 || text.indexOf(normalize(keyword)) !== -1;
     });
   }
 
@@ -256,7 +307,7 @@
       cloudEl.innerHTML = "";
       cloudTerms.forEach(function (term) {
         var count = items.filter(function (item) {
-          return item.categories.indexOf(term.topic) !== -1 || item.text.indexOf(normalize(term.label)) !== -1;
+          return item.categories.indexOf(term.topic) !== -1 || keywordMatches(item.text, term.label);
         }).length;
         var word = document.createElement("button");
         word.type = "button";
