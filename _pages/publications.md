@@ -185,6 +185,18 @@ Qifeng Cai, Hao Liang, Hejun Dong, Meiyi Qiang, Ruichuan An, Zhaoyang Han, Zheng
 Chengyu Shen, Zhen Hao Wong, Runming He, Hao Liang, Meiyi Qiang, Zimo Meng, Zhengyang Zhao, Bohan Zeng, Zhengzhou Zhu, Bin CUI, Wentao Zhang<br>
 ***SIGKDD 2026, CCF-A***.
 
+1.  *RARE: Retrieval-Augmented Reasoning Modeling.*  <br>
+Zhengren Wang, Jiayang Yu, Dongsheng Ma, Zhe Chen, Yu Wang, Zhiyu Li, Feiyu Xiong, Yanfeng Wang, Weinan E, Linpeng Tang, **Wentao Zhang<sup>#</sup>**<br>
+***SIGKDD 2026, CCF-A***.
+
+1.  *Dripper: Token-Efficient Main HTML Extraction with a Lightweight LM.*  <br>
+Mengjie Liu, Jiahui Peng, Wenchang Ning, Pei Chu, Qiu Jiantao, Ren Ma, He Zhu, Rui Min, Lindong Lu, Linfeng Hou, Kaiwen Liu, Yuan Qu, Zhenxiang Li, Chao Xu, Zhongying Tu, **Wentao Zhang<sup>#</sup>**, Conghui He<sup>#</sup><br>
+***SIGKDD 2026, CCF-A***.
+
+1.  *ProfiliTable: Profiling-Driven Tabular Data Processing via Agentic Workflows.*  <br>
+Wei Liu, Yang Gu, Xi Yan, Zihan Nan, Beicheng Xu, Keyao Ding, Bin CUI, **Wentao Zhang<sup>#</sup>**<br>
+***SIGKDD 2026, CCF-A***.
+
 1.  *VerifyBench: A Systematic Benchmark for Evaluating Reasoning Verifiers Across Domains.*  <br>
 Xuzhao Li, Xuzhao_Li1, Xuchen Li, Shiyu Hu, Yongzhen Guo, **Wentao Zhang<sup>#</sup>**<br>
 ***AAAI 2026 (Oral), CCF-A***.
