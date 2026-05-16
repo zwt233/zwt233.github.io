@@ -22,7 +22,7 @@ author_profile: true
   </div>
 </div>
 
-<script defer src="/assets/js/publications-interactive.js"></script>
+<script defer src="/assets/js/publications-interactive.js?v=20260516-dcai"></script>
 
 2026
 ====
