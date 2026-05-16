@@ -1,0 +1,2882 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wentao Zhang · Data-Centric AI Group</title>
+  <style>
+    :root {
+      --bg: #f3f7fb;
+      --paper: #ffffff;
+      --ink: #142033;
+      --muted: #5d6b7b;
+      --soft: #eaf1f7;
+      --line: #d3dfeb;
+      --navy: #173b63;
+      --navy-2: #0f2b49;
+      --pku: #8f1d22;
+      --red-soft: #f7e8e8;
+      --blue-soft: #e7f1fb;
+      --green-soft: #e7f4ed;
+      --gold-soft: #fff3d8;
+      --shadow: 0 24px 58px rgba(20, 32, 51, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+      line-height: 1.55;
+      margin: 0;
+    }
+
+    body.lang-en .zh,
+    body.lang-zh .en {
+      display: none !important;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    .site {
+      background:
+        linear-gradient(120deg, rgba(143, 29, 34, 0.08), transparent 34%),
+        linear-gradient(160deg, rgba(23, 59, 99, 0.12), transparent 42%),
+        var(--bg);
+      min-height: 100vh;
+    }
+
+    .shell {
+      margin: 0 auto;
+      max-width: 1280px;
+      padding: 24px;
+    }
+
+    .topbar {
+      align-items: center;
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid var(--line);
+      display: flex;
+      gap: 18px;
+      justify-content: space-between;
+      padding: 14px 18px;
+      position: sticky;
+      top: 14px;
+      z-index: 10;
+      box-shadow: 0 12px 30px rgba(20, 32, 51, 0.08);
+    }
+
+    .brand {
+      align-items: center;
+      display: flex;
+      gap: 12px;
+      min-width: 250px;
+    }
+
+    .brand img {
+      height: 42px;
+      width: 42px;
+    }
+
+    .brand-logos {
+      align-items: center;
+      display: flex;
+      gap: 10px;
+      flex: 0 0 auto;
+    }
+
+    .brand-logo.pku-logo {
+      height: 52px;
+      width: 52px;
+    }
+
+    .brand-logo.opendcai-logo {
+      height: 58px;
+      object-fit: contain;
+      width: 58px;
+    }
+
+    .research-overview {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      display: grid;
+      gap: 18px;
+      grid-template-columns: 1fr;
+      margin-bottom: 16px;
+      padding: 18px;
+    }
+
+    .research-overview p {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .research-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .research-links a,
+    .mini-link {
+      border: 1px solid var(--line);
+      color: var(--navy);
+      display: inline-flex;
+      font-size: 0.86rem;
+      font-weight: 850;
+      padding: 6px 8px;
+    }
+
+    .direction-card p {
+      min-height: 104px;
+    }
+
+    .direction-card .mini-link {
+      margin-top: 12px;
+    }
+
+    .full-news-panel {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      padding: 18px;
+    }
+
+    .full-news-head {
+      align-items: end;
+      display: flex;
+      gap: 12px;
+      justify-content: space-between;
+      margin-bottom: 14px;
+    }
+
+    .full-news-list {
+      display: grid;
+      gap: 10px;
+      max-height: 360px;
+      overflow-y: auto;
+      padding-right: 8px;
+      scrollbar-color: var(--navy) #dce7f1;
+    }
+
+    .full-news-card {
+      border-left: 4px solid var(--navy);
+      background: #fbfdff;
+      padding: 12px 14px;
+    }
+
+    .full-news-card time {
+      color: var(--pku);
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 900;
+      margin-bottom: 4px;
+    }
+
+    .full-news-card p {
+      margin: 0;
+      color: var(--ink);
+    }
+
+    .mark-red,
+    .mark-orange {
+      color: var(--pku);
+      font-weight: 900;
+    }
+
+    .ecosystem-map {
+      background: transparent;
+      border: 0;
+      margin-bottom: 18px;
+      overflow: hidden;
+      padding: 0;
+    }
+
+    .ecosystem-svg {
+      display: block;
+      height: auto;
+      width: 100%;
+    }
+
+    .ecosystem-image {
+      background: transparent;
+      border: 0;
+      display: block;
+      height: auto;
+      width: 100%;
+    }
+
+    .project-logo-large {
+      align-items: center;
+      background: #fff;
+      border: 1px solid var(--line);
+      display: flex;
+      height: 132px;
+      justify-content: center;
+      margin-bottom: 14px;
+      overflow: hidden;
+      padding: 8px;
+      width: 100%;
+    }
+
+    .project-logo-large img {
+      max-height: 118%;
+      max-width: 98%;
+      object-fit: contain;
+      transform: scale(1.08);
+    }
+
+    .project-logo-large.agentflow-logo img {
+      max-height: 110%;
+      max-width: 118%;
+      transform: none;
+    }
+
+    .project-logo-large.memos-logo img {
+      max-height: 108%;
+      max-width: 108%;
+      transform: none;
+    }
+
+    .project-logo-large.wide-logo img {
+      max-height: 118%;
+      max-width: 112%;
+      transform: none;
+    }
+
+    .project-logo-large.arch-logo img {
+      height: 100%;
+      max-height: none;
+      max-width: none;
+      object-fit: cover;
+      width: 100%;
+      transform: none;
+    }
+
+    .project-logo-large.loopai-logo img {
+      max-height: 96%;
+      max-width: 96%;
+      transform: none;
+    }
+
+    .project-logo-large.text-logo {
+      color: var(--navy);
+      font-size: 2.8rem;
+      font-weight: 950;
+      letter-spacing: 0;
+    }
+
+    .project-logo-large.text-logo span {
+      display: block;
+      line-height: 0.95;
+      text-align: center;
+    }
+
+    .books-grid {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .book-card {
+      align-items: stretch;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      color: inherit;
+      display: grid;
+      gap: 18px;
+      grid-template-columns: minmax(130px, 190px) 1fr;
+      padding: 18px;
+    }
+
+    .book-cover {
+      align-items: center;
+      background: #fff;
+      border: 1px solid var(--line);
+      display: flex;
+      justify-content: center;
+      min-height: 210px;
+      padding: 12px;
+    }
+
+    .book-cover img {
+      max-height: 250px;
+      max-width: 100%;
+      object-fit: contain;
+    }
+
+    .book-card h3 {
+      font-size: 1.1rem;
+      line-height: 1.25;
+      margin: 0 0 10px;
+    }
+
+    .book-card p {
+      color: var(--muted);
+      margin: 0 0 10px;
+    }
+
+    .book-meta {
+      color: #4c5d75;
+      display: grid;
+      gap: 5px;
+      font-size: 0.9rem;
+      margin: 12px 0;
+    }
+
+    .book-link {
+      color: #0b63ce;
+      display: inline-flex;
+      font-weight: 900;
+      text-decoration: underline;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 3px;
+    }
+
+    .ecosystem-list {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      margin-top: 18px;
+      padding: 18px;
+    }
+
+    .ecosystem-list h3 {
+      margin: 0 0 10px;
+    }
+
+    .ecosystem-list ul {
+      columns: 2;
+      color: var(--muted);
+      margin: 0;
+      padding-left: 1.2rem;
+    }
+
+    .ecosystem-list li {
+      break-inside: avoid;
+      margin: 0 0 8px;
+    }
+
+    .publication-explorer {
+      background: #f7fbff;
+      border: 1px solid var(--line);
+      margin-bottom: 18px;
+      padding: 18px;
+    }
+
+    .publication-explorer-note {
+      color: var(--muted);
+      margin: -4px 0 12px;
+    }
+
+    .publication-cloud {
+      background:
+        radial-gradient(circle, rgba(23, 59, 99, 0.08) 1px, transparent 2px) 0 0 / 32px 32px,
+        #eef6fd;
+      border: 1px solid #bfd4e8;
+      height: 410px;
+      margin: 12px 0 16px;
+      position: relative;
+    }
+
+    .publication-cloud button {
+      background: transparent;
+      border: 0;
+      color: var(--cloud-color, var(--navy));
+      cursor: pointer;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: var(--cloud-size, 1.4rem);
+      font-weight: var(--cloud-weight, 800);
+      left: var(--cloud-left, 50%);
+      letter-spacing: 0;
+      padding: 4px 8px;
+      position: absolute;
+      top: var(--cloud-top, 50%);
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
+    }
+
+    .publication-cloud button:hover,
+    .publication-cloud button.active {
+      color: var(--pku);
+      text-decoration: underline;
+    }
+
+    .publication-filters,
+    .publication-search-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .publication-search-row {
+      align-items: center;
+      margin: 12px 0;
+    }
+
+    .publication-filter,
+    .publication-clear {
+      background: #fff;
+      border: 1px solid var(--line);
+      color: var(--ink);
+      cursor: pointer;
+      font-weight: 850;
+      min-height: 40px;
+      padding: 8px 10px;
+    }
+
+    .publication-filter.active {
+      background: var(--navy);
+      border-color: var(--navy);
+      color: #fff;
+    }
+
+    .publication-search {
+      border: 1px solid var(--line);
+      flex: 1 1 320px;
+      min-height: 40px;
+      padding: 8px 10px;
+    }
+
+    .publication-list {
+      background: #fff;
+      border: 1px solid var(--line);
+      display: grid;
+      gap: 10px;
+      max-height: 430px;
+      overflow-y: auto;
+      padding: 12px;
+      scrollbar-color: var(--navy) #dce7f1;
+    }
+
+    .publication-window-head {
+      align-items: center;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-bottom: 0;
+      display: flex;
+      gap: 10px;
+      justify-content: space-between;
+      padding: 10px 12px;
+    }
+
+    .publication-window-head strong {
+      color: var(--ink);
+    }
+
+    .publication-item {
+      background: #fff;
+      border: 1px solid var(--line);
+      display: grid;
+      gap: 12px;
+      grid-template-columns: 76px 1fr;
+      padding: 13px;
+    }
+
+    .publication-item time {
+      color: var(--pku);
+      font-weight: 900;
+    }
+
+    .publication-item h3 {
+      font-size: 0.98rem;
+      line-height: 1.28;
+      margin: 0 0 6px;
+    }
+
+    .publication-item p {
+      color: var(--muted);
+      font-size: 0.88rem;
+      margin: 0;
+    }
+
+    .publication-authors {
+      color: #4c5d75;
+      font-size: 0.84rem;
+      margin-top: 5px;
+    }
+
+    .publication-authors sup,
+    .paper-authors sup {
+      color: var(--pku);
+      font-weight: 800;
+    }
+
+    .group-grid,
+    .awards-grid {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .awards-grid {
+      align-items: stretch;
+      grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+    }
+
+    .dense-card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      padding: 18px;
+    }
+
+    .dense-card h3 {
+      margin: 0 0 10px;
+    }
+
+    .dense-card ul {
+      color: var(--muted);
+      margin: 0;
+      padding-left: 1.1rem;
+    }
+
+    .dense-card li {
+      margin: 6px 0;
+    }
+
+    .awards-card a {
+      color: #0b63ce;
+      font-weight: 800;
+      text-decoration: underline;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 3px;
+    }
+
+    .awards-card a:visited {
+      color: #0b63ce;
+    }
+
+    .awards-card a:hover {
+      color: #084a99;
+      text-decoration-thickness: 2px;
+    }
+
+    .service-card {
+      align-self: stretch;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .service-list {
+      border-top: 1px solid var(--line);
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      margin-top: 12px;
+    }
+
+    .service-row {
+      align-items: start;
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      flex: 1;
+      gap: 7px 10px;
+      grid-template-columns: minmax(150px, 0.32fr) minmax(0, 1fr);
+      padding: 5px 0;
+    }
+
+    .service-row b {
+      color: var(--ink);
+      display: block;
+      font-size: 0.78rem;
+      line-height: 1.32;
+    }
+
+    .service-detail {
+      display: grid;
+      gap: 2px;
+    }
+
+    .service-detail span {
+      color: var(--muted);
+      display: block;
+      font-size: 0.72rem;
+      line-height: 1.28;
+    }
+
+    .service-detail a {
+      color: #0b63ce;
+      font-weight: 800;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .video-link {
+      align-items: center;
+      display: inline-flex;
+      gap: 8px;
+    }
+
+    .bilibili-logo {
+      align-items: center;
+      background: #00aeec;
+      color: #fff;
+      display: inline-flex;
+      font-size: 0.78rem;
+      font-weight: 950;
+      height: 24px;
+      justify-content: center;
+      letter-spacing: 0;
+      min-width: 34px;
+      padding: 0 6px;
+    }
+
+    .student-support {
+      background: #fbfdff;
+      border: 1px solid var(--line);
+      margin-top: 14px;
+      padding: 18px;
+    }
+
+    .student-support h3 {
+      margin: 0 0 10px;
+    }
+
+    .student-grid {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+
+    .student-card {
+      background: #fff;
+      border: 1px solid var(--line);
+      padding: 12px;
+    }
+
+    .student-card b {
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .student-card p {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin: 0;
+    }
+
+    .partner-block {
+      border-top: 1px solid var(--line);
+      margin-top: 18px;
+      padding-top: 16px;
+    }
+
+    .partner-block > p {
+      color: var(--muted);
+      margin: 0 0 12px;
+    }
+
+    .partner-grid {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
+
+    .partner-logo {
+      align-items: center;
+      background: #fff;
+      border: 1px solid var(--line);
+      color: var(--ink);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      justify-content: center;
+      min-height: 122px;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .partner-logo img {
+      max-height: 62px;
+      max-width: 92%;
+      object-fit: contain;
+    }
+
+    .partner-logo.logo-wide img {
+      max-height: 76px;
+      max-width: 96%;
+    }
+
+    .partner-logo.logo-large img {
+      max-height: 82px;
+      max-width: 96%;
+    }
+
+    .partner-logo strong {
+      font-size: 0.82rem;
+      line-height: 1.2;
+    }
+
+    .partner-logo.text-only strong {
+      align-items: center;
+      border: 1px solid #d7e3ef;
+      color: var(--navy);
+      display: flex;
+      font-size: 1rem;
+      min-height: 46px;
+      padding: 4px 8px;
+    }
+
+
+    .brand b {
+      display: block;
+      font-size: 1.08rem;
+      line-height: 1.1;
+    }
+
+    .brand span span {
+      color: var(--muted);
+      display: block;
+      font-size: 0.8rem;
+      margin-top: 2px;
+    }
+
+    .nav {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: flex-end;
+    }
+
+    .nav a {
+      color: #26384f;
+      font-size: 0.92rem;
+      font-weight: 800;
+      padding: 8px 9px;
+    }
+
+    .nav a:hover {
+      background: var(--soft);
+    }
+
+    .lang-switch {
+      align-items: center;
+      background: var(--soft);
+      border: 1px solid var(--line);
+      display: inline-flex;
+      gap: 3px;
+      padding: 4px;
+    }
+
+    .lang-switch button {
+      background: transparent;
+      border: 0;
+      color: var(--muted);
+      cursor: pointer;
+      font-weight: 900;
+      padding: 6px 10px;
+    }
+
+    .lang-switch button.active {
+      background: var(--navy);
+      color: #fff;
+    }
+
+    .hero {
+      display: grid;
+      gap: 34px;
+      grid-template-columns: minmax(0, 1.25fr) 340px;
+      padding: 48px 16px 26px;
+    }
+
+    .eyebrow {
+      color: var(--pku);
+      font-size: 0.82rem;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 3.55rem);
+      letter-spacing: 0;
+      line-height: 1.12;
+      margin: 12px 0 20px;
+      max-width: 790px;
+    }
+
+    .lead {
+      color: #3f5068;
+      font-size: 1rem;
+      margin: 0 0 12px;
+      max-width: 860px;
+    }
+
+    .bio-points {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      margin-top: 18px;
+      max-width: 930px;
+    }
+
+    .bio-point {
+      background: rgba(255, 255, 255, 0.64);
+      border: 1px solid var(--line);
+      padding: 12px;
+    }
+
+    .bio-point b {
+      display: block;
+      font-size: 0.9rem;
+      margin-bottom: 4px;
+    }
+
+    .bio-point span {
+      color: var(--muted);
+      display: block;
+      font-size: 0.86rem;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 24px;
+    }
+
+    .btn {
+      border: 1px solid var(--navy);
+      color: var(--navy);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 900;
+      min-height: 42px;
+      padding: 10px 14px;
+    }
+
+    .btn.primary {
+      background: var(--navy);
+      color: #fff;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+    }
+
+    .profile {
+      align-self: start;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      justify-self: center;
+      max-width: 360px;
+      padding: 16px;
+      width: 100%;
+    }
+
+    .profile img {
+      aspect-ratio: 4 / 4.55;
+      display: block;
+      max-height: 390px;
+      object-fit: cover;
+      object-position: center 18%;
+      width: 100%;
+    }
+
+    .profile h2 {
+      font-size: 1.2rem;
+      margin: 14px 0 3px;
+    }
+
+    .profile p {
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin: 0 0 12px;
+    }
+
+    .profile-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 10px 0 12px;
+    }
+
+    .profile-link {
+      align-items: center;
+      border: 1px solid var(--line);
+      color: var(--navy);
+      display: inline-flex;
+      font-size: 0.84rem;
+      font-weight: 900;
+      gap: 6px;
+      min-height: 34px;
+      padding: 6px 9px;
+      text-decoration: none;
+    }
+
+    .profile-link:hover {
+      border-color: var(--navy);
+      transform: translateY(-1px);
+    }
+
+    .profile-link svg {
+      flex: 0 0 auto;
+      height: 16px;
+      width: 16px;
+    }
+
+    .contact {
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      display: grid;
+      gap: 8px;
+      font-size: 0.9rem;
+      padding-top: 12px;
+    }
+
+    .stats {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      padding: 6px 0 42px;
+    }
+
+    .stat {
+      background: rgba(255, 255, 255, 0.88);
+      border: 1px solid var(--line);
+      color: inherit;
+      padding: 18px;
+      text-decoration: none;
+    }
+
+    a.stat:hover {
+      border-color: var(--navy);
+      transform: translateY(-1px);
+    }
+
+    .stat b {
+      display: block;
+      font-size: 2.1rem;
+      line-height: 1;
+    }
+
+    .stat b span {
+      color: inherit;
+      display: inline;
+      font-size: inherit;
+      margin-top: 0;
+    }
+
+    .stat span {
+      color: var(--muted);
+      display: block;
+      font-size: 0.88rem;
+      margin-top: 8px;
+    }
+
+    .section {
+      background: rgba(255, 255, 255, 0.86);
+      border: 1px solid var(--line);
+      margin-bottom: 22px;
+      padding: 28px;
+    }
+
+    .section-head {
+      align-items: end;
+      display: flex;
+      gap: 18px;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .section-head h2 {
+      font-size: clamp(1.55rem, 3vw, 2.25rem);
+      line-height: 1.05;
+      margin: 0;
+    }
+
+    .section-head p {
+      color: var(--muted);
+      margin: 0;
+      max-width: 560px;
+      text-align: right;
+    }
+
+    .pillars {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .pillar {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      cursor: pointer;
+      min-height: 210px;
+      padding: 18px;
+      text-align: left;
+      transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
+    }
+
+    .pillar:hover,
+    .pillar.active {
+      border-color: var(--navy);
+      box-shadow: 0 14px 32px rgba(20, 32, 51, 0.12);
+      transform: translateY(-2px);
+    }
+
+    .pillar small {
+      color: var(--pku);
+      display: block;
+      font-weight: 900;
+      margin-bottom: 10px;
+    }
+
+    .pillar h3 {
+      font-size: 1.15rem;
+      margin: 0 0 10px;
+    }
+
+    .pillar p {
+      color: var(--muted);
+      font-size: 0.93rem;
+      margin: 0;
+    }
+
+    .news-layout {
+      display: grid;
+      gap: 14px;
+      grid-template-columns: 0.95fr 1.35fr;
+    }
+
+    .news-feature {
+      background: var(--navy-2);
+      color: #fff;
+      padding: 22px;
+    }
+
+    .news-feature .eyebrow {
+      color: #f4ccd0;
+    }
+
+    .news-feature h3 {
+      font-size: 1.6rem;
+      line-height: 1.16;
+      margin: 10px 0;
+    }
+
+    .news-feature p {
+      color: #dce8f5;
+      margin: 0;
+    }
+
+    .timeline {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      padding: 14px 18px;
+    }
+
+    .news-panel {
+      min-width: 0;
+    }
+
+    .news-toolbar {
+      align-items: center;
+      display: flex;
+      gap: 10px;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .news-hint {
+      color: var(--muted);
+      font-size: 0.86rem;
+      margin: 0;
+    }
+
+    .news-arrows {
+      display: flex;
+      gap: 8px;
+    }
+
+    .news-arrow {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      color: var(--navy);
+      cursor: pointer;
+      font-weight: 900;
+      height: 34px;
+      width: 38px;
+    }
+
+    .news-track {
+      display: grid;
+      gap: 12px;
+      grid-auto-columns: minmax(260px, 330px);
+      grid-auto-flow: column;
+      overflow-x: auto;
+      padding: 2px 2px 12px;
+      scroll-snap-type: x mandatory;
+      scrollbar-color: var(--navy) #dce7f1;
+    }
+
+    .news-card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      min-height: 168px;
+      padding: 16px;
+      scroll-snap-align: start;
+    }
+
+    .news-card time {
+      color: var(--pku);
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 900;
+      margin-bottom: 10px;
+    }
+
+    .news-card b {
+      display: block;
+      line-height: 1.28;
+      margin-bottom: 8px;
+    }
+
+    .news-card span {
+      color: var(--muted);
+      display: block;
+      font-size: 0.9rem;
+    }
+
+    .timeline-row {
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      gap: 14px;
+      grid-template-columns: 92px 1fr;
+      padding: 12px 0;
+    }
+
+    .timeline-row:last-child {
+      border-bottom: 0;
+    }
+
+    .timeline-row time {
+      color: var(--pku);
+      font-weight: 900;
+    }
+
+    .timeline-row b {
+      display: block;
+      line-height: 1.3;
+    }
+
+    .timeline-row span {
+      color: var(--muted);
+      display: block;
+      font-size: 0.88rem;
+      margin-top: 2px;
+    }
+
+    .project-grid {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .project {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      min-height: 188px;
+      padding: 18px;
+      text-decoration: none;
+    }
+
+    .project:hover {
+      border-color: var(--navy);
+      transform: translateY(-1px);
+    }
+
+    .project-head {
+      align-items: center;
+      display: flex;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .project-logo {
+      align-items: center;
+      background: #f7fafc;
+      border: 1px solid var(--line);
+      display: flex;
+      flex: 0 0 52px;
+      height: 52px;
+      justify-content: center;
+      overflow: hidden;
+      padding: 7px;
+      width: 52px;
+    }
+
+    .project-logo img {
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: contain;
+    }
+
+    .project-logo.text-logo {
+      color: var(--navy);
+      font-size: 1.25rem;
+      font-weight: 950;
+      letter-spacing: 0;
+    }
+
+    .project h3 {
+      font-size: 1.1rem;
+      margin: 0;
+    }
+
+    .project p {
+      color: var(--muted);
+      font-size: 0.93rem;
+      margin: 0 0 14px;
+    }
+
+    .project .tags {
+      margin-top: auto;
+    }
+
+    .tag {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      color: var(--navy);
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 850;
+      margin: 0 6px 6px 0;
+      padding: 4px 8px;
+    }
+
+    .papers {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      padding: 18px;
+    }
+
+    .paper-tools {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .chip {
+      background: #fff;
+      border: 1px solid var(--line);
+      color: var(--muted);
+      cursor: pointer;
+      font-weight: 850;
+      padding: 8px 10px;
+    }
+
+    .chip.active {
+      background: var(--navy);
+      border-color: var(--navy);
+      color: #fff;
+    }
+
+    .paper-section-label {
+      color: var(--ink);
+      font-size: 1rem;
+      font-weight: 900;
+    }
+
+    .paper-count {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin: 0 0 12px;
+    }
+
+    .paper-grid {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .paper-card {
+      background: #fbfdff;
+      border: 1px solid var(--line);
+      cursor: pointer;
+      padding: 16px;
+      text-align: left;
+      transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
+    }
+
+    .paper-card:hover,
+    .paper-card.selected {
+      border-color: var(--pku);
+      box-shadow: 0 12px 26px rgba(20, 32, 51, 0.10);
+      transform: translateY(-2px);
+    }
+
+    .paper-card h3 {
+      font-size: 1rem;
+      line-height: 1.28;
+      margin: 0 0 10px;
+    }
+
+    .paper-card h3 a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .paper-card h3 a:hover {
+      color: var(--pku);
+      text-decoration: underline;
+    }
+
+    .paper-card p {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin: 0;
+    }
+
+    .paper-card .paper-authors {
+      color: #4c5d75;
+      font-size: 0.83rem;
+      margin-bottom: 7px;
+    }
+
+    .paper-card .paper-summary {
+      margin-top: 2px;
+    }
+
+    .paper-card .paper-repo {
+      border: 1px solid var(--line);
+      margin-top: 12px;
+      padding: 10px 12px;
+    }
+
+    .paper-card .paper-repo a {
+      color: var(--navy);
+      font-weight: 850;
+      overflow-wrap: anywhere;
+      text-decoration: none;
+    }
+
+    .paper-card .paper-repo a:hover {
+      text-decoration: underline;
+    }
+
+    .paper-card .meta {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+
+    .venue {
+      background: var(--red-soft);
+      color: var(--pku);
+      font-size: 0.76rem;
+      font-weight: 900;
+      padding: 3px 7px;
+    }
+
+    .topic {
+      background: var(--blue-soft);
+      color: var(--navy);
+      font-size: 0.76rem;
+      font-weight: 850;
+      padding: 3px 7px;
+    }
+
+    .paper-detail {
+      background: #f7fafc;
+      border: 1px solid var(--line);
+      margin-top: 14px;
+      padding: 18px;
+    }
+
+    .paper-detail h3 {
+      font-size: 1.2rem;
+      margin: 0 0 8px;
+    }
+
+    .paper-detail p {
+      color: var(--muted);
+      margin: 8px 0;
+    }
+
+    .paper-detail .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .join-grid {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .join-card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      padding: 18px;
+    }
+
+    .join-card h3 {
+      margin: 0 0 8px;
+    }
+
+    .join-card p {
+      color: var(--muted);
+      margin: 0 0 10px;
+    }
+
+    .join-card ul {
+      color: var(--muted);
+      margin: 10px 0 0;
+      padding-left: 1.1rem;
+    }
+
+    .join-card li {
+      margin: 5px 0;
+    }
+
+    .join-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .join-links a {
+      border: 1px solid var(--line);
+      color: var(--navy);
+      font-size: 0.86rem;
+      font-weight: 850;
+      padding: 6px 8px;
+    }
+
+    .footer {
+      color: var(--muted);
+      font-size: 0.9rem;
+      padding: 24px 6px 10px;
+      text-align: center;
+    }
+
+    @media (max-width: 1040px) {
+      .hero,
+      .news-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .profile {
+        max-width: 360px;
+      }
+
+      .stats,
+      .pillars,
+      .bio-points {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .project-grid,
+      .books-grid,
+      .partner-grid,
+      .student-grid,
+      .join-grid,
+      .awards-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .section-head {
+        align-items: start;
+        flex-direction: column;
+      }
+
+      .section-head p {
+        text-align: left;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .shell {
+        padding: 12px;
+      }
+
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+        top: 8px;
+      }
+
+      .brand {
+        min-width: 0;
+      }
+
+      .hero {
+        padding-top: 34px;
+      }
+
+      .stats,
+      .pillars,
+      .bio-points,
+      .project-grid,
+      .books-grid,
+      .partner-grid,
+      .student-grid,
+      .paper-grid,
+      .join-grid,
+      .awards-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .service-row {
+        grid-template-columns: 1fr;
+      }
+
+      .service-detail {
+        grid-column: auto;
+      }
+
+      .book-card {
+        grid-template-columns: 1fr;
+      }
+
+      .section {
+        padding: 18px;
+      }
+
+      .paper-tools {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+    }
+  </style>
+</head>
+<body class="lang-zh">
+  <div class="site">
+    <div class="shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="Wentao Zhang homepage">
+          <span class="brand-logos"><img class="brand-logo pku-logo" src="homepage-pku-logo.png" alt="Peking University"><img class="brand-logo opendcai-logo" src="homepage-opendcai-logo.png" alt="OpenDCAI"></span>
+          <span>
+            <b><span class="zh">Wentao Zhang · 张文涛</span><span class="en">Wentao Zhang</span></b>
+            <span class="zh">北京大学 · Data-Centric AI Group</span>
+            <span class="en">Peking University · Data-Centric AI Group</span>
+          </span>
+        </a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#research"><span class="zh">研究</span><span class="en">Research</span></a>
+          <a href="#news"><span class="zh">动态</span><span class="en">News</span></a>
+          <a href="#projects"><span class="zh">项目</span><span class="en">Projects</span></a>
+          <a href="#books"><span class="zh">著作</span><span class="en">Books</span></a>
+          <a href="#papers"><span class="zh">论文</span><span class="en">Papers</span></a>
+          <a href="#join"><span class="zh">加入我们</span><span class="en">Join us</span></a>
+          <span class="lang-switch" aria-label="Language switch">
+            <button type="button" class="active" data-lang="zh">ZH</button>
+            <button type="button" data-lang="en">EN</button>
+          </span>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div>
+            <div class="eyebrow">
+              <span class="zh">Data-Centric AI · LLM Data Systems · AI4Science</span>
+              <span class="en">Data-Centric AI · LLM Data Systems · AI4Science</span>
+            </div>
+            <h1>
+              <span class="zh">面向下一代模型的Data-centric AI基础设施</span>
+              <span class="en">Data-centric AI infrastructure for next-generation models</span>
+            </h1>
+            <p class="lead zh">张文涛，北京大学国际机器学习研究中心助理教授、研究员、博士生导师，Data-Centric AI Group 负责人。研究聚焦以数据为中心的人工智能、LLM 数据系统、数据治理智能体、数据驱动训练、GraphRAG 和 AI4Science。</p>
+            <p class="lead zh">他主持国家自然科学基金重大研究计划项目、科技部重点研发计划项目（课题）、教育部学科突破先导项目（Co-PI）。曾任职于腾讯机器学习平台部、Apple AIML 和加拿大 Mila 人工智能实验室，博士毕业于北京大学并师从崔斌教授。近五年在 ICML、NeurIPS、ICLR、SIGKDD、WWW、SIGMOD、VLDB、ICDE 等 CCF-A 顶会/顶刊以第一或通讯作者发表论文 100 余篇，并获得多个最佳论文奖。</p>
+            <p class="lead zh">课题组构建 DataFlow、MinerU、MinerU-HTML、DataFlex、AgentFlow、OpenWorldLib、One-Eval、Paper2Any 等开源系统，将数据解析、合成、处理、评估、训练调度和智能体工作流变成可复用的 AI 基础设施。</p>
+            <p class="lead en">Wentao Zhang is an Assistant Professor and PhD Advisor at Peking University, leading the Data-Centric AI Group. His research focuses on Data-Centric AI, LLM data systems, data agents, data-aware training, GraphRAG, and AI4Science.</p>
+            <p class="lead en">He leads national-level projects from NSFC, the Ministry of Science and Technology, and the Ministry of Education. Before joining PKU, he worked at Tencent's ML Platform Department, Apple AIML, and Mila, and received his PhD from PKU under Prof. Bin Cui. In recent years, he has published 100+ CCF-A papers as first or corresponding author in ICML, NeurIPS, ICLR, SIGKDD, WWW, SIGMOD, VLDB, and ICDE, with multiple best paper awards.</p>
+            <p class="lead en">The group builds open systems including DataFlow, MinerU, MinerU-HTML, DataFlex, AgentFlow, OpenWorldLib, One-Eval, and Paper2Any, turning data parsing, synthesis, processing, evaluation, training orchestration, and agent workflows into reusable AI infrastructure.</p>
+            <div class="bio-points">
+              <div class="bio-point">
+                <b class="zh">研究主线</b><b class="en">Research</b>
+                <span class="zh">Data-Centric AI、LLM、AI Systems、AI4Science。</span>
+                <span class="en">Data-Centric AI, LLMs, AI systems, and AI4Science.</span>
+              </div>
+              <div class="bio-point">
+                <b class="zh">主持项目</b><b class="en">Grants</b>
+                <span class="zh">国家自然科学基金重大研究计划、科技部重点研发计划、教育部学科突破先导项目。</span>
+                <span class="en">NSFC Major Research Plan, MOST key R&D project, and MOE disciplinary breakthrough project.</span>
+              </div>
+              <div class="bio-point">
+                <b class="zh">荣誉与论文奖</b><b class="en">Honors & awards</b>
+                <span class="zh">智源学者、浦江青年学者、电子学会科技进步一等奖、世界人工智能大会云帆奖、ACM SIGMOD 中国新星奖、世界互联网大会领先科技成果奖、华为火花奖等。</span>
+                <span class="en">Zhiyuan Scholar, Pujiang Young Scholar, CIE Science and Technology Progress Award, WAIC Rising Star, ACM SIGMOD China Rising Star, World Internet Conference leading achievement, Huawei Spark Award, and more.</span>
+              </div>
+              <div class="bio-point">
+                <b class="zh">学术影响力</b><b class="en">Academic impact</b>
+                <span class="zh">获 WWW'22、APWeb'23、CIKM'24 等顶会最佳论文奖，DataFlow、MinerU、Angel 等开源Data Infra累计获 GitHub Star 超 7 万。</span>
+                <span class="en">Best paper awards at WWW'22, APWeb'23, and CIKM'24; open-source Data Infra systems including DataFlow, MinerU, and Angel have accumulated 70k+ GitHub stars.</span>
+              </div>
+            </div>
+            <div class="actions">
+              <button class="btn primary" type="button" data-show-papers="featured">
+                <span class="zh">查看代表论文</span>
+                <span class="en">Featured papers</span>
+              </button>
+              <a class="btn" href="#projects"><span class="zh">开源项目</span><span class="en">Open-source projects</span></a>
+              <a class="btn" href="#join"><span class="zh">招生与实习</span><span class="en">Join the group</span></a>
+            </div>
+          </div>
+          <aside class="profile" aria-label="Profile">
+            <img src="images/wentao-smile3.jpg" alt="Wentao Zhang portrait">
+            <h2><span class="zh">Wentao Zhang · 张文涛</span><span class="en">Wentao Zhang</span></h2>
+            <p class="zh">北京大学助理教授 / 研究员 / 博士生导师</p>
+            <p class="en">Assistant Professor, Researcher, PhD Advisor at PKU</p>
+            <div class="profile-links">
+              <a class="profile-link" href="https://scholar.google.com/citations?user=JE4VON0AAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="currentColor" d="M12 3 1.8 10.2 12 17.4l10.2-7.2L12 3Zm0 11.9-5.8-4.1L12 6.7l5.8 4.1L12 14.9Z"></path>
+                  <path fill="currentColor" d="M6.6 13.8v2.8c0 1.9 2.4 3.4 5.4 3.4s5.4-1.5 5.4-3.4v-2.8L12 17.6l-5.4-3.8Z"></path>
+                </svg>
+                <span>Google Scholar</span>
+              </a>
+              <a class="profile-link" href="https://github.com/OpenDCAI/" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="currentColor" d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.9c-2.8.6-3.4-1.2-3.4-1.2-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.6 1 1.6 1 .9 1.5 2.4 1.1 2.9.8.1-.7.4-1.1.7-1.4-2.2-.3-4.6-1.1-4.6-4.9 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.5 9.5 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.8-2.3 4.6-4.6 4.9.4.3.8 1 .8 2v2.7c0 .3.2.6.8.5A10 10 0 0 0 12 2Z"></path>
+                </svg>
+                <span>GitHub</span>
+              </a>
+            </div>
+            <div class="contact">
+              <span class="zh">邮箱：wentao.zhang@pku.edu.cn</span>
+              <span class="en">Email: wentao.zhang@pku.edu.cn</span>
+              <span class="zh">微信：z1299799152</span>
+              <span class="en">WeChat: z1299799152</span>
+            </div>
+          </aside>
+        </section>
+
+        <section class="stats" aria-label="Highlights">
+          <div class="stat"><b>100+</b><span class="zh">近五年 CCF-A 论文</span><span class="en">CCF-A papers in recent years</span></div>
+          <a class="stat" href="https://csrankings.org/#/fromyear/2025/toyear/2026/index?ai&vision&mlmining&nlp&inforet&asia" target="_blank" rel="noopener"><b>#1</b><span class="zh">CSRankings PKU AI 以及 AI+Data 方向在职教师第一</span><span class="en">#1 PKU faculty in AI and AI+Data on CSRankings</span></a>
+          <a class="stat" href="https://github.com/OpenDCAI" target="_blank" rel="noopener"><b>70k+</b><span class="zh">开源项目累计 GitHub Stars</span><span class="en">GitHub stars across open-source projects</span></a>
+          <div class="stat"><b><span class="zh">3+4</span><span class="en">3+4</span></b><span class="zh">3项顶会最佳论文奖与主持4项国家级项目</span><span class="en">3 top-conference best paper awards and 4 national-level grants as PI</span></div>
+        </section>
+
+        <section class="section" id="research">
+          <div class="section-head">
+            <div>
+              <div class="eyebrow"><span class="zh">研究方向</span><span class="en">Research</span></div>
+              <h2><span class="zh">围绕下一代模型的数据基础设施</span><span class="en">Data infrastructure for next-generation models</span></h2>
+            </div>
+          </div>
+          <div class="research-overview">
+            <div>
+              <h3>Data-Centric AI</h3>
+              <p class="zh">从大语言模型、多模态大模型，到 Agentic LLM 与 World Model，我们持续布局 Data Infra，目标是以更低成本、更低门槛和更高质量完成数据获取、解析、合成、清洗、评估与训练调度，让 Data-Centric AI 成为下一代模型能力增长的基础设施。</p>
+              <p class="en">From LLMs and multimodal foundation models to agentic LLMs and world models, we continuously build Data Infra for lower-cost, lower-barrier, and higher-quality data acquisition, parsing, synthesis, cleaning, evaluation, and training orchestration, making Data-Centric AI a core infrastructure layer for next-generation model capabilities.</p>
+              <div class="research-links"><a href="https://mp.weixin.qq.com/s/ns96fMzDluAmPLnl8GY8ww" target="_blank" rel="noopener"><span class="zh">DataFlow 新闻</span><span class="en">DataFlow news</span></a><a href="https://mp.weixin.qq.com/s/399HCjsbEFGgcsNq-ziDqw" target="_blank" rel="noopener"><span class="zh">Data-Centric AI 观点</span><span class="en">Data-Centric AI viewpoint</span></a></div>
+            </div>
+          </div>
+          <div class="pillars">
+            <button class="pillar direction-card" type="button" data-show-papers="data">
+              <small>01</small>
+              <h3><span class="zh">训练数据准备</span><span class="en">Training data preparation</span></h3>
+              <p class="zh">构建面向大模型训练的数据准备系统，对数据算子、Prompt 和工作流进行统一抽象，形成 DataFlow、DataFlow-MM、AgentFlow 工具矩阵；集成 MinerU 与 MinerU-HTML，并提出 DataFlow-EcoSystem 生态概念。</p>
+              <p class="en">Unified abstraction for data operators, prompts, and workflows through DataFlow, DataFlow-MM, and AgentFlow, with MinerU and MinerU-HTML as document and web parsing engines.</p>
+              <span class="mini-link">DataFlow / MinerU / AgentFlow</span>
+            </button>
+            <button class="pillar direction-card" type="button" data-show-papers="training">
+              <small>02</small>
+              <h3><span class="zh">数据-模型交互训练</span><span class="en">Data-model interaction training</span></h3>
+              <p class="zh">训练数据就绪后，对数据进行动态选择、配比与权重调整；在 LLaMA-Factory 基础上扩展数据管理模块，提出 DataFlex，并用 One-Eval 降低评测门槛。</p>
+              <p class="en">Dynamic data selection, mixture, and reweighting during training through DataFlex, with One-Eval supporting low-barrier and fair model evaluation.</p>
+              <span class="mini-link">DataFlex / One-Eval</span>
+            </button>
+            <button class="pillar direction-card" type="button" data-show-papers="rag">
+              <small>03</small>
+              <h3><span class="zh">推理数据准备</span><span class="en">Inference data preparation</span></h3>
+              <p class="zh">让企业知识有效辅助模型推理，支持 Agent 与知识库、图数据库、关系数据库多源交互；文本、多模态、知识图谱和表格数据分别由 DataFlow、DataFlow-KG、DataFlow-Table 等处理。</p>
+              <p class="en">Preparing enterprise knowledge for reasoning by connecting agents with knowledge bases, graph databases, relational databases, multimodal data, KG data, and tabular data.</p>
+              <span class="mini-link">GraphRAG / Table / KG</span>
+            </button>
+            <button class="pillar direction-card" type="button" data-show-papers="agents">
+              <small>04</small>
+              <h3><span class="zh">数据智能体</span><span class="en">Data agents</span></h3>
+              <p class="zh">愿景是用自然语言驱动数据治理。围绕 DataFlow 体系，从 DataFlow-Agent 到 DataFlow-Skills，探索 Coding Agent + Skills 范式在算子生成、流程优化和多模态数据治理中的能力。</p>
+              <p class="en">Natural-language driven data governance through DataFlow-Agent and DataFlow-Skills, exploring the Coding Agent + Skills paradigm for operator generation and workflow optimization.</p>
+              <span class="mini-link">DataFlow-Agent / Skills</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="section" id="news">
+          <div class="section-head">
+            <div>
+              <div class="eyebrow"><span class="zh">近期动态</span><span class="en">Recent news</span></div>
+              <h2><span class="zh">近期动态</span><span class="en">Recent updates</span></h2>
+            </div>
+          </div>
+          <div class="full-news-panel">
+            <div class="full-news-head">
+              <div><strong>102</strong> updates</div>
+            </div>
+            <div class="full-news-list">
+                <article class="full-news-card">
+                  <time>2026-05</time>
+                  <p>4 Papers are accepted by <strong>ICML 2026</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2026-05</time>
+                  <p class="zh">3 篇论文被 <strong>SIGKDD 2026</strong> 接收：<strong>RARE: Retrieval-Augmented Reasoning Modeling</strong>、<strong>Dripper: Token-Efficient Main HTML Extraction with a Lightweight LM</strong>、<strong>ProfiliTable: Profiling-Driven Tabular Data Processing via Agentic Workflows</strong>。</p>
+                  <p class="en">Three papers are accepted by <strong>SIGKDD 2026</strong>: <strong>RARE: Retrieval-Augmented Reasoning Modeling</strong>, <strong>Dripper: Token-Efficient Main HTML Extraction with a Lightweight LM</strong>, and <strong>ProfiliTable: Profiling-Driven Tabular Data Processing via Agentic Workflows</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2026-05</time>
+                  <p class="zh">1 篇论文被 <strong>VLDB 2026</strong> 接收：<strong>QA-GraphRAG: Query-Adaptive Plug-and-Play Retrieval Integration for Graph-based Retrieval-Augmented Generation</strong>。</p>
+                  <p class="en">One paper is accepted by <strong>VLDB 2026</strong>: <strong>QA-GraphRAG: Query-Adaptive Plug-and-Play Retrieval Integration for Graph-based Retrieval-Augmented Generation</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2026-04</time>
+                  <p>1 Papers is accepted by <strong>ACL 2026 Industry Track</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2026-04</time>
+                  <p>11 Papers are accepted by <strong>ACL 2026 Findings</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2026-04</time>
+                  <p>8 Papers are accepted by <strong>ACL 2026 MainConference</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2026-02</time>
+                  <p class="zh">获评 <strong><a href="https://www.shlab.org.cn/news/5444242" target="_blank" rel="noopener">浦江青年学者</a></strong>。</p>
+                  <p class="en">Awarded <strong><a href="https://www.shlab.org.cn/news/5444242" target="_blank" rel="noopener">Pujiang Young Scholar</a></strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2026-02</time>
+                  <p>Two Papers are accepted by <strong>ICDE 2026</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2026-02</time>
+                  <p>Five Papers are accepted by <strong>CVPR 2026</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2026-02</time>
+                  <p class="zh">获评 <strong><a href="https://kw.beijing.gov.cn/xwdt/kcyx/xwdtshgg/202602/t20260212_4510418.html" target="_blank" rel="noopener">智源学者</a></strong>。</p>
+                  <p class="en">Awarded <strong><a href="https://kw.beijing.gov.cn/xwdt/kcyx/xwdtshgg/202602/t20260212_4510418.html" target="_blank" rel="noopener">Zhiyuan Scholar</a></strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2026-01</time>
+                  <p class="zh">博士生徐铭浩获 <strong><a href="https://mp.weixin.qq.com/s/3hHWkPc75njWA-R5GNAQyg" target="_blank" rel="noopener">腾讯青云奖学金</a></strong>。</p>
+                  <p class="en">PhD student Minghao Xu received the <strong><a href="https://mp.weixin.qq.com/s/3hHWkPc75njWA-R5GNAQyg" target="_blank" rel="noopener">Tencent Qingyun Scholarship</a></strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2026-01</time>
+                  <p>Six Papers are accepted by <strong>ICLR 2026</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2026-01</time>
+                  <p>Two Papers are accepted by <strong>WWW 2026</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-11</time>
+                  <p>One Paper is accepted by <strong>SIGKDD 2026</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-11</time>
+                  <p>Two Papers are accepted by <strong>AAAI 2026</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-09</time>
+                  <p>Seven Papers are accepted by <strong>NeurIPS 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-08</time>
+                  <p>Six Papers are accepted by <strong>EMNLP 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-08</time>
+                  <p>🏆 We win the <strong><span class="mark-orange">First Place Winner</span></strong>  in <strong><a href="https://www.codabench.org/competitions/7925/" target="_blank" rel="noopener">ICML 2025 Challenges on Automated Math Reasoning and Extensions</a></strong>!</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-07</time>
+                  <p>Five Papers are accepted by <strong>ACM MM 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-06</time>
+                  <p>Two Papers are accepted by <strong>ICCV 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-06</time>
+                  <p>One Paper is accepted by <strong>VLDB 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-05</time>
+                  <p>One Paper is accepted by <strong>ECML 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-05</time>
+                  <p>Six Papers are accepted by <strong>ACL 2025 Main</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-05</time>
+                  <p>One Paper is accepted by <strong>ACL 2025 Findings</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-05</time>
+                  <p>Three Papers are accepted by <strong>SIGKDD 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-05</time>
+                  <p>One Paper is accepted by <strong>IEEE TKDE 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-05</time>
+                  <p>Two Papers are accepted by <strong>ICML 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-04</time>
+                  <p>One Paper is accepted by <strong>IJCAI 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-04</time>
+                  <p>One Paper is accepted by <strong>ISSTA 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-04</time>
+                  <p>One Paper is accepted by <strong>SIGIR 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-04</time>
+                  <p>One Paper is accepted by <strong>ISSTA 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-02</time>
+                  <p>Two papers are accepted by <strong>CVPR 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-02</time>
+                  <p>One paper is accepted by <strong>ICDE 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-01</time>
+                  <p>Two papers are accepted by <strong>IEEE TKDE 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-01</time>
+                  <p>Four papers are accepted by <strong>ICLR 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-01</time>
+                  <p>Two papers are accepted by <strong>ICDE 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-01</time>
+                  <p>Two papers are accepted by <strong>WWW 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2025-01</time>
+                  <p>One papers is accepted by <strong>VLDB 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-12</time>
+                  <p>Two papers are accepted by <strong>AAAI 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-11</time>
+                  <p>Two papers are accepted by <strong>ICDE 2025</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-10</time>
+                  <p>🏆 We win the <strong><span class="mark-orange">Best Student Full Paper Award </span></strong>  in <strong>CIKM 2024</strong>!</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-10</time>
+                  <p>One paper is accepted by <strong>IEEE BIBM 2024</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-09</time>
+                  <p>Three papers are accepted by <strong>NeurIPS 2024</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-06</time>
+                  <p>One paper is accepted by <strong>CIKM 2024</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-06</time>
+                  <p>One paper is accepted by <strong>VLDB 2024</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-05</time>
+                  <p>One paper is accepted by <strong>SIGKDD 2024</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-05</time>
+                  <p>One paper is accepted by the main track of <strong>ACL 2024</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-04</time>
+                  <p>One paper is accepted by <strong>ICML 2024</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-04</time>
+                  <p>One paper is accepted by <strong>JMLR 2024</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-04</time>
+                  <p>One paper is accepted by <strong>TKDE 2024</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-03</time>
+                  <p>Four papers are accepted by <strong>ICDE 2024</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-02</time>
+                  <p>I am awared <strong><a href="https://www.cie.org.cn/list_43/12031.html" target="_blank" rel="noopener">First Prize of Scientific and Technological Progress Award</a></strong> of CIE due to the <a href="https://github.com/Angel-ML/angel" target="_blank" rel="noopener">Angel</a> Project.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-02</time>
+                  <p>One paper is accepted by <strong>VLDB 2024</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-02</time>
+                  <p>One paper is accepted by <strong>SIGMOD 2024</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-02</time>
+                  <p>I am awared <strong><a href="https://caai.cn/index.php?s=/home/article/detail/id/3463.html" target="_blank" rel="noopener">2023 CAAI Doctoral Dissertation Award</a></strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-01</time>
+                  <p>One paper is accepted by <strong>WWW 2024</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-01</time>
+                  <p>One paper is accepted by <strong>ACM Computing Survey 2024</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2024-01</time>
+                  <p>Two papers are accepted by <strong>ICLR 2024</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2023-12</time>
+                  <p>One paper is accepted by <strong>AAAI 2024</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2023-12</time>
+                  <p>I am awared <strong><a href="https://mp.weixin.qq.com/s/nCAuWHX3AlTkMIJL83DVzw" target="_blank" rel="noopener">2023 Beijing Doctoral Dissertation Award</a></strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2023-12</time>
+                  <p>Three papers are accepted by <strong>ICDE 2024</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2023-10</time>
+                  <p>One paper is accepted by <strong>ICDE 2024</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2023-10</time>
+                  <p>🏆 We win the <strong><span class="mark-orange">Best Paper Runner Up Award </span></strong>  in <strong>APWeb-WAIM 2023</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2023-09</time>
+                  <p>One paper is accepted by <strong>ACM Computing Survey 2023</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2023-09</time>
+                  <p>One paper is accepted by <strong>NeurIPS 2023</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2023-08</time>
+                  <p>One paper is accepted by <strong>VLDB 2024</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2023-08</time>
+                  <p>One paper is accepted by <strong>APWEB-WAIM 2023</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2023-08</time>
+                  <p>One paper is accepted by <strong>CIKM 2023</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2023-08</time>
+                  <p>Our book about <a href="https://item.jd.com/10081252433153.html" target="_blank" rel="noopener">Diffusion Model</a> is now avaliable.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2023-05</time>
+                  <p>One paper is accepted by <strong>TKDE 2023</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2023-05</time>
+                  <p>One paper is accepted by <strong>SIGKDD 2023</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2023-05</time>
+                  <p>One paper is accepted by <strong>VLDB 2023</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2023-03</time>
+                  <p>One paper is accepted by <strong>SIGMOD 2023</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-11</time>
+                  <p>One paper is accepted by <strong>AAAI 2023</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-11</time>
+                  <p>One paper is accepted by <strong>ICDE 2023</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-10</time>
+                  <p>One paper is accepted by <strong>VLDBJ 2022</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-09</time>
+                  <p>One paper is accepted by <strong>NeurIPS 2022</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-09</time>
+                  <p class="zh">获世界人工智能大会 <a href="https://mp.weixin.qq.com/s/Lecza9L8zgZYDPdKpkP2XA" target="_blank" rel="noopener">云帆奖-明日之星</a>，2022。</p>
+                  <p class="en">Awarded <a href="https://mp.weixin.qq.com/s/Lecza9L8zgZYDPdKpkP2XA" target="_blank" rel="noopener">Rising Star</a> at the World AI Conference, 2022.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-06</time>
+                  <p>I am honor to present the <a href="https://mp.weixin.qq.com/s/05TJIrxMcBeDnXoCvYnXbg" target="_blank" rel="noopener">valedictorian</a> for the class of 2022 in CS of PKU.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-06</time>
+                  <p>I receive my Ph.D. degree in computer science from Peking University with <a href="https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm" target="_blank" rel="noopener">Outstanding Doctoral Dissertation Award</a>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-05</time>
+                  <p>One paper is accepted by the journal <strong>VLDBJ 2022</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-05</time>
+                  <p>Four papers are accepted by the conference <strong>SIGKDD 2022</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-05</time>
+                  <p>Two papers as first author, have been accepted by <strong>ICML 2022</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-05</time>
+                  <p>One paper related to AutoML, has been accepted by <strong>Bioinformatics 2022</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-04</time>
+                  <p>🏆 We win the <strong><span class="mark-orange">Best Student Paper Award </span></strong>  in <strong>WWW 2022</strong> !</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-04</time>
+                  <p>We release our first version of the scalable graph learning toolkit--<a href="https://github.com/PKU-DAIR/SGL" target="_blank" rel="noopener">SGL</a>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-03</time>
+                  <p>One paper is selected as the Best Paper Award Nominees in <strong>WWW 2022</strong>. The corresponding PasCa system (integrated into SGL) will be open source next month!</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-03</time>
+                  <p>One paper as corresponding author, related to GNN-based Recommendation, has been accepted by the journal <strong>ACM Computing Survey 2022</strong> .</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-01</time>
+                  <p>One paper related to graph-based recommendation, has been accepted by the conference <strong>ICDE 2022</strong> .</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-01</time>
+                  <p>One paper as first author, related to graph data annotation, has been accepted by the conference <strong>ICLR 2022</strong> .</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-01</time>
+                  <p>One paper related to our large scale Hyper-paramater Tuning system, has been accepted by the conference <strong>VLDB 2022</strong> .</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-01</time>
+                  <p>I accepted the invitation to serve as Program Committee member of the Research Track of ACM <strong>SIGKDD 2022</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2022-01</time>
+                  <p>One paper as first author, related to our scalable graph NAS system, has been accepted by the conference <strong>WWW 2022</strong> .</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2021-12</time>
+                  <p>Our OpenBox team won the “Outstanding Winner” at the openGCC contest in <a href="https://mp.weixin.qq.com/s/8JX5ymkUt5MvDcHLOjB3Xw" target="_blank" rel="noopener">CCF ChinaSoft 2021</a>. Congratulations!</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2021-09</time>
+                  <p>Two papers as first author, related to scalable graph learning and graph data annotation, have been accepted by the conference <strong>NeurIPS 2021</strong> with <strong><span class="mark-orange">Spotlight (< 3%)</span></strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2021-08</time>
+                  <p>We propose <a href="https://github.com/PKU-DAIR/GAMLP/blob/main/GAMLP.pdf" target="_blank" rel="noopener">GAMLP</a>, a scalable and efficient graph model, which achieves the <strong>top #1</strong> performance in three public and largest ogbn graphs (i.e., ogbn-papers100M, ogbn-products, and ogbn-mag)! See the <strong>leaderboards</strong> <a href="https://ogb.stanford.edu/docs/leader_nodeprop/" target="_blank" rel="noopener">here</a>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2021-07</time>
+                  <p>One paper as first author, related to large-scale graph data selection, has been accepted by the conference <strong>VLDB 2021</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2021-07</time>
+                  <p>One paper as co-first author, related to deep GNN, has been accepted by the journal <strong>TKDE 2021</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2021-06</time>
+                  <p>One paper as third author, related to our AutoML system -- <a href="https://github.com/PKU-DAIR/soln-ml" target="_blank" rel="noopener">VocalnoML</a>, has been accepted by the conference <strong>VLDB 2021</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2021-05</time>
+                  <p>Three papers, related to sparse graph, graph decomposition and our blackbox optimization (BBO) system -- <a href="https://open-box.readthedocs.io/en/latest/" target="_blank" rel="noopener">OpenBox</a>, are accepted by the conference <strong>SIGKDD 2021</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2021-03</time>
+                  <p>As the only person in China, I was supported by the <a href="https://machinelearning.apple.com/updates/apple-scholars-aiml-2021" target="_blank" rel="noopener">Apple Scholars in AI/ML PhD fellowship</a>. Many thanks to Apple!</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2021-03</time>
+                  <p>One paper as first author has been accepted by the conference <strong>SIGMOD 2021</strong>. Looking forward to the meeting in Xi'an this summer!</p>
+                </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="projects">
+          <div class="ecosystem-map" aria-label="Data-Centric AI ecosystem diagram">
+            <img class="ecosystem-image" src="homepage-ecosystem.png" alt="DataFlow and OpenDCAI ecosystem overview">
+          </div>
+          <div class="project-grid">
+            <a class="project" href="https://github.com/OpenDCAI/DataFlow" target="_blank" rel="noopener"><div class="project-logo-large"><img src="images/DataFlow-Logo.png" alt="DataFlow logo"></div><h3>DataFlow</h3><p class="zh">大模型数据准备系统，包含数据获取、处理、质量评估、算子和工作流编排。</p><p class="en">LLM data preparation with acquisition, processing, quality evaluation, operators, and workflows.</p><div class="tags"><span class="tag">Protocol</span><span class="tag">Data prep</span></div></a>
+            <a class="project" href="https://github.com/opendatalab/MinerU" target="_blank" rel="noopener"><div class="project-logo-large"><img src="images/MinerU-logo.png" alt="MinerU logo"></div><h3>MinerU</h3><p class="zh">通用文档解析引擎，将 PDF、图片和复杂版面转换为 AI-ready 文档数据。</p><p class="en">General document parsing that converts PDFs, images, and complex layouts into AI-ready document data.</p><div class="tags"><span class="tag">Document AI</span><span class="tag">PDF</span></div></a>
+            <a class="project" href="https://github.com/opendatalab/MinerU-HTML" target="_blank" rel="noopener"><div class="project-logo-large text-logo"><span>MinerU<br>HTML</span></div><h3>MinerU-HTML</h3><p class="zh">基于轻量语言模型的网页主内容抽取工具，服务高质量 HTML 数据清洗。</p><p class="en">Lightweight-LM main-content extraction for high-quality HTML data cleaning.</p><div class="tags"><span class="tag">HTML</span><span class="tag">Extraction</span></div></a>
+            <a class="project" href="https://github.com/OpenDCAI/DataFlex" target="_blank" rel="noopener"><div class="project-logo-large"><img src="images/projects/dataflex-logo.png" alt="DataFlex logo"></div><h3>DataFlex</h3><p class="zh">训练过程中动态选择、配比和重加权数据的 Data-centric LLM 训练框架。</p><p class="en">Data-centric LLM training with dynamic selection, mixture, and reweighting.</p><div class="tags"><span class="tag">Training</span><span class="tag">Mixture</span></div></a>
+            <a class="project" href="https://github.com/OpenDCAI/DataFlow-MM" target="_blank" rel="noopener"><div class="project-logo-large wide-logo"><img src="homepage-assets/dataflow-mm-logo.jpg" alt="DataFlow-MM logo"></div><h3>DataFlow-MM</h3><p class="zh">DataFlow 的多模态扩展，覆盖图像、视频、音频等数据资产的处理与评测。</p><p class="en">The multimodal extension of DataFlow for image, video, audio, and related data assets.</p><div class="tags"><span class="tag">Multimodal</span><span class="tag">Data assets</span></div></a>
+            <a class="project" href="https://github.com/OpenDCAI/Dataflow-LoopAI" target="_blank" rel="noopener"><div class="project-logo-large loopai-logo"><img src="homepage-assets/loopai-logo.svg" alt="LoopAI logo"></div><h3>DataFlow-LoopAI</h3><p class="zh">面向大模型的闭环优化框架，从评测、问题分析到数据获取和训练反馈。</p><p class="en">Closed-loop LLM optimization from evaluation and failure analysis to data acquisition and feedback.</p><div class="tags"><span class="tag">LoopAI</span><span class="tag">Feedback</span></div></a>
+            <a class="project" href="https://github.com/OpenDCAI/DataFlow-Table" target="_blank" rel="noopener"><div class="project-logo-large arch-logo"><img src="homepage-assets/dataflow-table-architecture.png" alt="DataFlow-Table architecture"></div><h3>DataFlow-Table</h3><p class="zh">自动化表格数据处理框架，覆盖取数、处理和分析三类 Agentic Workflow。</p><p class="en">Agentic workflows for table extraction, processing, and analysis.</p><div class="tags"><span class="tag">Table</span><span class="tag">Agentic workflow</span></div></a>
+            <a class="project" href="https://github.com/OpenDCAI/DataFlow-KG" target="_blank" rel="noopener"><div class="project-logo-large arch-logo"><img src="homepage-assets/dataflow-kg-framework.png" alt="DataFlow-Graph framework"></div><h3>DataFlow-Graph</h3><p class="zh">面向知识图谱数据处理的 DataFlow 扩展，支持图谱构建、补全、推理与评测。</p><p class="en">DataFlow extension for knowledge graph construction, enrichment, reasoning, and evaluation.</p><div class="tags"><span class="tag">KG</span><span class="tag">Graph</span></div></a>
+            <a class="project" href="https://github.com/OpenDCAI/OpenWorldLib" target="_blank" rel="noopener"><div class="project-logo-large"><img src="images/projects/openworldlib-logo.png" alt="OpenWorldLib logo"></div><h3>OpenWorldLib</h3><p class="zh">将 DataFlow 扩展到 World Model 场景，支持世界模型数据准备与评估。</p><p class="en">Extends DataFlow to world-model data preparation and evaluation.</p><div class="tags"><span class="tag">World Model</span><span class="tag">DataFlow</span></div></a>
+            <a class="project" href="https://github.com/OpenDCAI/One-Eval" target="_blank" rel="noopener"><div class="project-logo-large"><img src="images/projects/one-eval-logo.png" alt="One-Eval logo"></div><h3>One-Eval</h3><p class="zh">自动化评测框架，目标是一句话从用户需求到模型评测报告。</p><p class="en">Automated LLM evaluation from natural-language needs to model reports.</p><div class="tags"><span class="tag">NL2Eval</span><span class="tag">Evaluation</span></div></a>
+            <a class="project" href="https://github.com/OpenDCAI/Paper2Any" target="_blank" rel="noopener"><div class="project-logo-large"><img src="images/projects/paper2any-logo.png" alt="Paper2Any logo"></div><h3>Paper2Any</h3><p class="zh">基于 DataFlow-Agent 搭建的科研资产生成应用，支持科研绘图、PPT、海报等。</p><p class="en">Research asset generation for figures, slides, posters, and related workflows.</p><div class="tags"><span class="tag">Research workflow</span><span class="tag">Assets</span></div></a>
+            <a class="project" href="https://github.com/OpenDCAI/AgentFlow" target="_blank" rel="noopener"><div class="project-logo-large agentflow-logo"><img src="homepage-agentflow.png" alt="AgentFlow logo"></div><h3>AgentFlow</h3><p class="zh">首个包含 RAG、MM-RAG、DeepResearch、Code、GUI 等多环境的 Agent 数据合成框架。</p><p class="en">Agent data synthesis across RAG, MM-RAG, DeepResearch, Code, GUI, and more.</p><div class="tags"><span class="tag">Agent data</span><span class="tag">Workflow</span></div></a>
+            <a class="project" href="https://github.com/OpenDCAI/DataFlow-Skills" target="_blank" rel="noopener"><div class="project-logo-large text-logo"><span>DataFlow<br>Skills</span></div><h3>DataFlow-Skills</h3><p class="zh">面向 DataFlow 生态的可复用技能库，把数据算子、流程生成和质量评测沉淀成可组合能力。</p><p class="en">A reusable skill library for the DataFlow ecosystem, packaging data operators, workflow generation, and quality evaluation as composable capabilities.</p><div class="tags"><span class="tag">Skills</span><span class="tag">Operators</span></div></a>
+            <a class="project" href="https://github.com/MemTensor/MemOS" target="_blank" rel="noopener"><div class="project-logo-large memos-logo"><img src="homepage-memos-logo.png" alt="MemOS logo"></div><h3>MemOS</h3><p class="zh">面向大模型与智能体的 Memory OS，统一长期记忆的存储、检索、管理与个性化调用。</p><p class="en">A Memory OS for LLMs and agents, unifying long-term memory storage, retrieval, management, and personalization.</p><div class="tags"><span class="tag">Memory OS</span><span class="tag">Agents</span></div></a>
+            <a class="project" href="https://github.com/Angel-ML/angel" target="_blank" rel="noopener"><div class="project-logo-large"><img src="images/angel_logo.png" alt="Angel logo"></div><h3>Angel</h3><p class="zh">腾讯与北大联合设计的高性能分布式机器学习与图计算平台。</p><p class="en">A high-performance distributed machine learning and graph computing platform.</p><div class="tags"><span class="tag">Distributed ML</span><span class="tag">Graph</span></div></a>
+          </div>
+        </section>
+
+        <section class="section" id="books">
+          <div class="section-head">
+            <div>
+              <div class="eyebrow"><span class="zh">著作</span><span class="en">Books</span></div>
+              <h2><span class="zh">数据与生成式 AI 系列著作</span><span class="en">Books on data and generative AI</span></h2>
+            </div>
+          </div>
+          <div class="books-grid">
+            <a class="book-card" href="https://book.douban.com/subject/38423935/buylinks" target="_blank" rel="noopener">
+              <div class="book-cover"><img src="homepage-book-llm-data.jpg" alt="大模型数据：原理、技术与实战"></div>
+              <div>
+                <h3><span class="zh">大模型数据：原理、技术与实战</span><span class="en">LLM Data: Principles, Technologies, and Practice</span></h3>
+                <p class="zh">系统介绍大模型数据全生命周期管理，覆盖数据获取、清洗解析、标注、合成增强、质量评估、合规安全，以及 PDF 数据垂类模型微调实践。</p>
+                <p class="en">A systematic book on the lifecycle of LLM data, covering acquisition, cleaning and parsing, annotation, synthesis, quality evaluation, compliance, safety, and PDF-data fine-tuning practice.</p>
+                <div class="book-meta">
+                  <span class="zh">作者：何聪辉、吴郦军、张文涛</span>
+                  <span class="en">Authors: Conghui He, Lijun Wu, Wentao Zhang</span>
+                  <span class="zh">电子工业出版社，2026 年 4 月，ISBN 9787121523748</span>
+                  <span class="en">Publishing House of Electronics Industry, Apr. 2026, ISBN 9787121523748</span>
+                </div>
+                <span class="book-link"><span class="zh">查看图书页面</span><span class="en">View book page</span></span>
+              </div>
+            </a>
+            <a class="book-card" href="https://baike.baidu.com/item/%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%EF%BC%9A%E7%94%9F%E6%88%90%E5%BC%8FAI%E6%A8%A1%E5%9E%8B%E7%9A%84%E7%90%86%E8%AE%BA%E3%80%81%E5%BA%94%E7%94%A8%E4%B8%8E%E4%BB%A3%E7%A0%81%E5%AE%9E%E8%B7%B5/63275693" target="_blank" rel="noopener">
+              <div class="book-cover"><img src="homepage-book-diffusion.jpg" alt="扩散模型：生成式AI模型的理论、应用与代码实践"></div>
+              <div>
+                <h3><span class="zh">扩散模型：生成式 AI 模型的理论、应用与代码实践</span><span class="en">Diffusion Models: Theory, Applications, and Code Practice</span></h3>
+                <p class="zh">面向生成式 AI 与扩散模型的理论、应用和代码实践，介绍扩散模型基础、典型生成任务与前沿应用。</p>
+                <p class="en">A book on diffusion-model theory, applications, and code practice for generative AI, covering foundations, representative generation tasks, and frontier applications.</p>
+                <div class="book-meta">
+                  <span class="zh">作者：杨灵、张至隆、张文涛、崔斌</span>
+                  <span class="en">Authors: Ling Yang, Zhilong Zhang, Wentao Zhang, Bin Cui</span>
+                  <span class="zh">电子工业出版社，2023 年 8 月，ISBN 9787121459856</span>
+                  <span class="en">Publishing House of Electronics Industry, Aug. 2023, ISBN 9787121459856</span>
+                </div>
+                <span class="book-link"><span class="zh">查看图书页面</span><span class="en">View book page</span></span>
+              </div>
+            </a>
+          </div>
+        </section>
+
+        <section class="section" id="papers">
+          <div class="section-head">
+            <div>
+              <div class="eyebrow"><span class="zh">论文发表</span><span class="en">Publications</span></div>
+              <h2><span class="zh">论文云图、全量文章与代表论文</span><span class="en">Topic cloud, all publications, and featured papers</span></h2>
+            </div>
+          </div>
+          <div class="publication-explorer" data-full-publication-explorer>
+            <p class="paper-count" data-full-publication-summary></p>
+            <div class="publication-cloud" data-full-publication-cloud aria-label="Publication topic cloud"></div>
+            <div class="publication-filters" data-full-publication-filters aria-label="Publication filters"></div>
+            <div class="publication-search-row">
+              <span class="pub-search-label">Filter by keyword:</span>
+              <input class="publication-search" data-full-publication-search type="search" placeholder="title, venue, topic, author, project">
+              <button class="publication-clear" data-full-publication-clear type="button">Clear</button>
+            </div>
+            <div class="publication-window-head">
+              <strong class="zh">全部论文窗口</strong>
+              <strong class="en">All Publications Window</strong>
+            </div>
+            <div class="publication-list" data-full-publication-list></div>
+          </div>
+          <div class="papers">
+            <div class="paper-tools">
+              <strong class="paper-section-label"><span class="zh">代表性项目论文</span><span class="en">Representative project papers</span></strong>
+            </div>
+            <div class="paper-grid" data-paper-grid></div>
+            <article class="paper-detail" data-paper-detail hidden></article>
+          </div>
+        </section>
+
+        <section class="section" id="group">
+          <div class="section-head">
+            <div>
+              <div class="eyebrow"><span class="zh">课题组优势</span><span class="en">Group strengths</span></div>
+              <h2><span class="zh">支持学生形成论文、开源和产业影响力</span><span class="en">Supporting students across papers, open source, and industrial impact</span></h2>
+            </div>
+            <p><a class="mini-link video-link" href="https://www.bilibili.com/video/BV1kcqZBtErx/?spm_id_from=333.1387" target="_blank" rel="noopener"><span class="bilibili-logo">bili</span><span class="zh">B站视频介绍</span><span class="en">Bilibili intro video</span></a></p>
+          </div>
+          <div class="group-grid">
+            <article class="dense-card"><h3><span class="zh">1. 研究方向</span><span class="en">1. Research directions</span></h3><ul class="zh"><li>DCAI 和大模型都是学术界/工业界前沿。</li><li>善于发现有影响力和现实意义、但 under-explored 的研究问题，避免内卷。</li></ul><ul class="en"><li>DCAI and large models sit at the frontier of both academia and industry.</li><li>The group values impactful, practically meaningful, and under-explored research problems.</li></ul></article>
+            <article class="dense-card"><h3><span class="zh">2. 学生指导</span><span class="en">2. Student mentoring</span></h3><ul class="zh"><li>每周按小方向组会分享和讨论，线下静园六院 208，线上腾讯会议。</li><li>安排经验丰富的师兄师姐带入门，遇到问题随时讨论。</li><li>根据每位学生的基础、兴趣和未来规划制定培养方案，一对一指导。</li></ul><ul class="en"><li>Weekly subgroup meetings are held offline at Jingyuan Courtyard 6 and online via Tencent Meeting.</li><li>Senior students help newcomers get started, with frequent discussions whenever problems arise.</li><li>Mentoring plans are tailored to each student's background, interests, and future goals.</li></ul></article>
+            <article class="dense-card"><h3><span class="zh">3. 合作资源</span><span class="en">3. Collaboration resources</span></h3><ul class="zh"><li>丰富计算资源，如千卡规模 H20/H100/H200 算力集群。</li><li>Apple AIML、腾讯混元、华为、上海 AI Lab、字节 Seed、快手可灵、阿里 Qwen、MSRA、蚂蚁等 Research 实习和工作推荐。</li><li>Mila、Stanford、ETH、HKUST、NUS、UQ 等学术合作与交流机会。</li></ul><ul class="en"><li>Strong computing resources, including large-scale H20/H100/H200 GPU clusters.</li><li>Research internship and career referrals across Apple AIML, Tencent Hunyuan, Huawei, Shanghai AI Lab, ByteDance Seed, Kuaishou Kling, Alibaba Qwen, MSRA, Ant Group, and more.</li><li>Academic collaboration and exchange opportunities with Mila, Stanford, ETH, HKUST, NUS, UQ, and other partners.</li></ul></article>
+            <article class="dense-card"><h3><span class="zh">4. 成长支持</span><span class="en">4. Career support</span></h3><ul class="zh"><li>助研津贴、推荐信、优先保送本课题组硕博机会。</li><li>叉院 PhD 住宿和工位在校本部燕园校区。</li><li>组内氛围融洽，定期组织徒步、羽毛球、聚餐等团建，自愿参加。</li></ul><ul class="en"><li>Research assistant support, recommendation letters, and priority opportunities for master's and PhD paths within the group.</li><li>PhD students in the School of Intelligence Science and Technology have housing and workspace on PKU's main Yanyuan campus.</li><li>The group keeps a friendly culture with optional hiking, badminton, meals, and other activities.</li></ul></article>
+          </div>
+          <div class="student-support">
+            <h3 class="zh">致有志于 AI 研究的学生</h3>
+            <h3 class="en">For students interested in AI research</h3>
+            <p class="zh">在当前高度竞争的 AI 人才生态中，无论是工业界顶尖计划，还是学术界 Top 课题组博士招生与教职聘任，核心竞争力已从“论文数量”转向“综合影响力”。我会从以下五个维度支持你的成长。</p>
+            <p class="en">In today's competitive AI ecosystem, long-term competitiveness comes from integrated research impact rather than paper count alone. The group supports students across the following five dimensions.</p>
+            <div class="student-grid">
+              <article class="student-card"><b><span class="zh">1. 前沿务实的研究方向</span><span class="en">1. Practical frontier research</span></b><p class="zh">聚焦真实需求与产业趋势，避免内卷赛道，例如 LLM Data、Data-Centric AI、数据智能体等方向。</p><p class="en">We focus on real needs and industry trends, including LLM data, Data-Centric AI, and data agents.</p></article>
+              <article class="student-card"><b><span class="zh">2. 高质量顶会论文</span><span class="en">2. High-quality top-tier papers</span></b><p class="zh">CCF-A 顶会论文仍是重要门槛，但更看重工作是否被引用、被主流开源项目采纳、解决关键问题。</p><p class="en">Top-tier papers remain important, but we care more about whether work is cited, adopted, and solves key problems.</p></article>
+              <article class="student-card"><b><span class="zh">3. 扎实的开源项目经历</span><span class="en">3. Strong open-source experience</span></b><p class="zh">主导或深度参与高星开源项目，建立工程与研究能力、形成个人品牌，围绕核心项目构建研究骨架。</p><p class="en">Students can lead or deeply contribute to high-impact open-source projects and build a research agenda around core systems.</p></article>
+              <article class="student-card"><b><span class="zh">4. 工业界研究实习经历</span><span class="en">4. Research internships</span></b><p class="zh">鼓励学生进入头部企业或研究院实习，在真实场景、海量数据和强大算力中锤炼问题定义能力。</p><p class="en">Students are encouraged to intern at leading companies and labs, learning from real scenarios, large-scale data, and strong compute.</p></article>
+              <article class="student-card"><b><span class="zh">5. 课题组与研究平台</span><span class="en">5. Group and platform support</span></b><p class="zh">课题组的学术网络、合作资源和学校平台将直接影响科研效率、合作机会与职业出口。</p><p class="en">The group's academic network, collaborations, and PKU platform support research efficiency, opportunities, and career outcomes.</p></article>
+            </div>
+            <div class="partner-block">
+              <h3 class="zh">深度合作伙伴与学生实习平台</h3>
+              <h3 class="en">Close partners and internship platforms</h3>
+              <p class="zh">学生目前主要在以下企业、研究院和联合培养平台参与研究实习、项目合作与联合培养。</p>
+              <p class="en">Students mainly participate in research internships, project collaborations, and joint training through the following companies, research institutes, and platforms.</p>
+              <div class="partner-grid">
+                <a class="partner-logo" href="https://hunyuan.tencent.com/" target="_blank" rel="noopener"><img src="homepage-assets/partners/tencent-hunyuan.png" alt="腾讯混元"><strong>腾讯混元</strong></a>
+                <a class="partner-logo logo-wide" href="https://seed.bytedance.com/" target="_blank" rel="noopener"><img src="homepage-assets/partners/bytedance-seed.svg" alt="字节 Seed"><strong>字节 Seed</strong></a>
+                <a class="partner-logo logo-wide" href="https://www.tiktok.com/about" target="_blank" rel="noopener"><img src="homepage-assets/partners/tiktok.png" alt="字节 TikTok"><strong>字节 TikTok</strong></a>
+                <a class="partner-logo logo-wide" href="https://qwen.ai/" target="_blank" rel="noopener"><img src="homepage-assets/partners/qwen.png" alt="阿里 Qwen"><strong>阿里 Qwen</strong></a>
+                <a class="partner-logo logo-wide" href="https://klingai.kuaishou.com/" target="_blank" rel="noopener"><img src="homepage-assets/partners/kling.png" alt="快手可灵"><strong>快手可灵</strong></a>
+                <a class="partner-logo logo-large" href="https://www.bza.edu.cn/" target="_blank" rel="noopener"><img src="homepage-assets/partners/zgca.png" alt="中关村学院"><strong>中关村学院</strong></a>
+                <a class="partner-logo logo-large" href="https://www.shlab.org.cn/" target="_blank" rel="noopener"><img src="homepage-assets/partners/shanghai-ai-lab.png" alt="上海人工智能实验室"><strong>上海 AI Lab</strong></a>
+                <a class="partner-logo logo-wide" href="https://machinelearning.apple.com/" target="_blank" rel="noopener"><img src="homepage-assets/partners/apple-aiml.svg" alt="Apple AIML"><strong>Apple AIML</strong></a>
+                <a class="partner-logo" href="https://www.msra.cn/" target="_blank" rel="noopener"><img src="homepage-assets/partners/msra.png" alt="微软 MSRA"><strong>微软 MSRA</strong></a>
+                <a class="partner-logo logo-large" href="https://www.baai.ac.cn/" target="_blank" rel="noopener"><img src="homepage-assets/partners/baai.png" alt="北京智源人工智能研究院"><strong>北京智源</strong></a>
+                <a class="partner-logo logo-wide" href="https://www.antgroup.com/" target="_blank" rel="noopener"><img src="homepage-assets/partners/ant.png" alt="蚂蚁"><strong>蚂蚁</strong></a>
+                <a class="partner-logo logo-large" href="https://www.kimi.com/" target="_blank" rel="noopener"><img src="homepage-assets/partners/kimi.png" alt="Kimi"><strong>Kimi</strong></a>
+                <a class="partner-logo" href="https://www.stepfun.com/" target="_blank" rel="noopener"><img src="homepage-assets/partners/stepfun.jpg" alt="阶跃星辰"><strong>阶跃星辰</strong></a>
+                <a class="partner-logo" href="https://www.huawei.com/" target="_blank" rel="noopener"><img src="homepage-assets/partners/huawei.jpg" alt="华为"><strong>华为</strong></a>
+                <a class="partner-logo" href="https://www.mi.com/" target="_blank" rel="noopener"><img src="homepage-assets/partners/xiaomi.png" alt="小米"><strong>小米</strong></a>
+                <a class="partner-logo logo-wide" href="https://github.com/meituan-longcat" target="_blank" rel="noopener"><img src="homepage-assets/partners/longcat.svg" alt="美团 LongCat"><strong>美团 LongCat</strong></a>
+                <a class="partner-logo" href="https://research.samsung.com/" target="_blank" rel="noopener"><img src="homepage-assets/partners/samsung.png" alt="三星"><strong>三星</strong></a>
+                <a class="partner-logo logo-wide" href="https://www.ubiquant.com/" target="_blank" rel="noopener"><img src="homepage-assets/partners/ubiquant.svg" alt="九坤量化"><strong>九坤量化</strong></a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="join">
+          <div class="section-head">
+            <div>
+              <div class="eyebrow"><span class="zh">加入我们</span><span class="en">Join us</span></div>
+              <h2><span class="zh">欢迎博士生、博士后和研究实习生</span><span class="en">Openings for PhD students, postdocs, and research interns</span></h2>
+            </div>
+          </div>
+          <div class="join-grid">
+            <article class="join-card"><h3>PhD / Master</h3><p class="zh">依托北京大学国际机器学习研究中心招收博士生，也依托上海 AI Lab、北京中关村学院等平台招收联培博士生。申请 2027 年秋季入学博士/硕士的学生，建议先联系实习。</p><ul class="zh"><li>支持 CCF-A 顶会论文训练，但更强调工作的影响力、开源采纳和解决关键问题。</li><li>围绕核心开源项目构建研究骨架，避免碎片化。</li></ul><p class="en">PhD and master students are welcome through PKU CMLR and joint programs with Shanghai AI Lab and Beijing Zhongguancun Academy. Students applying for Fall 2027 are encouraged to start with an internship.</p><ul class="en"><li>Top-tier paper training is supported, with emphasis on real impact, open-source adoption, and key problems.</li><li>Research is organized around core open-source systems rather than fragmented topics.</li></ul></article>
+            <article class="join-card"><h3>Postdoc</h3><p class="zh">长期招收博士后，与北京大学鄂维南院士和崔斌教授联合培养，方向包括大模型数据、Data-Centric AI、AI4Science 和智能体系统。</p><p class="en">Long-term postdoc openings are available in LLM data, Data-Centric AI, AI4Science, and agent systems, jointly mentored with Prof. Weinan E and Prof. Bin Cui.</p><div class="join-links"><a href="http://xhslink.com/o/5lwmHswnPvJ" target="_blank" rel="noopener"><span class="zh">崔斌教授联合招聘</span><span class="en">Joint opening with Prof. Bin Cui</span></a><a href="http://xhslink.com/o/5tigrus9ovF" target="_blank" rel="noopener"><span class="zh">鄂维南院士联合招聘</span><span class="en">Joint opening with Prof. Weinan E</span></a></div></article>
+            <article class="join-card"><h3>Research Intern</h3><p class="zh">长期招收研究实习生，可远程/校外实习。适合希望参与 CCF-A 论文、开源系统建设、真实产业数据问题和科研产品化的学生。</p><ul class="zh"><li>参与 DataFlow、MinerU、DataFlex、AgentFlow、Paper2Any 等系统。</li><li>工业界研究实习和头部企业/研究院资源推荐。</li><li>联系 wentao.zhang@pku.edu.cn 或微信 z1299799152。</li></ul><p class="en">Research interns are welcome year-round, including remote interns. This is suitable for students who want to work on CCF-A papers, open-source systems, real data problems, and research products.</p><ul class="en"><li>Projects include DataFlow, MinerU, DataFlex, AgentFlow, Paper2Any, and related systems.</li><li>Research internship and referral resources are available across leading companies and labs.</li><li>Contact wentao.zhang@pku.edu.cn or WeChat z1299799152.</li></ul></article>
+          </div>
+        </section>
+
+        <section class="section" id="awards-service">
+          <div class="section-head"><div><div class="eyebrow"><span class="zh">奖项与服务</span><span class="en">Awards & Service</span></div><h2><span class="zh">代表性荣誉 / 学术组织兼职与服务</span><span class="en">Selected Awards / Academic Service</span></h2></div></div>
+          <div class="awards-grid">
+            <article class="dense-card awards-card">
+              <h3><span class="zh">代表性荣誉</span><span class="en">Selected Awards</span></h3>
+              <ul>
+                <li><a href="https://www.shlab.org.cn/news/5444242" target="_blank" rel="noopener"><span class="zh">浦江青年学者</span><span class="en">Pujiang Young Scholar</span></a>, 2026.</li>
+                <li><a href="https://kw.beijing.gov.cn/xwdt/kcyx/xwdtshgg/202602/t20260212_4510418.html" target="_blank" rel="noopener"><span class="zh">智源学者</span><span class="en">Zhiyuan Scholar</span></a>, 2026.</li>
+                <li><a href="https://china.acm.org/awards.html" target="_blank" rel="noopener"><span class="zh">ACM SIGMOD 中国新星奖</span><span class="en">ACM SIGMOD China Rising Star Award</span></a>, 2025.</li>
+                <li><a href="https://www.sme-gov.cn/beijing-news-64898.html" target="_blank" rel="noopener"><span class="zh">高科技创新计划青年人才支持项目</span><span class="en">High-Tech Innovation Program Young Talent Support Project</span></a>, 2025.</li>
+                <li><a href="https://news.qq.com/rain/a/20250710A03JS700" target="_blank" rel="noopener"><span class="zh">华为火花奖</span><span class="en">Huawei Spark Award</span></a>, 2025.</li>
+                <li><a href="https://cikm2024.org/" target="_blank" rel="noopener"><span class="zh">CIKM 2024 最佳学生长文奖</span><span class="en">Best Student Full Paper Award, CIKM 2024</span></a>.</li>
+                <li><a href="https://www.pku.edu.cn/" target="_blank" rel="noopener"><span class="zh">北京大学未名青年学者</span><span class="en">Weiming Young Scholar, Peking University</span></a>, 2024.</li>
+                <li><a href="https://www.cie.org.cn/list_43/12031.html" target="_blank" rel="noopener"><span class="zh">中国电子学会科技进步一等奖</span><span class="en">First Prize of Scientific and Technological Progress Award, CIE</span></a>, 2023.</li>
+                <li><a href="https://caai.cn/index.php?s=/home/article/detail/id/3463.html" target="_blank" rel="noopener"><span class="zh">中国人工智能学会优秀博士学位论文奖</span><span class="en">CAAI Outstanding Doctoral Dissertation Award</span></a>, 2023.</li>
+                <li><a href="https://mp.weixin.qq.com/s/nCAuWHX3AlTkMIJL83DVzw" target="_blank" rel="noopener"><span class="zh">北京市优秀博士学位论文奖</span><span class="en">Beijing Outstanding Doctoral Dissertation Award</span></a>, 2023.</li>
+                <li><a href="http://www.apweb-waim2023.com/" target="_blank" rel="noopener"><span class="zh">APWeb-WAIM 2023 最佳论文亚军奖</span><span class="en">Best Paper Runner Up Award, APWeb-WAIM 2023</span></a>.</li>
+                <li><a href="https://mp.weixin.qq.com/s/Lecza9L8zgZYDPdKpkP2XA" target="_blank" rel="noopener"><span class="zh">世界人工智能大会云帆奖</span><span class="en">World AI Conference Rising Star</span></a>, 2022.</li>
+                <li><a href="https://www2022.thewebconf.org/awards/" target="_blank" rel="noopener"><span class="zh">WWW 2022 最佳学生论文奖</span><span class="en">WWW 2022 Best Student Paper Award</span></a>.</li>
+                <li><a href="https://ivado.ca/en/research-community/" target="_blank" rel="noopener"><span class="zh">IVADO 博士后奖学金，加拿大</span><span class="en">IVADO Postdoctoral Fellowship, Canada</span></a>.</li>
+                <li><a href="https://grs.pku.edu.cn/xwgz11/xxgk11/xwsy111/364670.htm" target="_blank" rel="noopener"><span class="zh">北京大学优秀博士学位论文奖</span><span class="en">PKU Outstanding Doctoral Dissertation Award</span></a>, 2022.</li>
+                <li><a href="https://xgb.pku.edu.cn/docs/2022-06/20220606163325764115.pdf" target="_blank" rel="noopener"><span class="zh">北京市优秀毕业生</span><span class="en">Outstanding Graduate of Beijing</span></a>, 2022.</li>
+                <li><a href="https://mp.weixin.qq.com/s/TlNywcR4pCl1c84KLTpeNA" target="_blank" rel="noopener"><span class="zh">世界互联网大会 / 数博会领先科技成果奖</span><span class="en">World Internet Conference / Big Data Expo Leading Technology Achievement Award</span></a>, 2022.</li>
+                <li><a href="https://xgb.pku.edu.cn/sylm/133002.htm" target="_blank" rel="noopener"><span class="zh">北京市三好学生</span><span class="en">Merit Student of Beijing</span></a>, 2021.</li>
+                <li><a href="https://machinelearning.apple.com/updates/apple-scholars-aiml-2021" target="_blank" rel="noopener"><span class="zh">Apple 博士生奖学金</span><span class="en">Apple PhD Fellowship</span></a>, 2021.</li>
+              </ul>
+            </article>
+            <article class="dense-card service-card">
+              <h3><span class="zh">学术组织兼职与服务</span><span class="en">Academic Appointments and Service</span></h3>
+              <div class="service-list">
+                <div class="service-row">
+                  <b><span class="zh">1. 中国计算机学会（CCF）</span><span class="en">1. China Computer Federation (CCF)</span></b>
+                  <div class="service-detail">
+                    <span class="zh">CCF 数据库专委会执行委员；CCF 软件工程专委会执行委员。</span>
+                    <span class="en">Executive member, CCF Technical Committee on Databases; Executive member, CCF Technical Committee on Software Engineering.</span>
+                  </div>
+                </div>
+                <div class="service-row">
+                  <b><span class="zh">2. 中国中文信息学会</span><span class="en">2. Chinese Information Processing Society of China</span></b>
+                  <div class="service-detail">
+                    <span class="zh">社会媒体处理专业委员会执行委员。</span>
+                    <span class="en">Executive member, Technical Committee on Social Media Processing.</span>
+                  </div>
+                </div>
+                <div class="service-row">
+                  <b><span class="zh">3. 国际学术会议主席</span><span class="en">3. International Conference Chairing Roles</span></b>
+                  <div class="service-detail">
+                    <span class="zh">Tutorial & Workshop Chair: ADC 2024；领域主席 Area Chair: WWW 2025-2026, NeurIPS 2025-2026, ACL 2025-2026。</span>
+                    <span class="en">Tutorial & Workshop Chair: ADC 2024; Area Chair: WWW 2025-2026, NeurIPS 2025-2026, ACL 2025-2026.</span>
+                  </div>
+                </div>
+                <div class="service-row">
+                  <b><span class="zh">4. 国际国内学术会议程序委员会委员</span><span class="en">4. Program Committee Member</span></b>
+                  <div class="service-detail">
+                    <span class="zh">数据库国际会议: VLDB 2024-2026, ICDE 2023-2026, DASFAA 2022。</span>
+                    <span class="zh">机器学习国际会议: ICML 2021-2026, NeurIPS 2022-2026, ICLR 2024-2026。</span>
+                    <span class="zh">数据挖掘国际会议: SIGKDD 2021-2026, WWW 2022-2026, SDM 2024。</span>
+                    <span class="zh">计算机视觉和自然语言会议: ICCV/ECCV 2023-2026, CVPR 2023-2025, ACL 2023-2026。</span>
+                    <span class="en">Database conferences: VLDB 2024-2026, ICDE 2023-2026, DASFAA 2022.</span>
+                    <span class="en">Machine learning conferences: ICML 2021-2026, NeurIPS 2022-2026, ICLR 2024-2026.</span>
+                    <span class="en">Data mining conferences: SIGKDD 2021-2026, WWW 2022-2026, SDM 2024.</span>
+                    <span class="en">Computer vision and NLP conferences: ICCV/ECCV 2023-2026, CVPR 2023-2025, ACL 2023-2026.</span>
+                  </div>
+                </div>
+                <div class="service-row">
+                  <b><span class="zh">5. 国际国内期刊审稿人</span><span class="en">5. Journal Reviewer</span></b>
+                  <div class="service-detail">
+                    <span class="zh">国际期刊: JMLR, VLDBJ, IEEE TKDE, IEEE TNNLS, WWWJ, SCIS, DSE, Cell Patterns, Nature Communications。</span>
+                    <span class="zh">国内期刊: 中国科学。</span>
+                    <span class="en">International journals: JMLR, VLDBJ, IEEE TKDE, IEEE TNNLS, WWWJ, SCIS, DSE, Cell Patterns, Nature Communications.</span>
+                    <span class="en">Chinese journals: Scientia Sinica.</span>
+                  </div>
+                </div>
+                <div class="service-row">
+                  <b><span class="zh">6. 上海人工智能实验室</span><span class="en">6. Shanghai Artificial Intelligence Laboratory</span></b>
+                  <div class="service-detail">
+                    <span class="zh"><a href="https://opendatalab.github.io/people.html" target="_blank" rel="noopener">研究顾问</a>。</span>
+                    <span class="en"><a href="https://opendatalab.github.io/people.html" target="_blank" rel="noopener">Research Advisor</a>.</span>
+                  </div>
+                </div>
+                <div class="service-row">
+                  <b><span class="zh">7. 北京中关村学院</span><span class="en">7. Beijing Zhongguancun Academy</span></b>
+                  <div class="service-detail">
+                    <span class="zh"><a href="https://www.bza.edu.cn/faculty" target="_blank" rel="noopener">兼职导师 & 项目负责人</a>。</span>
+                    <span class="en"><a href="https://www.bza.edu.cn/faculty" target="_blank" rel="noopener">Adjunct mentor and project lead</a>.</span>
+                  </div>
+                </div>
+                <div class="service-row">
+                  <b><span class="zh">8. 大数据分析与应用国家工程实验室</span><span class="en">8. National Engineering Laboratory for Big Data Analysis and Applications</span></b>
+                  <div class="service-detail">
+                    <span class="zh">研究员。</span>
+                    <span class="en">Researcher.</span>
+                  </div>
+                </div>
+                <div class="service-row">
+                  <b><span class="zh">9. 北京大学图灵班</span><span class="en">9. PKU Turing Class</span></b>
+                  <div class="service-detail">
+                    <span class="zh"><a href="https://cfcs.pku.edu.cn/research/turing_program/research_advisors/z1/index.htm" target="_blank" rel="noopener">科研导师</a>。</span>
+                    <span class="en"><a href="https://cfcs.pku.edu.cn/research/turing_program/research_advisors/z1/index.htm" target="_blank" rel="noopener">Research advisor</a>.</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span>Wentao Zhang · Peking University · Data-Centric AI Group</span>
+      </footer>
+    </div>
+  </div>
+
+  <script>
+
+    var allPublications = [{"year":"2026","title":"CoF-T2I: Video Models as Pure Visual Reasoners for Text-to-Image Generation","venue":"ICML 2026, regular, CCF-A","text":"CoF-T2I: Video Models as Pure Visual Reasoners for Text-to-Image Generation. Chengzhuo Tong, Mingkun Chang, ..., Yuanxing Zhang, Wentao Zhang # ICML 2026, regular, CCF-A."},{"year":"2026","title":"Synthesizing Multimodal Geometry Datasets from Scratch and Enabling Visual Alignment via Plotting Code","venue":"ICML 2026, regular, CCF-A","text":"Synthesizing Multimodal Geometry Datasets from Scratch and Enabling Visual Alignment via Plotting Code. Haobo Lin, Tianyi Bai, Chen Chen, Jiajun Zhang, Bohan Zeng, Wentao Zhang # , Binhang Yuan # ICML 2026, regular, CCF-A."},{"year":"2026","title":"AD-MIR: Bridging the Gap from Perception to Persuasion in Advertising Video Understanding via Structured Reasoning","venue":"ICML 2026, regular, CCF-A","text":"AD-MIR: Bridging the Gap from Perception to Persuasion in Advertising Video Understanding via Structured Reasoning. Binxiao Xu, Junyu Feng, Xiaopeng Lin, Haodong Li, ZhiYuan Feng, Bohan Zeng, Ruichuan An, Ming Lu, Qi She, Wentao Zhang # ICML 2026, regular, CCF-A."},{"year":"2026","title":"Position: Reasoning After Perception Means Reasoning Without Vision","venue":"ICML 2026, Position Paper Track regular, CCF-A","text":"Position: Reasoning After Perception Means Reasoning Without Vision. Hongcheng Gao, Zihao Huang, ..., Zhiqi Huang, Wentao Zhang # ICML 2026, Position Paper Track regular, CCF-A."},{"year":"2026","title":"MinerU2.5: A Decoupled Vision-Language Model for Efficient High-Resolution Document Parsing","venue":"ACL 2026, Industry Track, CCF-A","text":"MinerU2.5: A Decoupled Vision-Language Model for Efficient High-Resolution Document Parsing. Junbo Niu, Zheng Liu, Zhuangcheng Gu,..., Dahua Lin, Wentao Zhang # , Conghui He # ACL 2026, Industry Track, CCF-A."},{"year":"2026","title":"LEASH: Adaptive Length Penalty and Reward Shaping for Efficient Large Reasoning Model","venue":"ACL 2026, CCF-A","text":"LEASH: Adaptive Length Penalty and Reward Shaping for Efficient Large Reasoning Model. Yanhao Li, Lu Ma, Jiaran Zhang, Lexiang Tang, Wentao Zhang # , Guibo Luo ACL 2026, CCF-A."},{"year":"2026","title":"CodeFlowBench: A Multi-turn, Iterative Benchmark for Complex Code Generation","venue":"ACL 2026, CCF-A","text":"CodeFlowBench: A Multi-turn, Iterative Benchmark for Complex Code Generation. Sizhe Wang, Zhengren Wang, Dongsheng Ma, Yongan Yu, Rui ling, Zhiyu li, Feiyu Xiong, Wentao Zhang # ACL 2026, CCF-A."},{"year":"2026","title":"Look Less, Reason More: Rollout-Guided Adaptive Pixel-Space Reasoning","venue":"ACL 2026, CCF-A","text":"Look Less, Reason More: Rollout-Guided Adaptive Pixel-Space Reasoning. Xuchen Li, Xuzhao Li, Jiahui Gao, Renjie Pi, Shiyu Hu, Wentao Zhang # ACL 2026, CCF-A."},{"year":"2026","title":"Heterogeneous Adaptive Policy Optimization: Tailoring Optimization to Every Token's Nature","venue":"ACL 2026, CCF-A","text":"Heterogeneous Adaptive Policy Optimization: Tailoring Optimization to Every Token's Nature. Zheng Liu, Mengjie Liu, Siwei Wen, Mengzhang Cai, Bin CUI, Conghui He, Wentao Zhang # ACL 2026, CCF-A."},{"year":"2026","title":"ChartVerse: Scaling Chart Reasoning via Reliable Programmatic Synthesis from Scratch","venue":"ACL 2026, CCF-A","text":"ChartVerse: Scaling Chart Reasoning via Reliable Programmatic Synthesis from Scratch. Zheng Liu, Honglin Lin, Xiaoyang Wang, Xin Gao, Yu Li, Mengzhang Cai, Yun Zhu, Zhanping Zhong, Qizhi Pei, Zhuoshi Pan, Xiaoran Shang, Conghui He, Bin CUI, Wentao Zhang # , Lijun Wu ACL 2026, CCF-A."},{"year":"2026","title":"SciFlow-Bench: Evaluating Structure-Aware Scientific Diagram Generation via Inverse Parsing","venue":"ACL 2026, CCF-A","text":"SciFlow-Bench: Evaluating Structure-Aware Scientific Diagram Generation via Inverse Parsing. Tong Zhang, Honglin Lin, Zhou Liu, Chong Chen, Wentao Zhang # ACL 2026, CCF-A."},{"year":"2026","title":"Nested Browser-Use Learning for Agentic Information Seeking","venue":"ACL 2026, CCF-A","text":"Nested Browser-Use Learning for Agentic Information Seeking. Baixuan Li, Jialong Wu, Wenbiao Yin, Kuan Li, Zhongwang Zhang, Huifeng Yin, Zhengwei Tao, Liwen Zhang, Pengjun Xie, Jingren Zhou, Wentao Zhang # , Zhiqiang Gao # , Yong Jiang # ACL 2026, CCF-A."},{"year":"2026","title":"UniDataBench: Evaluating Data Analytics Agents Across Structured and Unstructured Data","venue":"ACL 2026, CCF-A","text":"UniDataBench: Evaluating Data Analytics Agents Across Structured and Unstructured Data. Han Weng, Zhou Liu, Yuanfeng SONG, Xiaoming Yin, Xing Chen, Wentao Zhang # ACL 2026, CCF-A."},{"year":"2026","title":"AgenticRAGTracer: A Clear and Stepwise-Process Benchmark for Agentic RAG","venue":"Findings of ACL 2026","text":"AgenticRAGTracer: A Clear and Stepwise-Process Benchmark for Agentic RAG. Qijie You, Wenkai Yu, Hao Liang, Zhen Hao Wong, Wentao Zhang # Findings of ACL 2026."},{"year":"2026","title":"Data-Centric Perspectives on Agentic Retrieval-Augmented Generation: A Survey","venue":"Findings of ACL 2026","text":"Data-Centric Perspectives on Agentic Retrieval-Augmented Generation: A Survey. Jingwen Deng, Jihao Huang, Zhen Hao Wong, Hao Liang, Quanqing Xu, Bin CUI, Wentao Zhang # Findings of ACL 2026."},{"year":"2026","title":"MathMixup: Boosting LLM Mathematical Reasoning with Difficulty-Controllable Data Synthesis and Curriculum Learning","venue":"Findings of ACL 2026","text":"MathMixup: Boosting LLM Mathematical Reasoning with Difficulty-Controllable Data Synthesis and Curriculum Learning. Xuchen Li, Jing Chen, Xuzhao Li, Hao Liang, Xiaohuan Zhou, Taifeng Wang, Wentao Zhang # Findings of ACL 2026."},{"year":"2026","title":"InsightBenchMaker: Towards Generating Evolving and High-Fidelity Benchmarks for Data-Analysis Agents","venue":"Findings of ACL 2026","text":"InsightBenchMaker: Towards Generating Evolving and High-Fidelity Benchmarks for Data-Analysis Agents. Zhou Liu, ZhaoYang Han, Zeli Su, Xing Chen, Yuanfeng SONG, Wentao Zhang # Findings of ACL 2026."},{"year":"2026","title":"Generative Giants, Retrieval Weaklings: Why do Multimodal Large Language Models Fail at Multimodal Retrieval?","venue":"Findings of ACL 2026","text":"Generative Giants, Retrieval Weaklings: Why do Multimodal Large Language Models Fail at Multimodal Retrieval? Hengyi Feng, Zeang Sheng, Meiyi Qiang, Yang Li, Wentao Zhang # Findings of ACL 2026."},{"year":"2026","title":"Towards General Agentic Intelligence via Environment Scaling","venue":"Findings of ACL 2026","text":"Towards General Agentic Intelligence via Environment Scaling. Runnan Fang, Shihao Cai, Baixuan Li, Jialong Wu, Guangyu Li, Wenbiao Yin, Xinyu Wang, Xiaobin Wang, Liangcai Su, Zhen Zhang, Shibin Wu, Zhengwei Tao, Yong Jiang, Pengjun Xie, Ningyu Zhang, Wentao Zhang # , et al. Findings of ACL 2026."},{"year":"2026","title":"Reinforcement Learning with Semantic Rewards Enables Low-Resource Language Expansion without Alignment Tax","venue":"Findings of ACL 2026","text":"Reinforcement Learning with Semantic Rewards Enables Low-Resource Language Expansion without Alignment Tax. Zeli Su, Ziyin Zhang, Zhou Liu, Xuexian Song, Zhankai Xu, Longfei Zheng, Xiaolu Zhang, Rong Fu, Guixian Xu, Wentao Zhang # Findings of ACL 2026."},{"year":"2026","title":"LongInsightBench: A Comprehensive Benchmark for Evaluating Omni-Modal Models on Human-Centric Long-Video Understanding","venue":"Findings of ACL 2026","text":"LongInsightBench: A Comprehensive Benchmark for Evaluating Omni-Modal Models on Human-Centric Long-Video Understanding. ZhaoYang Han, Qihan Lin, Hao Liang, Bowen Chen, Zhou Liu, Wentao Zhang # Findings of ACL 2026."},{"year":"2026","title":"MorphoBench: A Benchmark with Difficulty Adaptive to Model Reasoning","venue":"Findings of ACL 2026","text":"MorphoBench: A Benchmark with Difficulty Adaptive to Model Reasoning. Xukai Wang, Xuanbo Liu, Mingrui Chen, Haitian Zhong, Xuanlin Yang, Bohan Zeng, Jinbo Hu, Hao Liang, Junbo Niu, Xuchen Li, Ruitao Wu, Ruichuan An, Yang Shi, Liu Liu, Qiang Liu, Wentao Zhang # , et al. Findings of ACL 2026."},{"year":"2026","title":"Training Verifier to Assessing Complex Real-World Tool-Use Trajectories","venue":"Findings of ACL 2026","text":"Training Verifier to Assessing Complex Real-World Tool-Use Trajectories. Linzhuang Sun, Mingyang Chen, Hao Liang, Tianpeng Li, ZhouYijie, Chenzheng Zhu, Tianyu Guo, Huanyao Zhang, Jingxuan Wei, Bihui Yu, Fan Yang, Wentao Zhang # Findings of ACL 2026."},{"year":"2026","title":"Rethinking Text-to-SQL: Dynamic Multi-turn SQL Interaction for Real-world Database Exploration","venue":"Findings of ACL 2026","text":"Rethinking Text-to-SQL: Dynamic Multi-turn SQL Interaction for Real-world Database Exploration. Linzhuang Sun, Tianyu Guo, Hao Liang, Ruitong Liu, Yuying Li, Qifeng Cai, Jingxuan Wei, Yuchen Wu, Bihui Yu, Xiangxiang Zhang, Wentao Zhang # , Bin CUI Findings of ACL 2026."},{"year":"2026","title":"Text2VectorSQL: Towards a Unified Interface for Vector Search and SQL Queries","venue":"","text":"Text2VectorSQL: Towards a Unified Interface for Vector Search and SQL Queries. Zhengren Wang, Dongwen Yao, Bozhou Li, Dongsheng Ma, Bo Li, Zhiyu Li, Feiyu Xiong, Bin Cui, Linpeng Tang, Wentao Zhang # ICDE 2026, CCF-A."},{"year":"2026","title":"Text2SQL-Flow: A Robust SQL-Aware Data Augmentation Framework for Text-to-SQL","venue":"ICDE 2026, CCF-A","text":"Text2SQL-Flow: A Robust SQL-Aware Data Augmentation Framework for Text-to-SQL. Qifeng Cai, Hao Liang, Chang Xu, Tao Xie, Wentao Zhang # , Bin Cui ICDE 2026, CCF-A."},{"year":"2026","title":"QA-GraphRAG: Query-Adaptive Plug-and-Play Retrieval Integration for Graph-based Retrieval-Augmented Generation","venue":"VLDB 2026, CCF-A","text":"QA-GraphRAG: Query-Adaptive Plug-and-Play Retrieval Integration for Graph-based Retrieval-Augmented Generation. Zeang Sheng, Ruihong Sun, Jiahao Xu, Hanmei Luo, Peng Chen, Wentao Zhang # , Bin CUI # VLDB 2026, CCF-A."},{"year":"2026","title":"VABench: A Comprehensive Benchmark for Audio-Video Generation","venue":"CVPR 2026, CCF-A","text":"VABench: A Comprehensive Benchmark for Audio-Video Generation. Daili Hua, Xizhi Wang, Bohan Zeng, Xinyi Huang, Hao Liang, Junbo Niu, Xinlong Chen, Quanqing Xu, Wentao Zhang # CVPR 2026, CCF-A."},{"year":"2026","title":"Scone: Bridging Composition and Distinction in Subject-Driven Image Generation via Unified Understanding-Generation Modeling","venue":"CVPR 2026, CCF-A","text":"Scone: Bridging Composition and Distinction in Subject-Driven Image Generation via Unified Understanding-Generation Modeling. Yuran Wang, Bohan Zeng, Chengzhuo Tong, Wenxuan Liu, Yang Shi, Xiaochen Ma, Hao Liang, Yuanxing Zhang, Wentao Zhang # CVPR 2026, CCF-A."},{"year":"2026","title":"Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation","venue":"CVPR 2026, CCF-A","text":"Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation. Yiwen Tang, Ziyu Guo, Kaixin Zhu, Renrui Zhang, Qizhi Chen, Dongzhi Jiang, Junli Liu, Bohan Zeng, Haoming Song, Delin Qu, Tianyi Bai, Dan Xu, Wentao Zhang, Bin Zhao CVPR 2026, CCF-A."},{"year":"2026","title":"UniMERNet: A Universal Network for Real-World Mathematical Expression Recognition","venue":"CVPR 2026, CCF-A","text":"UniMERNet: A Universal Network for Real-World Mathematical Expression Recognition. Zhuangcheng Gu, Guang Liang, Bin Wang, Zhiyuan Zhao, Qintong Zhang, Weijia Li, Chao Xu, Bo Zhang, Botian Shi, Jiang Wu, Wentao Zhang, Conghui He CVPR 2026, CCF-A."},{"year":"2026","title":"VCU-Bridge: Hierarchical Visual Connotation Understanding via Semantic Bridging","venue":"CVPR 2026, CCF-A","text":"VCU-Bridge: Hierarchical Visual Connotation Understanding via Semantic Bridging. Ming Zhong, Yuanlei Wang, Liuzhou Zhang, Ruichuan An, Renrui Zhang, Hao Liang, Ming Lu, Ying Shen, Wentao Zhang # CVPR 2026, CCF-A."},{"year":"2026","title":"Learning What Reinforcement Learning Can't: Interleaved Online Fine-Tuning for Hardest Questions","venue":"ICLR 2026, CCF-A","text":"Learning What Reinforcement Learning Can't: Interleaved Online Fine-Tuning for Hardest Questions. Lu Ma, Hao Liang, Meiyi Qiang, Lexiang Tang, Xiaochen Ma, Zhen Hao Wong, Junbo Niu, Chengyu Shen, Runming He, Yanhao Li, Wentao Zhang # , Bin CUI ICLR 2026, CCF-A."},{"year":"2026","title":"Rethinking Driving World Model as Synthetic Data Generator for Perception Tasks","venue":"ICLR 2026, CCF-A","text":"Rethinking Driving World Model as Synthetic Data Generator for Perception Tasks. Kai Zeng, Zhanqian Wu, Kaixin Xiong, Xiaobao Wei, Xiangyu Guo, Zhenxin Zhu, Kalok Ho, Lijun Zhou, Bohan Zeng, Ming Lu, Haiyang Sun, BING WANG, Guang Chen, Hangjun Ye, Wentao Zhang # ICLR 2026, CCF-A."},{"year":"2026","title":"FLARE: Fully Integration of Vision-Language Representations for Deep Cross-Modal Understanding","venue":"ICLR 2026, CCF-A","text":"FLARE: Fully Integration of Vision-Language Representations for Deep Cross-Modal Understanding. Zheng Liu, Mengjie Liu, Jingzhou Chen, Jingwei Xu, Bin CUI, Conghui He, Wentao Zhang # ICLR 2026, CCF-A."},{"year":"2026","title":"Empowering Efficiency and Efficacy in WebAgent via Enabling Info-Rich Seeking","venue":"ICLR 2026, CCF-A","text":"Empowering Efficiency and Efficacy in WebAgent via Enabling Info-Rich Seeking. Zhengwei Tao, Haiyang SHEN, Baixuan Li, Wenbiao Yin, Jialong Wu, Kuan Li, Zhongwang Zhang, Huifeng Yin, Rui Ye, Yun Ma, Yong Jiang, Pengjun Xie, Fei Huang, Jingren Zhou, Wentao Zhang # , Yun Ma # # ICLR 2026, CCF-A."},{"year":"2026","title":"WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization","venue":"ICLR 2026, CCF-A","text":"WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization. Zhengwei Tao, Jialong Wu, Wenbiao Yin, Pu Wu, Junkai Zhang, Baixuan Li, Haiyang SHEN, Kuan Li, Liwen Zhang, Xinyu Wang, Yong Jiang, Pengjun Xie, Fei Huang, Jingren Zhou, Wentao Zhang # ICLR 2026, CCF-A."},{"year":"2026","title":"The Unseen Bias: How Norm Discrepancy in Pre-Norm MLLMs Leads to Visual Information Loss","venue":"ICLR 2026, CCF-A","text":"The Unseen Bias: How Norm Discrepancy in Pre-Norm MLLMs Leads to Visual Information Loss Bozhou Li, Xinda Xue, Sihan Yang, Yang Shi, Xinlong Chen, Yushuo Guan, Yuanxing Zhang, Wentao Zhang # ICLR 2026, CCF-A."},{"year":"2026","title":"Med-R2: Crafting Trustworthy LLM Physicians through Retrieval and Reasoning of Evidence-Based Medicine","venue":"WWW 2026, CCF-A","text":"Med-R2: Crafting Trustworthy LLM Physicians through Retrieval and Reasoning of Evidence-Based Medicine. Keer Lu, Zheng Liang, Da Pan, Shusen Zhang, Xin Wu, Weipeng Chen, Zenan Zhou, Guosheng Dong, Bin Cui, Wentao Zhang # WWW 2026, CCF-A."},{"year":"2026","title":"LoVR: A Benchmark for Long Video Retrieval in Multimodal Contexts","venue":"WWW 2026, CCF-A","text":"LoVR: A Benchmark for Long Video Retrieval in Multimodal Contexts. Qifeng Cai, Hao Liang, Hejun Dong, Meiyi Qiang, Ruichuan An, Zhaoyang Han, Zhengzhou Zhu, Bin Cui, Wentao Zhang # WWW 2026, CCF-A."},{"year":"2026","title":"Let's Verify Math Questions Step by Step","venue":"SIGKDD 2026, CCF-A","text":"Let's Verify Math Questions Step by Step. Chengyu Shen, Zhen Hao Wong, Runming He, Hao Liang, Meiyi Qiang, Zimo Meng, Zhengyang Zhao, Bohan Zeng, Zhengzhou Zhu, Bin CUI, Wentao Zhang SIGKDD 2026, CCF-A."},{"year":"2026","title":"RARE: Retrieval-Augmented Reasoning Modeling","venue":"SIGKDD 2026, CCF-A","text":"RARE: Retrieval-Augmented Reasoning Modeling. Zhengren Wang, Jiayang Yu, Dongsheng Ma, Zhe Chen, Yu Wang, Zhiyu Li, Feiyu Xiong, Yanfeng Wang, Weinan E, Linpeng Tang, Wentao Zhang # SIGKDD 2026, CCF-A."},{"year":"2026","title":"Dripper: Token-Efficient Main HTML Extraction with a Lightweight LM","venue":"SIGKDD 2026, CCF-A","text":"Dripper: Token-Efficient Main HTML Extraction with a Lightweight LM. Mengjie Liu, Jiahui Peng, Wenchang Ning, Pei Chu, Qiu Jiantao, Ren Ma, He Zhu, Rui Min, Lindong Lu, Linfeng Hou, Kaiwen Liu, Yuan Qu, Zhenxiang Li, Chao Xu, Zhongying Tu, Wentao Zhang # , Conghui He # SIGKDD 2026, CCF-A."},{"year":"2026","title":"ProfiliTable: Profiling-Driven Tabular Data Processing via Agentic Workflows","venue":"SIGKDD 2026, CCF-A","text":"ProfiliTable: Profiling-Driven Tabular Data Processing via Agentic Workflows. Wei Liu, Yang Gu, Xi Yan, Zihan Nan, Beicheng Xu, Keyao Ding, Bin CUI, Wentao Zhang # SIGKDD 2026, CCF-A."},{"year":"2026","title":"VerifyBench: A Systematic Benchmark for Evaluating Reasoning Verifiers Across Domains","venue":"AAAI 2026 (Oral), CCF-A","text":"VerifyBench: A Systematic Benchmark for Evaluating Reasoning Verifiers Across Domains. Xuzhao Li, XuzhaoLi1, Xuchen Li, Shiyu Hu, Yongzhen Guo, Wentao Zhang # AAAI 2026 (Oral), CCF-A."},{"year":"2026","title":"CausalStep: A Benchmark for Explicit Stepwise Causal Reasoning in Videos","venue":"AAAI 2026 (Oral), CCF-A","text":"CausalStep: A Benchmark for Explicit Stepwise Causal Reasoning in Videos. Xuchen Li, Xuzhao Li, Shiyu Hu, Kaiqi Huang, Wentao Zhang # AAAI 2026 (Oral), CCF-A."},{"year":"2025","title":"MaintainCoder: Maintainable Code Generation Under Dynamic Requirements","venue":"NeurIPS 2025, CCF-A","text":"MaintainCoder: Maintainable Code Generation Under Dynamic Requirements. Zhengren Wang, Rui ling, Chufan Wang, Yongan Yu, Sizhe Wang, Zhiyu li, Feiyu Xiong, Wentao Zhang # NeurIPS 2025, CCF-A."},{"year":"2025","title":"UniCTokens: Boosting Personalized Understanding and Generation via Unified Concept Tokens","venue":"NeurIPS 2025, CCF-A","text":"UniCTokens: Boosting Personalized Understanding and Generation via Unified Concept Tokens. Ruichuan An, Sihan Yang, Renrui Zhang, zijun shen, Ming Lu, Gaole Dai, Hao Liang, Ziyu Guo, Shilin Yan, Yulin Luo, Bocheng Zou, Chaoqun Yang, Wentao Zhang # NeurIPS 2025, CCF-A."},{"year":"2025","title":"Multi-step Visual Reasoning with Visual Tokens Scaling and Verification","venue":"NeurIPS 2025, CCF-A","text":"Multi-step Visual Reasoning with Visual Tokens Scaling and Verification. Tianyi Bai, Zengjie Hu, Fupeng Sun, Qiu Jiantao, Yizhen Jiang, Guangxin He, Bohan Zeng, Conghui He, Binhang Yuan, Wentao Zhang # NeurIPS 2025, CCF-A."},{"year":"2025","title":"Hallucination at a Glance: Controlled Visual Edits and Fine-Grained Multimodal Learning","venue":"NeurIPS 2025, CCF-A","text":"Hallucination at a Glance: Controlled Visual Edits and Fine-Grained Multimodal Learning. Tianyi Bai, Yuxuan Fan, Qiu Jiantao, Fupeng Sun, Jiayi Song, Junlin Han, Zichen Liu, Conghui He, Wentao Zhang # , Binhang Yuan NeurIPS 2025, CCF-A."},{"year":"2025","title":"HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation","venue":"NeurIPS 2025, CCF-A","text":"HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation. Ling Yang, Xinchen Zhang, Ye Tian, Shiyi Zhang, Chenming Shang, Minghao Xu, Wentao Zhang # , Bin CUI NeurIPS 2025, CCF-A."},{"year":"2025","title":"BRACE: A Benchmark for Robust Audio Caption Quality Evaluation","venue":"NeurIPS 2025, CCF-A","text":"BRACE: A Benchmark for Robust Audio Caption Quality Evaluation. Tianyu Guo, Hongyu Chen, Hao Liang, Meiyi Qiang, Bohan Zeng, Linzhuang Sun, Bin CUI, Wentao Zhang # NeurIPS 2025, CCF-A."},{"year":"2025","title":"HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation","venue":"EMNLP 2025 main, CCF-B","text":"HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation. Yuanyang Yin, Yaqi Zhao, Yajie Zhang, Yuanxing Zhang, Ke Lin, Jiahao Wang, Xin Tao, Pengfei Wan, Wentao Zhang # , Feng Zhao EMNLP 2025 main, CCF-B."},{"year":"2025","title":"VersaTune: An Efficient Data Composition Framework for Training Multi-Capability LLMs","venue":"EMNLP 2025 main, CCF-B","text":"VersaTune: An Efficient Data Composition Framework for Training Multi-Capability LLMs. Keer Lu, Keshi Zhao, Zhuoran Zhang, Zheng Liang, Bin CUI, Tengjiao Wang, Wentao Zhang # EMNLP 2025 main, CCF-B."},{"year":"2025","title":"FB-Bench: A Fine-Grained Multi-Task Benchmark for Evaluating LLMs' Responsiveness to Human Feedback","venue":"EMNLP 2025 main, CCF-B","text":"FB-Bench: A Fine-Grained Multi-Task Benchmark for Evaluating LLMs' Responsiveness to Human Feedback. Youquan Li, Miao Zheng, Fan Yang, Guosheng Dong, Bin CUI, Weipeng Chen, Zenan Zhou, Wentao Zhang # EMNLP 2025 main, CCF-B."},{"year":"2025","title":"Can LLMs be Good Graph Judge for Knowledge Graph Construction?","venue":"EMNLP 2025 main, CCF-B","text":"Can LLMs be Good Graph Judge for Knowledge Graph Construction? Haoyu Huang, Chong Chen, Zeang Sheng, Yang Li, Wentao Zhang # EMNLP 2025 main, CCF-B."},{"year":"2025","title":"SEA: Supervised Embedding Alignment for Token-Level Visual-Textual Integration in MLLMs","venue":"SIGIR 2025, CCF-A","text":"SEA: Supervised Embedding Alignment for Token-Level Visual-Textual Integration in MLLMs Qinhan Yu, Zhiyou Xiao, Binghui Li, Zhengren Wang, Chong Chen, Wentao Zhang # SIGIR 2025, CCF-A."},{"year":"2025","title":"Beyond Sight: Towards Cognitive Alignment in LVLM via Enriched Visual Knowledge","venue":"CVPR 2025, CCF-A","text":"Beyond Sight: Towards Cognitive Alignment in LVLM via Enriched Visual Knowledge. Yaqi Zhao, Yuanyang Yin, Lin Li, Mingan Lin, Victor Shea-Jay Huang, Siwei Chen, Weipeng Chen, Baoqun Yin, Zenan Zhou, Wentao Zhang # . CVPR 2025, CCF-A."},{"year":"2025","title":"Towards Precise Scaling Laws for Video Diffusion Transformers","venue":"CVPR 2025, CCF-A","text":"Towards Precise Scaling Laws for Video Diffusion Transformers. Yuanyang Yin, Yaqi Zhao, Mingwu Zheng, Ke Lin, Jiarong Ou, Rui Chen, Victor Shea-Jay Huang, Jiahao Wang, Xin Tao, Pengfei Wan, Di Zhang, Baoqun Yin, Wentao Zhang # , Kun Gai. CVPR 2025, CCF-A."},{"year":"2025","title":"EditWorld: Simulating World Dynamics for Instruction-Following Image Editing","venue":"ACM MM 2025, CCF-A","text":"EditWorld: Simulating World Dynamics for Instruction-Following Image Editing. Bohan Zeng, Ling Yang, Jiaming Liu, Minghao Xu, Yuanxing Zhang, Pengfei Wan, Wentao Zhang # , Shuicheng YAN. ACM MM 2025, CCF-A."},{"year":"2025","title":"SynthVLM: Towards High-Quality and Efficient Synthesis of Image-Caption Datasets for Vision-Language Models","venue":"ACM MM 2025, CCF-A","text":"SynthVLM: Towards High-Quality and Efficient Synthesis of Image-Caption Datasets for Vision-Language Models. Zheng Liu, Hao Liang, Bozhou Li, Wentao Xiong, Chong Chen, Conghui He, Wentao Zhang # , Bin CUI. ACM MM 2025, CCF-A."},{"year":"2025","title":"MathScape: Benchmarking Multimodal Large Language Models in Real-World Mathematical Contexts","venue":"ACM MM 2025, CCF-A","text":"MathScape: Benchmarking Multimodal Large Language Models in Real-World Mathematical Contexts. Hao Liang, Linzhuang Sun, zhouminxuan, Zirong Chen, Meiyi Qiang, Mingan Lin, Tianpeng Li, Fan Yang, Zenan Zhou, Wentao Zhang # . ACM MM 2025, CCF-A."},{"year":"2025","title":"Modeling All-Atom Glycan Structures via Hierarchical Message Passing and Multi-Scale Pre-training","venue":"ICML 2025, CCF-A","text":"Modeling All-Atom Glycan Structures via Hierarchical Message Passing and Multi-Scale Pre-training. Minghao Xu, Jiaze Song, Keming Wu, Xiangxin Zhou, Bin CUI, Wentao Zhang # ICML 2025, CCF-A."},{"year":"2025","title":"SysBench: Can LLMs Follow System Message?","venue":"ICLR 2025","text":"SysBench: Can LLMs Follow System Message? Yanzhao Qin, Tao Zhang, Tao Zhang, Yanjun Shen, Wenjing Luo, sunhaoze, Yan Zhang, Yujing Qiao, weipeng chen, Zenan Zhou, Wentao Zhang # , Bin CUI. ICLR 2025."},{"year":"2025","title":"GlycanML: A Multi-Task and Multi-Structure Benchmark for Glycan Machine Learning","venue":"ICLR 2025","text":"GlycanML: A Multi-Task and Multi-Structure Benchmark for Glycan Machine Learning Minghao Xu, Yunteng Geng, Yihang Zhang, Ling Yang, Jian Tang, Wentao Zhang # . ICLR 2025."},{"year":"2025","title":"Facilitating Multi-turn Function Calling for LLMs via Compositional Instruction Tuning","venue":"ICLR 2025","text":"Facilitating Multi-turn Function Calling for LLMs via Compositional Instruction Tuning Mingyang Chen, sunhaoze, Tianpeng Li, Fan Yang, Hao Liang, KeerLu, Bin CUI, Wentao Zhang # , Zenan Zhou # , weipeng Chen. ICLR 2025."},{"year":"2025","title":"SiriusBI: A Comprehensive LLM-Powered Solution for Data Analytics in Business Intelligence","venue":"VLDB 2025","text":"SiriusBI: A Comprehensive LLM-Powered Solution for Data Analytics in Business Intelligence Jie Jiang, Haining Xie, Siqi Shen, Yu Shen, Zihan Zhang, Meng Lei, Yifeng Zheng, Yang Li # , Chunyou Li, Danqing Huang, Yinjun Wu, Wentao Zhang # , Xiaofeng Yang, Bin Cui, Peng Chen. VLDB 2025."},{"year":"2025","title":"Training Data Distribution Estimation for Optimized Pre-training Data Management","venue":"ICDE 2025, CCF-A","text":"Training Data Distribution Estimation for Optimized Pre-training Data Management. Hao Liang, Keshi Zhao, Yajie Yang, Bin Cui, Zenan Zhou, Wentao Zhang # . ICDE 2025, CCF-A."},{"year":"2025","title":"PAS: Plug-and-Play Prompt Augmentation System","venue":"ICDE 2025, CCF-A","text":"PAS: Plug-and-Play Prompt Augmentation System. Miao Zheng, Hao Liang, Fan Yang, Haoze Sun, Tianpeng Li, Lingchu Xiong, Yan Zhang, Youzhen Wu, Kun Li, Yanjun Shen, Mingan Lin, Tao Zhang, Guosheng Dong, Yujing Qiao, Kun Fang, Weipeng Chen, Bin Cui, Wentao Zhang # , Zenan Zhou # ICDE 2025, CCF-A."},{"year":"2025","title":"DataSculpt: A Holistic Data Management Framework for Long-Context LLMs Training","venue":"ICDE 2025, CCF-A","text":"DataSculpt: A Holistic Data Management Framework for Long-Context LLMs Training. Keer Lu, Xiaonan Nie, Zheng Liang, Da Pan, Shusen Zhang, Keshi Zhao, Weipeng Chen, Zenan Zhou, Guosheng Dong, Bin Cui, Wentao Zhang # ICDE 2025, CCF-A."},{"year":"2025","title":"Acceleration Algorithms in GNNs: A Survey","venue":"IEEE TKDE 2025, CCF-A","text":"Acceleration Algorithms in GNNs: A Survey. Lu Ma, Zeang Sheng, Xunkai Li, Xinyi Gao, Zhezheng Hao, Ling Yang, Wentao Zhang # , Bin Cui. IEEE TKDE 2025, CCF-A."},{"year":"2025","title":"Training-free Heterogeneous Graph Condensation via Data Selection","venue":"ICDE 2025, CCF-A","text":"Training-free Heterogeneous Graph Condensation via Data Selection. Yuxuan Liang, Wentao Zhang # , Xinyi Gao, Ling Yang, Chong Chen, Hongzhi Yin, Yunhai Tong, Bin Cui. ICDE 2025, CCF-A."},{"year":"2025","title":"Towards Scalable and Efficient Graph Structure Learning","venue":"ICDE 2025, CCF-A","text":"Towards Scalable and Efficient Graph Structure Learning. Siqi Shen, Wentao Zhang # , Chengshuo Du, Chong Chen, Fangcheng Fu, Yingxia Shao, Bin Cui. ICDE 2025, CCF-A."},{"year":"2025","title":"Towards Scalable and Deep Graph Neural Networks via Noise Masking","venue":"AAAI 2025, CCF-A","text":"Towards Scalable and Deep Graph Neural Networks via Noise Masking. Yuxuan Liang, Wentao Zhang # , Zeang Sheng, Ling Yang, Quanqing Xu, Jiawei Jiang, Yunhai Tong, Bin CUI. AAAI 2025, CCF-A."},{"year":"2025","title":"LLMs are Noisy Oracles! LLM-based Noise-aware Graph Active Learning for Node Classification","venue":"SIGKDD 2025, CCF-A","text":"LLMs are Noisy Oracles! LLM-based Noise-aware Graph Active Learning for Node Classification. Zeang Sheng, WeiYang Guo, Yingxia Shao, Wentao Zhang # , Bin CUI # . SIGKDD 2025, CCF-A."},{"year":"2025","title":"MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification","venue":"ACL 2025 Main, CCF-A","text":"MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification. Linzhuang Sun, Hao Liang, Jingxuan Wei, Bihui Yu, Tianpeng Li, Fan Yang, Zenan Zhou, Wentao Zhang # ACL 2025 Main, CCF-A."},{"year":"2025","title":"QAEncoder: Towards Aligned Representation Learning in Question Answering Systems","venue":"ACL 2025 Main (Oral), CCF-A","text":"QAEncoder: Towards Aligned Representation Learning in Question Answering Systems. Zhengren Wang, Qinhan Yu, Shida Wei, Zhiyu li, Feiyu Xiong, Xiaoxing Wang, Simin Niu, Hao Liang, Wentao Zhang # . ACL 2025 Main (Oral), CCF-A."},{"year":"2025","title":"Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration","venue":"ACL 2025 Main, CCF-A","text":"Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration. Tianyi Bai, Ling Yang, Zhen Hao Wong, Fupeng Sun, Xinlin Zhuang, Jiahui Peng, Chi Zhang, Lijun Wu, Qiu Jiantao, Wentao Zhang # , Binhang Yuan # , Conghui He # . ACL 2025 Main, CCF-A."},{"year":"2025","title":"CFBench: A Comprehensive Constraints-Following Benchmark for LLMs","venue":"ACL 2025 Main, CCF-A","text":"CFBench: A Comprehensive Constraints-Following Benchmark for LLMs. Tao Zhang, ChengLIn Zhu, Yanjun Shen, Wenjing Luo, Yan Zhang, Hao Liang, Tao Zhang, Fan Yang, Mingan Lin, Yujing Qiao, Weipeng Chen, Bin CUI, Wentao Zhang # , Zenan Zhou # . ACL 2025 Main, CCF-A."},{"year":"2025","title":"HopRAG: Multi-Hop Reasoning for Logic-Aware Retrieval Augmented Generation","venue":"ACL 2025 Findings, CCF-A","text":"HopRAG: Multi-Hop Reasoning for Logic-Aware Retrieval Augmented Generation. Hao Liu, Zhengren Wang, Xi Chen, Zhiyu li, Feiyu Xiong, Qinhan Yu, Wentao Zhang # . ACL 2025 Findings, CCF-A."},{"year":"2025","title":"Taming LLMs with Gradient Grouping","venue":"ACL 2025 Main, CCF-A","text":"Taming LLMs with Gradient Grouping. Siyuan Li, Juanxi Tian, Zedong Wang, Xin Jin, Zicheng Liu, Wentao Zhang, Dan Xu. ACL 2025 Main, CCF-A."},{"year":"2025","title":"Enhancing Unsupervised Sentence Embeddings via Knowledge-Driven Data Augmentation and Gaussian-Decayed Contrastive Learning","venue":"ACL 2025 Main, CCF-A","text":"Enhancing Unsupervised Sentence Embeddings via Knowledge-Driven Data Augmentation and Gaussian-Decayed Contrastive Learning. Peichao Lai, Zhengfeng Zhang, Wentao Zhang, Fangcheng Fu, Bin CUI. ACL 2025 Main, CCF-A."},{"year":"2025","title":"Sparse Causal Discovery with Generative Intervention for Unsupervised Graph Domain Adaptation","venue":"ICML 2025, CCF-A","text":"Sparse Causal Discovery with Generative Intervention for Unsupervised Graph Domain Adaptation. Junyu Luo, Yuhao Tang, yiwei Fu, Xiao Luo, Zhizhuo KOU, Zhiping Xiao, Wei Ju, Wentao Zhang, Ming Zhang ICML 2025, CCF-A."},{"year":"2025","title":"Perceive Anything: Recognize, Explain, Caption, and Segment Anything in Images and Videos","venue":"NeurIPS 2025, CCF-A","text":"Perceive Anything: Recognize, Explain, Caption, and Segment Anything in Images and Videos. Weifeng Lin, Xinyu Wei, Ruichuan An, Tianhe Ren, Tingwei Chen, Renrui Zhang, Ziyu Guo, Wentao Zhang, Lei Zhang, Hongsheng Li NeurIPS 2025, CCF-A."},{"year":"2025","title":"AdaMixT: Adaptive Weighted Mixture of Multi-Scale Expert Transformers for Time Series Forecasting","venue":"IJCAI 2025, CCF-A","text":"AdaMixT: Adaptive Weighted Mixture of Multi-Scale Expert Transformers for Time Series Forecasting. Huanyao Zhang, Jiaye Lin, Haitao Yuan, Wentao Zhang, Guoliang Li IJCAI 2025, CCF-A."},{"year":"2025","title":"FedVCK: Non-IID Robust and Communication-Efficient Federated Learning via Valuable Condensed Knowledge for Medical Image Analysis","venue":"AAAI 2025, CCF-A","text":"FedVCK: Non-IID Robust and Communication-Efficient Federated Learning via Valuable Condensed Knowledge for Medical Image Analysis. Guochen Yan, Luyuan Xie, Xinyi Gao, Wentao Zhang, Qingni Shen, Yuejian Fang, Zhonghai Wu AAAI 2025, CCF-A."},{"year":"2025","title":"RobGC: Towards Robust Graph Condensation","venue":"IEEE TKDE 2025, CCF-A","text":"RobGC: Towards Robust Graph Condensation. Xinyi Gao, Hongzhi Yin, Tong Chen, Guanhua Ye, Wentao Zhang, Bin Cui IEEE TKDE 2025, CCF-A."},{"year":"2025","title":"Graph Condensation: A Survey","venue":"IEEE TKDE 2025, CCF-A","text":"Graph Condensation: A Survey. Xinyi Gao, Junliang Yu, Tong Chen, Guanhua Ye, Wentao Zhang, Hongzhi Yin IEEE TKDE 2025, CCF-A."},{"year":"2025","title":"Contrastive Graph Condensation: Advancing Data Versatility through Self-Supervised Learning","venue":"SIGKDD 2025, CCF-A","text":"Contrastive Graph Condensation: Advancing Data Versatility through Self-Supervised Learning. Xinyi Gao, Yayong Li, Tong Chen, Guanhua Ye, Wentao Zhang, Hongzhi Yin. SIGKDD 2025, CCF-A."},{"year":"2025","title":"CompressGNN: Accelerating Graph Neural Network Training via Hierarchical Compression","venue":"SIGKDD 2025, CCF-A","text":"CompressGNN: Accelerating Graph Neural Network Training via Hierarchical Compression. Zheng Chen, Feng Zhang, Yifei Xia, Wentao Zhang, Xiaowei Zhu, Wenguang Chen, Xiaoyong Du. SIGKDD 2025, CCF-A."},{"year":"2025","title":"First Prompt Counts the Most! An Evaluation of Large Language Models on Iterative Example-based Code Generation","venue":"ISSTA 2025, CCF-A","text":"First Prompt Counts the Most! An Evaluation of Large Language Models on Iterative Example-based Code Generation. Yingjie Fu, Bozhou Li, Linyi Li, Wentao Zhang, Tao Xie ISSTA 2025, CCF-A."},{"year":"2025","title":"OpenFGL: A Comprehensive Benchmark for Federated Graph Learning","venue":"VLDB 2025, CCF-A","text":"OpenFGL: A Comprehensive Benchmark for Federated Graph Learning. Xunkai Li, Yinlin Zhu, Boyang Pang, Guochen Yan, Yeyu Yan, Zening Li, Zhengyu Wu, Wentao Zhang, Rong-Hua Li, Guoren Wang VLDB 2025, CCF-A."},{"year":"2025","title":"Rethinking and Accelerating Graph Condensation: A Training-Free Approach with Class Partition","venue":"WWW 2025, CCF-A","text":"Rethinking and Accelerating Graph Condensation: A Training-Free Approach with Class Partition Xinyi Gao, Guanhua Ye, Tong Chen, Wentao Zhang, Junliang Yu, Hongzhi Yin WWW 2025, CCF-A."},{"year":"2025","title":"Epidemiology-informed Network for Robust Rumor Detection","venue":"WWW 2025, CCF-A","text":"Epidemiology-informed Network for Robust Rumor Detection Wei Jiang, Tong Chen, Xinyi Gao, Wentao Zhang, Lizhen Cui, Hongzhi Yin WWW 2025, CCF-A."},{"year":"2025","title":"IPDreamer: Appearance-Controllable 3D Object Generation with Complex Image Prompts","venue":"ICLR 2025","text":"IPDreamer: Appearance-Controllable 3D Object Generation with Complex Image Prompts. Bohan Zeng, Shanglin Li, Yutang Feng, Ling Yang, Juan Zhang, Hong Li, Jiaming Liu, Conghui He, Wentao Zhang, Jianzhuang Liu, Baochang Zhang, Shuicheng YAN ICLR 2025."},{"year":"2025","title":"The First Prompt Counts the Most! An Evaluation of Large Language Models on Iterative Example-Based Code Generation","venue":"ISSTA 2025, CCF-A","text":"The First Prompt Counts the Most! An Evaluation of Large Language Models on Iterative Example-Based Code Generation. Yingjie Fu, Bozhou Li, Linyi Li, Wentao Zhang, Tao Xie ISSTA 2025, CCF-A."},{"year":"2025","title":"OCR Hinders RAG: Evaluating the Cascading Impact of OCR on Retrieval-Augmented Generation","venue":"ICCV 2025, CCF-A","text":"OCR Hinders RAG: Evaluating the Cascading Impact of OCR on Retrieval-Augmented Generation. Junyuan Zhang, Qintong Zhang, Bin Wang, Linke Ouyang, Zichen Wen, Ying Li, Ka-Ho Chow, Conghui He, Wentao Zhang. ICCV 2025, CCF-A."},{"year":"2025","title":"Any2AnyTryon: Leveraging Adaptive Position Embeddings for Versatile Virtual Clothing Tasks","venue":"ICCV 2025, CCF-A","text":"Any2AnyTryon: Leveraging Adaptive Position Embeddings for Versatile Virtual Clothing Tasks. Hailong Guo, Bohan Zeng, Yiren Song, Wentao Zhang, Jiaming Liu, Chuang Zhang. ICCV 2025, CCF-A."},{"year":"2025","title":"Human Motion Generation in 3D Scenes from Open-Ended Textual Instructions with MLLM Planning","venue":"ACM MM 2025, CCF-A","text":"Human Motion Generation in 3D Scenes from Open-Ended Textual Instructions with MLLM Planning. Siyi Qian, Jian Fang, Yuzhou Mao, Yayun Zou, Wentao Zhang, Haiwei Xue. ACM MM 2025, CCF-A."},{"year":"2025","title":"Mavors: Multi-granularity Video Representation for Multimodal Large Language Model","venue":"ACM MM 2025, CCF-A","text":"Mavors: Multi-granularity Video Representation for Multimodal Large Language Model. Yang Shi, Jiaheng Liu, Yushuo Guan, zhenhua wu, Yuanxing Zhang, Wang Zihao, Weihong Lin, Jingyun Hua, Zekun Moore Wang, Xinlong Chen, Bohan Zeng, Wentao Zhang, Fuzheng Zhang, Wenjing Yang, Di ZHANG. ACM MM 2025, CCF-A."},{"year":"2025","title":"Memory-Enhanced Invariant Prompt Learning for Urban Flow Prediction Under Distribution Shifts","venue":"ECML 2025, CCF-B","text":"Memory-Enhanced Invariant Prompt Learning for Urban Flow Prediction Under Distribution Shifts. Haiyang Jiang, Tong Chen, Wentao Zhang, Quoc Viet Hung Nguyen, Yuan Yuan, Yong Li, Hongzhi Yin. ECML 2025, CCF-B."},{"year":"2025","title":"Improving Low-Resource Sequence Labeling with Knowledge Fusion and Contextual Label Explanations","venue":"EMNLP 2025 main, CCF-B","text":"Improving Low-Resource Sequence Labeling with Knowledge Fusion and Contextual Label Explanations. Peichao Lai, Jiaxin Gan, Feiyang Ye, Wentao Zhang, Fangcheng Fu, Yilei Wang, Bin CUI EMNLP 2025 main, CCF-B."},{"year":"2025","title":"Knowledge Graph-Driven Memory Editing with Directional Interventionss","venue":"EMNLP 2025 Findings, CCF-B","text":"Knowledge Graph-Driven Memory Editing with Directional Interventionss. Jinhu Fu, Kun Wang, chongye guo, Junfeng Fang, Wentao Zhang, Wentao Zhang # , Sen Su EMNLP 2025 Findings, CCF-B."},{"year":"2024","title":"Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models","venue":"NeurIPS 2024, CCF-A","text":"Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models. Ling Yang, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E. Gonzalez, Bin CUI NeurIPS 2024, CCF-A."},{"year":"2024","title":"Efficient Multi-task LLM Quantization and Serving for Multiple LoRA Adapters","venue":"NeurIPS 2024, CCF-A","text":"Efficient Multi-task LLM Quantization and Serving for Multiple LoRA Adapters. Yifei Xia, Fangcheng Fu, Wentao Zhang, Jiawei Jiang, Bin CUI. NeurIPS 2024, CCF-A."},{"year":"2024","title":"Distribution-Aware Data Expansion with Diffusion Models","venue":"NeurIPS 2024, CCF-A","text":"Distribution-Aware Data Expansion with Diffusion Models. haoweiz, Ling Yang, Jun-Hai Yong, Hongzhi Yin, Jiawei Jiang, Meng Xiao, Wentao Zhang # , Bin Wang NeurIPS 2024, CCF-A."},{"year":"2024","title":"MetaGXplore: Integrating Multi-Omics Data with Graph Convolutional Networks for Pan-cancer Patient Metastasis Identification","venue":"IEEE BIBM 2024, CCF-B","text":"MetaGXplore: Integrating Multi-Omics Data with Graph Convolutional Networks for Pan-cancer Patient Metastasis Identification. Tao Jiang, Haiyang Jiang, Xinyi Ma, Minghao Xu, Yan Liang, and Wentao Zhang # . IEEE BIBM 2024, CCF-B."},{"year":"2024","title":"Physics-guided Active Sample Reweighting for Urban Flow Prediction","venue":"CIKM 2024, CCF-B, 🏆 Best Student Paper Award (among 1496 submmisions)","text":"Physics-guided Active Sample Reweighting for Urban Flow Prediction. Wei Jiang, Tong Chen, Guanhua Ye, Wentao Zhang, Lizhen Cui, Zi Huang and Hongzhi Yin. CIKM 2024, CCF-B, 🏆 Best Student Paper Award (among 1496 submmisions)."},{"year":"2024","title":"ProtLLM: An Interleaved Protein-Language LLM with Protein-as-Word Pre-Training","venue":"ACL (main) 2024, CCF-A","text":"ProtLLM: An Interleaved Protein-Language LLM with Protein-as-Word Pre-Training. Le Zhuo, Zewen Chi, Minghao Xu, Heyan Huang, Jianan Zhao, Heqi Zheng, Conghui He, Xian-Ling Mao, Wentao Zhang # . ACL (main) 2024, CCF-A."},{"year":"2024","title":"Diffusion Models: A Comprehensive Survey of Methods","venue":"CSUR 2024, CCF-A","text":"Diffusion Models: A Comprehensive Survey of Methods [Paper][Code] Ling Yang, Zhilong Zhang, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang # , Ming-Hsuan Yang # , Bin Cui # . CSUR 2024, CCF-A."},{"year":"2024","title":"OUTRE: An OUT-of-core De-REdundancy GNN Training Framework for Massive Graphs within A Single Machine","venue":"VLDB 2024, CCF-A","text":"OUTRE: An OUT-of-core De-REdundancy GNN Training Framework for Massive Graphs within A Single Machine. Zeang Sheng, Wentao Zhang, Yangyu Tao, Bin Cui # . VLDB 2024, CCF-A."},{"year":"2024","title":"HGAMLP: Heterogeneous Graph Attention MLP with De-redundancy Mechanism","venue":"ICDE 2024, CCF-A","text":"HGAMLP: Heterogeneous Graph Attention MLP with De-redundancy Mechanism. Yuxuan Liang, Wentao Zhang # , Zeang Sheng, Ling Yang, Jiawei Jiang, Yunhai Tong, Bin Cui. ICDE 2024, CCF-A."},{"year":"2024","title":"NPA: Improving Large-scale Graph Neural Networks with Non-parametric Attention","venue":"SIGMOD 2024, CCF-A","text":"NPA: Improving Large-scale Graph Neural Networks with Non-parametric Attention. Wentao Zhang, Guochen Yan , Yu Shen , Yang Ling , Yangyu Tao , Bin Cui , Jian Tang SIGMOD 2024, CCF-A."},{"year":"2024","title":"BIM: Improving Graph Neural Networks with Balanced Influence Maximization","venue":"ICDE 2024, CCF-A","text":"BIM: Improving Graph Neural Networks with Balanced Influence Maximization. Wentao Zhang, Xinyi Gao, Ling Yang, Meng Cao, Jiulong Shan, Hongzhi Yin, Bin Cui. ICDE 2024, CCF-A."},{"year":"2024","title":"NC-ALG: Graph-based Active Learning under Noisy Crowd","venue":"ICDE 2024, CCF-A","text":"NC-ALG: Graph-based Active Learning under Noisy Crowd. Wentao Zhang, Yexin Wang, Zhenbang You, Yang Li, Gang Cao, Zhi Yang, Bin Cui. ICDE 2024, CCF-A."},{"year":"2024","title":"Graph Condensation for Open-World Graph Learning","venue":"SIGKDD 2024, CCF-A","text":"Graph Condensation for Open-World Graph Learning. Xinyi Gao, Tong Chen, Wentao Zhang, Yayong Li, Xiangguo Sun, Hongzhi Yin. SIGKDD 2024, CCF-A."},{"year":"2024","title":"Rethinking Node-wise Propagation for Large-scale Graph Learning","venue":"WWW 2024, CCF-A","text":"Rethinking Node-wise Propagation for Large-scale Graph Learning. Xunkai Li, Jingyuan Ma, Zhengyu Wu, Daohan Su, Wentao Zhang, Rong-Hua Li, Guoren Wang WWW 2024, CCF-A."},{"year":"2024","title":"FedGTA: Topology-aware Averaging for Federated Graph Learning","venue":"VLDB 2024, CCF-A","text":"FedGTA: Topology-aware Averaging for Federated Graph Learning. Xunkai Li, Zhengyu Wu, Wentao Zhang, Yinlin Zhu, Rong-Hua Li, Guoren Wang VLDB 2024, CCF-A."},{"year":"2024","title":"Accelerating Scalable Graph Neural Network Inference with Node-Adaptive Propagation","venue":"ICDE 2024, CCF-A","text":"Accelerating Scalable Graph Neural Network Inference with Node-Adaptive Propagation. Xinyi Gao, Wentao Zhang # , Junliang Yu, Yingxia Shao, Quoc Viet Hung Nguyen, Bin Cui, Hongzhi Yin # . ICDE 2024, CCF-A."},{"year":"2024","title":"Graph Condensation for Inductive Node Representation Learning","venue":"ICDE 2024, CCF-A","text":"Graph Condensation for Inductive Node Representation Learning. Xinyi Gao, Tong Chen, Yiling Zang, Wentao Zhang, Quoc Viet Hung Nguyen, Kai Zheng, Hongzhi Yin. ICDE 2024, CCF-A."},{"year":"2024","title":"AdaFGL: A New Paradigm for Federated Node Classification with Topology Heterogeneity","venue":"ICDE 2024, CCF-A","text":"AdaFGL: A New Paradigm for Federated Node Classification with Topology Heterogeneity. Xunkai Li, Zhenyu Wu, Wentao Zhang, Henan Sun, Ronghua Li, Guoren Wang. ICDE 2024, CCF-A."},{"year":"2024","title":"Generative and Contrastive Paradigms Are Complementary for Graph Self-Supervised Learning","venue":"ICDE 2024, CCF-A","text":"Generative and Contrastive Paradigms Are Complementary for Graph Self-Supervised Learning. Yuxiang Wang, Xiao Yan, Chuang Hu, Quanqing Xu, Chuanhui Yang, Fangcheng Fu, Wentao Zhang, Hao Wang , Bo Du, Jiawei Jiang. ICDE 2024, CCF-A."},{"year":"2024","title":"Multi-View Teacher with Curriculum Data Fusion for Robust Unsupervised Domain Adaptation","venue":"ICDE 2024, CCF-A","text":"Multi-View Teacher with Curriculum Data Fusion for Robust Unsupervised Domain Adaptation. Yuhao Tang, Junyu Luo, Ling Yang, Xiao Luo, Wentao Zhang, Bin Cui. ICDE 2024, CCF-A."},{"year":"2024","title":"Graphusion: Latent Diffusion for Graph Generation","venue":"TKDE 2024, CCF-A","text":"Graphusion: Latent Diffusion for Graph Generation. Ling Yang, Zhilin Huang, Zhilong Zhang, Zhongyi Liu, Shenda Hong, Wentao Zhang, Wenming Yang, Bin Cui, Luxia Zhang. TKDE 2024, CCF-A."},{"year":"2024","title":"OpenBox: A Python Toolkit for Generalized Black-box Optimization","venue":"JMLR 2024, CCF-A","text":"OpenBox: A Python Toolkit for Generalized Black-box Optimization. Huaijun Jiang, Yu Shen, Yang Li, Beicheng Xu, Sixian Du, Wentao Zhang, Ce Zhang, Bin Cui. JMLR 2024, CCF-A."},{"year":"2024","title":"Interaction-based Retrieval-augmented Diffusion Models for Protein-specific 3D Molecule Generation","venue":"ICML 2024, CCF-A","text":"Interaction-based Retrieval-augmented Diffusion Models for Protein-specific 3D Molecule Generation. Zhilin Huang, Ling Yang, Xiangxin Zhou, Chujun Qin, Yijie Yu, Xiawu Zheng, Zikun Zhou, Wentao Zhang, Yu Wang, Wenming Yang. ICML 2024, CCF-A."},{"year":"2024","title":"Protein-Ligand Interaction Prior for Binding-aware 3D Molecule Diffusion Models","venue":"ICLR 2024","text":"Protein-Ligand Interaction Prior for Binding-aware 3D Molecule Diffusion Models. [To appear] Zhilin Huang, Ling Yang, Xiangxin Zhou, Zhilong Zhang, Wentao Zhang, Xiawu Zheng, Jie Chen, Yu Wang, Bin Cui, Wenming Yang ICLR 2024."},{"year":"2024","title":"VQGraph: Rethinking Graph Representation Space for Bridging GNNs and MLPs","venue":"ICLR 2024","text":"VQGraph: Rethinking Graph Representation Space for Bridging GNNs and MLPs. Ling Yang, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec ICLR 2024."},{"year":"2024","title":"Towards Effective and General Graph Unlearning via Mutual Evolution","venue":"AAAI 2024, CCF-A","text":"Towards Effective and General Graph Unlearning via Mutual Evolution. Xunkai Li, Yulin Zhao, Zhengyu Wu, Wentao Zhang, Ronghua Li, Guoren Wang. AAAI 2024, CCF-A."},{"year":"2023","title":"Improving Diffusion-Based Image Synthesis with Context Prediction","venue":"NeurIPS 2023, CCF-A","text":"Improving Diffusion-Based Image Synthesis with Context Prediction. Ling Yang, Jingwei Liu, Shenda Hong, Zhilong Zhang, Zhilin Huang, Zheming Cai, Wentao Zhang # , Bin Cui # . NeurIPS 2023, CCF-A."},{"year":"2023","title":"Diffusion Models: A Comprehensive Survey of Methods","venue":"CSUR 2023, CCF-A","text":"Diffusion Models: A Comprehensive Survey of Methods. Ling Yang, Zhilong Zhang, ..., Wentao Zhang # , Bin Cui # , Ming-Hsuan Yang # . ACM Computing Survey. CSUR 2023, CCF-A."},{"year":"2023","title":"FedGTA: Topology-aware Averaging for Federated Graph Learning","venue":"VLDB 2023, CCF-A","text":"FedGTA: Topology-aware Averaging for Federated Graph Learning. Xunkai Li, Zhenyu Wu, Wentao Zhang, Yinlin Zhu, Ronghua Li, Guoren Wang. International Conference on Very Large Data Bases. VLDB 2023, CCF-A."},{"year":"2023","title":"Rover: An online Spark SQL tuning service via generalized transfer learning","venue":"SIGKDD 2023, CCF-A","text":"Rover: An online Spark SQL tuning service via generalized transfer learning. Yu Shen, Xinyuyang Ren, Yupeng Lu, Huaijun Jiang, Di Peng, Huanyong Xu, Yang Li, Wentao Zhang # , Bin Cui. SIGKDD Conference on Knowledge Discovery and Data Mining. SIGKDD 2023, CCF-A."},{"year":"2023","title":"Towards General and Efficient Online Tuning for Spark","venue":"VLDB 2023, CCF-A","text":"Towards General and Efficient Online Tuning for Spark. Yang Li, Huanjun Jiang, ..., Wentao Zhang, Ce Zhang, Peng Chen, Bin Cui. International Conference on Very Large Data Bases. VLDB 2023, CCF-A."},{"year":"2023","title":"Scapin : Scalable Graph Perturbation by Augmented Influence Maximization","venue":"SIGMOD 2023, CCF-A","text":"Scapin : Scalable Graph Perturbation by Augmented Influence Maximization. Yexin Wang, Zhi Yang, Junqi Liu, Wentao Zhang, Bin Cui. ACM SIGMOD International Conference on Management of Data. SIGMOD 2023, CCF-A."},{"year":"2023","title":"Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization","venue":"TKDE 2023, CCF-A","text":"Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization. Ling Yang, Jiayi Zheng, Heyuan Wang, Zhongyi Liu, Zhilin Huang, Shenda Hong, Wentao Zhang # , Bin Cui. IEEE Transactions on Knowledge and Data Engineering. TKDE 2023, CCF-A."},{"year":"2023","title":"ProxyBO: Accelerating Neural Architecture Search via Bayesian Optimization with Zero-cost Proxies","venue":"AAAI 2023, CCF-A","text":"ProxyBO: Accelerating Neural Architecture Search via Bayesian Optimization with Zero-cost Proxies. [Paper] Yu Shen, Yang Li, Jian Zheng, Peng Yao, Jixiang Li, Sen Yang, Ji Liu, Wentao Zhang # , Bin Cui. Thirty-Seventh AAAI Conference on Artificial Intelligence. AAAI 2023, CCF-A."},{"year":"2023","title":"Fairness-aware Maximal Biclique Enumeration on Bipartite Graphs","venue":"ICDE 2023, CCF-A","text":"Fairness-aware Maximal Biclique Enumeration on Bipartite Graphs. [Paper] Ziqi Yin, Qi Zhang, Wentao Zhang, Ronghua Li, Guoren Wang IEEE International Conference on Data Engineering. ICDE 2023, CCF-A."},{"year":"2023","title":"Semantic-aware Node Synthesis for Imbalanced Heterogeneous Information Networks","venue":"CIKM 2023, CCF-B","text":"Semantic-aware Node Synthesis for Imbalanced Heterogeneous Information Networks. [To appear] Xinyi Gao, Wentao Zhang, Tong Chen, Junliang Yu, Quoc Viet Hung Nguyen and Hongzhi Yin ACM International Conference on Information and Knowledge Management. CIKM 2023, CCF-B."},{"year":"2023","title":"Graph-Enforced Neural Network for Attributed Graph Clustering","venue":"APWeb-WAIM2023, CCF-C, 🏆 Best Paper Runner Up Award (among 260 submmisions)","text":"Graph-Enforced Neural Network for Attributed Graph Clustering. [To appear] Zeang Sheng, Wentao Zhang # , Yang Li, Wen Ouyang, Yangyu Tao, Zhi Yang and Bin Cui The 7th APWeb-WAIM International Joint Conference on Web and Big Data. APWeb-WAIM2023, CCF-C, 🏆 Best Paper Runner Up Award (among 260 submmisions) ."},{"year":"2022","title":"NAFS: A Simple yet Tough-to-beat Baseline for Graph Representation Learning","venue":"ICML 2022, CCF-A","text":"NAFS: A Simple yet Tough-to-beat Baseline for Graph Representation Learning. [Paper][Code] Wentao Zhang, Zeang Sheng, Mingyu Yang, Yang Li, Yu Shen, Zhi Yang, Bin Cui. The 39th International Conference on Machine Learning. ICML 2022, CCF-A."},{"year":"2022","title":"Deep and Flexible Graph Neural Architecture Search","venue":"ICML 2022, CCF-A","text":"Deep and Flexible Graph Neural Architecture Search. [Paper][Code] Wentao Zhang, Yu Shen, Zheyu Lin, Yang Li, Zhi Yang, Bin Cui. The 39th International Conference on Machine Learning. ICML 2022, CCF-A."},{"year":"2022","title":"Model Degradation Hinders Deep Graph Neural Networks","venue":"SIGKDD 2022, CCF-A","text":"Model Degradation Hinders Deep Graph Neural Networks. [Paper][Code] Wentao Zhang, Zeang Sheng, Yuezihan Jiang, Yikuan Xia, Jun Gao, Zhi Yang, Bin Cui. SIGKDD Conference on Knowledge Discovery and Data Mining. SIGKDD 2022, CCF-A."},{"year":"2022","title":"Graph Attention Multi-Layer Perceptron","venue":"SIGKDD 2022, CCF-A","text":"Graph Attention Multi-Layer Perceptron. [Paper][Code] Wentao Zhang, Ziqi Yin, Zeang Sheng, Wen Ouyang, Xiaosen Li, Yangyu Tao, Zhi Yang, Bin Cui. SIGKDD Conference on Knowledge Discovery and Data Mining. SIGKDD 2022, CCF-A."},{"year":"2022","title":"PaSca: a Graph Neural Architecture Search System under the Scalable Paradigm","venue":"WWW 2022 (System Track), CCF-A","text":"PaSca: a Graph Neural Architecture Search System under the Scalable Paradigm. [Paper][Code] [Doc] Wentao Zhang, Yu Shen, Zheyu Lin, Yang Li, Xiaosen Li, Wen Ouyang,Yangyu Tao, Zhi Yang, Bin Cui. The Web Conference. WWW 2022 (System Track), CCF-A, 🏆 Best Student Paper Award (among 1822 submmisions) ."},{"year":"2022","title":"Information Gain Propagation: a New Way to Graph Active Learning with Soft Labels","venue":"ICLR 2022","text":"Information Gain Propagation: a New Way to Graph Active Learning with Soft Labels . [Paper][Code] Wentao Zhang, Yexin Wang, Zhenbang You, ..., Zhi Yang, Bin Cui. International Conference on Learning Representations. ICLR 2022. -->"},{"year":"2022","title":"Graph Neural Networks in Recommender Systems: A Survey","venue":"CSUR 2022, CCF-A","text":"Graph Neural Networks in Recommender Systems: A Survey [Paper][Code] Shiwen Wu, Fei Sun, Wentao Zhang # , Xu Xie, Bin Cui. ACM Computing Surveys. CSUR 2022, CCF-A."},{"year":"2022","title":"[[Paper](https://link.springer.com/article/10.1007/s00778-022-00768-8)] <br> Xupeng Miao<sup>\\","venue":"VLDBJ 2022, CCF-A","text":"P2CG: A Privacy Preserving Collaborative Graph Neural Network Training Framework. [Paper] Xupeng Miao \\ , Wentao Zhang \\ , ..., Lei Chen, Yangyu Tao, Gang Cao, Bin Cui. The International Journal on Very Large Data Bases. VLDBJ 2022, CCF-A."},{"year":"2022","title":"DivBO: Diversity-aware CASH for Ensemble Learning","venue":"NeurIPS 2022, CCF-A","text":"DivBO: Diversity-aware CASH for Ensemble Learning [Paper] Yu Shen, Yupeng Lu, Yang Li, Yaofeng Tu, Wentao Zhang, Bin CUI. NeurIPS 2022, CCF-A."},{"year":"2022","title":"TransBO: Hyperparameter Optimization via Two-Phase Transfer Learning","venue":"SIGKDD 2022, CCF-A","text":"TransBO: Hyperparameter Optimization via Two-Phase Transfer Learning. [Paper] Yang Li, Yu Shen, Huaijun Jiang, Wentao Zhang, Zhi Yang, Ce Zhang, Bin Cui. SIGKDD Conference on Knowledge Discovery and Data Mining. SIGKDD 2022, CCF-A."},{"year":"2022","title":"Transfer Learning based Search Space Design for Hyperparameter Tuning","venue":"SIGKDD 2022, CCF-A","text":"Transfer Learning based Search Space Design for Hyperparameter Tuning. [Paper] Yang Li, Yu Shen, Huaijun Jiang, Tianyi Bai, Wentao Zhang, Ce Zhang, Bin Cui. SIGKDD Conference on Knowledge Discovery and Data Mining. SIGKDD 2022, CCF-A."},{"year":"2022","title":"Hyper-Tune: Towards Efficient Hyper-parameter Tuning at Scale","venue":"VLDB 2022, CCF-A","text":"Hyper-Tune: Towards Efficient Hyper-parameter Tuning at Scale. [Paper][Code] Yang Li, Yu Shen, Huaijun Jiang,Wentao Zhang, Jixiang Li, Ji Liu, Ce Zhang, Bin Cui. International Conference on Very Large Data Bases. VLDB 2022, CCF-A."},{"year":"2022","title":"Zoomer: Improving and Accelerating Recommendation on Web-Scale Graphs via Regions of Interests","venue":"ICDE 2022 (Industry Track), CCF-A","text":"Zoomer: Improving and Accelerating Recommendation on Web-Scale Graphs via Regions of Interests. [Paper][Code] Yuezihan Jiang, Yu Cheng, Hanyu Zhao, Wentao Zhang, Xupeng Miao, Yu He, Liang Wang, Zhi Yang, Bin Cui. IEEE International Conference on Data Engineering. ICDE 2022 (Industry Track), CCF-A."},{"year":"2022","title":"Lasagne: A Multi-Layer Graph Convolutional Network Framework via Node-aware Deep Architecture","venue":"ICDE (Extended Abstract) 2022, CCF-A","text":"Lasagne: A Multi-Layer Graph Convolutional Network Framework via Node-aware Deep Architecture [Paper][Code] Xupeng Miao \\ , Wentao Zhang \\ , Yingxia Shao, Lei Chen, Ce Zhang, Jiawei Jiang, Bin Cui. IEEE International Conference on Data Engineering. ICDE (Extended Abstract) 2022, CCF-A."},{"year":"2022","title":"Efficient End-to-End AutoML via Scalable Search Space Decomposition","venue":"VLDBJ 2022, CCF-A","text":"Efficient End-to-End AutoML via Scalable Search Space Decomposition. [Paper][Code[Doc]] Yang Li, Yu Shen, Wentao Zhang, Ce Zhang, Bin Cui. The International Journal on Very Large Data Bases. VLDBJ 2022, CCF-A."},{"year":"2022","title":"AutoDC: an Automatic Machine Learning Framework for Disease Classification","venue":"Bioinformatics 2022, CCF-B","text":"AutoDC: an Automatic Machine Learning Framework for Disease Classification [Paper] Yang Bai, Yang Li, Yu Shen, Mingyu Yang, Wentao Zhang, Bin Cui. Bioinformatics. Bioinformatics 2022, CCF-B."},{"year":"2022","title":"K-Core Decomposition on Super Large Graphs with Limited Resources","venue":"ACM SAC 2022","text":"K-Core Decomposition on Super Large Graphs with Limited Resources [Paper] Shicheng Gao, Jie Xu, Xiaosen Li, Fangcheng Fu, Wentao Zhang, Wen Ouyang, Yangyu Tao and Bin Cui. The 37th ACM/SIGAPP Symposium On Applied Computing. ACM SAC 2022."},{"year":"2021","title":"RIM: Reliable Influence-based Active Learning on Graphs","venue":"NeurIPS 2021, CCF-A, Spotlight Presentation, Acceptance Rate:","text":"RIM: Reliable Influence-based Active Learning on Graphs [Paper][Code] Wentao Zhang, Yexin Wang, Zhenbang You, Meng Cao, Ping Huang, Jiulong Shan, Zhi Yang, Bin Cui. Thirty-fifth Conference on Neural Information Processing Systems. NeurIPS 2021, CCF-A, Spotlight Presentation, Acceptance Rate: . -->"},{"year":"2021","title":"Node Dependent Local Smoothing for Scalable Graph Learning","venue":"NeurIPS 2021, CCF-A, Spotlight Presentation, Acceptance Rate:","text":"Node Dependent Local Smoothing for Scalable Graph Learning [Paper][Code] Wentao Zhang, Mingyu Yang, Zeang Sheng, Yang Li, Wen Ouyang, Yangyu Tao, Zhi Yang, Bin Cui. Thirty-fifth Conference on Neural Information Processing Systems. NeurIPS 2021, CCF-A, Spotlight Presentation, Acceptance Rate: ."},{"year":"2021","title":"Grain: Improving Data Efficiency of Graph Neural Networks via Diversified Influence Maximization","venue":"VLDB 2021, CCF-A","text":"Grain: Improving Data Efficiency of Graph Neural Networks via Diversified Influence Maximization [Paper][Code] Wentao Zhang, Zhi Yang, Yexin Wang, Yu Shen, Yang Li, Liang Wang, Bin Cui. International Conference on Very Large Data Bases. VLDB 2021, CCF-A."},{"year":"2021","title":"Lasagne: A Multi-Layer Graph Convolutional Network Framework via Node-aware Deep Architecture","venue":"TKDE 2021, CCF-A","text":"Lasagne: A Multi-Layer Graph Convolutional Network Framework via Node-aware Deep Architecture [Paper][Code] Xupeng Miao \\ , Wentao Zhang \\ , Yingxia Shao, Lei Chen, Ce Zhang, Jiawei Jiang, Bin Cui. IEEE Transactions on Knowledge and Data Engineering. TKDE 2021, CCF-A. \\ , Wentao Zhang \\ , Yingxia Shao, Bin Cui, Lei Chen, Ce Zhang, Jiawei Jiang -->"},{"year":"2021","title":"DeGNN: Characterizing and Improving Graph Neural Networks with Graph Decomposition","venue":"SIGKDD 2021, CCF-A, Top #1 conference in Data Mining","text":"DeGNN: Characterizing and Improving Graph Neural Networks with Graph Decomposition [Paper][Code] Xupeng Miao \\ , Nezihe Merve Gürel \\ , Wentao Zhang \\ , ..., Shuai Zhang, Yujing Wang, Bin Cui, Ce Zhang. SIGKDD Conference on Knowledge Discovery and Data Mining. SIGKDD 2021, CCF-A, Top #1 conference in Data Mining ."},{"year":"2021","title":"ROD: Reception-aware Online Distillation for Sparse Graphs","venue":"SIGKDD 2021, CCF-A, Top #1 conference in Data Mining","text":"ROD: Reception-aware Online Distillation for Sparse Graphs [Paper][Code] Wentao Zhang, Jiang Yuezihan, Yang Li, Zeang Sheng, Yu Shen, Xupeng Miao, Liang Wang, Zhi Yang, Bin Cui SIGKDD Conference on Knowledge Discovery and Data Mining. SIGKDD 2021, CCF-A, Top #1 conference in Data Mining ."},{"year":"2021","title":"ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks","venue":"SIGMOD 2021, CCF-A, Top #1 conference in Data Bases","text":"ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks [Paper][Code] Wentao Zhang, Yu Shen, Yangli, Lei Chen, Zhi Yang, Bin Cui ACM SIGMOD International Conference on Management of Data. SIGMOD 2021, CCF-A, Top #1 conference in Data Bases ."},{"year":"2021","title":"Distributed Optimization and Implementation of Graph Embedding Algorithms","venue":"JOS 2021, CCF-A","text":"Distributed Optimization and Implementation of Graph Embedding Algorithms [Paper][Code] Wentao Zhang, Bin Yuan, ZhiPeng Zhang, Bin Cui. Journal of Software. JOS 2021, CCF-A."},{"year":"2021","title":"VolcanoML: Speeding up End-to-End AutoML via Scalable Search Space Decomposition","venue":"VLDB 2021, CCF-A","text":"VolcanoML: Speeding up End-to-End AutoML via Scalable Search Space Decomposition [Paper][Code[Doc]] Yang Li, Yu Shen, Wentao Zhang, ..., Wentao Wu, Ce Zhang, Bin Cui. International Conference on Very Large Data Bases. VLDB 2021, CCF-A."},{"year":"2021","title":"OpenBox: A Generalized Black-box Optimization Service","venue":"SIGKDD 2021, CCF-A, Top #1 conference in Data Mining","text":"OpenBox: A Generalized Black-box Optimization Service [Paper][Code][Doc] Yang Li, Yu Shen, Wentao Zhang, ..., Ce Zhang, Bin Cui. SIGKDD Conference on Knowledge Discovery and Data Mining. SIGKDD 2021, CCF-A, Top #1 conference in Data Mining ."},{"year":"2021","title":"Enhanced review-based rating prediction by exploiting aside information and user influence","venue":"KBS 2021, JCR Q1, IF=8.038","text":"Enhanced review-based rating prediction by exploiting aside information and user influence [Paper][Code] Shiwen Wu, Yuanxing Zhang, Wentao Zhang, Kaigui Bian, Bin Cui. Knowledge Based System. KBS 2021, JCR Q1, IF=8.038. 2020"},{"year":"2021","title":"Reliable Data Distillation on Graph Convolutional Network","venue":"SIGMOD 2020, CCF-A, Top #1 conference in Data Bases","text":"Reliable Data Distillation on Graph Convolutional Network [Paper][Code] Wentao Zhang \\ , Xupeng Miao \\ , Yingxia Shao, Jiawei Jiang, Lei Chen, Olivier Ruas, Bin Cui ACM SIGMOD International Conference on Management of Data. SIGMOD 2020, CCF-A, Top #1 conference in Data Bases ."},{"year":"2021","title":"Efficient Diversity-Driven Ensemble for Deep Neural Networks","venue":"ICDE 2020, CCF-A","text":"Efficient Diversity-Driven Ensemble for Deep Neural Networks [Paper][Code] Wentao Zhang, Jiawei Jiang, Yingxia Shao, Bin Cui. IEEE International Conference on Data Engineering. ICDE 2020, CCF-A."},{"year":"2021","title":"Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks","venue":"SCIS 2020, CCF-A","text":"Snapshot Boosting: A Fast Ensemble Framework for Deep Neural Networks [Paper][Code] Wentao Zhang, Jiawei Jiang, Yingxia Shao, Bin Cui. Sci China Inf Sci. SCIS 2020, CCF-A."}];
+    var pubCategories = [{"id":"all","label":"All","zh":"全部","count":171,"color":"#e9ddca","keywords":[]},{"id":"data-centric","label":"Data-Centric AI","zh":"Data-Centric AI","count":71,"color":"#17406f","keywords":["data-centric","dataflow","data synthesis","data analytics","data analysis","dataset","datasets","benchmark","benchmarking","evaluating","evaluation","assessing","quality","quality evaluation","verifier","verifybench","verify","verification","judge","data augmentation","data distillation","data composition","data selection","data preparation","data management","data distribution","training data","pre-training data","pretraining data","data synthesizing","synthetic data","data generator","data expansion","data fusion","data processing","data extraction","data profiling","tabular data","sample reweighting","sample selection","curriculum learning","datasculpt","data sculpt","data management framework","data efficiency","data-efficient","mineru","document","document parsing","pdf","parsing","ocr","html","html extraction","main html","extraction","profiling","tabular","table extraction","chart","diagram","scientific diagram","math expression","paper2","rag","retrieval-augmented","retrieval augmented","text-to-sql","text2sql","sql","database exploration","structured data","unstructured data","active learning","condensation","distillation","decomposition","datamind","dataflex","one-eval","agentflow"]},{"id":"llm-agent","label":"LLM & Agents","zh":"LLM & Agents","count":49,"color":"#8d1f1f","keywords":["llm","large language","language model","agent","agentic","rag","retrieval-augmented","tool-use","webagent","webshaper","reasoning","code generation","information seeking"]},{"id":"multimodal","label":"Multimodal & Vision","zh":"Multimodal & Vision","count":39,"color":"#2b6cb0","keywords":["multimodal","multi-modal","vision","visual","video","image","audio-video","vlm","mllm","vision-language","text-to-image","diffusion","caption","perception"]},{"id":"document-ai","label":"Document AI","zh":"Document AI","count":4,"color":"#6c4a00","keywords":["mineru","document","parsing","pdf","html","chart","diagram","math expression","scientific diagram","table extraction"]},{"id":"db-graph","label":"DB & Graph","zh":"DB & Graph","count":86,"color":"#4a3376","keywords":["graph","gnn","database","sql","query","knowledge graph","recommendation","retrieval","vldb","sigmod","icde","kdd","cikm"]},{"id":"ai4science","label":"AI4Science","zh":"AI4Science","count":13,"color":"#225a51","keywords":["science","scientific","glycan","medical","medicine","bioinformatics","math","mathematical","causal","physics","chemistry","health"]},{"id":"systems","label":"Systems & AutoML","zh":"Systems & AutoML","count":54,"color":"#2e4669","keywords":["system","framework","distributed","optimization","automl","efficient","efficiency","scalable","scaling","training","pipeline"]}];
+    var pubCloudTerms = [{"label":"Data-Centric AI","topic":"data-centric","x":50,"y":50,"size":3,"color":"#0f4c81"},{"label":"LLM","topic":"llm-agent","x":54,"y":67,"size":2,"color":"#1e6091"},{"label":"Multimodal","topic":"multimodal","x":78,"y":39,"size":1.8,"color":"#2b6cb0"},{"label":"Graph Learning","topic":"db-graph","x":27,"y":42,"size":1.8,"color":"#174c75"},{"label":"Document Parsing","topic":"document-ai","x":27,"y":63,"size":1.45,"color":"#256f9f"},{"label":"Text-to-SQL","topic":"db-graph","x":63,"y":24,"size":1.35,"color":"#0f6b9c"},{"label":"RAG","topic":"llm-agent","x":16,"y":55,"size":1.35,"color":"#176aa6"},{"label":"Agents","topic":"llm-agent","x":80,"y":61,"size":1.35,"color":"#174c75"},{"label":"Benchmark","topic":"data-centric","x":22,"y":25,"size":1.28,"color":"#2b6cb0"},{"label":"Vision-Language","topic":"multimodal","x":47,"y":33,"size":1.22,"color":"#3978a8"},{"label":"AI4Science","topic":"ai4science","x":36,"y":79,"size":1.22,"color":"#0f4c81"},{"label":"Data Analytics","topic":"data-centric","x":70,"y":76,"size":1.15,"color":"#2b6cb0"},{"label":"World Models","topic":"multimodal","x":84,"y":25,"size":1,"color":"#487ea8"},{"label":"Reasoning","topic":"llm-agent","x":43,"y":16,"size":1.08,"color":"#0b4f8a"},{"label":"Retrieval","topic":"db-graph","x":15,"y":76,"size":1,"color":"#3978a8"},{"label":"Video","topic":"multimodal","x":88,"y":50,"size":1,"color":"#176aa6"},{"label":"AutoML","topic":"systems","x":33,"y":90,"size":0.92,"color":"#5b7fa6"},{"label":"Distributed Systems","topic":"systems","x":61,"y":90,"size":0.92,"color":"#2f6f9f"},{"label":"Recommendation","topic":"db-graph","x":17,"y":36,"size":0.88,"color":"#5b7fa6"},{"label":"Medical AI","topic":"ai4science","x":73,"y":15,"size":0.88,"color":"#3978a8"}];
+
+    var papers = [
+      {
+        title: "DataFlow: Unified LLM Data Preparation and Workflow Automation",
+        venue: "Technical Report",
+        authors: "OpenDCAI DataFlow Team, Wentao Zhang",
+        correspondingZh: "Wentao Zhang",
+        correspondingEn: "Wentao Zhang",
+        tags: ["featured", "data", "agents"],
+        topic: "DataFlow · LLM data infrastructure",
+        url: "https://huggingface.co/papers/2512.16676",
+        projectUrl: "https://github.com/OpenDCAI/DataFlow",
+        zh: "DataFlow 是课题组 Data-Centric AI 生态的主干系统，覆盖数据获取、解析、合成、处理、评估与工作流编排。",
+        en: "DataFlow is the backbone system of the group's Data-Centric AI ecosystem, covering data acquisition, parsing, synthesis, processing, evaluation, and workflow orchestration."
+      },
+      {
+        title: "MinerU2.5: A Decoupled Vision-Language Model for Efficient High-Resolution Document Parsing",
+        venue: "ACL 2026 Industry Track",
+        authors: "Junbo Niu, Zheng Liu, Zhuangcheng Gu, Dahua Lin, Wentao Zhang, Conghui He",
+        correspondingZh: "Wentao Zhang, Conghui He",
+        correspondingEn: "Wentao Zhang, Conghui He",
+        tags: ["featured", "data"],
+        topic: "MinerU · Document parsing",
+        url: "https://arxiv.org/abs/2509.22186",
+        projectUrl: "https://github.com/opendatalab/MinerU",
+        zh: "MinerU2.5 是高分辨率文档解析模型，也是把 PDF 文档转成 AI-ready 训练与检索数据的重要基础组件。",
+        en: "MinerU2.5 is a high-resolution document parsing model and a core component for turning PDFs into AI-ready training and retrieval data."
+      },
+      {
+        title: "MinerU-Diffusion: Rethinking Document OCR as Inverse Rendering via Diffusion Decoding",
+        venue: "Technical Report",
+        authors: "Hejun Dong, Junbo Niu, Bin Wang, Weijun Zeng, Wentao Zhang, Conghui He",
+        correspondingZh: "Bin Wang, Wentao Zhang, Conghui He",
+        correspondingEn: "Bin Wang, Wentao Zhang, Conghui He",
+        tags: ["featured", "data"],
+        topic: "MinerU · Document OCR",
+        url: "https://arxiv.org/abs/2603.22458",
+        projectUrl: "https://github.com/opendatalab/MinerU",
+        zh: "MinerU-Diffusion 将文档 OCR 重新表述为逆向渲染任务，用扩散解码提升复杂文档解析的鲁棒性。",
+        en: "MinerU-Diffusion reframes document OCR as inverse rendering and uses diffusion decoding for robust complex-document parsing."
+      },
+      {
+        title: "Dripper: Token-Efficient Main HTML Extraction with a Lightweight LM",
+        venue: "SIGKDD 2026",
+        authors: "Mengjie Liu, Jiahui Peng, Wenchang Ning, Pei Chu, Qiu Jiantao, Ren Ma, He Zhu, Rui Min, Lindong Lu, Linfeng Hou, Kaiwen Liu, Yuan Qu, Zhenxiang Li, Chao Xu, Zhongying Tu, Wentao Zhang, Conghui He",
+        correspondingZh: "Wentao Zhang, Conghui He",
+        correspondingEn: "Wentao Zhang, Conghui He",
+        tags: ["featured", "data"],
+        topic: "MinerU-HTML · Web data preparation",
+        url: "https://arxiv.org/abs/2511.23119",
+        projectUrl: "https://github.com/opendatalab/MinerU-HTML",
+        zh: "Dripper / MinerU-HTML 面向网页主内容抽取，是 Data-Centric AI 中网页解析、噪声过滤和 AI-ready 数据准备的代表工作。",
+        en: "Dripper / MinerU-HTML focuses on main HTML extraction, representing web parsing, noise filtering, and AI-ready data preparation in Data-Centric AI."
+      },
+      {
+        title: "DataFlex: Data-Centric LLM Training with Dynamic Data Selection and Mixture",
+        venue: "Technical Report",
+        authors: "OpenDCAI DataFlex Team, Wentao Zhang",
+        correspondingZh: "Wentao Zhang",
+        correspondingEn: "Wentao Zhang",
+        tags: ["featured", "training", "data"],
+        topic: "DataFlex · Data-aware training",
+        url: "https://huggingface.co/papers/2603.26164",
+        projectUrl: "https://github.com/OpenDCAI/DataFlex",
+        zh: "DataFlex 将数据选择、数据配比、重加权与训练过程耦合，是训练阶段 Data-Centric AI 的核心系统。",
+        en: "DataFlex couples data selection, mixture, reweighting, and training, serving as a core system for Data-Centric AI at the training stage."
+      },
+      {
+        title: "OpenWorldLib: A Unified Framework for Advanced World Models",
+        venue: "Technical Report",
+        authors: "OpenDCAI OpenWorldLib Team, Wentao Zhang",
+        correspondingZh: "Wentao Zhang",
+        correspondingEn: "Wentao Zhang",
+        tags: ["featured", "data"],
+        topic: "OpenWorldLib · World model data",
+        url: "https://huggingface.co/papers/2604.04707",
+        projectUrl: "https://github.com/OpenDCAI/OpenWorldLib",
+        zh: "OpenWorldLib / DataFlow-WorldModel 将 DataFlow 扩展到 World Model 场景，面向世界模型的数据准备、评估与环境构建。",
+        en: "OpenWorldLib / DataFlow-WorldModel extends DataFlow to world-model scenarios, focusing on data preparation, evaluation, and environment construction for world models."
+      },
+      {
+        title: "One-Eval: NL2Eval for Automated LLM Evaluation",
+        venue: "Technical Report",
+        authors: "OpenDCAI One-Eval Team, Wentao Zhang",
+        correspondingZh: "Wentao Zhang",
+        correspondingEn: "Wentao Zhang",
+        tags: ["featured", "data", "agents"],
+        topic: "One-Eval · Evaluation data",
+        url: "https://arxiv.org/abs/2603.09821",
+        projectUrl: "https://github.com/OpenDCAI/One-Eval",
+        zh: "One-Eval 面向一句话生成模型评测报告，服务于模型效果反馈、数据质量诊断和评测自动化。",
+        en: "One-Eval turns natural-language evaluation needs into model evaluation reports, supporting feedback, data-quality diagnosis, and automated evaluation."
+      },
+      {
+        title: "MemOS: A Memory OS for AI System",
+        venue: "Technical Report",
+        authors: "Zhiyu Li, Chenyang Xi, Chunyu Li, Ding Chen, Boyu Chen, ..., Wentao Zhang, Zhi-Qin John Xu, Siheng Chen, Feiyu Xiong",
+        correspondingZh: "Wentao Zhang, Zhi-Qin John Xu, Siheng Chen, Feiyu Xiong",
+        correspondingEn: "Wentao Zhang, Zhi-Qin John Xu, Siheng Chen, Feiyu Xiong",
+        tags: ["featured", "agents", "data"],
+        topic: "MemOS · Agent memory",
+        url: "https://arxiv.org/abs/2507.03724",
+        projectUrl: "https://github.com/MemTensor/MemOS",
+        zh: "MemOS 面向大模型与 AI 智能体构建统一记忆操作系统，支持长期记忆的存储、检索、管理与个性化调用。",
+        en: "MemOS builds a unified memory operating system for LLMs and AI agents, supporting long-term memory storage, retrieval, management, and personalization."
+      }
+    ];
+
+    var state = {
+      selected: null
+    };
+
+    var body = document.body;
+    var langButtons = document.querySelectorAll("[data-lang]");
+    var paperGrid = document.querySelector("[data-paper-grid]");
+    var paperDetail = document.querySelector("[data-paper-detail]");
+    var paperSection = document.querySelector("#papers");
+    var newsTrack = document.querySelector("[data-news-track]");
+    var awardsCard = document.querySelector(".awards-card");
+    var serviceCard = document.querySelector(".service-card");
+
+    function syncAwardsHeights() {
+      if (!awardsCard || !serviceCard) return;
+      serviceCard.style.minHeight = "";
+      var awardsRect = awardsCard.getBoundingClientRect();
+      var serviceRect = serviceCard.getBoundingClientRect();
+      var isSideBySide = Math.abs(awardsRect.top - serviceRect.top) < 4;
+      if (isSideBySide) {
+        serviceCard.style.minHeight = Math.ceil(awardsRect.height) + "px";
+      }
+    }
+
+    function setLanguage(lang) {
+      body.classList.toggle("lang-zh", lang === "zh");
+      body.classList.toggle("lang-en", lang === "en");
+      document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+      langButtons.forEach(function (button) {
+        button.classList.toggle("active", button.dataset.lang === lang);
+      });
+      localStorage.setItem("homepage-preview-lang", lang);
+      renderPapers();
+      renderDetail();
+      if (typeof renderPublicationExplorer === "function") {
+        renderPublicationExplorer();
+      }
+      window.requestAnimationFrame(syncAwardsHeights);
+    }
+
+    function showFeaturedPapers(shouldScroll) {
+      state.selected = null;
+      renderPapers();
+      renderDetail();
+      if (shouldScroll) {
+        paperSection.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+
+    function currentLang() {
+      return body.classList.contains("lang-en") ? "en" : "zh";
+    }
+
+    function authorKey(name) {
+      return (name || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().toLowerCase();
+    }
+
+    function correspondingNames(value) {
+      if (Array.isArray(value)) {
+        return value;
+      }
+      return (value || '')
+        .split(',')
+        .map(function (name) { return name.trim(); })
+        .filter(Boolean)
+        .filter(function (name) { return !/^(未标注|not specified|论文页未标注)$/i.test(name); });
+    }
+
+    function markCorrespondingAuthors(authors, corresponding) {
+      var corr = correspondingNames(corresponding).map(authorKey);
+      return (authors || '')
+        .split(',')
+        .map(function (name) {
+          var cleaned = name.trim();
+          return corr.indexOf(authorKey(cleaned)) !== -1 ? cleaned + '<sup>#</sup>' : cleaned;
+        })
+        .join(', ');
+    }
+
+    function paperAuthorsWithMarks(paper) {
+      return markCorrespondingAuthors(paper.authors, paper.correspondingZh || paper.correspondingEn || paper.corresponding);
+    }
+
+    function paperRepoLine(paper, lang) {
+      if (!paper.projectUrl) {
+        return '';
+      }
+      var label = lang === "zh" ? "开源仓库：" : "Open-source repo: ";
+      return '<p class="paper-repo"><strong>' + label + '</strong><a href="' + paper.projectUrl + '" target="_blank" rel="noopener">' + paper.projectUrl + '</a></p>';
+    }
+
+    function renderPapers() {
+      var lang = currentLang();
+      var shown = papers;
+      paperGrid.innerHTML = "";
+      if (!shown.some(function (paper) { return paper.title === state.selected; })) {
+        state.selected = shown[0] ? shown[0].title : null;
+      }
+
+      shown.forEach(function (paper, index) {
+        var card = document.createElement("article");
+        card.tabIndex = 0;
+        card.className = "paper-card";
+        card.classList.toggle("selected", state.selected === paper.title);
+        card.innerHTML =
+          '<div class="meta"><span class="venue">' + paper.venue + '</span><span class="topic">' + paper.topic + '</span></div>' +
+          '<h3><a href="' + paper.url + '" target="_blank" rel="noopener">' + paper.title + '</a></h3>' +
+          '<p class="paper-authors"><strong>' + (lang === "zh" ? "作者：" : "Authors: ") + '</strong>' + paperAuthorsWithMarks(paper) + '</p>' +
+          '<p class="paper-summary">' + (lang === "zh" ? paper.zh : paper.en) + '</p>' +
+          paperRepoLine(paper, lang);
+        card.addEventListener("click", function (event) {
+          if (event.target.closest("a")) {
+            return;
+          }
+          state.selected = state.selected === paper.title ? null : paper.title;
+          renderPapers();
+          renderDetail();
+        });
+        card.addEventListener("keydown", function (event) {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            state.selected = state.selected === paper.title ? null : paper.title;
+            renderPapers();
+            renderDetail();
+          }
+        });
+        paperGrid.appendChild(card);
+      });
+    }
+
+    function renderDetail() {
+      paperDetail.hidden = true;
+      paperDetail.innerHTML = "";
+    }
+
+    langButtons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        setLanguage(button.dataset.lang);
+      });
+    });
+
+    document.querySelectorAll("[data-show-papers]").forEach(function (button) {
+      button.addEventListener("click", function () {
+        showFeaturedPapers(true);
+      });
+    });
+
+    document.querySelectorAll("[data-news-scroll]").forEach(function (button) {
+      button.addEventListener("click", function () {
+        if (!newsTrack) {
+          return;
+        }
+        var direction = Number(button.dataset.newsScroll || 1);
+        newsTrack.scrollBy({ left: direction * 340, behavior: "smooth" });
+      });
+    });
+
+
+    var publicationState = { filter: 'all', query: '' };
+    var pubSummary = document.querySelector('[data-full-publication-summary]');
+    var pubCloud = document.querySelector('[data-full-publication-cloud]');
+    var pubFilters = document.querySelector('[data-full-publication-filters]');
+    var pubSearch = document.querySelector('[data-full-publication-search]');
+    var pubClear = document.querySelector('[data-full-publication-clear]');
+    var pubList = document.querySelector('[data-full-publication-list]');
+
+    function normalizePublicationText(text) {
+      return (text || '').toLowerCase().replace(/[^a-z0-9#+]+/g, ' ').replace(/\s+/g, ' ').trim();
+    }
+
+    function publicationMatchesCategory(pub, category) {
+      if (category.id === 'all') {
+        return true;
+      }
+      var text = normalizePublicationText([pub.title, pub.venue, pub.text].join(' '));
+      return category.keywords.some(function (keyword) {
+        return text.indexOf(normalizePublicationText(keyword)) !== -1;
+      });
+    }
+
+    function publicationMatches(pub) {
+      var category = pubCategories.find(function (item) { return item.id === publicationState.filter; }) || pubCategories[0];
+      var categoryOk = publicationMatchesCategory(pub, category);
+      var q = normalizePublicationText(publicationState.query);
+      if (!q) {
+        return categoryOk;
+      }
+      return categoryOk && normalizePublicationText([pub.title, pub.venue, pub.text, pub.year].join(' ')).indexOf(q) !== -1;
+    }
+
+    function renderPublicationFilters() {
+      if (!pubFilters) return;
+      pubFilters.innerHTML = '';
+      pubCategories.forEach(function (category) {
+        var count = category.count || allPublications.filter(function (pub) { return publicationMatchesCategory(pub, category); }).length;
+        var button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'publication-filter';
+        button.dataset.pubFilter = category.id;
+        button.classList.toggle('active', publicationState.filter === category.id);
+        button.textContent = (currentLang() === 'zh' ? category.zh : category.label) + ' ' + count;
+        button.addEventListener('click', function () {
+          publicationState.filter = category.id;
+          renderPublicationExplorer();
+        });
+        pubFilters.appendChild(button);
+      });
+    }
+
+    function renderPublicationCloud() {
+      if (!pubCloud) return;
+      pubCloud.innerHTML = '';
+      pubCloudTerms.forEach(function (term) {
+        var category = pubCategories.find(function (item) { return item.id === term.topic; }) || pubCategories[0];
+        var count = category.count || allPublications.filter(function (pub) {
+          return publicationMatchesCategory(pub, category) || normalizePublicationText(pub.text).indexOf(normalizePublicationText(term.label)) !== -1;
+        }).length;
+        var word = document.createElement('button');
+        word.type = 'button';
+        word.className = publicationState.filter === term.topic ? 'active' : '';
+        word.textContent = term.label;
+        word.style.setProperty('--cloud-left', term.x + '%');
+        word.style.setProperty('--cloud-top', term.y + '%');
+        word.style.setProperty('--cloud-color', term.color);
+        word.style.setProperty('--cloud-weight', term.size > 2 ? '900' : '800');
+        word.style.setProperty('--cloud-size', (0.82 + term.size * 0.34 + Math.min(count, 40) * 0.006) + 'rem');
+        word.addEventListener('click', function () {
+          publicationState.filter = term.topic;
+          renderPublicationExplorer();
+        });
+        pubCloud.appendChild(word);
+      });
+    }
+
+    function cleanPublicationName(name) {
+      return (name || '')
+        .replace(/\\/g, '')
+        .replace(/\s+/g, ' ')
+        .replace(/^[\s,.;]+|[\s,.;]+$/g, '')
+        .trim();
+    }
+
+    function publicationMeta(pub) {
+      var body = pub.text || '';
+      if (pub.title && body.indexOf(pub.title) === 0) {
+        body = body.slice(pub.title.length);
+      }
+      body = body.replace(/^\s*[\.\-:]\s*/, '');
+      var cut = pub.venue ? body.indexOf(pub.venue) : -1;
+      if (cut < 0) {
+        var match = body.match(/\b(ICML|ACL|Findings|ICDE|VLDB|SIGKDD|CVPR|NeurIPS|EMNLP|WWW|CIKM|AAAI|SIGMOD|KDD|IJCAI|ICLR|TKDE|JMLR|TOIS|TNNLS)\b\s*\d{4}/);
+        cut = match ? match.index : -1;
+      }
+      if (cut > 0) {
+        body = body.slice(0, cut);
+      }
+      body = body.replace(/\[[^\]]+\]/g, '').replace(/\s+/g, ' ').trim();
+      var corresponding = [];
+      body.replace(/([^,]+?)\s*#/g, function (_, name) {
+        var cleaned = cleanPublicationName(name);
+        if (cleaned && corresponding.indexOf(cleaned) === -1) {
+          corresponding.push(cleaned);
+        }
+        return _;
+      });
+      var authors = body
+        .replace(/\s*#\s*/g, '')
+        .replace(/\s+,/g, ',')
+        .replace(/\s*\.$/, '')
+        .trim();
+      return {
+        authors: cleanPublicationName(authors),
+        corresponding: corresponding
+      };
+    }
+
+    function renderPublicationList() {
+      if (!pubList || !pubSummary) return;
+      var lang = currentLang();
+      var shown = allPublications.filter(publicationMatches);
+      var activeCategory = pubCategories.find(function (item) { return item.id === publicationState.filter; }) || pubCategories[0];
+      var displayCount = publicationState.query ? shown.length : (activeCategory.count || shown.length);
+      pubSummary.textContent = lang === 'zh'
+        ? '显示 ' + displayCount + ' / ' + allPublications.length + ' 篇论文 · ' + activeCategory.label
+        : 'Showing ' + displayCount + ' of ' + allPublications.length + ' publications · ' + activeCategory.label;
+      pubList.innerHTML = '';
+      shown.forEach(function (pub) {
+        var meta = publicationMeta(pub);
+        var authorLabel = lang === 'zh' ? '作者：' : 'Authors: ';
+        var item = document.createElement('article');
+        item.className = 'publication-item';
+        item.innerHTML = '<time>' + pub.year + '</time><div><h3>' + pub.title + '</h3><p>' + (pub.venue || pub.text.slice(0, 180)) + '</p><div class="publication-authors"><strong>' + authorLabel + '</strong>' + (meta.authors ? markCorrespondingAuthors(meta.authors, meta.corresponding) : '-') + '</div></div>';
+        pubList.appendChild(item);
+      });
+    }
+
+    function renderPublicationExplorer() {
+      renderPublicationFilters();
+      renderPublicationCloud();
+      renderPublicationList();
+    }
+
+    if (pubSearch) {
+      pubSearch.addEventListener('input', function () {
+        publicationState.query = pubSearch.value;
+        renderPublicationList();
+      });
+    }
+
+    if (pubClear) {
+      pubClear.addEventListener('click', function () {
+        publicationState.query = '';
+        publicationState.filter = 'all';
+        if (pubSearch) pubSearch.value = '';
+        renderPublicationExplorer();
+      });
+    }
+
+    var initialLang = new URLSearchParams(window.location.search).get("lang") || localStorage.getItem("homepage-preview-lang") || "zh";
+    setLanguage(initialLang === "en" ? "en" : "zh");
+    renderPublicationExplorer();
+    window.addEventListener("resize", syncAwardsHeights);
+    window.addEventListener("load", syncAwardsHeights);
+  </script>
+</body>
+</html>

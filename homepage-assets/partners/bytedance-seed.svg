@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 260" role="img" aria-label="ByteDance Seed">
+  <rect width="512" height="260" fill="#fff"/>
+  <g transform="translate(50 58)">
+    <path d="M0 35 18 25v68L0 82z" fill="#2b5bd7"/>
+    <path d="M30 45 52 34v69L30 92z" fill="#45a8ff"/>
+    <path d="M65 26 90 14v111L65 112z" fill="#5fd4c8"/>
+    <text x="120" y="54" fill="#2b5bd7" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">ByteDance</text>
+    <text x="120" y="142" fill="#2b5bd7" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="800">Seed</text>
+  </g>
+</svg>
