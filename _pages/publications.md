@@ -129,6 +129,10 @@ Zhengren Wang, Dongwen Yao, Bozhou Li, Dongsheng Ma, Bo Li, Zhiyu Li, Feiyu Xion
 Qifeng Cai, Hao Liang, Chang Xu, Tao Xie, **Wentao Zhang<sup>#</sup>**, Bin Cui<br>
 ***ICDE 2026, CCF-A***.
 
+1.  *QA-GraphRAG: Query-Adaptive Plug-and-Play Retrieval Integration for Graph-based Retrieval-Augmented Generation.*  <br>
+Zeang Sheng, Ruihong Sun, Jiahao Xu, Hanmei Luo, Peng Chen, **Wentao Zhang<sup>#</sup>**, Bin CUI<sup>#</sup><br>
+***VLDB 2026, CCF-A***.
+
 1.  *VABench: A Comprehensive Benchmark for Audio-Video Generation.*  <br>
 Daili Hua, Xizhi Wang, Bohan Zeng, Xinyi Huang, Hao Liang, Junbo Niu, Xinlong Chen, Quanqing Xu, **Wentao Zhang<sup>#</sup>**<br>
 ***CVPR 2026, CCF-A***.
