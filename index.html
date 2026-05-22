@@ -226,6 +226,493 @@
       width: 100%;
     }
 
+    .ecosystem-map--interactive {
+      overflow: visible;
+    }
+
+    .ecosystem-interactive {
+      --eco-blue: #075dcc;
+      --eco-blue-2: #0b63ce;
+      --eco-teal: #0c989b;
+      --eco-orange: #ff7908;
+      --eco-line: #b9d5fb;
+      --eco-line-strong: #2c86ff;
+      --eco-panel: rgba(255, 255, 255, 0.9);
+      background: rgba(247, 251, 255, 0.86);
+      border: 1px solid var(--line);
+      padding: 18px;
+    }
+
+    .ecosystem-title {
+      align-items: center;
+      display: flex;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .ecosystem-title::before {
+      background: var(--eco-line-strong);
+      content: "";
+      flex: 0 0 6px;
+      height: 48px;
+    }
+
+    .ecosystem-title h2 {
+      font-size: clamp(1.35rem, 2.4vw, 2rem);
+      letter-spacing: 0;
+      line-height: 1.14;
+      margin: 0;
+    }
+
+    .ecosystem-layout {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: minmax(0, 1fr) 230px;
+    }
+
+    .ecosystem-stack {
+      display: grid;
+      gap: 9px;
+      min-width: 0;
+    }
+
+    .ecosystem-layer {
+      background: var(--eco-panel);
+      border: 2px solid var(--eco-line);
+      display: grid;
+      grid-template-columns: 78px 178px minmax(0, 1fr);
+      min-height: 84px;
+    }
+
+    .ecosystem-layer.l5 {
+      border-color: #f6c58b;
+    }
+
+    .ecosystem-layer.l3,
+    .ecosystem-layer.l1 {
+      border-color: #a7dddd;
+    }
+
+    .ecosystem-level {
+      align-items: center;
+      color: #fff;
+      display: flex;
+      font-size: 2.45rem;
+      font-weight: 850;
+      justify-content: center;
+      letter-spacing: 0;
+    }
+
+    .l5 .ecosystem-level {
+      background: var(--eco-orange);
+    }
+
+    .l4 .ecosystem-level,
+    .l2 .ecosystem-level,
+    .l0 .ecosystem-level {
+      background: var(--eco-blue);
+    }
+
+    .l3 .ecosystem-level,
+    .l1 .ecosystem-level {
+      background: var(--eco-teal);
+    }
+
+    .ecosystem-layer-copy {
+      align-content: center;
+      border-right: 1px solid #d7e6fa;
+      display: grid;
+      gap: 4px;
+      padding: 12px 14px;
+    }
+
+    .ecosystem-layer-copy b {
+      color: var(--eco-blue);
+      font-size: 0.94rem;
+      line-height: 1.18;
+    }
+
+    .l5 .ecosystem-layer-copy b {
+      color: #f26d00;
+    }
+
+    .l3 .ecosystem-layer-copy b,
+    .l1 .ecosystem-layer-copy b {
+      color: var(--eco-teal);
+    }
+
+    .ecosystem-layer-copy span {
+      color: var(--muted);
+      font-size: 0.78rem;
+      line-height: 1.24;
+    }
+
+    .ecosystem-node-row {
+      align-items: center;
+      display: grid;
+      gap: 9px;
+      min-width: 0;
+      padding: 10px 12px;
+    }
+
+    .ecosystem-node-row.cols-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .ecosystem-node-row.cols-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .ecosystem-node-row.cols-4 {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .ecosystem-node {
+      align-items: center;
+      background: #fff;
+      border: 2px solid var(--eco-line);
+      color: inherit;
+      display: grid;
+      gap: 8px;
+      grid-template-columns: 46px minmax(0, 1fr);
+      min-height: 60px;
+      min-width: 0;
+      padding: 8px 10px;
+      position: relative;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+    }
+
+    .ecosystem-node:hover,
+    .ecosystem-node:focus-visible,
+    .ecosystem-node.active {
+      border-color: var(--eco-blue-2);
+      box-shadow: 0 12px 24px rgba(7, 93, 204, 0.14);
+      outline: none;
+      transform: translateY(-2px);
+      z-index: 4;
+    }
+
+    .ecosystem-node::after {
+      background: #0f2b49;
+      color: #fff;
+      content: attr(data-eco-tip-zh);
+      font-size: 0.75rem;
+      font-weight: 750;
+      left: 8px;
+      line-height: 1.35;
+      opacity: 0;
+      padding: 8px 9px;
+      pointer-events: none;
+      position: absolute;
+      right: 8px;
+      top: calc(100% + 7px);
+      transform: translateY(-3px);
+      transition: opacity 0.12s ease, transform 0.12s ease;
+      z-index: 10;
+    }
+
+    body.lang-en .ecosystem-node::after {
+      content: attr(data-eco-tip-en);
+    }
+
+    .ecosystem-node:hover::after,
+    .ecosystem-node:focus-visible::after {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .ecosystem-node-logo {
+      align-items: center;
+      color: var(--eco-blue);
+      display: flex;
+      font-size: 1.35rem;
+      font-weight: 900;
+      height: 40px;
+      justify-content: center;
+      line-height: 1;
+      overflow: hidden;
+      width: 44px;
+    }
+
+    .ecosystem-node-logo img {
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: contain;
+    }
+
+    .ecosystem-node-logo.is-wide img {
+      max-width: 118%;
+    }
+
+    .ecosystem-node-logo.symbol {
+      border: 1px solid #cfe2ff;
+      color: #123fc1;
+      font-size: 1.22rem;
+    }
+
+    .ecosystem-node-text strong {
+      color: #063f9e;
+      display: block;
+      font-size: 0.86rem;
+      line-height: 1.12;
+      margin-bottom: 3px;
+      overflow-wrap: anywhere;
+    }
+
+    .ecosystem-node-text span {
+      color: var(--muted);
+      display: block;
+      font-size: 0.72rem;
+      line-height: 1.24;
+    }
+
+    .ecosystem-source-row {
+      display: grid;
+      gap: 8px;
+      grid-template-columns: repeat(7, minmax(0, 1fr));
+      padding: 10px 12px;
+    }
+
+    .ecosystem-source {
+      align-items: center;
+      background: #fff;
+      border: 2px solid var(--eco-line);
+      color: var(--eco-blue);
+      cursor: pointer;
+      display: grid;
+      gap: 4px;
+      justify-items: center;
+      min-height: 58px;
+      padding: 7px 5px;
+      text-align: center;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+    }
+
+    .ecosystem-source:hover,
+    .ecosystem-source:focus-visible,
+    .ecosystem-source.active {
+      border-color: var(--eco-blue-2);
+      box-shadow: 0 9px 18px rgba(7, 93, 204, 0.12);
+      outline: none;
+      transform: translateY(-1px);
+    }
+
+    .ecosystem-source b {
+      font-size: 1.1rem;
+      line-height: 1;
+    }
+
+    .ecosystem-source span {
+      font-size: 0.7rem;
+      font-weight: 850;
+      line-height: 1.15;
+    }
+
+    .ecosystem-loop {
+      border: 3px solid var(--eco-blue);
+      display: grid;
+      grid-template-rows: auto 1fr;
+      min-height: 450px;
+    }
+
+    .ecosystem-loop-title {
+      align-items: center;
+      background: var(--eco-blue);
+      color: #fff;
+      display: flex;
+      gap: 10px;
+      min-height: 64px;
+      padding: 12px 14px;
+    }
+
+    .ecosystem-loop-title span {
+      align-items: center;
+      border: 2px solid rgba(255, 255, 255, 0.72);
+      display: inline-flex;
+      flex: 0 0 34px;
+      font-size: 1.3rem;
+      font-weight: 900;
+      height: 34px;
+      justify-content: center;
+    }
+
+    .ecosystem-loop-title b {
+      font-size: 0.88rem;
+      line-height: 1.18;
+    }
+
+    .ecosystem-loop-steps {
+      background: #fff;
+      display: grid;
+      gap: 11px;
+      padding: 12px 14px;
+    }
+
+    .ecosystem-loop-step {
+      align-items: center;
+      border: 2px solid var(--eco-line);
+      display: grid;
+      gap: 9px;
+      grid-template-columns: 42px minmax(0, 1fr);
+      min-height: 58px;
+      padding: 8px;
+      position: relative;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+    }
+
+    .ecosystem-loop-step:not(:last-child)::after {
+      border-left: 3px solid var(--eco-line-strong);
+      border-bottom: 3px solid var(--eco-line-strong);
+      content: "";
+      height: 10px;
+      left: 50%;
+      position: absolute;
+      top: calc(100% + 1px);
+      transform: translateX(-50%) rotate(-45deg);
+      width: 10px;
+    }
+
+    .ecosystem-loop-step:hover,
+    .ecosystem-loop-step:focus-visible,
+    .ecosystem-loop-step.active {
+      border-color: var(--eco-blue-2);
+      box-shadow: 0 9px 18px rgba(7, 93, 204, 0.12);
+      outline: none;
+      transform: translateY(-1px);
+    }
+
+    .ecosystem-loop-icon {
+      align-items: center;
+      color: #123fc1;
+      display: flex;
+      font-size: 1.38rem;
+      font-weight: 900;
+      height: 34px;
+      justify-content: center;
+    }
+
+    .ecosystem-loop-step b {
+      color: var(--eco-blue);
+      font-size: 0.9rem;
+    }
+
+    .ecosystem-datamind {
+      align-items: center;
+      border: 3px solid var(--eco-blue);
+      display: grid;
+      gap: 14px;
+      grid-template-columns: 260px minmax(0, 1fr);
+      margin-top: 16px;
+      padding: 14px;
+    }
+
+    .ecosystem-datamind-brand {
+      align-items: center;
+      display: grid;
+      gap: 12px;
+      grid-template-columns: 70px minmax(0, 1fr);
+    }
+
+    .ecosystem-brain {
+      align-items: center;
+      background: var(--eco-blue);
+      color: #fff;
+      display: flex;
+      font-size: 1.35rem;
+      font-weight: 900;
+      height: 64px;
+      justify-content: center;
+      width: 70px;
+    }
+
+    .ecosystem-datamind-brand h3 {
+      color: var(--eco-blue);
+      font-size: 1.55rem;
+      line-height: 1;
+      margin: 0 0 6px;
+    }
+
+    .ecosystem-datamind-brand p {
+      color: #2466da;
+      font-size: 0.78rem;
+      font-weight: 760;
+      line-height: 1.25;
+      margin: 0;
+    }
+
+    .ecosystem-tool-row {
+      display: grid;
+      gap: 9px;
+      grid-template-columns: repeat(7, minmax(0, 1fr));
+    }
+
+    .ecosystem-tool {
+      align-items: center;
+      background: #fff;
+      border: 2px solid var(--eco-line);
+      color: var(--eco-blue);
+      display: grid;
+      gap: 4px;
+      justify-items: center;
+      min-height: 58px;
+      padding: 7px;
+      text-align: center;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+    }
+
+    .ecosystem-tool:hover,
+    .ecosystem-tool:focus-visible,
+    .ecosystem-tool.active {
+      border-color: var(--eco-blue-2);
+      box-shadow: 0 9px 18px rgba(7, 93, 204, 0.12);
+      outline: none;
+      transform: translateY(-1px);
+    }
+
+    .ecosystem-tool b {
+      font-size: 1.05rem;
+      line-height: 1;
+    }
+
+    .ecosystem-tool span {
+      font-size: 0.66rem;
+      font-weight: 850;
+      line-height: 1.14;
+    }
+
+    .ecosystem-detail {
+      background: #fff;
+      border: 2px solid var(--eco-line);
+      margin-top: 14px;
+      min-height: 100px;
+      padding: 14px 16px;
+    }
+
+    .ecosystem-detail small {
+      color: var(--eco-orange);
+      display: block;
+      font-weight: 900;
+      margin-bottom: 5px;
+    }
+
+    .ecosystem-detail h3 {
+      color: var(--ink);
+      font-size: 1.05rem;
+      line-height: 1.25;
+      margin: 0 0 6px;
+    }
+
+    .ecosystem-detail p {
+      color: var(--muted);
+      font-size: 0.88rem;
+      line-height: 1.48;
+      margin: 0;
+    }
+
+    .ecosystem-fallback {
+      margin-top: 14px;
+    }
+
     .project-logo-large {
       align-items: center;
       background: #fff;
@@ -1019,6 +1506,7 @@
       border: 1px solid var(--line);
       margin-bottom: 22px;
       padding: 28px;
+      scroll-margin-top: 112px;
     }
 
     .section-head {
@@ -1551,6 +2039,26 @@
       .section-head p {
         text-align: left;
       }
+
+      .ecosystem-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .ecosystem-loop {
+        min-height: 0;
+      }
+
+      .ecosystem-loop-steps {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .ecosystem-loop-step:not(:last-child)::after {
+        display: none;
+      }
+
+      .ecosystem-datamind {
+        grid-template-columns: 1fr;
+      }
     }
 
     @media (max-width: 720px) {
@@ -1599,11 +2107,54 @@
 
       .section {
         padding: 18px;
+        scroll-margin-top: 220px;
       }
 
       .paper-tools {
         align-items: stretch;
         flex-direction: column;
+      }
+
+      .ecosystem-interactive {
+        padding: 12px;
+      }
+
+      .ecosystem-layer {
+        grid-template-columns: 70px 1fr;
+      }
+
+      .ecosystem-level {
+        font-size: 1.95rem;
+        grid-row: 1 / span 2;
+      }
+
+      .ecosystem-layer-copy {
+        border-right: 0;
+        border-bottom: 1px solid #d7e6fa;
+      }
+
+      .ecosystem-node-row,
+      .ecosystem-node-row.cols-2,
+      .ecosystem-node-row.cols-3,
+      .ecosystem-node-row.cols-4,
+      .ecosystem-source-row,
+      .ecosystem-loop-steps,
+      .ecosystem-tool-row {
+        grid-template-columns: 1fr;
+      }
+
+      .ecosystem-node::after {
+        left: 0;
+        right: 0;
+      }
+
+      .ecosystem-datamind-brand {
+        grid-template-columns: 58px minmax(0, 1fr);
+      }
+
+      .ecosystem-brain {
+        height: 54px;
+        width: 58px;
       }
 
     }
@@ -2222,9 +2773,200 @@
         </section>
 
         <section class="section" id="projects">
-          <div class="ecosystem-map" aria-label="Data-Centric AI ecosystem diagram">
-            <img class="ecosystem-image zh" src="homepage-ecosystem-zh.png" alt="DataFlow DCAI 中文生态图">
-            <img class="ecosystem-image en" src="homepage-ecosystem-en.png" alt="DataFlow DCAI ecosystem diagram">
+          <div class="ecosystem-map ecosystem-map--interactive" aria-label="Data-Centric AI ecosystem diagram">
+            <div class="ecosystem-interactive">
+              <div class="ecosystem-title">
+                <h2><span class="zh">DataFlow 生态：从数据入口到应用出口的可编程基础设施</span><span class="en">DataFlow Ecosystem: Programmable infrastructure from data inputs to application outputs</span></h2>
+              </div>
+
+              <div class="ecosystem-layout">
+                <div class="ecosystem-stack">
+                  <article class="ecosystem-layer l5">
+                    <div class="ecosystem-level">L5</div>
+                    <div class="ecosystem-layer-copy">
+                      <b><span class="zh">应用出口层</span><span class="en">Application layer</span></b>
+                      <span class="zh">科研生产力与世界模型赋能</span>
+                      <span class="en">Research productivity and world-model services</span>
+                    </div>
+                    <div class="ecosystem-node-row cols-2">
+                      <a class="ecosystem-node" href="https://github.com/OpenDCAI/Paper2Any" target="_blank" rel="noopener" data-eco-kind-zh="L5 · 应用出口层" data-eco-kind-en="L5 · Application layer" data-eco-title-zh="Paper2Any" data-eco-title-en="Paper2Any" data-eco-desc-zh="面向科研内容生成与转换的应用，把论文、文本、截图等材料转成可编辑的科研图、PPT、海报、视频和引用探索资产。" data-eco-desc-en="A research asset generation app that turns papers, text, and screenshots into editable figures, slides, posters, videos, and citation workflows." data-eco-tip-zh="科研内容生成与转换：点击打开 Paper2Any。" data-eco-tip-en="Research asset generation: click to open Paper2Any.">
+                        <span class="ecosystem-node-logo"><img src="images/projects/paper2any-logo.png" alt=""></span>
+                        <span class="ecosystem-node-text"><strong>Paper2Any</strong><span class="zh">科研内容生成与转换</span><span class="en">Research asset generation</span></span>
+                      </a>
+                      <a class="ecosystem-node" href="https://github.com/OpenDCAI/OpenWorldLib" target="_blank" rel="noopener" data-eco-kind-zh="L5 · 应用出口层" data-eco-kind-en="L5 · Application layer" data-eco-title-zh="OpenWorldLib" data-eco-title-en="OpenWorldLib" data-eco-desc-zh="面向世界模型的统一框架，把感知、交互、长期记忆、视觉生成与仿真任务纳入标准化研发流程。" data-eco-desc-en="A unified framework for advanced world models, covering perception, interaction, long-term memory, visual generation, and simulation workflows." data-eco-tip-zh="知识开放与应用服务：点击打开 OpenWorldLib。" data-eco-tip-en="Open knowledge and application services: click to open OpenWorldLib.">
+                        <span class="ecosystem-node-logo is-wide"><img src="images/projects/openworldlib-logo.png" alt=""></span>
+                        <span class="ecosystem-node-text"><strong>OpenWorldLib</strong><span class="zh">知识开放与应用服务</span><span class="en">Open knowledge services</span></span>
+                      </a>
+                    </div>
+                  </article>
+
+                  <article class="ecosystem-layer l4">
+                    <div class="ecosystem-level">L4</div>
+                    <div class="ecosystem-layer-copy">
+                      <b><span class="zh">训练调度与<br>评估反馈层</span><span class="en">Training and<br>evaluation layer</span></b>
+                      <span class="zh">数据驱动闭环优化</span>
+                      <span class="en">Data-driven closed-loop optimization</span>
+                    </div>
+                    <div class="ecosystem-node-row cols-3">
+                      <a class="ecosystem-node" href="https://github.com/OpenDCAI/DataFlex" target="_blank" rel="noopener" data-eco-kind-zh="L4 · 训练调度与评估反馈层" data-eco-kind-en="L4 · Training and evaluation layer" data-eco-title-zh="DataFlex" data-eco-title-en="DataFlex" data-eco-desc-zh="基于 LLaMA-Factory 扩展的数据感知训练框架，支持训练中的样本选择、领域配比调整与样本重加权。" data-eco-desc-en="A data-centric training framework built on LLaMA-Factory, supporting sample selection, domain mixture adjustment, and sample reweighting during training." data-eco-tip-zh="数据选择 / 混合 / 加权：点击打开 DataFlex。" data-eco-tip-en="Data selection, mixture, and reweighting: click to open DataFlex.">
+                        <span class="ecosystem-node-logo is-wide"><img src="images/projects/dataflex-logo.png" alt=""></span>
+                        <span class="ecosystem-node-text"><strong>DataFlex</strong><span class="zh">数据选择 / 混合 / 加权</span><span class="en">Selection / mixture / weighting</span></span>
+                      </a>
+                      <a class="ecosystem-node" href="https://github.com/OpenDCAI/One-Eval" target="_blank" rel="noopener" data-eco-kind-zh="L4 · 训练调度与评估反馈层" data-eco-kind-en="L4 · Training and evaluation layer" data-eco-title-zh="One-Eval" data-eco-title-en="One-Eval" data-eco-desc-zh="面向大模型的自动化评测系统，从自然语言需求出发规划评测、准备数据、选择指标并生成可追溯报告。" data-eco-desc-en="An automated evaluation system for LLMs that plans evaluations, prepares data, selects metrics, and generates traceable reports from natural-language requirements." data-eco-tip-zh="模型 / 任务评估：点击打开 One-Eval。" data-eco-tip-en="Model and task evaluation: click to open One-Eval.">
+                        <span class="ecosystem-node-logo"><img src="images/projects/one-eval-logo.png" alt=""></span>
+                        <span class="ecosystem-node-text"><strong>One-Eval</strong><span class="zh">模型 / 任务评估</span><span class="en">Model / task evaluation</span></span>
+                      </a>
+                      <a class="ecosystem-node" href="https://github.com/OpenDCAI/DataFlow" target="_blank" rel="noopener" data-eco-kind-zh="L4 · 训练调度与评估反馈层" data-eco-kind-en="L4 · Training and evaluation layer" data-eco-title-zh="DataFlow Eval" data-eco-title-en="DataFlow Eval" data-eco-desc-zh="把数据质量、模型效果与任务指标纳入同一套可编排流水线，形成可复盘的评估分析闭环。" data-eco-desc-en="Connects data quality, model behavior, and task metrics in programmable evaluation pipelines with reviewable analysis traces." data-eco-tip-zh="评估流水线与分析：点击打开 DataFlow。" data-eco-tip-en="Evaluation pipelines and analysis: click to open DataFlow.">
+                        <span class="ecosystem-node-logo symbol">▮▮▮</span>
+                        <span class="ecosystem-node-text"><strong>DataFlow Eval</strong><span class="zh">评估流水线与分析</span><span class="en">Evaluation pipelines</span></span>
+                      </a>
+                    </div>
+                  </article>
+
+                  <article class="ecosystem-layer l3">
+                    <div class="ecosystem-level">L3</div>
+                    <div class="ecosystem-layer-copy">
+                      <b><span class="zh">Agentic 数据与<br>交互编排层</span><span class="en">Agentic data and<br>orchestration layer</span></b>
+                      <span class="zh">智能体与工具编排</span>
+                      <span class="en">Agent and tool orchestration</span>
+                    </div>
+                    <div class="ecosystem-node-row cols-3">
+                      <a class="ecosystem-node" href="https://github.com/OpenDCAI/AgentFlow" target="_blank" rel="noopener" data-eco-kind-zh="L3 · Agentic 数据与交互编排层" data-eco-kind-en="L3 · Agentic data and orchestration layer" data-eco-title-zh="AgentFlow" data-eco-title-en="AgentFlow" data-eco-desc-zh="覆盖 RAG、MM-RAG、DeepResearch、Code、GUI 等多环境的 Agent 数据合成框架，支撑智能体训练与评测数据构建。" data-eco-desc-en="An agent-data synthesis framework across RAG, MM-RAG, DeepResearch, code, GUI, and other environments for agent training and evaluation." data-eco-tip-zh="智能体数据合成：点击打开 AgentFlow。" data-eco-tip-en="Agent data synthesis: click to open AgentFlow.">
+                        <span class="ecosystem-node-logo is-wide"><img src="homepage-agentflow.png" alt=""></span>
+                        <span class="ecosystem-node-text"><strong>AgentFlow</strong><span class="zh">智能体数据合成</span><span class="en">Agent data synthesis</span></span>
+                      </a>
+                      <a class="ecosystem-node" href="https://github.com/OpenDCAI/DataFlow-Skills" target="_blank" rel="noopener" data-eco-kind-zh="L3 · Agentic 数据与交互编排层" data-eco-kind-en="L3 · Agentic data and orchestration layer" data-eco-title-zh="DataFlow-Skills & Harness" data-eco-title-en="DataFlow-Skills & Harness" data-eco-desc-zh="将数据算子、流程生成、质量评测和复用经验沉淀为可组合技能，并通过 Harness 做任务执行与评测。" data-eco-desc-en="Packages data operators, workflow generation, quality evaluation, and reusable practice into composable skills with harness-based execution and evaluation." data-eco-tip-zh="技能库与评测框架：点击打开 DataFlow-Skills。" data-eco-tip-en="Skill library and evaluation harness: click to open DataFlow-Skills.">
+                        <span class="ecosystem-node-logo symbol">⌘</span>
+                        <span class="ecosystem-node-text"><strong>DataFlow-Skills & Harness</strong><span class="zh">技能库与评测框架</span><span class="en">Skills and harness</span></span>
+                      </a>
+                      <a class="ecosystem-node" href="https://opendcai.github.io/DataFlow-Doc/" target="_blank" rel="noopener" data-eco-kind-zh="L3 · Agentic 数据与交互编排层" data-eco-kind-en="L3 · Agentic data and orchestration layer" data-eco-title-zh="DataFlow-WebUI" data-eco-title-en="DataFlow-WebUI" data-eco-desc-zh="面向协同工作和可视化操作的 DataFlow 入口，让用户可以更低门槛地配置、观察和复盘数据治理流水线。" data-eco-desc-en="A visual and collaborative DataFlow workspace for configuring, observing, and reviewing data governance pipelines." data-eco-tip-zh="可视化与协同工作台：点击打开 DataFlow 文档。" data-eco-tip-en="Visual collaborative workspace: click to open DataFlow docs.">
+                        <span class="ecosystem-node-logo symbol">▭</span>
+                        <span class="ecosystem-node-text"><strong>DataFlow-WebUI</strong><span class="zh">可视化与协同工作台</span><span class="en">Visual workspace</span></span>
+                      </a>
+                    </div>
+                  </article>
+
+                  <article class="ecosystem-layer l2">
+                    <div class="ecosystem-level">L2</div>
+                    <div class="ecosystem-layer-copy">
+                      <b><span class="zh">数据资产工厂层</span><span class="en">Data asset factory</span></b>
+                      <span class="zh">数据资产生产与治理</span>
+                      <span class="en">Data asset production and governance</span>
+                    </div>
+                    <div class="ecosystem-node-row cols-4">
+                      <a class="ecosystem-node" href="https://github.com/OpenDCAI/DataFlow" target="_blank" rel="noopener" data-eco-kind-zh="L2 · 数据资产工厂层" data-eco-kind-en="L2 · Data asset factory" data-eco-title-zh="DataFlow Core" data-eco-title-en="DataFlow Core" data-eco-desc-zh="DataFlow 统一数据准备协议、算子、Pipeline 和存储抽象，支撑文本、多模态、表格、知识图谱等分支能力。" data-eco-desc-en="The core protocol, operator, pipeline, and storage abstraction for text, multimodal, table, and knowledge-graph data preparation." data-eco-tip-zh="Operator / Pipeline / Storage：点击打开 DataFlow。" data-eco-tip-en="Operator, pipeline, and storage: click to open DataFlow.">
+                        <span class="ecosystem-node-logo is-wide"><img src="images/DataFlow-Logo.png" alt=""></span>
+                        <span class="ecosystem-node-text"><strong>DataFlow Core</strong><span>Operator / Pipeline / Storage</span></span>
+                      </a>
+                      <a class="ecosystem-node" href="https://github.com/OpenDCAI/DataFlow-MM" target="_blank" rel="noopener" data-eco-kind-zh="L2 · 数据资产工厂层" data-eco-kind-en="L2 · Data asset factory" data-eco-title-zh="DataFlow-MM" data-eco-title-en="DataFlow-MM" data-eco-desc-zh="DataFlow 的多模态扩展，覆盖图像、视频、音频等数据的解析、清洗、生成、处理与评测。" data-eco-desc-en="The multimodal extension of DataFlow for parsing, cleaning, generating, processing, and evaluating image, video, audio, and related data." data-eco-tip-zh="多模态数据资产：点击打开 DataFlow-MM。" data-eco-tip-en="Multimodal data assets: click to open DataFlow-MM.">
+                        <span class="ecosystem-node-logo is-wide"><img src="homepage-assets/dataflow-mm-logo.jpg" alt=""></span>
+                        <span class="ecosystem-node-text"><strong>DataFlow-MM</strong><span class="zh">多模态数据资产</span><span class="en">Multimodal assets</span></span>
+                      </a>
+                      <a class="ecosystem-node" href="https://github.com/OpenDCAI/DataFlow-Table" target="_blank" rel="noopener" data-eco-kind-zh="L2 · 数据资产工厂层" data-eco-kind-en="L2 · Data asset factory" data-eco-title-zh="DataFlow-Table" data-eco-title-en="DataFlow-Table" data-eco-desc-zh="结构化表格数据处理框架，覆盖取数、清洗、加工、分析等 Agentic Workflow。" data-eco-desc-en="A structured table-data framework covering extraction, cleaning, transformation, and analysis through agentic workflows." data-eco-tip-zh="表格数据资产：点击打开 DataFlow-Table。" data-eco-tip-en="Table data assets: click to open DataFlow-Table.">
+                        <span class="ecosystem-node-logo symbol">▦</span>
+                        <span class="ecosystem-node-text"><strong>DataFlow-Table</strong><span class="zh">表格数据资产</span><span class="en">Table assets</span></span>
+                      </a>
+                      <a class="ecosystem-node" href="https://github.com/OpenDCAI/DataFlow-KG" target="_blank" rel="noopener" data-eco-kind-zh="L2 · 数据资产工厂层" data-eco-kind-en="L2 · Data asset factory" data-eco-title-zh="DataFlow-KG" data-eco-title-en="DataFlow-KG" data-eco-desc-zh="面向知识图谱的数据治理扩展，支持图谱构建、补全、推理、评测和基于 KG 的数据合成。" data-eco-desc-en="A knowledge-graph data governance extension for graph construction, enrichment, reasoning, evaluation, and KG-based data synthesis." data-eco-tip-zh="知识图谱资产：点击打开 DataFlow-KG。" data-eco-tip-en="Knowledge graph assets: click to open DataFlow-KG.">
+                        <span class="ecosystem-node-logo symbol">◇</span>
+                        <span class="ecosystem-node-text"><strong>DataFlow-KG</strong><span class="zh">知识图谱资产</span><span class="en">KG assets</span></span>
+                      </a>
+                    </div>
+                  </article>
+
+                  <article class="ecosystem-layer l1">
+                    <div class="ecosystem-level">L1</div>
+                    <div class="ecosystem-layer-copy">
+                      <b><span class="zh">数据入口与解析层</span><span class="en">Data intake and parsing</span></b>
+                      <span class="zh">解析与清洗中枢</span>
+                      <span class="en">Parsing and cleaning hub</span>
+                    </div>
+                    <div class="ecosystem-node-row cols-4">
+                      <a class="ecosystem-node" href="https://github.com/opendatalab/MinerU" target="_blank" rel="noopener" data-eco-kind-zh="L1 · 数据入口与解析层" data-eco-kind-en="L1 · Data intake and parsing" data-eco-title-zh="MinerU" data-eco-title-en="MinerU" data-eco-desc-zh="通用文档解析引擎，将 PDF、图片和复杂版面转换为 AI-ready 的 Markdown / JSON 文档数据。" data-eco-desc-en="A general document parsing engine that converts PDFs, images, and complex layouts into AI-ready Markdown and JSON data." data-eco-tip-zh="通用文档解析：点击打开 MinerU。" data-eco-tip-en="General document parsing: click to open MinerU.">
+                        <span class="ecosystem-node-logo is-wide"><img src="images/projects/mineru-logo.png" alt=""></span>
+                        <span class="ecosystem-node-text"><strong>MinerU</strong><span class="zh">通用文档解析</span><span class="en">Document parsing</span></span>
+                      </a>
+                      <a class="ecosystem-node" href="https://github.com/opendatalab/MinerU-HTML" target="_blank" rel="noopener" data-eco-kind-zh="L1 · 数据入口与解析层" data-eco-kind-en="L1 · Data intake and parsing" data-eco-title-zh="MinerU-HTML" data-eco-title-en="MinerU-HTML" data-eco-desc-zh="基于轻量语言模型的网页主内容抽取工具，清理导航、广告和样式噪声，保留正文、代码、公式与表格。" data-eco-desc-en="A lightweight-LM main-content extractor that removes boilerplate while preserving body text, code, formulas, and tables." data-eco-tip-zh="网页内容解析：点击打开 MinerU-HTML。" data-eco-tip-en="Web content parsing: click to open MinerU-HTML.">
+                        <span class="ecosystem-node-logo symbol">◎</span>
+                        <span class="ecosystem-node-text"><strong>MinerU-HTML</strong><span class="zh">网页内容解析</span><span class="en">HTML parsing</span></span>
+                      </a>
+                      <a class="ecosystem-node" href="https://github.com/OpenDCAI/Flash-MinerU" target="_blank" rel="noopener" data-eco-kind-zh="L1 · 数据入口与解析层" data-eco-kind-en="L1 · Data intake and parsing" data-eco-title-zh="Flash-MinerU" data-eco-title-en="Flash-MinerU" data-eco-desc-zh="基于 Ray 的 MinerU 加速层，把 PDF-to-Markdown 解析扩展到多 GPU、集群和高吞吐异步流水线。" data-eco-desc-en="A Ray-powered acceleration layer for MinerU, scaling PDF-to-Markdown parsing to multi-GPU, cluster, and high-throughput async pipelines." data-eco-tip-zh="高速文档解析：点击打开 Flash-MinerU。" data-eco-tip-en="High-speed document parsing: click to open Flash-MinerU.">
+                        <span class="ecosystem-node-logo"><img src="images/projects/flash-mineru-logo.png" alt=""></span>
+                        <span class="ecosystem-node-text"><strong>Flash-MinerU</strong><span class="zh">高速文档解析</span><span class="en">Fast document parsing</span></span>
+                      </a>
+                      <a class="ecosystem-node" href="https://github.com/OpenDCAI/RayOrch" target="_blank" rel="noopener" data-eco-kind-zh="L1 · 数据入口与解析层" data-eco-kind-en="L1 · Data intake and parsing" data-eco-title-zh="RayOrch" data-eco-title-en="RayOrch" data-eco-desc-zh="轻量 Ray 编排框架，支持异步 Pipeline、微批重叠执行和 DAG 调度，服务分布式采集与解析。" data-eco-desc-en="A lightweight Ray orchestration framework for async pipelines, overlapped micro-batches, and DAG-style scheduling." data-eco-tip-zh="分布式采集调度：点击打开 RayOrch。" data-eco-tip-en="Distributed acquisition scheduling: click to open RayOrch.">
+                        <span class="ecosystem-node-logo symbol">⌯</span>
+                        <span class="ecosystem-node-text"><strong>RayOrch</strong><span class="zh">分布式采集调度</span><span class="en">Distributed scheduling</span></span>
+                      </a>
+                    </div>
+                  </article>
+
+                  <article class="ecosystem-layer l0">
+                    <div class="ecosystem-level">L0</div>
+                    <div class="ecosystem-layer-copy">
+                      <b><span class="zh">多源异构数据</span><span class="en">Heterogeneous data</span></b>
+                      <span class="zh">覆盖多模态多领域数据</span>
+                      <span class="en">Multi-modal, multi-domain sources</span>
+                    </div>
+                    <div class="ecosystem-source-row" aria-label="Data source types">
+                      <button class="ecosystem-source" type="button" data-eco-kind-zh="L0 · 数据源" data-eco-kind-en="L0 · Data source" data-eco-title-zh="文档 / PDF" data-eco-title-en="Documents / PDFs" data-eco-desc-zh="论文、技术报告、合同、说明书和扫描文档，是 MinerU / Flash-MinerU 的主要入口之一。" data-eco-desc-en="Papers, reports, contracts, manuals, and scanned documents are major inputs for MinerU and Flash-MinerU."><b>□</b><span class="zh">文档 / PDF</span><span class="en">Docs / PDF</span></button>
+                      <button class="ecosystem-source" type="button" data-eco-kind-zh="L0 · 数据源" data-eco-kind-en="L0 · Data source" data-eco-title-zh="网页 / HTML" data-eco-title-en="Web pages / HTML" data-eco-desc-zh="网页正文、博客、文档站和知识库页面，经 MinerU-HTML 抽取后进入清洗与治理流程。" data-eco-desc-en="Web pages, blogs, documentation sites, and knowledge-base pages enter cleaning and governance after MinerU-HTML extraction."><b>◎</b><span class="zh">网页 / HTML</span><span class="en">Web / HTML</span></button>
+                      <button class="ecosystem-source" type="button" data-eco-kind-zh="L0 · 数据源" data-eco-kind-en="L0 · Data source" data-eco-title-zh="表格 / CSV" data-eco-title-en="Tables / CSV" data-eco-desc-zh="关系表、CSV、Excel 和数据库查询结果，可由 DataFlow-Table 统一处理与分析。" data-eco-desc-en="Relational tables, CSV, Excel, and database-query results can be processed and analyzed by DataFlow-Table."><b>▦</b><span class="zh">表格 / CSV</span><span class="en">Table / CSV</span></button>
+                      <button class="ecosystem-source" type="button" data-eco-kind-zh="L0 · 数据源" data-eco-kind-en="L0 · Data source" data-eco-title-zh="图片 / 多模态" data-eco-title-en="Images / multimodal data" data-eco-desc-zh="图片、视频、音频和视觉文档进入 DataFlow-MM，形成多模态数据资产。" data-eco-desc-en="Images, videos, audio, and visual documents enter DataFlow-MM as multimodal data assets."><b>▧</b><span class="zh">图片 / 多模态</span><span class="en">Images / MM</span></button>
+                      <button class="ecosystem-source" type="button" data-eco-kind-zh="L0 · 数据源" data-eco-kind-en="L0 · Data source" data-eco-title-zh="代码 / 结构化" data-eco-title-en="Code / structured data" data-eco-desc-zh="代码仓库、配置文件、日志和结构化语料可进入算子化处理、评估和 Agent 工作流。" data-eco-desc-en="Code repositories, configs, logs, and structured corpora can enter operatorized processing, evaluation, and agent workflows."><b>&lt;/&gt;</b><span class="zh">代码 / 结构化</span><span class="en">Code / struct.</span></button>
+                      <button class="ecosystem-source" type="button" data-eco-kind-zh="L0 · 数据源" data-eco-kind-en="L0 · Data source" data-eco-title-zh="知识库" data-eco-title-en="Knowledge bases" data-eco-desc-zh="企业知识库、文档库和长期记忆可与 RAG / GraphRAG 结合，支撑可复用知识资产。" data-eco-desc-en="Enterprise knowledge bases, document libraries, and long-term memory can pair with RAG / GraphRAG for reusable knowledge assets."><b>◫</b><span class="zh">知识库</span><span class="en">Knowledge</span></button>
+                      <button class="ecosystem-source" type="button" data-eco-kind-zh="L0 · 数据源" data-eco-kind-en="L0 · Data source" data-eco-title-zh="传感器" data-eco-title-en="Sensors" data-eco-desc-zh="物联网、仿真环境和世界模型观测数据，为 DataFlow-WorldModel / OpenWorldLib 提供入口。" data-eco-desc-en="IoT, simulation, and world-model observations provide inputs for DataFlow-WorldModel and OpenWorldLib."><b>⌁</b><span class="zh">传感器</span><span class="en">Sensors</span></button>
+                    </div>
+                  </article>
+                </div>
+
+                <aside class="ecosystem-loop" aria-label="DataFlow-LoopAI feedback control">
+                  <a class="ecosystem-loop-title" href="https://github.com/OpenDCAI/Dataflow-LoopAI" target="_blank" rel="noopener" data-eco-kind-zh="Feedback Control" data-eco-kind-en="Feedback Control" data-eco-title-zh="DataFlow-LoopAI" data-eco-title-en="DataFlow-LoopAI" data-eco-desc-zh="闭环控制层把评测、判断、分析、数据获取、训练优化和效果提升连接起来，让 DataFlow 从数据入口持续反馈到应用出口。" data-eco-desc-en="The feedback-control layer connects evaluation, judgment, analysis, data acquisition, optimization, and improvement across the DataFlow ecosystem.">
+                    <span>↻</span>
+                    <b>DataFlow-LoopAI /<br>Feedback Control</b>
+                  </a>
+                  <div class="ecosystem-loop-steps">
+                    <a class="ecosystem-loop-step" href="https://github.com/OpenDCAI/Dataflow-LoopAI" target="_blank" rel="noopener" data-eco-kind-zh="LoopAI" data-eco-kind-en="LoopAI" data-eco-title-zh="Start" data-eco-title-en="Start" data-eco-desc-zh="从目标任务、当前模型和已知问题出发，启动一次数据驱动优化循环。" data-eco-desc-en="Start a data-driven optimization loop from the target task, current model, and known issues."><span class="ecosystem-loop-icon">▶</span><b>Start</b></a>
+                    <a class="ecosystem-loop-step" href="https://github.com/OpenDCAI/One-Eval" target="_blank" rel="noopener" data-eco-kind-zh="LoopAI" data-eco-kind-en="LoopAI" data-eco-title-zh="Judge" data-eco-title-en="Judge" data-eco-desc-zh="通过评测系统判断模型是否满足任务要求，并记录失败案例和指标变化。" data-eco-desc-en="Judge whether the model meets task requirements and record failures plus metric changes."><span class="ecosystem-loop-icon">⚖</span><b>Judge</b></a>
+                    <a class="ecosystem-loop-step" href="https://github.com/OpenDCAI/One-Eval" target="_blank" rel="noopener" data-eco-kind-zh="LoopAI" data-eco-kind-en="LoopAI" data-eco-title-zh="Analyze" data-eco-title-en="Analyze" data-eco-desc-zh="分析失败模式、数据缺口和任务分布偏差，为下一步数据获取与治理提供依据。" data-eco-desc-en="Analyze failure modes, data gaps, and task-distribution shifts to guide the next data-governance step."><span class="ecosystem-loop-icon">⌕</span><b>Analyze</b></a>
+                    <a class="ecosystem-loop-step" href="https://github.com/OpenDCAI/DataFlow" target="_blank" rel="noopener" data-eco-kind-zh="LoopAI" data-eco-kind-en="LoopAI" data-eco-title-zh="Obtain" data-eco-title-en="Obtain" data-eco-desc-zh="通过 DataFlow 采集、解析和筛选新的训练或评测数据，补齐模型短板。" data-eco-desc-en="Use DataFlow to acquire, parse, and filter new training or evaluation data for model gaps."><span class="ecosystem-loop-icon">↓</span><b>Obtain</b></a>
+                    <a class="ecosystem-loop-step" href="https://github.com/OpenDCAI/DataFlex" target="_blank" rel="noopener" data-eco-kind-zh="LoopAI" data-eco-kind-en="LoopAI" data-eco-title-zh="Optimize" data-eco-title-en="Optimize" data-eco-desc-zh="结合 DataFlex 和数据治理策略做样本选择、配比与重加权，进入下一轮训练或对齐。" data-eco-desc-en="Use DataFlex and data governance strategies for selection, mixing, and reweighting before the next training or alignment round."><span class="ecosystem-loop-icon">⚙</span><b>Optimize</b></a>
+                    <a class="ecosystem-loop-step" href="https://github.com/OpenDCAI/Dataflow-LoopAI" target="_blank" rel="noopener" data-eco-kind-zh="LoopAI" data-eco-kind-en="LoopAI" data-eco-title-zh="Improve" data-eco-title-en="Improve" data-eco-desc-zh="对比优化前后效果，将有效数据、策略和评测结果沉淀为可复用经验。" data-eco-desc-en="Compare results before and after optimization, then preserve effective data, strategies, and evaluations as reusable practice."><span class="ecosystem-loop-icon">↗</span><b>Improve</b></a>
+                  </div>
+                </aside>
+              </div>
+
+              <section class="ecosystem-datamind" aria-label="DataMind second brain layer">
+                <a class="ecosystem-datamind-brand" href="https://github.com/haolpku/DataMind" target="_blank" rel="noopener" data-eco-kind-zh="DataMind" data-eco-kind-en="DataMind" data-eco-title-zh="DataMind" data-eco-title-en="DataMind" data-eco-desc-zh="作为底层第二大脑，DataMind 负责 Profile / Session、Memory、Wiki、RAG / GraphRAG、Feedback Trace 和知识复用，为整个 DataFlow 生态提供上下文与长期记忆。" data-eco-desc-en="DataMind acts as the second-brain layer for profile/session context, memory, wiki, RAG / GraphRAG, feedback traces, and knowledge reuse.">
+                  <span class="ecosystem-brain">DM</span>
+                  <span>
+                    <h3>DataMind</h3>
+                    <p>Context · Memory · Wiki · RAG / GraphRAG · Second Brain</p>
+                  </span>
+                </a>
+                <div class="ecosystem-tool-row">
+                  <a class="ecosystem-tool" href="https://github.com/haolpku/DataMind" target="_blank" rel="noopener" data-eco-kind-zh="DataMind" data-eco-kind-en="DataMind" data-eco-title-zh="Profile / Session" data-eco-title-en="Profile / Session" data-eco-desc-zh="把不同项目、用户、材料和任务边界组织成可持续维护的上下文空间。" data-eco-desc-en="Organizes projects, users, materials, and task boundaries into maintainable context spaces."><b>○</b><span>Profile / Session</span></a>
+                  <a class="ecosystem-tool" href="https://github.com/haolpku/DataMind" target="_blank" rel="noopener" data-eco-kind-zh="DataMind" data-eco-kind-en="DataMind" data-eco-title-zh="Memory" data-eco-title-en="Memory" data-eco-desc-zh="沉淀偏好、决策、证据和长期任务线索，让后续工作能接上过去。" data-eco-desc-en="Persists preferences, decisions, evidence, and long-running task signals for future work."><b>◫</b><span>Memory</span></a>
+                  <a class="ecosystem-tool" href="https://github.com/haolpku/DataMind" target="_blank" rel="noopener" data-eco-kind-zh="DataMind" data-eco-kind-en="DataMind" data-eco-title-zh="Wiki" data-eco-title-en="Wiki" data-eco-desc-zh="把原始文件和问答整理成可浏览的轻量 Wiki，减少重复检索和上下文丢失。" data-eco-desc-en="Turns source files and Q&A into a browsable lightweight wiki to reduce repeated retrieval and context loss."><b>▤</b><span>Wiki</span></a>
+                  <a class="ecosystem-tool" href="https://github.com/haolpku/DataMind" target="_blank" rel="noopener" data-eco-kind-zh="DataMind" data-eco-kind-en="DataMind" data-eco-title-zh="RAG" data-eco-title-en="RAG" data-eco-desc-zh="使用向量检索把局部证据带入回答和生成流程，支撑文档级知识调用。" data-eco-desc-en="Uses vector retrieval to bring local evidence into answering and generation workflows."><b>⌕</b><span>RAG</span></a>
+                  <a class="ecosystem-tool" href="https://github.com/haolpku/DataMind" target="_blank" rel="noopener" data-eco-kind-zh="DataMind" data-eco-kind-en="DataMind" data-eco-title-zh="GraphRAG" data-eco-title-en="GraphRAG" data-eco-desc-zh="用实体和关系图支持跨文档、多跳、关系型问题，补充纯向量检索。" data-eco-desc-en="Uses entities and relation graphs for cross-document, multi-hop, and relationship-aware questions."><b>◇</b><span>GraphRAG</span></a>
+                  <a class="ecosystem-tool" href="https://github.com/haolpku/DataMind" target="_blank" rel="noopener" data-eco-kind-zh="DataMind" data-eco-kind-en="DataMind" data-eco-title-zh="Feedback Trace" data-eco-title-en="Feedback Trace" data-eco-desc-zh="记录反馈、修正和下一状态，让系统能根据真实使用结果不断校准。" data-eco-desc-en="Records feedback, corrections, and next-state signals so the system can calibrate from real use."><b>◷</b><span>Feedback Trace</span></a>
+                  <a class="ecosystem-tool" href="https://github.com/haolpku/DataMind" target="_blank" rel="noopener" data-eco-kind-zh="DataMind" data-eco-kind-en="DataMind" data-eco-title-zh="Knowledge Reuse" data-eco-title-en="Knowledge Reuse" data-eco-desc-zh="把已验证的知识、技能和流程复用到新的项目与页面更新中。" data-eco-desc-en="Reuses verified knowledge, skills, and workflows across new projects and homepage updates."><b>↻</b><span>Knowledge Reuse</span></a>
+                </div>
+              </section>
+
+              <aside class="ecosystem-detail" aria-live="polite">
+                <small data-eco-detail-kind><span class="zh">交互说明</span><span class="en">Interaction</span></small>
+                <h3 data-eco-detail-title><span class="zh">HTML 交互生态图</span><span class="en">Interactive HTML ecosystem map</span></h3>
+                <p data-eco-detail-desc><span class="zh">鼠标悬停或键盘聚焦任一项目，会在这里显示介绍；点击项目卡片可跳转到对应项目。无脚本环境下方保留静态图作为备用。</span><span class="en">Hover or focus any item to see its description here; click a project card to open the corresponding project. Static images are retained below as a no-script fallback.</span></p>
+              </aside>
+
+              <noscript>
+                <div class="ecosystem-fallback">
+                  <img class="ecosystem-image zh" src="homepage-ecosystem-zh.png" alt="DataFlow DCAI 中文生态图">
+                  <img class="ecosystem-image en" src="homepage-ecosystem-en.png" alt="DataFlow DCAI ecosystem diagram">
+                </div>
+              </noscript>
+            </div>
           </div>
           <div class="project-grid">
             <a class="project" href="https://github.com/OpenDCAI/DataFlow" target="_blank" rel="noopener"><div class="project-logo-large"><img src="images/DataFlow-Logo.png" alt="DataFlow logo"></div><h3>DataFlow</h3><p class="zh">大模型数据准备系统，包含数据获取、处理、质量评估、算子和工作流编排。</p><p class="en">LLM data preparation with acquisition, processing, quality evaluation, operators, and workflows.</p><div class="tags"><span class="tag">Protocol</span><span class="tag">Data prep</span></div></a>
@@ -2625,6 +3367,11 @@
     var newsTrack = document.querySelector("[data-news-track]");
     var awardsCard = document.querySelector(".awards-card");
     var serviceCard = document.querySelector(".service-card");
+    var ecosystemItems = document.querySelectorAll("[data-eco-title-zh]");
+    var ecosystemDetailKind = document.querySelector("[data-eco-detail-kind]");
+    var ecosystemDetailTitle = document.querySelector("[data-eco-detail-title]");
+    var ecosystemDetailDesc = document.querySelector("[data-eco-detail-desc]");
+    var ecosystemActiveItem = null;
 
     function syncAwardsHeights() {
       if (!awardsCard || !serviceCard) return;
@@ -2650,6 +3397,7 @@
       if (typeof renderPublicationExplorer === "function") {
         renderPublicationExplorer();
       }
+      renderEcosystemDetail();
       window.requestAnimationFrame(syncAwardsHeights);
     }
 
@@ -2665,6 +3413,41 @@
     function currentLang() {
       return body.classList.contains("lang-en") ? "en" : "zh";
     }
+
+    function ecosystemValue(item, name) {
+      if (!item) return "";
+      var lang = currentLang();
+      return item.getAttribute(name + "-" + lang) || item.getAttribute(name + "-zh") || "";
+    }
+
+    function setEcosystemActive(item) {
+      if (!item) return;
+      ecosystemActiveItem = item;
+      ecosystemItems.forEach(function (node) {
+        node.classList.toggle("active", node === item);
+      });
+      renderEcosystemDetail();
+    }
+
+    function renderEcosystemDetail() {
+      if (!ecosystemDetailKind || !ecosystemDetailTitle || !ecosystemDetailDesc || !ecosystemItems.length) return;
+      var item = ecosystemActiveItem || ecosystemItems[0];
+      ecosystemDetailKind.textContent = ecosystemValue(item, "data-eco-kind");
+      ecosystemDetailTitle.textContent = ecosystemValue(item, "data-eco-title");
+      ecosystemDetailDesc.textContent = ecosystemValue(item, "data-eco-desc");
+    }
+
+    ecosystemItems.forEach(function (item) {
+      item.addEventListener("mouseenter", function () {
+        setEcosystemActive(item);
+      });
+      item.addEventListener("focus", function () {
+        setEcosystemActive(item);
+      });
+      item.addEventListener("click", function () {
+        setEcosystemActive(item);
+      });
+    });
 
     function authorKey(name) {
       return (name || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().toLowerCase();
