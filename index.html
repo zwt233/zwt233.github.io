@@ -1443,21 +1443,31 @@
     }
 
     .visit-tracker {
+      align-items: center;
+      border-bottom: 1px solid var(--line);
       border-top: 1px solid var(--line);
-      display: block;
+      display: flex;
+      justify-content: center;
       margin-top: 10px;
       overflow: visible;
-      padding-top: 10px;
+      min-height: 108px;
+      padding: 12px 0;
       text-align: center;
     }
 
     .visit-tracker img {
       border: 0;
       display: block;
-      height: 20px;
+      height: auto;
       margin: 0 auto;
-      max-width: 100%;
+      max-width: 310px;
       object-fit: contain;
+      width: 100%;
+    }
+
+    .visit-tracker img.visit-counter-fallback {
+      height: 20px;
+      max-width: 100%;
       width: auto;
     }
 
@@ -2281,8 +2291,8 @@
               <span class="zh">地址：北京市海淀区颐和园路5号，北京大学静园六院</span>
               <span class="en">Address: Jingyuan Courtyard 6, Peking University, Beijing, China</span>
             </div>
-            <a class="visit-tracker" href="https://hits.sh/zwt233.github.io/" target="_blank" rel="noopener" title="Website visit statistics">
-              <img src="https://hits.sh/zwt233.github.io.svg?view=today-total&style=flat-square&label=visits&color=0f2b49&labelColor=8f1d22" alt="Website visit counter">
+            <a class="visit-tracker" href="https://clustrmaps.com/site/1bi3v" target="_blank" rel="noopener" title="Visit tracker">
+              <img src="https://clustrmaps.com/map_v2.png?cl=ffffff&w=310&t=m&d=wcLPh2Blr8RX5HbWZ1csEr0gKeAAVoZgdFMZcZPNLPg" alt="Monthly website visitor map" onerror="this.onerror=null;this.classList.add('visit-counter-fallback');this.src='https://hits.sh/zwt233.github.io.svg?view=today-total&style=flat-square&label=visits&color=0f2b49&labelColor=8f1d22';this.alt='Website visit counter';this.closest('a').href='https://hits.sh/zwt233.github.io/';this.closest('a').title='Website visit statistics';">
             </a>
           </aside>
         </section>
