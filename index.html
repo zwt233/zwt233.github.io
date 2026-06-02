@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://hits.sh">
+  <link rel="dns-prefetch" href="//hits.sh">
   <title>Wentao Zhang · Data-Centric AI Group</title>
   <style>
     :root {
@@ -1127,6 +1129,21 @@
       padding: 0 6px;
     }
 
+    .zhihu-logo {
+      align-items: center;
+      background: #056de8;
+      color: #fff;
+      display: inline-flex;
+      flex: 0 0 auto;
+      font-size: 0.82rem;
+      font-weight: 950;
+      height: 24px;
+      justify-content: center;
+      letter-spacing: 0;
+      min-width: 24px;
+      padding: 0 6px;
+    }
+
     .student-support {
       background: #fbfdff;
       border: 1px solid var(--line);
@@ -1402,9 +1419,9 @@
     }
 
     .profile-links {
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
       gap: 8px;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
       margin: 8px 0 10px;
     }
 
@@ -1416,9 +1433,19 @@
       font-size: 0.84rem;
       font-weight: 900;
       gap: 6px;
+      grid-column: span 3;
+      justify-content: center;
       min-height: 34px;
+      min-width: 0;
       padding: 6px 9px;
       text-decoration: none;
+      width: 100%;
+    }
+
+    .profile-link:nth-child(3),
+    .profile-link:nth-child(4),
+    .profile-link:nth-child(5) {
+      grid-column: span 2;
     }
 
     .profile-link:hover {
@@ -1450,30 +1477,30 @@
       justify-content: center;
       margin-top: 10px;
       overflow: visible;
-      min-height: 108px;
-      padding: 12px 0;
+      min-height: 54px;
+      padding: 10px 0;
       text-align: center;
     }
 
     .visit-tracker img {
       border: 0;
       display: block;
-      height: auto;
-      margin: 0 auto;
-      max-width: 310px;
-      object-fit: contain;
-      width: 100%;
-    }
-
-    .visit-tracker img.visit-counter-fallback {
       height: 20px;
+      margin: 0 auto;
       max-width: 100%;
+      object-fit: contain;
       width: auto;
     }
 
-    .visit-tracker.visit-tracker--fallback {
-      min-height: 54px;
-      padding: 10px 0;
+    .visit-tracker.visit-tracker--map {
+      min-height: 108px;
+      padding: 12px 0;
+    }
+
+    .visit-tracker img.visit-map-fallback {
+      height: auto;
+      max-width: 310px;
+      width: 100%;
     }
 
     .stats {
@@ -2130,6 +2157,11 @@
         flex-direction: column;
       }
 
+      .profile-link {
+        font-size: 0.78rem;
+        padding: 6px 7px;
+      }
+
       .ecosystem-interactive {
         padding: 12px;
       }
@@ -2297,6 +2329,10 @@
                 <span class="bilibili-logo">bili</span>
                 <span>Bilibili</span>
               </a>
+              <a class="profile-link" href="https://www.zhihu.com/people/88-14-26-94" target="_blank" rel="noopener" aria-label="Zhihu">
+                <span class="zhihu-logo">知</span>
+                <span>知乎</span>
+              </a>
             </div>
             <div class="contact">
               <span class="zh">邮箱：wentao.zhang@pku.edu.cn</span>
@@ -2306,8 +2342,8 @@
               <span class="zh">地址：北京市海淀区颐和园路5号，北京大学静园六院</span>
               <span class="en">Address: Jingyuan Courtyard 6, Peking University, Beijing, China</span>
             </div>
-            <a class="visit-tracker" href="https://clustrmaps.com/site/1bi3v" target="_blank" rel="noopener" title="Visit tracker">
-              <img src="https://clustrmaps.com/map_v2.png?cl=ffffff&w=310&t=m&d=wcLPh2Blr8RX5HbWZ1csEr0gKeAAVoZgdFMZcZPNLPg" alt="Monthly website visitor map" onerror="this.onerror=null;this.classList.add('visit-counter-fallback');this.closest('a').classList.add('visit-tracker--fallback');this.src='https://hits.sh/zwt233.github.io.svg?view=today-total&style=flat-square&label=visits&color=0f2b49&labelColor=8f1d22';this.alt='Website visit counter';this.closest('a').href='https://hits.sh/zwt233.github.io/';this.closest('a').title='Website visit statistics';">
+            <a class="visit-tracker" href="https://hits.sh/zwt233.github.io/" target="_blank" rel="noopener" title="Website visit statistics">
+              <img src="https://hits.sh/zwt233.github.io.svg?view=today-total&style=flat-square&label=visits&color=0f2b49&labelColor=8f1d22" alt="Website visit counter" decoding="async" loading="eager" fetchpriority="high" onerror="this.onerror=null;this.classList.add('visit-map-fallback');this.closest('a').classList.add('visit-tracker--map');this.closest('a').href='https://clustrmaps.com/site/1bi3v';this.closest('a').title='Visit tracker';this.src='https://clustrmaps.com/map_v2.png?cl=ffffff&w=310&t=m&d=wcLPh2Blr8RX5HbWZ1csEr0gKeAAVoZgdFMZcZPNLPg';this.alt='Monthly website visitor map';">
             </a>
           </aside>
         </section>
