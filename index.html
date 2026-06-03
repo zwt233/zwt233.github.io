@@ -1405,7 +1405,7 @@
 
     .profile img {
       display: block;
-      height: 357px;
+      height: 336px;
       object-fit: cover;
       object-position: center 18%;
       width: 100%;
@@ -1484,11 +1484,20 @@
       text-align: center;
     }
 
-    .visitor-country-tracker img {
+    .visitor-country-frame {
+      aspect-ratio: 198 / 76;
+      background: #fff;
+      border: 1px solid var(--line);
+      display: block;
+      overflow: hidden;
+      width: 100%;
+    }
+
+    .visitor-country-frame img {
       border: 0;
       display: block;
       height: auto;
-      max-width: 198px;
+      max-width: none;
       width: 100%;
     }
 
@@ -2332,7 +2341,9 @@
               <span class="en">Address: Jingyuan Courtyard 6, Peking University, Beijing, China</span>
             </div>
             <a class="visitor-country-tracker" href="https://info.flagcounter.com/z9BD" target="_blank" rel="noopener" title="Visitor countries and regions">
-              <img src="https://s01.flagcounter.com/count2/z9BD/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_3/labels_1/pageviews_1/flags_1/percent_0/" alt="Visitor countries and regions" width="198" height="98" decoding="async" loading="eager">
+              <span class="visitor-country-frame">
+                <img src="https://s01.flagcounter.com/count2/z9BD/bg_FFFFFF/txt_000000/border_FFFFFF/columns_2/maxflags_10/viewers_3/labels_1/pageviews_1/flags_1/percent_0/" alt="Visitor countries and regions" width="198" height="98" decoding="async" loading="eager">
+              </span>
             </a>
           </aside>
         </section>
