@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://hits.sh">
   <link rel="dns-prefetch" href="//hits.sh">
+  <link rel="preconnect" href="https://s01.flagcounter.com">
+  <link rel="dns-prefetch" href="//s01.flagcounter.com">
   <link rel="preconnect" href="https://static.cloudflareinsights.com">
   <!-- Cloudflare Web Analytics -->
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"39ba9c3be6c24b3da9be91ebd9495bc0"}'></script>
@@ -1475,14 +1477,13 @@
 
     .visit-tracker {
       align-items: center;
-      border-bottom: 1px solid var(--line);
       border-top: 1px solid var(--line);
       display: flex;
       justify-content: center;
       margin-top: 10px;
       overflow: visible;
-      min-height: 54px;
-      padding: 10px 0;
+      min-height: 42px;
+      padding: 10px 0 6px;
       text-align: center;
     }
 
@@ -1504,6 +1505,24 @@
     .visit-tracker img.visit-map-fallback {
       height: auto;
       max-width: 310px;
+      width: 100%;
+    }
+
+    .visitor-country-tracker {
+      align-items: center;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      justify-content: center;
+      min-height: 110px;
+      padding: 4px 0 12px;
+      text-align: center;
+    }
+
+    .visitor-country-tracker img {
+      border: 0;
+      display: block;
+      height: auto;
+      max-width: 198px;
       width: 100%;
     }
 
@@ -2348,6 +2367,9 @@
             </div>
             <a class="visit-tracker" href="https://hits.sh/zwt233.github.io/" target="_blank" rel="noopener" title="Website visit statistics">
               <img src="https://hits.sh/zwt233.github.io.svg?view=today-total&style=flat-square&label=visits&color=0f2b49&labelColor=8f1d22" alt="Website visit counter" decoding="async" loading="eager" fetchpriority="high" onerror="this.onerror=null;this.classList.add('visit-map-fallback');this.closest('a').classList.add('visit-tracker--map');this.closest('a').href='https://clustrmaps.com/site/1bi3v';this.closest('a').title='Visit tracker';this.src='https://clustrmaps.com/map_v2.png?cl=ffffff&w=310&t=m&d=wcLPh2Blr8RX5HbWZ1csEr0gKeAAVoZgdFMZcZPNLPg';this.alt='Monthly website visitor map';">
+            </a>
+            <a class="visitor-country-tracker" href="https://info.flagcounter.com/z9BD" target="_blank" rel="noopener" title="Visitor countries and regions">
+              <img src="https://s01.flagcounter.com/count2/z9BD/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_1/pageviews_1/flags_1/percent_0/" alt="Visitor countries and regions" decoding="async" loading="lazy">
             </a>
           </aside>
         </section>
