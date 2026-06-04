@@ -1,0 +1,36 @@
+name: Update Cloudflare Analytics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Update public analytics data
+        run: node scripts/update-cloudflare-analytics.mjs
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_ANALYTICS_HOST: zwt233.github.io
+          CLOUDFLARE_SITE_TOKEN: 39ba9c3be6c24b3da9be91ebd9495bc0
+
+      - name: Commit analytics data
+        run: |
+          if git diff --quiet -- data/site-analytics.json; then
+            echo "No analytics data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/site-analytics.json
+          git commit -m "Update public analytics data"
+          git push

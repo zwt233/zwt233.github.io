@@ -1411,6 +1411,10 @@
       width: 100%;
     }
 
+    .profile.has-public-analytics img {
+      height: 195px;
+    }
+
     .profile h2 {
       font-size: 1.12rem;
       margin: 12px 0 3px;
@@ -1473,14 +1477,82 @@
       padding-top: 10px;
     }
 
-    .visitor-country-tracker {
-      align-items: center;
+    .visitor-panel {
       border-top: 1px solid var(--line);
       border-bottom: 1px solid var(--line);
-      display: flex;
-      justify-content: center;
+      display: grid;
+      gap: 10px;
       margin-top: 10px;
       padding: 10px 0;
+    }
+
+    .visitor-analytics[hidden] {
+      display: none;
+    }
+
+    .visitor-analytics {
+      display: grid;
+      gap: 7px;
+    }
+
+    .visitor-analytics-head {
+      align-items: center;
+      color: var(--muted);
+      display: flex;
+      font-size: 0.62rem;
+      font-weight: 900;
+      justify-content: space-between;
+      letter-spacing: 0.06em;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    .visitor-analytics-head small {
+      color: #748294;
+      font-size: 0.6rem;
+      font-weight: 750;
+      letter-spacing: 0;
+      text-transform: none;
+    }
+
+    .visitor-analytics-grid {
+      display: grid;
+      gap: 6px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .visitor-analytics-metric {
+      background: rgba(255, 255, 255, 0.74);
+      border: 1px solid var(--line);
+      display: grid;
+      gap: 2px;
+      min-height: 43px;
+      padding: 5px 4px;
+      text-align: center;
+    }
+
+    .visitor-analytics-metric b {
+      color: var(--navy);
+      font-size: 0.96rem;
+      font-variant-numeric: tabular-nums;
+      line-height: 1.05;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .visitor-analytics-metric small {
+      color: var(--muted);
+      font-size: 0.58rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      line-height: 1;
+    }
+
+    .visitor-country-tracker {
+      align-items: center;
+      display: flex;
+      justify-content: center;
       text-align: center;
     }
 
@@ -2060,6 +2132,10 @@
         height: 336px;
       }
 
+      .profile.has-public-analytics img {
+        height: 336px;
+      }
+
       .stats,
       .pillars,
       .bio-points {
@@ -2290,7 +2366,7 @@
               <a class="btn" href="#join"><span class="zh">招生与实习</span><span class="en">Join the group</span></a>
             </div>
           </div>
-          <aside class="profile" aria-label="Profile">
+          <aside class="profile" aria-label="Profile" data-profile-card>
             <img src="images/wentao-smile3.jpg" alt="Wentao Zhang portrait">
             <h2><span class="zh">Wentao Zhang · 张文涛</span><span class="en">Wentao Zhang</span></h2>
             <p class="zh">北京大学助理教授 / 研究员 / 博士生导师</p>
@@ -2344,11 +2420,24 @@
               <span class="zh">地址：北京市海淀区颐和园路5号，北京大学静园六院</span>
               <span class="en">Address: Jingyuan Courtyard 6, Peking University, Beijing, China</span>
             </div>
-            <a class="visitor-country-tracker" href="https://info.flagcounter.com/z9BD" target="_blank" rel="noopener" title="Visitor countries and regions">
-              <span class="visitor-country-frame">
-                <img src="https://s01.flagcounter.com/count2/z9BD/bg_FFFFFF/txt_000000/border_FFFFFF/columns_2/maxflags_10/viewers_3/labels_1/pageviews_1/flags_1/percent_0/" alt="Visitor countries and regions" width="198" height="98" decoding="async" loading="eager">
-              </span>
-            </a>
+            <div class="visitor-panel">
+              <div class="visitor-analytics" data-analytics-panel hidden>
+                <div class="visitor-analytics-head">
+                  <span><span class="zh">浏览量</span><span class="en">Pageviews</span></span>
+                  <small data-analytics-updated></small>
+                </div>
+                <div class="visitor-analytics-grid" aria-label="Public website pageviews">
+                  <span class="visitor-analytics-metric" title="Today pageviews"><b data-analytics-value="today">--</b><small><span class="zh">今日</span><span class="en">Today</span></small></span>
+                  <span class="visitor-analytics-metric" title="This month pageviews"><b data-analytics-value="month">--</b><small><span class="zh">本月</span><span class="en">Month</span></small></span>
+                  <span class="visitor-analytics-metric" title="Total pageviews"><b data-analytics-value="total">--</b><small><span class="zh">总计</span><span class="en">Total</span></small></span>
+                </div>
+              </div>
+              <a class="visitor-country-tracker" href="https://info.flagcounter.com/z9BD" target="_blank" rel="noopener" title="Visitor countries and regions">
+                <span class="visitor-country-frame">
+                  <img src="https://s01.flagcounter.com/count2/z9BD/bg_FFFFFF/txt_000000/border_FFFFFF/columns_2/maxflags_10/viewers_3/labels_1/pageviews_0/flags_1/percent_0/" alt="Visitor countries and regions" width="198" height="98" decoding="async" loading="eager">
+                </span>
+              </a>
+            </div>
           </aside>
         </section>
 
@@ -3437,6 +3526,10 @@
     var ecosystemDetailTitle = document.querySelector("[data-eco-detail-title]");
     var ecosystemDetailDesc = document.querySelector("[data-eco-detail-desc]");
     var ecosystemActiveItem = null;
+    var profileCard = document.querySelector("[data-profile-card]");
+    var analyticsPanel = document.querySelector("[data-analytics-panel]");
+    var analyticsUpdated = document.querySelector("[data-analytics-updated]");
+    var analyticsValues = document.querySelectorAll("[data-analytics-value]");
 
     function syncAwardsHeights() {
       if (!awardsCard || !serviceCard) return;
@@ -3463,6 +3556,9 @@
         renderPublicationExplorer();
       }
       renderEcosystemDetail();
+      if (window.publicAnalyticsData) {
+        renderPublicAnalytics(window.publicAnalyticsData);
+      }
       window.requestAnimationFrame(syncAwardsHeights);
     }
 
@@ -3477,6 +3573,52 @@
 
     function currentLang() {
       return body.classList.contains("lang-en") ? "en" : "zh";
+    }
+
+    function formatAnalyticsValue(value) {
+      var number = Number(value);
+      if (!Number.isFinite(number)) return "--";
+      if (number >= 1000000) return (number / 1000000).toFixed(number >= 10000000 ? 0 : 1).replace(/\.0$/, "") + "M";
+      if (number >= 10000) return Math.round(number / 1000) + "k";
+      return number.toLocaleString("en-US");
+    }
+
+    function renderPublicAnalytics(data) {
+      if (!analyticsPanel || !profileCard) return;
+      var isReady = data && data.status === "ok" && data.periods;
+      analyticsPanel.hidden = !isReady;
+      profileCard.classList.toggle("has-public-analytics", isReady);
+      if (!isReady) return;
+
+      analyticsValues.forEach(function (node) {
+        var key = node.getAttribute("data-analytics-value");
+        var period = data.periods[key] || {};
+        var pageviews = Number(period.pageviews);
+        var visits = period.visits == null ? null : Number(period.visits);
+        node.textContent = formatAnalyticsValue(pageviews);
+        node.parentElement.title = Number.isFinite(visits)
+          ? "Pageviews: " + formatAnalyticsValue(pageviews) + " · Visits: " + formatAnalyticsValue(visits)
+          : "Pageviews: " + formatAnalyticsValue(pageviews);
+      });
+
+      if (analyticsUpdated) {
+        analyticsUpdated.textContent = currentLang() === "zh"
+          ? "更新 " + (data.updatedLabel || "")
+          : "Updated " + (data.updatedLabel || "");
+      }
+    }
+
+    function loadPublicAnalytics() {
+      if (!analyticsPanel) return;
+      fetch("data/site-analytics.json?v=" + Date.now(), { cache: "no-store" })
+        .then(function (response) { return response.ok ? response.json() : null; })
+        .then(function (data) {
+          window.publicAnalyticsData = data;
+          renderPublicAnalytics(data);
+        })
+        .catch(function () {
+          renderPublicAnalytics(null);
+        });
     }
 
     function ecosystemValue(item, name) {
@@ -3781,6 +3923,7 @@
 
     var initialLang = new URLSearchParams(window.location.search).get("lang") || localStorage.getItem("homepage-preview-lang") || "zh";
     setLanguage(initialLang === "en" ? "en" : "zh");
+    loadPublicAnalytics();
     renderPublicationExplorer();
     window.addEventListener("resize", syncAwardsHeights);
     window.addEventListener("load", syncAwardsHeights);

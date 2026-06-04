@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "pending_setup",
+  "source": "cloudflare-web-analytics",
+  "host": "zwt233.github.io",
+  "timezone": "Asia/Shanghai",
+  "generatedAt": null,
+  "updatedLabel": "",
+  "periods": {
+    "today": {
+      "label": "Today",
+      "pageviews": null,
+      "visits": null,
+      "range": {
+        "start": null,
+        "end": null
+      }
+    },
+    "month": {
+      "label": "This month",
+      "pageviews": null,
+      "visits": null,
+      "range": {
+        "start": null,
+        "end": null
+      }
+    },
+    "total": {
+      "label": "Last 180 days",
+      "pageviews": null,
+      "visits": null,
+      "range": {
+        "start": null,
+        "end": null
+      }
+    }
+  },
+  "message": "Cloudflare Analytics sync is waiting for CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID."
+}
