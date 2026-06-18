@@ -3,8 +3,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preconnect" href="https://s01.flagcounter.com">
-  <link rel="dns-prefetch" href="//s01.flagcounter.com">
   <link rel="preconnect" href="https://static.cloudflareinsights.com">
   <!-- Cloudflare Web Analytics -->
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"39ba9c3be6c24b3da9be91ebd9495bc0"}'></script>
@@ -1405,14 +1403,10 @@
 
     .profile img {
       display: block;
-      height: 265px;
+      height: 325px;
       object-fit: cover;
       object-position: center 18%;
       width: 100%;
-    }
-
-    .profile.has-public-analytics img {
-      height: 195px;
     }
 
     .profile h2 {
@@ -1483,7 +1477,7 @@
       display: grid;
       gap: 10px;
       margin-top: 10px;
-      padding: 10px 0;
+      padding: 20px 0;
     }
 
     .visitor-analytics[hidden] {
@@ -1547,30 +1541,6 @@
       font-weight: 800;
       letter-spacing: 0.02em;
       line-height: 1;
-    }
-
-    .visitor-country-tracker {
-      align-items: center;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-    }
-
-    .visitor-country-frame {
-      aspect-ratio: 198 / 76;
-      background: #fff;
-      border: 1px solid var(--line);
-      display: block;
-      overflow: hidden;
-      width: 100%;
-    }
-
-    .visitor-country-frame img {
-      border: 0;
-      display: block;
-      height: auto;
-      max-width: none;
-      width: 100%;
     }
 
     .stats {
@@ -2132,10 +2102,6 @@
         height: 336px;
       }
 
-      .profile.has-public-analytics img {
-        height: 336px;
-      }
-
       .stats,
       .pillars,
       .bio-points {
@@ -2366,7 +2332,7 @@
               <a class="btn" href="#join"><span class="zh">招生与实习</span><span class="en">Join the group</span></a>
             </div>
           </div>
-          <aside class="profile" aria-label="Profile" data-profile-card>
+          <aside class="profile" aria-label="Profile">
             <img src="images/wentao-smile3.jpg" alt="Wentao Zhang portrait">
             <h2><span class="zh">Wentao Zhang · 张文涛</span><span class="en">Wentao Zhang</span></h2>
             <p class="zh">北京大学助理教授 / 研究员 / 博士生导师</p>
@@ -2421,10 +2387,10 @@
               <span class="en">Address: Jingyuan Courtyard 6, Peking University, Beijing, China</span>
             </div>
             <div class="visitor-panel">
-              <div class="visitor-analytics" data-analytics-panel hidden>
+              <div class="visitor-analytics" data-analytics-panel>
                 <div class="visitor-analytics-head">
                   <span><span class="zh">浏览量</span><span class="en">Pageviews</span></span>
-                  <small data-analytics-updated></small>
+                  <small data-analytics-updated><span class="zh">同步中</span><span class="en">Syncing</span></small>
                 </div>
                 <div class="visitor-analytics-grid" aria-label="Public website pageviews">
                   <span class="visitor-analytics-metric" title="Today pageviews"><b data-analytics-value="today">--</b><small><span class="zh">今日</span><span class="en">Today</span></small></span>
@@ -2432,11 +2398,6 @@
                   <span class="visitor-analytics-metric" title="Total pageviews"><b data-analytics-value="total">--</b><small><span class="zh">总计</span><span class="en">Total</span></small></span>
                 </div>
               </div>
-              <a class="visitor-country-tracker" href="https://info.flagcounter.com/z9BD" target="_blank" rel="noopener" title="Visitor countries and regions">
-                <span class="visitor-country-frame">
-                  <img src="https://s01.flagcounter.com/count2/z9BD/bg_FFFFFF/txt_000000/border_FFFFFF/columns_2/maxflags_10/viewers_3/labels_1/pageviews_0/flags_1/percent_0/" alt="Visitor countries and regions" width="198" height="98" decoding="async" loading="eager">
-                </span>
-              </a>
             </div>
           </aside>
         </section>
@@ -3526,7 +3487,6 @@
     var ecosystemDetailTitle = document.querySelector("[data-eco-detail-title]");
     var ecosystemDetailDesc = document.querySelector("[data-eco-detail-desc]");
     var ecosystemActiveItem = null;
-    var profileCard = document.querySelector("[data-profile-card]");
     var analyticsPanel = document.querySelector("[data-analytics-panel]");
     var analyticsUpdated = document.querySelector("[data-analytics-updated]");
     var analyticsValues = document.querySelectorAll("[data-analytics-value]");
@@ -3584,15 +3544,12 @@
     }
 
     function renderPublicAnalytics(data) {
-      if (!analyticsPanel || !profileCard) return;
+      if (!analyticsPanel) return;
       var isReady = data && data.status === "ok" && data.periods;
-      analyticsPanel.hidden = !isReady;
-      profileCard.classList.toggle("has-public-analytics", isReady);
-      if (!isReady) return;
 
       analyticsValues.forEach(function (node) {
         var key = node.getAttribute("data-analytics-value");
-        var period = data.periods[key] || {};
+        var period = isReady ? data.periods[key] || {} : {};
         var pageviews = Number(period.pageviews);
         var visits = period.visits == null ? null : Number(period.visits);
         node.textContent = formatAnalyticsValue(pageviews);
@@ -3602,9 +3559,13 @@
       });
 
       if (analyticsUpdated) {
-        analyticsUpdated.textContent = currentLang() === "zh"
-          ? "更新 " + (data.updatedLabel || "")
-          : "Updated " + (data.updatedLabel || "");
+        if (isReady) {
+          analyticsUpdated.textContent = currentLang() === "zh"
+            ? "更新 " + (data.updatedLabel || "")
+            : "Updated " + (data.updatedLabel || "");
+        } else {
+          analyticsUpdated.textContent = currentLang() === "zh" ? "同步中" : "Syncing";
+        }
       }
     }
 
