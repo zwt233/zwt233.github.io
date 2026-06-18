@@ -1515,27 +1515,6 @@
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
-    .visitor-analytics-grid[hidden] {
-      display: none;
-    }
-
-    .visitor-analytics-empty {
-      align-items: center;
-      background: rgba(255, 255, 255, 0.74);
-      border: 1px solid var(--line);
-      color: var(--muted);
-      display: flex;
-      font-size: 0.72rem;
-      font-weight: 850;
-      justify-content: center;
-      min-height: 43px;
-      text-align: center;
-    }
-
-    .visitor-analytics-empty[hidden] {
-      display: none;
-    }
-
     .visitor-analytics-metric {
       background: rgba(255, 255, 255, 0.74);
       border: 1px solid var(--line);
@@ -2413,11 +2392,7 @@
                   <span><span class="zh">浏览量</span><span class="en">Pageviews</span></span>
                   <small data-analytics-updated><span class="zh">同步中</span><span class="en">Syncing</span></small>
                 </div>
-                <div class="visitor-analytics-empty" data-analytics-empty>
-                  <span class="zh">统计同步中，接入后显示数字</span>
-                  <span class="en">Stats syncing. Numbers appear after setup.</span>
-                </div>
-                <div class="visitor-analytics-grid" aria-label="Public website pageviews" hidden>
+                <div class="visitor-analytics-grid" aria-label="Public website pageviews">
                   <span class="visitor-analytics-metric" title="Today pageviews"><b data-analytics-value="today">--</b><small><span class="zh">今日</span><span class="en">Today</span></small></span>
                   <span class="visitor-analytics-metric" title="This month pageviews"><b data-analytics-value="month">--</b><small><span class="zh">本月</span><span class="en">Month</span></small></span>
                   <span class="visitor-analytics-metric" title="Total pageviews"><b data-analytics-value="total">--</b><small><span class="zh">总计</span><span class="en">Total</span></small></span>
@@ -3514,8 +3489,6 @@
     var ecosystemActiveItem = null;
     var analyticsPanel = document.querySelector("[data-analytics-panel]");
     var analyticsUpdated = document.querySelector("[data-analytics-updated]");
-    var analyticsEmpty = document.querySelector("[data-analytics-empty]");
-    var analyticsGrid = document.querySelector(".visitor-analytics-grid");
     var analyticsValues = document.querySelectorAll("[data-analytics-value]");
 
     function syncAwardsHeights() {
@@ -3573,8 +3546,6 @@
     function renderPublicAnalytics(data) {
       if (!analyticsPanel) return;
       var isReady = data && data.status === "ok" && data.periods;
-      if (analyticsEmpty) analyticsEmpty.hidden = isReady;
-      if (analyticsGrid) analyticsGrid.hidden = !isReady;
 
       analyticsValues.forEach(function (node) {
         var key = node.getAttribute("data-analytics-value");
