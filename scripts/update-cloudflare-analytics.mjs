@@ -1,23 +1,43 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
-const API_ENDPOINT = "https://api.cloudflare.com/client/v4/graphql";
-const API_TOKEN = process.env.CLOUDFLARE_API_TOKEN || "";
-const ACCOUNT_TAG = process.env.CLOUDFLARE_ACCOUNT_ID || process.env.CLOUDFLARE_ACCOUNT_TAG || "";
-const HOST = process.env.CLOUDFLARE_ANALYTICS_HOST || "zwt233.github.io";
-const SITE_TOKEN = process.env.CLOUDFLARE_SITE_TOKEN || "39ba9c3be6c24b3da9be91ebd9495bc0";
-const HITS_URN = process.env.HITS_ANALYTICS_URN || HOST;
-const HITS_API_ENDPOINT = process.env.HITS_ANALYTICS_API || `https://hits.sh/api/urns/${encodeURI(HITS_URN)}`;
+const HOST = process.env.ANALYTICS_HOST || "zwt233.github.io";
+const COUNTER_ID = process.env.FLAGCOUNTER_ID || "z9BD";
+const HISTORY_URL = process.env.FLAGCOUNTER_HISTORY_URL || `https://flagcounter.com/more30/${COUNTER_ID}`;
 const OUTPUT = process.env.ANALYTICS_OUTPUT || "data/site-analytics.json";
 const TIMEZONE = process.env.ANALYTICS_TIMEZONE || "Asia/Shanghai";
-const TOTAL_DAYS = Number(process.env.ANALYTICS_TOTAL_DAYS || 180);
-const CHUNK_DAYS = 28;
 
-function escapeGraphql(value) {
-  return JSON.stringify(String(value));
+const MONTHS = new Map([
+  ["January", 1],
+  ["February", 2],
+  ["March", 3],
+  ["April", 4],
+  ["May", 5],
+  ["June", 6],
+  ["July", 7],
+  ["August", 8],
+  ["September", 9],
+  ["October", 10],
+  ["November", 11],
+  ["December", 12]
+]);
+
+function decodeHtml(value) {
+  return value
+    .replace(/&nbsp;/g, " ")
+    .replace(/&raquo;/g, "»")
+    .replace(/&copy;/g, "©")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, "\"");
 }
 
-function datePartsInShanghai(date) {
+function stripHtml(value) {
+  return decodeHtml(value.replace(/<[^>]*>/g, " ")).replace(/\s+/g, " ").trim();
+}
+
+function datePartsInTimezone(date) {
   const formatter = new Intl.DateTimeFormat("en-US", {
     timeZone: TIMEZONE,
     year: "numeric",
@@ -37,51 +57,120 @@ function datePartsInShanghai(date) {
   };
 }
 
-function shanghaiMidnightUtc(year, month, day) {
-  return new Date(Date.UTC(year, month - 1, day) - 8 * 60 * 60 * 1000);
-}
-
-function startOfShanghaiDay(date) {
-  const parts = datePartsInShanghai(date);
-  return shanghaiMidnightUtc(parts.year, parts.month, parts.day);
-}
-
-function startOfShanghaiMonth(date) {
-  const parts = datePartsInShanghai(date);
-  return shanghaiMidnightUtc(parts.year, parts.month, 1);
-}
-
-function addDays(date, days) {
-  return new Date(date.getTime() + days * 24 * 60 * 60 * 1000);
-}
-
 function formatUpdatedLabel(date) {
-  const parts = datePartsInShanghai(date);
+  const parts = datePartsInTimezone(date);
   return `${String(parts.month).padStart(2, "0")}-${String(parts.day).padStart(2, "0")} ${String(parts.hour).padStart(2, "0")}:${String(parts.minute).padStart(2, "0")}`;
 }
 
-function formatDateLabel(date) {
-  const parts = datePartsInShanghai(date);
+function localDateIso(parts) {
   return `${String(parts.year).padStart(4, "0")}-${String(parts.month).padStart(2, "0")}-${String(parts.day).padStart(2, "0")}`;
 }
 
-function emptyPeriod(label, start, end) {
+function parseDateLabel(label) {
+  const match = label.match(/^([A-Za-z]+)\s+(\d{1,2}),\s+(\d{4})$/);
+  if (!match) return null;
+  const month = MONTHS.get(match[1]);
+  if (!month) return null;
   return {
-    label,
-    pageviews: null,
-    visits: null,
-    range: {
-      start: start ? start.toISOString() : null,
-      end: end ? end.toISOString() : null
-    }
+    year: Number(match[3]),
+    month,
+    day: Number(match[2])
   };
 }
 
-function stableEmptyPeriods() {
+function parseHistoryRows(html, now) {
+  const todayParts = datePartsInTimezone(now);
+  const rows = [];
+  const rowPattern = /<tr\b[^>]*>([\s\S]*?)<\/tr>/gi;
+  let match;
+
+  while ((match = rowPattern.exec(html))) {
+    const text = stripHtml(match[1]);
+    if (!text || text.startsWith("Date ")) continue;
+
+    const todayMatch = text.match(/^Today\b\s+(\d+)\s+(\d+)/i);
+    if (todayMatch) {
+      rows.push({
+        label: "Today",
+        date: localDateIso(todayParts),
+        year: todayParts.year,
+        month: todayParts.month,
+        day: todayParts.day,
+        visitors: Number(todayMatch[1]),
+        pageviews: Number(todayMatch[2])
+      });
+      continue;
+    }
+
+    const dateMatch = text.match(/^([A-Za-z]+\s+\d{1,2},\s+\d{4})\s+(\d+)\s+(\d+)/);
+    if (dateMatch) {
+      const parsed = parseDateLabel(dateMatch[1]);
+      if (!parsed) continue;
+      rows.push({
+        label: dateMatch[1],
+        date: localDateIso(parsed),
+        ...parsed,
+        visitors: Number(dateMatch[2]),
+        pageviews: Number(dateMatch[3])
+      });
+    }
+  }
+
+  return rows;
+}
+
+function parseTotals(html) {
+  const text = stripHtml(html);
+  const match = text.match(/This counter has been viewed\s+([\d,]+)\s+times by\s+([\d,]+)\s+visitor/i);
+  if (!match) return { pageviews: null, visitors: null };
   return {
-    today: emptyPeriod("Today", null, null),
-    month: emptyPeriod("This month", null, null),
-    total: emptyPeriod(`Last ${TOTAL_DAYS} days`, null, null)
+    pageviews: Number(match[1].replace(/,/g, "")),
+    visitors: Number(match[2].replace(/,/g, ""))
+  };
+}
+
+async function fetchFlagCounterHistory(now) {
+  const response = await fetch(HISTORY_URL, {
+    headers: {
+      Accept: "text/html"
+    }
+  });
+  if (!response.ok) {
+    throw new Error(`FlagCounter history HTTP ${response.status}`);
+  }
+
+  const html = await response.text();
+  const rows = parseHistoryRows(html, now);
+  const todayParts = datePartsInTimezone(now);
+  const todayDate = localDateIso(todayParts);
+  const today = rows.find((row) => row.date === todayDate) || rows.find((row) => row.label === "Today");
+  const monthRows = rows.filter((row) => row.year === todayParts.year && row.month === todayParts.month);
+  const monthPageviews = monthRows.reduce((sum, row) => sum + row.pageviews, 0);
+  const monthVisitors = monthRows.reduce((sum, row) => sum + row.visitors, 0);
+  const totals = parseTotals(html);
+
+  if (!today || !Number.isFinite(today.pageviews)) {
+    throw new Error("FlagCounter history did not include today's Flag Counter Views");
+  }
+
+  return {
+    today,
+    month: {
+      pageviews: monthPageviews,
+      visitors: monthVisitors,
+      days: monthRows.length
+    },
+    total: totals,
+    rows
+  };
+}
+
+function metric(label, pageviews, visits, extra = {}) {
+  return {
+    label,
+    pageviews,
+    visits,
+    ...extra
   };
 }
 
@@ -90,248 +179,30 @@ async function writeAnalytics(payload) {
   await writeFile(OUTPUT, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
 }
 
-function buildPayload(status, now, periods, message, extra = {}) {
-  return {
-    schemaVersion: 1,
-    status,
-    source: extra.source || "cloudflare-web-analytics",
-    host: HOST,
-    timezone: TIMEZONE,
-    generatedAt: status === "ok" ? now.toISOString() : null,
-    updatedLabel: status === "ok" ? formatUpdatedLabel(now) : "",
-    periods,
-    message,
-    ...extra
-  };
-}
-
-function metricPeriod(label, pageviews, start, end, extra = {}) {
-  return {
-    label,
-    pageviews,
-    visits: null,
-    range: {
-      start: start ? start.toISOString() : null,
-      end: end ? end.toISOString() : null
-    },
-    ...extra
-  };
-}
-
-function periodWindows(now) {
-  const todayStart = startOfShanghaiDay(now);
-  const monthStart = startOfShanghaiMonth(now);
-  const totalStart = addDays(startOfShanghaiDay(now), -Math.max(1, TOTAL_DAYS - 1));
-  return {
-    today: { label: "Today", start: todayStart, end: now },
-    month: { label: "This month", start: monthStart, end: now },
-    total: { label: `Last ${TOTAL_DAYS} days`, start: totalStart, end: now }
-  };
-}
-
-function filterCandidates(start, end) {
-  const rangeFilter = `datetime_geq: ${escapeGraphql(start.toISOString())}, datetime_lt: ${escapeGraphql(end.toISOString())}`;
-  return [
-    {
-      id: "site-token-and-host",
-      filter: `${rangeFilter}, siteTag: ${escapeGraphql(SITE_TOKEN)}, requestHost: ${escapeGraphql(HOST)}`
-    },
-    {
-      id: "site-token",
-      filter: `${rangeFilter}, siteTag: ${escapeGraphql(SITE_TOKEN)}`
-    },
-    {
-      id: "request-host",
-      filter: `${rangeFilter}, requestHost: ${escapeGraphql(HOST)}`
-    }
-  ];
-}
-
-function queryFor(filter, includeVisits) {
-  const visitSelection = includeVisits ? "\n              sum { visits }" : "";
-  return `{
-    viewer {
-      accounts(filter: { accountTag: ${escapeGraphql(ACCOUNT_TAG)} }) {
-        rumPageloadEventsAdaptiveGroups(
-          limit: 1,
-          filter: { ${filter} }
-        ) {
-          count${visitSelection}
-        }
-      }
-    }
-  }`;
-}
-
-async function cloudflareQuery(query) {
-  const response = await fetch(API_ENDPOINT, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${API_TOKEN}`,
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({ query })
-  });
-  const payload = await response.json();
-  if (!response.ok || payload.errors?.length) {
-    const message = payload.errors?.map((error) => error.message).join("; ") || `HTTP ${response.status}`;
-    throw new Error(message);
-  }
-  return payload.data;
-}
-
-function extractMetric(data) {
-  const groups = data?.viewer?.accounts?.[0]?.rumPageloadEventsAdaptiveGroups || [];
-  return groups.reduce(
-    (metric, group) => {
-      metric.pageviews += Number(group.count || 0);
-      if (group.sum && group.sum.visits != null) {
-        metric.visits += Number(group.sum.visits || 0);
-        metric.hasVisits = true;
-      }
-      return metric;
-    },
-    { pageviews: 0, visits: 0, hasVisits: false }
-  );
-}
-
-async function queryWindow(start, end) {
-  const candidates = filterCandidates(start, end);
-  const errors = [];
-  for (const candidate of candidates) {
-    for (const includeVisits of [true, false]) {
-      try {
-        const data = await cloudflareQuery(queryFor(candidate.filter, includeVisits));
-        const metric = extractMetric(data);
-        return {
-          pageviews: metric.pageviews,
-          visits: metric.hasVisits ? metric.visits : null,
-          queryFilter: candidate.id
-        };
-      } catch (error) {
-        errors.push(`${candidate.id}${includeVisits ? "" : "-no-visits"}: ${error.message}`);
-      }
-    }
-  }
-  throw new Error(errors.slice(0, 4).join(" | "));
-}
-
-async function queryPeriod(label, start, end) {
-  let cursor = start;
-  let pageviews = 0;
-  let visits = 0;
-  let hasVisits = false;
-  let queryFilter = "";
-
-  while (cursor < end) {
-    const chunkEnd = new Date(Math.min(addDays(cursor, CHUNK_DAYS).getTime(), end.getTime()));
-    const metric = await queryWindow(cursor, chunkEnd);
-    pageviews += metric.pageviews;
-    if (metric.visits != null) {
-      visits += metric.visits;
-      hasVisits = true;
-    }
-    queryFilter = queryFilter || metric.queryFilter;
-    cursor = chunkEnd;
-  }
-
-  return {
-    label,
-    pageviews,
-    visits: hasVisits ? visits : null,
-    range: {
-      start: start.toISOString(),
-      end: end.toISOString()
-    },
-    queryFilter
-  };
-}
-
-async function fetchHitsPayload(now, reason) {
-  const response = await fetch(HITS_API_ENDPOINT, {
-    headers: {
-      Accept: "application/json"
-    }
-  });
-  if (!response.ok) {
-    throw new Error(`hits.sh HTTP ${response.status}`);
-  }
-
-  const data = await response.json();
-  const windows = periodWindows(now);
-  const todayLabel = formatDateLabel(now);
-  const todayItems = data.items?.flatMap((item) => item.data || []) || [];
-  const todayValue = todayItems.find((item) => item.day === todayLabel)?.value ?? 0;
-  const monthValue = Number(data.monthly);
-  const totalValue = Number(data.total);
-
-  if (!Number.isFinite(monthValue) || !Number.isFinite(totalValue)) {
-    throw new Error("hits.sh response did not include numeric monthly/total metrics");
-  }
-
-  return buildPayload(
-    "ok",
-    now,
-    {
-      today: metricPeriod("Today", Number(todayValue) || 0, windows.today.start, windows.today.end, {
-        day: todayLabel
-      }),
-      month: metricPeriod("This month", monthValue, windows.month.start, windows.month.end),
-      total: metricPeriod(`Total hits`, totalValue, null, windows.total.end)
-    },
-    reason || "Pageviews are generated from the public hits.sh counter API.",
-    {
-      source: "hits-sh",
-      detailsUrl: `https://hits.sh/${HITS_URN}/`,
-      countryDetailsUrl: "https://info.flagcounter.com/z9BD",
-      raw: {
-        weekly: Number(data.weekly) || 0
-      }
-    }
-  );
-}
-
 async function main() {
   const now = new Date();
-  const windows = periodWindows(now);
-  const emptyPeriods = Object.fromEntries(
-    Object.entries(windows).map(([key, value]) => [key, emptyPeriod(value.label, value.start, value.end)])
-  );
+  const history = await fetchFlagCounterHistory(now);
 
-  if (!API_TOKEN || !ACCOUNT_TAG) {
-    await writeAnalytics(await fetchHitsPayload(now, "Pageviews are generated from the public hits.sh counter API."));
-    return;
-  }
-
-  try {
-    const periods = {};
-    for (const [key, value] of Object.entries(windows)) {
-      periods[key] = await queryPeriod(value.label, value.start, value.end);
-    }
-    await writeAnalytics(
-      buildPayload(
-        "ok",
-        now,
-        periods,
-        "Pageviews are generated from Cloudflare Web Analytics beacon data."
-      )
-    );
-  } catch (error) {
-    try {
-      await writeAnalytics(
-        await fetchHitsPayload(now, `Cloudflare Analytics failed (${error.message}); using hits.sh public counter data.`)
-      );
-      return;
-    } catch (fallbackError) {
-      console.error(`hits.sh fallback failed: ${fallbackError.message}`);
-    }
-    await writeAnalytics(
-      buildPayload("error", now, emptyPeriods, error.message, {
-        failedAt: now.toISOString()
-      })
-    );
-    throw error;
-  }
+  await writeAnalytics({
+    schemaVersion: 1,
+    status: "ok",
+    source: "flagcounter-history",
+    host: HOST,
+    timezone: TIMEZONE,
+    generatedAt: now.toISOString(),
+    updatedLabel: formatUpdatedLabel(now),
+    detailsUrl: HISTORY_URL,
+    periods: {
+      today: metric("Today", history.today.pageviews, history.today.visitors, {
+        date: history.today.date
+      }),
+      month: metric("This month", history.month.pageviews, history.month.visitors, {
+        days: history.month.days
+      }),
+      total: metric("Total", history.total.pageviews, history.total.visitors)
+    },
+    message: "Pageviews are generated from FlagCounter History using the Flag Counter Views column."
+  });
 }
 
 main().catch((error) => {

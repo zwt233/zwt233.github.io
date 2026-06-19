@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preconnect" href="https://hits.sh">
+  <link rel="preconnect" href="https://s01.flagcounter.com">
+  <link rel="dns-prefetch" href="//s01.flagcounter.com">
   <link rel="preconnect" href="https://static.cloudflareinsights.com">
   <!-- Cloudflare Web Analytics -->
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"39ba9c3be6c24b3da9be91ebd9495bc0"}'></script>
@@ -1411,7 +1412,7 @@
     }
 
     .profile.has-public-analytics img {
-      height: 302px;
+      height: 342px;
     }
 
     .profile h2 {
@@ -1524,11 +1525,18 @@
     .visitor-analytics-metric {
       background: rgba(255, 255, 255, 0.74);
       border: 1px solid var(--line);
+      color: inherit;
       display: grid;
       gap: 2px;
       min-height: 46px;
       padding: 5px 4px;
       text-align: center;
+      text-decoration: none;
+    }
+
+    .visitor-analytics-metric:hover {
+      border-color: var(--navy);
+      transform: translateY(-1px);
     }
 
     .visitor-analytics-metric b {
@@ -1549,33 +1557,7 @@
       line-height: 1;
     }
 
-    .visitor-detail-links {
-      display: grid;
-      gap: 6px;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .visitor-detail-link {
-      align-items: center;
-      background: rgba(255, 255, 255, 0.76);
-      border: 1px solid var(--line);
-      color: var(--navy);
-      display: inline-flex;
-      font-size: 0.62rem;
-      font-weight: 900;
-      justify-content: center;
-      min-height: 30px;
-      padding: 5px 8px;
-      text-decoration: none;
-      text-transform: uppercase;
-    }
-
-    .visitor-detail-link:hover {
-      border-color: var(--navy);
-      transform: translateY(-1px);
-    }
-
-    .profile img.visitor-hit-tracker {
+    .profile img.visitor-counter-tracker {
       height: 1px;
       left: 0;
       max-width: none;
@@ -2435,20 +2417,16 @@
               <span class="en">Address: Jingyuan Courtyard 6, Peking University, Beijing, China</span>
             </div>
             <div class="visitor-panel">
-              <img class="visitor-hit-tracker" src="https://hits.sh/zwt233.github.io.svg?view=today-total&style=flat-square&label=visits&color=8d1f1f&labelColor=17406f" alt="" aria-hidden="true" width="1" height="1" decoding="async">
+              <img class="visitor-counter-tracker" src="https://s01.flagcounter.com/count2/z9BD/bg_FFFFFF/txt_FFFFFF/border_FFFFFF/columns_1/maxflags_1/viewers_3/labels_0/pageviews_0/flags_0/percent_0/" alt="" aria-hidden="true" width="1" height="1" decoding="async">
               <div class="visitor-analytics" data-analytics-panel hidden>
                 <div class="visitor-analytics-head">
                   <span><span class="zh">浏览量</span><span class="en">Pageviews</span></span>
                   <small data-analytics-updated></small>
                 </div>
                 <div class="visitor-analytics-grid" aria-label="Public website pageviews">
-                  <span class="visitor-analytics-metric" title="Today pageviews"><b data-analytics-value="today">--</b><small><span class="zh">今日</span><span class="en">Today</span></small></span>
-                  <span class="visitor-analytics-metric" title="This month pageviews"><b data-analytics-value="month">--</b><small><span class="zh">本月</span><span class="en">Month</span></small></span>
+                  <a class="visitor-analytics-metric" href="https://flagcounter.com/more30/z9BD" target="_blank" rel="noopener" title="Today pageviews"><b data-analytics-value="today">--</b><small><span class="zh">今日</span><span class="en">Today</span></small></a>
+                  <a class="visitor-analytics-metric" href="https://flagcounter.com/more30/z9BD" target="_blank" rel="noopener" title="This month pageviews"><b data-analytics-value="month">--</b><small><span class="zh">本月</span><span class="en">Month</span></small></a>
                 </div>
-              </div>
-              <div class="visitor-detail-links">
-                <a class="visitor-detail-link" href="https://hits.sh/zwt233.github.io/" target="_blank" rel="noopener"><span class="zh">趋势详情</span><span class="en">Traffic</span></a>
-                <a class="visitor-detail-link" href="https://info.flagcounter.com/z9BD" target="_blank" rel="noopener"><span class="zh">来源详情</span><span class="en">Sources</span></a>
               </div>
             </div>
           </aside>

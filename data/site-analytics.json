@@ -1,45 +1,30 @@
 {
   "schemaVersion": 1,
   "status": "ok",
-  "source": "hits-sh",
+  "source": "flagcounter-history",
   "host": "zwt233.github.io",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-19T11:43:55.079Z",
-  "updatedLabel": "06-19 19:43",
+  "generatedAt": "2026-06-19T12:24:32.498Z",
+  "updatedLabel": "06-19 20:24",
+  "detailsUrl": "https://flagcounter.com/more30/z9BD",
   "periods": {
     "today": {
       "label": "Today",
-      "pageviews": 8,
-      "visits": null,
-      "range": {
-        "start": "2026-06-18T16:00:00.000Z",
-        "end": "2026-06-19T11:43:55.079Z"
-      },
-      "day": "2026-06-19"
+      "pageviews": 47,
+      "visits": 33,
+      "date": "2026-06-19"
     },
     "month": {
       "label": "This month",
-      "pageviews": 851,
-      "visits": null,
-      "range": {
-        "start": "2026-05-31T16:00:00.000Z",
-        "end": "2026-06-19T11:43:55.079Z"
-      }
+      "pageviews": 1756,
+      "visits": 1309,
+      "days": 16
     },
     "total": {
-      "label": "Total hits",
-      "pageviews": 851,
-      "visits": null,
-      "range": {
-        "start": null,
-        "end": "2026-06-19T11:43:55.079Z"
-      }
+      "label": "Total",
+      "pageviews": 1836,
+      "visits": 1318
     }
   },
-  "message": "Pageviews are generated from the public hits.sh counter API.",
-  "detailsUrl": "https://hits.sh/zwt233.github.io/",
-  "countryDetailsUrl": "https://info.flagcounter.com/z9BD",
-  "raw": {
-    "weekly": 50
-  }
+  "message": "Pageviews are generated from FlagCounter History using the Flag Counter Views column."
 }
