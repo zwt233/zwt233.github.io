@@ -3,8 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preconnect" href="https://s01.flagcounter.com">
-  <link rel="dns-prefetch" href="//s01.flagcounter.com">
+  <link rel="preconnect" href="https://hits.sh">
   <link rel="preconnect" href="https://static.cloudflareinsights.com">
   <!-- Cloudflare Web Analytics -->
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"39ba9c3be6c24b3da9be91ebd9495bc0"}'></script>
@@ -1412,7 +1411,7 @@
     }
 
     .profile.has-public-analytics img {
-      height: 216px;
+      height: 302px;
     }
 
     .profile h2 {
@@ -1484,6 +1483,7 @@
       gap: 10px;
       margin-top: 10px;
       padding: 10px 0;
+      position: relative;
     }
 
     .visitor-analytics[hidden] {
@@ -1518,7 +1518,7 @@
     .visitor-analytics-grid {
       display: grid;
       gap: 6px;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .visitor-analytics-metric {
@@ -1526,7 +1526,7 @@
       border: 1px solid var(--line);
       display: grid;
       gap: 2px;
-      min-height: 43px;
+      min-height: 46px;
       padding: 5px 4px;
       text-align: center;
     }
@@ -1549,28 +1549,42 @@
       line-height: 1;
     }
 
-    .visitor-country-tracker {
+    .visitor-detail-links {
+      display: grid;
+      gap: 6px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .visitor-detail-link {
       align-items: center;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-    }
-
-    .visitor-country-frame {
-      aspect-ratio: 198 / 76;
-      background: #fff;
+      background: rgba(255, 255, 255, 0.76);
       border: 1px solid var(--line);
-      display: block;
-      overflow: hidden;
-      width: 100%;
+      color: var(--navy);
+      display: inline-flex;
+      font-size: 0.62rem;
+      font-weight: 900;
+      justify-content: center;
+      min-height: 30px;
+      padding: 5px 8px;
+      text-decoration: none;
+      text-transform: uppercase;
     }
 
-    .visitor-country-frame img {
-      border: 0;
-      display: block;
-      height: auto;
+    .visitor-detail-link:hover {
+      border-color: var(--navy);
+      transform: translateY(-1px);
+    }
+
+    .profile img.visitor-hit-tracker {
+      height: 1px;
+      left: 0;
       max-width: none;
-      width: 100%;
+      object-fit: contain;
+      opacity: 0;
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      width: 1px;
     }
 
     .stats {
@@ -2421,6 +2435,7 @@
               <span class="en">Address: Jingyuan Courtyard 6, Peking University, Beijing, China</span>
             </div>
             <div class="visitor-panel">
+              <img class="visitor-hit-tracker" src="https://hits.sh/zwt233.github.io.svg?view=today-total&style=flat-square&label=visits&color=8d1f1f&labelColor=17406f" alt="" aria-hidden="true" width="1" height="1" decoding="async">
               <div class="visitor-analytics" data-analytics-panel hidden>
                 <div class="visitor-analytics-head">
                   <span><span class="zh">浏览量</span><span class="en">Pageviews</span></span>
@@ -2429,14 +2444,12 @@
                 <div class="visitor-analytics-grid" aria-label="Public website pageviews">
                   <span class="visitor-analytics-metric" title="Today pageviews"><b data-analytics-value="today">--</b><small><span class="zh">今日</span><span class="en">Today</span></small></span>
                   <span class="visitor-analytics-metric" title="This month pageviews"><b data-analytics-value="month">--</b><small><span class="zh">本月</span><span class="en">Month</span></small></span>
-                  <span class="visitor-analytics-metric" title="Total pageviews"><b data-analytics-value="total">--</b><small><span class="zh">总计</span><span class="en">Total</span></small></span>
                 </div>
               </div>
-              <a class="visitor-country-tracker" href="https://info.flagcounter.com/z9BD" target="_blank" rel="noopener" title="Visitor countries and regions">
-                <span class="visitor-country-frame">
-                  <img src="https://s01.flagcounter.com/count2/z9BD/bg_FFFFFF/txt_000000/border_FFFFFF/columns_2/maxflags_10/viewers_3/labels_1/pageviews_0/flags_1/percent_0/" alt="Visitor countries and regions" width="198" height="98" decoding="async" loading="eager">
-                </span>
-              </a>
+              <div class="visitor-detail-links">
+                <a class="visitor-detail-link" href="https://hits.sh/zwt233.github.io/" target="_blank" rel="noopener"><span class="zh">趋势详情</span><span class="en">Traffic</span></a>
+                <a class="visitor-detail-link" href="https://info.flagcounter.com/z9BD" target="_blank" rel="noopener"><span class="zh">来源详情</span><span class="en">Sources</span></a>
+              </div>
             </div>
           </aside>
         </section>

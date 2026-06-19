@@ -6,6 +6,8 @@ const API_TOKEN = process.env.CLOUDFLARE_API_TOKEN || "";
 const ACCOUNT_TAG = process.env.CLOUDFLARE_ACCOUNT_ID || process.env.CLOUDFLARE_ACCOUNT_TAG || "";
 const HOST = process.env.CLOUDFLARE_ANALYTICS_HOST || "zwt233.github.io";
 const SITE_TOKEN = process.env.CLOUDFLARE_SITE_TOKEN || "39ba9c3be6c24b3da9be91ebd9495bc0";
+const HITS_URN = process.env.HITS_ANALYTICS_URN || HOST;
+const HITS_API_ENDPOINT = process.env.HITS_ANALYTICS_API || `https://hits.sh/api/urns/${encodeURI(HITS_URN)}`;
 const OUTPUT = process.env.ANALYTICS_OUTPUT || "data/site-analytics.json";
 const TIMEZONE = process.env.ANALYTICS_TIMEZONE || "Asia/Shanghai";
 const TOTAL_DAYS = Number(process.env.ANALYTICS_TOTAL_DAYS || 180);
@@ -58,6 +60,11 @@ function formatUpdatedLabel(date) {
   return `${String(parts.month).padStart(2, "0")}-${String(parts.day).padStart(2, "0")} ${String(parts.hour).padStart(2, "0")}:${String(parts.minute).padStart(2, "0")}`;
 }
 
+function formatDateLabel(date) {
+  const parts = datePartsInShanghai(date);
+  return `${String(parts.year).padStart(4, "0")}-${String(parts.month).padStart(2, "0")}-${String(parts.day).padStart(2, "0")}`;
+}
+
 function emptyPeriod(label, start, end) {
   return {
     label,
@@ -87,13 +94,26 @@ function buildPayload(status, now, periods, message, extra = {}) {
   return {
     schemaVersion: 1,
     status,
-    source: "cloudflare-web-analytics",
+    source: extra.source || "cloudflare-web-analytics",
     host: HOST,
     timezone: TIMEZONE,
     generatedAt: status === "ok" ? now.toISOString() : null,
     updatedLabel: status === "ok" ? formatUpdatedLabel(now) : "",
     periods,
     message,
+    ...extra
+  };
+}
+
+function metricPeriod(label, pageviews, start, end, extra = {}) {
+  return {
+    label,
+    pageviews,
+    visits: null,
+    range: {
+      start: start ? start.toISOString() : null,
+      end: end ? end.toISOString() : null
+    },
     ...extra
   };
 }
@@ -227,6 +247,50 @@ async function queryPeriod(label, start, end) {
   };
 }
 
+async function fetchHitsPayload(now, reason) {
+  const response = await fetch(HITS_API_ENDPOINT, {
+    headers: {
+      Accept: "application/json"
+    }
+  });
+  if (!response.ok) {
+    throw new Error(`hits.sh HTTP ${response.status}`);
+  }
+
+  const data = await response.json();
+  const windows = periodWindows(now);
+  const todayLabel = formatDateLabel(now);
+  const todayItems = data.items?.flatMap((item) => item.data || []) || [];
+  const todayValue = todayItems.find((item) => item.day === todayLabel)?.value ?? 0;
+  const monthValue = Number(data.monthly);
+  const totalValue = Number(data.total);
+
+  if (!Number.isFinite(monthValue) || !Number.isFinite(totalValue)) {
+    throw new Error("hits.sh response did not include numeric monthly/total metrics");
+  }
+
+  return buildPayload(
+    "ok",
+    now,
+    {
+      today: metricPeriod("Today", Number(todayValue) || 0, windows.today.start, windows.today.end, {
+        day: todayLabel
+      }),
+      month: metricPeriod("This month", monthValue, windows.month.start, windows.month.end),
+      total: metricPeriod(`Total hits`, totalValue, null, windows.total.end)
+    },
+    reason || "Pageviews are generated from the public hits.sh counter API.",
+    {
+      source: "hits-sh",
+      detailsUrl: `https://hits.sh/${HITS_URN}/`,
+      countryDetailsUrl: "https://info.flagcounter.com/z9BD",
+      raw: {
+        weekly: Number(data.weekly) || 0
+      }
+    }
+  );
+}
+
 async function main() {
   const now = new Date();
   const windows = periodWindows(now);
@@ -235,14 +299,7 @@ async function main() {
   );
 
   if (!API_TOKEN || !ACCOUNT_TAG) {
-    await writeAnalytics(
-      buildPayload(
-        "pending_setup",
-        now,
-        stableEmptyPeriods(),
-        "Cloudflare Analytics sync is waiting for CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID."
-      )
-    );
+    await writeAnalytics(await fetchHitsPayload(now, "Pageviews are generated from the public hits.sh counter API."));
     return;
   }
 
@@ -260,6 +317,14 @@ async function main() {
       )
     );
   } catch (error) {
+    try {
+      await writeAnalytics(
+        await fetchHitsPayload(now, `Cloudflare Analytics failed (${error.message}); using hits.sh public counter data.`)
+      );
+      return;
+    } catch (fallbackError) {
+      console.error(`hits.sh fallback failed: ${fallbackError.message}`);
+    }
     await writeAnalytics(
       buildPayload("error", now, emptyPeriods, error.message, {
         failedAt: now.toISOString()

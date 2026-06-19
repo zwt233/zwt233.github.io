@@ -1,39 +1,45 @@
 {
   "schemaVersion": 1,
-  "status": "pending_setup",
-  "source": "cloudflare-web-analytics",
+  "status": "ok",
+  "source": "hits-sh",
   "host": "zwt233.github.io",
   "timezone": "Asia/Shanghai",
-  "generatedAt": null,
-  "updatedLabel": "",
+  "generatedAt": "2026-06-19T11:43:55.079Z",
+  "updatedLabel": "06-19 19:43",
   "periods": {
     "today": {
       "label": "Today",
-      "pageviews": null,
+      "pageviews": 8,
       "visits": null,
       "range": {
-        "start": null,
-        "end": null
-      }
+        "start": "2026-06-18T16:00:00.000Z",
+        "end": "2026-06-19T11:43:55.079Z"
+      },
+      "day": "2026-06-19"
     },
     "month": {
       "label": "This month",
-      "pageviews": null,
+      "pageviews": 851,
       "visits": null,
       "range": {
-        "start": null,
-        "end": null
+        "start": "2026-05-31T16:00:00.000Z",
+        "end": "2026-06-19T11:43:55.079Z"
       }
     },
     "total": {
-      "label": "Last 180 days",
-      "pageviews": null,
+      "label": "Total hits",
+      "pageviews": 851,
       "visits": null,
       "range": {
         "start": null,
-        "end": null
+        "end": "2026-06-19T11:43:55.079Z"
       }
     }
   },
-  "message": "Cloudflare Analytics sync is waiting for CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID."
+  "message": "Pageviews are generated from the public hits.sh counter API.",
+  "detailsUrl": "https://hits.sh/zwt233.github.io/",
+  "countryDetailsUrl": "https://info.flagcounter.com/z9BD",
+  "raw": {
+    "weekly": 50
+  }
 }

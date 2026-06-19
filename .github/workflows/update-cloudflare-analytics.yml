@@ -1,9 +1,9 @@
-name: Update Cloudflare Analytics
+name: Update Public Analytics
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "17 * * * *"
 
 permissions:
   contents: write
@@ -22,6 +22,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_ANALYTICS_HOST: zwt233.github.io
           CLOUDFLARE_SITE_TOKEN: 39ba9c3be6c24b3da9be91ebd9495bc0
+          HITS_ANALYTICS_URN: zwt233.github.io
 
       - name: Commit analytics data
         run: |
