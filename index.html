@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://s01.flagcounter.com">
   <link rel="dns-prefetch" href="//s01.flagcounter.com">
+  <link rel="preconnect" href="https://r.jina.ai">
+  <link rel="dns-prefetch" href="//r.jina.ai">
   <link rel="preconnect" href="https://static.cloudflareinsights.com">
   <!-- Cloudflare Web Analytics -->
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"39ba9c3be6c24b3da9be91ebd9495bc0"}'></script>
@@ -3521,6 +3523,23 @@
     var analyticsPanel = document.querySelector("[data-analytics-panel]");
     var analyticsUpdated = document.querySelector("[data-analytics-updated]");
     var analyticsValues = document.querySelectorAll("[data-analytics-value]");
+    var analyticsTimezone = "Asia/Shanghai";
+    var flagCounterHistoryUrl = "https://flagcounter.com/more30/z9BD";
+    var flagCounterReaderBase = "https://r.jina.ai/http://r.jina.ai/http://";
+    var monthNames = {
+      January: 1,
+      February: 2,
+      March: 3,
+      April: 4,
+      May: 5,
+      June: 6,
+      July: 7,
+      August: 8,
+      September: 9,
+      October: 10,
+      November: 11,
+      December: 12
+    };
 
     function syncAwardsHeights() {
       if (!awardsCard || !serviceCard) return;
@@ -3574,6 +3593,158 @@
       return number.toLocaleString("en-US");
     }
 
+    function datePartsInAnalyticsTimezone(date) {
+      var formatter = new Intl.DateTimeFormat("en-US", {
+        timeZone: analyticsTimezone,
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false
+      });
+      var parts = {};
+      formatter.formatToParts(date).forEach(function (part) {
+        parts[part.type] = part.value;
+      });
+      return {
+        year: Number(parts.year),
+        month: Number(parts.month),
+        day: Number(parts.day),
+        hour: Number(parts.hour),
+        minute: Number(parts.minute)
+      };
+    }
+
+    function localAnalyticsDate(parts) {
+      return [
+        String(parts.year).padStart(4, "0"),
+        String(parts.month).padStart(2, "0"),
+        String(parts.day).padStart(2, "0")
+      ].join("-");
+    }
+
+    function formatAnalyticsUpdatedLabel(date) {
+      var parts = datePartsInAnalyticsTimezone(date);
+      return String(parts.month).padStart(2, "0") + "-"
+        + String(parts.day).padStart(2, "0") + " "
+        + String(parts.hour).padStart(2, "0") + ":"
+        + String(parts.minute).padStart(2, "0");
+    }
+
+    function analyticsMetric(label, pageviews, visits, extra) {
+      var metric = {
+        label: label,
+        pageviews: pageviews,
+        visits: visits
+      };
+      Object.keys(extra || {}).forEach(function (key) {
+        metric[key] = extra[key];
+      });
+      return metric;
+    }
+
+    function normalizeFlagCounterText(value) {
+      return String(value || "")
+        .replace(/!\[[^\]]*\]\([^)]+\)/g, " ")
+        .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+        .replace(/<[^>]*>/g, " ")
+        .replace(/&nbsp;/g, " ")
+        .replace(/&raquo;/g, "»")
+        .replace(/&copy;/g, "©")
+        .replace(/&amp;/g, "&")
+        .replace(/&lt;/g, "<")
+        .replace(/&gt;/g, ">")
+        .replace(/&quot;/g, "\"")
+        .replace(/[*_#|]+/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+    }
+
+    function parseFlagCounterHistory(value, now) {
+      var text = normalizeFlagCounterText(value);
+      var todayParts = datePartsInAnalyticsTimezone(now);
+      var todayDate = localAnalyticsDate(todayParts);
+      var rows = [];
+      var todayMatch = text.match(/\bToday\s+(\d+)\s+(\d+)/i);
+
+      if (todayMatch) {
+        rows.push({
+          label: "Today",
+          date: todayDate,
+          year: todayParts.year,
+          month: todayParts.month,
+          day: todayParts.day,
+          visits: Number(todayMatch[1]),
+          pageviews: Number(todayMatch[2])
+        });
+      }
+
+      text.replace(/\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),\s+(\d{4})\s+(\d+)\s+(\d+)/g, function (_, monthName, day, year, visits, pageviews) {
+        var month = monthNames[monthName];
+        if (!month) return "";
+        var parts = {
+          year: Number(year),
+          month: month,
+          day: Number(day)
+        };
+        rows.push({
+          label: monthName + " " + day + ", " + year,
+          date: localAnalyticsDate(parts),
+          year: parts.year,
+          month: parts.month,
+          day: parts.day,
+          visits: Number(visits),
+          pageviews: Number(pageviews)
+        });
+        return "";
+      });
+
+      var today = rows.find(function (row) {
+        return row.date === todayDate;
+      }) || rows[0];
+      var monthRows = rows.filter(function (row) {
+        return row.year === todayParts.year && row.month === todayParts.month;
+      });
+      var monthPageviews = monthRows.reduce(function (sum, row) {
+        return sum + row.pageviews;
+      }, 0);
+      var monthVisits = monthRows.reduce(function (sum, row) {
+        return sum + row.visits;
+      }, 0);
+      var totalMatch = text.match(/This counter has been viewed\s+([\d,]+)\s+times by\s+([\d,]+)\s+visitor/i);
+
+      if (!today || !Number.isFinite(today.pageviews) || monthRows.length === 0) {
+        throw new Error("FlagCounter history is not ready");
+      }
+
+      return {
+        schemaVersion: 1,
+        status: "ok",
+        source: "flagcounter-history-live",
+        host: "zwt233.github.io",
+        timezone: analyticsTimezone,
+        generatedAt: now.toISOString(),
+        updatedLabel: formatAnalyticsUpdatedLabel(now),
+        detailsUrl: flagCounterHistoryUrl,
+        live: true,
+        periods: {
+          today: analyticsMetric("Today", today.pageviews, today.visits, {
+            date: today.date
+          }),
+          month: analyticsMetric("This month", monthPageviews, monthVisits, {
+            days: monthRows.length
+          }),
+          total: analyticsMetric(
+            "Total",
+            totalMatch ? Number(totalMatch[1].replace(/,/g, "")) : null,
+            totalMatch ? Number(totalMatch[2].replace(/,/g, "")) : null
+          )
+        },
+        message: "Live pageviews are parsed from FlagCounter History through a CORS-enabled reader."
+      };
+    }
+
     function renderPublicAnalytics(data) {
       if (!analyticsPanel || !profileCard) return;
       var isReady = data && data.status === "ok" && data.periods;
@@ -3593,10 +3764,39 @@
       });
 
       if (analyticsUpdated) {
+        var zhPrefix = data.live ? "实时 " : "更新 ";
+        var enPrefix = data.live ? "Live " : "Updated ";
         analyticsUpdated.textContent = currentLang() === "zh"
-          ? "更新 " + (data.updatedLabel || "")
-          : "Updated " + (data.updatedLabel || "");
+          ? zhPrefix + (data.updatedLabel || "")
+          : enPrefix + (data.updatedLabel || "");
       }
+    }
+
+    function fetchTextWithTimeout(url, timeout) {
+      var controller = new AbortController();
+      var timer = window.setTimeout(function () {
+        controller.abort();
+      }, timeout);
+      return fetch(url, {
+        cache: "no-store",
+        signal: controller.signal
+      }).then(function (response) {
+        window.clearTimeout(timer);
+        if (!response.ok) {
+          throw new Error("HTTP " + response.status);
+        }
+        return response.text();
+      }).catch(function (error) {
+        window.clearTimeout(timer);
+        throw error;
+      });
+    }
+
+    function loadLivePublicAnalytics() {
+      var liveUrl = flagCounterReaderBase + flagCounterHistoryUrl + "?live=" + Date.now();
+      return fetchTextWithTimeout(liveUrl, 12000).then(function (text) {
+        return parseFlagCounterHistory(text, new Date());
+      });
     }
 
     function loadPublicAnalytics() {
@@ -3604,11 +3804,26 @@
       fetch("data/site-analytics.json?v=" + Date.now(), { cache: "no-store" })
         .then(function (response) { return response.ok ? response.json() : null; })
         .then(function (data) {
+          if (!window.publicAnalyticsData || !window.publicAnalyticsData.live) {
+            window.publicAnalyticsData = data;
+            renderPublicAnalytics(data);
+          }
+        })
+        .catch(function () {
+          if (!window.publicAnalyticsData) {
+            renderPublicAnalytics(null);
+          }
+        });
+
+      loadLivePublicAnalytics()
+        .then(function (data) {
           window.publicAnalyticsData = data;
           renderPublicAnalytics(data);
         })
         .catch(function () {
-          renderPublicAnalytics(null);
+          if (!window.publicAnalyticsData) {
+            renderPublicAnalytics(null);
+          }
         });
     }
 
