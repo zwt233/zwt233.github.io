@@ -2423,7 +2423,6 @@
               <div class="visitor-analytics" data-analytics-panel hidden>
                 <div class="visitor-analytics-head">
                   <span><span class="zh">浏览量</span><span class="en">Pageviews</span></span>
-                  <small data-analytics-updated></small>
                 </div>
                 <div class="visitor-analytics-grid" aria-label="Public website pageviews">
                   <a class="visitor-analytics-metric" href="https://flagcounter.com/more30/z9BD" target="_blank" rel="noopener" title="Today pageviews"><b data-analytics-value="today">--</b><small><span class="zh">今日</span><span class="en">Today</span></small></a>
@@ -3521,11 +3520,11 @@
     var ecosystemActiveItem = null;
     var profileCard = document.querySelector("[data-profile-card]");
     var analyticsPanel = document.querySelector("[data-analytics-panel]");
-    var analyticsUpdated = document.querySelector("[data-analytics-updated]");
     var analyticsValues = document.querySelectorAll("[data-analytics-value]");
     var analyticsTimezone = "Asia/Shanghai";
     var flagCounterHistoryUrl = "https://flagcounter.com/more30/z9BD";
     var flagCounterReaderBase = "https://r.jina.ai/http://r.jina.ai/http://";
+    var liveAnalyticsRefreshTimer = null;
     var monthNames = {
       January: 1,
       February: 2,
@@ -3763,13 +3762,6 @@
           : "Pageviews: " + formatAnalyticsValue(pageviews);
       });
 
-      if (analyticsUpdated) {
-        var zhPrefix = data.live ? "实时 " : "更新 ";
-        var enPrefix = data.live ? "Live " : "Updated ";
-        analyticsUpdated.textContent = currentLang() === "zh"
-          ? zhPrefix + (data.updatedLabel || "")
-          : enPrefix + (data.updatedLabel || "");
-      }
     }
 
     function fetchTextWithTimeout(url, timeout) {
@@ -3794,37 +3786,46 @@
 
     function loadLivePublicAnalytics() {
       var liveUrl = flagCounterReaderBase + flagCounterHistoryUrl + "?live=" + Date.now();
-      return fetchTextWithTimeout(liveUrl, 12000).then(function (text) {
+      return fetchTextWithTimeout(liveUrl, 20000).then(function (text) {
         return parseFlagCounterHistory(text, new Date());
       });
     }
 
-    function loadPublicAnalytics() {
-      if (!analyticsPanel) return;
-      fetch("data/site-analytics.json?v=" + Date.now(), { cache: "no-store" })
+    function loadCachedPublicAnalytics() {
+      return fetch("data/site-analytics.json?v=" + Date.now(), { cache: "no-store" })
         .then(function (response) { return response.ok ? response.json() : null; })
         .then(function (data) {
           if (!window.publicAnalyticsData || !window.publicAnalyticsData.live) {
             window.publicAnalyticsData = data;
             renderPublicAnalytics(data);
           }
-        })
-        .catch(function () {
-          if (!window.publicAnalyticsData) {
-            renderPublicAnalytics(null);
-          }
         });
+    }
 
-      loadLivePublicAnalytics()
+    function refreshLivePublicAnalytics(allowCachedFallback) {
+      return loadLivePublicAnalytics()
         .then(function (data) {
           window.publicAnalyticsData = data;
           renderPublicAnalytics(data);
         })
         .catch(function () {
-          if (!window.publicAnalyticsData) {
-            renderPublicAnalytics(null);
+          if (allowCachedFallback && (!window.publicAnalyticsData || !window.publicAnalyticsData.live)) {
+            return loadCachedPublicAnalytics().catch(function () {
+              renderPublicAnalytics(null);
+            });
           }
+          return null;
         });
+    }
+
+    function loadPublicAnalytics() {
+      if (!analyticsPanel) return;
+      refreshLivePublicAnalytics(true);
+      if (!liveAnalyticsRefreshTimer) {
+        liveAnalyticsRefreshTimer = window.setInterval(function () {
+          refreshLivePublicAnalytics(false);
+        }, 30000);
+      }
     }
 
     function ecosystemValue(item, name) {
