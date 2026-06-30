@@ -4,26 +4,26 @@
   "source": "flagcounter-history",
   "host": "zwt233.github.io",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-06-30T17:27:56.607Z",
-  "updatedLabel": "07-01 01:27",
+  "generatedAt": "2026-06-30T19:16:56.969Z",
+  "updatedLabel": "07-01 03:16",
   "detailsUrl": "https://flagcounter.com/more30/z9BD",
   "periods": {
     "today": {
       "label": "Today",
-      "pageviews": 117,
-      "visits": 74,
+      "pageviews": 121,
+      "visits": 77,
       "date": "2026-07-01"
     },
     "month": {
       "label": "This month",
-      "pageviews": 117,
-      "visits": 74,
+      "pageviews": 121,
+      "visits": 77,
       "days": 1
     },
     "total": {
       "label": "Total",
-      "pageviews": 2963,
-      "visits": 2099
+      "pageviews": 2967,
+      "visits": 2102
     }
   },
   "message": "Pageviews are generated from FlagCounter History using the Flag Counter Views column."
