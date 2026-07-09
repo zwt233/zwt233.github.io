@@ -27,11 +27,10 @@ author_profile: true
 2026
 ====
 1.  *Variational Co-Evolution via Reinforcement Learning.* <br>
-    Qiahao Zheng, Hancong Jin, Junbo Niu, Yinjie Wang, **Wentao Zhang<sup>#</sup>**, Ruixun Zhang<br>
+    Qiahao Zheng, Hancong Jin, Junbo Niu, Yinjie Wang, **Wentao Zhang**, Ruixun Zhang<br>
     ***COLM 2026***.
 
 1.  *Aligning Condensed Graph via Hashing: A New Insight for Federated Graph Learning.* <br>
-    Zhenfeng Zhu, ..., **Wentao Zhang**, ...<br>
     ***IEEE TPAMI 2026, CCF-A***.
 
 1.  *CoF-T2I: Video Models as Pure Visual Reasoners for Text-to-Image Generation.* <br>
