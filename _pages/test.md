@@ -120,7 +120,7 @@ A Summary of My Research on **Large-scale Graph Learning**:
 * **2021-07**: One paper as co-first author, related to deep GNN, has been accepted by the journal ***TKDE 2021***.
 * **2021-06**: One paper as third author, related to our AutoML system -- [VocalnoML](https://github.com/PKU-DAIR/soln-ml), has been accepted by the conference ***VLDB 2021***.
 * **2021-05**: Three papers, related to sparse graph, graph decomposition and our blackbox optimization (BBO) system -- [OpenBox](https://open-box.readthedocs.io/en/latest/), are accepted by the conference ***SIGKDD 2021***.
-* **2021-03**: As the only person in China, I was supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). Many thanks to Apple!
+* **2021-03**: As the only person in China, I was selected as an [Apple Scholar in AI/ML](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). Many thanks to Apple!
 * **2021-03**: One paper as first author has been accepted by the conference ***SIGMOD 2021***. Looking forward to the meeting in Xi'an this summer!  
 
 Contributed Open-source Projects
@@ -153,7 +153,7 @@ Selected Awards
 16. [The Big Data Expo Leading Technology Achievement Award](https://mp.weixin.qq.com/s/TlNywcR4pCl1c84KLTpeNA), China International Big Data Industry Expo (Angel Graph project), 2022
 15. Candidate of [People of the Year](https://mp.weixin.qq.com/s/zEcwHYsjqLhTsCDTnS-fsA) **(1 people in EECS, and 42 people in PKU)**, 2021
 14. [Merit Student of Beijing](https://xgb.pku.edu.cn/sylm/133002.htm) **(2 people in EECS, and 58 people in PKU)**, 2021
-13. [Apple PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021) **(1 people in China, and 15 people in the world)**, 2021
+13. [Apple Scholar in AI/ML](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021) **(1 person in China, and 15 people in the world)**, 2021
 11. National Scholarship **(Top 1% in PKU)**, 2019, 2021
 8. [Baidu Scholarship Nominee](http://scholarship.baidu.com/) **(20 people in the world)**, 2021
   

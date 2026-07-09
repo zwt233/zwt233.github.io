@@ -124,6 +124,9 @@ Research Interests
 
 **<font color=red>What's New</font>**
 ------
+* **2026-07**: One paper is accepted by ***COLM 2026***: ***Variational Co-Evolution via Reinforcement Learning***.
+* **2026-07**: One paper is accepted by ***IEEE TPAMI***: ***Aligning Condensed Graph via Hashing: A New Insight for Federated Graph Learning***.
+* **2026-06**: I am awarded ***[Special Prize of Guangdong Science and Technology Progress Award](https://www.sme-gov.cn/guangdong-news-173213.html)（广东省科技进步特等奖）***.
 * **2026-05**: 4 Papers are accepted by ***ICML 2026***.
 * **2026-04**: 1 Papers is accepted by ***ACL 2026 Industry Track***.
 * **2026-04**: 11 Papers are accepted by ***ACL 2026 Findings***.
@@ -226,7 +229,7 @@ Research Interests
 * **2021-07**: One paper as co-first author, related to deep GNN, has been accepted by the journal ***TKDE 2021***.
 * **2021-06**: One paper as third author, related to our AutoML system -- [VocalnoML](https://github.com/PKU-DAIR/soln-ml), has been accepted by the conference ***VLDB 2021***.
 * **2021-05**: Three papers, related to sparse graph, graph decomposition and our blackbox optimization (BBO) system -- [OpenBox](https://open-box.readthedocs.io/en/latest/), are accepted by the conference ***SIGKDD 2021***.
-* **2021-03**: As the only person in China, I was supported by the [Apple Scholars in AI/ML PhD fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). Many thanks to Apple!
+* **2021-03**: As the only person in China, I was selected as an [Apple Scholar in AI/ML](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021). Many thanks to Apple!
 * **2021-03**: One paper as first author has been accepted by the conference ***SIGMOD 2021***. Looking forward to the meeting in Xi'an this summer!  
 
 </details>
@@ -250,6 +253,7 @@ Contributed Open-source Projects
   
 Selected Awards
 ------
+24. [Special Prize of Guangdong Science and Technology Progress Award](https://www.sme-gov.cn/guangdong-news-173213.html)（广东省科技进步特等奖）, 2026.
 24. [Pujiang Young Scholar](https://www.shlab.org.cn/news/5444242)（浦江青年学者）, 2026.
 24. [Zhiyuan Scholar](https://kw.beijing.gov.cn/xwdt/kcyx/xwdtshgg/202602/t20260212_4510418.html)（智源学者）, 2026.
 24. [ACM SIGMOD China Rising Star Award](https://china.acm.org/awards.html)（ACM SIGMOD中国新星奖）, 2025.
@@ -267,7 +271,7 @@ Selected Awards
 19. [Outstanding Graduate of Beijing](https://xgb.pku.edu.cn/docs/2022-06/20220606163325764115.pdf), China, 2022
 16. [The Big Data Expo Leading Technology Achievement Award](https://mp.weixin.qq.com/s/TlNywcR4pCl1c84KLTpeNA), China International Big Data Industry Expo (Angel Graph project), 2022
 14. [Merit Student of Beijing](https://xgb.pku.edu.cn/sylm/133002.htm) **(2 people in EECS, and 58 people in PKU)**, 2021
-13. [Apple PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021) **(1 people in China, and 15 people in the world)**, 2021
+13. [Apple Scholar in AI/ML](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021) **(1 person in China, and 15 people in the world)**, 2021
 
   
 <!-- 21. [Outstanding Doctoral Dissertation Award](https://jw.beijing.gov.cn/kyc/tzgg_15522/202311/t20231124_3309126.html), Beijing **(Sole winner in PKU CS, and 104 people in Beijing)**, 2023

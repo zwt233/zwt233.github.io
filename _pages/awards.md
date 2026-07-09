@@ -8,6 +8,7 @@ author_profile: true
 
 Honors and Awards
 ------
+25. [Special Prize of Guangdong Science and Technology Progress Award](https://www.sme-gov.cn/guangdong-news-173213.html)（广东省科技进步特等奖）, 2026.
 24. [Rising Star](https://mp.weixin.qq.com/s/Lecza9L8zgZYDPdKpkP2XA) (云帆奖-明日之星), World AI Conference, 2022.
 23. 🏆 [Best Student Paper Award](https://www2022.thewebconf.org/awards/) of ***WWW 2022*** (1/1822, the second WWW Best Student Paper from China), 2022
 22. [IVADO Postdoctoral Fellowship](https://ivado.ca/en/scholarships-and-grants/postdoctoral-research-funding/), Canada
@@ -19,7 +20,7 @@ Honors and Awards
 16. [The Big Data Expo Leading Technology Achievement Award](https://mp.weixin.qq.com/s/TlNywcR4pCl1c84KLTpeNA), China International Big Data Industry Expo (Angel Graph project), 2022
 15. Candidate of [People of the Year](https://mp.weixin.qq.com/s/zEcwHYsjqLhTsCDTnS-fsA) **(1 people in EECS, and 42 people in PKU)**, 2021
 14. [Merit Student of Beijing](https://xgb.pku.edu.cn/sylm/133002.htm) **(2 people in EECS, and 58 people in PKU)**, 2021
-13. [Apple PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021) **(1 people in China, and 15 people in the world)**, 2021
+13. [Apple Scholar in AI/ML](https://machinelearning.apple.com/updates/apple-scholars-aiml-2021) **(1 person in China, and 15 people in the world)**, 2021
 12. Open Source Collaborative Innovation Award of Tencent (Angel Graph project), 2021
 11. National Scholarship **(Top 1% in PKU)**, 2021
 10. Pacemaker to Merit Student **(Top 1% in PKU)**, 2021
