@@ -26,6 +26,22 @@ author_profile: true
 
 2026
 ====
+1.  *DeltaUI: Framework-Normalized UI State Transition Modeling for Multi-Task Front-End Engineering.* <br>
+    Jiaye Lin, Zhongxu Guan, Huanyao Zhang, Zonghao Ying, Yuehan Zhang, Bohan Zeng, Jiepeng Zhou, Peilin Zhao, **Wentao Zhang**<br>
+    ***ACM MM 2026, CCF-A***.
+
+1.  *Human-Centric Image Captioning with Subject-Centered Spatial Understanding.* <br>
+    Bozhou Li, Jiahang Zhang, Yue Ding, Yushuo Guan, Bohan Zeng, Yiyan Ji, Xinlong Chen, Yang Shi, Yifan Dai, Yuran Wang, Chengzhuo Tong, Pengfei Wan, Yuanxing Zhang, **Wentao Zhang**<br>
+    ***ACM MM 2026, CCF-A***.
+
+1.  *EduFlow: Advancing MLLMs' Problem-Solving Proficiency through Multi-Stage, Multi-Perspective Critique.* <br>
+    ChengLin Zhu, Tao Zhang, Chong Li, Mingan Lin, **Wentao Zhang**, Zenan Zhou<br>
+    ***ACM MM 2026, CCF-A***.
+
+1.  *Canvas-of-Thought: Grounding Mathematical Reasoning via Mutable Structured States.* <br>
+    Linzhuang Sun, Yuxia Zhu, Ruitong Liu, Hao Liang, Sizhe Qiu, Zheng Sun, Caijun Jia, Honghao He, Yuchen Wu, Siyuan Li, Jingxuan Wei, Xiangxiang Zhang, Bihui Yu, **Wentao Zhang**<br>
+    ***ACM MM 2026, CCF-A***.
+
 1.  *Variational Co-Evolution via Reinforcement Learning.* <br>
     Qiahao Zheng, Hancong Jin, Junbo Niu, Yinjie Wang, **Wentao Zhang**, Ruixun Zhang<br>
     ***COLM 2026***.
