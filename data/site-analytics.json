@@ -4,25 +4,25 @@
   "source": "flagcounter-history",
   "host": "zwt233.github.io",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-18T11:15:13.879Z",
-  "updatedLabel": "07-18 19:15",
+  "generatedAt": "2026-07-18T12:05:01.817Z",
+  "updatedLabel": "07-18 20:05",
   "detailsUrl": "https://flagcounter.com/more30/z9BD",
   "periods": {
     "today": {
       "label": "Today",
-      "pageviews": 26,
+      "pageviews": 30,
       "visits": 21,
       "date": "2026-07-18"
     },
     "month": {
       "label": "This month",
-      "pageviews": 1470,
+      "pageviews": 1474,
       "visits": 1075,
       "days": 17
     },
     "total": {
       "label": "Total",
-      "pageviews": 4442,
+      "pageviews": 4446,
       "visits": 3181
     }
   },
