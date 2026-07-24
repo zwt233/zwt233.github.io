@@ -24,12 +24,6 @@ author_profile: true
 
 <script defer src="/assets/js/publications-interactive.js?v=20260516-dcai"></script>
 
-2027
-====
-1.  *Retrofitting Temporal GNN Training with Decoder-Only Transformers on Large-Scale Graphs.* <br>
-    Qiang Huang, Ke Liu, Liang Deng, Xiao Yan, Chuang Hu, Quanqing Xu, **Wentao Zhang**, Jiawei Jiang<br>
-    ***ESWA 2027***.
-
 2026
 ====
 1.  *DeltaUI: Framework-Normalized UI State Transition Modeling for Multi-Task Front-End Engineering.* <br>
@@ -53,16 +47,7 @@ author_profile: true
     ***COLM 2026***.
 
 1.  *Aligning Condensed Graph via Hashing: A New Insight for Federated Graph Learning.* <br>
-    Yeyu Yan, Shuai Zheng, Zhenfeng Zhu, Dong Chen, **Wentao Zhang**, Yawei Zhao, Kunlun He, Yao Zhao<br>
     ***IEEE TPAMI 2026, CCF-A***.
-
-1.  *SAS-bench: A fine-grained benchmark for evaluating short answer scoring with large language models.* <br>
-    Peichao Lai, Kexuan Zhang, Yi Lin, Linyihan Zhang, Feiyang Ye, Jinhao Yan, Yanwei Xu, Conghui He, **Wentao Zhang**, Yilei Wang, Bin Cui<br>
-    ***Neural Networks 2026***.
-
-1.  *A comprehensive survey on imbalanced data learning.* <br>
-    Xinyi Gao, Dongting Xie, Yihang Zhang, Zhengren Wang, Chong Chen, Conghui He, Hongzhi Yin, **Wentao Zhang**<br>
-    ***FCS 2026***.
 
 1.  *CoF-T2I: Video Models as Pure Visual Reasoners for Text-to-Image Generation.* <br>
     Chengzhuo Tong, Mingkun Chang, ..., Yuanxing Zhang, **Wentao Zhang<sup>#</sup>**<br>
@@ -116,7 +101,7 @@ author_profile: true
     Han Weng, Zhou Liu, Yuanfeng SONG, Xiaoming Yin, Xing Chen, **Wentao Zhang<sup>#</sup>**<br>
     ***ACL 2026, CCF-A***.
 
-1.  *AgenticRAGTracer: A Hop-Aware Benchmark for Diagnosing Multi-Step Retrieval Reasoning in Agentic RAG.* <br>
+1.  *AgenticRAGTracer: A Clear and Stepwise-Process Benchmark for Agentic RAG.* <br>
     Qijie You, Wenkai Yu, Hao Liang, Zhen Hao Wong, **Wentao Zhang<sup>#</sup>**<br>
     ***Findings of ACL 2026***.
 
@@ -292,10 +277,6 @@ Haoyu Huang, Chong Chen, Zeang Sheng, Yang Li, **Wentao Zhang<sup>#</sup>**<br>
 1.  *SEA: Supervised Embedding Alignment for Token-Level Visual-Textual Integration in MLLMs*  <br>
 Qinhan Yu, Zhiyou Xiao, Binghui Li, Zhengren Wang, Chong Chen, **Wentao Zhang<sup>#</sup>**<br>
 ***SIGIR 2025, CCF-A***.
-
-1.  *MRAMG-Bench: A Comprehensive Benchmark for Advancing Multimodal Retrieval-Augmented Multimodal Generation.* <br>
-    Qinhan Yu, Zhiyou Xiao, Binghui Li, Zhengren Wang, Chong Chen, **Wentao Zhang**<br>
-    ***SIGIR 2025, CCF-A***.
 
 1.  *Beyond Sight: Towards Cognitive Alignment in LVLM via Enriched Visual Knowledge.*  <br>
 Yaqi Zhao, Yuanyang Yin, Lin Li, Mingan Lin, Victor Shea-Jay Huang, Siwei Chen, Weipeng Chen, Baoqun Yin, Zenan Zhou, **Wentao Zhang<sup>#</sup>**.<br>
@@ -549,14 +530,6 @@ Xunkai Li, Jingyuan Ma, Zhengyu Wu, Daohan Su, **Wentao Zhang**, Rong-Hua Li, Gu
 1.  *FedGTA: Topology-aware Averaging for Federated Graph Learning.*  <br>
 Xunkai Li, Zhengyu Wu, **Wentao Zhang**, Yinlin Zhu, Rong-Hua Li, Guoren Wang <br>
 ***VLDB 2024, CCF-A***.
-
-1.  *MMGCL: Meta Knowledge-Enhanced Multi-view Graph Contrastive Learning for Recommendations.* <br>
-    Yuezihan Jiang, Changyu Li, Gaode Chen, Peiyi Li, Qi Zhang, Jingjian Lin, Peng Jiang, Fei Sun, **Wentao Zhang**<br>
-    ***RecSys 2024***.
-
-1.  *LightDiC: A Simple yet Effective Approach for Large-scale Digraph Representation Learning.* <br>
-    Xunkai Li, Meihao Liao, Zhengyu Wu, Daohan Su, **Wentao Zhang**, Rong-Hua Li, Guoren Wang<br>
-    ***VLDB 2024, CCF-A***.
 
 1.  *Accelerating Scalable Graph Neural Network Inference with Node-Adaptive Propagation.*  <br>
 Xinyi Gao, **Wentao Zhang<sup>#</sup>**, Junliang Yu, Yingxia Shao, Quoc Viet Hung Nguyen, Bin Cui, Hongzhi Yin <sup>#</sup>. <br>
