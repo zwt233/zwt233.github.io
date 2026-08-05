@@ -3999,22 +3999,56 @@
     });
 
 
+    var added2026Publications = [
+      {
+        year: "2026",
+        title: "Towards Automated Kernel Generation in the Era of LLMs",
+        venue: "IJCAI-ECAI 2026, Survey Track",
+        text: "Towards Automated Kernel Generation in the Era of LLMs. Yang Yu, Peiyu Zang, Chi Hsu Tsai, Haiming Wu, Yixin Shen, Jialing Zhang, Haoyu Wang, Zhiyou Xiao, Jingze Shi, Yuyu Luo, Wentao Zhang, Chunlei Men, Guang Liu, Yonghua Lin. IJCAI-ECAI 2026, Survey Track."
+      },
+      {
+        year: "2026",
+        title: "Retrieval-Augmented Generation for AI-Generated Content: A Survey",
+        venue: "Data Science and Engineering 2026",
+        text: "Retrieval-Augmented Generation for AI-Generated Content: A Survey. Penghao Zhao, Hailin Zhang, Qinhan Yu, Zhengren Wang, Yunteng Geng, Fangcheng Fu, Ling Yang, Wentao Zhang, Jie Jiang, Bin Cui. Data Science and Engineering 2026."
+      },
+      {
+        year: "2026",
+        title: "Data Preparation for Large Language Models",
+        venue: "Journal of Computer Science and Technology 2026",
+        text: "Data Preparation for Large Language Models. Hao Liang, Zhen Hao Wong, Ruitong Liu, Yuhan Wang, Meiyi Qiang, Zhengyang Zhao, Chengyu Shen, Conghui He, Wentao Zhang #, Bin Cui #. Journal of Computer Science and Technology 2026."
+      },
+      {
+        year: "2026",
+        title: "The Data Frontier for Large Language Models: Selection, Synthesis, and Tools",
+        venue: "ACL 2026, Tutorial Abstract",
+        text: "The Data Frontier for Large Language Models: Selection, Synthesis, and Tools. Lijun Wu, Wentao Zhang, Conghui He. ACL 2026, Tutorial Abstract."
+      }
+    ];
     var first2026Publication = allPublications.findIndex(function (publication) {
       return publication.year === "2026";
     });
-    allPublications.splice(first2026Publication >= 0 ? first2026Publication : 0, 0, {
-      year: "2026",
-      title: "Towards Automated Kernel Generation in the Era of LLMs",
-      venue: "IJCAI-ECAI 2026, Survey Track",
-      text: "Towards Automated Kernel Generation in the Era of LLMs. Yang Yu, Peiyu Zang, Chi Hsu Tsai, Haiming Wu, Yixin Shen, Jialing Zhang, Haoyu Wang, Zhiyou Xiao, Jingze Shi, Yuyu Luo, Wentao Zhang, Chunlei Men, Guang Liu, Yonghua Lin. IJCAI-ECAI 2026, Survey Track."
+    allPublications.splice.apply(
+      allPublications,
+      [first2026Publication >= 0 ? first2026Publication : 0, 0].concat(added2026Publications)
+    );
+
+    var first2024Publication = allPublications.findIndex(function (publication) {
+      return publication.year === "2024";
+    });
+    allPublications.splice(first2024Publication >= 0 ? first2024Publication : allPublications.length, 0, {
+      year: "2024",
+      title: "Distributed Graph Neural Network Training: A Survey",
+      venue: "ACM Computing Surveys 2024, CCF-A",
+      text: "Distributed Graph Neural Network Training: A Survey. Yingxia Shao, Hongzheng Li, Xizhi Gu, Hongbo Yin, Yawen Li, Xupeng Miao, Wentao Zhang, Bin Cui, Lei Chen. ACM Computing Surveys 2024, CCF-A."
     });
     pubCategories.forEach(function (category) {
-      if (category.id === "all" || category.id === "llm-agent" || category.id === "systems") {
-        category.count += 1;
-      }
       if (category.id === "systems" && category.keywords.indexOf("kernel") === -1) {
         category.keywords.push("kernel");
       }
+      category.count = allPublications.filter(function (publication) {
+        return publicationMatchesCategory(publication, category);
+      }).length;
     });
 
     var publicationState = { filter: 'all', query: '' };

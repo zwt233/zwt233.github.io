@@ -30,6 +30,18 @@ author_profile: true
     Yang Yu, Peiyu Zang, Chi Hsu Tsai, Haiming Wu, Yixin Shen, Jialing Zhang, Haoyu Wang, Zhiyou Xiao, Jingze Shi, Yuyu Luo, **Wentao Zhang**, Chunlei Men, Guang Liu, Yonghua Lin<br>
     ***IJCAI-ECAI 2026, Survey Track***.
 
+1.  *Retrieval-Augmented Generation for AI-Generated Content: A Survey.* [[Paper](https://link.springer.com/article/10.1007/s41019-025-00335-5)] <br>
+    Penghao Zhao, Hailin Zhang, Qinhan Yu, Zhengren Wang, Yunteng Geng, Fangcheng Fu, Ling Yang, **Wentao Zhang**, Jie Jiang, Bin Cui<br>
+    ***Data Science and Engineering 2026***.
+
+1.  *Data Preparation for Large Language Models.* [[Paper](https://jcst.ict.ac.cn/cn/article/cstr/32374.14.s11390-026-5948-8)] <br>
+    Hao Liang, Zhen Hao Wong, Ruitong Liu, Yuhan Wang, Meiyi Qiang, Zhengyang Zhao, Chengyu Shen, Conghui He, **Wentao Zhang<sup>#</sup>**, Bin Cui<sup>#</sup><br>
+    ***Journal of Computer Science and Technology 2026***.
+
+1.  *The Data Frontier for Large Language Models: Selection, Synthesis, and Tools.* [[Paper](https://aclanthology.org/2026.acl-tutorials.2/)] <br>
+    Lijun Wu, **Wentao Zhang**, Conghui He<br>
+    ***ACL 2026, Tutorial Abstract***.
+
 1.  *DeltaUI: Framework-Normalized UI State Transition Modeling for Multi-Task Front-End Engineering.* <br>
     Jiaye Lin, Zhongxu Guan, Huanyao Zhang, Zonghao Ying, Yuehan Zhang, Bohan Zeng, Jiepeng Zhou, Peilin Zhao, **Wentao Zhang**<br>
     ***ACM MM 2026, CCF-A***.
@@ -475,6 +487,10 @@ Jinhu Fu, Kun Wang, chongye guo, Junfeng Fang, Wentao Zhang, **Wentao Zhang<sup>
 
 2024
 ====
+1.  *Distributed Graph Neural Network Training: A Survey.* [[Paper](https://doi.org/10.1145/3648358)] <br>
+    Yingxia Shao, Hongzheng Li, Xizhi Gu, Hongbo Yin, Yawen Li, Xupeng Miao, **Wentao Zhang**, Bin Cui, Lei Chen<br>
+    ***ACM Computing Surveys 2024, CCF-A***.
+
 1.  *Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models.*  <br>
 Ling Yang, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, **Wentao Zhang**, Joseph E. Gonzalez, Bin CUI<br>
 ***NeurIPS 2024, CCF-A***.
