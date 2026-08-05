@@ -2497,7 +2497,7 @@
           </div>
           <div class="full-news-panel">
             <div class="full-news-head">
-              <div><strong>107</strong> updates</div>
+              <div><strong>108</strong> updates</div>
             </div>
             <div class="full-news-list">
                 <article class="full-news-card">
@@ -2538,6 +2538,11 @@
                   <time>2026-05</time>
                   <p class="zh">1 篇论文被 <strong>VLDB 2026</strong> 接收：<strong>QA-GraphRAG: Query-Adaptive Plug-and-Play Retrieval Integration for Graph-based Retrieval-Augmented Generation</strong>。</p>
                   <p class="en">One paper is accepted by <strong>VLDB 2026</strong>: <strong>QA-GraphRAG: Query-Adaptive Plug-and-Play Retrieval Integration for Graph-based Retrieval-Augmented Generation</strong>.</p>
+                </article>
+                <article class="full-news-card">
+                  <time>2026-04</time>
+                  <p class="zh">1 篇综述论文被 <strong>IJCAI-ECAI 2026 Survey Track</strong> 接收：<strong><a href="https://arxiv.org/abs/2601.15727" target="_blank" rel="noopener">Towards Automated Kernel Generation in the Era of LLMs</a></strong>。</p>
+                  <p class="en">One survey paper is accepted by the <strong>IJCAI-ECAI 2026 Survey Track</strong>: <strong><a href="https://arxiv.org/abs/2601.15727" target="_blank" rel="noopener">Towards Automated Kernel Generation in the Era of LLMs</a></strong>.</p>
                 </article>
                 <article class="full-news-card">
                   <time>2026-04</time>
@@ -3993,6 +3998,24 @@
       });
     });
 
+
+    var first2026Publication = allPublications.findIndex(function (publication) {
+      return publication.year === "2026";
+    });
+    allPublications.splice(first2026Publication >= 0 ? first2026Publication : 0, 0, {
+      year: "2026",
+      title: "Towards Automated Kernel Generation in the Era of LLMs",
+      venue: "IJCAI-ECAI 2026, Survey Track",
+      text: "Towards Automated Kernel Generation in the Era of LLMs. Yang Yu, Peiyu Zang, Chi Hsu Tsai, Haiming Wu, Yixin Shen, Jialing Zhang, Haoyu Wang, Zhiyou Xiao, Jingze Shi, Yuyu Luo, Wentao Zhang, Chunlei Men, Guang Liu, Yonghua Lin. IJCAI-ECAI 2026, Survey Track."
+    });
+    pubCategories.forEach(function (category) {
+      if (category.id === "all" || category.id === "llm-agent" || category.id === "systems") {
+        category.count += 1;
+      }
+      if (category.id === "systems" && category.keywords.indexOf("kernel") === -1) {
+        category.keywords.push("kernel");
+      }
+    });
 
     var publicationState = { filter: 'all', query: '' };
     var pubSummary = document.querySelector('[data-full-publication-summary]');

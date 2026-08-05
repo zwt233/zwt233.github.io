@@ -26,6 +26,10 @@ author_profile: true
 
 2026
 ====
+1.  *Towards Automated Kernel Generation in the Era of LLMs.* [[Paper](https://arxiv.org/abs/2601.15727)] [[Code](https://github.com/flagos-ai/awesome-LLM-driven-kernel-generation)] <br>
+    Yang Yu, Peiyu Zang, Chi Hsu Tsai, Haiming Wu, Yixin Shen, Jialing Zhang, Haoyu Wang, Zhiyou Xiao, Jingze Shi, Yuyu Luo, **Wentao Zhang**, Chunlei Men, Guang Liu, Yonghua Lin<br>
+    ***IJCAI-ECAI 2026, Survey Track***.
+
 1.  *DeltaUI: Framework-Normalized UI State Transition Modeling for Multi-Task Front-End Engineering.* <br>
     Jiaye Lin, Zhongxu Guan, Huanyao Zhang, Zonghao Ying, Yuehan Zhang, Bohan Zeng, Jiepeng Zhou, Peilin Zhao, **Wentao Zhang**<br>
     ***ACM MM 2026, CCF-A***.

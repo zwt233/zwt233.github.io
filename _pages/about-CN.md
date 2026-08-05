@@ -83,6 +83,7 @@ A summary of my recent works:
 * **2026-07**: One paper is accepted by ***COLM 2026***: ***Variational Co-Evolution via Reinforcement Learning***.
 * **2026-07**: One paper is accepted by ***IEEE TPAMI***: ***Aligning Condensed Graph via Hashing: A New Insight for Federated Graph Learning***.
 * **2026-06**: I am awarded ***[Special Prize of Guangdong Science and Technology Progress Award](https://www.sme-gov.cn/guangdong-news-173213.html)（广东省科技进步特等奖）***.
+* **2026-04**: One survey paper is accepted by the ***IJCAI-ECAI 2026 Survey Track***: ***[Towards Automated Kernel Generation in the Era of LLMs](https://arxiv.org/abs/2601.15727)***.
 * **2023-10**: One paper is accepted by ***ICDE 2024***.
 * **2023-10**: 🏆 We win the ***<font color=orange>Best Paper Runner Up Award </font>***  in ***APWeb-WAIM 2023***.
 * **2023-09**: One paper is accepted by ***ACM Computing Survey 2023***.

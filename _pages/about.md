@@ -129,6 +129,7 @@ Research Interests
 * **2026-07**: One paper is accepted by ***IEEE TPAMI***: ***Aligning Condensed Graph via Hashing: A New Insight for Federated Graph Learning***.
 * **2026-06**: I am awarded ***[Special Prize of Guangdong Science and Technology Progress Award](https://www.sme-gov.cn/guangdong-news-173213.html)（广东省科技进步特等奖）***.
 * **2026-05**: 4 Papers are accepted by ***ICML 2026***.
+* **2026-04**: One survey paper is accepted by the ***IJCAI-ECAI 2026 Survey Track***: ***[Towards Automated Kernel Generation in the Era of LLMs](https://arxiv.org/abs/2601.15727)***.
 * **2026-04**: 1 Papers is accepted by ***ACL 2026 Industry Track***.
 * **2026-04**: 11 Papers are accepted by ***ACL 2026 Findings***.
 * **2026-04**: 8 Papers are accepted by ***ACL 2026 MainConference***.
