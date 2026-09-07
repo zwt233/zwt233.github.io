@@ -1,0 +1,33 @@
+{
+  "scholar": {
+    "citations": 16799,
+    "hIndex": 55,
+    "verifiedAt": "2026-09-07",
+    "url": "https://scholar.google.com/citations?user=JE4VON0AAAAJ&hl=en"
+  },
+  "github": {
+    "verifiedAt": "2026-09-07",
+    "repositories": [
+      {
+        "name": "MinerU",
+        "repo": "opendatalab/MinerU",
+        "stars": 79380
+      },
+      {
+        "name": "DataFlow",
+        "repo": "OpenDCAI/DataFlow",
+        "stars": 7983
+      },
+      {
+        "name": "MemOS",
+        "repo": "MemTensor/MemOS",
+        "stars": 11220
+      },
+      {
+        "name": "Angel",
+        "repo": "Angel-ML/angel",
+        "stars": 6787
+      }
+    ]
+  }
+}
