@@ -53,21 +53,13 @@ export function renderMetrics(html, data) {
     hIndex: data.scholar.hIndex,
     starsZh: `${Math.floor(total / 10000)}万+`,
     starsEn: `${Math.floor(total / 10000) * 10}k+`,
-    scholarDate: data.scholar.verifiedAt,
-    githubDate: data.github.verifiedAt,
   };
   for (const [key, value] of Object.entries(values)) {
     const pattern = new RegExp(`(<([a-z]+)\\b[^>]*data-metric="${key}"[^>]*>)[^<]*(</\\2>)`, 'g');
     if (!pattern.test(html)) throw new Error(`Missing homepage metric: ${key}`);
     html = html.replace(pattern, (_, start, tag, end) => `${start}${escape(value)}${end}`);
   }
-  const sources = `<p><a href="${escape(data.scholar.url)}" target="_blank" rel="noopener">Google Scholar</a>: ${number(data.scholar.citations)} citations · h-index ${data.scholar.hIndex} · ${escape(data.scholar.verifiedAt)}</p>\n` +
-    '<ul>\n' + data.github.repositories.map(repo => `  <li><a href="https://github.com/${escape(repo.repo)}" target="_blank" rel="noopener">${escape(repo.name)}</a>: ${number(repo.stars)} Stars</li>`).join('\n') +
-    `\n</ul>\n<p><span class="zh">以上四个独立仓库合计 ${number(total)} Stars；统计日期 ${escape(data.github.verifiedAt)}。Stars 为仓库关注数之和。</span><span class="en">${number(total)} stars across the four repositories above, as of ${escape(data.github.verifiedAt)}. This is a sum of repository stars.</span></p>`;
-  const start = '<!-- homepage-metrics-sources:start -->';
-  const end = '<!-- homepage-metrics-sources:end -->';
-  if (html.split(start).length !== 2 || html.split(end).length !== 2) throw new Error('Missing or duplicate metric source markers');
-  return html.replace(new RegExp(`${start}[\\s\\S]*?${end}`), `${start}\n${sources}\n${end}`);
+  return html;
 }
 
 async function main() {
