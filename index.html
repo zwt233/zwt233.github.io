@@ -2512,9 +2512,14 @@
           </div>
           <div class="full-news-panel">
             <div class="full-news-head">
-              <div><strong>109</strong> <span class="zh">条动态</span><span class="en">updates</span></div>
+              <div><strong>110</strong> <span class="zh">条动态</span><span class="en">updates</span></div>
             </div>
             <div class="full-news-list">
+                <article class="full-news-card">
+                  <time>2026-09</time>
+                  <p class="zh">3 篇论文被 <strong>ICDE 2027</strong> 接收：<strong>REAL</strong>、<strong>PhyWorld-Align</strong>、<strong>CITBench</strong>。</p>
+                  <p class="en">Three papers were accepted by <strong>ICDE 2027</strong>: <strong>REAL</strong>, <strong>PhyWorld-Align</strong>, and <strong>CITBench</strong>.</p>
+                </article>
                 <article class="full-news-card">
                   <time>2026-08</time>
                   <p class="zh">12 篇论文被 <strong>EMNLP 2026</strong> 接收。</p>
@@ -4113,6 +4118,34 @@
     });
 
 
+    // ICDE 2027 Research Track acceptances, confirmed 2026-09-11.
+    // Publish only verified author names and publicly accessible resource links.
+    allPublications.unshift(
+      {
+        year: "2027",
+        title: "REAL: A Reasoning-Enhanced Graph Framework for Long-Term Memory Management of LLMs",
+        venue: "ICDE 2027, Research Track, CCF-A",
+        text: "REAL: A Reasoning-Enhanced Graph Framework for Long-Term Memory Management of LLMs. Keer Lu, Liwei Chen, Guoqing Jiang, Zhiheng Qin, Yunhuai Liu #, Wentao Zhang #. ICDE 2027, Research Track, CCF-A.",
+        url: "https://arxiv.org/abs/2606.10694",
+        codeUrl: "https://github.com/8023looker/REAL"
+      },
+      {
+        year: "2027",
+        title: "PhyWorld-Align: A World Knowledge Model Framework for Heterogeneous Spatio-temporal Entity Alignment",
+        venue: "ICDE 2027, Research Track, CCF-A",
+        text: "PhyWorld-Align: A World Knowledge Model Framework for Heterogeneous Spatio-temporal Entity Alignment. ICDE 2027, Research Track, CCF-A.",
+        authorsPending: true
+      },
+      {
+        year: "2027",
+        title: "CITBench: A Comprehensive Benchmark for Interactive Tabular Data Processing with LLMs",
+        venue: "ICDE 2027, Research Track, CCF-A",
+        text: "CITBench: A Comprehensive Benchmark for Interactive Tabular Data Processing with LLMs. ICDE 2027, Research Track, CCF-A.",
+        authorsPending: true,
+        codeUrl: "https://github.com/SSndot/CITBench"
+      }
+    );
+
     var added2026Publications = [
       {
         year: "2026",
@@ -4375,6 +4408,23 @@
         var item = document.createElement('article');
         item.className = 'publication-item';
         item.innerHTML = '<time>' + pub.year + '</time><div><h3>' + pub.title + '</h3><p>' + (pub.venue || pub.text.slice(0, 180)) + '</p><div class="publication-authors"><strong>' + authorLabel + '</strong>' + (meta.authors ? markCorrespondingAuthors(meta.authors, meta.corresponding) : '-') + '</div></div>';
+        if (pub.authorsPending) item.querySelector('.publication-authors').remove();
+        if (pub.url || pub.codeUrl) {
+          var links = document.createElement('div');
+          links.className = 'publication-authors publication-links';
+          [{ url: pub.url, label: lang === 'zh' ? '论文' : 'Paper' },
+           { url: pub.codeUrl, label: lang === 'zh' ? '代码' : 'Code' }].forEach(function (resource) {
+            if (!resource.url) return;
+            if (links.childNodes.length) links.appendChild(document.createTextNode(' · '));
+            var link = document.createElement('a');
+            link.href = resource.url;
+            link.target = '_blank';
+            link.rel = 'noopener';
+            link.textContent = resource.label;
+            links.appendChild(link);
+          });
+          item.querySelector('div').appendChild(links);
+        }
         pubList.appendChild(item);
       });
     }
