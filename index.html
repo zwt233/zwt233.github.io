@@ -4407,22 +4407,7 @@
         item.className = 'publication-item';
         item.innerHTML = '<time>' + pub.year + '</time><div><h3>' + pub.title + '</h3><p>' + (pub.venue || pub.text.slice(0, 180)) + '</p><div class="publication-authors"><strong>' + authorLabel + '</strong>' + (meta.authors ? markCorrespondingAuthors(meta.authors, meta.corresponding) : '-') + '</div></div>';
         if (pub.authorsPending) item.querySelector('.publication-authors').remove();
-        if (pub.url || pub.codeUrl) {
-          var links = document.createElement('div');
-          links.className = 'publication-authors publication-links';
-          [{ url: pub.url, label: lang === 'zh' ? '论文' : 'Paper' },
-           { url: pub.codeUrl, label: lang === 'zh' ? '代码' : 'Code' }].forEach(function (resource) {
-            if (!resource.url) return;
-            if (links.childNodes.length) links.appendChild(document.createTextNode(' · '));
-            var link = document.createElement('a');
-            link.href = resource.url;
-            link.target = '_blank';
-            link.rel = 'noopener';
-            link.textContent = resource.label;
-            links.appendChild(link);
-          });
-          item.querySelector('div').appendChild(links);
-        }
+        // Keep the full publication list to year, title, venue, and authors.
         pubList.appendChild(item);
       });
     }
