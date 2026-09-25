@@ -2292,7 +2292,6 @@
     .project .project-status { font-size: 12px; color: var(--muted); }
     .author-legend { color: var(--muted); font-size: 13px; font-weight: 400; }
     .author-legend sup { color: var(--pku); font-weight: 700; }
-    .publication-corresponding-role { color: var(--accent, #8d1f1f); font-weight: 600; }
     .corresponding-author { white-space: nowrap; }
     .corresponding-author.author-self { font-weight: 700; }
     .publication-window-head, .paper-tools { flex-wrap: wrap; gap: 8px 16px; }
@@ -4015,12 +4014,11 @@
         .filter(function (name) { return !/^(未标注|not specified|论文页未标注)$/i.test(name); });
     }
 
-    function correspondingForPublication(paper, existing) {
+    function correspondingForPublication(paper, existing, authors) {
       var names = correspondingNames(existing).slice();
       var key = (paper.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
       var records = typeof publicationCorrespondence === 'undefined' ? {} : publicationCorrespondence;
-      var record = records[key];
-      if (!record) return names;
+      var record = records[key] || {};
       if (typeof record.wentaoCorresponding === 'boolean') {
         names = names.filter(function (name) { return authorKey(name) !== 'wentao zhang'; });
         if (record.wentaoCorresponding) names.push('Wentao Zhang');
@@ -4032,6 +4030,13 @@
       additions.forEach(function (name) {
         if (!names.some(function (existing) { return authorKey(existing) === authorKey(name); })) names.push(name);
       });
+      // Homepage owner, 2026-09-25: mark Wentao when listed last or second-last.
+      // Apply to the current entry's author order, including older publications.
+      var orderedAuthors = (authors || paper.authors || '').split(',').map(authorKey).filter(Boolean);
+      if (orderedAuthors.slice(-2).indexOf('wentao zhang') !== -1 &&
+          !names.some(function (name) { return authorKey(name) === 'wentao zhang'; })) {
+        names.push('Wentao Zhang');
+      }
       return names;
     }
 
@@ -4402,7 +4407,7 @@
         .trim();
       return {
         authors: cleanPublicationName(authors),
-        corresponding: correspondingForPublication(pub, corresponding)
+        corresponding: correspondingForPublication(pub, corresponding, cleanPublicationName(authors))
       };
     }
 
@@ -4422,14 +4427,6 @@
         var item = document.createElement('article');
         item.className = 'publication-item';
         item.innerHTML = '<time>' + pub.year + '</time><div><h3>' + pub.title + '</h3><p>' + (pub.venue || pub.text.slice(0, 180)) + '</p><div class="publication-authors"><strong>' + authorLabel + '</strong>' + (meta.authors ? markCorrespondingAuthors(meta.authors, meta.corresponding) : '-') + '</div></div>';
-        if (pub.correspondingRole) {
-          var role = document.createElement('span');
-          role.className = 'publication-corresponding-role';
-          role.textContent = lang === 'zh'
-            ? (pub.correspondingRole === 'sole' ? ' · 独立通讯作者' : ' · 共同通讯作者')
-            : (pub.correspondingRole === 'sole' ? ' · Sole corresponding author' : ' · Co-corresponding author');
-          item.querySelector('.publication-authors').appendChild(role);
-        }
         if (pub.authorsPending) item.querySelector('.publication-authors').remove();
         // Keep the full publication list to year, title, venue, and authors.
         pubList.appendChild(item);
