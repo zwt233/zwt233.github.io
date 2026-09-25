@@ -1216,5 +1216,129 @@ var publicationCorrespondence = {
         "basis": "homepage-owner-provided-last-author-rule"
       }
     }
+  },
+  "steervteseamlessvideotexteditingwithstyleandglyphcontrol": {
+    "title": "SteerVTE: Seamless Video Text Editing with Style and Glyph Control",
+    "wentaoCorresponding": true,
+    "basis": "homepage-owner-2026-09-25-author-position-rule",
+    "authorPositionFromEnd": 1,
+    "source": "https://openreview.net/forum?id=vMuUnsiZxf"
+  },
+  "latentomnirethinkingomnimodalunderstandingviaunifiedaudiovisuallatentreasoning": {
+    "title": "LatentOmni: Rethinking Omni-Modal Understanding via Unified Audio-Visual Latent Reasoning",
+    "wentaoCorresponding": true,
+    "basis": "homepage-owner-2026-09-25-author-position-rule",
+    "authorPositionFromEnd": 1,
+    "source": "https://openreview.net/forum?id=hEYx8OEE6v"
+  },
+  "semanticroutingexploringmultilayerllmfeatureweightingfordiffusiontransformers": {
+    "title": "Semantic Routing: Exploring Multi-Layer LLM Feature Weighting for Diffusion Transformers",
+    "wentaoCorresponding": true,
+    "basis": "homepage-owner-2026-09-25-author-position-rule",
+    "authorPositionFromEnd": 1,
+    "source": "https://openreview.net/forum?id=bRpXPKp716"
+  },
+  "agenticocrparsingonlywhatyouneedforefficientretrievalaugmentedgeneration": {
+    "title": "AgenticOCR: Parsing Only What You Need for Efficient Retrieval-Augmented Generation",
+    "wentaoCorresponding": null,
+    "basis": "awaiting-owner-confirmation-outside-last-two",
+    "authorPositionFromEnd": 3,
+    "source": "https://openreview.net/forum?id=NtBkgEhEww"
+  },
+  "unicomunifiedmultimodalmodelingviacompressedcontinuoussemanticrepresentations": {
+    "title": "UNICOM: Unified Multimodal Modeling via Compressed Continuous Semantic Representations",
+    "wentaoCorresponding": true,
+    "basis": "homepage-owner-2026-09-25-author-position-rule",
+    "authorPositionFromEnd": 1,
+    "source": "https://openreview.net/forum?id=0iUmETfbJj"
+  },
+  "mappaunifiedmarginalizedposteriorpredictiveframeworkfordataefficientrlvr": {
+    "title": "MaPP: A Unified Marginalized Posterior-Predictive Framework for Data-Efficient RLVR",
+    "wentaoCorresponding": true,
+    "basis": "homepage-owner-2026-09-25-author-position-rule",
+    "authorPositionFromEnd": 2,
+    "source": "https://openreview.net/forum?id=JPWppGw2ut",
+    "lastAuthorsByEntry": {
+      "2026|NeurIPS 2026, Main Track, Poster": {
+        "name": "Baochang Zhang",
+        "basis": "homepage-owner-provided-co-corresponding-rule"
+      }
+    }
+  },
+  "unisynergybridgingunderstandingandgenerationforpersonalizedreasoning": {
+    "title": "Uni-Synergy: Bridging Understanding and Generation for Personalized Reasoning",
+    "wentaoCorresponding": true,
+    "basis": "homepage-owner-2026-09-25-author-position-rule",
+    "authorPositionFromEnd": 1,
+    "source": "https://openreview.net/forum?id=SkKUoQjWc7"
+  },
+  "trainingwithharnessesonpolicyharnessselfdistillationforcomplexreasoning": {
+    "title": "Training with Harnesses: On-Policy Harness Self-Distillation for Complex Reasoning",
+    "wentaoCorresponding": true,
+    "basis": "homepage-owner-2026-09-25-author-position-rule",
+    "authorPositionFromEnd": 1,
+    "source": "https://openreview.net/forum?id=qUygKjKWMJ"
+  },
+  "mineru25propushingthelimitofdocumentparsingviaacalibratedevaluationdataflywheel": {
+    "title": "MinerU2.5-Pro: Pushing the Limit of Document Parsing via a Calibrated Evaluation-Data Flywheel",
+    "wentaoCorresponding": null,
+    "basis": "awaiting-owner-confirmation-outside-last-two",
+    "authorPositionFromEnd": 5,
+    "source": "https://openreview.net/forum?id=JfJ4tqahba"
+  },
+  "mcphallubenchmarkingreasoningexecutionandmemoryhallucinationsinmcpagents": {
+    "title": "MCPHallu: Benchmarking Reasoning, Execution, and Memory Hallucinations in MCP Agents",
+    "wentaoCorresponding": true,
+    "basis": "homepage-owner-2026-09-25-author-position-rule",
+    "authorPositionFromEnd": 1,
+    "source": "https://openreview.net/forum?id=6XKGOgVQft"
+  },
+  "dataflexaunifiedbenchmarkandevaluationplatformfordatacentrictrainingoflargelanguagemodels": {
+    "title": "DataFlex: A Unified Benchmark and Evaluation Platform for Data-Centric Training of Large Language Models",
+    "wentaoCorresponding": true,
+    "basis": "homepage-owner-2026-09-25-author-position-rule",
+    "authorPositionFromEnd": 1,
+    "source": "https://openreview.net/forum?id=Uaf41CPesH"
+  },
+  "protglycandocktowardsaccurateproteinglycandockingwithtailoreddatasetbenchmarkandmodel": {
+    "title": "ProtGlycanDock: Towards Accurate Protein-Glycan Docking with Tailored Dataset, Benchmark and Model",
+    "wentaoCorresponding": true,
+    "basis": "homepage-owner-2026-09-25-author-position-rule",
+    "authorPositionFromEnd": 1,
+    "source": "https://openreview.net/forum?id=90gsNmRJos"
+  },
+  "flarefullmodalitylongvideoaudiovisualretrievalbenchmarkwithusersimulatedqueries": {
+    "title": "FLARE: Full-Modality Long-Video Audiovisual Retrieval Benchmark with User-Simulated Queries",
+    "wentaoCorresponding": true,
+    "basis": "homepage-owner-2026-09-25-author-position-rule",
+    "authorPositionFromEnd": 1,
+    "source": "https://openreview.net/forum?id=VwiAEEv0xh"
+  },
+  "mmfinereasonclosingthemultimodalreasoninggapviaopendatacentricmethods": {
+    "title": "MMFineReason: Closing the Multimodal Reasoning Gap via Open Data-Centric Methods",
+    "wentaoCorresponding": true,
+    "basis": "homepage-owner-2026-09-25-author-position-rule",
+    "authorPositionFromEnd": 2,
+    "source": "https://openreview.net/forum?id=Z3ctdgrbBf",
+    "lastAuthorsByEntry": {
+      "2026|NeurIPS 2026, Evaluations and Datasets Track, Poster": {
+        "name": "Lijun Wu",
+        "basis": "homepage-owner-provided-co-corresponding-rule"
+      }
+    }
+  },
+  "k12kgraphacurriculumalignedknowledgegraphforbenchmarkingandtrainingeducationalllms": {
+    "title": "K12-KGraph: A Curriculum-Aligned Knowledge Graph for Benchmarking and Training Educational LLMs",
+    "wentaoCorresponding": true,
+    "basis": "homepage-owner-2026-09-25-author-position-rule",
+    "authorPositionFromEnd": 1,
+    "source": "https://openreview.net/forum?id=BrK1BNCYNO"
+  },
+  "slidep2vbenchacrossdomainbenchmarkforslidecentricscientificpapertopresentationvideogeneration": {
+    "title": "Slide P2V-Bench: A Cross-Domain Benchmark for Slide-Centric Scientific Paper-to-Presentation Video Generation",
+    "wentaoCorresponding": true,
+    "basis": "homepage-owner-2026-09-25-author-position-rule",
+    "authorPositionFromEnd": 1,
+    "source": "https://openreview.net/forum?id=TG4XUYItHE"
   }
 };
