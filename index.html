@@ -3525,6 +3525,26 @@
     </div>
   </div>
 
+  <script type="application/json" id="public-analytics-snapshot">{"schemaVersion":1,"status":"ok","source":"flagcounter-history","host":"zwt233.github.io","timezone":"Asia/Shanghai","generatedAt":"2026-10-13T01:12:05.171Z","updatedLabel":"10-13 09:12","detailsUrl":"https://flagcounter.com/more30/z9BD","periods":{"today":{"label":"Today","pageviews":1,"visits":1,"date":"2026-10-13"},"month":{"label":"This month","pageviews":724,"visits":578,"days":13},"total":{"label":"Total","pageviews":11968,"visits":8763}},"message":"Pageviews are generated from FlagCounter History using the Flag Counter Views column."}</script>
+  <script>
+    // Paint the deployed snapshot without waiting for scripts or network requests.
+    (function () {
+      var data = JSON.parse(document.getElementById("public-analytics-snapshot").textContent);
+      var parts = new Intl.DateTimeFormat("en-CA", {timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit"}).formatToParts(new Date());
+      var date = {};
+      parts.forEach(function (part) { date[part.type] = part.value; });
+      if (data.status !== "ok" || data.periods.today.date !== [date.year, date.month, date.day].join("-")) return;
+      document.querySelectorAll("[data-analytics-value]").forEach(function (node) {
+        node.textContent = Number(data.periods[node.getAttribute("data-analytics-value")].pageviews).toLocaleString("en-US");
+      });
+      var updated = document.querySelector("[data-analytics-updated]");
+      updated.textContent = data.updatedLabel;
+      updated.dateTime = data.generatedAt;
+      updated.title = "Asia/Shanghai";
+      document.querySelector("[data-analytics-panel]").hidden = false;
+      document.querySelector("[data-profile-card]").classList.add("has-public-analytics");
+    })();
+  </script>
   <script src="assets/js/publication-correspondence.js?v=7c033cf7a243"></script>
   <script>
 
@@ -3975,6 +3995,7 @@
     function loadPublicAnalytics() {
       if (!analyticsPanel) return;
       try { acceptPublicAnalytics(JSON.parse(localStorage.getItem(analyticsStorageKey))); } catch (_) {}
+      acceptPublicAnalytics(JSON.parse(document.getElementById("public-analytics-snapshot").textContent));
       // Start the small same-origin snapshot immediately, independent of the reader.
       loadCachedPublicAnalytics();
       refreshLivePublicAnalytics();

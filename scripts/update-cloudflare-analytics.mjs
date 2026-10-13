@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const HOST = process.env.ANALYTICS_HOST || "zwt233.github.io";
@@ -175,6 +175,15 @@ function metric(label, pageviews, visits, extra = {}) {
 }
 
 async function writeAnalytics(payload) {
+  // Keep the first-paint snapshot in sync with the scheduled data refresh.
+  // Custom output paths used for diagnostics must not modify the homepage.
+  if (!process.env.ANALYTICS_OUTPUT) {
+    const homepage = await readFile("index.html", "utf8");
+    const pattern = /(<script type="application\/json" id="public-analytics-snapshot">)[\s\S]*?(<\/script>)/;
+    if (!pattern.test(homepage)) throw new Error("Homepage analytics snapshot marker is missing");
+    const snapshot = JSON.stringify(payload).replace(/</g, "\\u003c");
+    await writeFile("index.html", homepage.replace(pattern, (_, start, end) => start + snapshot + end), "utf8");
+  }
   await mkdir(path.dirname(OUTPUT), { recursive: true });
   await writeFile(OUTPUT, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
 }

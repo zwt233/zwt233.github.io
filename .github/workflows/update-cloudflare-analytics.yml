@@ -23,12 +23,12 @@ jobs:
 
       - name: Commit analytics data
         run: |
-          if git diff --quiet -- data/site-analytics.json; then
+          if git diff --quiet -- data/site-analytics.json index.html; then
             echo "No analytics data changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/site-analytics.json
+          git add data/site-analytics.json index.html
           git commit -m "Update public analytics data"
           git push
