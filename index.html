@@ -1482,83 +1482,84 @@
     }
 
     .visitor-panel {
-      border-top: 1px solid var(--line);
-      border-bottom: 1px solid var(--line);
-      display: grid;
-      gap: 10px;
-      margin-top: 10px;
-      padding: 10px 0;
+      margin-top: 14px;
       position: relative;
     }
 
-    .visitor-analytics[hidden] {
-      display: none;
-    }
+    .visitor-analytics[hidden] { display: none; }
 
     .visitor-analytics {
-      display: grid;
-      gap: 7px;
+      background: #f4f7fb;
+      border: 1px solid #e8eef5;
+      border-radius: 12px;
+      padding: 12px 14px;
     }
 
     .visitor-analytics-head {
       align-items: center;
       color: var(--muted);
       display: flex;
-      font-size: 0.62rem;
-      font-weight: 900;
+      flex-wrap: wrap;
+      gap: 4px 10px;
       justify-content: space-between;
-      letter-spacing: 0.06em;
-      line-height: 1;
-      text-transform: uppercase;
+      font-size: 0.62rem;
+      font-weight: 650;
+      line-height: 1.4;
+    }
+
+    .visitor-analytics-head > span {
+      align-items: center;
+      display: inline-flex;
+      gap: 6px;
+    }
+
+    .visitor-analytics-head svg {
+      width: 13px;
+      height: 13px;
+      opacity: 0.7;
     }
 
     .visitor-analytics-head small {
-      color: #748294;
-      font-size: 0.6rem;
-      font-weight: 750;
-      letter-spacing: 0;
-      text-transform: none;
+      color: var(--muted);
+      font-size: 0.54rem;
+      font-weight: 400;
     }
 
     .visitor-analytics-grid {
       display: grid;
-      gap: 6px;
       grid-template-columns: repeat(2, minmax(0, 1fr));
+      margin-top: 10px;
     }
 
     .visitor-analytics-metric {
-      background: rgba(255, 255, 255, 0.74);
-      border: 1px solid var(--line);
-      color: inherit;
-      display: grid;
-      gap: 2px;
-      min-height: 46px;
-      padding: 5px 4px;
-      text-align: center;
-      text-decoration: none;
+      display: flex;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 4px 8px;
+      padding: 0 10px 0 0;
+      min-width: 0;
     }
 
-    .visitor-analytics-metric:hover {
-      border-color: var(--navy);
-      transform: translateY(-1px);
+    .visitor-analytics-metric + .visitor-analytics-metric {
+      border-left: 1px solid #dce5ef;
+      padding: 0 0 0 16px;
     }
 
     .visitor-analytics-metric b {
       color: var(--navy);
-      font-size: 0.96rem;
+      font-size: 1.12rem;
+      font-weight: 700;
       font-variant-numeric: tabular-nums;
-      line-height: 1.05;
-      min-width: 0;
-      overflow: hidden;
-      text-overflow: ellipsis;
+      letter-spacing: -0.025em;
+      line-height: 1.2;
+      overflow-wrap: anywhere;
     }
 
     .visitor-analytics-metric small {
       color: var(--muted);
-      font-size: 0.58rem;
-      font-weight: 800;
-      letter-spacing: 0.02em;
-      line-height: 1;
+      font-size: 0.6rem;
+      font-weight: 500;
+      line-height: 1.4;
     }
 
     .profile img.visitor-counter-tracker {
@@ -2437,11 +2438,12 @@
               <img class="visitor-counter-tracker" src="https://s01.flagcounter.com/count2/z9BD/bg_FFFFFF/txt_FFFFFF/border_FFFFFF/columns_1/maxflags_1/viewers_3/labels_0/pageviews_0/flags_0/percent_0/" alt="" aria-hidden="true" width="1" height="1" decoding="async">
               <div class="visitor-analytics" data-analytics-panel hidden>
                 <div class="visitor-analytics-head">
-                  <span><span class="zh">浏览量</span><span class="en">Pageviews</span></span>
+                  <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><span class="zh">浏览量</span><span class="en">Pageviews</span></span>
+                  <small><span class="zh">更新于 </span><span class="en">Updated </span><time data-analytics-updated></time></small>
                 </div>
                 <div class="visitor-analytics-grid" aria-label="Public website pageviews">
-                  <a class="visitor-analytics-metric" href="https://flagcounter.com/more30/z9BD" target="_blank" rel="noopener" title="Today pageviews"><b data-analytics-value="today">--</b><small><span class="zh">今日</span><span class="en">Today</span></small></a>
-                  <a class="visitor-analytics-metric" href="https://flagcounter.com/more30/z9BD" target="_blank" rel="noopener" title="This month pageviews"><b data-analytics-value="month">--</b><small><span class="zh">本月</span><span class="en">Month</span></small></a>
+                  <div class="visitor-analytics-metric"><b data-analytics-value="today">--</b><small><span class="zh">今日</span><span class="en">Today</span></small></div>
+                  <div class="visitor-analytics-metric"><b data-analytics-value="month">--</b><small><span class="zh">本月</span><span class="en">Month</span></small></div>
                 </div>
               </div>
             </div>
@@ -3927,40 +3929,67 @@
       });
     }
 
-    function loadCachedPublicAnalytics() {
-      return fetch("data/site-analytics.json?v=" + Date.now(), { cache: "no-store" })
-        .then(function (response) { return response.ok ? response.json() : null; })
-        .then(function (data) {
-          if (!window.publicAnalyticsData || !window.publicAnalyticsData.live) {
-            window.publicAnalyticsData = data;
-            renderPublicAnalytics(data);
-          }
-        });
+    var analyticsStorageKey = "homepage-analytics-v1";
+    var liveAnalyticsRequest = null;
+
+    function acceptPublicAnalytics(data) {
+      // Never label yesterday's cached count as today's traffic.
+      var today = localAnalyticsDate(datePartsInAnalyticsTimezone(new Date()));
+      if (!data || data.status !== "ok" || !data.periods ||
+          !data.periods.today || !data.periods.month ||
+          data.periods.today.date !== today ||
+          !Number.isFinite(Date.parse(data.generatedAt)) ||
+          ![data.periods.today.pageviews, data.periods.month.pageviews].every(function (n) {
+            return typeof n === "number" && Number.isFinite(n) && n >= 0;
+          })) return false;
+      var previous = window.publicAnalyticsData;
+      if (previous && previous.periods.today.date === today &&
+          Date.parse(previous.generatedAt) > Date.parse(data.generatedAt)) return false;
+      window.publicAnalyticsData = data;
+      renderPublicAnalytics(data);
+      var updated = document.querySelector("[data-analytics-updated]");
+      if (updated) {
+        updated.dateTime = data.generatedAt;
+        updated.textContent = formatAnalyticsUpdatedLabel(new Date(data.generatedAt));
+        updated.title = "Asia/Shanghai";
+      }
+      try { localStorage.setItem(analyticsStorageKey, JSON.stringify(data)); } catch (_) {}
+      return true;
     }
 
-    function refreshLivePublicAnalytics(allowCachedFallback) {
-      return loadLivePublicAnalytics()
-        .then(function (data) {
-          window.publicAnalyticsData = data;
-          renderPublicAnalytics(data);
-        })
-        .catch(function () {
-          if (allowCachedFallback && (!window.publicAnalyticsData || !window.publicAnalyticsData.live)) {
-            return loadCachedPublicAnalytics().catch(function () {
-              renderPublicAnalytics(null);
-            });
-          }
-          return null;
-        });
+    function loadCachedPublicAnalytics() {
+      return fetchTextWithTimeout("data/site-analytics.json", 5000)
+        .then(function (text) { acceptPublicAnalytics(JSON.parse(text)); })
+        .catch(function () { /* Keep any valid browser cache visible. */ });
+    }
+
+    function refreshLivePublicAnalytics() {
+      if (liveAnalyticsRequest) return liveAnalyticsRequest;
+      liveAnalyticsRequest = loadLivePublicAnalytics()
+        .then(acceptPublicAnalytics)
+        .catch(function () { /* The same-origin snapshot remains usable. */ })
+        .finally(function () { liveAnalyticsRequest = null; });
+      return liveAnalyticsRequest;
     }
 
     function loadPublicAnalytics() {
       if (!analyticsPanel) return;
-      refreshLivePublicAnalytics(true);
+      try { acceptPublicAnalytics(JSON.parse(localStorage.getItem(analyticsStorageKey))); } catch (_) {}
+      // Start the small same-origin snapshot immediately, independent of the reader.
+      loadCachedPublicAnalytics();
+      refreshLivePublicAnalytics();
       if (!liveAnalyticsRefreshTimer) {
         liveAnalyticsRefreshTimer = window.setInterval(function () {
-          refreshLivePublicAnalytics(false);
-        }, 30000);
+          if (document.hidden) return;
+          var current = window.publicAnalyticsData;
+          var today = localAnalyticsDate(datePartsInAnalyticsTimezone(new Date()));
+          if (current && current.periods.today.date !== today) {
+            window.publicAnalyticsData = null;
+            renderPublicAnalytics(null);
+          }
+          loadCachedPublicAnalytics();
+          refreshLivePublicAnalytics();
+        }, 60000);
       }
     }
 
