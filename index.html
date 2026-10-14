@@ -1415,10 +1415,6 @@
       width: 100%;
     }
 
-    .profile.has-public-analytics img {
-      height: 342px;
-    }
-
     .profile h2 {
       font-size: 1.12rem;
       margin: 12px 0 3px;
@@ -1481,98 +1477,53 @@
       padding-top: 10px;
     }
 
-    .visitor-panel {
-      margin-top: 14px;
-      position: relative;
-    }
-
-    .visitor-analytics[hidden] { display: none; }
-
-    .visitor-analytics {
-      background: #f4f7fb;
-      border: 1px solid #e8eef5;
-      border-radius: 12px;
-      padding: 12px 14px;
-    }
-
-    .visitor-analytics-head {
-      align-items: center;
-      color: var(--muted);
-      display: flex;
-      flex-wrap: wrap;
-      gap: 4px 10px;
-      justify-content: space-between;
-      font-size: 0.62rem;
-      font-weight: 650;
-      line-height: 1.4;
-    }
-
-    .visitor-analytics-head > span {
-      align-items: center;
-      display: inline-flex;
-      gap: 6px;
-    }
-
-    .visitor-analytics-head svg {
-      width: 13px;
-      height: 13px;
-      opacity: 0.7;
-    }
-
-    .visitor-analytics-head small {
-      color: var(--muted);
-      font-size: 0.54rem;
-      font-weight: 400;
-    }
-
-    .visitor-analytics-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      margin-top: 10px;
-    }
-
-    .visitor-analytics-metric {
-      display: flex;
-      align-items: baseline;
-      flex-wrap: wrap;
-      gap: 4px 8px;
-      padding: 0 10px 0 0;
-      min-width: 0;
-    }
-
-    .visitor-analytics-metric + .visitor-analytics-metric {
-      border-left: 1px solid #dce5ef;
-      padding: 0 0 0 16px;
-    }
-
-    .visitor-analytics-metric b {
+    .visitor-panel { margin-top: 18px; }
+    .visitor-map-link {
+      display: block;
       color: var(--navy);
-      font-size: 1.12rem;
-      font-weight: 700;
-      font-variant-numeric: tabular-nums;
-      letter-spacing: -0.025em;
-      line-height: 1.2;
-      overflow-wrap: anywhere;
+      text-decoration: none;
+      border-top: 1px solid var(--line);
+      padding-top: 14px;
     }
-
-    .visitor-analytics-metric small {
-      color: var(--muted);
-      font-size: 0.6rem;
-      font-weight: 500;
-      line-height: 1.4;
+    .visitor-map-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      font-size: 0.7rem;
+      font-weight: 650;
+      letter-spacing: 0.025em;
     }
-
-    .profile img.visitor-counter-tracker {
-      height: 1px;
-      left: 0;
+    .visitor-map-heading small { color: var(--muted); font-size: 0.57rem; font-weight: 500; }
+    .visitor-map-frame {
+      display: block;
+      overflow: hidden;
+      border-radius: 6px;
+      background: #f4f7fb;
+      border: 1px solid #e5ebf2;
+      padding: 5px;
+    }
+    .profile img.visitor-map {
+      display: block;
+      width: 100%;
+      height: auto;
       max-width: none;
       object-fit: contain;
-      opacity: 0;
-      pointer-events: none;
-      position: absolute;
-      top: 0;
-      width: 1px;
+      border: 0;
+      border-radius: 3px;
+      aspect-ratio: 400 / 205;
     }
+    .visitor-map-caption {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 0.55rem;
+      line-height: 1.6;
+      margin-top: 7px;
+    }
+    .visitor-map-link:hover .visitor-map-heading { color: #2575ad; }
+    .visitor-map-link:focus-visible { outline: 2px solid #2575ad; outline-offset: 5px; border-radius: 6px; }
 
     .stats {
       display: grid;
@@ -2133,10 +2084,6 @@
         height: 336px;
       }
 
-      .profile.has-public-analytics img {
-        height: 336px;
-      }
-
       .stats,
       .pillars,
       .bio-points {
@@ -2435,17 +2382,16 @@
               <span class="en">Address: Jingyuan Courtyard 6, Peking University, Beijing, China</span>
             </div>
             <div class="visitor-panel">
-              <img class="visitor-counter-tracker" src="https://s01.flagcounter.com/count2/z9BD/bg_FFFFFF/txt_FFFFFF/border_FFFFFF/columns_1/maxflags_1/viewers_3/labels_0/pageviews_0/flags_0/percent_0/" alt="" aria-hidden="true" width="1" height="1" decoding="async">
-              <div class="visitor-analytics" data-analytics-panel hidden>
-                <div class="visitor-analytics-head">
-                  <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><span class="zh">浏览量</span><span class="en">Pageviews</span></span>
-                  <small><span class="zh">更新于 </span><span class="en">Updated </span><time data-analytics-updated></time></small>
+              <a class="visitor-map-link" href="visitor-stats.html">
+                <div class="visitor-map-heading">
+                  <span><span class="zh">访客足迹</span><span class="en">Visitors around the world</span></span>
+                  <small><span class="zh">查看详情 ↗</span><span class="en">Explore ↗</span></small>
                 </div>
-                <div class="visitor-analytics-grid" aria-label="Public website pageviews">
-                  <div class="visitor-analytics-metric"><b data-analytics-value="today">--</b><small><span class="zh">今日</span><span class="en">Today</span></small></div>
-                  <div class="visitor-analytics-metric"><b data-analytics-value="month">--</b><small><span class="zh">本月</span><span class="en">Month</span></small></div>
-                </div>
-              </div>
+                <span class="visitor-map-frame">
+                  <img class="visitor-map" src="https://s01.flagcounter.com/map/z9BD/size_s/txt_45617C/border_FFFFFF/pageviews_1/viewers_3/flags_1/" alt="访客世界地图 / Visitor world map — click for country counts" width="400" height="205" decoding="async">
+                </span>
+                <span class="visitor-map-caption"><span><span class="zh">全球访问分布 · 累计浏览量</span><span class="en">Global reach · Total pageviews</span></span><span>Flag Counter</span></span>
+              </a>
             </div>
           </aside>
         </section>
@@ -3526,25 +3472,6 @@
   </div>
 
   <script type="application/json" id="public-analytics-snapshot">{"schemaVersion":1,"status":"ok","source":"flagcounter-history","host":"zwt233.github.io","timezone":"Asia/Shanghai","generatedAt":"2026-10-14T02:12:03.002Z","updatedLabel":"10-14 10:12","detailsUrl":"https://flagcounter.com/more30/z9BD","periods":{"today":{"label":"Today","pageviews":5,"visits":4,"date":"2026-10-14"},"month":{"label":"This month","pageviews":842,"visits":669,"days":14},"total":{"label":"Total","pageviews":12086,"visits":8854}},"message":"Pageviews are generated from FlagCounter History using the Flag Counter Views column."}</script>
-  <script>
-    // Paint the deployed snapshot without waiting for scripts or network requests.
-    (function () {
-      var data = JSON.parse(document.getElementById("public-analytics-snapshot").textContent);
-      var parts = new Intl.DateTimeFormat("en-CA", {timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit"}).formatToParts(new Date());
-      var date = {};
-      parts.forEach(function (part) { date[part.type] = part.value; });
-      if (data.status !== "ok" || data.periods.today.date !== [date.year, date.month, date.day].join("-")) return;
-      document.querySelectorAll("[data-analytics-value]").forEach(function (node) {
-        node.textContent = Number(data.periods[node.getAttribute("data-analytics-value")].pageviews).toLocaleString("en-US");
-      });
-      var updated = document.querySelector("[data-analytics-updated]");
-      updated.textContent = data.updatedLabel;
-      updated.dateTime = data.generatedAt;
-      updated.title = "Asia/Shanghai";
-      document.querySelector("[data-analytics-panel]").hidden = false;
-      document.querySelector("[data-profile-card]").classList.add("has-public-analytics");
-    })();
-  </script>
   <script src="assets/js/publication-correspondence.js?v=7c033cf7a243"></script>
   <script>
 
@@ -3676,28 +3603,6 @@
     var ecosystemDetailTitle = document.querySelector("[data-eco-detail-title]");
     var ecosystemDetailDesc = document.querySelector("[data-eco-detail-desc]");
     var ecosystemActiveItem = null;
-    var profileCard = document.querySelector("[data-profile-card]");
-    var analyticsPanel = document.querySelector("[data-analytics-panel]");
-    var analyticsValues = document.querySelectorAll("[data-analytics-value]");
-    var analyticsTimezone = "Asia/Shanghai";
-    var flagCounterHistoryUrl = "https://flagcounter.com/more30/z9BD";
-    var flagCounterReaderBase = "https://r.jina.ai/http://r.jina.ai/http://";
-    var liveAnalyticsRefreshTimer = null;
-    var monthNames = {
-      January: 1,
-      February: 2,
-      March: 3,
-      April: 4,
-      May: 5,
-      June: 6,
-      July: 7,
-      August: 8,
-      September: 9,
-      October: 10,
-      November: 11,
-      December: 12
-    };
-
     function syncAwardsHeights() {
       if (!awardsCard || !serviceCard) return;
       serviceCard.style.minHeight = "";
@@ -3723,9 +3628,6 @@
         renderPublicationExplorer();
       }
       renderEcosystemDetail();
-      if (window.publicAnalyticsData) {
-        renderPublicAnalytics(window.publicAnalyticsData);
-      }
       window.requestAnimationFrame(syncAwardsHeights);
     }
 
@@ -3740,278 +3642,6 @@
 
     function currentLang() {
       return body.classList.contains("lang-en") ? "en" : "zh";
-    }
-
-    function formatAnalyticsValue(value) {
-      var number = Number(value);
-      if (!Number.isFinite(number)) return "--";
-      if (number >= 1000000) return (number / 1000000).toFixed(number >= 10000000 ? 0 : 1).replace(/\.0$/, "") + "M";
-      if (number >= 10000) return Math.round(number / 1000) + "k";
-      return number.toLocaleString("en-US");
-    }
-
-    function datePartsInAnalyticsTimezone(date) {
-      var formatter = new Intl.DateTimeFormat("en-US", {
-        timeZone: analyticsTimezone,
-        year: "numeric",
-        month: "2-digit",
-        day: "2-digit",
-        hour: "2-digit",
-        minute: "2-digit",
-        hour12: false
-      });
-      var parts = {};
-      formatter.formatToParts(date).forEach(function (part) {
-        parts[part.type] = part.value;
-      });
-      return {
-        year: Number(parts.year),
-        month: Number(parts.month),
-        day: Number(parts.day),
-        hour: Number(parts.hour),
-        minute: Number(parts.minute)
-      };
-    }
-
-    function localAnalyticsDate(parts) {
-      return [
-        String(parts.year).padStart(4, "0"),
-        String(parts.month).padStart(2, "0"),
-        String(parts.day).padStart(2, "0")
-      ].join("-");
-    }
-
-    function formatAnalyticsUpdatedLabel(date) {
-      var parts = datePartsInAnalyticsTimezone(date);
-      return String(parts.month).padStart(2, "0") + "-"
-        + String(parts.day).padStart(2, "0") + " "
-        + String(parts.hour).padStart(2, "0") + ":"
-        + String(parts.minute).padStart(2, "0");
-    }
-
-    function analyticsMetric(label, pageviews, visits, extra) {
-      var metric = {
-        label: label,
-        pageviews: pageviews,
-        visits: visits
-      };
-      Object.keys(extra || {}).forEach(function (key) {
-        metric[key] = extra[key];
-      });
-      return metric;
-    }
-
-    function normalizeFlagCounterText(value) {
-      return String(value || "")
-        .replace(/!\[[^\]]*\]\([^)]+\)/g, " ")
-        .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
-        .replace(/<[^>]*>/g, " ")
-        .replace(/&nbsp;/g, " ")
-        .replace(/&raquo;/g, "»")
-        .replace(/&copy;/g, "©")
-        .replace(/&amp;/g, "&")
-        .replace(/&lt;/g, "<")
-        .replace(/&gt;/g, ">")
-        .replace(/&quot;/g, "\"")
-        .replace(/[*_#|]+/g, " ")
-        .replace(/\s+/g, " ")
-        .trim();
-    }
-
-    function parseFlagCounterHistory(value, now) {
-      var text = normalizeFlagCounterText(value);
-      var todayParts = datePartsInAnalyticsTimezone(now);
-      var todayDate = localAnalyticsDate(todayParts);
-      var rows = [];
-      var todayMatch = text.match(/\bToday\s+(\d+)\s+(\d+)/i);
-
-      if (todayMatch) {
-        rows.push({
-          label: "Today",
-          date: todayDate,
-          year: todayParts.year,
-          month: todayParts.month,
-          day: todayParts.day,
-          visits: Number(todayMatch[1]),
-          pageviews: Number(todayMatch[2])
-        });
-      }
-
-      text.replace(/\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),\s+(\d{4})\s+(\d+)\s+(\d+)/g, function (_, monthName, day, year, visits, pageviews) {
-        var month = monthNames[monthName];
-        if (!month) return "";
-        var parts = {
-          year: Number(year),
-          month: month,
-          day: Number(day)
-        };
-        rows.push({
-          label: monthName + " " + day + ", " + year,
-          date: localAnalyticsDate(parts),
-          year: parts.year,
-          month: parts.month,
-          day: parts.day,
-          visits: Number(visits),
-          pageviews: Number(pageviews)
-        });
-        return "";
-      });
-
-      var today = rows.find(function (row) {
-        return row.date === todayDate;
-      }) || rows[0];
-      var monthRows = rows.filter(function (row) {
-        return row.year === todayParts.year && row.month === todayParts.month;
-      });
-      var monthPageviews = monthRows.reduce(function (sum, row) {
-        return sum + row.pageviews;
-      }, 0);
-      var monthVisits = monthRows.reduce(function (sum, row) {
-        return sum + row.visits;
-      }, 0);
-      var totalMatch = text.match(/This counter has been viewed\s+([\d,]+)\s+times by\s+([\d,]+)\s+visitor/i);
-
-      if (!today || !Number.isFinite(today.pageviews) || monthRows.length === 0) {
-        throw new Error("FlagCounter history is not ready");
-      }
-
-      return {
-        schemaVersion: 1,
-        status: "ok",
-        source: "flagcounter-history-live",
-        host: "zwt233.github.io",
-        timezone: analyticsTimezone,
-        generatedAt: now.toISOString(),
-        updatedLabel: formatAnalyticsUpdatedLabel(now),
-        detailsUrl: flagCounterHistoryUrl,
-        live: true,
-        periods: {
-          today: analyticsMetric("Today", today.pageviews, today.visits, {
-            date: today.date
-          }),
-          month: analyticsMetric("This month", monthPageviews, monthVisits, {
-            days: monthRows.length
-          }),
-          total: analyticsMetric(
-            "Total",
-            totalMatch ? Number(totalMatch[1].replace(/,/g, "")) : null,
-            totalMatch ? Number(totalMatch[2].replace(/,/g, "")) : null
-          )
-        },
-        message: "Live pageviews are parsed from FlagCounter History through a CORS-enabled reader."
-      };
-    }
-
-    function renderPublicAnalytics(data) {
-      if (!analyticsPanel || !profileCard) return;
-      var isReady = data && data.status === "ok" && data.periods;
-      analyticsPanel.hidden = !isReady;
-      profileCard.classList.toggle("has-public-analytics", isReady);
-      if (!isReady) return;
-
-      analyticsValues.forEach(function (node) {
-        var key = node.getAttribute("data-analytics-value");
-        var period = data.periods[key] || {};
-        var pageviews = Number(period.pageviews);
-        var visits = period.visits == null ? null : Number(period.visits);
-        node.textContent = formatAnalyticsValue(pageviews);
-        node.parentElement.title = Number.isFinite(visits)
-          ? "Pageviews: " + formatAnalyticsValue(pageviews) + " · Visits: " + formatAnalyticsValue(visits)
-          : "Pageviews: " + formatAnalyticsValue(pageviews);
-      });
-
-    }
-
-    function fetchTextWithTimeout(url, timeout) {
-      var controller = new AbortController();
-      var timer = window.setTimeout(function () {
-        controller.abort();
-      }, timeout);
-      return fetch(url, {
-        cache: "no-store",
-        signal: controller.signal
-      }).then(function (response) {
-        window.clearTimeout(timer);
-        if (!response.ok) {
-          throw new Error("HTTP " + response.status);
-        }
-        return response.text();
-      }).catch(function (error) {
-        window.clearTimeout(timer);
-        throw error;
-      });
-    }
-
-    function loadLivePublicAnalytics() {
-      var liveUrl = flagCounterReaderBase + flagCounterHistoryUrl + "?live=" + Date.now();
-      return fetchTextWithTimeout(liveUrl, 20000).then(function (text) {
-        return parseFlagCounterHistory(text, new Date());
-      });
-    }
-
-    var analyticsStorageKey = "homepage-analytics-v1";
-    var liveAnalyticsRequest = null;
-
-    function acceptPublicAnalytics(data) {
-      // Never label yesterday's cached count as today's traffic.
-      var today = localAnalyticsDate(datePartsInAnalyticsTimezone(new Date()));
-      if (!data || data.status !== "ok" || !data.periods ||
-          !data.periods.today || !data.periods.month ||
-          data.periods.today.date !== today ||
-          !Number.isFinite(Date.parse(data.generatedAt)) ||
-          ![data.periods.today.pageviews, data.periods.month.pageviews].every(function (n) {
-            return typeof n === "number" && Number.isFinite(n) && n >= 0;
-          })) return false;
-      var previous = window.publicAnalyticsData;
-      if (previous && previous.periods.today.date === today &&
-          Date.parse(previous.generatedAt) > Date.parse(data.generatedAt)) return false;
-      window.publicAnalyticsData = data;
-      renderPublicAnalytics(data);
-      var updated = document.querySelector("[data-analytics-updated]");
-      if (updated) {
-        updated.dateTime = data.generatedAt;
-        updated.textContent = formatAnalyticsUpdatedLabel(new Date(data.generatedAt));
-        updated.title = "Asia/Shanghai";
-      }
-      try { localStorage.setItem(analyticsStorageKey, JSON.stringify(data)); } catch (_) {}
-      return true;
-    }
-
-    function loadCachedPublicAnalytics() {
-      return fetchTextWithTimeout("data/site-analytics.json", 5000)
-        .then(function (text) { acceptPublicAnalytics(JSON.parse(text)); })
-        .catch(function () { /* Keep any valid browser cache visible. */ });
-    }
-
-    function refreshLivePublicAnalytics() {
-      if (liveAnalyticsRequest) return liveAnalyticsRequest;
-      liveAnalyticsRequest = loadLivePublicAnalytics()
-        .then(acceptPublicAnalytics)
-        .catch(function () { /* The same-origin snapshot remains usable. */ })
-        .finally(function () { liveAnalyticsRequest = null; });
-      return liveAnalyticsRequest;
-    }
-
-    function loadPublicAnalytics() {
-      if (!analyticsPanel) return;
-      try { acceptPublicAnalytics(JSON.parse(localStorage.getItem(analyticsStorageKey))); } catch (_) {}
-      acceptPublicAnalytics(JSON.parse(document.getElementById("public-analytics-snapshot").textContent));
-      // Start the small same-origin snapshot immediately, independent of the reader.
-      loadCachedPublicAnalytics();
-      refreshLivePublicAnalytics();
-      if (!liveAnalyticsRefreshTimer) {
-        liveAnalyticsRefreshTimer = window.setInterval(function () {
-          if (document.hidden) return;
-          var current = window.publicAnalyticsData;
-          var today = localAnalyticsDate(datePartsInAnalyticsTimezone(new Date()));
-          if (current && current.periods.today.date !== today) {
-            window.publicAnalyticsData = null;
-            renderPublicAnalytics(null);
-          }
-          loadCachedPublicAnalytics();
-          refreshLivePublicAnalytics();
-        }, 60000);
-      }
     }
 
     function ecosystemValue(item, name) {
@@ -4507,7 +4137,6 @@
 
     var initialLang = new URLSearchParams(window.location.search).get("lang") || localStorage.getItem("homepage-preview-lang") || "zh";
     setLanguage(initialLang === "en" ? "en" : "zh");
-    loadPublicAnalytics();
     renderPublicationExplorer();
     window.addEventListener("resize", syncAwardsHeights);
     window.addEventListener("load", syncAwardsHeights);

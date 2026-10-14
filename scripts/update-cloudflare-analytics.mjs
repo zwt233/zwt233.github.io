@@ -34,7 +34,7 @@ function decodeHtml(value) {
 }
 
 function stripHtml(value) {
-  return decodeHtml(value.replace(/<[^>]*>/g, " ")).replace(/\s+/g, " ").trim();
+  return decodeHtml(value.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, " ").replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, " ").replace(/<[^>]*>/g, " ")).replace(/\s+/g, " ").trim();
 }
 
 function datePartsInTimezone(date) {
@@ -131,6 +131,7 @@ function parseTotals(html) {
 
 async function fetchFlagCounterHistory(now) {
   const response = await fetch(HISTORY_URL, {
+    signal: AbortSignal.timeout(20000),
     headers: {
       Accept: "text/html"
     }
@@ -140,6 +141,9 @@ async function fetchFlagCounterHistory(now) {
   }
 
   const html = await response.text();
+  if (/server too busy|try again in 5 minutes/i.test(stripHtml(html))) {
+    throw new Error("FlagCounter is temporarily busy; retaining the previous dated snapshot");
+  }
   const rows = parseHistoryRows(html, now);
   const todayParts = datePartsInTimezone(now);
   const todayDate = localDateIso(todayParts);
