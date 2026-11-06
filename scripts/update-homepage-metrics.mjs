@@ -48,7 +48,7 @@ export function renderMetrics(html, data) {
   validateMetrics(data);
   const total = data.github.repositories.reduce((sum, repo) => sum + repo.stars, 0);
   const values = {
-    citations: number(data.scholar.citations),
+    citations: `${number(data.scholar.citations)}${data.scholar.citationsLowerBound ? '+' : ''}`,
     citationsCompact: `${Math.floor(data.scholar.citations / 100) / 10}k+`,
     hIndex: data.scholar.hIndex,
     starsZh: `${Math.floor(total / 10000)}万+`,

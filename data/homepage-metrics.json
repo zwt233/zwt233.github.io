@@ -1,10 +1,12 @@
 {
   "scholar": {
-    "citations": 17123,
+    "citations": 18000,
     "hIndex": 56,
     "verifiedAt": "2026-09-20",
     "url": "https://scholar.google.com/citations?user=JE4VON0AAAAJ&hl=en",
-    "source": "Google Scholar profile screenshot provided by the homepage owner on 2026-09-20."
+    "source": "Citations exceed 18,000, as reported by the homepage owner on 2026-11-06. The h-index remains from the Google Scholar screenshot provided on 2026-09-20.",
+    "citationsLowerBound": true,
+    "citationsVerifiedAt": "2026-11-06"
   },
   "github": {
     "verifiedAt": "2026-09-07",

@@ -8,6 +8,8 @@ author_profile: true
 
 Honors and Awards
 ------
+27. National Young Talent（国家级青年人才）.
+26. Boya Young Scholar, Peking University（北京大学博雅青年学者）.
 25. [Special Prize of Guangdong Science and Technology Progress Award](https://www.sme-gov.cn/guangdong-news-173213.html)（广东省科技进步特等奖）, 2026.
 24. [Rising Star](https://mp.weixin.qq.com/s/Lecza9L8zgZYDPdKpkP2XA) (云帆奖-明日之星), World AI Conference, 2022.
 23. 🏆 [Best Student Paper Award](https://www2022.thewebconf.org/awards/) of ***WWW 2022*** (1/1822, the second WWW Best Student Paper from China), 2022
