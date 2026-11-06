@@ -6,8 +6,11 @@ author_profile: true
 ---
 **中文Bio:**
 
-张文涛，北京大学国际机器学习研究中心助理教授、研究员、博士生导师，国家级青年人才、北京大学博雅青年学者，谷歌学术引用超过1.8万次，研究兴趣为数据驱动的机器学习、图机器学习、机器学习系统和AI4Science。
-他近5年在机器学习（ICML, NeurIPS, ICLR）、数据挖掘（KDD, WWW）和数据库（SIGMOD, VLDB, ICDE）等领域发表论文40余篇，并获得多个最佳论文奖（如第一作者获WWW’22 Best Student Paper Award 和 通讯作者获APWeb-WAIM’23 Best Paper Runner Up Award）。他领导或参与开源了多个机器学习系统，如大规模图学习系统SGL、分布式机器学习系统Angel、和黑盒优化系统OpenBox。他曾获2021年度亚太地区唯一的Apple Scholar、2022世界人工智能大会云帆奖等多项荣誉。
+张文涛，北京大学国际机器学习研究中心助理教授、研究员、博士生导师，国家级青年人才、北京大学博雅青年学者，北大—腾讯大模型数据联合实验室主任、Data-Centric AI Group 负责人。博士毕业于北京大学并师从崔斌教授，曾任职于腾讯机器学习平台部、Apple AIML 和加拿大 Mila 人工智能实验室。主要研究方向为以数据为中心的人工智能（Data-Centric AI）、大模型数据基础设施（LLM Data Infra）、数据智能体（Data Agent）与 AI4Science，聚焦大模型时代的数据基础设施，探索可复用、可扩展、可验证的下一代 AI 基础设施。
+
+近五年以第一作者或通讯作者发表 CCF-A 类论文 100 余篇，谷歌学术引用 18,000+ 次，入选 Elsevier 世界前 2% 顶尖科学家，2026 年位列 CSRanking 北大 AI/ML 方向及 AI+Data 方向学者首位。现任 NeurIPS、AAAI、ACL、WWW、SIGKDD 等国际会议领域主席，主持国家自然科学基金、科技部、教育部、北京市科委及校企合作科研项目 20 余项。
+
+曾获广东省科技进步特等奖、中国电子学会科技进步一等奖、世界互联网大会领先科技成果奖，三次获得最佳论文奖：WWW 2022、APWeb 2023、CIKM 2024。入选智源学者、浦江青年学者、ACM SIGMOD China 新星奖、世界人工智能大会云帆奖等。课题组构建 DataFlow、MinerU、MinerU-HTML、DataFlex、AgentFlow、OpenWorldLib、One-Eval、Paper2Any 等开源系统，形成面向 Data-Centric AI 的系统化工具链和基础设施。本人及团队主导或参与的开源项目累计获 GitHub Stars 超 10 万。
 
 **邮箱**: wentao.zhang@pku.edu.cn
 
